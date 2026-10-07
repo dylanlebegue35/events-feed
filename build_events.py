@@ -147,14 +147,15 @@ Règles strictes :
 - Garde uniquement les événements qui ont lieu à partir d'aujourd'hui.
 - "start" et "end" au format AAAA-MM-JJ ou AAAA-MM-JJTHH:MM (heure locale). Si l'année manque, déduis-la du contexte (prochaine occurrence).
 - "image" : uniquement une URL d'image qui illustre CET événement sur la page (pas un logo ni une icône), sinon null.
-- "url" : le lien de la page de l'événement ou de sa billetterie, tel qu'il apparaît sur la page, sinon null.
+- "page_url" : le lien de la PAGE DE L'ÉVÉNEMENT sur le site de la source (pas un site de billetterie externe), tel qu'il apparaît sur la page, sinon null.
+- "ticket_url" : le lien de la billetterie / réservation s'il y en a un, sinon null.
 - "category" : une seule valeur parmi {cats}.
 - "summary" : une phrase en français, 200 caractères maximum, tirée de la page.
 - "price_from" : prix d'entrée minimum en euros (nombre) si indiqué, sinon null. "free" : true seulement si la page dit gratuit / entrée libre.
 - "venue" : nom du lieu si indiqué, sinon null.
 
 Réponds UNIQUEMENT avec un tableau JSON (aucun texte autour), de la forme :
-[{{"title":"","start":"","end":null,"venue":null,"city":"","category":"","image":null,"url":null,"summary":"","price_from":null,"free":null}}]
+[{{"title":"","start":"","end":null,"venue":null,"city":"","category":"","image":null,"page_url":null,"ticket_url":null,"summary":"","price_from":null,"free":null}}]
 Si la page ne contient aucun événement à venir, réponds [].
 
 PAGE :
@@ -243,7 +244,8 @@ def pages():
                     "category": r.get("category") if r.get("category") in CATEGORIES else s.get("category_hint", "culture"),
                     "venue": venue or city, "city": city, "lat": pos[0], "lon": pos[1],
                     "start": sd.isoformat(timespec="seconds"), "end": ed.isoformat(timespec="seconds"),
-                    "image": r.get("image"), "url": r.get("url") or s["url"],
+                    "image": r.get("image"), "page_url": r.get("page_url"),
+                    "url": r.get("ticket_url") or r.get("page_url") or r.get("url") or s["url"],
                     "summary": (r.get("summary") or "")[:300],
                     "price_from": r.get("price_from"), "free": r.get("free"),
                     "source": s["name"],
@@ -313,14 +315,15 @@ def best_image(page, base):
 def fill_images(events, limit=150):
     done = 0
     for e in events:
-        if e.get("image") or not e.get("url") or done >= limit:
+        link = e.get("page_url") or e.get("url")
+        if e.get("image") or not link or done >= limit:
             continue
         try:
-            page = fetch(e["url"], timeout=15)
+            page = fetch(link, timeout=15)
         except Exception:
             continue
         done += 1
-        img = best_image(page, e["url"])
+        img = best_image(page, link)
         if img:
             e["image"] = img
 

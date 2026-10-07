@@ -14,6 +14,11 @@ on:
 permissions:
   contents: write
 
+# une seule exécution à la fois (évite les collisions à l'enregistrement)
+concurrency:
+  group: events-feed
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
