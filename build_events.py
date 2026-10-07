@@ -260,24 +260,51 @@ def manual():
 
 
 # ============================================================ photos manquantes
-def fill_images(events, limit=40):
-    from page_text import fetch as _f
+BAD_IMG = re.compile(r"logo|favicon|icon|sprite|flag|avatar|placeholder|blank|pixel|spinner|loader|banner-cookie|\.svg|\.gif|qtranslate", re.I)
+
+
+def best_image(page, base):
+    """Photo la plus probable d'une page d'événement : og:image, sinon première vraie image du contenu."""
+    from urllib.parse import urljoin
+    for pat in (r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)',
+                r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']',
+                r'<meta[^>]+name=["\']twitter:image["\'][^>]+content=["\']([^"\']+)'):
+        m = re.search(pat, page, re.I)
+        if m:
+            img = urljoin(base, html.unescape(m.group(1)))
+            if not BAD_IMG.search(img):
+                return img
+    body = re.sub(r"<(script|style|nav|footer|header)\b.*?</\1>", " ", page, flags=re.S | re.I)
+    cands = re.findall(r'(?:src|data-src|data-lazy-src|content)=["\']([^"\']+\.(?:jpe?g|png|webp)(?:\?[^"\']*)?)["\']', body, re.I)
+    for srcset in re.findall(r'srcset=["\']([^"\']+)["\']', body, re.I):  # la plus grande version
+        parts = [p.strip().split(" ") for p in srcset.split(",") if p.strip()]
+        parts = [(p[0], int(p[1][:-1])) for p in parts if len(p) > 1 and p[1].endswith("w") and p[1][:-1].isdigit()]
+        if parts:
+            cands.insert(0, max(parts, key=lambda x: x[1])[0])
+    for c in cands:
+        img = urljoin(base, html.unescape(c))
+        if not BAD_IMG.search(img) and re.search(r"upload|image|media|photo|affiche|visuel|cache", img, re.I):
+            return img
+    # dernier recours : n'importe quelle image de la page (hors logos, miniatures et icônes),
+    # en préférant les fichiers « originaux » sans suffixe -300x200
+    anywhere = re.findall(r'https?://[^"\'\s)<>]+\.(?:jpe?g|png|webp)(?:\?[^"\'\s)<>]*)?', page, re.I)
+    anywhere = [u for u in dict.fromkeys(anywhere) if not BAD_IMG.search(u) and not re.search(r"-\d{2,3}x\d{2,3}\.", u)]
+    return anywhere[0] if anywhere else None
+
+
+def fill_images(events, limit=150):
     done = 0
     for e in events:
         if e.get("image") or not e.get("url") or done >= limit:
             continue
         try:
-            page = _f(e["url"], timeout=15)
+            page = fetch(e["url"], timeout=15)
         except Exception:
             continue
         done += 1
-        m = (re.search(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)', page, re.I)
-             or re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']', page, re.I))
-        if m:
-            from urllib.parse import urljoin
-            img = urljoin(e["url"], html.unescape(m.group(1)))
-            if not re.search(r"logo|favicon|icon", img, re.I):
-                e["image"] = img
+        img = best_image(page, e["url"])
+        if img:
+            e["image"] = img
 
 
 # ============================================================ assemblage
