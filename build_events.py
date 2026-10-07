@@ -157,12 +157,14 @@ Règles strictes :
 - "page_url" : le lien de la PAGE DE L'ÉVÉNEMENT sur le site de la source (pas un site de billetterie externe), tel qu'il apparaît sur la page, sinon null.
 - "ticket_url" : le lien de la billetterie / réservation s'il y en a un, sinon null.
 - "category" : une seule valeur parmi {cats}. Sens : {cat_help}.
+- "audience" : une seule valeur parmi student (soirée/événement pensé pour étudiants ou cercles étudiants), young (surtout 18-30 ans : clubs, concerts rock/électro/rap, festivals, afterworks), adult, family (enfants/parents), senior, all (tout public). Si rien n'indique le public, "all".
+- "tags" : jusqu'à 4 mots-clés courts en français parmi : soirée, afterwork, entre potes, en plein air, gratuit, étudiant, romantique, découverte, sportif, créatif, gourmand. Seulement s'ils sont justifiés par la page.
 - "summary" : une phrase en français, 200 caractères maximum, tirée de la page.
 - "price_from" : prix d'entrée minimum en euros (nombre) si indiqué, sinon null. "free" : true seulement si la page dit gratuit / entrée libre.
 - "venue" : nom du lieu si indiqué, sinon null.
 
 Réponds UNIQUEMENT avec un tableau JSON (aucun texte autour), de la forme :
-[{{"title":"","start":"","end":null,"venue":null,"city":"","category":"","image":null,"page_url":null,"ticket_url":null,"summary":"","price_from":null,"free":null}}]
+[{{"title":"","start":"","end":null,"venue":null,"city":"","category":"","image":null,"page_url":null,"ticket_url":null,"audience":"all","tags":[],"summary":"","price_from":null,"free":null}}]
 Si la page ne contient aucun événement à venir, réponds [].
 
 PAGE :
@@ -222,7 +224,7 @@ def pages():
             continue
         try:
             text = to_text(fetch(s["url"]), s["url"])
-            digest = hashlib.sha256((text + MODEL + s.get("category_hint", "")).encode()).hexdigest()
+            digest = hashlib.sha256((PROMPT + text + MODEL + s.get("category_hint", "")).encode()).hexdigest()
             hit = cache.get(s["url"])
             if hit and hit.get("hash") == digest and hit.get("day") == TODAY.isoformat()[:7]:
                 raw, answer = hit["raw"], ""      # page inchangée ce mois-ci : pas d'appel à l'IA
@@ -265,6 +267,8 @@ def pages():
                     "url": r.get("ticket_url") or r.get("page_url") or r.get("url") or s["url"],
                     "summary": (r.get("summary") or "")[:300],
                     "price_from": r.get("price_from"), "free": r.get("free"),
+                    "audience": [r["audience"]] if r.get("audience") not in (None, "", "all") else [],
+                    "tags": [t for t in (r.get("tags") or []) if isinstance(t, str)][:4],
                     "source": s["name"],
                 })
                 n += 1
