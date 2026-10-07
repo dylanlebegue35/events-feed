@@ -165,7 +165,7 @@ def call_claude(prompt):
     key = os.environ.get("ANTHROPIC_API_KEY")
     if not key:
         raise RuntimeError("ANTHROPIC_API_KEY absente")
-    body = {"model": MODEL, "max_tokens": 6000, "messages": [{"role": "user", "content": prompt}]}
+    body = {"model": MODEL, "max_tokens": 16000, "messages": [{"role": "user", "content": prompt}]}
     with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False) as f:
         json.dump(body, f)
         path = f.name
@@ -180,8 +180,26 @@ def call_claude(prompt):
 
 
 def parse_json_array(text):
-    m = re.search(r"\[.*\]", text, re.S)
-    return json.loads(m.group(0)) if m else []
+    """Lit un tableau JSON, même si la réponse de l'IA est coupée : on garde chaque objet complet."""
+    start = text.find("[")
+    if start < 0:
+        return []
+    try:
+        return json.loads(text[start:text.rindex("]") + 1])
+    except Exception:
+        pass
+    out, dec, i = [], json.JSONDecoder(), start + 1
+    while True:
+        m = re.compile(r"\s*,?\s*").match(text, i)
+        i = m.end()
+        if i >= len(text) or text[i] != "{":
+            break
+        try:
+            obj, i = dec.raw_decode(text, i)
+        except Exception:
+            break
+        out.append(obj)
+    return out
 
 
 def pages():
