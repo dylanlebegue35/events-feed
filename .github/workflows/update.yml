@@ -24,5 +24,5 @@ jobs:
         run: |
           git config user.name "events-bot"
           git config user.email "events-bot@users.noreply.github.com"
-          git add events.json geocache.json
+          git add events.json geocache.json rapport.json
           git diff --staged --quiet || (git commit -m "Mise à jour automatique des événements" && git push)

@@ -22,6 +22,7 @@ GEOCACHE = HERE / "geocache.json"
 MODEL = os.environ.get("EXTRACTION_MODEL", "claude-haiku-4-5-20251001")
 CATEGORIES = ["concert", "motorsport", "flea", "sport", "food", "culture", "party", "family", "wellness", "fair"]
 TODAY = date.today()
+REPORT = []   # une ligne par source : combien d'événements, ou quelle erreur
 
 
 def clean(s):
@@ -191,27 +192,32 @@ def pages():
             continue
         try:
             text = to_text(fetch(s["url"]), s["url"])
-            raw = parse_json_array(call_claude(PROMPT.format(
+            answer = call_claude(PROMPT.format(
                 today=TODAY.isoformat(), name=s["name"], url=s["url"], city=s.get("city", ""),
-                cats=", ".join(CATEGORIES), page=text)))
+                cats=", ".join(CATEGORIES), page=text))
+            raw = parse_json_array(answer)
         except Exception as ex:
             print(f"  ! {s['name']} : {ex}", file=sys.stderr)
+            REPORT.append({"source": s["name"], "ok": False, "erreur": str(ex)[:300]})
             continue
-        n = 0
+        n, skipped = 0, 0
         for r in raw:
             try:
                 title, start = (r.get("title") or "").strip(), r.get("start")
                 if not title or not start:
+                    skipped += 1
                     continue
                 sd = datetime.fromisoformat(start if "T" in start else start + "T10:00:00")
                 ed = datetime.fromisoformat(r["end"] if r.get("end") and "T" in r["end"]
                                             else (r["end"] + "T20:00:00" if r.get("end") else sd.isoformat()))
                 if ed.date() < TODAY:
+                    skipped += 1
                     continue
                 venue = r.get("venue") or s.get("venue")
                 city = r.get("city") or s.get("city") or ""
                 pos = geocode(venue, city)
                 if not pos:
+                    skipped += 1
                     continue
                 out.append({
                     "id": "web-" + re.sub(r"[^a-z0-9]+", "-", f"{s['name']}-{title}-{sd.date()}".lower())[:80],
@@ -228,6 +234,9 @@ def pages():
             except Exception as ex:
                 print(f"  ! événement ignoré ({r.get('title')}): {ex}", file=sys.stderr)
         print(f"  {s['name']}: {n} événements")
+        REPORT.append({"source": s["name"], "ok": True, "page_caracteres": len(text), "ia_a_trouve": len(raw),
+                       "gardes": n, "ecartes": skipped,
+                       "extrait_reponse_ia": answer[:200] if not raw else ""})
     return out
 
 
@@ -250,6 +259,27 @@ def manual():
     return out
 
 
+# ============================================================ photos manquantes
+def fill_images(events, limit=40):
+    from page_text import fetch as _f
+    done = 0
+    for e in events:
+        if e.get("image") or not e.get("url") or done >= limit:
+            continue
+        try:
+            page = _f(e["url"], timeout=15)
+        except Exception:
+            continue
+        done += 1
+        m = (re.search(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)', page, re.I)
+             or re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']', page, re.I))
+        if m:
+            from urllib.parse import urljoin
+            img = urljoin(e["url"], html.unescape(m.group(1)))
+            if not re.search(r"logo|favicon|icon", img, re.I):
+                e["image"] = img
+
+
 # ============================================================ assemblage
 def main():
     events = []
@@ -266,6 +296,11 @@ def main():
         if k not in seen:
             seen.add(k)
             uniq.append(e)
+    fill_images(uniq)
+    (HERE / "rapport.json").write_text(json.dumps(
+        {"genere": datetime.now().isoformat(timespec="seconds"), "sources": REPORT,
+         "avec_image": sum(1 for e in uniq if e.get("image")), "total": len(uniq)},
+        ensure_ascii=False, indent=2), encoding="utf-8")
     OUT.write_text(json.dumps({"generated": datetime.now().isoformat(timespec="seconds"), "events": uniq},
                               ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"écrit : {OUT.name}, {len(uniq)} événements")
