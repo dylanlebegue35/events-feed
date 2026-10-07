@@ -1,12 +1,12 @@
 {
-  "genere": "2026-10-07T20:44:28",
+  "genere": "2026-10-07T20:49:31",
   "sources": [
     {
       "source": "Reflektor (Liège)",
       "ok": true,
       "page_caracteres": 18425,
-      "ia_a_trouve": 50,
-      "gardes": 50,
+      "ia_a_trouve": 49,
+      "gardes": 49,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -38,6 +38,6 @@
       "extrait_reponse_ia": ""
     }
   ],
-  "avec_image": 26,
-  "total": 72
+  "avec_image": 71,
+  "total": 71
 }
