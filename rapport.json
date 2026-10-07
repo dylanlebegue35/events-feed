@@ -1,0 +1,43 @@
+{
+  "genere": "2026-10-07T20:32:09",
+  "sources": [
+    {
+      "source": "Reflektor (Liège)",
+      "ok": true,
+      "page_caracteres": 18425,
+      "ia_a_trouve": 43,
+      "gardes": 43,
+      "ecartes": 0,
+      "extrait_reponse_ia": ""
+    },
+    {
+      "source": "Les Ardentes (Liège)",
+      "ok": true,
+      "page_caracteres": 13010,
+      "ia_a_trouve": 0,
+      "gardes": 0,
+      "ecartes": 0,
+      "extrait_reponse_ia": "[]"
+    },
+    {
+      "source": "Tourisme Spa",
+      "ok": true,
+      "page_caracteres": 5130,
+      "ia_a_trouve": 0,
+      "gardes": 0,
+      "ecartes": 0,
+      "extrait_reponse_ia": "```json\n[]\n```"
+    },
+    {
+      "source": "VisitHuy",
+      "ok": true,
+      "page_caracteres": 6007,
+      "ia_a_trouve": 9,
+      "gardes": 9,
+      "ecartes": 0,
+      "extrait_reponse_ia": ""
+    }
+  ],
+  "avec_image": 13,
+  "total": 65
+}
