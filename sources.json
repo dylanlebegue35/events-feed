@@ -1,10 +1,121 @@
 {
   "_aide": "Pour brancher un nouveau site : ajouter un bloc ci-dessous. L'IA lit la page et en extrait les événements. enabled=false pour le désactiver. Chaque modification de ce fichier relance le robot tout seul.",
   "pages": [
-    {"name": "Reflektor (Liège)", "url": "https://www.reflektor.be", "city": "Liège", "venue": "Reflektor", "category_hint": "concert", "enabled": true},
-    {"name": "Les Ardentes (Liège)", "url": "https://www.lesardentes.be", "city": "Liège", "venue": "Parc d'Ans", "category_hint": "concert", "enabled": true},
-    {"name": "Tourisme Spa", "url": "https://www.visitspa.be", "city": "Spa", "enabled": true},
-    {"name": "VisitHuy", "url": "https://www.visithuy.be", "city": "Huy", "enabled": true},
-    {"name": "Ville de Liège – agenda", "url": "https://www.liege.be/fr/agenda", "city": "Liège", "enabled": false, "_note": "Page chargée par JavaScript : nécessite un navigateur invisible (étape suivante)."}
+    {
+      "name": "Reflektor (Liège)",
+      "url": "https://www.reflektor.be",
+      "city": "Liège",
+      "venue": "Reflektor",
+      "category_hint": "concert",
+      "enabled": true
+    },
+    {
+      "name": "Les Ardentes (Liège)",
+      "url": "https://www.lesardentes.be",
+      "city": "Liège",
+      "venue": "Parc d'Ans",
+      "category_hint": "concert",
+      "enabled": true
+    },
+    {
+      "name": "Tourisme Spa",
+      "url": "https://www.visitspa.be",
+      "city": "Spa",
+      "enabled": true
+    },
+    {
+      "name": "VisitHuy",
+      "url": "https://www.visithuy.be",
+      "city": "Huy",
+      "enabled": true
+    },
+    {
+      "name": "Ville de Liège – agenda",
+      "url": "https://www.liege.be/fr/agenda",
+      "city": "Liège",
+      "enabled": false,
+      "_note": "Page chargée par JavaScript : nécessite un navigateur invisible (étape suivante)."
+    },
+    {
+      "name": "Les Grignoux – cinéma (Liège)",
+      "url": "https://www.grignoux.be",
+      "city": "Liège",
+      "category_hint": "cinema",
+      "enabled": true
+    },
+    {
+      "name": "Le Forum (Liège)",
+      "url": "https://www.leforum.be",
+      "city": "Liège",
+      "venue": "Le Forum",
+      "category_hint": "concert",
+      "enabled": true
+    },
+    {
+      "name": "Standard de Liège",
+      "url": "https://www.standard.be",
+      "city": "Seraing",
+      "venue": "Stade Maurice Dufrasne",
+      "category_hint": "sport",
+      "enabled": true
+    },
+    {
+      "name": "Province de Liège",
+      "url": "https://www.provincedeliege.be",
+      "city": "Liège",
+      "category_hint": "culture",
+      "enabled": true
+    },
+    {
+      "name": "Stavelot",
+      "url": "https://www.stavelot.be",
+      "city": "Stavelot",
+      "category_hint": "culture",
+      "enabled": true
+    },
+    {
+      "name": "Pays de Herve",
+      "url": "https://www.paysdeherve.be",
+      "city": "Herve",
+      "category_hint": "outdoor",
+      "enabled": true
+    },
+    {
+      "name": "Ville de Huy",
+      "url": "https://www.huy.be",
+      "city": "Huy",
+      "enabled": true
+    },
+    {
+      "name": "Grand Curtius (Liège)",
+      "url": "https://www.grandcurtius.be",
+      "city": "Liège",
+      "venue": "Grand Curtius",
+      "category_hint": "expo",
+      "enabled": true
+    },
+    {
+      "name": "Village de Noël (Liège)",
+      "url": "https://www.villagedenoel.be",
+      "city": "Liège",
+      "category_hint": "fair",
+      "enabled": true
+    },
+    {
+      "name": "Théâtre de Liège",
+      "url": "https://www.theatredeliege.be",
+      "city": "Liège",
+      "venue": "Théâtre de Liège",
+      "category_hint": "theatre",
+      "enabled": true
+    },
+    {
+      "name": "Opéra Royal de Wallonie",
+      "url": "https://www.operaliege.be",
+      "city": "Liège",
+      "venue": "Opéra Royal de Wallonie",
+      "category_hint": "theatre",
+      "enabled": true
+    }
   ]
 }

@@ -9,7 +9,7 @@ Sources :
 Variables d'environnement : ANTHROPIC_API_KEY (pour l'étape 2, sinon ignorée).
 Usage : python3 build_events.py
 """
-import html, json, os, re, subprocess, sys, tempfile, time
+import hashlib, html, json, os, re, subprocess, sys, tempfile, time
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from urllib.parse import quote
@@ -20,7 +20,14 @@ HERE = Path(__file__).resolve().parent
 OUT = HERE / "events.json"
 GEOCACHE = HERE / "geocache.json"
 MODEL = os.environ.get("EXTRACTION_MODEL", "claude-haiku-4-5-20251001")
-CATEGORIES = ["concert", "motorsport", "flea", "sport", "food", "culture", "party", "family", "wellness", "fair"]
+CATEGORIES = ["concert", "festival", "party", "theatre", "expo", "cinema", "culture", "sport", "motorsport",
+              "outdoor", "food", "flea", "fair", "family", "wellness", "workshop", "talks", "geek"]
+CATEGORY_HELP = ("concert=concerts · festival=festivals de musique ou d'arts · party=soirées, clubs, bals · "
+                 "theatre=théâtre, humour, danse, cirque, opéra · expo=expositions, musées · cinema=films · "
+                 "culture=patrimoine, visites, conférences culturelles · sport=sport, courses, matchs · "
+                 "motorsport=sport auto/moto · outdoor=nature, balades, randonnées · food=gastronomie, marchés alimentaires · "
+                 "flea=brocantes, vide-greniers · fair=foires, fêtes foraines, marchés de Noël · family=activités enfants/famille · "
+                 "wellness=yoga, bien-être · workshop=ateliers, stages · talks=conférences, rencontres, salons · geek=jeux, gaming, BD")
 TODAY = date.today()
 REPORT = []   # une ligne par source : combien d'événements, ou quelle erreur
 
@@ -149,7 +156,7 @@ Règles strictes :
 - "image" : uniquement une URL d'image qui illustre CET événement sur la page (pas un logo ni une icône), sinon null.
 - "page_url" : le lien de la PAGE DE L'ÉVÉNEMENT sur le site de la source (pas un site de billetterie externe), tel qu'il apparaît sur la page, sinon null.
 - "ticket_url" : le lien de la billetterie / réservation s'il y en a un, sinon null.
-- "category" : une seule valeur parmi {cats}.
+- "category" : une seule valeur parmi {cats}. Sens : {cat_help}.
 - "summary" : une phrase en français, 200 caractères maximum, tirée de la page.
 - "price_from" : prix d'entrée minimum en euros (nombre) si indiqué, sinon null. "free" : true seulement si la page dit gratuit / entrée libre.
 - "venue" : nom du lieu si indiqué, sinon null.
@@ -203,18 +210,28 @@ def parse_json_array(text):
     return out
 
 
+PAGE_CACHE_FILE = HERE / "pages_cache.json"
+
+
 def pages():
     cfg = json.loads((HERE / "sources.json").read_text())["pages"]
+    cache = json.loads(PAGE_CACHE_FILE.read_text()) if PAGE_CACHE_FILE.exists() else {}
     out = []
     for s in cfg:
         if not s.get("enabled", True):
             continue
         try:
             text = to_text(fetch(s["url"]), s["url"])
-            answer = call_claude(PROMPT.format(
-                today=TODAY.isoformat(), name=s["name"], url=s["url"], city=s.get("city", ""),
-                cats=", ".join(CATEGORIES), page=text))
-            raw = parse_json_array(answer)
+            digest = hashlib.sha256((text + MODEL + s.get("category_hint", "")).encode()).hexdigest()
+            hit = cache.get(s["url"])
+            if hit and hit.get("hash") == digest and hit.get("day") == TODAY.isoformat()[:7]:
+                raw, answer = hit["raw"], ""      # page inchangée ce mois-ci : pas d'appel à l'IA
+            else:
+                answer = call_claude(PROMPT.format(
+                    today=TODAY.isoformat(), name=s["name"], url=s["url"], city=s.get("city", ""),
+                    cats=", ".join(CATEGORIES), cat_help=CATEGORY_HELP, page=text))
+                raw = parse_json_array(answer)
+                cache[s["url"]] = {"hash": digest, "day": TODAY.isoformat()[:7], "raw": raw}
         except Exception as ex:
             print(f"  ! {s['name']} : {ex}", file=sys.stderr)
             REPORT.append({"source": s["name"], "ok": False, "erreur": str(ex)[:300]})
@@ -254,6 +271,7 @@ def pages():
             except Exception as ex:
                 print(f"  ! événement ignoré ({r.get('title')}): {ex}", file=sys.stderr)
         print(f"  {s['name']}: {n} événements")
+        PAGE_CACHE_FILE.write_text(json.dumps(cache, ensure_ascii=False))
         REPORT.append({"source": s["name"], "ok": True, "page_caracteres": len(text), "ia_a_trouve": len(raw),
                        "gardes": n, "ecartes": skipped,
                        "extrait_reponse_ia": answer[:200] if not raw else ""})
