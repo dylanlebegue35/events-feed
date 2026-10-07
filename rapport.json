@@ -1,5 +1,5 @@
 {
-  "genere": "2026-10-07T20:49:31",
+  "genere": "2026-10-07T21:15:34",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -32,12 +32,111 @@
       "source": "VisitHuy",
       "ok": true,
       "page_caracteres": 6007,
-      "ia_a_trouve": 9,
-      "gardes": 9,
+      "ia_a_trouve": 8,
+      "gardes": 8,
+      "ecartes": 0,
+      "extrait_reponse_ia": ""
+    },
+    {
+      "source": "Les Grignoux – cinéma (Liège)",
+      "ok": true,
+      "page_caracteres": 55999,
+      "ia_a_trouve": 67,
+      "gardes": 67,
+      "ecartes": 0,
+      "extrait_reponse_ia": ""
+    },
+    {
+      "source": "Le Forum (Liège)",
+      "ok": true,
+      "page_caracteres": 47644,
+      "ia_a_trouve": 85,
+      "gardes": 85,
+      "ecartes": 0,
+      "extrait_reponse_ia": ""
+    },
+    {
+      "source": "Standard de Liège",
+      "ok": true,
+      "page_caracteres": 7692,
+      "ia_a_trouve": 3,
+      "gardes": 3,
+      "ecartes": 0,
+      "extrait_reponse_ia": ""
+    },
+    {
+      "source": "Province de Liège",
+      "ok": true,
+      "page_caracteres": 16338,
+      "ia_a_trouve": 4,
+      "gardes": 4,
+      "ecartes": 0,
+      "extrait_reponse_ia": ""
+    },
+    {
+      "source": "Stavelot",
+      "ok": true,
+      "page_caracteres": 36141,
+      "ia_a_trouve": 0,
+      "gardes": 0,
+      "ecartes": 0,
+      "extrait_reponse_ia": "```json\n[]\n```"
+    },
+    {
+      "source": "Pays de Herve",
+      "ok": true,
+      "page_caracteres": 12476,
+      "ia_a_trouve": 1,
+      "gardes": 1,
+      "ecartes": 0,
+      "extrait_reponse_ia": ""
+    },
+    {
+      "source": "Ville de Huy",
+      "ok": true,
+      "page_caracteres": 5075,
+      "ia_a_trouve": 2,
+      "gardes": 2,
+      "ecartes": 0,
+      "extrait_reponse_ia": ""
+    },
+    {
+      "source": "Grand Curtius (Liège)",
+      "ok": true,
+      "page_caracteres": 10305,
+      "ia_a_trouve": 8,
+      "gardes": 8,
+      "ecartes": 0,
+      "extrait_reponse_ia": ""
+    },
+    {
+      "source": "Village de Noël (Liège)",
+      "ok": true,
+      "page_caracteres": 11836,
+      "ia_a_trouve": 2,
+      "gardes": 2,
+      "ecartes": 0,
+      "extrait_reponse_ia": ""
+    },
+    {
+      "source": "Théâtre de Liège",
+      "ok": true,
+      "page_caracteres": 6385,
+      "ia_a_trouve": 2,
+      "gardes": 2,
+      "ecartes": 0,
+      "extrait_reponse_ia": ""
+    },
+    {
+      "source": "Opéra Royal de Wallonie",
+      "ok": true,
+      "page_caracteres": 19025,
+      "ia_a_trouve": 6,
+      "gardes": 6,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     }
   ],
-  "avec_image": 71,
-  "total": 71
+  "avec_image": 245,
+  "total": 245
 }

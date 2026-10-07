@@ -22,5 +22,77 @@
  "centre culturel|huy": [
   50.5228929,
   5.2417522
+ ],
+ "caméo|namur": [
+  50.4667124,
+  4.8637516
+ ],
+ "sauvenière|liège": [
+  50.6705659,
+  5.790473
+ ],
+ "churchill|liège": [
+  50.641265,
+  5.5699268
+ ],
+ "none|liège": [
+  50.6450944,
+  5.5736112
+ ],
+ "le parc|liège": [
+  50.6461677,
+  5.6027714
+ ],
+ "le forum|liège": [
+  50.6715318,
+  5.0765706
+ ],
+ "stade de sclessin|seraing": [
+  50.6152381,
+  5.5089437
+ ],
+ "cité miroir|liège": [
+  50.6435461,
+  5.5679655
+ ],
+ "liège expo|liège": [
+  50.6457241,
+  5.6093916
+ ],
+ "musée de la vie wallonne|liège": [
+  50.6470126,
+  5.5762205
+ ],
+ "none|visé": [
+  50.7347797,
+  5.6936397
+ ],
+ "grand curtius|liège": [
+  50.6471353,
+  5.5835333
+ ],
+ "place du marché - place st lambert|liège": [
+  50.6450944,
+  5.5736112
+ ],
+ "place de la cathédrale|liège": [
+  50.6406903,
+  5.5715938
+ ],
+ "salle de la grande main|liège": [
+  50.6450944,
+  5.5736112
+ ],
+ "salle de l'œil vert|liège": [
+  50.6450944,
+  5.5736112
+ ],
+ "opéra royal de wallonie|liège": [
+  50.6432887,
+  5.5702932
+ ],
+ "grande salle de l'opéra|liège": [
+  50.6450944,
+  5.5736112
  ]
 }
