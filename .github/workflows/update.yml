@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: "0 4 * * *"   # tous les jours à 4 h UTC (5 h ou 6 h en Belgique)
   workflow_dispatch:        # bouton « Run workflow » pour le lancer à la main
+  push:                     # se relance tout seul quand le code du robot change
+    paths:
+      - "build_events.py"
+      - "page_text.py"
+      - "sources.json"
+      - "manual_events.json"
 
 permissions:
   contents: write
