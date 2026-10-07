@@ -426,13 +426,20 @@ def main():
         if k not in seen:
             seen.add(k)
             uniq.append(e)
-    fill_images(uniq)
+    try:
+        old = {e["id"]: e.get("image") for e in json.loads(OUT.read_text())["events"] if e.get("image")}
+        for e in uniq:
+            if not e.get("image") and old.get(e["id"]):
+                e["image"] = old[e["id"]]
+    except Exception:
+        pass
+    fill_images(uniq, limit=80)
     try:
         lieux = places()
-        for p in lieux[:150]:           # photo du site officiel quand il y en a un
+        for p in [x for x in lieux if x.get("website")][:25]:   # photo du site officiel quand il y en a un
             if p.get("website"):
                 try:
-                    p["image"] = best_image(fetch(p["website"], timeout=12), p["website"])
+                    p["image"] = best_image(fetch(p["website"], timeout=8), p["website"])
                 except Exception:
                     pass
         (HERE / "places.json").write_text(json.dumps({"generated": datetime.now().isoformat(timespec="seconds"),
