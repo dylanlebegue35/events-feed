@@ -1,6 +1,26 @@
 {
-  "generated": "2026-10-07T21:15:34",
+  "generated": "2026-10-07T21:52:55",
   "events": [
+    {
+      "id": "web-visithuy-l-invention-cach-e-2026-05-25",
+      "title": "L'invention cachée",
+      "category": "expo",
+      "venue": "Huy",
+      "city": "Huy",
+      "lat": 50.5180856,
+      "lon": 5.2408138,
+      "start": "2026-05-25T10:00:00",
+      "end": "2026-12-31T20:00:00",
+      "image": "https://www.visithuy.be/uploads/images/image_c0X5qIoD8D.png",
+      "page_url": "https://www.visithuy.be/evenements/evenements",
+      "url": "https://www.visithuy.be/evenements/evenements",
+      "summary": "",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "VisitHuy"
+    },
     {
       "id": "web-province-de-li-ge-exposition-gustave-marissiaux-la-mine-en-lumi-re-2026-06-05",
       "title": "Exposition - Gustave Marissiaux. La mine en lumière",
@@ -14,9 +34,13 @@
       "image": "https://www.provincedeliege.be/sites/default/files/styles/plg_medias_h_600/public/media/19898/Affiche_Marissiaux_web.jpg?itok=W2c-ZKQ-",
       "page_url": "https://www.provincedeliege.be/fr/evenement/17/19898",
       "url": "https://www.provincedeliege.be/fr/evenement/17/19898",
-      "summary": "Plongée au cœur des charbonnages liégeois.",
+      "summary": "Plongée au cœur des charbonnages liégeois à travers les photographies de Gustave Marissiaux.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [
+        "découverte"
+      ],
       "source": "Province de Liège"
     },
     {
@@ -35,6 +59,8 @@
       "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "VisitHuy"
     },
     {
@@ -50,9 +76,11 @@
       "image": "https://agenda.enwallonie.be/huy/homepage/21ccaaa298e64ce4957aa643c3782a70/@@images/image-430-0231e046cd0fd3e921c33182cbed7f43.jpeg",
       "page_url": "https://www.huy.be/agenda/ne-pas-croire-que-le-fond-exposition-de-muriel?u=21ccaaa298e64ce4957aa643c3782a70",
       "url": "https://www.huy.be/agenda/ne-pas-croire-que-le-fond-exposition-de-muriel?u=21ccaaa298e64ce4957aa643c3782a70",
-      "summary": "Exposition de Muriel Peers et Aurélie Gravelat",
+      "summary": "Exposition de Muriel Peers et Aurélie Gravelat.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Ville de Huy"
     },
     {
@@ -71,7 +99,29 @@
       "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "VisitHuy"
+    },
+    {
+      "id": "web-th-tre-de-li-ge-lumi-res-du-jour-mais-quelle-heure-2026-09-22",
+      "title": "Lumières du jour ! … mais à quelle heure?",
+      "category": "expo",
+      "venue": "Salle des pieds légers",
+      "city": "Liège",
+      "lat": 50.6450944,
+      "lon": 5.5736112,
+      "start": "2026-09-22T10:00:00",
+      "end": "2026-10-24T20:00:00",
+      "image": "https://theatredeliege.be/wp-content/uploads/2026/05/Lumieres-H-379x190.jpg",
+      "page_url": "https://theatredeliege.be/evenement/lumieres-du-jour-mais-a-quelle-heure/",
+      "url": "https://theatredeliege.be/evenement/lumieres-du-jour-mais-a-quelle-heure/",
+      "summary": "Pour célébrer ses 12 ans, la Quai4 galerie présente un dialogue entre les œuvres d'une sélection d'artistes qui ont fait l'histoire de la galerie.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Théâtre de Liège"
     },
     {
       "id": "web-visithuy-foire-1-2026-10-02",
@@ -89,11 +139,13 @@
       "summary": "La Foire à 1 €uro débarque à Huy !",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "VisitHuy"
     },
     {
-      "id": "web-province-de-li-ge-pan-art-l-expo-de-toutes-les-diff-rences-2026-10-02",
-      "title": "Pan'Art, l'expo de toutes les différences",
+      "id": "web-province-de-li-ge-pan-art-2026-10-02",
+      "title": "Pan'Art",
       "category": "expo",
       "venue": "Cité Miroir",
       "city": "Liège",
@@ -104,9 +156,13 @@
       "image": "https://www.provincedeliege.be/sites/default/files/styles/plg_medias_h_600/public/media/19951/A5%20150dpi%20%28new%29.jpg?itok=AaUwWFo7",
       "page_url": "https://www.provincedeliege.be/fr/evenement/223/19951",
       "url": "https://www.provincedeliege.be/fr/evenement/223/19951",
-      "summary": "Unique en son genre, elle rassemble près de 700 œuvres à la Cité Miroir du 2 au 7 octobre 2026.",
+      "summary": "Exposition de toutes les différences rassemblant près de 700 œuvres à la Cité Miroir.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [
+        "découverte"
+      ],
       "source": "Province de Liège"
     },
     {
@@ -125,6 +181,8 @@
       "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "VisitHuy"
     },
     {
@@ -146,9 +204,29 @@
       "source": "manuel"
     },
     {
+      "id": "web-province-de-li-ge-plan-de-5-jours-octobre-2026-2026-10-05",
+      "title": "Plan de 5 jours - Octobre 2026",
+      "category": "wellness",
+      "venue": "Hôpital de la Citadelle",
+      "city": "Liège",
+      "lat": 50.6520372,
+      "lon": 5.5781663,
+      "start": "2026-10-05T10:00:00",
+      "end": "2026-10-09T20:00:00",
+      "image": "https://www.provincedeliege.be/sites/default/files/styles/plg_medias_h_600/public/media/20017/afficheA3%2010%202026_page-0001.jpg?itok=Oj0JKcN0",
+      "page_url": "https://www.provincedeliege.be/fr/evenement/223/20017",
+      "url": "https://www.provincedeliege.be/fr/evenement/223/20017",
+      "summary": "Programme de 5 jours pour arrêter de fumer.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Province de Liège"
+    },
+    {
       "id": "web-visithuy-chasses-et-battues-2026-10-07",
       "title": "Chasses et battues",
-      "category": "outdoor",
+      "category": "sport",
       "venue": "Huy",
       "city": "Huy",
       "lat": 50.5180856,
@@ -161,12 +239,14 @@
       "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "VisitHuy"
     },
     {
       "id": "web-les-grignoux-cin-ma-li-ge-maroc-version-vanlife-2026-10-07",
       "title": "Maroc, version vanlife",
-      "category": "cinema",
+      "category": "culture",
       "venue": "Caméo",
       "city": "Namur",
       "lat": 50.4667124,
@@ -176,45 +256,51 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3112/explo_maroc_og.jpg",
       "page_url": "https://www.grignoux.be//fr/evenement/3112/maroc-version-vanlife",
       "url": "https://www.grignoux.be//fr/evenement/3112/maroc-version-vanlife",
-      "summary": "Explo : Maroc, version vanlife",
+      "summary": "Exploration documentaire du Maroc en mode vanlife.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
       "id": "web-les-grignoux-cin-ma-li-ge-the-social-reckoning-2026-10-07",
       "title": "The Social Reckoning",
       "category": "cinema",
-      "venue": "Sauvenière",
+      "venue": "Liège",
       "city": "Liège",
-      "lat": 50.6705659,
-      "lon": 5.790473,
+      "lat": 50.6450944,
+      "lon": 5.5736112,
       "start": "2026-10-07T10:00:00",
       "end": "2026-10-07T10:00:00",
       "image": "https://www.grignoux.be//upload/grignoux/films/3255/the_social_reckoning_affiche.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3099/the-social-reckoning",
       "url": "https://www.grignoux.be//fr/evenement/3099/the-social-reckoning",
-      "summary": "Présentation du film The Social Reckoning réalisé par Aaron Sorkin",
+      "summary": "Présentation du film d'Aaron Sorkin sur Mark Zuckerberg et son empire.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
       "id": "web-les-grignoux-cin-ma-li-ge-si-tu-penses-bien-complet-2026-10-07",
       "title": "Si tu penses bien - COMPLET",
       "category": "cinema",
-      "venue": "Sauvenière",
+      "venue": "Liège",
       "city": "Liège",
-      "lat": 50.6705659,
-      "lon": 5.790473,
+      "lat": 50.6450944,
+      "lon": 5.5736112,
       "start": "2026-10-07T10:00:00",
       "end": "2026-10-07T10:00:00",
       "image": "https://www.grignoux.be//upload/grignoux/films/3247/si_tu_penses_bien_affiche.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3095/si-tu-penses-bien-complet",
       "url": "https://www.grignoux.be//fr/evenement/3095/si-tu-penses-bien-complet",
-      "summary": "Première du film Si tu penses bien de Géraldine Nakache",
+      "summary": "Première du film de Géraldine Nakache sur l'emprise amoureuse.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -230,9 +316,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/films/3250/souviens_toi_l_ete_dernier_affiche.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3106/souviens-toi-lete-dernier",
       "url": "https://www.grignoux.be//fr/evenement/3106/souviens-toi-lete-dernier",
-      "summary": "Projection unique du film Souviens toi... l'été dernier",
+      "summary": "Projection unique du classique d'horreur de 1997.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -251,6 +339,8 @@
       "summary": "Inspirée par des faits réels, la célèbre metteuse en scène Anne-Cécile Vandalem interroge avec La Fête les mécanismes de protection.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Théâtre de Liège"
     },
     {
@@ -269,6 +359,8 @@
       "summary": "Exploration du Monde",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "VisitHuy"
     },
     {
@@ -284,9 +376,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3101/the_substance_og.jpg",
       "page_url": "https://www.grignoux.be//fr/evenement/3101/the-substance",
       "url": "https://www.grignoux.be//fr/evenement/3101/the-substance",
-      "summary": "Projection unique du film The Substance",
+      "summary": "Projection unique d'un film de science-fiction.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -302,9 +396,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3102/the_plague_og.jpg",
       "page_url": "https://www.grignoux.be//fr/evenement/3102/the-plague",
       "url": "https://www.grignoux.be//fr/evenement/3102/the-plague",
-      "summary": "Rencontre autour du film The Plague",
+      "summary": "Rencontre autour du film The Plague.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -319,10 +415,12 @@
       "end": "2026-10-09T10:00:00",
       "image": "https://reflektor.be/wp-content/uploads/2026/04/pic-1-scaled-1.jpg",
       "page_url": "https://reflektor.be/concert/puppetmastaz-10-26/",
-      "url": "https://shop.paylogic.com/c5b84ec135154051bb36e2812492d5f5/",
-      "summary": "Puppetmastaz en concert au Reflektor.",
+      "url": "https://shop.paylogic.com/dcf33fa974fc4d988722db4edffcf26c",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -341,12 +439,16 @@
       "summary": "𝗡𝗢𝗠𝗔𝗗 — Une journée pour souffler, parler et se retrouver.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "young"
+      ],
+      "tags": [],
       "source": "VisitHuy"
     },
     {
       "id": "web-visithuy-akutuk-origins-2026-10-09",
       "title": "Akutuk Origins",
-      "category": "culture",
+      "category": "concert",
       "venue": "Huy",
       "city": "Huy",
       "lat": 50.5180856,
@@ -359,6 +461,8 @@
       "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "VisitHuy"
     },
     {
@@ -388,17 +492,19 @@
       "end": "2026-10-10T10:00:00",
       "image": "https://reflektor.be/wp-content/uploads/2026/08/@JamesBarbosa-1-scaled-e1786443199320.jpg",
       "page_url": "https://reflektor.be/concert/essyla/",
-      "url": "https://shop.paylogic.com/71214f4d405e48e69cd8c071315acb21",
-      "summary": "Concert ESSYLA + JIES au Reflektor.",
+      "url": "https://shop.paylogic.com/c5b84ec135154051bb36e2812492d5f5/",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
       "id": "web-les-grignoux-cin-ma-li-ge-maroc-version-vanlife-2026-10-10",
       "title": "Maroc, version vanlife",
-      "category": "cinema",
-      "venue": "le Parc",
+      "category": "culture",
+      "venue": "Le Parc",
       "city": "Liège",
       "lat": 50.6461677,
       "lon": 5.6027714,
@@ -407,9 +513,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3111/explo_maroc_og.jpg",
       "page_url": "https://www.grignoux.be//fr/evenement/3111/maroc-version-vanlife",
       "url": "https://www.grignoux.be//fr/evenement/3111/maroc-version-vanlife",
-      "summary": "Explo : Maroc, version vanlife",
+      "summary": "Exploration documentaire du Maroc en mode vanlife.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -425,9 +533,11 @@
       "image": "https://www.grandcurtius.be/sites/default/files/styles/teaser_wide/public/2026-07/Revolver%20Lefaucheux_Paul%20Verlaine_W_copyright%20Biblioth%C3%A8que%20royale%20de%20Belgique_0.jpg?itok=RECROGc5",
       "page_url": "https://www.grandcurtius.be/fr/actualites/agenda/conference-le-revolver-de-paul-verlaine-ou-laffaire-de-bruxelles-1873",
       "url": "https://www.grandcurtius.be/fr/actualites/agenda/conference-le-revolver-de-paul-verlaine-ou-laffaire-de-bruxelles-1873",
-      "summary": "Conférence sur la saga d'une expertise hors norme présentée par Paul Dubrunfaut, Conservateur honoraire au Musée royal de l'Armée de Bruxelles.",
+      "summary": "Conférence sur l'affaire historique du revolver de Paul Verlaine et son expertise, présentée par M. Paul Dubrunfaut le 10 octobre 2026.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Grand Curtius (Liège)"
     },
     {
@@ -443,14 +553,18 @@
       "image": "https://www.leforum.be/visuel/SlideFront/Utick-3-Amies-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202610101600.html",
       "url": "https://www.leforum.be/spectacle_202610101600.html",
-      "summary": "LE VOUS RIRE présente Les 3 Amies dans \"À l'état brut\".",
+      "summary": "LE VOUS RIRE présente Les 3 Amies - À l'état brut.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
       "id": "web-le-forum-li-ge-kevin-levy-cocu-2026-10-10",
-      "title": "KEVIN LEVY - \"COCU\"",
+      "title": "KEVIN LEVY - COCU",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -461,9 +575,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/kevin-levy-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202610102030.html",
       "url": "https://www.leforum.be/spectacle_202610102030.html",
-      "summary": "LE VOUS RIRE présente Kevin Levy dans son spectacle \"Cocu\".",
+      "summary": "LE VOUS RIRE présente Kevin Levy dans son spectacle Cocu.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -512,9 +630,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/gala-des-liegeois-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202610111700.html",
       "url": "https://www.leforum.be/spectacle_202610111700.html",
-      "summary": "LE VOUS RIRE présente le Gala des Liégeois.",
+      "summary": "LE VOUS RIRE présente Le Gala des Liégeois.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -530,9 +652,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3097/les_hommes_du_president_og.jpg",
       "page_url": "https://www.grignoux.be//fr/evenement/3097/les-hommes-du-president",
       "url": "https://www.grignoux.be//fr/evenement/3097/les-hommes-du-president",
-      "summary": "Classique : Les Hommes du président",
+      "summary": "Projection du classique de cinéma.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -548,9 +672,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3104/sound_of_falling_og.jpg",
       "page_url": "https://www.grignoux.be//fr/evenement/3104/sound-of-falling",
       "url": "https://www.grignoux.be//fr/evenement/3104/sound-of-falling",
-      "summary": "Projection unique du film Sound of Falling",
+      "summary": "Projection unique du film Sound of Falling.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -566,9 +692,11 @@
       "image": "https://www.provincedeliege.be/sites/default/files/media/20032/Conf%C3%A9rence%20Konrad%20Schreiber%20-%20banni%C3%A8re2000x400.jpg",
       "page_url": "https://www.provincedeliege.be/fr/evenement/172/20032",
       "url": "https://www.provincedeliege.be/fr/evenement/172/20032",
-      "summary": "Cette conférence abordera le rôle crucial que joue le fonctionnement biologique des sols dans le rendement et la pérennité d'une entreprise agricole.",
+      "summary": "Conférence sur le rôle du fonctionnement biologique des sols dans le rendement agricole.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Province de Liège"
     },
     {
@@ -587,6 +715,8 @@
       "summary": "Émilie Franco compose un spectacle à la croisée du théâtre, de la vidéo et de la musique live, nourri d'archives et de recherches de terrain.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Théâtre de Liège"
     },
     {
@@ -605,6 +735,10 @@
       "summary": "GRAND OPERA présente Ghassan Yammine chante Aznavour.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -620,9 +754,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/08/©Camille-leprince-Mathilde-12-1-scaled-e1785771162461.jpg",
       "page_url": "https://reflektor.be/concert/mathilde-fernandez/",
       "url": "https://shop.paylogic.com/7ec88677e0da400ba45bc5bf3cddc29c",
-      "summary": "Concert Mathilde Fernandez + Sarah Maison au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -638,9 +774,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3149/sneakpreview_vignette.jpg",
       "page_url": "https://www.grignoux.be//fr/evenement/3149/sneak-preview",
       "url": "https://www.grignoux.be//fr/evenement/3149/sneak-preview",
-      "summary": "Avant-première Sneak Preview",
+      "summary": "Avant-première surprise Sneak Preview.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -659,6 +797,10 @@
       "summary": "COMME DES GOSSES COMPANY présente Guihome vous détend.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -674,9 +816,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3156/grandir_og.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3156/grandir",
       "url": "https://www.grignoux.be//fr/evenement/3156/grandir",
-      "summary": "Projection unique du film Grandir",
+      "summary": "Projection unique du film Grandir.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -692,9 +836,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3138/ange_og.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3138/ange",
       "url": "https://www.grignoux.be//fr/evenement/3138/ange",
-      "summary": "Projection unique du film Ange",
+      "summary": "Projection unique du film Ange.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -710,15 +856,17 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3133/the_devils_og.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3133/the-devils-4k",
       "url": "https://www.grignoux.be//fr/evenement/3133/the-devils-4k",
-      "summary": "Classique : The Devils 4K",
+      "summary": "Projection du classique The Devils en 4K.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
       "id": "web-ville-de-huy-les-enfants-terribles-14e-festival-du-jeune-cin-ma-europ-en-2026-10",
       "title": "Les Enfants Terribles - 14e Festival du Jeune Cinéma européen",
-      "category": "festival",
+      "category": "cinema",
       "venue": "Huy",
       "city": "Huy",
       "lat": 50.5180856,
@@ -728,9 +876,11 @@
       "image": "https://agenda.enwallonie.be/huy/homepage/cd8eeaeaf2c2477b96d78df0fb8a82f2/@@images/image-430-83e7f11f90805a6e219436726f11a1ef.jpeg",
       "page_url": "https://www.huy.be/agenda/les-enfants-terribles-14e-festival-du-jeune-cinema?u=cd8eeaeaf2c2477b96d78df0fb8a82f2",
       "url": "https://www.huy.be/agenda/les-enfants-terribles-14e-festival-du-jeune-cinema?u=cd8eeaeaf2c2477b96d78df0fb8a82f2",
-      "summary": "14e Festival du Jeune Cinéma européen",
+      "summary": "14e Festival du Jeune Cinéma européen.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Ville de Huy"
     },
     {
@@ -749,6 +899,10 @@
       "summary": "COMME DES GOSSES COMPANY présente Guihome vous détend.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -764,9 +918,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/01/Siglo-XX-promo-2026-scaled-1.jpg",
       "page_url": "https://reflektor.be/concert/siglo-xx/",
       "url": "https://shop.paylogic.com/645b8ac3f3e245939f15f9f77fa24eb1",
-      "summary": "Concert Siglo XX au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -782,9 +938,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3120/10ans_conference_vignette.jpg",
       "page_url": "https://www.grignoux.be//fr/evenement/3120/cinema-culture-et-democratie-a-quoi-ressemblera-la-salle-de-cinema-de-demain-",
       "url": "https://www.grignoux.be//fr/evenement/3120/cinema-culture-et-democratie-a-quoi-ressemblera-la-salle-de-cinema-de-demain-",
-      "summary": "Conférence : Cinéma, culture et démocratie",
+      "summary": "Conférence sur l'avenir de la salle de cinéma.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -800,9 +958,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3121/la_gradiva_og.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3121/la-gradiva",
       "url": "https://www.grignoux.be//fr/evenement/3121/la-gradiva",
-      "summary": "Avant-première du film La Gradiva",
+      "summary": "Avant-première du film La Gradiva.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -815,12 +975,16 @@
       "lon": 5.5835333,
       "start": "2026-10-16T10:00:00",
       "end": "2027-03-07T20:00:00",
-      "image": "https://www.grandcurtius.be/sites/default/files/styles/teaser_wide/public/2026-07/bandeau%20VIOLON%20DESSIN%20CHARTE.jpg?itok=lUJe3GHH",
+      "image": "https://www.grandcurtius.be/sites/default/files/styles/hd/public/2026-07/bandeau%20VIOLON%20DESSIN%20CHARTE.jpg?itok=qX6ZrTKv",
       "page_url": "https://www.grandcurtius.be/fr/actualites/exposition/quand-paganini-rencontre-ysaye-les-violons-des-diables",
       "url": "https://www.grandcurtius.be/fr/actualites/exposition/quand-paganini-rencontre-ysaye-les-violons-des-diables",
       "summary": "Exposition internationale retraçant l'extraordinaire héritage de Niccolò Paganini et son rayonnement au cœur de l'École liégeoise du violon.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [
+        "découverte"
+      ],
       "source": "Grand Curtius (Liège)"
     },
     {
@@ -836,19 +1000,23 @@
       "image": "https://www.leforum.be/visuel/SlideFront/Tina-Arena_510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202610162000.html",
       "url": "https://www.leforum.be/spectacle_202610162000.html",
-      "summary": "MEDIASCENE en accord avec Alexandre Sorin Productions présente Tina Arena.",
+      "summary": "MEDIASCENE présente Tina Arena en concert.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
       "id": "web-standard-de-li-ge-standard-fcv-dender-eh-croky-cup-2026-10-16",
       "title": "Standard - FCV Dender EH (Croky Cup)",
       "category": "sport",
-      "venue": "Stade de Sclessin",
+      "venue": "Sclessin",
       "city": "Seraing",
-      "lat": 50.6152381,
-      "lon": 5.5089437,
+      "lat": 50.5909826,
+      "lon": 5.5631563,
       "start": "2026-10-16T21:00:00",
       "end": "2026-10-16T21:00:00",
       "image": "https://static.standard.be/cdn/ff/R101gvRhhuU-YrgpttaDPt79gt1Mflt-LJC8OWCJugA/1791015074/public/styles/max_0640/public/2026-10/Standard-Dender-1920x1080_0.jpg.webp?itok=BLifeHt4",
@@ -857,6 +1025,10 @@
       "summary": "16ème de finale de la Croky Cup à Sclessin contre le FCV Dender EH.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [
+        "sportif"
+      ],
       "source": "Standard de Liège"
     },
     {
@@ -872,9 +1044,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2025/11/image3-scaled-1.jpeg",
       "page_url": "https://reflektor.be/concert/maine-road/",
       "url": "https://shop.paylogic.com/31193c00b6504301a79c13dc6e6282d5",
-      "summary": "Concert Maine Road au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -890,15 +1064,17 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3163/le_mystere_lucy_lost_og.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3163/le-mystere-lucy-lost",
       "url": "https://www.grignoux.be//fr/evenement/3163/le-mystere-lucy-lost",
-      "summary": "Avant-première du film Le Mystère Lucy Lost",
+      "summary": "Avant-première du film Le Mystère Lucy Lost.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
       "id": "web-les-grignoux-cin-ma-li-ge-cin-quiz-du-cam-o-2026-10-17",
       "title": "Cinéquiz du Caméo",
-      "category": "cinema",
+      "category": "culture",
       "venue": "Caméo",
       "city": "Namur",
       "lat": 50.4667124,
@@ -908,9 +1084,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3123/10ans_cinequiz_vignette.jpg",
       "page_url": "https://www.grignoux.be//fr/evenement/3123/cinequiz-du-cameo",
       "url": "https://www.grignoux.be//fr/evenement/3123/cinequiz-du-cameo",
-      "summary": "Cinéquiz du Caméo",
+      "summary": "Quiz cinéma au Caméo.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -926,9 +1104,13 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3124/10as_karaoke_vignette.jpg",
       "page_url": "https://www.grignoux.be//fr/evenement/3124/karaoke-plaisirs-demodes",
       "url": "https://www.grignoux.be//fr/evenement/3124/karaoke-plaisirs-demodes",
-      "summary": "Karaoké \"Plaisirs démodés\"",
+      "summary": "Soirée karaoké à thème.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [
+        "soirée"
+      ],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -944,9 +1126,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/241123-Guillaume-meurice510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202610172000.html",
       "url": "https://www.leforum.be/spectacle_202610172000.html",
-      "summary": "OD LIVE en accord avec Les Productions Entropiques présente Guillaume Meurice et Éric Lagadec.",
+      "summary": "OD LIVE présente Guillaume Meurice et Éric Lagadec.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -980,9 +1166,15 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3125/10as_cineptitdej_vignette.jpg",
       "page_url": "https://www.grignoux.be//fr/evenement/3125/cine-ptit-dej-atelier-grimage",
       "url": "https://www.grignoux.be//fr/evenement/3125/cine-ptit-dej-atelier-grimage",
-      "summary": "Ciné p'tit dej + Atelier grimage",
+      "summary": "Petit-déjeuner cinéma et atelier de maquillage pour enfants.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "family"
+      ],
+      "tags": [
+        "créatif"
+      ],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -998,9 +1190,13 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3151/cineptitdej_vignette.jpg",
       "page_url": "https://www.grignoux.be//fr/evenement/3151/cine-ptit-dej",
       "url": "https://www.grignoux.be//fr/evenement/3151/cine-ptit-dej",
-      "summary": "Ciné P'tit Dej",
+      "summary": "Petit-déjeuner cinéma pour enfants.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "family"
+      ],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -1016,9 +1212,13 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3162/gruffalo_de_pere_en_fils_og.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3162/gruffalo-de-pere-en-fils",
       "url": "https://www.grignoux.be//fr/evenement/3162/gruffalo-de-pere-en-fils",
-      "summary": "Animation pour petits : Gruffalo, de père en fils",
+      "summary": "Animation pour enfants autour de Gruffalo.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "family"
+      ],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -1034,28 +1234,12 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3126/coward_og.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3126/coward",
       "url": "https://www.grignoux.be//fr/evenement/3126/coward",
-      "summary": "Avant-première du film Coward",
+      "summary": "Avant-première du film Coward.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
-    },
-    {
-      "id": "web-pays-de-herve-le-week-end-des-mus-es-de-vis-2026-10-18",
-      "title": "Le Week-end des musées de Visé",
-      "category": "culture",
-      "venue": "Visé",
-      "city": "Visé",
-      "lat": 50.7347797,
-      "lon": 5.6936397,
-      "start": "2026-10-18T10:00:00",
-      "end": "2026-10-19T20:00:00",
-      "image": "https://pivotweb.tourismewallonie.be/PivotWeb-3.1/img/EVT-A0-00HX-0AT3;w=400;h=",
-      "page_url": "https://www.paysdeherve.be/dartagnan-sinvite-au-week-end-des-musees-de-vise",
-      "url": "https://www.paysdeherve.be/dartagnan-sinvite-au-week-end-des-musees-de-vise",
-      "summary": "D'Artagnan s'invite au week-end des musées à Visé avec visites gratuites des musées, théâtre de marionnettes, balade équestre, escape game et repas gersois.",
-      "price_from": null,
-      "free": true,
-      "source": "Pays de Herve"
     },
     {
       "id": "web-grand-curtius-li-ge-visite-th-matique-l-art-et-le-mouvement-2026-10-18",
@@ -1070,9 +1254,13 @@
       "image": "https://www.grandcurtius.be/sites/default/files/styles/teaser_wide/public/2026-10/Salle%20Del%20Courjpg_0.jpg?itok=a3c1qYmM",
       "page_url": "https://www.grandcurtius.be/fr/actualites/agenda/visite-thematique-lart-et-le-mouvement-0",
       "url": "https://www.grandcurtius.be/fr/actualites/agenda/visite-thematique-lart-et-le-mouvement-0",
-      "summary": "Découvrez le rôle des postures dans la statuaire au fil des époques lors de cette visite guidée.",
+      "summary": "Découvrez le rôle des postures dans la statuaire au fil des époques lors de cette visite du dimanche 18 octobre 2026 à 14h.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [
+        "découverte"
+      ],
       "source": "Grand Curtius (Liège)"
     },
     {
@@ -1088,9 +1276,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/l-experience-theatrale-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202610181700.html",
       "url": "https://www.leforum.be/spectacle_202610181700.html",
-      "summary": "Le Forum en accord avec Richard Caillat et Arts Live Entertainment présente l'Expérience théâtrale.",
+      "summary": "LE FORUM présente L'Expérience théâtrale.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -1106,27 +1298,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/films/3225/garance_affiche.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3134/garance",
       "url": "https://www.grignoux.be//fr/evenement/3134/garance",
-      "summary": "Présentation du film Garance de Jeanne Herry",
+      "summary": "Présentation du film de Jeanne Herry avec Adèle Exarchopoulos.",
       "price_from": null,
       "free": null,
-      "source": "Les Grignoux – cinéma (Liège)"
-    },
-    {
-      "id": "web-les-grignoux-cin-ma-li-ge-videodrome-s-ance-annul-e-2026-10-19",
-      "title": "Videodrome - SÉANCE ANNULÉE !",
-      "category": "cinema",
-      "venue": "Caméo",
-      "city": "Namur",
-      "lat": 50.4667124,
-      "lon": 4.8637516,
-      "start": "2026-10-19T10:00:00",
-      "end": "2026-10-19T10:00:00",
-      "image": "https://www.grignoux.be//upload/grignoux/event/3166/videodrome_og.webp",
-      "page_url": "https://www.grignoux.be//fr/evenement/3166/videodrome-seance-annulee-",
-      "url": "https://www.grignoux.be//fr/evenement/3166/videodrome-seance-annulee-",
-      "summary": "Etrange Automne 2026 : Videodrome - SÉANCE ANNULÉE !",
-      "price_from": null,
-      "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -1142,15 +1318,19 @@
       "image": "https://www.provincedeliege.be/sites/default/files/styles/plg_medias_h_600/public/media/20055/Affiche%20Jumping%202026%20-%20valid%C3%A9e.png?itok=O7frOCOx",
       "page_url": "https://www.provincedeliege.be/fr/evenement/15/20055",
       "url": "https://www.provincedeliege.be/fr/evenement/15/20055",
-      "summary": "Les passionnés de sport équestre se donneront rendez-vous à Liège Expo pour une nouvelle édition du Jumping International de la Province de Liège.",
+      "summary": "Nouvelle édition du Jumping International pour les passionnés de sport équestre.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [
+        "sportif"
+      ],
       "source": "Province de Liège"
     },
     {
       "id": "web-grand-curtius-li-ge-stage-dans-les-pas-de-paganini-2026-10-19",
       "title": "Stage - Dans les pas de Paganini",
-      "category": "family",
+      "category": "workshop",
       "venue": "Grand Curtius",
       "city": "Liège",
       "lat": 50.6471353,
@@ -1160,9 +1340,15 @@
       "image": "https://www.grandcurtius.be/sites/default/files/styles/teaser_wide/public/2026-09/Visuel%20stage%20Paganini.jpg?itok=pAtv2CGj",
       "page_url": "https://www.grandcurtius.be/fr/actualites/agenda/stage-dans-les-pas-de-paganini",
       "url": "https://www.grandcurtius.be/fr/actualites/agenda/stage-dans-les-pas-de-paganini",
-      "summary": "Semaine d'aventures musicales avec ateliers créatifs, jeux dans les salles du musée et rencontres avec musiciens et artisans.",
+      "summary": "Semaine d'aventures musicales avec ateliers créatifs, jeux dans les salles du musée et rencontres avec musiciens du 19 au 23 octobre 2026.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "family"
+      ],
+      "tags": [
+        "créatif"
+      ],
       "source": "Grand Curtius (Liège)"
     },
     {
@@ -1178,15 +1364,17 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3143/sanguine_og.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3143/sanguine",
       "url": "https://www.grignoux.be//fr/evenement/3143/sanguine",
-      "summary": "Avant-première du film Sanguine",
+      "summary": "Avant-première du film Sanguine.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
       "id": "web-les-grignoux-cin-ma-li-ge-le-corset-2026-10-21",
       "title": "Le Corset",
-      "category": "cinema",
+      "category": "culture",
       "venue": "Caméo",
       "city": "Namur",
       "lat": 50.4667124,
@@ -1196,14 +1384,18 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3161/le_corset_og.jpg",
       "page_url": "https://www.grignoux.be//fr/evenement/3161/le-corset",
       "url": "https://www.grignoux.be//fr/evenement/3161/le-corset",
-      "summary": "Animation : Le Corset",
+      "summary": "Animation autour du corset.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [
+        "créatif"
+      ],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
       "id": "web-grand-curtius-li-ge-cin-mus-e-manet-degas-une-amiti-tourment-e-2026-10-21",
-      "title": "Cinémusée - Manet Degas : une amitié tourmentée",
+      "title": "Cinémusée - Manet-Degas : une amitié tourmentée",
       "category": "cinema",
       "venue": "Grand Curtius",
       "city": "Liège",
@@ -1214,9 +1406,13 @@
       "image": "https://www.grandcurtius.be/sites/default/files/styles/teaser_wide/public/2026-09/Visuel%20cin%C3%A9mus%C3%A9e%202026_1.jpg?itok=L0AJrQN8",
       "page_url": "https://www.grandcurtius.be/fr/actualites/agenda/cinemusee-manet-degas-une-amitie-tourmentee",
       "url": "https://www.grandcurtius.be/fr/actualites/agenda/cinemusee-manet-degas-une-amitie-tourmentee",
-      "summary": "Film retraçant les liens complexes entre deux artistes qui ont révolutionné leur époque : Édouard Manet et Edgar Degas.",
+      "summary": "Film retraçant les liens complexes entre Édouard Manet et Edgar Degas qui ont révolutionné leur époque, le mercredi 21 octobre 2026 à 12h30.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [
+        "découverte"
+      ],
       "source": "Grand Curtius (Liège)"
     },
     {
@@ -1232,9 +1428,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/09/AFFICHE-FELHURetANDRO-7794-1-scaled-e1790080354918.jpg",
       "page_url": "https://reflektor.be/concert/felhur-x-andro/",
       "url": "https://shop.paylogic.com/fe71046972824962a21c1a67745a4183",
-      "summary": "Concert Felhur x Andro au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -1247,12 +1445,16 @@
       "lon": 5.0765706,
       "start": "2026-10-22T20:00:00",
       "end": "2026-10-22T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/LaurentVoulzi 510x630.jpg",
+      "image": "https://www.leforum.be/visuel/SlideFront/LaurentVoulzi_510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202610222000.html",
       "url": "https://www.leforum.be/spectacle_202610222000.html",
-      "summary": "CMC & LLING Music présentent Laurent Voulzy.",
+      "summary": "CMC & LLING MUSIC présentent Laurent Voulzy en concert.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -1268,9 +1470,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/03/TF-Press-Shot-2026-scaled-1.jpg",
       "page_url": "https://reflektor.be/concert/teenage-fanclub/",
       "url": "https://shop.paylogic.com/bf43aa767e7740c6bbfdef9f87bcb399/offsale",
-      "summary": "Concert Teenage Fanclub + Euros Childs au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -1286,9 +1490,13 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3169/petitbalmonstrueux_vignette.jpg",
       "page_url": "https://www.grignoux.be//fr/evenement/3169/petit-bal-monstrueux",
       "url": "https://www.grignoux.be//fr/evenement/3169/petit-bal-monstrueux",
-      "summary": "Pour les p'tits : Petit Bal Monstrueux",
+      "summary": "Petit bal monstrueux pour les enfants.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "family"
+      ],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -1304,9 +1512,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/HF-THIEFAINE-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202610232000.html",
       "url": "https://www.leforum.be/spectacle_202610232000.html",
-      "summary": "Next-Step.be en accord avec Lorelei et Arachnée Productions présente Hubert Felix Thiefaine.",
+      "summary": "NEXT-STEP.BE présente Hubert Félix Thiefaine en concert.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -1337,14 +1549,16 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/03/In-Spite-of-Everything-Front-3000-x-3000-2-scaled-1.png",
       "page_url": "https://reflektor.be/concert/the-boo-radleys/",
       "url": "https://shop.paylogic.com/74c93e74138f49a690c4142bdf9dde41",
-      "summary": "Concert The Boo Radleys + Pop Crimes au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
       "id": "web-grand-curtius-li-ge-ap-ro-litt-raire-enlivrez-vous-les-temps-des-migrants-2026-1",
-      "title": "Apéro littéraire - Enlivrez-vous - Les temps des migrants",
+      "title": "Apéro littéraire - Enlivrez-vous : Les temps des migrants",
       "category": "talks",
       "venue": "Grand Curtius",
       "city": "Liège",
@@ -1355,9 +1569,11 @@
       "image": "https://www.grandcurtius.be/sites/default/files/styles/teaser_wide/public/2026-09/apero%20litteraire%20les%20temps%20des%20migrants%2024.10.2026.jpg?itok=5hnTwdqr",
       "page_url": "https://www.grandcurtius.be/fr/actualites/agenda/apero-litteraire-enlivrez-vous-les-temps-des-migrants",
       "url": "https://www.grandcurtius.be/fr/actualites/agenda/apero-litteraire-enlivrez-vous-les-temps-des-migrants",
-      "summary": "Moment de réflexion et de partage autour des réalités migratoires à travers témoignages, recherches et lectures.",
+      "summary": "Moment de réflexion et de partage autour des réalités migratoires à travers témoignages, recherches et lectures le 24 octobre 2026.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Grand Curtius (Liège)"
     },
     {
@@ -1391,9 +1607,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3132/les_portes_de_la_nuit_og.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3132/les-portes-de-la-nuit",
       "url": "https://www.grignoux.be//fr/evenement/3132/les-portes-de-la-nuit",
-      "summary": "Classique : Les Portes de la nuit",
+      "summary": "Projection du classique Les Portes de la nuit.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -1409,9 +1627,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3177/sacrifice_og.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3177/sacrifice",
       "url": "https://www.grignoux.be//fr/evenement/3177/sacrifice",
-      "summary": "Projection unique du film Sacrifice",
+      "summary": "Projection unique du film Sacrifice.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -1427,9 +1647,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/films/3231/la_vie_d_une_femme_affiche.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3145/cine-sme-la-vie-dune-femme",
       "url": "https://www.grignoux.be//fr/evenement/3145/cine-sme-la-vie-dune-femme",
-      "summary": "Ciné-SME : La Vie d'une femme",
+      "summary": "Ciné-SME autour du film La Vie d'une femme.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -1445,9 +1667,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3139/happy_birthday_og.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3139/happy-birthday",
       "url": "https://www.grignoux.be//fr/evenement/3139/happy-birthday",
-      "summary": "Projection unique du film Happy Birthday",
+      "summary": "Projection unique du film Happy Birthday.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -1463,27 +1687,31 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3137/lafeteducinemadanimation_vignette.jpg",
       "page_url": "https://www.grignoux.be//fr/evenement/3137/la-fete-du-cinema-drsquoanimation",
       "url": "https://www.grignoux.be//fr/evenement/3137/la-fete-du-cinema-drsquoanimation",
-      "summary": "Projection unique : La Fête du cinéma d'animation",
+      "summary": "Projection unique d'une sélection de films d'animation.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
       "id": "web-op-ra-royal-de-wallonie-pirate-movie-club-shaun-of-the-dead-2026-10-28",
       "title": "Pirate Movie Club : Shaun of the Dead",
       "category": "cinema",
-      "venue": "Grande Salle de l'Opéra",
+      "venue": "Opéra Royal de Wallonie",
       "city": "Liège",
-      "lat": 50.6450944,
-      "lon": 5.5736112,
+      "lat": 50.6432887,
+      "lon": 5.5702932,
       "start": "2026-10-28T10:00:00",
       "end": "2026-10-28T10:00:00",
       "image": "https://www.operaliege.be/app/uploads/2026/09/Zombie-Conf-Film2-scaled.jpg",
       "page_url": "https://www.operaliege.be/evenement/pirate-movie-club-shaun-of-the-dead-a-l-opera/",
       "url": "https://www.operaliege.be/evenement/pirate-movie-club-shaun-of-the-dead-a-l-opera/?opened",
-      "summary": "Projection du film Shaun of the Dead dans la Grande Salle de l'Opéra.",
+      "summary": "Projection dans la Grande Salle de l'Opéra de Shaun of the Dead.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Opéra Royal de Wallonie"
     },
     {
@@ -1499,9 +1727,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/beatles510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202610282000.html",
       "url": "https://www.leforum.be/spectacle_202610282000.html",
-      "summary": "Étoile Productions & Kultopolis présentent The Cavern Beatles.",
+      "summary": "ETOILE PRODUCTIONS & KULTOPOLIS présentent The Cavern Beatles.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -1517,9 +1749,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/05/c-Reno-Gilsoul-1-scaled-1.jpg",
       "page_url": "https://reflektor.be/concert/jeronimo/",
       "url": "https://shop.paylogic.com/46a533aed6ea4496a583d322eaaaa59b",
-      "summary": "Concert JERONIMO + NUMAH au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -1535,9 +1769,11 @@
       "image": "https://www.operaliege.be/app/uploads/2026/03/2026-04-01_ORW-26-27_Hero_Enfant-Horloge_V3-scaled.jpg",
       "page_url": "https://www.operaliege.be/evenement/operas-lheure-espagnole-lenfant-et-les-sortileges-2026/",
       "url": "https://www.operaliege.be/evenement/operas-lheure-espagnole-lenfant-et-les-sortileges-2026/?opened",
-      "summary": "Opéras de Maurice Ravel : L'Heure espagnole et L'Enfant et les sortilèges.",
+      "summary": "L'Heure espagnole | L'Enfant et les sortilèges de Maurice Ravel.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Opéra Royal de Wallonie"
     },
     {
@@ -1553,9 +1789,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/06/Persfoto-Liesa-Van-der-Aa-©Angela-Vanderstraeten-1-scaled-e1780663940977.jpg",
       "page_url": "https://reflektor.be/concert/liesa-van-der-aa/",
       "url": "https://www.billetweb.fr/transpedegouines-halloween?fbclid=IwY2xjawUzKjZleHRuA2FlbQIxMABwZG9mAWJyaWQRMVA3akhzWHdxMzhnUllqY0NzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEe0galdQj0a5Yz_Ju4CQ_Srg812oDizo-LXnhQjOAgeZA2zv4BrSSWFX7uht8_aem_8kYy_P7zktHOgm8FVgNslQ",
-      "summary": "Concert Liesa Van der Aa au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -1568,18 +1806,22 @@
       "lon": 5.0765706,
       "start": "2026-10-30T20:00:00",
       "end": "2026-10-30T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/ADEMO 510x630.jpg",
+      "image": "https://www.leforum.be/visuel/SlideFront/ADEMO_510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202610302000.html",
       "url": "https://www.leforum.be/spectacle_202610302000.html",
-      "summary": "Mediascene présente Salvatore Adamo.",
+      "summary": "MEDIASCENE présente Salvatore Adamo en concert.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
       "id": "web-reflektor-li-ge-halloween-transp-d-gouines-2026-10-31",
       "title": "Halloween – TransPédéGouines",
-      "category": "party",
+      "category": "concert",
       "venue": "Reflektor",
       "city": "Liège",
       "lat": 50.6432641,
@@ -1589,9 +1831,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/10/Affiche-Halloween-extraterrestre-psychedelique-e1791380483836.png",
       "page_url": "https://reflektor.be/concert/halloween-transpedegouines-3/",
       "url": "https://shop.paylogic.com/41b52b05fe1b47d0b97b2fb666fe3bec",
-      "summary": "Halloween – TransPédéGouines au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -1607,14 +1851,16 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3170/nuitdelhorreur_vignette.jpg",
       "page_url": "https://www.grignoux.be//fr/evenement/3170/nuit-de-lhorreur",
       "url": "https://www.grignoux.be//fr/evenement/3170/nuit-de-lhorreur",
-      "summary": "Etrange Automne 2026 : Nuit de l'horreur",
+      "summary": "Nuit de l'horreur - Étrange Automne 2026.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
       "id": "web-grand-curtius-li-ge-la-parade-des-diables-2026-10-31",
-      "title": "La parade des diables",
+      "title": "La Parade des Diables",
       "category": "family",
       "venue": "Grand Curtius",
       "city": "Liège",
@@ -1625,19 +1871,25 @@
       "image": "https://www.grandcurtius.be/sites/default/files/styles/teaser_wide/public/2026-09/paganini%20parade%20diables.jpg?itok=opE4SwhY",
       "page_url": "https://www.grandcurtius.be/fr/actualites/agenda/la-parade-des-diables",
       "url": "https://www.grandcurtius.be/fr/actualites/agenda/la-parade-des-diables",
-      "summary": "Après-midi festive et créative d'Halloween avec les petits diables en écho à l'exposition consacrée à Paganini.",
+      "summary": "Après-midi festive et créative pour les enfants en écho à l'exposition Paganini, le samedi 31 octobre 2026 à partir de 14h.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "family"
+      ],
+      "tags": [
+        "créatif"
+      ],
       "source": "Grand Curtius (Liège)"
     },
     {
       "id": "web-standard-de-li-ge-standard-kv-kortrijk-2026-10-31",
       "title": "Standard - KV Kortrijk",
       "category": "sport",
-      "venue": "Stade de Sclessin",
+      "venue": "Sclessin",
       "city": "Seraing",
-      "lat": 50.6152381,
-      "lon": 5.5089437,
+      "lat": 50.5909826,
+      "lon": 5.5631563,
       "start": "2026-10-31T18:15:00",
       "end": "2026-10-31T18:15:00",
       "image": "https://static.standard.be/cdn/ff/pDvvGhq1V343P4jk0gpV98Y3QJeENFAONmqKbwFY7C4/1788864462/public/styles/max_0640/public/2026-09/Standard-KVK-1920x1080_0.jpg.webp?itok=Eji_vwAE",
@@ -1646,6 +1898,10 @@
       "summary": "Rencontre Standard de Liège - KV Kortrijk.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [
+        "sportif"
+      ],
       "source": "Standard de Liège"
     },
     {
@@ -1658,18 +1914,22 @@
       "lon": 5.0765706,
       "start": "2026-10-31T20:00:00",
       "end": "2026-10-31T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/NATASHA ST PIER 510x630 copie.jpg",
+      "image": "https://www.leforum.be/visuel/SlideFront/NATASHA_ST_PIER_510x630_copie.jpg",
       "page_url": "https://www.leforum.be/spectacle_202610312000.html",
       "url": "https://www.leforum.be/spectacle_202610312000.html",
-      "summary": "Mediascene présente Natasha St-Pier.",
+      "summary": "MEDIASCENE présente Natasha St-Pier en concert.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
       "id": "web-grand-curtius-li-ge-nuit-paganini-2026-10-31",
       "title": "Nuit Paganini",
-      "category": "party",
+      "category": "culture",
       "venue": "Grand Curtius",
       "city": "Liège",
       "lat": 50.6471353,
@@ -1679,9 +1939,13 @@
       "image": "https://www.grandcurtius.be/sites/default/files/styles/teaser_wide/public/2026-10/violon%20halloween-2.jpg?itok=wC19OkeU",
       "page_url": "https://www.grandcurtius.be/fr/actualites/agenda/nuit-paganini",
       "url": "https://www.grandcurtius.be/fr/actualites/agenda/nuit-paganini",
-      "summary": "Soirée Halloween festive et frissonnante autour de Paganini au Grand Curtius.",
+      "summary": "Soirée Halloween festive et frissonnante autour de Paganini au Grand Curtius le 31 octobre 2026 à partir de 20h.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [
+        "soirée"
+      ],
       "source": "Grand Curtius (Liège)"
     },
     {
@@ -1715,9 +1979,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3135/du_fioul_dans_les_arteres_og.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3135/du-fioul-dans-les-arteres",
       "url": "https://www.grignoux.be//fr/evenement/3135/du-fioul-dans-les-arteres",
-      "summary": "Avant-première du film Du fioul dans les artères",
+      "summary": "Avant-première du film Du fioul dans les artères.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -1733,9 +1999,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/MARINE-LEONARDI_v2-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611032000.html",
       "url": "https://www.leforum.be/spectacle_202611032000.html",
-      "summary": "Back in the Dayz en accord avec Agapè présente Marine Leonardi, Mauvaise Graine.",
+      "summary": "BACK IN THE DAYZ présente Marine Leonardi, Mauvaise graine.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -1751,15 +2021,17 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/06/Jamie-Woon-679x1024-1-e1782809836455.jpg",
       "page_url": "https://reflektor.be/concert/jamie-woon/",
       "url": "https://shop.utick.net/?module=QUANTITY&q=454073C5-B5E5-D2AF-75E9-9B7004713825&pos=LEFORUM",
-      "summary": "Concert Jamie Woon au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
       "id": "web-les-grignoux-cin-ma-li-ge-exploration-du-monde-eurasie-2026-11-04",
       "title": "Exploration du monde : Eurasie",
-      "category": "cinema",
+      "category": "culture",
       "venue": "Caméo",
       "city": "Namur",
       "lat": 50.4667124,
@@ -1769,9 +2041,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3158/explo_eurasie_vignette.jpg",
       "page_url": "https://www.grignoux.be//fr/evenement/3158/exploration-du-monde-eurasie",
       "url": "https://www.grignoux.be//fr/evenement/3158/exploration-du-monde-eurasie",
-      "summary": "Explo : Exploration du monde : Eurasie",
+      "summary": "Exploration documentaire du monde : Eurasie.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -1787,9 +2061,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3148/pmc_batman_vignette.jpg",
       "page_url": "https://www.grignoux.be//fr/evenement/3148/pirate-movie-club-batman-vf",
       "url": "https://www.grignoux.be//fr/evenement/3148/pirate-movie-club-batman-vf",
-      "summary": "Pirate Movie Club : Batman VF",
+      "summary": "Pirate Movie Club : Batman en version française.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -1805,9 +2081,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/tim-burton-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611042000.html",
       "url": "https://www.leforum.be/spectacle_202611042000.html",
-      "summary": "Overheards presents An Orchestral Tribute of Tim Burton & Dark Fantasy.",
+      "summary": "OVERHEARDS présente An Orchestral Tribute of Tim Burton & Dark Fantasy.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -1823,9 +2103,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/03/3e082b4a_Single-1-Tour-Photo-by-Steve-Gullick-1-scaled-1.jpg",
       "page_url": "https://reflektor.be/concert/mogwai/",
       "url": "https://shop.paylogic.com/24ef944830ab486b8c2e6e9765e7eb9e",
-      "summary": "Concert Mogwai + Forest Swords au Forum.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -1841,9 +2123,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3141/the_magic_city_og.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3141/the-magic-city-birmingham-according-to-sun-ra",
       "url": "https://www.grignoux.be//fr/evenement/3141/the-magic-city-birmingham-according-to-sun-ra",
-      "summary": "Projection unique : The Magic City - Birmingham according to Sun Ra",
+      "summary": "Projection unique du film The Magic City - Birmingham according to Sun Ra.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -1859,9 +2143,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3157/grandir_og.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3157/grandir",
       "url": "https://www.grignoux.be//fr/evenement/3157/grandir",
-      "summary": "Projection spéciale du film Grandir",
+      "summary": "Projection spéciale du film Grandir.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -1877,9 +2163,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/MOGWAI_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611052000.html",
       "url": "https://www.leforum.be/spectacle_202611052000.html",
-      "summary": "Reflektor présente Mogwai 30.",
+      "summary": "REFLEKTOR présente Mogwai 30 en concert.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -1895,14 +2185,16 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-10-at-16.24.25.jpeg",
       "page_url": "https://reflektor.be/concert/panteros666-saligo/",
       "url": "https://shop.paylogic.com/ace10114dc3b45b1b1c268d37a96ed81",
-      "summary": "REFLECT PRESENTS: PANTEROS666 + SALIGO + VELOTA au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
       "id": "web-le-forum-li-ge-y-a-d-la-joie-bordel-claude-fran-ois-2026-11-06",
-      "title": "\"Y A D'LA JOIE ...BORDEL!\" - CLAUDE FRANÇOIS",
+      "title": "Y A D'LA JOIE ...BORDEL! - CLAUDE FRANÇOIS",
       "category": "concert",
       "venue": "Le Forum",
       "city": "Liège",
@@ -1913,27 +2205,35 @@
       "image": "https://www.leforum.be/visuel/SlideFront/Claude_510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611062000.html",
       "url": "https://www.leforum.be/spectacle_202611062000.html",
-      "summary": "Ose la Joie en accord avec CTX Agency et Mylittle Voice Production présente Y a d'la joie.",
+      "summary": "OSE LA JOIE présente Y a d'la joie ...Bordel! - Claude François.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
       "id": "web-standard-de-li-ge-standard-sk-beveren-2026-11-06",
       "title": "Standard - SK Beveren",
       "category": "sport",
-      "venue": "Stade de Sclessin",
+      "venue": "Sclessin",
       "city": "Seraing",
-      "lat": 50.6152381,
-      "lon": 5.5089437,
+      "lat": 50.5909826,
+      "lon": 5.5631563,
       "start": "2026-11-06T20:45:00",
       "end": "2026-11-06T20:45:00",
       "image": "https://static.standard.be/cdn/ff/Ao8pbqJyHIv5zsdbsU33J4exmFzCSwnhOlD8mgwIQ78/1789570047/public/styles/max_0640/public/2026-09/Standard-Bevren-1920x1080_1.jpg.webp?itok=mUE3X51Y",
       "page_url": "https://www.standard.be/fr/news/tickets-en-vente-pour-standard-sk-beveren-au-prix-unique-de-1450-euros",
       "url": "https://www.standard.be/fr/news/tickets-en-vente-pour-standard-sk-beveren-au-prix-unique-de-1450-euros",
-      "summary": "Rencontre Standard de Liège - SK Beveren au prix unique de 14,50 euros.",
+      "summary": "Rencontre Standard de Liège - SK Beveren au prix de 14,50 euros.",
       "price_from": 14.5,
       "free": false,
+      "audience": [],
+      "tags": [
+        "sportif"
+      ],
       "source": "Standard de Liège"
     },
     {
@@ -1949,16 +2249,18 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/01/RR-FLASHHOPE_BANNER.png",
       "page_url": "https://reflektor.be/concert/flashhope-presente-lemon-straw-sasha-and-the-lunatic/",
       "url": "https://shop.paylogic.com/369ad509f0a2406fb4998ac9190acb60",
-      "summary": "FlashHope présente: Lemon Straw + Sasha and The Lunatics au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
       "id": "web-les-grignoux-cin-ma-li-ge-exploration-du-monde-eurasie-2026-11-07",
       "title": "Exploration du monde : Eurasie",
-      "category": "cinema",
-      "venue": "le Parc",
+      "category": "culture",
+      "venue": "Le Parc",
       "city": "Liège",
       "lat": 50.6461677,
       "lon": 5.6027714,
@@ -1967,9 +2269,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3172/explo_eurasie_vignette2--1-.jpg",
       "page_url": "https://www.grignoux.be//fr/evenement/3172/exploration-du-monde-eurasie",
       "url": "https://www.grignoux.be//fr/evenement/3172/exploration-du-monde-eurasie",
-      "summary": "Explo : Exploration du monde : Eurasie",
+      "summary": "Exploration documentaire du monde : Eurasie.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -1985,14 +2289,16 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3129/concert_underthereefsorchrestra_vignette.jpg",
       "page_url": "https://www.grignoux.be//fr/evenement/3129/under-the-reefs-orchestra",
       "url": "https://www.grignoux.be//fr/evenement/3129/under-the-reefs-orchestra",
-      "summary": "Concert : Under The Reefs Orchestra",
+      "summary": "Concert de Under The Reefs Orchestra.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
       "id": "web-le-forum-li-ge-damien-gillard-rude-2026-11-07",
-      "title": "DAMIEN GILLARD - \"RUDE\"",
+      "title": "DAMIEN GILLARD - RUDE",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -2003,9 +2309,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/Damien-Gillard-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611072000.html",
       "url": "https://www.leforum.be/spectacle_202611072000.html",
-      "summary": "Corniaud and Co présente Damien Gillard dans \"Rude\".",
+      "summary": "CORNIAUD AND CO présente Damien Gillard - Rude.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -2036,12 +2346,16 @@
       "lon": 5.0765706,
       "start": "2026-11-08T17:30:00",
       "end": "2026-11-08T17:30:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/NINO ARIAL 510x630.jpg",
+      "image": "https://www.leforum.be/visuel/SlideFront/NINO_ARIAL_510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611081730.html",
       "url": "https://www.leforum.be/spectacle_202611081730.html",
-      "summary": "Kiss Kiss Prod en accord avec Juicy Production présente Nino Arial dans \"Pas comme eux\".",
+      "summary": "KISS KISS PROD présente Nino Arial : Pas comme eux.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -2057,9 +2371,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3136/cyclingcities_vignette.jpg",
       "page_url": "https://www.grignoux.be//fr/evenement/3136/cycling-cities",
       "url": "https://www.grignoux.be//fr/evenement/3136/cycling-cities",
-      "summary": "Projection unique du film Cycling Cities",
+      "summary": "Projection unique du film Cycling Cities.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -2075,9 +2391,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3130/un_apres_midi_de_chien_og.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3130/un-apres-midi-de-chien",
       "url": "https://www.grignoux.be//fr/evenement/3130/un-apres-midi-de-chien",
-      "summary": "Classique : Un après-midi de chien",
+      "summary": "Projection du classique Un après-midi de chien.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -2093,9 +2411,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3165/un_grand_raccourci_og.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3165/11e-festival-international-du-film-de-comedie-de-liege",
       "url": "https://www.grignoux.be//fr/evenement/3165/11e-festival-international-du-film-de-comedie-de-liege",
-      "summary": "Festival : 11e Festival International du Film de Comédie de Liège",
+      "summary": "11e édition du Festival International du Film de Comédie de Liège.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -2111,9 +2431,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3142/hope_og.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3142/hope",
       "url": "https://www.grignoux.be//fr/evenement/3142/hope",
-      "summary": "L'Étrange Séance : Hope",
+      "summary": "L'Étrange Séance : Hope.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -2129,9 +2451,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/06/250902_DRY_CLEANING_SHOT_01_302-e1781610209756.jpg",
       "page_url": "https://reflektor.be/concert/dry-cleaning/",
       "url": "https://shop.paylogic.com/18378c1e77584458ade4ce6015651b6c",
-      "summary": "Concert Dry Cleaning + Teenage Exorcists au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -2147,9 +2471,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3178/un_grand_raccourci_og.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3178/un-grand-raccourci",
       "url": "https://www.grignoux.be//fr/evenement/3178/un-grand-raccourci",
-      "summary": "Avant-première du film Un grand raccourci",
+      "summary": "Avant-première du film Un grand raccourci.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -2165,14 +2491,16 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3164/camembert_og.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3164/camembert",
       "url": "https://www.grignoux.be//fr/evenement/3164/camembert",
-      "summary": "Avant-première du film Camembert",
+      "summary": "Avant-première du film Camembert.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
       "id": "web-le-forum-li-ge-kody-volu-2026-11-11",
-      "title": "KODY \"ÉVOLUÉ\"",
+      "title": "KODY ÉVOLUÉ",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -2183,28 +2511,14 @@
       "image": "https://www.leforum.be/visuel/SlideFront/KODY-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611112000.html",
       "url": "https://www.leforum.be/spectacle_202611112000.html",
-      "summary": "Diagonale Productions présente Kody dans \"Évolué\".",
+      "summary": "DIAGONALE PRODUCTIONS présente Kody Évolué.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-reflektor-li-ge-momoko-gill-2026-11-12",
-      "title": "Momoko Gill",
-      "category": "concert",
-      "venue": "Reflektor",
-      "city": "Liège",
-      "lat": 50.6432641,
-      "lon": 5.5679468,
-      "start": "2026-11-12T10:00:00",
-      "end": "2026-11-12T10:00:00",
-      "image": "https://reflektor.be/wp-content/uploads/2026/09/MOMOKO-GILL-Photo-by-MANUEL-VASQUEZ.jpg",
-      "page_url": "https://reflektor.be/concert/momoko-gill/",
-      "url": "https://shop.paylogic.com/9816d02f6f52408f80a542071212f15e",
-      "summary": "Concert Momoko Gill au Reflektor.",
-      "price_from": null,
-      "free": null,
-      "source": "Reflektor (Liège)"
     },
     {
       "id": "web-les-grignoux-cin-ma-li-ge-blaise-2026-11-12",
@@ -2219,9 +2533,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3179/blaise_og.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3179/blaise",
       "url": "https://www.grignoux.be//fr/evenement/3179/blaise",
-      "summary": "Avant-première du film Blaise",
+      "summary": "Avant-première du film Blaise.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -2237,9 +2553,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3181/agnesjaoui_vignette.jpg",
       "page_url": "https://www.grignoux.be//fr/evenement/3181/rencontre-avec-agnes-jaoui",
       "url": "https://www.grignoux.be//fr/evenement/3181/rencontre-avec-agnes-jaoui",
-      "summary": "Rencontre avec Agnès Jaoui",
+      "summary": "Rencontre avec la réalisatrice Agnès Jaoui.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -2255,9 +2573,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3159/fatna_og.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3159/fatna-une-femme-nommee-rachid",
       "url": "https://www.grignoux.be//fr/evenement/3159/fatna-une-femme-nommee-rachid",
-      "summary": "Projection unique du film Fatna, une femme nommée Rachid",
+      "summary": "Projection unique du film Fatna, une femme nommée Rachid.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -2273,9 +2593,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/agebete-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611122000.html",
       "url": "https://www.leforum.be/spectacle_202611122000.html",
-      "summary": "Next-Step.be en accord avec Gilbert Coullier Productions présente L'Âge bête.",
+      "summary": "NEXT-STEP.BE présente L'Âge bête avec Michèle Laroque et Kad Merad.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -2291,9 +2615,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/04/WhatsApp-Image-2026-04-14-at-09.29.57-e1776151836769.jpeg",
       "page_url": "https://reflektor.be/concert/hollywood-porn-stars/",
       "url": "https://shop.paylogic.com/db59c038b9694456998f27c4500faec6/offsale",
-      "summary": "Concert Hollywood Porn Stars au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -2309,9 +2635,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3180/barcazou_og.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3180/barca-zou",
       "url": "https://www.grignoux.be//fr/evenement/3180/barca-zou",
-      "summary": "Avant-première du film Barça Zou",
+      "summary": "Avant-première du film Barça Zou.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -2327,9 +2655,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3160/tableronde_jnp_vignette-.jpg",
       "page_url": "https://www.grignoux.be//fr/evenement/3160/table-ronde-centres-fermes-des-prisons-qui-ne-disent-pas-leur-nom-",
       "url": "https://www.grignoux.be//fr/evenement/3160/table-ronde-centres-fermes-des-prisons-qui-ne-disent-pas-leur-nom-",
-      "summary": "Débat : Table ronde sur les centres fermés",
+      "summary": "Table ronde sur les centres fermés.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -2345,28 +2675,14 @@
       "image": "https://www.leforum.be/visuel/SlideFront/GREASE_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611132000.html",
       "url": "https://www.leforum.be/spectacle_202611132000.html",
-      "summary": "Mediascene présente Grease is the Word.",
+      "summary": "MEDIASCENE présente Grease is the word.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-reflektor-li-ge-ebony-kynato-2026-11-14",
-      "title": "Ebony + Kynato",
-      "category": "concert",
-      "venue": "Reflektor",
-      "city": "Liège",
-      "lat": 50.6432641,
-      "lon": 5.5679468,
-      "start": "2026-11-14T10:00:00",
-      "end": "2026-11-14T10:00:00",
-      "image": "https://reflektor.be/wp-content/uploads/2026/03/EBONY_WNG0081-1-e1774872295102-scaled.jpg",
-      "page_url": "https://reflektor.be/concert/ebony/",
-      "url": "https://shop.paylogic.com/8a610502c1a04ff28e721be46fae5355",
-      "summary": "Concert Ebony + Kynato au Reflektor.",
-      "price_from": null,
-      "free": null,
-      "source": "Reflektor (Liège)"
     },
     {
       "id": "web-les-grignoux-cin-ma-li-ge-une-histoire-soi-2026-11-14",
@@ -2381,9 +2697,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3140/une_histoire_a_soi_og.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3140/une-histoire-a-soi",
       "url": "https://www.grignoux.be//fr/evenement/3140/une-histoire-a-soi",
-      "summary": "Projection unique du film Une histoire à soi",
+      "summary": "Projection unique du film Une histoire à soi.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -2399,9 +2717,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/amine-radi-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611142000.html",
       "url": "https://www.leforum.be/spectacle_202611142000.html",
-      "summary": "Kiss Kiss Prod présente Amine Radi dans \"La Suivette\".",
+      "summary": "KISS KISS PROD présente Amine Radi - La Suivette.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -2435,9 +2757,13 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3152/cineptitdej_vignette.jpg",
       "page_url": "https://www.grignoux.be//fr/evenement/3152/cine-ptit-dej",
       "url": "https://www.grignoux.be//fr/evenement/3152/cine-ptit-dej",
-      "summary": "Ciné P'tit Dej",
+      "summary": "Petit-déjeuner cinéma pour enfants.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "family"
+      ],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -2453,9 +2779,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3168/une_autre_guerre_og.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3168/une-autre-guerre-sauve-qui-peut-ma-vie-",
       "url": "https://www.grignoux.be//fr/evenement/3168/une-autre-guerre-sauve-qui-peut-ma-vie-",
-      "summary": "Projection unique du film Une autre guerre (sauve qui peut ma vie !)",
+      "summary": "Projection unique du film Une autre guerre (sauve qui peut ma vie !).",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -2471,9 +2799,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/JULIEN_DASSIN_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611151600.html",
       "url": "https://www.leforum.be/spectacle_202611151600.html",
-      "summary": "L'ASBL Solmania Events présente Julien Dassin chante Joe Dassin.",
+      "summary": "L'ASBL SOLMANIA EVENTS présente Julien Dassin chante Joe Dassin.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -2489,9 +2821,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3127/heysel_85_og.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3127/heysel-85",
       "url": "https://www.grignoux.be//fr/evenement/3127/heysel-85",
-      "summary": "Avant-première du film Heysel 85",
+      "summary": "Avant-première du film Heysel 85.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -2507,28 +2841,14 @@
       "image": "https://www.leforum.be/visuel/SlideFront/Affiche-PE-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611172000.html",
       "url": "https://www.leforum.be/spectacle_202611172000.html",
-      "summary": "Back in the Dayz en accord avec La Vie est une Fête présente PE.",
+      "summary": "BACK IN THE DAYZ présente PE, ça ne s'est pas passé comme prévu.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-reflektor-li-ge-nayte-18-11-2026-11-18",
-      "title": "NAYTE (18/11)",
-      "category": "concert",
-      "venue": "Reflektor",
-      "city": "Liège",
-      "lat": 50.6432641,
-      "lon": 5.5679468,
-      "start": "2026-11-18T10:00:00",
-      "end": "2026-11-18T10:00:00",
-      "image": "https://reflektor.be/wp-content/uploads/2026/09/Nayte2-1-e1789458304779.jpeg",
-      "page_url": "https://reflektor.be/concert/nayte-18-11/",
-      "url": "https://shop.paylogic.com/172bc7d26911453a869d81b999a6245b",
-      "summary": "Concert NAYTE au Reflektor.",
-      "price_from": null,
-      "free": null,
-      "source": "Reflektor (Liège)"
     },
     {
       "id": "web-les-grignoux-cin-ma-li-ge-s-ance-en-audiodescription-le-voyage-de-chihiro-vf-202",
@@ -2543,14 +2863,16 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3147/le_voyage_de_chihiro_og.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3147/seance-en-audiodescription-le-voyage-de-chihiro-vf",
       "url": "https://www.grignoux.be//fr/evenement/3147/seance-en-audiodescription-le-voyage-de-chihiro-vf",
-      "summary": "Séance en audiodescription : Le Voyage de Chihiro VF",
+      "summary": "Séance en audiodescription du Voyage de Chihiro.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
       "id": "web-le-forum-li-ge-cl-ment-viktorovitch-l-art-de-ne-pas-dire-2026-11-18",
-      "title": "CLÉMENT VIKTOROVITCH \"L'ART DE NE PAS DIRE\"",
+      "title": "CLÉMENT VIKTOROVITCH - L'ART DE NE PAS DIRE",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -2561,9 +2883,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/clement_viktorovitch_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611182000.html",
       "url": "https://www.leforum.be/spectacle_202611182000.html",
-      "summary": "OD Live présente Clément Viktorovitch dans \"L'art de ne pas dire\".",
+      "summary": "OD LIVE présente Clément Viktorovitch - L'art de ne pas dire.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -2579,9 +2905,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/09/Nayte2-1-e1789458304779.jpeg",
       "page_url": "https://reflektor.be/concert/3467/",
       "url": "https://feverup.com/m/563650",
-      "summary": "Concert NAYTE au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -2597,9 +2925,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3144/les_recommencements_og.webp.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3144/les-recommencements",
       "url": "https://www.grignoux.be//fr/evenement/3144/les-recommencements",
-      "summary": "Projection spéciale du film Les Recommencements",
+      "summary": "Projection spéciale du film Les Recommencements.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -2615,9 +2945,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/RENAUD_rutten-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611192000.html",
       "url": "https://www.leforum.be/spectacle_202611192000.html",
-      "summary": "Grand Opera présente Renaud Rutten fait son cinéma.",
+      "summary": "GRAND OPERA présente Renaud Rutten fait son cinéma !",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -2633,9 +2967,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/02/628533-The-Jazz-Room-Paris-1-82e29e-original-1763724982-scaled-1.jpg",
       "page_url": "https://reflektor.be/concert/the-jazz-room-un-voyage-au-coeur-de-la-nouvelle-orleans-2/",
       "url": "https://shop.paylogic.com/476d083e126a450fbef1887f68a7d4ce",
-      "summary": "The Jazz Room : un voyage au cœur de La Nouvelle-Orléans au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -2651,28 +2987,14 @@
       "image": "https://www.leforum.be/visuel/SlideFront/hans-zimmer-alan-silvestri-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611202000.html",
       "url": "https://www.leforum.be/spectacle_202611202000.html",
-      "summary": "Grand Opera présente The Music of Hans Zimmer & Alan Silvestri.",
+      "summary": "GRAND OPERA présente The Music of Hans Zimmer & Alan Silvestri.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-reflektor-li-ge-o-2026-11-21",
-      "title": "Ão",
-      "category": "concert",
-      "venue": "Reflektor",
-      "city": "Liège",
-      "lat": 50.6432641,
-      "lon": 5.5679468,
-      "start": "2026-11-21T10:00:00",
-      "end": "2026-11-21T10:00:00",
-      "image": "https://reflektor.be/wp-content/uploads/2026/01/Ao-band-2025_4799_HR_©AlexanderPopelier-scaled-e1768293429838.jpg",
-      "page_url": "https://reflektor.be/concert/ao/",
-      "url": "https://shop.paylogic.com/a625f7a9d0b0464ab78c04dace462f65/",
-      "summary": "Concert Ão au Reflektor.",
-      "price_from": null,
-      "free": null,
-      "source": "Reflektor (Liège)"
     },
     {
       "id": "web-op-ra-royal-de-wallonie-zombie-opera-2026-11-21",
@@ -2687,9 +3009,11 @@
       "image": "https://www.operaliege.be/app/uploads/2026/03/2026-03-12_ORW-26-27_Hero_ZombieOpera_V2-1-scaled.jpg",
       "page_url": "https://www.operaliege.be/evenement/zombie-opera-2026/",
       "url": "https://www.operaliege.be/evenement/zombie-opera-2026/?opened",
-      "summary": "Création lyrique Zombie Opera par Andrea Battistoni.",
+      "summary": "Zombie Opera dirigé par Andrea Battistoni.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Opéra Royal de Wallonie"
     },
     {
@@ -2705,9 +3029,11 @@
       "image": "https://www.operaliege.be/app/uploads/2026/04/Zombie-Co-v1-1600x900px-2026-2027.png",
       "page_url": "https://www.operaliege.be/evenement/animation-zombie-co-2026/",
       "url": "https://www.operaliege.be/evenement/animation-zombie-co-2026/?opened",
-      "summary": "Animation Zombie & Co pour la saison 2026-2027.",
+      "summary": "Animation Zombie & Co à l'Opéra Royal de Wallonie.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Opéra Royal de Wallonie"
     },
     {
@@ -2723,9 +3049,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/LETZ_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611212000.html",
       "url": "https://www.leforum.be/spectacle_202611212000.html",
-      "summary": "Étoile Productions & Kultopolis présentent Zeppelin's Resurrection - Letz-Zep.",
+      "summary": "ETOILE PRODUCTIONS & KULTOPOLIS présentent Zeppelin's Resurrection - Letz-Zep.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -2741,9 +3071,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/jamelcomedyclub-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611221800.html",
       "url": "https://www.leforum.be/spectacle_202611221800.html",
-      "summary": "First Line Production présente Jamel Comedy Club.",
+      "summary": "FIRST LINE PRODUCTION présente Jamel Comedy Club.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -2759,9 +3093,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3131/la_nuit_des_femmes_og.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3131/la-nuit-des-femmes",
       "url": "https://www.grignoux.be//fr/evenement/3131/la-nuit-des-femmes",
-      "summary": "Classique : La Nuit des femmes",
+      "summary": "Projection du classique La Nuit des femmes.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -2777,9 +3113,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3146/tombe_du_ciel_og.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3146/cine-sme-tombe-du-ciel",
       "url": "https://www.grignoux.be//fr/evenement/3146/cine-sme-tombe-du-ciel",
-      "summary": "Ciné-SME : Tombé du ciel",
+      "summary": "Ciné-SME autour du film Tombé du ciel.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -2795,9 +3133,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3128/jupiter_og.webp",
       "page_url": "https://www.grignoux.be//fr/evenement/3128/jupiter",
       "url": "https://www.grignoux.be//fr/evenement/3128/jupiter",
-      "summary": "Rencontre autour du film Jupiter",
+      "summary": "Rencontre autour du film Jupiter.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -2813,9 +3153,11 @@
       "image": "https://www.leforum.be/visuel/SlideFront/AFFICHE-VERTICALE-CASSE-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611242000.html",
       "url": "https://www.leforum.be/spectacle_202611242000.html",
-      "summary": "Franceconcert présente Casse-Noisette - Ballet et orchestre.",
+      "summary": "FRANCECONCERT présente Casse-noisette - Ballet et orchestre.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -2831,14 +3173,16 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/03/cLoana-Duron-1-scaled-e1771943942257.jpeg",
       "page_url": "https://reflektor.be/concert/zelie/",
       "url": "https://shop.paylogic.com/90c9c7bcf5f24858904d6800adc49738",
-      "summary": "Concert Zélie au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
       "id": "web-le-forum-li-ge-laurent-gerra-se-met-table-2026-11-25",
-      "title": "LAURENT GERRA \"SE MET À TABLE !\"",
+      "title": "LAURENT GERRA - SE MET À TABLE !",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -2849,9 +3193,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/GERRA510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611252000.html",
       "url": "https://www.leforum.be/spectacle_202611252000.html",
-      "summary": "OD Live en accord avec GCP présente Laurent Gerra.",
+      "summary": "OD LIVE présente Laurent Gerra - Se met à table !",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -2867,9 +3215,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/06/RR-Admat-W13-TBM-1-scaled-e1780473427282.png",
       "page_url": "https://reflektor.be/concert/wednesday-13-the-birthday-massacre-killus/",
       "url": "https://shop.paylogic.com/bd55c648c91642b0bf2a209e0a7fbed2",
-      "summary": "Concert Wednesday 13 + THE BIRTHDAY MASSACRE + Killus au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -2882,12 +3232,16 @@
       "lon": 5.0765706,
       "start": "2026-11-26T20:00:00",
       "end": "2026-11-26T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/MACHIAVEL 510X630.jpg",
+      "image": "https://www.leforum.be/visuel/SlideFront/MACHIAVEL_510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611262000.html",
       "url": "https://www.leforum.be/spectacle_202611262000.html",
-      "summary": "Stage Magic présente Machiavel.",
+      "summary": "STAGE MAGIC présente Machiavel.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -2903,9 +3257,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/05/TRO2687-1-scaled-1-e1778592595735.jpg",
       "page_url": "https://reflektor.be/concert/seth-gueko/",
       "url": "https://shop.paylogic.com/20957c4251874867915d51f1d7b28514",
-      "summary": "Concert Seth Gueko au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -2921,9 +3277,17 @@
       "image": "https://cdn.prod.website-files.com/6368c5291a6c8b8e4deae634/6368c5291a6c8b5cb2eae6d6_Marche%CC%81%20de%20Noe%CC%88l%20305.jpeg",
       "page_url": "https://www.villagedenoel.be/programme",
       "url": "https://www.villagedenoel.be/programme",
-      "summary": "Le plus beau marché de Noël au cœur de la Cité Ardente avec plus de 200 chalets d'artisanat et 300 artisans.",
+      "summary": "Le plus ancien marché de Noël de Belgique avec plus de 200 chalets d'artisanat, cadeaux et gastronomie au cœur de Liège.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "family"
+      ],
+      "tags": [
+        "gourmand",
+        "créatif",
+        "découverte"
+      ],
       "source": "Village de Noël (Liège)"
     },
     {
@@ -2936,12 +3300,19 @@
       "lon": 5.5715938,
       "start": "2026-11-27T10:00:00",
       "end": "2027-01-02T20:00:00",
-      "image": "https://cdn.prod.website-files.com/6368c5291a6c8b8e4deae634/6368c5291a6c8b0e16eae755_FooterPatinoireIllu.png",
+      "image": "https://cdn.prod.website-files.com/6368c5291a6c8b8e4deae634/6368c5291a6c8b7e5aeae69a_Grande%20roue.jpg",
       "page_url": "https://www.villagedenoel.be/activite/la-patinoire",
       "url": "https://www.villagedenoel.be/activite/la-patinoire",
-      "summary": "Patinoire de Noël sur la Place de la Cathédrale pour un moment inoubliable en famille ou entre amis.",
+      "summary": "Patinoire de Noël à Liège pour des moments inoubliables en famille ou entre amis pendant les fêtes.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "family"
+      ],
+      "tags": [
+        "en plein air",
+        "découverte"
+      ],
       "source": "Village de Noël (Liège)"
     },
     {
@@ -2957,28 +3328,14 @@
       "image": "https://www.leforum.be/visuel/SlideFront/TYPH-BARROW-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611272000.html",
       "url": "https://www.leforum.be/spectacle_202611272000.html",
-      "summary": "OD Live Productions et Visions Records présentent Typh Barrow - Dreama Tour 2026.",
+      "summary": "OD LIVE PRODUCTIONS et VISIONS RECORDS présentent Typh Barrow - Dreama Tour 2026.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-reflektor-li-ge-hulk-2026-11-28",
-      "title": "Hulk",
-      "category": "concert",
-      "venue": "Reflektor",
-      "city": "Liège",
-      "lat": 50.6432641,
-      "lon": 5.5679468,
-      "start": "2026-11-28T10:00:00",
-      "end": "2026-11-28T10:00:00",
-      "image": "https://reflektor.be/wp-content/uploads/2026/04/WhatsApp-Image-2025-10-30-at-21.56.49-e1775810645269.jpeg",
-      "page_url": "https://reflektor.be/concert/hulk/",
-      "url": "https://shop.paylogic.com/1ec952da2efd444ca4a852a1a3544f5c/offsale",
-      "summary": "Concert Hulk au Reflektor.",
-      "price_from": null,
-      "free": null,
-      "source": "Reflektor (Liège)"
     },
     {
       "id": "web-le-forum-li-ge-c-est-d-cid-je-deviens-une-connasse-2026-11-28",
@@ -2993,9 +3350,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/connasse_510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611282000.html",
       "url": "https://www.leforum.be/spectacle_202611282000.html",
-      "summary": "Cœur de Scène Productions présente C'est décidé je deviens une connasse.",
+      "summary": "CŒUR DE SCENE PRODUCTIONS présente C'est décidé je deviens une connasse.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3011,9 +3372,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/Elvis_TheConcert2026_510.png",
       "page_url": "https://www.leforum.be/spectacle_202611292000.html",
       "url": "https://www.leforum.be/spectacle_202611292000.html",
-      "summary": "Show-Time.be presents Elvis - The Concert.",
+      "summary": "SHOW-TIME.BE présente Elvis - The Concert.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3029,9 +3394,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/VeronicDicaire_NouveauSpectacle_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612012000.html",
       "url": "https://www.leforum.be/spectacle_202612012000.html",
-      "summary": "Diagonale Productions présente Véronic Dicaire - Nouveau spectacle.",
+      "summary": "DIAGONALE PRODUCTIONS présente Véronic Dicaire - Nouveau spectacle.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3047,9 +3416,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/VeronicDicaire_NouveauSpectacle_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612022000.html",
       "url": "https://www.leforum.be/spectacle_202612022000.html",
-      "summary": "Diagonale Productions présente Véronic Dicaire - Nouveau spectacle.",
+      "summary": "DIAGONALE PRODUCTIONS présente Véronic Dicaire - Nouveau spectacle.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3065,9 +3438,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/06/NAFT_cBramLaebens_highres_format5_7-1-scaled-e1780559791154.jpg",
       "page_url": "https://reflektor.be/concert/naft/",
       "url": "https://shop.paylogic.com/d66e729cb25046838dec1f3e5834fcf1",
-      "summary": "Concert Naft au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -3080,12 +3455,16 @@
       "lon": 5.0765706,
       "start": "2026-12-03T20:00:00",
       "end": "2026-12-03T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/HOMMAGE A FRANCE GALL 510x630.jpg",
+      "image": "https://www.leforum.be/visuel/SlideFront/HOMMAGE_A_FRANCE_GALL_510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612032000.html",
       "url": "https://www.leforum.be/spectacle_202612032000.html",
-      "summary": "Eventside présente Hommage à France Gall.",
+      "summary": "EVENTSIDE présente Hommage à France Gall.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3101,9 +3480,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/nino-arial510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612042000.html",
       "url": "https://www.leforum.be/spectacle_202612042000.html",
-      "summary": "Kiss Kiss Prod en accord avec Juicy Production présente Nino Arial.",
+      "summary": "KISS KISS PROD présente Nino Arial : Pas comme eux.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3119,15 +3502,17 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/03/SYD_paysage_©Valentin_Folliet-scaled.jpg",
       "page_url": "https://reflektor.be/concert/syd-matters/",
       "url": "https://shop.paylogic.com/2a4a6d38ec4143789b1350935d75ba63",
-      "summary": "Concert Syd Matters au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
       "id": "web-op-ra-royal-de-wallonie-vente-de-costumes-2026-12-05",
       "title": "Vente de costumes",
-      "category": "fair",
+      "category": "culture",
       "venue": "Opéra Royal de Wallonie",
       "city": "Liège",
       "lat": 50.6432887,
@@ -3140,11 +3525,13 @@
       "summary": "Vente de costumes de l'Opéra Royal de Wallonie.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Opéra Royal de Wallonie"
     },
     {
       "id": "web-le-forum-li-ge-olivier-de-benoist-le-droit-au-bonheur-2026-12-05",
-      "title": "OLIVIER DE BENOIST \"LE DROIT AU BONHEUR\"",
+      "title": "OLIVIER DE BENOIST - LE DROIT AU BONHEUR",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -3155,9 +3542,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/ODB-510.png",
       "page_url": "https://www.leforum.be/spectacle_202612052000.html",
       "url": "https://www.leforum.be/spectacle_202612052000.html",
-      "summary": "OD Live en accord avec Kimaimemesuive présente Olivier de Benoist.",
+      "summary": "OD LIVE présente Olivier de Benoist - Le droit au bonheur.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3170,17 +3561,21 @@
       "lon": 5.0765706,
       "start": "2026-12-06T18:00:00",
       "end": "2026-12-06T18:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/LEMAY-LALANNE 510x630.jpg",
+      "image": "https://www.leforum.be/visuel/SlideFront/LEMAY-LALANNE_510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612061800.html",
       "url": "https://www.leforum.be/spectacle_202612061800.html",
-      "summary": "Mediascene présente Lynda Lemay & Jean-Félix Lalanne.",
+      "summary": "MEDIASCENE présente Lynda Lemay & Jean-Félix Lalanne.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
       "id": "web-le-forum-li-ge-j-r-me-de-warz-e-va-au-diable-2026-12-08",
-      "title": "JÉRÔME DE WARZÉE \"VA AU DIABLE\"",
+      "title": "JÉRÔME DE WARZÉE - VA AU DIABLE",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -3191,9 +3586,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/A2-Jerome-de-Warzee-510.png",
       "page_url": "https://www.leforum.be/spectacle_202612082000.html",
       "url": "https://www.leforum.be/spectacle_202612082000.html",
-      "summary": "Mediascene présente Jérôme de Warzée dans \"Va au diable\".",
+      "summary": "MEDIASCENE présente Jérôme de Warzée - Va au diable.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3209,9 +3608,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/06/RET_EMEL_MATHLOUTHI-4-0183-cropped-scaled-1.jpg",
       "page_url": "https://reflektor.be/concert/emel/",
       "url": "https://shop.paylogic.com/ff0a55215fdb41c1a822a4b119df2f25",
-      "summary": "Concert Emel au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -3227,9 +3628,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/09/kahil-Isaiah-1-e1790174160435.png",
       "page_url": "https://reflektor.be/concert/kahil-elzabar-isaiah-collier-duo/",
       "url": "https://shop.paylogic.com/a1174aa8c6cc43fd9283a8722b3054b1",
-      "summary": "Concert Kahil El'Zabar & Isaiah Collier Duo au Regina Club.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -3245,9 +3648,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/GIPSY-KINGS-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612092000.html",
       "url": "https://www.leforum.be/spectacle_202612092000.html",
-      "summary": "Eventside présente Pablo Reyes, ancien membre de Gipsy Kings.",
+      "summary": "EVENTSIDE présente Pablo Reyes - Former member of Gipsy King.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3263,9 +3670,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3155/concert_tahiti80_vignette.jpg",
       "page_url": "https://www.grignoux.be//fr/evenement/3155/tahiti-80-carla-biber",
       "url": "https://www.grignoux.be//fr/evenement/3155/tahiti-80-carla-biber",
-      "summary": "Concert : Tahiti 80 + Carla Biber",
+      "summary": "Concert de Tahiti 80 et Carla Biber.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -3281,9 +3690,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/07/Didier-Huma-scaled-1.png",
       "page_url": "https://reflektor.be/concert/didier-super-et-son-groupe-discount/",
       "url": "https://shop.paylogic.com/b5c5cda405104373806df413ce341b59",
-      "summary": "Concert Didier Super et son groupe Discount au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -3296,12 +3707,16 @@
       "lon": 5.0765706,
       "start": "2026-12-11T20:00:00",
       "end": "2026-12-11T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/pink_floyd_format_510X630.png",
+      "image": "https://www.leforum.be/visuel/SlideFront/pink_floyd_format_510x630.png",
       "page_url": "https://www.leforum.be/spectacle_202612112000.html",
       "url": "https://www.leforum.be/spectacle_202612112000.html",
-      "summary": "Show-Time.be présente 60 Years of Pink Floyd.",
+      "summary": "SHOW-TIME.BE présente 60 Years of Pink Floyd.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3317,9 +3732,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/BREL-lespectacle510.png",
       "page_url": "https://www.leforum.be/spectacle_202612122000.html",
       "url": "https://www.leforum.be/spectacle_202612122000.html",
-      "summary": "Directo Prod & Gil Marsalla présentent Brel ! Le spectacle.",
+      "summary": "DIRECTO PROD & GIL MARSALLA présentent Brel ! Le spectacle.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3335,9 +3754,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/cochons-d-inde-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612131700.html",
       "url": "https://www.leforum.be/spectacle_202612131700.html",
-      "summary": "Le Forum présente Cochons d'Inde.",
+      "summary": "LE FORUM présente Cochons d'Inde.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "family"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3350,19 +3773,23 @@
       "lon": 5.0765706,
       "start": "2026-12-14T20:00:00",
       "end": "2026-12-14T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/CARMEN 510x630.jpg",
+      "image": "https://www.leforum.be/visuel/SlideFront/CARMEN_510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612142000.html",
       "url": "https://www.leforum.be/spectacle_202612142000.html",
-      "summary": "Stage Magic présente Carmen by the Antonio Gades Company.",
+      "summary": "STAGE MAGIC présente Carmen by the Antonio Gades Company.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
       "id": "web-les-grignoux-cin-ma-li-ge-dune-troisi-me-partie-2026-12-15",
       "title": "Dune : Troisième partie",
       "category": "cinema",
-      "venue": "le Parc",
+      "venue": "Le Parc",
       "city": "Liège",
       "lat": 50.6461677,
       "lon": 5.6027714,
@@ -3371,9 +3798,11 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3119/dune_part_three_og.jpg",
       "page_url": "https://www.grignoux.be//fr/evenement/3119/dune-troisieme-partie",
       "url": "https://www.grignoux.be//fr/evenement/3119/dune-troisieme-partie",
-      "summary": "Avant-première du film Dune : Troisième partie",
+      "summary": "Avant-première du film Dune : Troisième partie.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -3389,9 +3818,11 @@
       "image": "https://www.leforum.be/visuel/SlideFront/les-quatres-saisons-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612152000.html",
       "url": "https://www.leforum.be/spectacle_202612152000.html",
-      "summary": "Franceconcert présente Les 4 Saisons - Ballet.",
+      "summary": "FRANCECONCERT présente Les 4 Saisons - Ballet.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3407,9 +3838,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/2CALOGERO_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612162000.html",
       "url": "https://www.leforum.be/spectacle_202612162000.html",
-      "summary": "OD Live en accord avec TS3 - Fimalac présente Calogero.",
+      "summary": "OD LIVE présente Calogero en concert.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3425,9 +3860,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/09/Design-sans-titre-12.png",
       "page_url": "https://reflektor.be/concert/kid-sophie-fanny/",
       "url": "https://feverup.com/m/650639?srsltid=AfmBOopFNWbf75ZR_zcQxaoJ4WyCG2vMSVWrYadWhqoW9f-i3SKHlZ0H",
-      "summary": "Concert KID SOPHIE + FANNY au Regina Club.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -3443,14 +3880,16 @@
       "image": "https://www.operaliege.be/app/uploads/2026/03/2026-03-12_ORW-26-27_Hero_Thais_V2-1-scaled.jpg",
       "page_url": "https://www.operaliege.be/evenement/opera-thais-2026/",
       "url": "https://www.operaliege.be/evenement/opera-thais-2026/?opened",
-      "summary": "Opéra Thaïs de Jules Massenet.",
+      "summary": "Thaïs de Jules Massenet à l'Opéra Royal de Wallonie.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Opéra Royal de Wallonie"
     },
     {
       "id": "web-le-forum-li-ge-david-castello-lopes-delicieux-2026-12-17",
-      "title": "DAVID CASTELLO-LOPES - \"DELICIEUX\"",
+      "title": "DAVID CASTELLO-LOPES - DELICIEUX",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -3461,9 +3900,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/dcl510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612172000.html",
       "url": "https://www.leforum.be/spectacle_202612172000.html",
-      "summary": "Next-Step.be en accord avec Corpus Prod présente David Castello-Lopes.",
+      "summary": "NEXT-STEP.BE présente David Castello-Lopes - Delicieux.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3479,9 +3922,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/02/628533-The-Jazz-Room-Paris-1-82e29e-original-1763724982-scaled-1.jpg",
       "page_url": "https://reflektor.be/concert/the-jazz-room-un-hommage-a-frank-sinatra-et-a-louis-armstrong-12-2026/",
       "url": "https://feverup.com/m/521008/fr",
-      "summary": "The Jazz Room : un hommage à Frank Sinatra et à Louis Armstrong.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -3497,9 +3942,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/Goldmanmania-510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612192000.html",
       "url": "https://www.leforum.be/spectacle_202612192000.html",
-      "summary": "Étoile Productions présente Goldmanmania - On n'a pas changé.",
+      "summary": "ÉTOILE PRODUCTIONS présente Goldmanmania - On n'a pas changé.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3515,9 +3964,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/les-gauff-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612202000.html",
       "url": "https://www.leforum.be/spectacle_202612202000.html",
-      "summary": "G.A.S ASBL présente le tout dernier concert du Mon Dentier.",
+      "summary": "G.A.S ASBL présente Le Tout dernier concert du mon dentier.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3533,9 +3986,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/NACIM-HADDAD510.png",
       "page_url": "https://www.leforum.be/spectacle_202612262000.html",
       "url": "https://www.leforum.be/spectacle_202612262000.html",
-      "summary": "Kiss Kiss Prod en accord avec Work Event présente Nacim Haddad - Ayta World Tour.",
+      "summary": "KISS KISS PROD présente Nacim Haddad - Ayta World Tour.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3551,9 +4008,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/la-belle-au-bois-dormant-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612271400.html",
       "url": "https://www.leforum.be/spectacle_202612271400.html",
-      "summary": "Grand Opera présente La Belle au Bois Dormant.",
+      "summary": "GRAND OPERA présente La Belle au bois dormant.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "family"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3569,9 +4030,11 @@
       "image": "https://www.leforum.be/visuel/SlideFront/lac-des-cygnes-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612271800.html",
       "url": "https://www.leforum.be/spectacle_202612271800.html",
-      "summary": "Grand Opera présente Le Lac des Cygnes.",
+      "summary": "GRAND OPERA présente Le Lac des cygnes.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3587,9 +4050,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/un-courrier-de-noel-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612291900.html",
       "url": "https://www.leforum.be/spectacle_202612291900.html",
-      "summary": "Enchanté - Arts de la Scène présente Un Courrier pour Noël.",
+      "summary": "ENCHANTÉ - ARTS DE LA SCÈNE présente Un courrier pour Noël.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "family"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3605,9 +4072,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/CHERS-PARENTS_510-ok.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612312000.html",
       "url": "https://www.leforum.be/spectacle_202612312000.html",
-      "summary": "Le Forum & Le Théâtre Arlequin présentent Chers Parents avec réveillon au champagne.",
+      "summary": "LE FORUM & LE THEATRE ARLEQUIN présentent Chers Parents avec réveillon au champagne.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3623,9 +4094,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/thierry-lhermitte-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701062000.html",
       "url": "https://www.leforum.be/spectacle_202701062000.html",
-      "summary": "Eventside présente La Rencontre - Thierry Lhermitte.",
+      "summary": "EVENTSIDE présente La Rencontre - Thierry Lhermitte.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3641,9 +4116,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/fabrice-eboue-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701072000.html",
       "url": "https://www.leforum.be/spectacle_202701072000.html",
-      "summary": "OD Live en accord avec Cheyenne et Chez Félix présente Fabrice Eboué - Solitudes.",
+      "summary": "OD LIVE présente Fabrice Eboué - Solitudes.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3659,9 +4138,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/u2-510x630px.png",
       "page_url": "https://www.leforum.be/spectacle_202701082000.html",
       "url": "https://www.leforum.be/spectacle_202701082000.html",
-      "summary": "Ginger présente With U2 Day - A U2 Tribute.",
+      "summary": "GINGER présente With U2 Day - A U2 Tribute.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3677,14 +4160,16 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/02/628533-The-Jazz-Room-Paris-1-82e29e-original-1763724982-scaled-1.jpg",
       "page_url": "https://reflektor.be/concert/the-jazz-room-un-voyage-au-coeur-de-la-nouvelle-orleans/",
       "url": "https://shop.paylogic.com/e528734395f748d29122d4fd79f121c5",
-      "summary": "The Jazz Room : un voyage au cœur de La Nouvelle-Orléans au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
       "id": "web-le-forum-li-ge-olivier-de-benoist-le-droit-au-bonheur-2027-01-09",
-      "title": "OLIVIER DE BENOIST \"LE DROIT AU BONHEUR\"",
+      "title": "OLIVIER DE BENOIST - LE DROIT AU BONHEUR",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -3695,9 +4180,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/ODB-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701092000.html",
       "url": "https://www.leforum.be/spectacle_202701092000.html",
-      "summary": "OD Live en accord avec Kimaimemesuive présente Olivier de Benoist.",
+      "summary": "OD LIVE présente Olivier de Benoist - Le droit au bonheur.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3710,17 +4199,19 @@
       "lon": 5.0765706,
       "start": "2027-01-10T17:00:00",
       "end": "2027-01-10T17:00:00",
-      "image": "https://www.leforum.be/visuel/Promo23/CREDEVILLE 630x370.jpg",
+      "image": "https://www.leforum.be/visuel/SlideFront/CREDEVILLE_510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701101700.html",
       "url": "https://www.leforum.be/spectacle_202701101700.html",
-      "summary": "Kiss Kiss Prod en accord avec Surmesures Prod présente Geremy Credeville.",
+      "summary": "KISS KISS PROD présente Geremy Credeville dans Enchanteur.",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
       "id": "web-le-forum-li-ge-arnaud-tsamere-tous-contraints-2027-01-14",
-      "title": "ARNAUD TSAMERE - \"TOUS CONTRAINTS\"",
+      "title": "ARNAUD TSAMERE - TOUS CONTRAINTS",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -3731,14 +4222,18 @@
       "image": "https://www.leforum.be/visuel/SlideFront/COUVEVENT-ARNAUD-TSAMERE-TOUS-CONTRAINTS-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701142000.html",
       "url": "https://www.leforum.be/spectacle_202701142000.html",
-      "summary": "OD Live en accord avec DSP présente Arnaud Tsamere dans \"Tous contraints\".",
+      "summary": "OD LIVE présente Arnaud Tsamere - Tous contraints.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
       "id": "web-le-forum-li-ge-arnaud-tsamere-tous-contraints-2027-01-15",
-      "title": "ARNAUD TSAMERE - \"TOUS CONTRAINTS\"",
+      "title": "ARNAUD TSAMERE - TOUS CONTRAINTS",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -3749,9 +4244,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/COUVEVENT-ARNAUD-TSAMERE-TOUS-CONTRAINTS-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701152000.html",
       "url": "https://www.leforum.be/spectacle_202701152000.html",
-      "summary": "OD Live en accord avec DSP présente Arnaud Tsamere dans \"Tous contraints\".",
+      "summary": "OD LIVE présente Arnaud Tsamere - Tous contraints.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3767,14 +4266,16 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/03/CD53790_NB-1-scaled-e1774602854358.jpeg",
       "page_url": "https://reflektor.be/concert/charles-dore/",
       "url": "https://shop.paylogic.com/d47b72fedfb249f88dd158e7287f0263",
-      "summary": "Concert Charles Doré au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
       "id": "web-le-forum-li-ge-sarah-schwab-elles-et-moi-2027-01-16",
-      "title": "SARAH SCHWAB - \"ELLES ET MOI\"",
+      "title": "SARAH SCHWAB - ELLES ET MOI",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -3785,9 +4286,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/sarah-schwab-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701162000.html",
       "url": "https://www.leforum.be/spectacle_202701162000.html",
-      "summary": "Mediascene en accord avec Magic TV présente Sarah Schwab - \"Elles et moi\".",
+      "summary": "MEDIASCENE présente Sarah Schwab - Elles et moi.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3803,27 +4308,35 @@
       "image": "https://www.leforum.be/visuel/SlideFront/JOE_DASSIN_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701171700.html",
       "url": "https://www.leforum.be/spectacle_202701171700.html",
-      "summary": "OD Live en accord avec 20h40 Prod présente Dassin chante Dassin.",
+      "summary": "OD LIVE présente Dassin chante Dassin.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
       "id": "web-le-forum-li-ge-lalou-brt-2027-01-20",
       "title": "LALOU BRT",
-      "category": "theatre",
+      "category": "concert",
       "venue": "Le Forum",
       "city": "Liège",
       "lat": 50.6715318,
       "lon": 5.0765706,
       "start": "2027-01-20T20:00:00",
       "end": "2027-01-20T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/Lalou 510x630.jpg",
+      "image": "https://www.leforum.be/visuel/SlideFront/Lalou_510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701202000.html",
       "url": "https://www.leforum.be/spectacle_202701202000.html",
-      "summary": "Furax, Black Bird Prod et Back in the Dayz présentent Lalou BRT.",
+      "summary": "FURAX, BLACK BIRD PROD et BACK IN THE DAYZ présentent Lalou Brt.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3839,14 +4352,18 @@
       "image": "https://www.leforum.be/visuel/SlideFront/mathieur-stepson-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701212000.html",
       "url": "https://www.leforum.be/spectacle_202701212000.html",
-      "summary": "OD Live en accord avec AMTP présente Mathieu Stepson.",
+      "summary": "OD LIVE présente Mathieu Stepson.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
       "id": "web-le-forum-li-ge-damien-gillard-rude-2027-01-22",
-      "title": "DAMIEN GILLARD - \"RUDE\"",
+      "title": "DAMIEN GILLARD - RUDE",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -3857,9 +4374,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/Damien-Gillard-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701222000.html",
       "url": "https://www.leforum.be/spectacle_202701222000.html",
-      "summary": "Corniaud and Co présente Damien Gillard dans \"Rude\".",
+      "summary": "CORNIAUD AND CO présente Damien Gillard - Rude.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3875,9 +4396,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/depeche-mode-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701232000.html",
       "url": "https://www.leforum.be/spectacle_202701232000.html",
-      "summary": "Médiascène et Palladium Prod présentent The Depeche Mode Experience.",
+      "summary": "MÉDIASCÈNE et PALLADIUM PROD présentent The Depeche Mode Experience.",
       "price_from": null,
       "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3893,27 +4418,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/MANON-BRIL-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701272000.html",
       "url": "https://www.leforum.be/spectacle_202701272000.html",
-      "summary": "Fourchette Suisse Productions et Back in the Dayz présentent Manon Bril.",
+      "summary": "FOURCHETTE SUISSE PRODUCTIONS et BACK IN THE DAYZ présentent Manon Bril - 300 000 ans.",
       "price_from": null,
       "free": null,
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-coldplay-by-coverplay-2027-01-28",
-      "title": "COLDPLAY BY COVERPLAY",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-01-28T20:00:00",
-      "end": "2027-01-28T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/COLDPLAY-FORUM510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202701282000.html",
-      "url": "https://www.leforum.be/spectacle_202701282000.html",
-      "summary": "Eventside présente Coldplay by Coverplay.",
-      "price_from": null,
-      "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
@@ -3929,118 +4440,12 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/04/PICHE-ZOULETTE-17-1-scaled-e1777467132961.jpg",
       "page_url": "https://reflektor.be/concert/piche/",
       "url": "https://shop.paylogic.com/21b05858747541138e3db4afc5d1efbf",
-      "summary": "Concert Piche au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-garou-solo-2027-01-29",
-      "title": "GAROU \"SOLO\"",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-01-29T20:00:00",
-      "end": "2027-01-29T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/Garou 510x630.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202701292000.html",
-      "url": "https://www.leforum.be/spectacle_202701292000.html",
-      "summary": "Diagonale Productions présente Garou \"Solo\".",
-      "price_from": null,
-      "free": null,
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-casse-noisette-ballet-et-orchestre-2027-01-30",
-      "title": "CASSE-NOISETTE — BALLET ET ORCHESTRE",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-01-30T20:00:00",
-      "end": "2027-01-30T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/casse-noisette-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202701302000.html",
-      "url": "https://www.leforum.be/spectacle_202701302000.html",
-      "summary": "Franceconcert présente Casse-Noisette - Ballet et orchestre.",
-      "price_from": null,
-      "free": null,
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-k-pop-superstars-2027-01-31",
-      "title": "K-POP SUPERSTARS",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-01-31T14:00:00",
-      "end": "2027-01-31T14:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/KPOP510.png",
-      "page_url": "https://www.leforum.be/spectacle_202701311400.html",
-      "url": "https://www.leforum.be/spectacle_202701311400.html",
-      "summary": "Grand Opera présente K-Pop Superstars.",
-      "price_from": null,
-      "free": null,
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-hommage-pierre-rapsat-brasero-2027-02-02",
-      "title": "HOMMAGE À PIERRE RAPSAT : BRASERO",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-02-02T20:00:00",
-      "end": "2027-02-02T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/rapsat-510.png",
-      "page_url": "https://www.leforum.be/spectacle_202702022000.html",
-      "url": "https://www.leforum.be/spectacle_202702022000.html",
-      "summary": "Eventside présente Hommage à Pierre Rapsat : Brasero.",
-      "price_from": null,
-      "free": null,
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-menopause-2027-02-03",
-      "title": "MENOPAUSE",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-02-03T20:00:00",
-      "end": "2027-02-03T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/menopause-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202702032000.html",
-      "url": "https://www.leforum.be/spectacle_202702032000.html",
-      "summary": "Mediascene présente Ménopause.",
-      "price_from": null,
-      "free": null,
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-tu-aimes-tellement-la-vie-2027-02-05",
-      "title": "TU AIMES TELLEMENT LA VIE",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-02-05T20:00:00",
-      "end": "2027-02-05T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/VISU_POELVOORDE-510.png",
-      "page_url": "https://www.leforum.be/spectacle_202702052000.html",
-      "url": "https://www.leforum.be/spectacle_202702052000.html",
-      "summary": "Corniaud and Co présente Benoît Poelvoorde et Bérénice Bourgueil.",
-      "price_from": null,
-      "free": null,
-      "source": "Le Forum (Liège)"
     },
     {
       "id": "web-reflektor-li-ge-black-box-revelation-2027-02-06",
@@ -4055,100 +4460,12 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/09/BBR-6959-CDK-kopie-1-e1789735741103-scaled.jpg",
       "page_url": "https://reflektor.be/concert/black-box-revelation-2/",
       "url": "https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fshop.paylogic.com%2F339752fbb7534d6ab2858c66698909c5&data=05%7C02%7Clea%402stations.be%7Cec1362e245624d8af73408dec0771c14%7Cfac9bd292709468684f679246922c969%7C0%7C0%7C639159814971118814%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=cSMAtEL%2FiMcMW9Gg30zPw%2F08Jjd0hlBbLl9zty3Eaig%3D&reserved=0",
-      "summary": "Concert Black Box Revelation au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-verino-rod-o-2027-02-06",
-      "title": "VERINO - RODÉO",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-02-06T20:00:00",
-      "end": "2027-02-06T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/verino-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202702062000.html",
-      "url": "https://www.leforum.be/spectacle_202702062000.html",
-      "summary": "OD Live en accord avec Inglorious Prod présente Verino - Rodéo.",
-      "price_from": null,
-      "free": null,
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-messmer-13hz-derni-res-repr-sentations-2027-02-10",
-      "title": "MESSMER \"13HZ\" - DERNIÈRES REPRÉSENTATIONS",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-02-10T20:00:00",
-      "end": "2027-02-10T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/MESSMER 510x630.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202702102000.html",
-      "url": "https://www.leforum.be/spectacle_202702102000.html",
-      "summary": "Diagonale Productions présente Messmer \"13Hz\" - Dernières représentations.",
-      "price_from": null,
-      "free": null,
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-messmer-13hz-derni-res-repr-sentations-2027-02-11",
-      "title": "MESSMER \"13HZ\" - DERNIÈRES REPRÉSENTATIONS",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-02-11T20:00:00",
-      "end": "2027-02-11T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/MESSMER 510x630.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202702112000.html",
-      "url": "https://www.leforum.be/spectacle_202702112000.html",
-      "summary": "Diagonale Productions présente Messmer \"13Hz\" - Dernières représentations.",
-      "price_from": null,
-      "free": null,
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-edgar-yves-dans-vigilance-2027-02-12",
-      "title": "EDGAR-YVES DANS VIGILANCE",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-02-12T20:00:00",
-      "end": "2027-02-12T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/EDGAR-YVES 510x630.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202702122000.html",
-      "url": "https://www.leforum.be/spectacle_202702122000.html",
-      "summary": "Pirates Nation présente Edgar-Yves dans Vigilance.",
-      "price_from": null,
-      "free": null,
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-michel-fugain-c-est-l-histoire-d-une-belle-histoire-2027-02-13",
-      "title": "MICHEL FUGAIN \"C'EST L'HISTOIRE D'UNE BELLE HISTOIRE\"",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-02-13T20:00:00",
-      "end": "2027-02-13T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/MichelFugain_TOURNEE_CARRE2-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202702132000.html",
-      "url": "https://www.leforum.be/spectacle_202702132000.html",
-      "summary": "Diagonale Productions présente Michel Fugain.",
-      "price_from": null,
-      "free": null,
-      "source": "Le Forum (Liège)"
     },
     {
       "id": "web-reflektor-li-ge-enslaved-solstafir-gaahls-wyrd-2027-02-18",
@@ -4163,9 +4480,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/10/FB-PROMOTER.png",
       "page_url": "https://reflektor.be/concert/enslaved-solstafir-gaahls-wyrd/",
       "url": "https://shop.paylogic.com/a82b7df1f3194e9f8e1566977161e4ec",
-      "summary": "Concert Enslaved & Solstafir + Gaahls Wyrd à l'OM.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -4181,9 +4500,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/06/TO-USE-SAM-BETTENS_-PROMOFOTO_photographer-Thomas-Richard-Mertens-1-e1780387245368.jpg",
       "page_url": "https://reflektor.be/concert/sam-bettens/",
       "url": "https://shop.paylogic.com/20de10831e7b4cbabfcf7d7b62ea4fe8/",
-      "summary": "Concert Sam Bettens au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -4199,9 +4520,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/09/ChatGPT-Image-3-sept.-2026-09_48_20.png",
       "page_url": "https://reflektor.be/concert/noe-preszow-2/",
       "url": "https://shop.paylogic.com/4a37fa4c240d4cbaae94f6bbb8f35a5c",
-      "summary": "Concert Noé Preszow au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -4217,9 +4540,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/09/Kodak_4732-copy-1-scaled-e1789549601486.jpg",
       "page_url": "https://reflektor.be/concert/anaiis/",
       "url": "https://shop.paylogic.com/5863b3f1655d4655936b60522551e31c",
-      "summary": "Concert anaiis au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -4235,9 +4560,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/06/PPRR-MARBLE-1-scaled-e1780927849829.jpeg",
       "page_url": "https://reflektor.be/concert/pony-pony-run-run/",
       "url": "https://shop.paylogic.com/a82b7df1f3194e9f8e1566977161e4ec",
-      "summary": "Concert Pony Pony Run Run au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -4253,9 +4580,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/10/EOSINE-PRESS-PICS-26-c-Tone-Verswijvel-25-scaled-1-e1791191311935.jpg",
       "page_url": "https://reflektor.be/concert/eosine-2/",
       "url": "https://shop.paylogic.com/03f041539bfe460ba7be3f64aebb9b96",
-      "summary": "Concert Eosine au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -4271,9 +4600,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/09/ChatGPT-Image-4-sept.-2026-10_16_24.png",
       "page_url": "https://reflektor.be/concert/the-chameleons/",
       "url": "https://shop.paylogic.com/23aab40727664cd9a172d19b64de7350/",
-      "summary": "Concert The Chameleons au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -4289,9 +4620,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/09/Nits-7-Fotografie-@-Wim-van-de-Hulst-1-scaled-1.jpg",
       "page_url": "https://reflektor.be/concert/nits/",
       "url": "https://shop.paylogic.com/21b05858747541138e3db4afc5d1efbf",
-      "summary": "Concert Nits à l'OM.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -4307,9 +4640,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/09/04-c-Eric-Scaggiante.jpg",
       "page_url": "https://reflektor.be/concert/teddybear/",
       "url": "https://shop.paylogic.com/8fcf163d05a24e2f996f10aff998cef2",
-      "summary": "Concert TeddyBear à l'OM.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -4325,9 +4660,11 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/08/cTheo-Paul-Dufour-1-e1786614728497-scaled.jpg",
       "page_url": "https://reflektor.be/concert/bilal-hassani/",
       "url": "https://shop.paylogic.com/96bb79d9b0974510a9d7bf25d0010bc0/",
-      "summary": "Concert Bilal Hassani au Reflektor.",
+      "summary": "",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
@@ -4374,24 +4711,6 @@
       "url": "https://www.spagrandprix.com/fr/ticketing",
       "summary": "Every year, the Formula 1 Belgian Grand Prix draws thousands of fans to one of the most iconic circuits in the championship. Spa-Francorchamps, with legendary corners like Eau Rouge - Raidillon, long straights and lush green surroundings, offers a unique blend of speed, technique and emotion.",
       "source": "spa-francorchamps.be"
-    },
-    {
-      "id": "web-reflektor-li-ge-the-mission-2027-09-24",
-      "title": "The Mission",
-      "category": "concert",
-      "venue": "Reflektor",
-      "city": "Liège",
-      "lat": 50.6432641,
-      "lon": 5.5679468,
-      "start": "2027-09-24T10:00:00",
-      "end": "2027-09-24T10:00:00",
-      "image": "https://reflektor.be/wp-content/uploads/2026/09/Bear-Pit_mono-DSC5764-1-scaled-e1788248605295.jpg",
-      "page_url": "https://reflektor.be/concert/the-mission/",
-      "url": "https://reflektor.be/concert/the-mission/",
-      "summary": "Concert The Mission au Reflektor.",
-      "price_from": null,
-      "free": null,
-      "source": "Reflektor (Liège)"
     }
   ]
 }
