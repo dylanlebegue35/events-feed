@@ -297,6 +297,66 @@ def manual():
     return out
 
 
+
+# ============================================================ 4. Lieux d'activités (OpenStreetMap)
+OVERPASS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter",
+            "https://overpass.private.coffee/api/interpreter"]
+CENTER = (50.6326, 5.5797)  # Liège
+# (clé OSM, valeur) -> (type d'activité, libellé)
+PLACE_KINDS = {
+    ("leisure", "bowling_alley"): ("bowling", "Bowling"),
+    ("leisure", "escape_game"): ("escape", "Escape game"),
+    ("sport", "karting"): ("karting", "Karting"),
+    ("sport", "laser_tag"): ("laser", "Laser game"),
+    ("leisure", "trampoline_park"): ("trampoline", "Trampoline park"),
+    ("sport", "climbing"): ("climbing", "Escalade"),
+    ("sport", "billiards"): ("billiards", "Billard"),
+    ("leisure", "amusement_arcade"): ("arcade", "Salle d'arcade"),
+    ("leisure", "miniature_golf"): ("minigolf", "Mini-golf"),
+    ("amenity", "nightclub"): ("club", "Club"),
+    ("leisure", "water_park"): ("waterpark", "Parc aquatique"),
+}
+
+
+def places(radius=15000):
+    around = f"(around:{radius},{CENTER[0]},{CENTER[1]})"
+    body = "".join(f'nwr{around}["{k}"="{v}"];' for (k, v) in PLACE_KINDS)
+    query = f"[out:json][timeout:60];({body});out tags center;"
+    data = None
+    for url in OVERPASS:
+        r = subprocess.run(["curl", "-s", "--max-time", "90", "-A", "StudioAppsBot/1.0 (events-feed)",
+                            "-H", "Accept: application/json", url, "--data-urlencode", "data=" + query],
+                           capture_output=True)
+        try:
+            data = json.loads(r.stdout)
+            break
+        except Exception:
+            continue
+    if data is None:
+        raise RuntimeError("OpenStreetMap indisponible")
+    out, seen = [], set()
+    for el in data.get("elements", []):
+        t = el.get("tags", {})
+        name = t.get("name")
+        lat = el.get("lat") or el.get("center", {}).get("lat")
+        lon = el.get("lon") or el.get("center", {}).get("lon")
+        if not name or lat is None or re.search(r"casino|poker|paris|loto", name, re.I):
+            continue
+        kind = next((PLACE_KINDS[(k, v)] for (k, v) in PLACE_KINDS if t.get(k) == v), None)
+        if not kind or (name.lower(), kind[0]) in seen:
+            continue
+        seen.add((name.lower(), kind[0]))
+        site = t.get("website") or t.get("contact:website")
+        if site and not site.startswith("http"):
+            site = "https://" + site
+        out.append({
+            "id": f"osm-{el['type']}-{el['id']}", "name": name, "kind": kind[0], "kind_label": kind[1],
+            "city": t.get("addr:city") or "", "lat": lat, "lon": lon, "website": site,
+            "hours": t.get("opening_hours"), "image": None,
+        })
+    return out
+
+
 # ============================================================ photos manquantes
 BAD_IMG = re.compile(r"logo|favicon|icon|sprite|flag|avatar|placeholder|blank|pixel|spinner|loader|banner-cookie|\.svg|\.gif|qtranslate", re.I)
 
@@ -363,6 +423,19 @@ def main():
             seen.add(k)
             uniq.append(e)
     fill_images(uniq)
+    try:
+        lieux = places()
+        for p in lieux[:150]:           # photo du site officiel quand il y en a un
+            if p.get("website"):
+                try:
+                    p["image"] = best_image(fetch(p["website"], timeout=12), p["website"])
+                except Exception:
+                    pass
+        (HERE / "places.json").write_text(json.dumps({"generated": datetime.now().isoformat(timespec="seconds"),
+                                                      "places": lieux}, ensure_ascii=False, indent=1), encoding="utf-8")
+        print(f"Lieux d'activités: {len(lieux)}")
+    except Exception as ex:
+        print(f"Lieux d'activités: ÉCHEC ({ex}), on garde la liste précédente", file=sys.stderr)
     (HERE / "rapport.json").write_text(json.dumps(
         {"genere": datetime.now().isoformat(timespec="seconds"), "sources": REPORT,
          "avec_image": sum(1 for e in uniq if e.get("image")), "total": len(uniq)},
