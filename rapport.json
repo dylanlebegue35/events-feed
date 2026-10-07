@@ -1,14 +1,14 @@
 {
-  "genere": "2026-10-07T20:40:42",
+  "genere": "2026-10-07T20:44:28",
   "sources": [
     {
       "source": "Reflektor (Liège)",
       "ok": true,
       "page_caracteres": 18425,
-      "ia_a_trouve": 0,
-      "gardes": 0,
+      "ia_a_trouve": 50,
+      "gardes": 50,
       "ecartes": 0,
-      "extrait_reponse_ia": "```json\n[\n  {\n    \"title\": \"Puppetmastaz – 10/26\",\n    \"start\": \"2026-10-09\",\n    \"end\": null,\n    \"venue\": \"Reflektor\",\n    \"city\": \"Liège\",\n    \"category\": \"concert\",\n    \"image\": null,\n    \"url\": \""
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Les Ardentes (Liège)",
@@ -26,7 +26,7 @@
       "ia_a_trouve": 0,
       "gardes": 0,
       "ecartes": 0,
-      "extrait_reponse_ia": "[]"
+      "extrait_reponse_ia": "```json\n[]\n```"
     },
     {
       "source": "VisitHuy",
@@ -38,6 +38,6 @@
       "extrait_reponse_ia": ""
     }
   ],
-  "avec_image": 22,
-  "total": 22
+  "avec_image": 26,
+  "total": 72
 }
