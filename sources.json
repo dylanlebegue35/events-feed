@@ -1,5 +1,5 @@
 {
-  "_aide": "Pour brancher un nouveau site : ajouter un bloc ci-dessous. L'IA lit la page et en extrait les événements. enabled=false pour le désactiver.",
+  "_aide": "Pour brancher un nouveau site : ajouter un bloc ci-dessous. L'IA lit la page et en extrait les événements. enabled=false pour le désactiver. Chaque modification de ce fichier relance le robot tout seul.",
   "pages": [
     {"name": "Reflektor (Liège)", "url": "https://www.reflektor.be", "city": "Liège", "venue": "Reflektor", "category_hint": "concert", "enabled": true},
     {"name": "Les Ardentes (Liège)", "url": "https://www.lesardentes.be", "city": "Liège", "venue": "Parc d'Ans", "category_hint": "concert", "enabled": true},
