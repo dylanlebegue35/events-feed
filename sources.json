@@ -1,0 +1,10 @@
+{
+  "_aide": "Pour brancher un nouveau site : ajouter un bloc ci-dessous. L'IA lit la page et en extrait les événements. enabled=false pour le désactiver.",
+  "pages": [
+    {"name": "Reflektor (Liège)", "url": "https://www.reflektor.be", "city": "Liège", "venue": "Reflektor", "category_hint": "concert", "enabled": true},
+    {"name": "Les Ardentes (Liège)", "url": "https://www.lesardentes.be", "city": "Liège", "venue": "Parc d'Ans", "category_hint": "concert", "enabled": true},
+    {"name": "Tourisme Spa", "url": "https://www.visitspa.be", "city": "Spa", "enabled": true},
+    {"name": "VisitHuy", "url": "https://www.visithuy.be", "city": "Huy", "enabled": true},
+    {"name": "Ville de Liège – agenda", "url": "https://www.liege.be/fr/agenda", "city": "Liège", "enabled": false, "_note": "Page chargée par JavaScript : nécessite un navigateur invisible (étape suivante)."}
+  ]
+}

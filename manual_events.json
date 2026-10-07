@@ -1,0 +1,31 @@
+{
+  "_aide": "Événements locaux vérifiés à la main. recurrence: « weekly:sunday » = tous les dimanches (6 prochaines semaines).",
+  "events": [
+    {
+      "id": "local-foire-octobre-liege-2026",
+      "title": "Foire d'octobre de Liège",
+      "category": "fair",
+      "venue": "Boulevard d'Avroy", "city": "Liège", "lat": 50.6396, "lon": 5.5698,
+      "start": "2026-10-03T11:30:00", "end": "2026-11-11T23:00:00",
+      "hours": "Tous les jours, métiers de bouche dès 11 h 30, manèges dès 14 h ou 15 h 30",
+      "price_note": "Entrée gratuite", "free": true,
+      "url": "https://www.liege.be",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/2014_Li%C3%A8ge%2C_Foire_d%27Octobre_%2802%29.jpg/1280px-2014_Li%C3%A8ge%2C_Foire_d%27Octobre_%2802%29.jpg",
+      "summary": "165e édition, plus de 175 attractions et métiers forains. Entrée gratuite, attractions payantes. Tarif réduit : jeudi 22 octobre et mercredi 11 novembre. Kids Days : mercredis 14 octobre et 4 novembre.",
+      "source": "manuel"
+    },
+    {
+      "id": "local-batte-dimanche",
+      "title": "Marché de la Batte",
+      "category": "flea",
+      "venue": "Quai de la Batte", "city": "Liège", "lat": 50.6435, "lon": 5.5810,
+      "start": "2026-01-04T08:00:00", "end": "2026-01-04T14:00:00",
+      "recurrence": "weekly:sunday",
+      "hours": "Chaque dimanche matin",
+      "price_note": "Entrée libre", "free": true,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/March%C3%A9_de_la_batte_Liege.jpg/1280px-March%C3%A9_de_la_batte_Liege.jpg",
+      "summary": "Le grand marché dominical de Liège, tous les dimanches matin le long de la Meuse.",
+      "source": "manuel"
+    }
+  ]
+}

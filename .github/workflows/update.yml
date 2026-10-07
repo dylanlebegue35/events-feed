@@ -1,0 +1,28 @@
+name: Mise à jour des événements
+
+on:
+  schedule:
+    - cron: "0 4 * * *"   # tous les jours à 4 h UTC (5 h ou 6 h en Belgique)
+  workflow_dispatch:        # bouton « Run workflow » pour le lancer à la main
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Lire les sources et construire events.json
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 build_events.py
+      - name: Enregistrer si quelque chose a changé
+        run: |
+          git config user.name "events-bot"
+          git config user.email "events-bot@users.noreply.github.com"
+          git add events.json geocache.json
+          git diff --staged --quiet || (git commit -m "Mise à jour automatique des événements" && git push)
