@@ -1,5 +1,5 @@
 {
-  "genere": "2026-10-07T21:52:55",
+  "genere": "2026-10-08T04:12:47",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -13,11 +13,11 @@
     {
       "source": "Les Ardentes (Liège)",
       "ok": true,
-      "page_caracteres": 13010,
+      "page_caracteres": 12996,
       "ia_a_trouve": 0,
       "gardes": 0,
       "ecartes": 0,
-      "extrait_reponse_ia": "```json\n[]\n```"
+      "extrait_reponse_ia": "```json\n[]\n```\n\nLa page ne contient aucun événement à venir avec des dates confirmées. Le contenu montre principalement :\n- Une newsletter pour être informé des prochains artistes\n- Des références à d"
     },
     {
       "source": "Tourisme Spa",
@@ -26,12 +26,12 @@
       "ia_a_trouve": 0,
       "gardes": 0,
       "ecartes": 0,
-      "extrait_reponse_ia": "```json\n[]\n```"
+      "extrait_reponse_ia": ""
     },
     {
       "source": "VisitHuy",
       "ok": true,
-      "page_caracteres": 6007,
+      "page_caracteres": 5963,
       "ia_a_trouve": 9,
       "gardes": 9,
       "ecartes": 0,
@@ -40,18 +40,18 @@
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 55999,
-      "ia_a_trouve": 66,
-      "gardes": 66,
+      "page_caracteres": 57150,
+      "ia_a_trouve": 63,
+      "gardes": 63,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 47628,
-      "ia_a_trouve": 73,
-      "gardes": 73,
+      "page_caracteres": 47633,
+      "ia_a_trouve": 93,
+      "gardes": 93,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -67,9 +67,9 @@
     {
       "source": "Province de Liège",
       "ok": true,
-      "page_caracteres": 16338,
-      "ia_a_trouve": 5,
-      "gardes": 5,
+      "page_caracteres": 15953,
+      "ia_a_trouve": 2,
+      "gardes": 2,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -80,7 +80,7 @@
       "ia_a_trouve": 0,
       "gardes": 0,
       "ecartes": 0,
-      "extrait_reponse_ia": "```json\n[]\n```"
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Pays de Herve",
@@ -137,6 +137,6 @@
       "extrait_reponse_ia": ""
     }
   ],
-  "avec_image": 228,
-  "total": 228
+  "avec_image": 242,
+  "total": 242
 }
