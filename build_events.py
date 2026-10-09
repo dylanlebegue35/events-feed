@@ -9,7 +9,7 @@ Sources :
 Variables d'environnement : ANTHROPIC_API_KEY (pour l'étape 2, sinon ignorée).
 Usage : python3 build_events.py
 """
-import hashlib, html, json, os, re, subprocess, sys, tempfile, time
+import base64, hashlib, html, json, os, re, subprocess, sys, tempfile, time
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from urllib.parse import quote
@@ -171,11 +171,15 @@ PAGE :
 {page}"""
 
 
-def call_claude(prompt):
+def call_claude(prompt, images=None):
+    """images : liste de (type_mime, octets) à joindre au message (affiches, captures d'écran)."""
     key = os.environ.get("ANTHROPIC_API_KEY")
     if not key:
         raise RuntimeError("ANTHROPIC_API_KEY absente")
-    body = {"model": MODEL, "max_tokens": 16000, "messages": [{"role": "user", "content": prompt}]}
+    content = [{"type": "image", "source": {"type": "base64", "media_type": mt,
+                                             "data": base64.b64encode(data).decode()}}
+               for mt, data in (images or [])] + [{"type": "text", "text": prompt}]
+    body = {"model": MODEL, "max_tokens": 16000, "messages": [{"role": "user", "content": content}]}
     with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False) as f:
         json.dump(body, f)
         path = f.name
@@ -361,6 +365,102 @@ def places(radius=15000):
     return out
 
 
+
+# ============================================================ 5. Boîte de dépôt (affiches et captures d'écran)
+INBOX = HERE / "inbox"
+POSTERS = HERE / "posters"
+INBOX_STORE = HERE / "inbox_events.json"
+RAW_BASE = "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/"
+IMG_TYPES = {".png": "image/png", ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".webp": "image/webp", ".gif": "image/gif"}
+
+INBOX_NOTE = ("Les informations sont dans l'IMAGE jointe (affiche, flyer ou capture d'écran d'une page d'événement, "
+              "souvent Facebook). Lis tout le texte visible : titre, date, heure, lieu, prix, public visé. "
+              "Ignore les éléments d'interface (boutons, compteurs d'invités). "
+              "Si l'année manque, déduis la prochaine occurrence. Une affiche peut annoncer plusieurs dates : "
+              "fais un événement par date.")
+
+
+def inbox():
+    """Lit les images et textes déposés dans inbox/, crée les événements, range les fichiers traités."""
+    store = json.loads(INBOX_STORE.read_text()) if INBOX_STORE.exists() else []
+    files = sorted(p for p in INBOX.iterdir()
+                   if p.is_file() and not p.name.startswith(".") and (p.suffix.lower() in IMG_TYPES or p.suffix.lower() == ".txt"))
+    for p in files:
+        try:
+            images, page = None, ""
+            if p.suffix.lower() in IMG_TYPES:
+                data = p.read_bytes()
+                if len(data) > 4_500_000:
+                    raise RuntimeError("image trop lourde (plus de 4,5 Mo)")
+                images = [(IMG_TYPES[p.suffix.lower()], data)]
+                page = INBOX_NOTE
+            else:
+                page = INBOX_NOTE.replace("l'IMAGE jointe", "le TEXTE ci-dessous") + "\n\n" + p.read_text(errors="ignore")[:20000]
+            answer = call_claude(PROMPT.format(today=TODAY.isoformat(), name="Dépôt", url="(dépôt)", city="Liège",
+                                               cats=", ".join(CATEGORIES), cat_help=CATEGORY_HELP, page=page), images)
+            raw = parse_json_array(answer)
+            poster_url = None
+            if images:
+                POSTERS.mkdir(exist_ok=True)
+                target = POSTERS / re.sub(r"[^A-Za-z0-9._-]+", "-", p.name)
+                p.replace(target)
+                poster_url = RAW_BASE + target.name
+            else:
+                (INBOX / "done").mkdir(exist_ok=True)
+                p.replace(INBOX / "done" / p.name)
+            n = 0
+            for r in raw:
+                ev = event_from_ai(r, "Dépôt", poster_url)
+                if ev:
+                    store.append(ev)
+                    n += 1
+            REPORT.append({"source": f"Dépôt : {p.name}", "ok": True, "ia_a_trouve": len(raw), "gardes": n})
+        except Exception as ex:
+            print(f"  ! dépôt {p.name} : {ex}", file=sys.stderr)
+            REPORT.append({"source": f"Dépôt : {p.name}", "ok": False, "erreur": str(ex)[:300]})
+    # on garde les événements à venir, sans doublons
+    seen, keep = set(), []
+    for e in store:
+        k = (re.sub(r"\W+", "", e["title"].lower()), e["start"][:10])
+        if k in seen or datetime.fromisoformat(e["end"]).date() < TODAY:
+            continue
+        seen.add(k)
+        keep.append(e)
+    INBOX_STORE.write_text(json.dumps(keep, ensure_ascii=False, indent=1), encoding="utf-8")
+    return keep
+
+
+def event_from_ai(r, source_name, poster_url=None, default_city="", default_venue=None, hint="culture"):
+    """Transforme la réponse de l'IA pour un événement en entrée du fichier events.json (ou None)."""
+    title, start = (r.get("title") or "").strip(), r.get("start")
+    if not title or not start:
+        return None
+    sd = datetime.fromisoformat(start if "T" in start else start + "T10:00:00")
+    end = r.get("end")
+    ed = datetime.fromisoformat(end if end and "T" in end else (end + "T23:00:00" if end else sd.isoformat()))
+    if ed.date() < TODAY:
+        return None
+    venue = r.get("venue") or default_venue
+    city = r.get("city") or default_city or "Liège"
+    pos = geocode(venue, city)
+    if not pos:
+        return None
+    return {
+        "id": "web-" + re.sub(r"[^a-z0-9]+", "-", f"{source_name}-{title}-{sd.date()}".lower())[:80],
+        "title": title,
+        "category": r.get("category") if r.get("category") in CATEGORIES else hint,
+        "venue": venue or city, "city": city, "lat": pos[0], "lon": pos[1],
+        "start": sd.isoformat(timespec="seconds"), "end": ed.isoformat(timespec="seconds"),
+        "image": poster_url or r.get("image"), "page_url": r.get("page_url"),
+        "url": r.get("ticket_url") or r.get("page_url") or r.get("url"),
+        "summary": (r.get("summary") or "")[:300],
+        "price_from": r.get("price_from"), "free": r.get("free"),
+        "audience": [r["audience"]] if r.get("audience") not in (None, "", "all") else [],
+        "tags": [t for t in (r.get("tags") or []) if isinstance(t, str)][:4],
+        "source": source_name,
+    }
+
+
 # ============================================================ photos manquantes
 BAD_IMG = re.compile(r"logo|favicon|icon|sprite|flag|avatar|placeholder|blank|pixel|spinner|loader|banner-cookie|\.svg|\.gif|qtranslate", re.I)
 
@@ -413,7 +513,7 @@ def fill_images(events, limit=150):
 # ============================================================ assemblage
 def main():
     events = []
-    for name, fn in [("Spa-Francorchamps", spa), ("Manuel", manual), ("Pages web (IA)", pages)]:
+    for name, fn in [("Spa-Francorchamps", spa), ("Manuel", manual), ("Pages web (IA)", pages), ("Dépôt", inbox)]:
         try:
             got = fn()
             print(f"{name}: {len(got)} événements")
