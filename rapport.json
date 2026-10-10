@@ -1,12 +1,12 @@
 {
-  "genere": "2026-10-09T16:33:45",
+  "genere": "2026-10-10T04:14:45",
   "sources": [
     {
       "source": "Reflektor (Liège)",
       "ok": true,
-      "page_caracteres": 18704,
-      "ia_a_trouve": 46,
-      "gardes": 46,
+      "page_caracteres": 18680,
+      "ia_a_trouve": 49,
+      "gardes": 49,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -31,7 +31,7 @@
     {
       "source": "VisitHuy",
       "ok": true,
-      "page_caracteres": 5865,
+      "page_caracteres": 5891,
       "ia_a_trouve": 9,
       "gardes": 9,
       "ecartes": 0,
@@ -40,7 +40,7 @@
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 52670,
+      "page_caracteres": 59079,
       "ia_a_trouve": 59,
       "gardes": 59,
       "ecartes": 0,
@@ -48,12 +48,8 @@
     },
     {
       "source": "Le Forum (Liège)",
-      "ok": true,
-      "page_caracteres": 47614,
-      "ia_a_trouve": 74,
-      "gardes": 74,
-      "ecartes": 0,
-      "extrait_reponse_ia": ""
+      "ok": false,
+      "erreur": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "source": "Standard de Liège",
@@ -67,9 +63,9 @@
     {
       "source": "Province de Liège",
       "ok": true,
-      "page_caracteres": 15953,
-      "ia_a_trouve": 2,
-      "gardes": 2,
+      "page_caracteres": 15618,
+      "ia_a_trouve": 4,
+      "gardes": 4,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -80,12 +76,12 @@
       "ia_a_trouve": 0,
       "gardes": 0,
       "ecartes": 0,
-      "extrait_reponse_ia": "[]"
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 12386,
+      "page_caracteres": 12387,
       "ia_a_trouve": 1,
       "gardes": 1,
       "ecartes": 0,
@@ -123,20 +119,20 @@
       "ok": true,
       "page_caracteres": 6423,
       "ia_a_trouve": 3,
-      "gardes": 3,
-      "ecartes": 0,
+      "gardes": 2,
+      "ecartes": 1,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Opéra Royal de Wallonie",
       "ok": true,
-      "page_caracteres": 12513,
+      "page_caracteres": 12811,
       "ia_a_trouve": 7,
       "gardes": 7,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     }
   ],
-  "avec_image": 227,
-  "total": 229
+  "avec_image": 159,
+  "total": 159
 }
