@@ -1,12 +1,12 @@
 {
-  "genere": "2026-10-12T04:15:32",
+  "genere": "2026-10-12T20:33:07",
   "sources": [
     {
       "source": "Reflektor (Liège)",
       "ok": true,
-      "page_caracteres": 18662,
-      "ia_a_trouve": 46,
-      "gardes": 46,
+      "page_caracteres": 18381,
+      "ia_a_trouve": 48,
+      "gardes": 48,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -40,25 +40,25 @@
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 55515,
-      "ia_a_trouve": 60,
-      "gardes": 60,
+      "page_caracteres": 51380,
+      "ia_a_trouve": 75,
+      "gardes": 75,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 46755,
-      "ia_a_trouve": 80,
-      "gardes": 80,
+      "page_caracteres": 46793,
+      "ia_a_trouve": 78,
+      "gardes": 78,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Standard de Liège",
       "ok": true,
-      "page_caracteres": 7642,
+      "page_caracteres": 7657,
       "ia_a_trouve": 3,
       "gardes": 3,
       "ecartes": 0,
@@ -66,22 +66,26 @@
     },
     {
       "source": "Province de Liège",
-      "ok": false,
-      "erreur": "curl 35 pour https://www.provincedeliege.be"
-    },
-    {
-      "source": "Stavelot",
       "ok": true,
-      "page_caracteres": 35736,
-      "ia_a_trouve": 0,
-      "gardes": 0,
+      "page_caracteres": 15618,
+      "ia_a_trouve": 4,
+      "gardes": 4,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
+      "source": "Stavelot",
+      "ok": true,
+      "page_caracteres": 35999,
+      "ia_a_trouve": 0,
+      "gardes": 0,
+      "ecartes": 0,
+      "extrait_reponse_ia": "[]"
+    },
+    {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 12122,
+      "page_caracteres": 12119,
       "ia_a_trouve": 1,
       "gardes": 1,
       "ecartes": 0,
@@ -133,6 +137,6 @@
       "extrait_reponse_ia": ""
     }
   ],
-  "avec_image": 231,
-  "total": 231
+  "avec_image": 254,
+  "total": 254
 }

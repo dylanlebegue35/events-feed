@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-10T04:14:45",
+ "generated": "2026-10-12T20:33:07",
  "places": [
   {
    "id": "osm-node-2004989413",
@@ -11,7 +11,8 @@
    "lon": 5.569317,
    "website": null,
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Stonewall_Inn_with_Orlando_nightclub_shooting_memorial_during_Pride_2016_%2850126p%29.jpg/1280px-Stonewall_Inn_with_Orlando_nightclub_shooting_memorial_during_Pride_2016_%2850126p%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Rhododendrites / Wikimedia Commons, CC BY-SA 4.0"
   },
   {
    "id": "osm-node-3201637049",
@@ -35,7 +36,8 @@
    "lon": 5.5706837,
    "website": null,
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Terrace_Lanes_Frederick_MD2.jpg/1280px-Terrace_Lanes_Frederick_MD2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Acroterion / Wikimedia Commons, CC BY-SA 4.0"
   },
   {
    "id": "osm-node-6482282583",
@@ -47,7 +49,7 @@
    "lon": 5.5714473,
    "website": "https://getoutliege.be/",
    "hours": null,
-   "image": "https://getout.fr/wp-content/uploads/2026/10/9ecf7e7c39c24760c010f041c343e3dd-380x650-c-default.jpg"
+   "image": "https://liege.getout.be/wp-content/uploads/2021/03/GETOUT_SHOOTING02380-2-2-scaled.jpg"
   },
   {
    "id": "osm-node-7997200369",
@@ -59,7 +61,8 @@
    "lon": 5.4553071,
    "website": "https://kojump.be/",
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Recoil_Trampoline_Park%2C_Valdosta.jpg/1280px-Recoil_Trampoline_Park%2C_Valdosta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Michael Rivera / Wikimedia Commons, CC BY-SA 4.0"
   },
   {
    "id": "osm-node-9811846018",
@@ -71,7 +74,8 @@
    "lon": 5.6020928,
    "website": null,
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Go-kart_with_Honda_engine.jpg/1280px-Go-kart_with_Honda_engine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Syced / Wikimedia Commons, CC0"
   },
   {
    "id": "osm-node-10686698998",
@@ -83,7 +87,8 @@
    "lon": 5.552147,
    "website": null,
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Kerlouan_-_Plage_du_Menez_Ham_-_011.jpg/1280px-Kerlouan_-_Plage_du_Menez_Ham_-_011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Thesupermat / Wikimedia Commons, CC BY-SA 3.0"
   },
   {
    "id": "osm-node-10686699001",
@@ -95,7 +100,8 @@
    "lon": 5.5431201,
    "website": null,
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/BBC_televising_rock_climbing_at_Ynys_Gybi_%281547396%29.jpg/1280px-BBC_televising_rock_climbing_at_Ynys_Gybi_%281547396%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Geoff Charles / Wikimedia Commons, CC BY-SA 4.0"
   },
   {
    "id": "osm-node-10686699002",
@@ -107,7 +113,8 @@
    "lon": 5.5464448,
    "website": null,
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Ile_de_France%2C_Hte_Isle%2C_La_vieille_Eglise_creus%C3%A9e_dans_le_rocher_vue_de_la_route_-_A62810.jpg/1280px-Ile_de_France%2C_Hte_Isle%2C_La_vieille_Eglise_creus%C3%A9e_dans_le_rocher_vue_de_la_route_-_A62810.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Passet Stéphane / Wikimedia Commons, CC0"
   },
   {
    "id": "osm-node-10686699003",
@@ -119,7 +126,8 @@
    "lon": 5.5500988,
    "website": null,
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/BBC_televising_rock_climbing_at_Ynys_Gybi_%281547396%29.jpg/1280px-BBC_televising_rock_climbing_at_Ynys_Gybi_%281547396%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Geoff Charles / Wikimedia Commons, CC BY-SA 4.0"
   },
   {
    "id": "osm-node-10703674068",
@@ -131,7 +139,8 @@
    "lon": 5.5778,
    "website": null,
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Dave_%26_Buster%27s_video_arcade_in_Columbus%2C_OH_-_17912.JPG/1280px-Dave_%26_Buster%27s_video_arcade_in_Columbus%2C_OH_-_17912.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Photo by and ©2009 Dustin M. Ramsey (Kralizec!) / Wikimedia Commons, CC BY-SA 2.5"
   },
   {
    "id": "osm-node-10716140683",
@@ -143,7 +152,8 @@
    "lon": 5.5679274,
    "website": "https://www.lecerclesaintewalburgebilliardsclub.be/",
    "hours": "Mo 17:00-23:00; Tu-Fr 16:00-24:00; Sa 17:00-24:00; Su off",
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Thor_Billiards_Cafe.jpg/1280px-Thor_Billiards_Cafe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Kire1975 / Wikimedia Commons, CC0"
   },
   {
    "id": "osm-node-12358635488",
@@ -155,7 +165,8 @@
    "lon": 5.6021659,
    "website": null,
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Dave_%26_Buster%27s_video_arcade_in_Columbus%2C_OH_-_17912.JPG/1280px-Dave_%26_Buster%27s_video_arcade_in_Columbus%2C_OH_-_17912.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Photo by and ©2009 Dustin M. Ramsey (Kralizec!) / Wikimedia Commons, CC BY-SA 2.5"
   },
   {
    "id": "osm-node-12765543010",
@@ -165,9 +176,10 @@
    "city": "Liège",
    "lat": 50.6234517,
    "lon": 5.5955252,
-   "website": "https://sallesescaladeliege.be/",
+   "website": null,
    "hours": "Mo-Fr 09:00-23:00; Sa-Su 09:00-20:00",
-   "image": "https://www.sallesescaladeliege.be/medias/images/toprock_4.png"
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/BBC_televising_rock_climbing_at_Ynys_Gybi_%281547396%29.jpg/1280px-BBC_televising_rock_climbing_at_Ynys_Gybi_%281547396%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Geoff Charles / Wikimedia Commons, CC BY-SA 4.0"
   },
   {
    "id": "osm-way-188609283",
@@ -179,7 +191,21 @@
    "lon": 5.5626451,
    "website": "https://therightescape.com/",
    "hours": "Tu-Su 10:00-22:00",
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Escape_Room_-_%22The_Expedition%22_%28Escape_Quest_Bethesda%29.jpg/1280px-Escape_Room_-_%22The_Expedition%22_%28Escape_Quest_Bethesda%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Hudson Bloom / Wikimedia Commons, CC BY-SA 4.0"
+  },
+  {
+   "id": "osm-way-188762552",
+   "name": "Studio 22",
+   "kind": "club",
+   "kind_label": "Club",
+   "city": "Liège",
+   "lat": 50.6455394,
+   "lon": 5.5692999,
+   "website": null,
+   "hours": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Gerardi._Mercatoris_Atlas_sive_cosmographicae_meditationes_de_fabrica_mundi_et_fabricati_figura._Jam_landem..._ad_finem_perduclus%2C_quam_plurimis_aeneis_tabulis_Hispaniae%2C_Africae%2C_Asiae_et_Americae..._-_btv1b550078434_%28320_of_571%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Mercator, Gerard (1512-1594). Auteur du texte\n\nMonlani, Pete / Wikimedia Commons, Public domain"
   },
   {
    "id": "osm-way-241928620",
@@ -191,7 +217,8 @@
    "lon": 5.4921856,
    "website": null,
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Terrace_Lanes_Frederick_MD2.jpg/1280px-Terrace_Lanes_Frederick_MD2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Acroterion / Wikimedia Commons, CC BY-SA 4.0"
   },
   {
    "id": "osm-way-311091888",
@@ -203,19 +230,8 @@
    "lon": 5.5887424,
    "website": "https://www.toprock.be",
    "hours": "Mo-Fr 12:00-23:00; Sa-Su,PH 12:00-20:00; Jun 15-Sep 15 Sa off; Dec 25,Jan 01 off; Apr 30-Sep 30 PH off",
-   "image": null
-  },
-  {
-   "id": "osm-way-317391735",
-   "name": "Zone escalade Cascades de Chanxhe",
-   "kind": "climbing",
-   "kind_label": "Escalade",
-   "city": "",
-   "lat": 50.5078725,
-   "lon": 5.6058592,
-   "website": null,
-   "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/BBC_televising_rock_climbing_at_Ynys_Gybi_%281547396%29.jpg/1280px-BBC_televising_rock_climbing_at_Ynys_Gybi_%281547396%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Geoff Charles / Wikimedia Commons, CC BY-SA 4.0"
   },
   {
    "id": "osm-way-323769424",
@@ -227,7 +243,8 @@
    "lon": 5.408193,
    "website": null,
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/BBC_televising_rock_climbing_at_Ynys_Gybi_%281547396%29.jpg/1280px-BBC_televising_rock_climbing_at_Ynys_Gybi_%281547396%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Geoff Charles / Wikimedia Commons, CC BY-SA 4.0"
   },
   {
    "id": "osm-way-406997294",
@@ -251,7 +268,8 @@
    "lon": 5.5839966,
    "website": null,
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Terrace_Lanes_Frederick_MD2.jpg/1280px-Terrace_Lanes_Frederick_MD2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Acroterion / Wikimedia Commons, CC BY-SA 4.0"
   },
   {
    "id": "osm-way-724548115",
@@ -263,7 +281,8 @@
    "lon": 5.6437273,
    "website": "https://www.sourceorama.com/mini-golf/",
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Mini_Golf_Voyager_of_the_Seas_2023.jpg/1280px-Mini_Golf_Voyager_of_the_Seas_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Larry D. Moore / Wikimedia Commons, CC BY 4.0"
   },
   {
    "id": "osm-way-726166781",
@@ -275,7 +294,8 @@
    "lon": 5.596689,
    "website": "http://www.lelephant.be",
    "hours": "Mo-Fr 12:00-23:00; Sa-Su 12:00-20:00; Dec 25,Jan 1 off",
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/BBC_televising_rock_climbing_at_Ynys_Gybi_%281547396%29.jpg/1280px-BBC_televising_rock_climbing_at_Ynys_Gybi_%281547396%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Geoff Charles / Wikimedia Commons, CC BY-SA 4.0"
   },
   {
    "id": "osm-way-850548220",
@@ -287,7 +307,8 @@
    "lon": 5.5798894,
    "website": null,
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Chapelle_Sainte-Anne-du-Rocher%2C_Qu%C3%A9vert%2C_C%C3%B4tes_d%27Armor_DSC07535.jpg/1280px-Chapelle_Sainte-Anne-du-Rocher%2C_Qu%C3%A9vert%2C_C%C3%B4tes_d%27Armor_DSC07535.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Emeltet / Wikimedia Commons, CC BY-SA 4.0"
   },
   {
    "id": "osm-way-850548221",
@@ -299,7 +320,8 @@
    "lon": 5.5787144,
    "website": null,
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/BBC_televising_rock_climbing_at_Ynys_Gybi_%281547396%29.jpg/1280px-BBC_televising_rock_climbing_at_Ynys_Gybi_%281547396%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Geoff Charles / Wikimedia Commons, CC BY-SA 4.0"
   },
   {
    "id": "osm-way-850548222",
@@ -311,7 +333,8 @@
    "lon": 5.5802215,
    "website": null,
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/%C3%89cole_Sup%C3%A9rieure_de_Commerce_de_Neuch%C3%A2tel%2C_Rue_des_Beaux-Arts_30_%282016%29.jpg/1280px-%C3%89cole_Sup%C3%A9rieure_de_Commerce_de_Neuch%C3%A2tel%2C_Rue_des_Beaux-Arts_30_%282016%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "JoachimKohler-HB / Wikimedia Commons, CC BY-SA 4.0"
   },
   {
    "id": "osm-way-850872138",
@@ -323,7 +346,8 @@
    "lon": 5.5791677,
    "website": null,
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/La_partie_centrale_de_la_Cath%C3%A9drale.JPG/1280px-La_partie_centrale_de_la_Cath%C3%A9drale.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Yassine.Boukhriss / Wikimedia Commons, CC BY-SA 4.0"
   },
   {
    "id": "osm-way-850872140",
@@ -335,7 +359,8 @@
    "lon": 5.5778925,
    "website": null,
    "hours": null,
-   "image": null
+   "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Blondel_-_l%27Art_de_jetter_les_bombes_%281685%29_-_page_13_figure.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "image_credit": "François Blondel / Wikimedia Commons, Public domain"
   },
   {
    "id": "osm-way-850872141",
@@ -347,7 +372,8 @@
    "lon": 5.5783228,
    "website": null,
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Durbuy_vu_du_jardin_de_l%27anticlinal.jpg/1280px-Durbuy_vu_du_jardin_de_l%27anticlinal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "JackyM59 / Wikimedia Commons, CC BY-SA 4.0"
   },
   {
    "id": "osm-way-850872143",
@@ -359,7 +385,8 @@
    "lon": 5.578731,
    "website": null,
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/BBC_televising_rock_climbing_at_Ynys_Gybi_%281547396%29.jpg/1280px-BBC_televising_rock_climbing_at_Ynys_Gybi_%281547396%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Geoff Charles / Wikimedia Commons, CC BY-SA 4.0"
   },
   {
    "id": "osm-way-990944193",
@@ -371,7 +398,8 @@
    "lon": 5.5588109,
    "website": null,
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Palazzo_Don%C3%A0_dalle_Trezze_Canal_Grande_Venezia.jpg/1280px-Palazzo_Don%C3%A0_dalle_Trezze_Canal_Grande_Venezia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to us / Wikimedia Commons, CC BY-SA 3.0"
   },
   {
    "id": "osm-way-1053900947",
@@ -383,7 +411,8 @@
    "lon": 5.4006922,
    "website": null,
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Mini_Golf_Voyager_of_the_Seas_2023.jpg/1280px-Mini_Golf_Voyager_of_the_Seas_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Larry D. Moore / Wikimedia Commons, CC BY 4.0"
   },
   {
    "id": "osm-way-1060562194",
@@ -395,7 +424,8 @@
    "lon": 5.4394053,
    "website": null,
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Partie_centrale_fa%C3%A7ade_ch%C3%A2teau_Sch%C3%B6nbrunn_c%C3%B4t%C3%A9_Jardins_lumi%C3%A8re_soir_hiver.jpg/1280px-Partie_centrale_fa%C3%A7ade_ch%C3%A2teau_Sch%C3%B6nbrunn_c%C3%B4t%C3%A9_Jardins_lumi%C3%A8re_soir_hiver.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Jebulon / Wikimedia Commons, CC0"
   },
   {
    "id": "osm-way-1060562196",
@@ -407,7 +437,8 @@
    "lon": 5.4397916,
    "website": null,
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Abou-Sembil%2C_Petit_Sp%C3%A9os_-_Partie_Gauche_de_la_Fa%C3%A7ade_MET_DP138596.jpg/1280px-Abou-Sembil%2C_Petit_Sp%C3%A9os_-_Partie_Gauche_de_la_Fa%C3%A7ade_MET_DP138596.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Félix Teynard / Imprimerie photographique H. de Fonteny et C / Wikimedia Commons, CC0"
   },
   {
    "id": "osm-way-1070348301",
@@ -419,7 +450,8 @@
    "lon": 5.5858975,
    "website": "https://www.geckotank.be/",
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/BBC_televising_rock_climbing_at_Ynys_Gybi_%281547396%29.jpg/1280px-BBC_televising_rock_climbing_at_Ynys_Gybi_%281547396%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Geoff Charles / Wikimedia Commons, CC BY-SA 4.0"
   },
   {
    "id": "osm-way-1098332165",
@@ -431,7 +463,8 @@
    "lon": 5.5588841,
    "website": null,
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/BBC_televising_rock_climbing_at_Ynys_Gybi_%281547396%29.jpg/1280px-BBC_televising_rock_climbing_at_Ynys_Gybi_%281547396%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Geoff Charles / Wikimedia Commons, CC BY-SA 4.0"
   },
   {
    "id": "osm-way-1098332166",
@@ -443,7 +476,8 @@
    "lon": 5.5595829,
    "website": null,
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Glacier_Face_Ouest_%40_Col_de_la_Petite_Forcle.jpg/1280px-Glacier_Face_Ouest_%40_Col_de_la_Petite_Forcle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Rémih / Wikimedia Commons, CC BY-SA 4.0"
   },
   {
    "id": "osm-relation-18903538",
@@ -455,7 +489,8 @@
    "lon": 5.4397338,
    "website": null,
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/BBC_televising_rock_climbing_at_Ynys_Gybi_%281547396%29.jpg/1280px-BBC_televising_rock_climbing_at_Ynys_Gybi_%281547396%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Geoff Charles / Wikimedia Commons, CC BY-SA 4.0"
   }
  ]
 }
