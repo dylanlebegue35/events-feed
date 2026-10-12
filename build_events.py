@@ -461,6 +461,120 @@ def event_from_ai(r, source_name, poster_url=None, default_city="", default_venu
     }
 
 
+
+# ============================================================ photos libres de droit (Wikimedia Commons)
+IMG_CACHE_FILE = HERE / "image_cache.json"
+_img_cache = json.loads(IMG_CACHE_FILE.read_text()) if IMG_CACHE_FILE.exists() else {}
+OK_LICENSES = re.compile(r"^(CC0|CC BY|CC BY-SA|Public domain|PD|Attribution)", re.I)
+BAD_TITLE = re.compile(r"logo|map|carte|plan|diagram|schema|svg|flag|drapeau|coat|blason|poster|affiche|screenshot|icon", re.I)
+
+CATEGORY_QUERIES = {
+    "concert": ["live concert", "concert stage", "rock concert"], "festival": ["music festival", "festival crowd"],
+    "party": ["nightclub", "dance party", "disco"], "theatre": ["theatre performance", "theatre stage", "opera"],
+    "expo": ["art exhibition", "art museum", "museum gallery"], "cinema": ["movie theater", "cinema hall"],
+    "culture": ["historic building", "old town", "heritage"], "sport": ["football match", "sports stadium", "running race"],
+    "motorsport": ["motor racing", "race track", "grand prix"], "outdoor": ["hiking trail", "forest path", "nature walk"],
+    "food": ["street food", "food market", "farmers market"], "flea": ["flea market", "antique market"],
+    "fair": ["funfair", "ferris wheel", "carnival"], "family": ["children playing", "family park"],
+    "wellness": ["outdoor yoga", "yoga class"], "workshop": ["craft workshop", "pottery workshop"],
+    "talks": ["conference audience", "public lecture"], "geek": ["video game", "comic convention", "board game"],
+}
+KIND_QUERIES = {
+    "bowling": ["bowling alley", "bowling lanes"], "escape": ["escape room", "escape game"], "karting": ["go-kart", "kart track", "karting"],
+    "laser": ["laser tag", "laser game"], "trampoline": ["trampoline park", "trampoline"], "climbing": ["rock climbing", "climbing wall", "bouldering"],
+    "billiards": ["billiards", "pool table"], "arcade": ["arcade game", "video arcade"], "minigolf": ["mini golf", "miniature golf", "minigolf"],
+    "club": ["nightclub", "dance floor"], "waterpark": ["water park", "waterslide"],
+}
+
+
+def commons_image(query, min_w=900, require=None, generic=False):
+    """Photo libre la plus pertinente pour une recherche : (url, crédit) ou None. Résultats mémorisés."""
+    key = query + ("|" + ",".join(require) if require else "")
+    if key in _img_cache:
+        v = _img_cache[key]
+        return tuple(v) if v else None
+    params = ("action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=12&prop=imageinfo"
+              "&iiprop=url|size|extmetadata&iiurlwidth=1000&gsrsearch=" + quote(query + " filetype:bitmap"))
+    body = None
+    for wait in (0, 6, 20, 45):                      # poli avec Wikimedia : on réessaie plus tard si on est freiné
+        time.sleep(wait)
+        r = subprocess.run(["curl", "-s", "--max-time", "25", "-A", "StudioAppsBot/1.0 (events-feed; contact via GitHub dylanlebegue35)",
+                            "-w", "\nHTTP %{http_code}", "https://commons.wikimedia.org/w/api.php?" + params],
+                           capture_output=True)
+        text = r.stdout.decode("utf-8", "ignore")
+        if text.rsplit("\nHTTP", 1)[-1].strip() == "200":
+            body = text.rsplit("\nHTTP", 1)[0]
+            break
+    time.sleep(1.3)                                  # une demande toutes les ~1,5 s au maximum
+    if body is None:
+        return None                                  # échec réseau : on ne mémorise PAS « aucune photo »
+    best = None
+    try:
+        pages_ = sorted(json.loads(body).get("query", {}).get("pages", {}).values(), key=lambda p: p.get("index", 99))
+        for p in pages_:
+            ii = (p.get("imageinfo") or [{}])[0]
+            meta = ii.get("extmetadata", {})
+            lic = meta.get("LicenseShortName", {}).get("value", "")
+            w, h = ii.get("width", 0), ii.get("height", 0)
+            if not ii.get("thumburl") or not OK_LICENSES.match(lic) or BAD_TITLE.search(p.get("title", "")):
+                continue
+            if w < min_w or h < 500 or w < h * 1.1:        # assez grande et en paysage
+                continue
+            said = (p.get("title", "") + " " + meta.get("ObjectName", {}).get("value", "") + " "
+                    + re.sub(r"<[^>]+>", " ", meta.get("ImageDescription", {}).get("value", ""))).lower()
+            if require and not any(tok in said for tok in require):      # la photo doit nommer ce lieu
+                continue
+            if generic and query.lower() not in said:                  # photo générique : le thème doit y figurer tel quel
+                continue
+            artist = re.sub(r"<[^>]+>", "", meta.get("Artist", {}).get("value", "")).strip() or "auteur inconnu"
+            best = (ii["thumburl"], f"{artist[:60]} / Wikimedia Commons, {lic}")
+            break
+    except Exception:
+        best = None
+    _img_cache[key] = list(best) if best else None
+    IMG_CACHE_FILE.write_text(json.dumps(_img_cache, ensure_ascii=False, indent=1))
+    return best
+
+
+GENERIC_WORDS = set("le la les de du des d l un une et au aux en sur the of and escape game karting bowling club salle "
+                    "centre center parc park liege liège belgique belgium mini golf laser trampoline arcade billard pub bar".split())
+
+
+def distinctive_tokens(name):
+    """Mots propres au lieu (ex. « Rocher de Ham » -> rocher, ham) : sans mots génériques."""
+    words = re.findall(r"[a-zA-Zà-ÿ]{3,}", (name or "").lower())
+    return [w for w in words if w not in GENERIC_WORDS]
+
+
+def photo_for(name, city, fallback_query):
+    """Photo du lieu précis seulement si elle le nomme vraiment ; sinon photo libre du même genre."""
+    tokens = distinctive_tokens(name)
+    if any(len(t) >= 5 for t in tokens) or ("ham" in tokens):
+        pass
+    if tokens and any(len(t) >= 5 for t in tokens):
+        got = commons_image(f"{name} {city}".strip(), require=tokens)
+        if got:
+            return got
+    for q in ([fallback_query] if isinstance(fallback_query, str) else fallback_query):
+        got = commons_image(q, generic=True)
+        if got:
+            return got
+    return None
+
+
+def fallback_pool():
+    """Quelques photos par catégorie, pour les événements lus en direct par l'app (Ticketmaster, OpenAgenda)."""
+    pool = {}
+    for cat, q in CATEGORY_QUERIES.items():
+        urls = []
+        for variant in q:
+            got = commons_image(variant, generic=True)
+            if got and got[0] not in [u[0] for u in urls]:
+                urls.append(got)
+        pool[cat] = [{"url": u, "credit": c} for u, c in urls[:3]]
+    return pool
+
+
 # ============================================================ photos manquantes
 BAD_IMG = re.compile(r"logo|favicon|icon|sprite|flag|avatar|placeholder|blank|pixel|spinner|loader|banner-cookie|\.svg|\.gif|qtranslate", re.I)
 
@@ -534,6 +648,11 @@ def main():
     except Exception:
         pass
     fill_images(uniq, limit=80)
+    for e in uniq:                                   # dernier recours : photo libre du lieu, puis de la catégorie
+        if not e.get("image"):
+            got = photo_for(e.get("venue"), e.get("city", ""), CATEGORY_QUERIES.get(e.get("category"), ["city event"]))
+            if got:
+                e["image"], e["image_credit"] = got
     try:
         lieux = places()
         for p in [x for x in lieux if x.get("website")][:25]:   # photo du site officiel quand il y en a un
@@ -542,6 +661,11 @@ def main():
                     p["image"] = best_image(fetch(p["website"], timeout=8), p["website"])
                 except Exception:
                     pass
+        for p in lieux:
+            if not p.get("image"):
+                got = photo_for(p["name"], p.get("city", ""), KIND_QUERIES.get(p["kind"], ["leisure"]))
+                if got:
+                    p["image"], p["image_credit"] = got
         (HERE / "places.json").write_text(json.dumps({"generated": datetime.now().isoformat(timespec="seconds"),
                                                       "places": lieux}, ensure_ascii=False, indent=1), encoding="utf-8")
         print(f"Lieux d'activités: {len(lieux)}")
@@ -551,6 +675,10 @@ def main():
         {"genere": datetime.now().isoformat(timespec="seconds"), "sources": REPORT,
          "avec_image": sum(1 for e in uniq if e.get("image")), "total": len(uniq)},
         ensure_ascii=False, indent=2), encoding="utf-8")
+    try:
+        (HERE / "fallback_images.json").write_text(json.dumps(fallback_pool(), ensure_ascii=False, indent=1), encoding="utf-8")
+    except Exception as ex:
+        print(f"Photos de secours: ÉCHEC ({ex})", file=sys.stderr)
     OUT.write_text(json.dumps({"generated": datetime.now().isoformat(timespec="seconds"), "events": uniq},
                               ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"écrit : {OUT.name}, {len(uniq)} événements")
