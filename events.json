@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-12T20:48:53",
+  "generated": "2026-10-12T21:03:20",
   "events": [
     {
       "id": "web-grand-curtius-li-ge-espace-c-sar-franck-2022-01-12",
@@ -715,28 +715,6 @@
       "source": "Théâtre de Liège"
     },
     {
-      "id": "web-le-forum-li-ge-ghassan-yammine-chante-aznavour-2026-10-13",
-      "title": "GHASSAN YAMMINE CHANTE AZNAVOUR",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-10-13T20:00:00",
-      "end": "2026-10-13T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/Aznavour_510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202610132000.html",
-      "url": "https://www.leforum.be/spectacle_202610132000.html",
-      "summary": "Ghassan Yammine interprète les plus grands succès de Charles Aznavour.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
       "id": "web-reflektor-li-ge-mathilde-fernandez-sarah-maison-2026-10-14",
       "title": "Mathilde Fernandez + Sarah Maison",
       "category": "concert",
@@ -775,28 +753,6 @@
       "audience": [],
       "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-guihome-vous-detend-2026-10-14",
-      "title": "GUIHOME VOUS DETEND",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-10-14T20:00:00",
-      "end": "2026-10-14T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/GUIHOME_510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202610142000.html",
-      "url": "https://www.leforum.be/spectacle_202610142000.html",
-      "summary": "Guihome vous propose une soirée de détente et d'humour.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
     },
     {
       "id": "web-visithuy-festival-des-enfants-terribles-2026-10-15",
@@ -899,28 +855,6 @@
       "source": "Ville de Huy"
     },
     {
-      "id": "web-le-forum-li-ge-guihome-vous-detend-2026-10-15",
-      "title": "GUIHOME VOUS DETEND",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-10-15T20:00:00",
-      "end": "2026-10-15T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/GUIHOME_510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202610152000.html",
-      "url": "https://www.leforum.be/spectacle_202610152000.html",
-      "summary": "Guihome vous propose une soirée de détente et d'humour.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
       "id": "web-reflektor-li-ge-siglo-xx-2026-10-16",
       "title": "Siglo XX",
       "category": "concert",
@@ -1021,28 +955,6 @@
         "découverte"
       ],
       "source": "Grand Curtius (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-tina-arena-2026-10-16",
-      "title": "TINA ARENA",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-10-16T20:00:00",
-      "end": "2026-10-16T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/Tina-Arena_510x630.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202610162000.html",
-      "url": "https://www.leforum.be/spectacle_202610162000.html",
-      "summary": "La chanteuse australienne Tina Arena en concert au Forum.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
     },
     {
       "id": "web-standard-de-li-ge-standard-dender-croky-cup-2026-10-16",
@@ -1232,28 +1144,6 @@
       "source": "Grand Curtius (Liège)"
     },
     {
-      "id": "web-le-forum-li-ge-guillaume-meurice-et-ric-lagadec-2026-10-17",
-      "title": "GUILLAUME MEURICE ET ÉRIC LAGADEC",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-10-17T20:00:00",
-      "end": "2026-10-17T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/241123-Guillaume-meurice510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202610172000.html",
-      "url": "https://www.leforum.be/spectacle_202610172000.html",
-      "summary": "Guillaume Meurice et Éric Lagadec réunis pour une soirée d'humour.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
       "id": "local-batte-dimanche-2026-10-18",
       "title": "Marché de la Batte",
       "category": "flea",
@@ -1409,28 +1299,6 @@
       "source": "Grand Curtius (Liège)"
     },
     {
-      "id": "web-le-forum-li-ge-l-exp-rience-th-trale-2026-10-18",
-      "title": "L'EXPÉRIENCE THÉÂTRALE",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-10-18T17:00:00",
-      "end": "2026-10-18T17:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/l-experience-theatrale-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202610181700.html",
-      "url": "https://www.leforum.be/spectacle_202610181700.html",
-      "summary": "Une expérience théâtrale immersive et originale.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
       "id": "web-les-grignoux-cin-ma-li-ge-garance-2026-10-19",
       "title": "Garance",
       "category": "cinema",
@@ -1579,28 +1447,6 @@
       "source": "Reflektor (Liège)"
     },
     {
-      "id": "web-le-forum-li-ge-laurent-voulzy-2026-10-22",
-      "title": "LAURENT VOULZY",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-10-22T20:00:00",
-      "end": "2026-10-22T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/LaurentVoulzi_510x630.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202610222000.html",
-      "url": "https://www.leforum.be/spectacle_202610222000.html",
-      "summary": "Laurent Voulzy, le musicien français reconnu, en concert.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
       "id": "web-reflektor-li-ge-teenage-fanclub-euros-childs-2026-10-23",
       "title": "Teenage Fanclub + Euros Childs",
       "category": "concert",
@@ -1643,28 +1489,6 @@
         "en famille"
       ],
       "source": "Les Grignoux – cinéma (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-hubert-felix-thiefaine-2026-10-23",
-      "title": "HUBERT FELIX THIEFAINE",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-10-23T20:00:00",
-      "end": "2026-10-23T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/HF-THIEFAINE-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202610232000.html",
-      "url": "https://www.leforum.be/spectacle_202610232000.html",
-      "summary": "Hubert Félix Thiefaine revient sur les planches du Forum.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
     },
     {
       "id": "spa-789-2026-10-24",
@@ -1882,28 +1706,6 @@
       "source": "Opéra Royal de Wallonie"
     },
     {
-      "id": "web-le-forum-li-ge-the-cavern-beatles-2026-10-28",
-      "title": "THE CAVERN BEATLES",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-10-28T20:00:00",
-      "end": "2026-10-28T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/beatles510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202610282000.html",
-      "url": "https://www.leforum.be/spectacle_202610282000.html",
-      "summary": "Hommage aux Beatles avec The Cavern Beatles.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
       "id": "web-reflektor-li-ge-jeronimo-numah-2026-10-29",
       "title": "JERONIMO + NUMAH",
       "category": "concert",
@@ -1962,28 +1764,6 @@
       "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-salvatore-adamo-2026-10-30",
-      "title": "SALVATORE ADAMO",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-10-30T20:00:00",
-      "end": "2026-10-30T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/ADEMO_510x630.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202610302000.html",
-      "url": "https://www.leforum.be/spectacle_202610302000.html",
-      "summary": "Salvatore Adamo en concert pour vous faire voyager dans ses chansons.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
     },
     {
       "id": "web-reflektor-li-ge-halloween-transp-d-gouines-2026-10-31",
@@ -2072,28 +1852,6 @@
       "source": "Standard de Liège"
     },
     {
-      "id": "web-le-forum-li-ge-natasha-st-pier-2026-10-31",
-      "title": "NATASHA ST-PIER",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-10-31T20:00:00",
-      "end": "2026-10-31T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/NATASHA_ST_PIER_510x630_copie.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202610312000.html",
-      "url": "https://www.leforum.be/spectacle_202610312000.html",
-      "summary": "Natasha St-Pier, la reine de la variété, en concert.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
       "id": "web-grand-curtius-li-ge-nuit-paganini-horror-2026-10-31",
       "title": "Nuit Paganini Horror",
       "category": "culture",
@@ -2152,28 +1910,6 @@
       "audience": [],
       "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-marine-leonardi-mauvaise-graine-2026-11-03",
-      "title": "MARINE LEONARDI, MAUVAISE GRAINE",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-11-03T20:00:00",
-      "end": "2026-11-03T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/MARINE-LEONARDI_v2-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202611032000.html",
-      "url": "https://www.leforum.be/spectacle_202611032000.html",
-      "summary": "Marine Leonardi et Mauvaise Graine en concert.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
     },
     {
       "id": "web-reflektor-li-ge-jamie-woon-2026-11-04",
@@ -2236,28 +1972,6 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-le-forum-li-ge-an-orchestral-tribute-of-tim-burton-dark-fantasy-2026-11-04",
-      "title": "AN ORCHESTRAL TRIBUTE OF TIM BURTON & DARK FANTASY",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-11-04T20:00:00",
-      "end": "2026-11-04T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/tim-burton-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202611042000.html",
-      "url": "https://www.leforum.be/spectacle_202611042000.html",
-      "summary": "Hommage orchestral aux musiques de Tim Burton et au dark fantasy.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
       "id": "web-reflektor-li-ge-mogwai-forest-swords-2026-11-05",
       "title": "Mogwai + Forest Swords",
       "category": "concert",
@@ -2318,28 +2032,6 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-le-forum-li-ge-mogwai-30-2026-11-05",
-      "title": "MOGWAI 30",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-11-05T20:00:00",
-      "end": "2026-11-05T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/MOGWAI_510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202611052000.html",
-      "url": "https://www.leforum.be/spectacle_202611052000.html",
-      "summary": "Mogwai célèbre ses 30 ans avec un concert spécial.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
       "id": "web-reflektor-li-ge-reflect-presents-panteros666-saligo-velota-2026-11-06",
       "title": "REFLECT PRESENTS: PANTEROS666 + SALIGO + VELOTA",
       "category": "concert",
@@ -2358,28 +2050,6 @@
       "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-y-a-d-la-joie-bordel-claude-fran-ois-2026-11-06",
-      "title": "Y A D'LA JOIE ...BORDEL! - CLAUDE FRANÇOIS",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-11-06T20:00:00",
-      "end": "2026-11-06T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/Claude_510x630.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202611062000.html",
-      "url": "https://www.leforum.be/spectacle_202611062000.html",
-      "summary": "Hommage festif à Claude François et ses plus grands tubes.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
     },
     {
       "id": "web-standard-de-li-ge-standard-sk-beveren-2026-11-06",
@@ -2464,28 +2134,6 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-le-forum-li-ge-damien-gillard-rude-2026-11-07",
-      "title": "DAMIEN GILLARD - RUDE",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-11-07T20:00:00",
-      "end": "2026-11-07T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/Damien-Gillard-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202611072000.html",
-      "url": "https://www.leforum.be/spectacle_202611072000.html",
-      "summary": "Damien Gillard dans son spectacle « Rude ».",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
       "id": "local-batte-dimanche-2026-11-08",
       "title": "Marché de la Batte",
       "category": "flea",
@@ -2502,28 +2150,6 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/March%C3%A9_de_la_batte_Liege.jpg/1280px-March%C3%A9_de_la_batte_Liege.jpg",
       "summary": "Le grand marché dominical de Liège, tous les dimanches matin le long de la Meuse.",
       "source": "manuel"
-    },
-    {
-      "id": "web-le-forum-li-ge-nino-arial-pas-comme-eux-2026-11-08",
-      "title": "NINO ARIAL : PAS COMME EUX",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-11-08T17:30:00",
-      "end": "2026-11-08T17:30:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/NINO_ARIAL_510x630.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202611081730.html",
-      "url": "https://www.leforum.be/spectacle_202611081730.html",
-      "summary": "Nino Arial présente son spectacle « Pas comme eux ».",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
     },
     {
       "id": "web-les-grignoux-cin-ma-li-ge-cycling-cities-2026-11-09",
@@ -2686,28 +2312,6 @@
       "source": "Ville de Huy"
     },
     {
-      "id": "web-le-forum-li-ge-kody-volu-2026-11-11",
-      "title": "KODY ÉVOLUÉ",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-11-11T20:00:00",
-      "end": "2026-11-11T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/KODY-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202611112000.html",
-      "url": "https://www.leforum.be/spectacle_202611112000.html",
-      "summary": "Kody dans son spectacle « Évolué ».",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
       "id": "web-reflektor-li-ge-momoko-gill-2026-11-12",
       "title": "Momoko Gill",
       "category": "concert",
@@ -2788,28 +2392,6 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-le-forum-li-ge-l-ge-b-te-2026-11-12",
-      "title": "L'ÂGE BÊTE",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-11-12T20:00:00",
-      "end": "2026-11-12T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/agebete-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202611122000.html",
-      "url": "https://www.leforum.be/spectacle_202611122000.html",
-      "summary": "Michèle Laroque et Kad Merad dans « L'Âge bête ».",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
       "id": "web-reflektor-li-ge-hollywood-porn-stars-2026-11-13",
       "title": "Hollywood Porn Stars",
       "category": "concert",
@@ -2870,28 +2452,6 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-le-forum-li-ge-grease-is-the-word-2026-11-13",
-      "title": "GREASE IS THE WORD",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-11-13T20:00:00",
-      "end": "2026-11-13T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/GREASE_510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202611132000.html",
-      "url": "https://www.leforum.be/spectacle_202611132000.html",
-      "summary": "L'adaptation de la comédie musicale Grease.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
       "id": "web-reflektor-li-ge-ebony-kynato-2026-11-14",
       "title": "Ebony + Kynato",
       "category": "concert",
@@ -2930,28 +2490,6 @@
       "audience": [],
       "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-amine-radi-la-suivette-2026-11-14",
-      "title": "AMINE RADI - LA SUIVETTE",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-11-14T20:00:00",
-      "end": "2026-11-14T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/amine-radi-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202611142000.html",
-      "url": "https://www.leforum.be/spectacle_202611142000.html",
-      "summary": "Amine Radi dans son spectacle « La Suivette ».",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
     },
     {
       "id": "local-batte-dimanche-2026-11-15",
@@ -3016,28 +2554,6 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-le-forum-li-ge-julien-dassin-chante-joe-dassin-2026-11-15",
-      "title": "JULIEN DASSIN CHANTE JOE DASSIN",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-11-15T16:00:00",
-      "end": "2026-11-15T16:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/JULIEN_DASSIN_510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202611151600.html",
-      "url": "https://www.leforum.be/spectacle_202611151600.html",
-      "summary": "Julien Dassin rend hommage à son père Joe Dassin.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
       "id": "web-les-grignoux-cin-ma-li-ge-heysel-85-2026-11-17",
       "title": "Heysel 85",
       "category": "cinema",
@@ -3056,28 +2572,6 @@
       "audience": [],
       "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-pe-a-ne-s-est-pas-pass-comme-pr-vu-2026-11-17",
-      "title": "PE, ÇA NE S'EST PAS PASSÉ COMME PRÉVU",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-11-17T20:00:00",
-      "end": "2026-11-17T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/Affiche-PE-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202611172000.html",
-      "url": "https://www.leforum.be/spectacle_202611172000.html",
-      "summary": "Spectacle « PE, ça ne s'est pas passé comme prévu ».",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
     },
     {
       "id": "web-reflektor-li-ge-nayte-18-11-2026-11-18",
@@ -3120,28 +2614,6 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-le-forum-li-ge-cl-ment-viktorovitch-l-art-de-ne-pas-dire-2026-11-18",
-      "title": "CLÉMENT VIKTOROVITCH L'ART DE NE PAS DIRE",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-11-18T20:00:00",
-      "end": "2026-11-18T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/clement_viktorovitch_510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202611182000.html",
-      "url": "https://www.leforum.be/spectacle_202611182000.html",
-      "summary": "Clément Viktorovitch dans « L'Art de ne pas dire ».",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
       "id": "web-reflektor-li-ge-nayte-19-11-2026-11-19",
       "title": "NAYTE (19/11)",
       "category": "concert",
@@ -3182,28 +2654,6 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-le-forum-li-ge-renaud-rutten-fait-son-cin-ma-2026-11-19",
-      "title": "RENAUD RUTTEN FAIT SON CINÉMA!",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-11-19T20:00:00",
-      "end": "2026-11-19T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/RENAUD_rutten-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202611192000.html",
-      "url": "https://www.leforum.be/spectacle_202611192000.html",
-      "summary": "Renaud Rutten dans « Renaud Rutten fait son cinéma ! ».",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
       "id": "web-reflektor-li-ge-the-jazz-room-un-voyage-au-c-ur-de-la-nouvelle-orl-ans-11-2026-2",
       "title": "The Jazz Room : un voyage au cœur de La Nouvelle-Orléans (11/2026)",
       "category": "concert",
@@ -3242,28 +2692,6 @@
       "audience": [],
       "tags": [],
       "source": "Ville de Huy"
-    },
-    {
-      "id": "web-le-forum-li-ge-the-music-of-hans-zimmer-alan-silvestri-2026-11-20",
-      "title": "THE MUSIC OF HANS ZIMMER & ALAN SILVESTRI",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-11-20T20:00:00",
-      "end": "2026-11-20T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/hans-zimmer-alan-silvestri-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202611202000.html",
-      "url": "https://www.leforum.be/spectacle_202611202000.html",
-      "summary": "Hommage orchestral aux musiques de Hans Zimmer et Alan Silvestri.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
     },
     {
       "id": "web-reflektor-li-ge-o-2026-11-21",
@@ -3326,28 +2754,6 @@
       "source": "Opéra Royal de Wallonie"
     },
     {
-      "id": "web-le-forum-li-ge-zeppelin-s-resurrection-letz-zep-2026-11-21",
-      "title": "ZEPPELIN'S RESURRECTION - LETZ-ZEP",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-11-21T20:00:00",
-      "end": "2026-11-21T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/LETZ_510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202611212000.html",
-      "url": "https://www.leforum.be/spectacle_202611212000.html",
-      "summary": "Letz-Zep rend hommage aux légendaires Led Zeppelin.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
       "id": "local-batte-dimanche-2026-11-22",
       "title": "Marché de la Batte",
       "category": "flea",
@@ -3364,28 +2770,6 @@
       "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/March%C3%A9_de_la_batte_Liege.jpg/1280px-March%C3%A9_de_la_batte_Liege.jpg",
       "summary": "Le grand marché dominical de Liège, tous les dimanches matin le long de la Meuse.",
       "source": "manuel"
-    },
-    {
-      "id": "web-le-forum-li-ge-jamel-comedy-club-2026-11-22",
-      "title": "JAMEL COMEDY CLUB",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-11-22T18:00:00",
-      "end": "2026-11-22T18:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/jamelcomedyclub-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202611221800.html",
-      "url": "https://www.leforum.be/spectacle_202611221800.html",
-      "summary": "Jamel Comedy Club revient avec son humour décalé.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
     },
     {
       "id": "web-les-grignoux-cin-ma-li-ge-la-nuit-des-femmes-2026-11-23",
@@ -3448,28 +2832,6 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-le-forum-li-ge-casse-noisette-ballet-et-orchestre-2026-11-24",
-      "title": "CASSE-NOISETTE - BALLET ET ORCHESTRE",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-11-24T20:00:00",
-      "end": "2026-11-24T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/AFFICHE-VERTICALE-CASSE-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202611242000.html",
-      "url": "https://www.leforum.be/spectacle_202611242000.html",
-      "summary": "Casse-Noisette, le classique du ballet avec orchestre.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "family"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
       "id": "web-reflektor-li-ge-z-lie-2026-11-25",
       "title": "Zélie",
       "category": "concert",
@@ -3490,28 +2852,6 @@
       "source": "Reflektor (Liège)"
     },
     {
-      "id": "web-le-forum-li-ge-laurent-gerra-se-met-table-2026-11-25",
-      "title": "LAURENT GERRA SE MET À TABLE!",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-11-25T20:00:00",
-      "end": "2026-11-25T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/GERRA510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202611252000.html",
-      "url": "https://www.leforum.be/spectacle_202611252000.html",
-      "summary": "Laurent Gerra se met à table avec son humour politique.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
       "id": "web-reflektor-li-ge-wednesday-13-the-birthday-massacre-killus-2026-11-26",
       "title": "Wednesday 13 + THE BIRTHDAY MASSACRE + Killus",
       "category": "concert",
@@ -3530,28 +2870,6 @@
       "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-machiavel-2026-11-26",
-      "title": "MACHIAVEL",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-11-26T20:00:00",
-      "end": "2026-11-26T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/MACHIAVEL_510x630.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202611262000.html",
-      "url": "https://www.leforum.be/spectacle_202611262000.html",
-      "summary": "Spectacle de magie « Machiavel ».",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
     },
     {
       "id": "web-reflektor-li-ge-seth-gueko-2026-11-27",
@@ -3625,28 +2943,6 @@
       "source": "Village de Noël (Liège)"
     },
     {
-      "id": "web-le-forum-li-ge-typh-barrow-dreama-tour-2026-2026-11-27",
-      "title": "TYPH BARROW - DREAMA TOUR 2026",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-11-27T20:00:00",
-      "end": "2026-11-27T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/TYPH-BARROW-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202611272000.html",
-      "url": "https://www.leforum.be/spectacle_202611272000.html",
-      "summary": "Typh Barrow en concert avec son Dreama Tour 2026.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
       "id": "web-reflektor-li-ge-hulk-2026-11-28",
       "title": "Hulk",
       "category": "concert",
@@ -3665,28 +2961,6 @@
       "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-c-est-d-cid-je-deviens-une-connasse-2026-11-28",
-      "title": "C'EST DÉCIDÉ JE DEVIENS UNE CONNASSE",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-11-28T20:00:00",
-      "end": "2026-11-28T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/connasse_510x630.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202611282000.html",
-      "url": "https://www.leforum.be/spectacle_202611282000.html",
-      "summary": "Spectacle « C'est décidé je deviens une connasse ».",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
     },
     {
       "id": "web-op-ra-royal-de-wallonie-musica-da-camera-2026-11-29",
@@ -3709,72 +2983,6 @@
       "source": "Opéra Royal de Wallonie"
     },
     {
-      "id": "web-le-forum-li-ge-elvis-the-concert-2026-11-29",
-      "title": "ELVIS - THE CONCERT",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-11-29T20:00:00",
-      "end": "2026-11-29T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/Elvis_TheConcert2026_510.png",
-      "page_url": "https://www.leforum.be/spectacle_202611292000.html",
-      "url": "https://www.leforum.be/spectacle_202611292000.html",
-      "summary": "Hommage à Elvis Presley - The Concert.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-v-ronic-dicaire-nouveau-spectacle-2026-12-01",
-      "title": "VÉRONIC DICAIRE - NOUVEAU SPECTACLE",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-12-01T20:00:00",
-      "end": "2026-12-01T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/VeronicDicaire_NouveauSpectacle_510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202612012000.html",
-      "url": "https://www.leforum.be/spectacle_202612012000.html",
-      "summary": "Véronic Dicaire présente son nouveau spectacle.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-v-ronic-dicaire-nouveau-spectacle-2026-12-02",
-      "title": "VÉRONIC DICAIRE - NOUVEAU SPECTACLE",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-12-02T20:00:00",
-      "end": "2026-12-02T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/VeronicDicaire_NouveauSpectacle_510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202612022000.html",
-      "url": "https://www.leforum.be/spectacle_202612022000.html",
-      "summary": "Véronic Dicaire présente son nouveau spectacle.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
       "id": "web-reflektor-li-ge-naft-2026-12-03",
       "title": "Naft",
       "category": "concert",
@@ -3793,50 +3001,6 @@
       "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-hommage-france-gall-2026-12-03",
-      "title": "HOMMAGE À FRANCE GALL",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-12-03T20:00:00",
-      "end": "2026-12-03T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/HOMMAGE_A_FRANCE_GALL_510x630.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202612032000.html",
-      "url": "https://www.leforum.be/spectacle_202612032000.html",
-      "summary": "Hommage musical à France Gall et ses grands succès.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-nino-arial-pas-comme-eux-2026-12-04",
-      "title": "NINO ARIAL : PAS COMME EUX",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-12-04T20:00:00",
-      "end": "2026-12-04T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/nino-arial510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202612042000.html",
-      "url": "https://www.leforum.be/spectacle_202612042000.html",
-      "summary": "Nino Arial dans son spectacle « Pas comme eux ».",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
     },
     {
       "id": "web-reflektor-li-ge-syd-matters-2026-12-05",
@@ -3879,28 +3043,6 @@
       "source": "Opéra Royal de Wallonie"
     },
     {
-      "id": "web-le-forum-li-ge-olivier-de-benoist-le-droit-au-bonheur-2026-12-05",
-      "title": "OLIVIER DE BENOIST LE DROIT AU BONHEUR",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-12-05T20:00:00",
-      "end": "2026-12-05T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/ODB-510.png",
-      "page_url": "https://www.leforum.be/spectacle_202612052000.html",
-      "url": "https://www.leforum.be/spectacle_202612052000.html",
-      "summary": "Olivier de Benoist dans « Le droit au bonheur ».",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
       "id": "web-reflektor-li-ge-la-saint-nicolas-du-regina-club-andre-borbe-presente-borbest-of-",
       "title": "LA SAINT-NICOLAS DU REGINA CLUB : ANDRE BORBE PRESENTE BORBEST'OF",
       "category": "concert",
@@ -3919,50 +3061,6 @@
       "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-lynda-lemay-jean-f-lix-lalanne-2026-12-06",
-      "title": "LYNDA LEMAY & JEAN-FÉLIX LALANNE",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-12-06T18:00:00",
-      "end": "2026-12-06T18:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/LEMAY-LALANNE_510x630.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202612061800.html",
-      "url": "https://www.leforum.be/spectacle_202612061800.html",
-      "summary": "Lynda Lemay et Jean-Félix Lalanne en concert.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-j-r-me-de-warz-e-va-au-diable-2026-12-08",
-      "title": "JÉRÔME DE WARZÉE VA AU DIABLE",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-12-08T20:00:00",
-      "end": "2026-12-08T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/A2-Jerome-de-Warzee-510.png",
-      "page_url": "https://www.leforum.be/spectacle_202612082000.html",
-      "url": "https://www.leforum.be/spectacle_202612082000.html",
-      "summary": "Jérôme de Warzée dans « Va au diable ».",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
     },
     {
       "id": "web-reflektor-li-ge-emel-2026-12-09",
@@ -4005,28 +3103,6 @@
       "source": "Reflektor (Liège)"
     },
     {
-      "id": "web-le-forum-li-ge-pablo-reyes-former-member-of-gipsy-king-2026-12-09",
-      "title": "PABLO REYES - FORMER MEMBER OF GIPSY KING",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-12-09T20:00:00",
-      "end": "2026-12-09T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/GIPSY-KINGS-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202612092000.html",
-      "url": "https://www.leforum.be/spectacle_202612092000.html",
-      "summary": "Pablo Reyes, ancien membre des Gipsy Kings, en concert.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
       "id": "web-les-grignoux-cin-ma-li-ge-tahiti-80-carla-biber-2026-12-10",
       "title": "Tahiti 80 + Carla Biber",
       "category": "concert",
@@ -4067,94 +3143,6 @@
       "source": "Reflektor (Liège)"
     },
     {
-      "id": "web-le-forum-li-ge-60-years-of-pink-floyd-2026-12-11",
-      "title": "60 YEARS OF PINK FLOYD",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-12-11T20:00:00",
-      "end": "2026-12-11T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/pink_floyd_format_510X630.png",
-      "page_url": "https://www.leforum.be/spectacle_202612112000.html",
-      "url": "https://www.leforum.be/spectacle_202612112000.html",
-      "summary": "Hommage aux 60 ans de Pink Floyd.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-brel-le-spectacle-2026-12-12",
-      "title": "BREL! LE SPECTACLE",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-12-12T20:00:00",
-      "end": "2026-12-12T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/BREL-lespectacle510.png",
-      "page_url": "https://www.leforum.be/spectacle_202612122000.html",
-      "url": "https://www.leforum.be/spectacle_202612122000.html",
-      "summary": "Spectacle hommage à Jacques Brel.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-cochons-d-inde-2026-12-13",
-      "title": "COCHONS D'INDE",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-12-13T17:00:00",
-      "end": "2026-12-13T17:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/cochons-d-inde-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202612131700.html",
-      "url": "https://www.leforum.be/spectacle_202612131700.html",
-      "summary": "Spectacle familial « Cochons d'Inde ».",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "family"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-carmen-by-the-antonio-gades-company-2026-12-14",
-      "title": "CARMEN BY THE ANTONIO GADES COMPANY",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-12-14T20:00:00",
-      "end": "2026-12-14T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/CARMEN_510x630.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202612142000.html",
-      "url": "https://www.leforum.be/spectacle_202612142000.html",
-      "summary": "Carmen par l'Antonio Gades Company.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
       "id": "web-les-grignoux-cin-ma-li-ge-dune-troisi-me-partie-2026-12-15",
       "title": "Dune : Troisième partie",
       "category": "cinema",
@@ -4173,50 +3161,6 @@
       "audience": [],
       "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-les-4-saisons-ballet-2026-12-15",
-      "title": "LES 4 SAISONS - BALLET",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-12-15T20:00:00",
-      "end": "2026-12-15T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/les-quatres-saisons-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202612152000.html",
-      "url": "https://www.leforum.be/spectacle_202612152000.html",
-      "summary": "Les 4 Saisons - ballet sur la musique de Vivaldi.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "family"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-calogero-2026-12-16",
-      "title": "CALOGERO",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-12-16T20:00:00",
-      "end": "2026-12-16T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/2CALOGERO_510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202612162000.html",
-      "url": "https://www.leforum.be/spectacle_202612162000.html",
-      "summary": "Calogero en concert avec ses plus grands succès.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
     },
     {
       "id": "web-reflektor-li-ge-kid-sophie-fanny-2026-12-17",
@@ -4259,28 +3203,6 @@
       "source": "Opéra Royal de Wallonie"
     },
     {
-      "id": "web-le-forum-li-ge-david-castello-lopes-delicieux-2026-12-17",
-      "title": "DAVID CASTELLO-LOPES DELICIEUX",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-12-17T20:00:00",
-      "end": "2026-12-17T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/dcl510x630.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202612172000.html",
-      "url": "https://www.leforum.be/spectacle_202612172000.html",
-      "summary": "David Castello-Lopes dans « Délicieux ».",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
       "id": "web-reflektor-li-ge-the-jazz-room-un-hommage-frank-sinatra-et-louis-armstrong-12-202",
       "title": "The Jazz Room : un hommage à Frank Sinatra et à Louis Armstrong (12/2026)",
       "category": "concert",
@@ -4299,228 +3221,6 @@
       "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-goldmanmania-on-n-a-pas-chang-2026-12-19",
-      "title": "GOLDMANMANIA - ON N'A PAS CHANGÉ",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-12-19T20:00:00",
-      "end": "2026-12-19T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/Goldmanmania-510x630.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202612192000.html",
-      "url": "https://www.leforum.be/spectacle_202612192000.html",
-      "summary": "Goldmanmania - Hommage aux tubes de Jean-Jacques Goldman.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-le-tout-dernier-concert-du-mon-dentier-2026-12-20",
-      "title": "LE TOUT DERNIER CONCERT DU MON DENTIER",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-12-20T20:00:00",
-      "end": "2026-12-20T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/les-gauff-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202612202000.html",
-      "url": "https://www.leforum.be/spectacle_202612202000.html",
-      "summary": "Le tout dernier concert du Mon Dentier.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-nacim-haddad-ayta-world-tour-2026-12-26",
-      "title": "NACIM HADDAD - AYTA WORLD TOUR",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-12-26T20:00:00",
-      "end": "2026-12-26T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/NACIM-HADDAD510.png",
-      "page_url": "https://www.leforum.be/spectacle_202612262000.html",
-      "url": "https://www.leforum.be/spectacle_202612262000.html",
-      "summary": "Nacim Haddad en tournée mondiale avec « Ayta ».",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-la-belle-au-bois-dormant-2026-12-27",
-      "title": "LA BELLE AU BOIS DORMANT",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-12-27T14:00:00",
-      "end": "2026-12-27T14:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/la-belle-au-bois-dormant-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202612271400.html",
-      "url": "https://www.leforum.be/spectacle_202612271400.html",
-      "summary": "La Belle au Bois Dormant - spectacle familial.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "family"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-le-lac-des-cygnes-2026-12-27",
-      "title": "LE LAC DES CYGNES",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-12-27T18:00:00",
-      "end": "2026-12-27T18:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/lac-des-cygnes-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202612271800.html",
-      "url": "https://www.leforum.be/spectacle_202612271800.html",
-      "summary": "Le Lac des Cygnes - ballet classique.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "family"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-un-courrier-pour-no-l-2026-12-29",
-      "title": "UN COURRIER POUR NOËL",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-12-29T19:00:00",
-      "end": "2026-12-29T19:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/un-courrier-de-noel-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202612291900.html",
-      "url": "https://www.leforum.be/spectacle_202612291900.html",
-      "summary": "Un courrier pour Noël - spectacle de fin d'année.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "family"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-chers-parents-r-veillon-au-champagne-2026-12-31",
-      "title": "CHERS PARENTS - RÉVEILLON AU CHAMPAGNE",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2026-12-31T20:00:00",
-      "end": "2026-12-31T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/CHERS-PARENTS_510-ok.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202612312000.html",
-      "url": "https://www.leforum.be/spectacle_202612312000.html",
-      "summary": "Réveillon au champagne avec la pièce « Chers Parents ».",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [
-        "soirée"
-      ],
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-la-rencontre-thierry-lhermitte-2027-01-06",
-      "title": "LA RENCONTRE - THIERRY LHERMITTE",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-01-06T20:00:00",
-      "end": "2027-01-06T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/thierry-lhermitte-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202701062000.html",
-      "url": "https://www.leforum.be/spectacle_202701062000.html",
-      "summary": "Thierry Lhermitte dans « La Rencontre ».",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-fabrice-eboue-solitudes-2027-01-07",
-      "title": "FABRICE EBOUE - SOLITUDES",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-01-07T20:00:00",
-      "end": "2027-01-07T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/fabrice-eboue-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202701072000.html",
-      "url": "https://www.leforum.be/spectacle_202701072000.html",
-      "summary": "Fabrice Eboue dans « Solitudes ».",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-with-u2-day-a-u2-tribute-2027-01-08",
-      "title": "WITH U2 DAY - A U2 TRIBUTE",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-01-08T20:00:00",
-      "end": "2027-01-08T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/u2-510x630px.png",
-      "page_url": "https://www.leforum.be/spectacle_202701082000.html",
-      "url": "https://www.leforum.be/spectacle_202701082000.html",
-      "summary": "Hommage à U2 avec With U2 Day.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
     },
     {
       "id": "web-reflektor-li-ge-the-jazz-room-un-voyage-au-c-ur-de-la-nouvelle-orl-ans-2027-01-0",
@@ -4543,160 +3243,6 @@
       "source": "Reflektor (Liège)"
     },
     {
-      "id": "web-le-forum-li-ge-olivier-de-benoist-le-droit-au-bonheur-2027-01-09",
-      "title": "OLIVIER DE BENOIST LE DROIT AU BONHEUR",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-01-09T20:00:00",
-      "end": "2027-01-09T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/ODB-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202701092000.html",
-      "url": "https://www.leforum.be/spectacle_202701092000.html",
-      "summary": "Olivier de Benoist dans « Le droit au bonheur ».",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-geremy-credeville-dans-enchanteur-2027-01-10",
-      "title": "GEREMY CREDEVILLE DANS ENCHANTEUR",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-01-10T17:00:00",
-      "end": "2027-01-10T17:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/CREDEVILLE_510x630.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202701101700.html",
-      "url": "https://www.leforum.be/spectacle_202701101700.html",
-      "summary": "Geremy Credeville dans « Enchanteur ».",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-arnaud-tsamere-tous-contraints-2027-01-14",
-      "title": "ARNAUD TSAMERE - TOUS CONTRAINTS",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-01-14T20:00:00",
-      "end": "2027-01-14T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/COUVEVENT-ARNAUD-TSAMERE-TOUS-CONTRAINTS-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202701142000.html",
-      "url": "https://www.leforum.be/spectacle_202701142000.html",
-      "summary": "Arnaud Tsamere dans « Tous contraints ».",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-arnaud-tsamere-tous-contraints-2027-01-15",
-      "title": "ARNAUD TSAMERE - TOUS CONTRAINTS",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-01-15T20:00:00",
-      "end": "2027-01-15T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/COUVEVENT-ARNAUD-TSAMERE-TOUS-CONTRAINTS-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202701152000.html",
-      "url": "https://www.leforum.be/spectacle_202701152000.html",
-      "summary": "Arnaud Tsamere dans « Tous contraints ».",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-sarah-schwab-elles-et-moi-2027-01-16",
-      "title": "SARAH SCHWAB - ELLES ET MOI",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-01-16T20:00:00",
-      "end": "2027-01-16T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/sarah-schwab-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202701162000.html",
-      "url": "https://www.leforum.be/spectacle_202701162000.html",
-      "summary": "Sarah Schwab dans « Elles et moi ».",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-dassin-chante-dassin-2027-01-17",
-      "title": "DASSIN CHANTE DASSIN",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-01-17T17:00:00",
-      "end": "2027-01-17T17:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/JOE_DASSIN_510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202701171700.html",
-      "url": "https://www.leforum.be/spectacle_202701171700.html",
-      "summary": "Dassin chante Dassin - hommage musical.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-lalou-brt-2027-01-20",
-      "title": "LALOU BRT",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-01-20T20:00:00",
-      "end": "2027-01-20T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/Lalou_510x630.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202701202000.html",
-      "url": "https://www.leforum.be/spectacle_202701202000.html",
-      "summary": "Lalou BRT en concert.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
       "id": "web-reflektor-li-ge-charles-dor-2027-01-21",
       "title": "Charles Doré",
       "category": "concert",
@@ -4717,116 +3263,6 @@
       "source": "Reflektor (Liège)"
     },
     {
-      "id": "web-le-forum-li-ge-mathieu-stepson-2027-01-21",
-      "title": "MATHIEU STEPSON",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-01-21T20:00:00",
-      "end": "2027-01-21T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/mathieur-stepson-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202701212000.html",
-      "url": "https://www.leforum.be/spectacle_202701212000.html",
-      "summary": "Mathieu Stepson dans son spectacle.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-damien-gillard-rude-2027-01-22",
-      "title": "DAMIEN GILLARD - RUDE",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-01-22T20:00:00",
-      "end": "2027-01-22T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/Damien-Gillard-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202701222000.html",
-      "url": "https://www.leforum.be/spectacle_202701222000.html",
-      "summary": "Damien Gillard dans son spectacle « Rude ».",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-the-depeche-mode-experience-2027-01-23",
-      "title": "THE DEPECHE MODE EXPERIENCE",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-01-23T20:00:00",
-      "end": "2027-01-23T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/depeche-mode-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202701232000.html",
-      "url": "https://www.leforum.be/spectacle_202701232000.html",
-      "summary": "Hommage à Depeche Mode avec The Depeche Mode Experience.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-manon-bril-300-000-ans-2027-01-27",
-      "title": "MANON BRIL - 300 000 ANS",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-01-27T20:00:00",
-      "end": "2027-01-27T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/MANON-BRIL-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202701272000.html",
-      "url": "https://www.leforum.be/spectacle_202701272000.html",
-      "summary": "Manon Bril dans « 300 000 ans ».",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-coldplay-by-coverplay-2027-01-28",
-      "title": "COLDPLAY BY COVERPLAY",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-01-28T20:00:00",
-      "end": "2027-01-28T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/COLDPLAY-FORUM510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202701282000.html",
-      "url": "https://www.leforum.be/spectacle_202701282000.html",
-      "summary": "Coldplay by Coverplay - hommage au groupe britannique.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
       "id": "web-reflektor-li-ge-piche-2027-01-29",
       "title": "Piche",
       "category": "concert",
@@ -4845,72 +3281,6 @@
       "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-garou-solo-2027-01-29",
-      "title": "GAROU SOLO",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-01-29T20:00:00",
-      "end": "2027-01-29T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/Garou_510x630.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202701292000.html",
-      "url": "https://www.leforum.be/spectacle_202701292000.html",
-      "summary": "Garou en concert solo.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-casse-noisette-ballet-et-orchestre-2027-01-30",
-      "title": "CASSE-NOISETTE — BALLET ET ORCHESTRE",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-01-30T20:00:00",
-      "end": "2027-01-30T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/casse-noisette-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202701302000.html",
-      "url": "https://www.leforum.be/spectacle_202701302000.html",
-      "summary": "Casse-Noisette, ballet et orchestre - classique intemporel.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "family"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-le-forum-li-ge-k-pop-superstars-2027-01-31",
-      "title": "K-POP SUPERSTARS",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.6715318,
-      "lon": 5.0765706,
-      "start": "2027-01-31T14:00:00",
-      "end": "2027-01-31T14:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/KPOP510.png",
-      "page_url": "https://www.leforum.be/spectacle_202701311400.html",
-      "url": "https://www.leforum.be/spectacle_202701311400.html",
-      "summary": "K-POP Superstars - concert de stars de la K-pop.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "young"
-      ],
-      "tags": [],
-      "source": "Le Forum (Liège)"
     },
     {
       "id": "web-reflektor-li-ge-black-box-revelation-2027-02-06",

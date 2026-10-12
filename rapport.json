@@ -1,5 +1,5 @@
 {
-  "genere": "2026-10-12T20:43:56",
+  "genere": "2026-10-12T21:03:20",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -48,12 +48,8 @@
     },
     {
       "source": "Le Forum (Liège)",
-      "ok": true,
-      "page_caracteres": 46753,
-      "ia_a_trouve": 74,
-      "gardes": 74,
-      "ecartes": 0,
-      "extrait_reponse_ia": ""
+      "ok": false,
+      "erreur": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "source": "Standard de Liège",
@@ -137,6 +133,6 @@
       "extrait_reponse_ia": ""
     }
   ],
-  "avec_image": 250,
-  "total": 250
+  "avec_image": 176,
+  "total": 176
 }
