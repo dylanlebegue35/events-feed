@@ -466,7 +466,7 @@ def event_from_ai(r, source_name, poster_url=None, default_city="", default_venu
 IMG_CACHE_FILE = HERE / "image_cache.json"
 _img_cache = json.loads(IMG_CACHE_FILE.read_text()) if IMG_CACHE_FILE.exists() else {}
 OK_LICENSES = re.compile(r"^(CC0|CC BY|CC BY-SA|Public domain|PD|Attribution)", re.I)
-BAD_TITLE = re.compile(r"logo|map|carte|plan|diagram|schema|svg|flag|drapeau|coat|blason|poster|affiche|screenshot|icon", re.I)
+BAD_TITLE = re.compile(r"logo|map|carte|plan|diagram|schema|svg|flag|drapeau|coat|blason|poster|affiche|screenshot|icon|televis|broadcast|engraving|gravure|portrait|manuscript|stamp|coin|painting|drawing", re.I)
 
 CATEGORY_QUERIES = {
     "concert": ["live concert", "concert stage", "rock concert"], "festival": ["music festival", "festival crowd"],
@@ -487,28 +487,26 @@ KIND_QUERIES = {
 }
 
 
-def commons_image(query, min_w=900, require=None, generic=False):
-    """Photo libre la plus pertinente pour une recherche : (url, crédit) ou None. Résultats mémorisés."""
-    key = query + ("|" + ",".join(require) if require else "")
+def commons_images(query, n=8, min_w=900, require=None, generic=False):
+    """Plusieurs photos libres pour une recherche : liste de (url, crédit). Résultats mémorisés."""
+    key = "L|" + query + ("|" + ",".join(require) if require else "") + ("|g" if generic else "")
     if key in _img_cache:
-        v = _img_cache[key]
-        return tuple(v) if v else None
-    params = ("action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=12&prop=imageinfo"
+        return [tuple(x) for x in _img_cache[key]]
+    params = ("action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=30&prop=imageinfo"
               "&iiprop=url|size|extmetadata&iiurlwidth=1000&gsrsearch=" + quote(query + " filetype:bitmap"))
     body = None
-    for wait in (0, 6, 20, 45):                      # poli avec Wikimedia : on réessaie plus tard si on est freiné
+    for wait in (0, 6, 20, 45):
         time.sleep(wait)
         r = subprocess.run(["curl", "-s", "--max-time", "25", "-A", "StudioAppsBot/1.0 (events-feed; contact via GitHub dylanlebegue35)",
-                            "-w", "\nHTTP %{http_code}", "https://commons.wikimedia.org/w/api.php?" + params],
-                           capture_output=True)
+                            "-w", "\nHTTP %{http_code}", "https://commons.wikimedia.org/w/api.php?" + params], capture_output=True)
         text = r.stdout.decode("utf-8", "ignore")
         if text.rsplit("\nHTTP", 1)[-1].strip() == "200":
             body = text.rsplit("\nHTTP", 1)[0]
             break
-    time.sleep(1.3)                                  # une demande toutes les ~1,5 s au maximum
+    time.sleep(1.3)
     if body is None:
-        return None                                  # échec réseau : on ne mémorise PAS « aucune photo »
-    best = None
+        return []
+    found, seen_artists = [], set()
     try:
         pages_ = sorted(json.loads(body).get("query", {}).get("pages", {}).values(), key=lambda p: p.get("index", 99))
         for p in pages_:
@@ -518,25 +516,34 @@ def commons_image(query, min_w=900, require=None, generic=False):
             w, h = ii.get("width", 0), ii.get("height", 0)
             if not ii.get("thumburl") or not OK_LICENSES.match(lic) or BAD_TITLE.search(p.get("title", "")):
                 continue
-            if w < min_w or h < 500 or w < h * 1.1:        # assez grande et en paysage
+            if w < min_w or h < 500 or w < h * 1.1:
                 continue
             said = (p.get("title", "") + " " + meta.get("ObjectName", {}).get("value", "") + " "
                     + re.sub(r"<[^>]+>", " ", meta.get("ImageDescription", {}).get("value", ""))).lower()
-            if require and not any(tok in said for tok in require):      # la photo doit nommer ce lieu
+            if require and not any(tok in said for tok in require):
                 continue
-            if generic and query.lower() not in said:                  # photo générique : le thème doit y figurer tel quel
+            if generic and query.lower() not in said:
                 continue
             artist = re.sub(r"<[^>]+>", "", meta.get("Artist", {}).get("value", "")).strip() or "auteur inconnu"
-            best = (ii["thumburl"], f"{artist[:60]} / Wikimedia Commons, {lic}")
-            break
+            if artist in seen_artists:                   # variété : pas dix photos du même photographe
+                continue
+            seen_artists.add(artist)
+            found.append((ii["thumburl"], f"{artist[:60]} / Wikimedia Commons, {lic}"))
+            if len(found) >= n:
+                break
     except Exception:
-        best = None
-    _img_cache[key] = list(best) if best else None
+        found = []
+    _img_cache[key] = [list(x) for x in found]
     IMG_CACHE_FILE.write_text(json.dumps(_img_cache, ensure_ascii=False, indent=1))
-    return best
+    return found
 
 
-GENERIC_WORDS = set("le la les de du des d l un une et au aux en sur the of and escape game karting bowling club salle "
+def commons_image(query, min_w=900, require=None, generic=False):
+    got = commons_images(query, n=1, min_w=min_w, require=require, generic=generic)
+    return got[0] if got else None
+
+
+GENERIC_WORDS = set("le la les de du des d l un une et au aux en sur the of and escape game karting bowling club salle studio rock bloc dalle partie centrale gauche droite face ouest est nord sud massif "
                     "centre center parc park liege liège belgique belgium mini golf laser trampoline arcade billard pub bar".split())
 
 
@@ -546,20 +553,27 @@ def distinctive_tokens(name):
     return [w for w in words if w not in GENERIC_WORDS]
 
 
-def photo_for(name, city, fallback_query):
-    """Photo du lieu précis seulement si elle le nomme vraiment ; sinon photo libre du même genre."""
+def _pick(seq, seed):
+    h = 5381
+    for ch in str(seed):
+        h = (h * 33 + ord(ch)) & 0xFFFFFFFF
+    return seq[h % len(seq)]
+
+
+def photo_for(name, city, fallback_query, seed=None):
+    """Photo du lieu précis seulement si elle le nomme vraiment ; sinon une photo libre du même genre,
+    choisie parmi plusieurs selon le lieu pour que deux lieux voisins n'aient pas la même image."""
     tokens = distinctive_tokens(name)
-    if any(len(t) >= 5 for t in tokens) or ("ham" in tokens):
-        pass
     if tokens and any(len(t) >= 5 for t in tokens):
         got = commons_image(f"{name} {city}".strip(), require=tokens)
         if got:
             return got
+    pool = []
     for q in ([fallback_query] if isinstance(fallback_query, str) else fallback_query):
-        got = commons_image(q, generic=True)
-        if got:
-            return got
-    return None
+        for item in commons_images(q, n=8, generic=True):
+            if item[0] not in [x[0] for x in pool]:
+                pool.append(item)
+    return _pick(pool, seed or name or city) if pool else None
 
 
 def fallback_pool():
@@ -568,10 +582,10 @@ def fallback_pool():
     for cat, q in CATEGORY_QUERIES.items():
         urls = []
         for variant in q:
-            got = commons_image(variant, generic=True)
-            if got and got[0] not in [u[0] for u in urls]:
-                urls.append(got)
-        pool[cat] = [{"url": u, "credit": c} for u, c in urls[:3]]
+            for got in commons_images(variant, n=4, generic=True):
+                if got[0] not in [u[0] for u in urls]:
+                    urls.append(got)
+        pool[cat] = [{"url": u, "credit": c} for u, c in urls[:5]]
     return pool
 
 
@@ -650,7 +664,7 @@ def main():
     fill_images(uniq, limit=80)
     for e in uniq:                                   # dernier recours : photo libre du lieu, puis de la catégorie
         if not e.get("image"):
-            got = photo_for(e.get("venue"), e.get("city", ""), CATEGORY_QUERIES.get(e.get("category"), ["city event"]))
+            got = photo_for(e.get("venue"), e.get("city", ""), CATEGORY_QUERIES.get(e.get("category"), ["city event"]), seed=e.get("id"))
             if got:
                 e["image"], e["image_credit"] = got
     try:
@@ -663,7 +677,7 @@ def main():
                     pass
         for p in lieux:
             if not p.get("image"):
-                got = photo_for(p["name"], p.get("city", ""), KIND_QUERIES.get(p["kind"], ["leisure"]))
+                got = photo_for(p["name"], p.get("city", ""), KIND_QUERIES.get(p["kind"], ["leisure"]), seed=p["id"])
                 if got:
                     p["image"], p["image_credit"] = got
         (HERE / "places.json").write_text(json.dumps({"generated": datetime.now().isoformat(timespec="seconds"),
