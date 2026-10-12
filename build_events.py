@@ -465,6 +465,7 @@ def event_from_ai(r, source_name, poster_url=None, default_city="", default_venu
 # ============================================================ photos libres de droit (Wikimedia Commons)
 IMG_CACHE_FILE = HERE / "image_cache.json"
 _img_cache = json.loads(IMG_CACHE_FILE.read_text()) if IMG_CACHE_FILE.exists() else {}
+_desc = {}   # texte décrivant chaque photo (titre + description), pour vérifier le lieu
 OK_LICENSES = re.compile(r"^(CC0|CC BY|CC BY-SA|Public domain|PD|Attribution)", re.I)
 BAD_TITLE = re.compile(r"logo|map|carte|plan|diagram|schema|svg|flag|drapeau|coat|blason|poster|affiche|screenshot|icon|televis|broadcast|engraving|gravure|portrait|manuscript|stamp|coin|painting|drawing", re.I)
 
@@ -481,8 +482,8 @@ CATEGORY_QUERIES = {
 }
 KIND_QUERIES = {
     "bowling": ["bowling alley", "bowling lanes", "bowling center", "ten-pin bowling", "bowling"], "escape": ["escape room", "escape game"], "karting": ["go-kart", "kart track", "karting"],
-    "laser": ["laser tag", "laser game"], "trampoline": ["trampoline park", "trampoline"], "climbing": ["rock climbing", "climbing wall", "bouldering", "climber", "cliff climbing"],
-    "billiards": ["billiards", "pool table"], "arcade": ["arcade game", "video arcade", "arcade", "pinball"], "minigolf": ["mini golf", "miniature golf", "minigolf"],
+    "laser": ["laser tag", "laser game"], "trampoline": ["trampoline park", "trampoline"], "climbing": ["sport climbing", "bouldering", "climbing wall", "rock climber"],
+    "billiards": ["billiards", "pool table"], "arcade": ["arcade game", "video arcade", "arcade", "pinball"], "minigolf": ["miniature golf", "mini golf", "minigolf", "mini-golf"],
     "club": ["nightclub", "dance floor", "disco", "club night"], "waterpark": ["water park", "waterslide"],
 }
 
@@ -531,6 +532,7 @@ def commons_images(query, n=8, min_w=900, require=None, generic=False):
                 continue
             seen_artists.add(artist)
             found.append((ii["thumburl"], f"{artist[:60]} / Wikimedia Commons, {lic}"))
+            _desc[ii["thumburl"]] = said
             if len(found) >= n:
                 break
     except Exception:
@@ -562,20 +564,31 @@ def _pick(seq, seed):
     return seq[h % len(seq)]
 
 
+def commons_text_has(url, words):
+    return any(w in _desc.get(url, "") for w in words)
+
+
 def photo_for(name, city, fallback_query, seed=None):
     """Photo du lieu précis seulement si elle le nomme vraiment ; sinon une photo libre du même genre,
     choisie parmi plusieurs selon le lieu pour que deux lieux voisins n'aient pas la même image."""
     tokens = distinctive_tokens(name)
-    if tokens and any(len(t) >= 5 for t in tokens):
-        got = commons_image(f"{name} {city}".strip(), require=tokens)
-        if got:
-            return got
+    place_words = [w for w in re.findall(r"[a-zA-Zà-ÿ]{4,}", (city or "").lower())] + ["liège", "liege", "belgi", "wallon"]
+    if tokens and any(len(t) >= 6 for t in tokens):
+        for item in commons_images(f"{name} {city}".strip(), n=4, require=tokens):
+            # la photo doit nommer le lieu ET être située dans la région : sinon c'est un homonyme (plage, cathédrale…)
+            if True:
+                text_ok = commons_text_has(item[0], place_words)
+                if text_ok:
+                    return item
     pool = []
     for q in ([fallback_query] if isinstance(fallback_query, str) else fallback_query):
         for item in commons_images(q, n=8, generic=True):
             if item[0] not in [x[0] for x in pool]:
                 pool.append(item)
-    return _pick(pool, seed or name or city) if pool else None
+    if not pool:
+        return None
+    url, credit = _pick(pool, seed or name or city)
+    return url, "Illustration : " + credit
 
 
 def fallback_pool():
@@ -592,11 +605,16 @@ def fallback_pool():
 
 
 # ============================================================ photos manquantes
-BAD_IMG = re.compile(r"logo|favicon|icon|sprite|flag|avatar|placeholder|blank|pixel|spinner|loader|banner-cookie|\.svg|\.gif|qtranslate", re.I)
+BAD_IMG = re.compile(r"logo|favicon|icon|sprite|flag|avatar|placeholder|blank|pixel|spinner|loader|banner-cookie|\.svg|\.gif|qtranslate|cropped-|site-icon|apple-touch|thumb-?\d{2,3}x\d{2,3}", re.I)
 
 
 def best_image(page, base):
     """Photo la plus probable d'une page d'événement : og:image, sinon première vraie image du contenu."""
+    img = _best_image(page, base)
+    return img.replace("http://", "https://", 1) if img else img          # l'iPhone refuse les images non sécurisées
+
+
+def _best_image(page, base):
     from urllib.parse import urljoin
     for pat in (r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)',
                 r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']',
