@@ -480,10 +480,10 @@ CATEGORY_QUERIES = {
     "talks": ["conference audience", "public lecture"], "geek": ["video game", "comic convention", "board game"],
 }
 KIND_QUERIES = {
-    "bowling": ["bowling alley", "bowling lanes"], "escape": ["escape room", "escape game"], "karting": ["go-kart", "kart track", "karting"],
-    "laser": ["laser tag", "laser game"], "trampoline": ["trampoline park", "trampoline"], "climbing": ["rock climbing", "climbing wall", "bouldering"],
-    "billiards": ["billiards", "pool table"], "arcade": ["arcade game", "video arcade"], "minigolf": ["mini golf", "miniature golf", "minigolf"],
-    "club": ["nightclub", "dance floor"], "waterpark": ["water park", "waterslide"],
+    "bowling": ["bowling alley", "bowling lanes", "bowling center", "ten-pin bowling", "bowling"], "escape": ["escape room", "escape game"], "karting": ["go-kart", "kart track", "karting"],
+    "laser": ["laser tag", "laser game"], "trampoline": ["trampoline park", "trampoline"], "climbing": ["rock climbing", "climbing wall", "bouldering", "climber", "cliff climbing"],
+    "billiards": ["billiards", "pool table"], "arcade": ["arcade game", "video arcade", "arcade", "pinball"], "minigolf": ["mini golf", "miniature golf", "minigolf"],
+    "club": ["nightclub", "dance floor", "disco", "club night"], "waterpark": ["water park", "waterslide"],
 }
 
 
@@ -525,6 +525,8 @@ def commons_images(query, n=8, min_w=900, require=None, generic=False):
             if generic and query.lower() not in said:
                 continue
             artist = re.sub(r"<[^>]+>", "", meta.get("Artist", {}).get("value", "")).strip() or "auteur inconnu"
+            if re.search(r"\b1[0-8]\d\d\b|mercator|atlas|teynard|imprimerie|lithograph|etching", artist + " " + said[:300], re.I):
+                continue                                     # œuvre ou photo ancienne : pas pour une app de sorties
             if artist in seen_artists:                   # variété : pas dix photos du même photographe
                 continue
             seen_artists.add(artist)
