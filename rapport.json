@@ -1,5 +1,5 @@
 {
-  "genere": "2026-10-13T21:52:14",
+  "genere": "2026-10-13T22:17:28",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -40,16 +40,16 @@
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 52175,
-      "ia_a_trouve": 60,
-      "gardes": 60,
+      "page_caracteres": 59912,
+      "ia_a_trouve": 59,
+      "gardes": 59,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 46776,
+      "page_caracteres": 46779,
       "ia_a_trouve": 78,
       "gardes": 78,
       "ecartes": 0,
@@ -175,7 +175,7 @@
     {
       "source": "Ancienne Belgique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 6844,
+      "page_caracteres": 6856,
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
@@ -202,9 +202,9 @@
     {
       "source": "Het Depot (Louvain)",
       "ok": true,
-      "page_caracteres": 8082,
-      "ia_a_trouve": 16,
-      "gardes": 16,
+      "page_caracteres": 8097,
+      "ia_a_trouve": 14,
+      "gardes": 14,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -224,54 +224,12 @@
       "nouvelles": 0
     },
     {
-      "source": "Facebook : Liège",
+      "source": "Facebook (service tiers)",
       "ok": true,
-      "recus": 40,
-      "nouveaux": 40
-    },
-    {
-      "source": "Facebook : Namur",
-      "ok": true,
-      "recus": 39,
-      "nouveaux": 38
-    },
-    {
-      "source": "Facebook : Mons",
-      "ok": true,
-      "recus": 28,
-      "nouveaux": 28
-    },
-    {
-      "source": "Facebook : Charleroi",
-      "ok": true,
-      "recus": 40,
-      "nouveaux": 40
-    },
-    {
-      "source": "Facebook : Bruxelles",
-      "ok": true,
-      "recus": 40,
-      "nouveaux": 40
-    },
-    {
-      "source": "Facebook : Louvain-la-Neuve",
-      "ok": true,
-      "recus": 40,
-      "nouveaux": 40
-    },
-    {
-      "source": "Facebook : Verviers",
-      "ok": true,
-      "recus": 12,
-      "nouveaux": 12
-    },
-    {
-      "source": "Facebook : Vielsalm",
-      "ok": true,
-      "recus": 30,
-      "nouveaux": 3
+      "etat": "pas encore l'heure",
+      "gardes": 241
     }
   ],
-  "avec_image": 567,
-  "total": 567
+  "avec_image": 564,
+  "total": 564
 }
