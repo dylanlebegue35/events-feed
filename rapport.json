@@ -1,5 +1,5 @@
 {
-  "genere": "2026-10-12T21:03:20",
+  "genere": "2026-10-13T04:15:05",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -40,9 +40,9 @@
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 51380,
-      "ia_a_trouve": 75,
-      "gardes": 75,
+      "page_caracteres": 56427,
+      "ia_a_trouve": 59,
+      "gardes": 59,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -81,10 +81,10 @@
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 12119,
+      "page_caracteres": 12120,
       "ia_a_trouve": 1,
-      "gardes": 1,
-      "ecartes": 0,
+      "gardes": 0,
+      "ecartes": 1,
       "extrait_reponse_ia": ""
     },
     {
@@ -117,9 +117,9 @@
     {
       "source": "Théâtre de Liège",
       "ok": true,
-      "page_caracteres": 6526,
-      "ia_a_trouve": 4,
-      "gardes": 4,
+      "page_caracteres": 6431,
+      "ia_a_trouve": 3,
+      "gardes": 3,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -133,6 +133,6 @@
       "extrait_reponse_ia": ""
     }
   ],
-  "avec_image": 176,
-  "total": 176
+  "avec_image": 154,
+  "total": 154
 }
