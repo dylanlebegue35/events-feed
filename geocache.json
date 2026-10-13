@@ -222,5 +222,73 @@
  "auditorium abel dubois|mons": [
   50.4557845,
   3.9568843
+ ],
+ "none|liège|world": [
+  50.6450944,
+  5.5736112
+ ],
+ "none|namur|world": [
+  50.4665284,
+  4.8661892
+ ],
+ "namur|namur|world": [
+  50.4665284,
+  4.8661892
+ ],
+ "5000 namur, belgium|namur|world": [
+  50.4665284,
+  4.8661892
+ ],
+ "namur, belgique|namur|world": [
+  50.4665284,
+  4.8661892
+ ],
+ "mons, belgique|mons|world": [
+  50.4549568,
+  3.951958
+ ],
+ "none|mons|world": [
+  50.4549568,
+  3.951958
+ ],
+ "umons|mons|world": [
+  50.450756,
+  3.9606992
+ ],
+ "none|charleroi|world": [
+  50.4116233,
+  4.444528
+ ],
+ "charleroi, belgique|charleroi|world": [
+  50.4116233,
+  4.444528
+ ],
+ "none|bruxelles|world": [
+  50.8551025,
+  4.3510915
+ ],
+ "bruxelles, bruxelles, , brussels, be|bruxelles|world": [
+  50.8551025,
+  4.3510915
+ ],
+ "a bruxelles|bruxelles|world": [
+  50.8551025,
+  4.3510915
+ ],
+ "seraing, belgique|bruxelles|world": [
+  50.8551025,
+  4.3510915
+ ],
+ "bruxelles|bruxelles|world": [
+  50.8551025,
+  4.3510915
+ ],
+ "brussels expo - palais 2, palais 2, pl. de belgique 1, bruxelles, 1020, brussels, be|bruxelles|world": [
+  50.8551025,
+  4.3510915
+ ],
+ "none|louvain-la-neuve|world": [
+  50.6740673,
+  4.6138095
  ]
 }

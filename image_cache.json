@@ -1769,5 +1769,23 @@
  "L|Mini-golf de Crisnée Crisnée|crisnée": [],
  "L|Geckotank Liège|geckotank": [],
  "L|Rocher du Four à Chaux|rocher,four,chaux": [],
- "L|Carrière de Chokier|carrière,chokier": []
+ "L|Carrière de Chokier|carrière,chokier": [],
+ "L|Forest National Forest, Belgium|forest,national": [
+  [
+   "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Lubiana_-_Forest_National_2023.jpg/1280px-Lubiana_-_Forest_National_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "Guy Delsaut / Wikimedia Commons, CC BY-SA 4.0"
+  ],
+  [
+   "https://upload.wikimedia.org/wikipedia/commons/b/b0/ForetNational3558.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "David Edgar / Wikimedia Commons, CC BY-SA 3.0"
+  ],
+  [
+   "https://upload.wikimedia.org/wikipedia/commons/6/64/Oasis_Forest_National_January_2009_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "Someone Not Awful / Wikimedia Commons, CC BY-SA 4.0"
+  ],
+  [
+   "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Florent_Pagny_-_Forest_National_2014_%281%29.JPG/1280px-Florent_Pagny_-_Forest_National_2014_%281%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "Delsaut / Wikimedia Commons, CC BY-SA 4.0"
+  ]
+ ]
 }
