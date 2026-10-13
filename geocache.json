@@ -150,5 +150,77 @@
  "château|huy": [
   50.5180856,
   5.2408138
+ ],
+ "rockerill|charleroi": [
+  50.4132027,
+  4.4049544
+ ],
+ "fuse|bruxelles": [
+  50.8353591,
+  4.3447628
+ ],
+ "madame moustache|bruxelles": [
+  50.8514898,
+  4.3489335
+ ],
+ "recyclart|bruxelles": [
+  50.8475126,
+  4.328181
+ ],
+ "ab lab|bruxelles": [
+  50.8551025,
+  4.3510915
+ ],
+ "ab club|bruxelles": [
+  50.8551025,
+  4.3510915
+ ],
+ "ab grande salle|bruxelles": [
+  50.8551025,
+  4.3510915
+ ],
+ "vk concerts|bruxelles": [
+  50.8567006,
+  4.3385762
+ ],
+ "ab salon|bruxelles": [
+  50.8551025,
+  4.3510915
+ ],
+ "witloof bar|bruxelles": [
+  50.8551025,
+  4.3510915
+ ],
+ "rotonde|bruxelles": [
+  50.8909885,
+  4.3324805
+ ],
+ "museum|bruxelles": [
+  50.8432758,
+  4.356757
+ ],
+ "trix|anvers": [
+  51.2195776,
+  4.4483726
+ ],
+ "het depot|louvain": [
+  50.881515,
+  4.7137996
+ ],
+ "mars|mons": [
+  50.4650237,
+  3.9554029
+ ],
+ "arsonic|mons": [
+  50.4593534,
+  3.9566332
+ ],
+ "théâtre le manège|mons": [
+  50.4578919,
+  3.9570338
+ ],
+ "auditorium abel dubois|mons": [
+  50.4557845,
+  3.9568843
  ]
 }
