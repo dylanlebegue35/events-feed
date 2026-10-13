@@ -116,6 +116,96 @@
       "venue": "Opéra Royal de Wallonie",
       "category_hint": "theatre",
       "enabled": true
+    },
+    {
+      "name": "Rockerill (Charleroi)",
+      "url": "https://www.rockerill.com",
+      "city": "Charleroi",
+      "venue": "Rockerill",
+      "category_hint": "party",
+      "enabled": true
+    },
+    {
+      "name": "Fuse (Bruxelles)",
+      "url": "https://www.fuse.be",
+      "city": "Bruxelles",
+      "venue": "Fuse",
+      "category_hint": "party",
+      "enabled": true
+    },
+    {
+      "name": "Madame Moustache (Bruxelles)",
+      "url": "https://www.madamemoustache.be",
+      "city": "Bruxelles",
+      "venue": "Madame Moustache",
+      "category_hint": "party",
+      "enabled": true
+    },
+    {
+      "name": "Recyclart (Bruxelles)",
+      "url": "https://www.recyclart.be",
+      "city": "Bruxelles",
+      "venue": "Recyclart",
+      "category_hint": "party",
+      "enabled": true
+    },
+    {
+      "name": "Ancienne Belgique (Bruxelles)",
+      "url": "https://www.abconcerts.be/fr/agenda",
+      "city": "Bruxelles",
+      "venue": "Ancienne Belgique",
+      "category_hint": "concert",
+      "enabled": true
+    },
+    {
+      "name": "Botanique (Bruxelles)",
+      "url": "https://botanique.be/fr/agenda",
+      "city": "Bruxelles",
+      "venue": "Botanique",
+      "category_hint": "concert",
+      "enabled": true
+    },
+    {
+      "name": "Trix (Anvers)",
+      "url": "https://www.trixonline.be",
+      "city": "Anvers",
+      "venue": "Trix",
+      "category_hint": "concert",
+      "enabled": true
+    },
+    {
+      "name": "Het Depot (Louvain)",
+      "url": "https://www.hetdepot.be",
+      "city": "Louvain",
+      "venue": "Het Depot",
+      "category_hint": "concert",
+      "enabled": true
+    },
+    {
+      "name": "Mars – Mons arts de la scène",
+      "url": "https://www.surmars.be",
+      "city": "Mons",
+      "venue": "Mars",
+      "category_hint": "culture",
+      "enabled": true
+    },
+    {
+      "name": "La Zone (Liège)",
+      "url": "https://www.lazone.be",
+      "city": "Liège",
+      "venue": "La Zone",
+      "category_hint": "party",
+      "enabled": false,
+      "_note": "Testé le 13/10/2026 : la page d'accueil n'affiche qu'un appel aux dons, l'agenda est ailleurs."
+    },
+    {
+      "name": "Chiroux (Liège)",
+      "url": "https://www.chiroux.be",
+      "city": "Liège",
+      "venue": "Chiroux",
+      "category_hint": "culture",
+      "enabled": false,
+      "_note": "Testé le 13/10/2026 : calendrier chargé par JavaScript, pas lisible sans navigateur invisible."
     }
   ]
 }

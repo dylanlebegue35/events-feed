@@ -5,12 +5,14 @@ Sources :
   1. Spa-Francorchamps : lecture du calendrier officiel (connecteur sur mesure)
   2. Pages web de sources.json : une IA lit chaque page et en extrait les événements
   3. manual_events.json : événements vérifiés à la main
+  4. Propositions envoyées depuis l'app et acceptées par Dylan (boîte Cloudflare, variable INBOX_TOKEN)
 
 Variables d'environnement : ANTHROPIC_API_KEY (pour l'étape 2, sinon ignorée).
 Usage : python3 build_events.py
 """
 import base64, hashlib, html, json, os, re, subprocess, sys, tempfile, time
 from datetime import date, datetime, timedelta
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from urllib.parse import quote
 
@@ -40,15 +42,19 @@ def clean(s):
 _geo = json.loads(GEOCACHE.read_text()) if GEOCACHE.exists() else {}
 
 
-def geocode(venue, city):
-    key = f"{venue}|{city}".lower()
+def geocode(venue, city, world=False):
+    """world=True : pour les propositions venues d'ailleurs (Paris, Lille…) on ne force pas la Belgique."""
+    key = f"{venue}|{city}".lower() + ("|world" if world else "")
     if key in _geo:
         return _geo[key]
     result = None
-    for q in ([f"{venue}, {city}, Belgique"] if venue else []) + [f"{city}, Belgique"]:
+    queries = ([f"{venue}, {city}"] if venue else []) + [city] if world else \
+        ([f"{venue}, {city}, Belgique"] if venue else []) + [f"{city}, Belgique"]
+    for q in queries:
         time.sleep(1.1)  # Nominatim : 1 requête par seconde maximum
+        extra = "&countrycodes=be,fr,nl,lu,de,gb" if world else ""
         r = subprocess.run(["curl", "-s", "--max-time", "20", "-A", "StudioAppsBot/1.0 (events-feed)",
-                            f"https://nominatim.openstreetmap.org/search?format=json&limit=1&q={quote(q)}"],
+                            f"https://nominatim.openstreetmap.org/search?format=json&limit=1{extra}&q={quote(q)}"],
                            capture_output=True)
         try:
             hit = json.loads(r.stdout)[0]
@@ -430,6 +436,106 @@ def inbox():
     return keep
 
 
+# ============================================================ propositions envoyées depuis l'app (boîte Cloudflare)
+INBOX_URL = os.environ.get("INBOX_URL", "https://vivyo-inbox.dylanlebegue35.workers.dev")
+SUBMITTED_STORE = HERE / "submitted_events.json"
+ACK_FILE = Path(tempfile.gettempdir()) / "vivyo_ack.json"
+
+
+def _box(path, payload=None):
+    """Appelle la boîte de réception (mot de passe : variable INBOX_TOKEN, jamais écrit dans un fichier)."""
+    cmd = ["curl", "-s", "--max-time", "30", "-H", f"Authorization: Bearer {os.environ['INBOX_TOKEN']}"]
+    if payload is not None:
+        cmd += ["-X", "POST", "-H", "Content-Type: application/json", "-d", json.dumps(payload)]
+    r = subprocess.run(cmd + ["--", INBOX_URL + path], capture_output=True)
+    if r.returncode != 0:
+        raise RuntimeError(f"boîte de réception injoignable (curl {r.returncode})")
+    data = json.loads(r.stdout.decode("utf-8"))
+    if isinstance(data, dict) and data.get("error"):
+        raise RuntimeError(f"boîte de réception : {data['error']}")
+    return data
+
+
+def _km(a, b):
+    from math import asin, cos, radians, sin, sqrt
+    la1, lo1, la2, lo2 = map(radians, (a[0], a[1], b[0], b[1]))
+    h = sin((la2 - la1) / 2) ** 2 + cos(la1) * cos(la2) * sin((lo2 - lo1) / 2) ** 2
+    return 12742 * asin(sqrt(h))
+
+
+def event_from_submission(it):
+    """Une proposition acceptée par Dylan devient une entrée de events.json (ou None)."""
+    start = datetime.fromisoformat(it["start"].replace("Z", "+00:00")).astimezone(ZoneInfo("Europe/Brussels")).replace(tzinfo=None)
+    end = start + timedelta(hours=3)
+    if end.date() < TODAY:
+        return None
+    city, venue = (it.get("city") or "").strip(), (it.get("venue") or "").strip() or None
+    city_pos = geocode(None, city, world=True)
+    pos = geocode(venue, city, world=True) if venue else None
+    if pos and city_pos and _km(pos, city_pos) > 25:     # un homonyme à l'autre bout du pays : on garde la ville
+        pos = None
+    pos = pos or city_pos
+    if not pos:
+        raise RuntimeError(f"lieu introuvable : {venue or ''} {city}")
+    poster_url = None
+    if it.get("image"):
+        POSTERS.mkdir(exist_ok=True)
+        name = re.sub(r"[^A-Za-z0-9._-]+", "-", f"sub-{it['id']}.jpg")
+        (POSTERS / name).write_bytes(base64.b64decode(it["image"]))
+        poster_url = RAW_BASE + name
+    price = re.search(r"\d+(?:[.,]\d+)?", it.get("price") or "")
+    link = it.get("link") or ""
+    return {
+        "id": "sub-" + it["id"],
+        "title": it["title"],
+        "category": it.get("category") if it.get("category") in CATEGORIES else "culture",
+        "venue": venue or city, "city": city, "lat": pos[0], "lon": pos[1],
+        "start": start.isoformat(timespec="seconds"), "end": end.isoformat(timespec="seconds"),
+        "image": poster_url, "page_url": link if link.startswith("http") else None,
+        "url": link if link.startswith("http") else None,
+        "summary": (it.get("details") or "")[:300],
+        "price_from": None if it.get("free") or not price else float(price.group().replace(",", ".")),
+        "free": True if it.get("free") else None,
+        "audience": [], "tags": [],
+        "source": "Proposé via l'app",
+    }
+
+
+def submissions():
+    """Récupère les propositions acceptées dans la boîte et les ajoute aux événements."""
+    store = json.loads(SUBMITTED_STORE.read_text()) if SUBMITTED_STORE.exists() else []
+    if not os.environ.get("INBOX_TOKEN"):
+        REPORT.append({"source": "Propositions de l'app", "ok": False, "erreur": "INBOX_TOKEN absent : ignorées"})
+        return store
+    known, ack, n = {e["id"] for e in store}, [], 0
+    for it in _box("/accepted"):
+        ack.append(it["id"])
+        if "sub-" + it["id"] in known:
+            continue
+        try:
+            ev = event_from_submission(it)
+            if ev:
+                store.append(ev)
+                n += 1
+        except Exception as ex:
+            print(f"  ! proposition {it.get('title')} : {ex}", file=sys.stderr)
+            REPORT.append({"source": f"Proposition : {it.get('title')}", "ok": False, "erreur": str(ex)[:300]})
+    store = [e for e in store if datetime.fromisoformat(e["end"]).date() >= TODAY]
+    SUBMITTED_STORE.write_text(json.dumps(store, ensure_ascii=False, indent=1), encoding="utf-8")
+    ACK_FILE.write_text(json.dumps(ack))     # on ne vide la boîte qu'une fois le travail bien enregistré (étape suivante)
+    REPORT.append({"source": "Propositions de l'app", "ok": True, "recues": len(ack), "nouvelles": n})
+    return store
+
+
+def acknowledge():
+    """Vide de la boîte les propositions déjà enregistrées (appelé après l'envoi sur GitHub)."""
+    if not (os.environ.get("INBOX_TOKEN") and ACK_FILE.exists()):
+        return
+    ids = json.loads(ACK_FILE.read_text())
+    if ids:
+        print("boîte vidée :", _box("/ack", {"ids": ids}))
+
+
 def event_from_ai(r, source_name, poster_url=None, default_city="", default_venue=None, hint="culture"):
     """Transforme la réponse de l'IA pour un événement en entrée du fichier events.json (ou None)."""
     title, start = (r.get("title") or "").strip(), r.get("start")
@@ -661,7 +767,7 @@ def fill_images(events, limit=150):
 # ============================================================ assemblage
 def main():
     events = []
-    for name, fn in [("Spa-Francorchamps", spa), ("Manuel", manual), ("Pages web (IA)", pages), ("Dépôt", inbox)]:
+    for name, fn in [("Spa-Francorchamps", spa), ("Manuel", manual), ("Pages web (IA)", pages), ("Dépôt", inbox), ("Propositions de l'app", submissions)]:
         try:
             got = fn()
             print(f"{name}: {len(got)} événements")
@@ -719,4 +825,7 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    if "--ack" in sys.argv:
+        acknowledge()
+    else:
+        main()

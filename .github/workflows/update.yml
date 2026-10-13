@@ -2,7 +2,7 @@ name: Mise à jour des événements
 
 on:
   schedule:
-    - cron: "0 4 * * *"   # tous les jours à 4 h UTC (5 h ou 6 h en Belgique)
+    - cron: "0 4,10,16,22 * * *"   # quatre fois par jour : les propositions acceptées arrivent dans l'app en quelques heures
   workflow_dispatch:        # bouton « Run workflow » pour le lancer à la main
   push:                     # se relance tout seul quand le code du robot change
     paths:
@@ -32,6 +32,7 @@ jobs:
       - name: Lire les sources et construire events.json
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          INBOX_TOKEN: ${{ secrets.INBOX_TOKEN }}
         run: python3 build_events.py
       - name: Enregistrer si quelque chose a changé
         run: |
@@ -39,3 +40,7 @@ jobs:
           git config user.email "events-bot@users.noreply.github.com"
           git add -A
           git diff --staged --quiet || (git commit -m "Mise à jour automatique des événements" && git push)
+      - name: Vider la boîte de réception (propositions déjà enregistrées)
+        env:
+          INBOX_TOKEN: ${{ secrets.INBOX_TOKEN }}
+        run: python3 build_events.py --ack
