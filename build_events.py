@@ -541,6 +541,7 @@ def acknowledge():
 # réagir. Rien de ceci n'utilise un compte Facebook. Désactivable en un mot : "enabled": false dans facebook_searches.json.
 FB_CONFIG = HERE / "facebook_searches.json"
 FB_STORE = HERE / "facebook_events.json"
+FB_CITIES = json.loads(FB_CONFIG.read_text()).get("cities", []) if FB_CONFIG.exists() else []
 FB_CATEGORY = {"MUSIC": "concert", "NIGHTLIFE": "party", "PARTY": "party", "COMEDY": "theatre", "THEATER": "theatre",
                "ART": "expo", "FOOD_AND_DRINK": "food", "SPORTS": "sport", "FAMILY": "family", "FILM": "cinema",
                "FITNESS_AND_WELLNESS": "wellness", "WORKSHOP": "workshop", "CLASSES": "workshop", "GAMING": "geek"}
@@ -569,7 +570,8 @@ def _fb_event(it, query):
     if end.date() < TODAY:
         return None
     loc = it.get("location") or {}
-    city = (loc.get("city") or query or "").strip()
+    city = (loc.get("city") or "").strip() or next((c for c in FB_CITIES if c.lower() in (query or "").lower()), (query or "").strip())
+    city = re.sub(r",\s*(Belgium|Belgique|België|France|Nederland|Netherlands)$", "", city, flags=re.I)
     venue = (loc.get("name") or "").strip() or None
     if loc.get("latitude") and loc.get("longitude"):
         pos = [float(loc["latitude"]), float(loc["longitude"])]
@@ -616,21 +618,80 @@ def _fb_rehost(ev):
         ev["image"] = None
 
 
+FB_CLASSIFY_PROMPT = """Tu aides une app de sorties (Belgique, France). Voici des résultats de recherche d'événements Facebook.
+Pour CHAQUE élément, réponds avec un objet JSON :
+- "id" : l'identifiant donné
+- "keep" : false si ce n'est PAS un vrai événement où des gens se retrouvent à une date précise : revente de billets d'attractions
+  ou de visites touristiques (GetYourGuide…), « louer un atelier », publicité, annonce commerciale, cours en ligne. Sinon true.
+- "category" : une seule valeur parmi {cats}
+- "audience" : une seule valeur parmi student (soirée ou événement pensé pour étudiants, cercles, TD, baptêmes),
+  young (surtout 18-30 ans : clubs, concerts rock/électro/rap, afterworks), adult, family, senior, all (tout public).
+Sois strict sur "student" : seulement si c'est clairement pour des étudiants.
+Catégories : {cat_help}
+Réponds UNIQUEMENT par un tableau JSON.
+
+{items}"""
+
+
+def fb_classify(events):
+    """Une IA trie les résultats : vrais événements ou non, catégorie, public visé. Ne touche qu'aux événements pas encore triés."""
+    todo = [e for e in events if not e.get("classified")]
+    if not todo or not os.environ.get("ANTHROPIC_API_KEY"):
+        return events
+    verdict = {}
+    for i in range(0, len(todo), 40):
+        batch = todo[i:i + 40]
+        lines = "\n".join(json.dumps({"id": e["id"], "titre": e["title"], "lieu": e["venue"], "ville": e["city"],
+                                       "texte": e["summary"][:160]}, ensure_ascii=False) for e in batch)
+        try:
+            raw = parse_json_array(call_claude(FB_CLASSIFY_PROMPT.format(cats=", ".join(CATEGORIES), cat_help=CATEGORY_HELP, items=lines)))
+            verdict.update({r["id"]: r for r in raw if isinstance(r, dict) and r.get("id")})
+        except Exception as ex:
+            print(f"  ! tri Facebook : {ex}", file=sys.stderr)
+    out = []
+    for e in events:
+        v = verdict.get(e["id"])
+        if v is not None:
+            if v.get("keep") is False:
+                continue
+            if v.get("category") in CATEGORIES:
+                e["category"] = v["category"]
+            e["audience"] = [v["audience"]] if v.get("audience") in ("student", "young", "adult", "family", "senior") else []
+            e["classified"] = True
+        out.append(e)
+    return out
+
+
 def facebook():
     cfg = json.loads(FB_CONFIG.read_text()) if FB_CONFIG.exists() else {}
     store = json.loads(FB_STORE.read_text()) if FB_STORE.exists() else {"last_run": None, "events": []}
-    keep = lambda: [e for e in store["events"] if datetime.fromisoformat(e["end"]).date() >= TODAY]
+    cities = cfg.get("cities") or []
+    centers = [p for p in (geocode(None, c, world=True) for c in cities) if p]
+    radius = cfg.get("max_km_from_city", 45)
+
+    def tidy(events):
+        """On garde l'à-venir, près d'une de nos villes (la recherche de Facebook déborde parfois très loin), puis l'IA trie."""
+        up = [e for e in events if datetime.fromisoformat(e["end"]).date() >= TODAY]
+        if centers:
+            up = [e for e in up if any(_km([e["lat"], e["lon"]], c) <= radius for c in centers)]
+        return fb_classify(up)
+
     token = os.environ.get("APIFY_TOKEN")
     if not cfg.get("enabled") or not token:
-        REPORT.append({"source": "Facebook (service tiers)", "ok": True, "etat": "désactivé", "gardes": len(keep())})
-        return keep()
+        store["events"] = tidy(store["events"])
+        FB_STORE.write_text(json.dumps(store, ensure_ascii=False, indent=1), encoding="utf-8")
+        REPORT.append({"source": "Facebook (service tiers)", "ok": True, "etat": "désactivé", "gardes": len(store["events"])})
+        return store["events"]
     last = store.get("last_run")
     if last and (datetime.now() - datetime.fromisoformat(last)) < timedelta(days=cfg.get("min_days_between_runs", 7)):
-        REPORT.append({"source": "Facebook (service tiers)", "ok": True, "etat": "pas encore l'heure", "gardes": len(keep())})
-        return keep()
-    known, new = {e["id"] for e in store["events"]}, 0
+        store["events"] = tidy(store["events"])
+        FB_STORE.write_text(json.dumps(store, ensure_ascii=False, indent=1), encoding="utf-8")
+        REPORT.append({"source": "Facebook (service tiers)", "ok": True, "etat": "pas encore l'heure", "gardes": len(store["events"])})
+        return store["events"]
+    known = {e["id"] for e in store["events"]}
+    queries = cfg.get("queries") or [f"{k} {c}".strip() for c in cities for k in (cfg.get("keywords") or [""])]
     spent_cap = cfg.get("max_cost_usd_per_query", 0.30)
-    for q in cfg.get("queries", []):
+    for q in queries:
         try:
             payload = {"searchQueries": [q], "maxEvents": cfg.get("max_events_per_query", 40)}
             r = subprocess.run(
@@ -644,17 +705,18 @@ def facebook():
             for it in items:
                 ev = _fb_event(it, q)
                 if ev and ev["id"] not in known:
-                    _fb_rehost(ev)
                     store["events"].append(ev)
                     known.add(ev["id"])
                     got += 1
-            new += got
             REPORT.append({"source": f"Facebook : {q}", "ok": True, "recus": len(items), "nouveaux": got})
         except Exception as ex:
             print(f"  ! facebook {q} : {str(ex).replace(token, '***')}", file=sys.stderr)
             REPORT.append({"source": f"Facebook : {q}", "ok": False, "erreur": str(ex).replace(token, "***")[:300]})
+    store["events"] = tidy(store["events"])
+    for ev in store["events"]:          # la photo n'est copiée qu'après le tri : on ne garde rien d'inutile
+        if ev.get("classified") or not os.environ.get("ANTHROPIC_API_KEY"):
+            _fb_rehost(ev)
     store["last_run"] = datetime.now().isoformat(timespec="seconds")
-    store["events"] = keep()
     FB_STORE.write_text(json.dumps(store, ensure_ascii=False, indent=1), encoding="utf-8")
     return store["events"]
 
