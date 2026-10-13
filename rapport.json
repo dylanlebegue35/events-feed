@@ -1,5 +1,5 @@
 {
-  "genere": "2026-10-13T22:17:28",
+  "genere": "2026-10-13T22:37:12",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -49,9 +49,9 @@
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 46779,
-      "ia_a_trouve": 78,
-      "gardes": 78,
+      "page_caracteres": 46774,
+      "ia_a_trouve": 79,
+      "gardes": 79,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -224,12 +224,198 @@
       "nouvelles": 0
     },
     {
-      "source": "Facebook (service tiers)",
+      "source": "Facebook : soirée Liège",
       "ok": true,
-      "etat": "pas encore l'heure",
-      "gardes": 241
+      "recus": 25,
+      "nouveaux": 10
+    },
+    {
+      "source": "Facebook : concert Liège",
+      "ok": true,
+      "recus": 20,
+      "nouveaux": 6
+    },
+    {
+      "source": "Facebook : étudiants TD Liège",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : festival Liège",
+      "ok": true,
+      "recus": 10,
+      "nouveaux": 1
+    },
+    {
+      "source": "Facebook : soirée Namur",
+      "ok": true,
+      "recus": 25,
+      "nouveaux": 12
+    },
+    {
+      "source": "Facebook : concert Namur",
+      "ok": true,
+      "recus": 25,
+      "nouveaux": 15
+    },
+    {
+      "source": "Facebook : étudiants TD Namur",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : festival Namur",
+      "ok": true,
+      "recus": 10,
+      "nouveaux": 1
+    },
+    {
+      "source": "Facebook : soirée Mons",
+      "ok": true,
+      "recus": 25,
+      "nouveaux": 13
+    },
+    {
+      "source": "Facebook : concert Mons",
+      "ok": true,
+      "recus": 25,
+      "nouveaux": 16
+    },
+    {
+      "source": "Facebook : étudiants TD Mons",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : festival Mons",
+      "ok": true,
+      "recus": 21,
+      "nouveaux": 4
+    },
+    {
+      "source": "Facebook : soirée Charleroi",
+      "ok": true,
+      "recus": 21,
+      "nouveaux": 10
+    },
+    {
+      "source": "Facebook : concert Charleroi",
+      "ok": true,
+      "recus": 7,
+      "nouveaux": 1
+    },
+    {
+      "source": "Facebook : étudiants TD Charleroi",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : festival Charleroi",
+      "ok": true,
+      "recus": 6,
+      "nouveaux": 2
+    },
+    {
+      "source": "Facebook : soirée Bruxelles",
+      "ok": true,
+      "recus": 6,
+      "nouveaux": 2
+    },
+    {
+      "source": "Facebook : concert Bruxelles",
+      "ok": true,
+      "recus": 21,
+      "nouveaux": 7
+    },
+    {
+      "source": "Facebook : étudiants TD Bruxelles",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : festival Bruxelles",
+      "ok": true,
+      "recus": 8,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : soirée Louvain-la-Neuve",
+      "ok": true,
+      "recus": 25,
+      "nouveaux": 8
+    },
+    {
+      "source": "Facebook : concert Louvain-la-Neuve",
+      "ok": true,
+      "recus": 25,
+      "nouveaux": 4
+    },
+    {
+      "source": "Facebook : étudiants TD Louvain-la-Neuve",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : festival Louvain-la-Neuve",
+      "ok": true,
+      "recus": 25,
+      "nouveaux": 3
+    },
+    {
+      "source": "Facebook : soirée Verviers",
+      "ok": true,
+      "recus": 6,
+      "nouveaux": 2
+    },
+    {
+      "source": "Facebook : concert Verviers",
+      "ok": true,
+      "recus": 3,
+      "nouveaux": 1
+    },
+    {
+      "source": "Facebook : étudiants TD Verviers",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : festival Verviers",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : soirée Vielsalm",
+      "ok": true,
+      "recus": 3,
+      "nouveaux": 1
+    },
+    {
+      "source": "Facebook : concert Vielsalm",
+      "ok": true,
+      "recus": 3,
+      "nouveaux": 2
+    },
+    {
+      "source": "Facebook : étudiants TD Vielsalm",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : festival Vielsalm",
+      "ok": true,
+      "recus": 1,
+      "nouveaux": 0
     }
   ],
-  "avec_image": 564,
-  "total": 564
+  "avec_image": 597,
+  "total": 597
 }
