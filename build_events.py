@@ -536,6 +536,129 @@ def acknowledge():
         print("boîte vidée :", _box("/ack", {"ids": ids}))
 
 
+# ============================================================ événements publics Facebook, via un service tiers (Apify)
+# ATTENTION : lire Facebook par programme est contre le règlement de Meta. Le service tiers peut s'arrêter, ou Meta peut
+# réagir. Rien de ceci n'utilise un compte Facebook. Désactivable en un mot : "enabled": false dans facebook_searches.json.
+FB_CONFIG = HERE / "facebook_searches.json"
+FB_STORE = HERE / "facebook_events.json"
+FB_CATEGORY = {"MUSIC": "concert", "NIGHTLIFE": "party", "PARTY": "party", "COMEDY": "theatre", "THEATER": "theatre",
+               "ART": "expo", "FOOD_AND_DRINK": "food", "SPORTS": "sport", "FAMILY": "family", "FILM": "cinema",
+               "FITNESS_AND_WELLNESS": "wellness", "WORKSHOP": "workshop", "CLASSES": "workshop", "GAMING": "geek"}
+FB_PARTY = re.compile(r"soir[ée]e|party|club|\bdj\b|afterwork|techno|rave|bal\b|\btd\b|cantus|guindaille", re.I)
+FB_STUDENT = re.compile(r"[ée]tudiant|cercle|bapt[eê]me|\bbleus?\b|\btd\b|cantus|guindaille|erasmus|campus", re.I)
+FB_FREE = re.compile(r"gratuit|entr[ée]e libre|free entry|\bfree\b|vrij toegang|gratis", re.I)
+
+
+def _fb_event(it, query):
+    """Un résultat du service tiers devient une entrée de events.json (ou None)."""
+    if it.get("isCanceled") or it.get("isPast") or it.get("isOnline") or not it.get("name") or not it.get("id"):
+        return None
+    start_raw = it.get("utcStartDate") or it.get("startTime")
+    if not start_raw:
+        return None
+    start = datetime.fromisoformat(str(start_raw).replace("Z", "+00:00"))
+    start = (start.astimezone(ZoneInfo("Europe/Brussels")) if start.tzinfo else start).replace(tzinfo=None)
+    end_raw = it.get("utcEndDate")
+    try:
+        end = datetime.fromisoformat(str(end_raw).replace("Z", "+00:00"))
+        end = (end.astimezone(ZoneInfo("Europe/Brussels")) if end.tzinfo else end).replace(tzinfo=None)
+    except Exception:
+        end = start + timedelta(hours=3)
+    if end < start or end - start > timedelta(days=3):
+        end = start + timedelta(hours=3)
+    if end.date() < TODAY:
+        return None
+    loc = it.get("location") or {}
+    city = (loc.get("city") or query or "").strip()
+    venue = (loc.get("name") or "").strip() or None
+    if loc.get("latitude") and loc.get("longitude"):
+        pos = [float(loc["latitude"]), float(loc["longitude"])]
+    else:
+        pos = geocode(venue, city, world=True) or geocode(None, city, world=True)
+    if not pos:
+        return None
+    text = f"{it['name']} {it.get('description') or ''}"
+    cats = [c.upper() for c in (it.get("discoveryCategories") or []) if isinstance(c, str)]
+    category = next((FB_CATEGORY[c] for c in cats if c in FB_CATEGORY), None)
+    if FB_PARTY.search(it["name"]):
+        category = "party"
+    category = category or "culture"
+    audience = ["student"] if FB_STUDENT.search(text) else (["young"] if category == "party" else [])
+    ext = [x for x in (it.get("externalLinks") or []) if isinstance(x, str) and x.startswith("http")]
+    return {
+        "id": "fb-" + str(it["id"]),
+        "title": clean(it["name"])[:140],
+        "category": category,
+        "venue": venue or city, "city": city, "lat": pos[0], "lon": pos[1],
+        "start": start.isoformat(timespec="seconds"), "end": end.isoformat(timespec="seconds"),
+        "image": it.get("imageUrl"),
+        "page_url": it.get("url"),
+        "url": ext[0] if ext else it.get("url"),
+        "summary": clean(it.get("description") or "")[:300],
+        "price_from": None, "free": True if FB_FREE.search(text + " " + str(it.get("ticketsInfo") or "")) else None,
+        "audience": audience, "tags": [],
+        "source": "Facebook (événement public)",
+    }
+
+
+def _fb_rehost(ev):
+    """L'adresse de l'image Facebook expire en quelques jours : on garde une copie dans posters/."""
+    url = ev.get("image")
+    if not url or url.startswith(RAW_BASE):
+        return
+    POSTERS.mkdir(exist_ok=True)
+    name = f"{ev['id']}.jpg"
+    r = subprocess.run(["curl", "-sL", "--max-time", "30", "--", url], capture_output=True)
+    if r.returncode == 0 and 3_000 < len(r.stdout) < 4_000_000 and r.stdout[:3] in (b"\xff\xd8\xff", b"\x89PN", b"RIF"):
+        (POSTERS / name).write_bytes(r.stdout)
+        ev["image"] = RAW_BASE + name
+    else:
+        ev["image"] = None
+
+
+def facebook():
+    cfg = json.loads(FB_CONFIG.read_text()) if FB_CONFIG.exists() else {}
+    store = json.loads(FB_STORE.read_text()) if FB_STORE.exists() else {"last_run": None, "events": []}
+    keep = lambda: [e for e in store["events"] if datetime.fromisoformat(e["end"]).date() >= TODAY]
+    token = os.environ.get("APIFY_TOKEN")
+    if not cfg.get("enabled") or not token:
+        REPORT.append({"source": "Facebook (service tiers)", "ok": True, "etat": "désactivé", "gardes": len(keep())})
+        return keep()
+    last = store.get("last_run")
+    if last and (datetime.now() - datetime.fromisoformat(last)) < timedelta(days=cfg.get("min_days_between_runs", 7)):
+        REPORT.append({"source": "Facebook (service tiers)", "ok": True, "etat": "pas encore l'heure", "gardes": len(keep())})
+        return keep()
+    known, new = {e["id"] for e in store["events"]}, 0
+    spent_cap = cfg.get("max_cost_usd_per_query", 0.30)
+    for q in cfg.get("queries", []):
+        try:
+            payload = {"searchQueries": [q], "maxEvents": cfg.get("max_events_per_query", 40)}
+            r = subprocess.run(
+                ["curl", "-s", "--max-time", "290", "-X", "POST", "-H", "Content-Type: application/json", "-d", json.dumps(payload),
+                 f"https://api.apify.com/v2/acts/{cfg.get('actor', 'alfalfa~facebook-events-scraper')}/run-sync-get-dataset-items"
+                 f"?token={token}&maxTotalChargeUsd={spent_cap}&timeout=280"], capture_output=True)
+            items = json.loads(r.stdout.decode("utf-8", errors="ignore") or "[]")
+            if not isinstance(items, list):
+                raise RuntimeError(str(items)[:200].replace(token, "***"))
+            got = 0
+            for it in items:
+                ev = _fb_event(it, q)
+                if ev and ev["id"] not in known:
+                    _fb_rehost(ev)
+                    store["events"].append(ev)
+                    known.add(ev["id"])
+                    got += 1
+            new += got
+            REPORT.append({"source": f"Facebook : {q}", "ok": True, "recus": len(items), "nouveaux": got})
+        except Exception as ex:
+            print(f"  ! facebook {q} : {str(ex).replace(token, '***')}", file=sys.stderr)
+            REPORT.append({"source": f"Facebook : {q}", "ok": False, "erreur": str(ex).replace(token, "***")[:300]})
+    store["last_run"] = datetime.now().isoformat(timespec="seconds")
+    store["events"] = keep()
+    FB_STORE.write_text(json.dumps(store, ensure_ascii=False, indent=1), encoding="utf-8")
+    return store["events"]
+
+
 def event_from_ai(r, source_name, poster_url=None, default_city="", default_venue=None, hint="culture"):
     """Transforme la réponse de l'IA pour un événement en entrée du fichier events.json (ou None)."""
     title, start = (r.get("title") or "").strip(), r.get("start")
@@ -767,7 +890,7 @@ def fill_images(events, limit=150):
 # ============================================================ assemblage
 def main():
     events = []
-    for name, fn in [("Spa-Francorchamps", spa), ("Manuel", manual), ("Pages web (IA)", pages), ("Dépôt", inbox), ("Propositions de l'app", submissions)]:
+    for name, fn in [("Spa-Francorchamps", spa), ("Manuel", manual), ("Pages web (IA)", pages), ("Dépôt", inbox), ("Propositions de l'app", submissions), ("Facebook (service tiers)", facebook)]:
         try:
             got = fn()
             print(f"{name}: {len(got)} événements")

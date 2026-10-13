@@ -9,6 +9,7 @@ on:
       - "build_events.py"
       - "page_text.py"
       - "sources.json"
+      - "facebook_searches.json"
       - "manual_events.json"
       - "inbox/**"
 
@@ -33,6 +34,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           INBOX_TOKEN: ${{ secrets.INBOX_TOKEN }}
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
         run: python3 build_events.py
       - name: Enregistrer si quelque chose a changé
         run: |
