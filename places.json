@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T22:37:12",
+ "generated": "2026-10-14T04:21:06",
  "places": [
   {
    "id": "osm-node-2004989413",
@@ -176,10 +176,9 @@
    "city": "Liège",
    "lat": 50.6234517,
    "lon": 5.5955252,
-   "website": null,
+   "website": "https://sallesescaladeliege.be/",
    "hours": "Mo-Fr 09:00-23:00; Sa-Su 09:00-20:00",
-   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/New_outside_boulder_area.jpg/1280px-New_outside_boulder_area.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "image_credit": "Illustration : Carsten Hagemann / Wikimedia Commons, CC BY 4.0"
+   "image": "https://www.sallesescaladeliege.be/medias/images/toprock_4.png"
   },
   {
    "id": "osm-way-188609283",
@@ -193,19 +192,6 @@
    "hours": "Tu-Su 10:00-22:00",
    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Tulleys_Farm_Outfitter_Escape_Room.jpg/1280px-Tulleys_Farm_Outfitter_Escape_Room.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "image_credit": "Illustration : ORpretom / Wikimedia Commons, CC BY-SA 4.0"
-  },
-  {
-   "id": "osm-way-188762552",
-   "name": "Studio 22",
-   "kind": "club",
-   "kind_label": "Club",
-   "city": "Liège",
-   "lat": 50.6455394,
-   "lon": 5.5692999,
-   "website": null,
-   "hours": null,
-   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Swoosie_Kurtz_on_the_dance_floor_%282078440584%29.jpg/1280px-Swoosie_Kurtz_on_the_dance_floor_%282078440584%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "image_credit": "Illustration : Alan Light / Wikimedia Commons, CC BY 2.0"
   },
   {
    "id": "osm-way-241928620",
@@ -230,6 +216,19 @@
    "lon": 5.5887424,
    "website": "https://www.toprock.be",
    "hours": "Mo-Fr 12:00-23:00; Sa-Su,PH 12:00-20:00; Jun 15-Sep 15 Sa off; Dec 25,Jan 01 off; Apr 30-Sep 30 PH off",
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Bytom_boilerhouse_Skarpa_climbing_wall_2023.jpg/1280px-Bytom_boilerhouse_Skarpa_climbing_wall_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Illustration : Adrian Tync / Wikimedia Commons, CC BY-SA 4.0"
+  },
+  {
+   "id": "osm-way-317391735",
+   "name": "Zone escalade Cascades de Chanxhe",
+   "kind": "climbing",
+   "kind_label": "Escalade",
+   "city": "",
+   "lat": 50.5078725,
+   "lon": 5.6058592,
+   "website": null,
+   "hours": null,
    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Bytom_boilerhouse_Skarpa_climbing_wall_2023.jpg/1280px-Bytom_boilerhouse_Skarpa_climbing_wall_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "image_credit": "Illustration : Adrian Tync / Wikimedia Commons, CC BY-SA 4.0"
   },

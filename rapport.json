@@ -1,5 +1,5 @@
 {
-  "genere": "2026-10-13T22:37:12",
+  "genere": "2026-10-14T04:21:06",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -49,16 +49,16 @@
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 46774,
-      "ia_a_trouve": 79,
-      "gardes": 79,
+      "page_caracteres": 46764,
+      "ia_a_trouve": 71,
+      "gardes": 71,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Standard de Liège",
       "ok": true,
-      "page_caracteres": 7585,
+      "page_caracteres": 7588,
       "ia_a_trouve": 3,
       "gardes": 3,
       "ecartes": 0,
@@ -67,9 +67,9 @@
     {
       "source": "Province de Liège",
       "ok": true,
-      "page_caracteres": 15910,
-      "ia_a_trouve": 2,
-      "gardes": 2,
+      "page_caracteres": 15050,
+      "ia_a_trouve": 3,
+      "gardes": 3,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -105,8 +105,8 @@
       "ok": true,
       "page_caracteres": 10133,
       "ia_a_trouve": 10,
-      "gardes": 10,
-      "ecartes": 0,
+      "gardes": 9,
+      "ecartes": 1,
       "extrait_reponse_ia": ""
     },
     {
@@ -184,19 +184,19 @@
     {
       "source": "Botanique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 4219,
-      "ia_a_trouve": 3,
-      "gardes": 3,
+      "page_caracteres": 0,
+      "ia_a_trouve": 0,
+      "gardes": 0,
       "ecartes": 0,
-      "extrait_reponse_ia": ""
+      "extrait_reponse_ia": "```json\n[]\n```"
     },
     {
       "source": "Trix (Anvers)",
       "ok": true,
       "page_caracteres": 10796,
       "ia_a_trouve": 30,
-      "gardes": 26,
-      "ecartes": 4,
+      "gardes": 25,
+      "ecartes": 5,
       "extrait_reponse_ia": ""
     },
     {
@@ -211,9 +211,9 @@
     {
       "source": "Mars – Mons arts de la scène",
       "ok": true,
-      "page_caracteres": 12290,
-      "ia_a_trouve": 13,
-      "gardes": 13,
+      "page_caracteres": 11113,
+      "ia_a_trouve": 9,
+      "gardes": 9,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -224,198 +224,12 @@
       "nouvelles": 0
     },
     {
-      "source": "Facebook : soirée Liège",
+      "source": "Facebook (service tiers)",
       "ok": true,
-      "recus": 25,
-      "nouveaux": 10
-    },
-    {
-      "source": "Facebook : concert Liège",
-      "ok": true,
-      "recus": 20,
-      "nouveaux": 6
-    },
-    {
-      "source": "Facebook : étudiants TD Liège",
-      "ok": true,
-      "recus": 0,
-      "nouveaux": 0
-    },
-    {
-      "source": "Facebook : festival Liège",
-      "ok": true,
-      "recus": 10,
-      "nouveaux": 1
-    },
-    {
-      "source": "Facebook : soirée Namur",
-      "ok": true,
-      "recus": 25,
-      "nouveaux": 12
-    },
-    {
-      "source": "Facebook : concert Namur",
-      "ok": true,
-      "recus": 25,
-      "nouveaux": 15
-    },
-    {
-      "source": "Facebook : étudiants TD Namur",
-      "ok": true,
-      "recus": 0,
-      "nouveaux": 0
-    },
-    {
-      "source": "Facebook : festival Namur",
-      "ok": true,
-      "recus": 10,
-      "nouveaux": 1
-    },
-    {
-      "source": "Facebook : soirée Mons",
-      "ok": true,
-      "recus": 25,
-      "nouveaux": 13
-    },
-    {
-      "source": "Facebook : concert Mons",
-      "ok": true,
-      "recus": 25,
-      "nouveaux": 16
-    },
-    {
-      "source": "Facebook : étudiants TD Mons",
-      "ok": true,
-      "recus": 0,
-      "nouveaux": 0
-    },
-    {
-      "source": "Facebook : festival Mons",
-      "ok": true,
-      "recus": 21,
-      "nouveaux": 4
-    },
-    {
-      "source": "Facebook : soirée Charleroi",
-      "ok": true,
-      "recus": 21,
-      "nouveaux": 10
-    },
-    {
-      "source": "Facebook : concert Charleroi",
-      "ok": true,
-      "recus": 7,
-      "nouveaux": 1
-    },
-    {
-      "source": "Facebook : étudiants TD Charleroi",
-      "ok": true,
-      "recus": 0,
-      "nouveaux": 0
-    },
-    {
-      "source": "Facebook : festival Charleroi",
-      "ok": true,
-      "recus": 6,
-      "nouveaux": 2
-    },
-    {
-      "source": "Facebook : soirée Bruxelles",
-      "ok": true,
-      "recus": 6,
-      "nouveaux": 2
-    },
-    {
-      "source": "Facebook : concert Bruxelles",
-      "ok": true,
-      "recus": 21,
-      "nouveaux": 7
-    },
-    {
-      "source": "Facebook : étudiants TD Bruxelles",
-      "ok": true,
-      "recus": 0,
-      "nouveaux": 0
-    },
-    {
-      "source": "Facebook : festival Bruxelles",
-      "ok": true,
-      "recus": 8,
-      "nouveaux": 0
-    },
-    {
-      "source": "Facebook : soirée Louvain-la-Neuve",
-      "ok": true,
-      "recus": 25,
-      "nouveaux": 8
-    },
-    {
-      "source": "Facebook : concert Louvain-la-Neuve",
-      "ok": true,
-      "recus": 25,
-      "nouveaux": 4
-    },
-    {
-      "source": "Facebook : étudiants TD Louvain-la-Neuve",
-      "ok": true,
-      "recus": 0,
-      "nouveaux": 0
-    },
-    {
-      "source": "Facebook : festival Louvain-la-Neuve",
-      "ok": true,
-      "recus": 25,
-      "nouveaux": 3
-    },
-    {
-      "source": "Facebook : soirée Verviers",
-      "ok": true,
-      "recus": 6,
-      "nouveaux": 2
-    },
-    {
-      "source": "Facebook : concert Verviers",
-      "ok": true,
-      "recus": 3,
-      "nouveaux": 1
-    },
-    {
-      "source": "Facebook : étudiants TD Verviers",
-      "ok": true,
-      "recus": 0,
-      "nouveaux": 0
-    },
-    {
-      "source": "Facebook : festival Verviers",
-      "ok": true,
-      "recus": 0,
-      "nouveaux": 0
-    },
-    {
-      "source": "Facebook : soirée Vielsalm",
-      "ok": true,
-      "recus": 3,
-      "nouveaux": 1
-    },
-    {
-      "source": "Facebook : concert Vielsalm",
-      "ok": true,
-      "recus": 3,
-      "nouveaux": 2
-    },
-    {
-      "source": "Facebook : étudiants TD Vielsalm",
-      "ok": true,
-      "recus": 0,
-      "nouveaux": 0
-    },
-    {
-      "source": "Facebook : festival Vielsalm",
-      "ok": true,
-      "recus": 1,
-      "nouveaux": 0
+      "etat": "pas encore l'heure",
+      "gardes": 274
     }
   ],
-  "avec_image": 597,
-  "total": 597
+  "avec_image": 582,
+  "total": 582
 }
