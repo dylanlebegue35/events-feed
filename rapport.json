@@ -1,5 +1,5 @@
 {
-  "genere": "2026-10-14T16:21:57",
+  "genere": "2026-10-14T22:15:59",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -144,12 +144,8 @@
     },
     {
       "source": "Trix (Anvers)",
-      "ok": true,
-      "page_caracteres": 10796,
-      "ia_a_trouve": 30,
-      "gardes": 25,
-      "ecartes": 5,
-      "extrait_reponse_ia": ""
+      "ok": false,
+      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
     },
     {
       "source": "Het Depot (Louvain)",
@@ -174,6 +170,6 @@
       "gardes": 274
     }
   ],
-  "avec_image": 343,
-  "total": 343
+  "avec_image": 318,
+  "total": 318
 }
