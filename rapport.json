@@ -1,5 +1,5 @@
 {
-  "genere": "2026-10-14T10:19:38",
+  "genere": "2026-10-14T16:21:57",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -134,12 +134,8 @@
     },
     {
       "source": "Ancienne Belgique (Bruxelles)",
-      "ok": true,
-      "page_caracteres": 6856,
-      "ia_a_trouve": 10,
-      "gardes": 10,
-      "ecartes": 0,
-      "extrait_reponse_ia": ""
+      "ok": false,
+      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
     },
     {
       "source": "Botanique (Bruxelles)",
@@ -178,6 +174,6 @@
       "gardes": 274
     }
   ],
-  "avec_image": 353,
-  "total": 353
+  "avec_image": 343,
+  "total": 343
 }
