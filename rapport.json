@@ -1,5 +1,5 @@
 {
-  "genere": "2026-10-14T22:15:59",
+  "genere": "2026-10-15T04:17:52",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -84,12 +84,8 @@
     },
     {
       "source": "Théâtre de Liège",
-      "ok": true,
-      "page_caracteres": 6503,
-      "ia_a_trouve": 3,
-      "gardes": 3,
-      "ecartes": 0,
-      "extrait_reponse_ia": ""
+      "ok": false,
+      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
     },
     {
       "source": "Opéra Royal de Wallonie",
@@ -128,8 +124,8 @@
       "ok": true,
       "page_caracteres": 4501,
       "ia_a_trouve": 14,
-      "gardes": 14,
-      "ecartes": 0,
+      "gardes": 12,
+      "ecartes": 2,
       "extrait_reponse_ia": ""
     },
     {
@@ -167,9 +163,9 @@
       "source": "Facebook (service tiers)",
       "ok": true,
       "etat": "pas encore l'heure",
-      "gardes": 274
+      "gardes": 268
     }
   ],
-  "avec_image": 318,
-  "total": 318
+  "avec_image": 307,
+  "total": 307
 }

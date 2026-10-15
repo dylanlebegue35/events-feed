@@ -226,29 +226,6 @@
    "classified": true
   },
   {
-   "id": "fb-1618807952785587",
-   "title": "[SOLD-OUT] BENJAMIN BIOLAY - OM, Liège",
-   "category": "concert",
-   "venue": "OM",
-   "city": "Seraing",
-   "lat": 50.607505793477,
-   "lon": 5.5365446180804,
-   "start": "2026-10-14T20:00:00",
-   "end": "2026-10-14T23:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1618807952785587.jpg",
-   "page_url": "https://www.facebook.com/events/1618807952785587/",
-   "url": "https://www.facebook.com/events/1618807952785587/",
-   "summary": "Après une tournée acoustique, BENJAMIN BIOLAY revient à Liège et à Bruxelles cette fois en version électrique! Benjamin Biolay sera en concert le MERCREDI 14 OCTOBRE à L'OM (Liège) et le JEUDI 15 OCTOBRE 2026 à l’Ancienne Belgique (Bruxelles) avec son nouvel album “Le Disque Bleu” déjà encensé par l",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1080012721027815",
    "title": "#Scream&Shout - Liège",
    "category": "talks",
@@ -790,29 +767,6 @@
    "page_url": "https://www.facebook.com/events/4547275385559779/",
    "url": "https://shop.paylogic.com/8f4947f7b2914be08259681e944efc0f",
    "summary": "TICKETS: https://shop.paylogic.com/8f4947f7b2914be08259681e944efc0f",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-896793833420108",
-   "title": "Samuel Bambi « 𝑀𝑎𝑐ℎ𝑖𝑛𝑒 » . Trocadéro . Liège",
-   "category": "theatre",
-   "venue": "Trocadéro de Liège",
-   "city": "Liège",
-   "lat": 50.64233,
-   "lon": 5.57194,
-   "start": "2026-10-14T20:00:00",
-   "end": "2026-10-14T23:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-896793833420108.jpg",
-   "page_url": "https://www.facebook.com/events/896793833420108/",
-   "url": "https://www.facebook.com/events/896793833420108/",
-   "summary": "« Un Cœur qui bat sous ce corps imberbe » Si Samuel était une scène de film ? Il serait l’orchestre du Titanic qui continue de jouer alors que le bateau coule et que les passagers se jettent à l’eau. Inarrêtable ! Audacieux et hilarant (cette phrase est de lui). Venez découvrir comment rien ne lui f",
    "price_from": null,
    "free": null,
    "audience": [
@@ -4321,29 +4275,6 @@
    "classified": true
   },
   {
-   "id": "fb-1812129283468233",
-   "title": "Soirée Karaoké - Membres Improvise! - Namur🎤🎶",
-   "category": "party",
-   "venue": "Nana Bar Namurois",
-   "city": "Namur",
-   "lat": 50.463810943338,
-   "lon": 4.8667801681367,
-   "start": "2026-10-14T20:00:00",
-   "end": "2026-10-14T23:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1812129283468233.jpg",
-   "page_url": "https://www.facebook.com/events/1812129283468233/",
-   "url": "https://www.billetweb.fr/karaoke-improvise-namur1",
-   "summary": "[ÉVÉNEMENT RÉSERVÉ AUX MEMBRES IMPROVISE ACTIFS!] 🎭 Faire de l'impro c'est bien, mais faire un Karaoké c'est bien aussi ! 🎤🎶 Le premier étage du bar est privatisé rien que pour nous : viens rencontrer la communauté Improvise! autour d'un micro et d'une boisson fraîche ! 🧡🤍 🏁 Info parking : il y a la",
-   "price_from": null,
-   "free": true,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1824138335610309",
    "title": "SOIRÉE RACLETTE HALLOWEEN",
    "category": "party",
@@ -5014,29 +4945,6 @@
    "classified": true
   },
   {
-   "id": "fb-1139364342099434",
-   "title": "Soirée BACK TO 2010",
-   "category": "party",
-   "venue": "Cité Houzeau",
-   "city": "Mons",
-   "lat": 50.448201031975,
-   "lon": 3.955139323581,
-   "start": "2026-10-14T20:00:00",
-   "end": "2026-10-14T23:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1139364342099434.jpg",
-   "page_url": "https://www.facebook.com/events/1139364342099434/",
-   "url": "https://www.facebook.com/events/1139364342099434/",
-   "summary": "✨BACK TO 2010✨ Et si on remontait le temps, le temps d’une soirée ? 💖 💿 Les sons incontournables des années 2010, les looks, et l’ambiance d’une époque de folie ! 📅 14 octobre 2026 🕗 20h – 02h 📍 Cité Houzeau (salle pp) 🎟️ Entrée : 3 € Prêts à revivre 2010 ? On vous attend nombreux ! ✨ La Coupe du Mo",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1577686261052025",
    "title": "🏐🥪 SOIRÉE CROQUE-MONSIEUR – 24 OCTOBRE 🥪🏐",
    "category": "party",
@@ -5053,29 +4961,6 @@
    "price_from": null,
    "free": null,
    "audience": [],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1447411074240687",
-   "title": "Sauvageoness en concert à MonsterS' Art - Fréjus",
-   "category": "concert",
-   "venue": "Mons",
-   "city": "Mons",
-   "lat": 50.4549568,
-   "lon": 3.951958,
-   "start": "2026-10-14T20:00:00",
-   "end": "2026-10-14T23:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1447411074240687.jpg",
-   "page_url": "https://www.facebook.com/events/1447411074240687/",
-   "url": "https://sauvageoness.bandcamp.com/album/a-maze-deep-in",
-   "summary": "Mercredi 14 octobre 20h Monster'S Art 358 Rue Rudolf Diesel À Fréjus! Lets gooo! (punk, post-punk, indie, noise, shoegaze = doomed dream pop industrielle) Sauvageoness plonge dans un doom metal pulvérisé avec des compositions qui chavirent au son corrosif et éthéré de son nouvel album, A Maze Deep I",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "young"
-   ],
    "tags": [],
    "source": "Facebook (événement public)",
    "classified": true
@@ -5714,29 +5599,6 @@
    "summary": "Soirée Blind Test spécial Halloween chez Betch 👻 Prêt·e à tester tes connaissances musicales et à t’amuser entre amis ? Le 31 octobre, viens passer une soirée fun et animée dans une ambiance 100% Halloween ! Forme ton équipe, affûte tes oreilles et prépare-toi à défier les autres joueurs… Bonus Hall",
    "price_from": null,
    "free": null,
-   "audience": [
-    "student"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-936013032598848",
-   "title": "Soirée Disco @Lux S5",
-   "category": "party",
-   "venue": "Ruelle st Eloi, 8/001, 1348 Louvain-la-Neuve, Belgium",
-   "city": "Louvain-la-Neuve",
-   "lat": 50.66779,
-   "lon": 4.61821,
-   "start": "2026-10-13T22:00:00",
-   "end": "2026-10-14T01:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-936013032598848.jpg",
-   "page_url": "https://www.facebook.com/events/936013032598848/",
-   "url": "https://www.facebook.com/events/936013032598848/",
-   "summary": "🪩🕺 Soirée 80-90 - Mardi S5 @lux🕺🪩 Le temps d’une soirée, la Tournaisienne t’invite à replonger dans deux décennies qui ont marqué l’histoire de la musique et de la mode… LES ANNÉES 80-90 !! Entre les sons cultes qu’on connaît tous, les tenues qu’on assume qu’à moitié et les pas de danse qui méritera",
-   "price_from": null,
-   "free": true,
    "audience": [
     "student"
    ],
