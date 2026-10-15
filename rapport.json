@@ -1,5 +1,5 @@
 {
-  "genere": "2026-10-15T04:17:52",
+  "genere": "2026-10-15T10:17:58",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -94,12 +94,8 @@
     },
     {
       "source": "Rockerill (Charleroi)",
-      "ok": true,
-      "page_caracteres": 12305,
-      "ia_a_trouve": 11,
-      "gardes": 11,
-      "ecartes": 0,
-      "extrait_reponse_ia": ""
+      "ok": false,
+      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
     },
     {
       "source": "Fuse (Bruxelles)",
@@ -121,12 +117,8 @@
     },
     {
       "source": "Recyclart (Bruxelles)",
-      "ok": true,
-      "page_caracteres": 4501,
-      "ia_a_trouve": 14,
-      "gardes": 12,
-      "ecartes": 2,
-      "extrait_reponse_ia": ""
+      "ok": false,
+      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
     },
     {
       "source": "Ancienne Belgique (Bruxelles)",
@@ -166,6 +158,6 @@
       "gardes": 268
     }
   ],
-  "avec_image": 307,
-  "total": 307
+  "avec_image": 284,
+  "total": 284
 }

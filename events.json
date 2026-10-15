@@ -1,130 +1,6 @@
 {
-  "generated": "2026-10-15T04:17:52",
+  "generated": "2026-10-15T10:17:58",
   "events": [
-    {
-      "id": "web-recyclart-bruxelles-reports-stadpluraal-the-non-ableist-city-2026-07-01",
-      "title": "Reports: STADPLURAAL – The Non-Ableist City",
-      "category": "expo",
-      "venue": "Recyclart",
-      "city": "Bruxelles",
-      "lat": 50.8475126,
-      "lon": 4.328181,
-      "start": "2026-07-01T10:00:00",
-      "end": "2026-12-31T20:00:00",
-      "image": "https://recyclart.be/storage/files/img-3635-afterlight-334x272-quadrant(T).jpg?token=645b43f9514c78afb849015f1680cc18",
-      "page_url": null,
-      "url": "https://www.recyclart.be",
-      "summary": "Exposition Reports: STADPLURAAL – The Non-Ableist City",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Recyclart (Bruxelles)"
-    },
-    {
-      "id": "web-recyclart-bruxelles-new-agenda-out-2026-09-01",
-      "title": "NEW AGENDA OUT !",
-      "category": "culture",
-      "venue": "Recyclart",
-      "city": "Bruxelles",
-      "lat": 50.8475126,
-      "lon": 4.328181,
-      "start": "2026-09-01T10:00:00",
-      "end": "2026-10-31T20:00:00",
-      "image": "https://recyclart.be/storage/files/recyclart-programme-sept-oct-2026-web-01-724x592-quadrant(T).jpg?token=27adc2d6f136a3ead6c18b77355b6235",
-      "page_url": "https://recyclart.be/fr/agenda/new-agenda-out",
-      "url": "https://recyclart.be/fr/agenda/new-agenda-out",
-      "summary": "Nouvel agenda de Recyclart",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Recyclart (Bruxelles)"
-    },
-    {
-      "id": "web-recyclart-bruxelles-yoga-communautaire-2026-09-03",
-      "title": "Yoga Communautaire",
-      "category": "wellness",
-      "venue": "Recyclart",
-      "city": "Bruxelles",
-      "lat": 50.8475126,
-      "lon": 4.328181,
-      "start": "2026-09-03T10:00:00",
-      "end": "2026-12-17T20:00:00",
-      "image": "https://recyclart.be/storage/files/img-6640-334x272-quadrant(T).jpg?token=e068e34347c83fbde5b48c87d2edf86e",
-      "page_url": "https://recyclart.be/fr/agenda/yoga-communautaire-1",
-      "url": "https://recyclart.be/fr/agenda/yoga-communautaire-1",
-      "summary": "Cours de yoga communautaire réguliers",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Recyclart (Bruxelles)"
-    },
-    {
-      "id": "web-recyclart-bruxelles-couture-club-2026-09-10",
-      "title": "Couture Club",
-      "category": "workshop",
-      "venue": "Recyclart",
-      "city": "Bruxelles",
-      "lat": 50.8475126,
-      "lon": 4.328181,
-      "start": "2026-09-10T10:00:00",
-      "end": "2026-12-03T20:00:00",
-      "image": "https://recyclart.be/storage/files/naaiclub-334x272-quadrant(T).jpg?token=93723b080c1ef371c7a89ea72c",
-      "page_url": "https://recyclart.be/fr/agenda/couture-club-7",
-      "url": "https://recyclart.be/fr/agenda/couture-club-7",
-      "summary": "Club de couture régulier",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [
-        "créatif"
-      ],
-      "source": "Recyclart (Bruxelles)"
-    },
-    {
-      "id": "web-recyclart-bruxelles-exposition-bar-resto-saveur-fleurs-coup-es-2026-09-11",
-      "title": "Exposition Bar Resto \"Saveur fleurs coupées\"",
-      "category": "expo",
-      "venue": "Recyclart",
-      "city": "Bruxelles",
-      "lat": 50.8475126,
-      "lon": 4.328181,
-      "start": "2026-09-11T10:00:00",
-      "end": "2026-10-31T20:00:00",
-      "image": "https://recyclart.be/storage/files/capture-decran-2026-09-02-121739-334x272-quadrant(T).png?token=70625dd7420312beab048d7f3442a188",
-      "page_url": "https://recyclart.be/fr/agenda/exposition-bar-resto-saveur-fleurs-coupees",
-      "url": "https://recyclart.be/fr/agenda/exposition-bar-resto-saveur-fleurs-coupees",
-      "summary": "Exposition Bar Resto Saveur fleurs coupées",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Recyclart (Bruxelles)"
-    },
-    {
-      "id": "web-recyclart-bruxelles-permanence-couture-2026-09-23",
-      "title": "PERMANENCE COUTURE",
-      "category": "workshop",
-      "venue": "Recyclart",
-      "city": "Bruxelles",
-      "lat": 50.8475126,
-      "lon": 4.328181,
-      "start": "2026-09-23T10:00:00",
-      "end": "2026-12-16T20:00:00",
-      "image": "https://recyclart.be/storage/files/naai-open-atelier-334x272-quadrant(T).jpg?token=6a608490896cc9c2df726a3060f6b40d",
-      "page_url": "https://recyclart.be/fr/agenda/permanence-couture-1",
-      "url": "https://recyclart.be/fr/agenda/permanence-couture-1",
-      "summary": "Permanence couture régulière",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [
-        "créatif"
-      ],
-      "source": "Recyclart (Bruxelles)"
-    },
     {
       "id": "local-foire-octobre-liege-2026",
       "title": "Foire d'octobre de Liège",
@@ -207,26 +83,6 @@
       "tags": [],
       "source": "Facebook (événement public)",
       "classified": true
-    },
-    {
-      "id": "web-recyclart-bruxelles-finissage-objets-futurs-2026-10-15",
-      "title": "Finissage OBJETS FUTURS",
-      "category": "expo",
-      "venue": "Recyclart",
-      "city": "Bruxelles",
-      "lat": 50.8475126,
-      "lon": 4.328181,
-      "start": "2026-10-15T10:00:00",
-      "end": "2026-10-15T10:00:00",
-      "image": "https://recyclart.be/storage/files/whatsapp-image-2026-09-24-at-162550-334x272-quadrant(T).jpg?token=f6e3aeb54403e19099bcfe0d288690f1",
-      "page_url": "https://recyclart.be/fr/agenda/finissage-objets-futurs",
-      "url": "https://recyclart.be/fr/agenda/finissage-objets-futurs",
-      "summary": "Finissage de l'exposition OBJETS FUTURS",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Recyclart (Bruxelles)"
     },
     {
       "id": "fb-2306265253570798",
@@ -704,26 +560,6 @@
       "source": "Fuse (Bruxelles)"
     },
     {
-      "id": "web-recyclart-bruxelles-queerzinefest-3-2026-10-17",
-      "title": "QueerZineFest #3",
-      "category": "festival",
-      "venue": "Recyclart",
-      "city": "Bruxelles",
-      "lat": 50.8475126,
-      "lon": 4.328181,
-      "start": "2026-10-17T10:00:00",
-      "end": "2026-10-18T20:00:00",
-      "image": "https://recyclart.be/storage/files/queer-zine-fest-334x272-quadrant(T).png?token=3d0d8c90f22e8664fcfe01f98fca2d82",
-      "page_url": "https://recyclart.be/fr/agenda/queerzinefest-3",
-      "url": "https://recyclart.be/fr/agenda/queerzinefest-3",
-      "summary": "Festival QueerZineFest #3 avec micro-publishing, performances, DJ sets et expos",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Recyclart (Bruxelles)"
-    },
-    {
       "id": "fb-1715360219559167",
       "title": "Atelier acting LIEGE",
       "category": "workshop",
@@ -1133,31 +969,6 @@
       "classified": true
     },
     {
-      "id": "web-rockerill-charleroi-flashforward-kas-st-2026-10-17",
-      "title": "Flashforward: KAS:ST",
-      "category": "concert",
-      "venue": "Rockerill",
-      "city": "Charleroi",
-      "lat": 50.4132027,
-      "lon": 4.4049544,
-      "start": "2026-10-17T22:00:00",
-      "end": "2026-10-17T22:00:00",
-      "image": "https://pict.myclubplasma.be/FlyersDates/Thumbs/51498/Post_INSTA_maj_1784721394.jpg",
-      "page_url": "https://www.rockerill.com/agenda/flashforward-kas-st-51498/",
-      "url": "https://shop.utick.net/?pos=ROCKERILL&module=ACTIVITYSERIEDETAILS&s=9A482329-8997-E44E-D35A-38BBA13A185F",
-      "summary": "DJ: HausGardian (BE) + Globul (BE) + KAS:ST (FR) + Cédric (BE)",
-      "price_from": 20,
-      "free": false,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée",
-        "entre potes"
-      ],
-      "source": "Rockerill (Charleroi)"
-    },
-    {
       "id": "fb-4559108704368121",
       "title": "L'IMAGE FANTÔME x FESTIVAL DU NOUVEAU CINÉMA présentent : MAX MON AMOUR et LA PEAU SAUVAGE",
       "category": "cinema",
@@ -1513,26 +1324,6 @@
       "classified": true
     },
     {
-      "id": "web-recyclart-bruxelles-unchilded-roots-of-the-mediterranean-2026-10-22",
-      "title": "\"UNCHILDED – Roots of the Mediterranean\"",
-      "category": "culture",
-      "venue": "Recyclart",
-      "city": "Bruxelles",
-      "lat": 50.8475126,
-      "lon": 4.328181,
-      "start": "2026-10-22T10:00:00",
-      "end": "2026-10-22T10:00:00",
-      "image": "https://recyclart.be/storage/files/unchilded-pictures-334x272-quadrant(T).png?token=fce1b145a9323791f72aa5562775596f",
-      "page_url": "https://recyclart.be/fr/agenda/unchilded-roots-of-the-mediterranean",
-      "url": "https://recyclart.be/fr/agenda/unchilded-roots-of-the-mediterranean",
-      "summary": "UNCHILDED – Roots of the Mediterranean par Associazione Culturale Raizes",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Recyclart (Bruxelles)"
-    },
-    {
       "id": "fb-1382104873904848",
       "title": "Soirée Walhardent - Les bâtisseurs de Liège",
       "category": "talks",
@@ -1646,31 +1437,6 @@
       "tags": [],
       "source": "Facebook (événement public)",
       "classified": true
-    },
-    {
-      "id": "web-rockerill-charleroi-w-hell-come-to-rockerill-duflan-duflan-unik-ubik-hoboken-div",
-      "title": "W'Hell come to Rockerill :Duflan Duflan + Unik Ubik + Hoboken Division",
-      "category": "concert",
-      "venue": "Rockerill",
-      "city": "Charleroi",
-      "lat": 50.4132027,
-      "lon": 4.4049544,
-      "start": "2026-10-23T20:00:00",
-      "end": "2026-10-23T20:00:00",
-      "image": "https://pict.myclubplasma.be/FlyersDates/Thumbs/51953/whellcome231026_A3_maj_1790600794.jpg",
-      "page_url": "https://www.rockerill.com/agenda/w-hell-come-to-rockerill-duflan-duflan-unik-ubik-hoboken-division-51953/",
-      "url": "https://shop.utick.net/?pos=ROCKERILL&module=ACTIVITYSERIEDETAILS&s=B00F53E6-5A8A-618A-53E7-D3EE2FD1EA37",
-      "summary": "Concert: Duflan Duflan (BE) + Unik Ubik (BE) + Hoboken Division (FR) DJ: New Ördür (BE)",
-      "price_from": 15,
-      "free": false,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée",
-        "entre potes"
-      ],
-      "source": "Rockerill (Charleroi)"
     },
     {
       "id": "fb-1277007895502889",
@@ -1797,26 +1563,6 @@
         "entre potes"
       ],
       "source": "Fuse (Bruxelles)"
-    },
-    {
-      "id": "web-recyclart-bruxelles-carrosseries-2026-10-24",
-      "title": "Carrosseries",
-      "category": "concert",
-      "venue": "Recyclart",
-      "city": "Bruxelles",
-      "lat": 50.8475126,
-      "lon": 4.328181,
-      "start": "2026-10-24T10:00:00",
-      "end": "2026-10-24T10:00:00",
-      "image": "https://recyclart.be/storage/files/ggb-recyclart-final-334x272-quadrant(T).png?token=4aa41b320fbc3e8a36598477b6d14ce9",
-      "page_url": "https://recyclart.be/fr/agenda/carrosseries-2",
-      "url": "https://recyclart.be/fr/agenda/carrosseries-2",
-      "summary": "Concert Carrosseries avec Grunge Gone Broadway, Marion Laser et Belzebuth GX",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Recyclart (Bruxelles)"
     },
     {
       "id": "fb-1396062352369218",
@@ -2549,30 +2295,6 @@
       "source": "Fuse (Bruxelles)"
     },
     {
-      "id": "web-recyclart-bruxelles-from-athens-to-brussels-with-love-halloween-2026-2026-10-31",
-      "title": "From Athens to Brussels with love × Halloween 2026 ♡",
-      "category": "party",
-      "venue": "Recyclart",
-      "city": "Bruxelles",
-      "lat": 50.8475126,
-      "lon": 4.328181,
-      "start": "2026-10-31T10:00:00",
-      "end": "2026-11-01T20:00:00",
-      "image": "https://recyclart.be/storage/files/2000-x-2000-pixels-334x272-quadrant(T).jpg?token=e73b55fdd63d640ff6c630901c60ed2b",
-      "page_url": "https://recyclart.be/fr/agenda/from-athens-to-brussels-with-love-x-halloween-2026",
-      "url": "https://recyclart.be/fr/agenda/from-athens-to-brussels-with-love-x-halloween-2026",
-      "summary": "Soirée Halloween avec Strik, Chlorys, Khidja et DJ Tabi b2b Joost De Lijser",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée"
-      ],
-      "source": "Recyclart (Bruxelles)"
-    },
-    {
       "id": "fb-1481695939993136",
       "title": "Le salon des Arts Ménagers 2026",
       "category": "fair",
@@ -2970,30 +2692,6 @@
       "classified": true
     },
     {
-      "id": "web-recyclart-bruxelles-haunted-folklore-2026-11-05",
-      "title": "Haunted Folklore",
-      "category": "party",
-      "venue": "Recyclart",
-      "city": "Bruxelles",
-      "lat": 50.8475126,
-      "lon": 4.328181,
-      "start": "2026-11-05T10:00:00",
-      "end": "2026-11-05T10:00:00",
-      "image": "https://recyclart.be/storage/files/hf-05-11-01-334x272-quadrant(T).jpg?token=f801215bccfed28811f605cda03f16f3",
-      "page_url": "https://recyclart.be/fr/agenda/haunted-folklore-5",
-      "url": "https://recyclart.be/fr/agenda/haunted-folklore-5",
-      "summary": "Soirée Haunted Folklore avec Sourdure et Social dancing social club",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée"
-      ],
-      "source": "Recyclart (Bruxelles)"
-    },
-    {
       "id": "fb-1081742788189799",
       "title": "🎱Bingo drag Louvain-la-Neuve🎱",
       "category": "party",
@@ -3172,31 +2870,6 @@
       "classified": true
     },
     {
-      "id": "web-rockerill-charleroi-ultra-sunn-sydney-valette-sad-madona-2026-11-06",
-      "title": "Ultra Sunn + Sydney Valette + Sad Madona",
-      "category": "concert",
-      "venue": "Rockerill",
-      "city": "Charleroi",
-      "lat": 50.4132027,
-      "lon": 4.4049544,
-      "start": "2026-11-06T20:00:00",
-      "end": "2026-11-06T20:00:00",
-      "image": "https://pict.myclubplasma.be/FlyersDates/Thumbs/52051/Visu_INSTA-21_1787645696.jpg",
-      "page_url": "https://www.rockerill.com/agenda/ultra-sunn-sydney-valette-sad-madona-52051/",
-      "url": "https://shop.utick.net/?pos=EDENCHARLEROI&module=ACTIVITYSERIEDETAILS&s=4902EA58-FFF6-0494-0586-5BC8CC4E60D2",
-      "summary": "Concert: Ultra Sunn (BE) + Sydney Valette (FR) + Sad Madona (FR) + Alix Van Ripato (BE)",
-      "price_from": 20,
-      "free": false,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée",
-        "entre potes"
-      ],
-      "source": "Rockerill (Charleroi)"
-    },
-    {
       "id": "fb-1563386008114862",
       "title": "TAMARA PAYNE RINGARDE",
       "category": "theatre",
@@ -3348,31 +3021,6 @@
       "tags": [],
       "source": "Facebook (événement public)",
       "classified": true
-    },
-    {
-      "id": "web-rockerill-charleroi-flashforward-jonathan-kaspar-long-set-2026-11-07",
-      "title": "Flashforward: Jonathan Kaspar (Long set)",
-      "category": "concert",
-      "venue": "Rockerill",
-      "city": "Charleroi",
-      "lat": 50.4132027,
-      "lon": 4.4049544,
-      "start": "2026-11-07T22:00:00",
-      "end": "2026-11-07T22:00:00",
-      "image": "https://pict.myclubplasma.be/FlyersDates/Thumbs/51503/Post_INSTA_maj_1784722451.jpg",
-      "page_url": "https://www.rockerill.com/agenda/flashforward-jonathan-kaspar-long-set-51503/",
-      "url": "https://shop.utick.net/?pos=ROCKERILL&module=ACTIVITYSERIEDETAILS&s=A8CF496D-4D1D-69FB-4EEF-F39C37A74E6F",
-      "summary": "DJ: Jonathan Kaspar (DE) + Cédric (BE) + Houpie (BE)",
-      "price_from": 15,
-      "free": false,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée",
-        "entre potes"
-      ],
-      "source": "Rockerill (Charleroi)"
     },
     {
       "id": "fb-1053887523821373",
@@ -3908,31 +3556,6 @@
       "classified": true
     },
     {
-      "id": "web-rockerill-charleroi-hell-is-here-hippokraktor-down-to-insanity-2026-11-14",
-      "title": "Hell is Here: Hippokraktor + Down to Insanity",
-      "category": "concert",
-      "venue": "Rockerill",
-      "city": "Charleroi",
-      "lat": 50.4132027,
-      "lon": 4.4049544,
-      "start": "2026-11-14T20:00:00",
-      "end": "2026-11-14T20:00:00",
-      "image": "https://pict.myclubplasma.be/FlyersDates/Thumbs/51954/HIH_141126_A3_copie_1786040754.jpg",
-      "page_url": "https://www.rockerill.com/agenda/hell-is-here-hippokraktor-down-to-insanity-51954/",
-      "url": "https://shop.utick.net/?module=ACTIVITYSERIEDETAILS&pos=ROCKERILL&s=C40D359F-C34D-8725-FD27-EA56613DE784",
-      "summary": "Concert: Hippotraktor (BE) + Down To Insanity (BE)",
-      "price_from": 15,
-      "free": false,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée",
-        "entre potes"
-      ],
-      "source": "Rockerill (Charleroi)"
-    },
-    {
       "id": "fb-2317651715660704",
       "title": "Soirée Liégeoise 2026",
       "category": "party",
@@ -4261,30 +3884,6 @@
       "tags": [],
       "source": "Facebook (événement public)",
       "classified": true
-    },
-    {
-      "id": "web-rockerill-charleroi-rockerill-winter-festival-mini-edition-2026-11-21",
-      "title": "Rockerill Winter Festival (Mini Edition)",
-      "category": "festival",
-      "venue": "Rockerill",
-      "city": "Charleroi",
-      "lat": 50.4132027,
-      "lon": 4.4049544,
-      "start": "2026-11-21T19:00:00",
-      "end": "2026-11-21T19:00:00",
-      "image": "https://pict.myclubplasma.be/FlyersDates/Thumbs/52131/rockerill-2026-mini-fest-copie2-copie-2_1_1789133246.jpg",
-      "page_url": "https://www.rockerill.com/agenda/rockerill-winter-festival-mini-edition-52131/",
-      "url": "https://shop.utick.net/?pos=ROCKERILL&module=ACTIVITYSERIEDETAILS&s=4D412486-57B5-49DB-2019-FD16E9C37716",
-      "summary": "Festival avec The Lords Of Altamont (US), Test Plan (UK), Scusi (BE/IT) et autres artistes",
-      "price_from": 20,
-      "free": false,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée"
-      ],
-      "source": "Rockerill (Charleroi)"
     },
     {
       "id": "fb-1108746994848750",
@@ -4778,31 +4377,6 @@
       "classified": true
     },
     {
-      "id": "web-rockerill-charleroi-flashforward-x-2-am-rise-powered-by-dirty-monitor-2026-11-28",
-      "title": "Flashforward x 2 AM RISE powered by Dirty Monitor",
-      "category": "concert",
-      "venue": "Rockerill",
-      "city": "Charleroi",
-      "lat": 50.4132027,
-      "lon": 4.4049544,
-      "start": "2026-11-28T22:00:00",
-      "end": "2026-11-28T22:00:00",
-      "image": "https://pict.myclubplasma.be/FlyersDates/Thumbs/52453/DIRTY_FLASH_2AMRISEGUEST1_1080_1350_Ratio4-5_1791803735.jpg",
-      "page_url": "https://www.rockerill.com/agenda/flashforward-x-2-am-rise-powered-by-dirty-monitor-52453/",
-      "url": "https://shop.utick.net/?pos=ROCKERILL&module=ACTIVITYSERIEDETAILS&s=F178D7B0-8AB0-84EC-DE97-B2CC4C1BAD2C",
-      "summary": "VJ: Dirty Monitor (BE) DJ: Cédric (BE)",
-      "price_from": 15,
-      "free": false,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée",
-        "entre potes"
-      ],
-      "source": "Rockerill (Charleroi)"
-    },
-    {
       "id": "fb-1731312127862325",
       "title": "LIEGE 100% BACHATA",
       "category": "party",
@@ -4824,28 +4398,6 @@
       "tags": [],
       "source": "Facebook (événement public)",
       "classified": true
-    },
-    {
-      "id": "web-rockerill-charleroi-rockerill-xmas-vintage-market-2026-2026-11-29",
-      "title": "Rockerill Xmas Vintage Market 2026",
-      "category": "fair",
-      "venue": "Rockerill",
-      "city": "Charleroi",
-      "lat": 50.4132027,
-      "lon": 4.4049544,
-      "start": "2026-11-29T10:00:00",
-      "end": "2026-11-29T10:00:00",
-      "image": "https://pict.myclubplasma.be/FlyersDates/Thumbs/52048/rockerillxmasmarket26_copie_1788871106.jpg",
-      "page_url": "https://www.rockerill.com/agenda/rockerill-xmas-vintage-market-2026-52048/",
-      "url": "https://www.rockerill.com/agenda/rockerill-xmas-vintage-market-2026-52048/",
-      "summary": "Marché de Noël vintage avec performances musicales: CURVER & WOOD BOY ENTERTAINMENT (BE)",
-      "price_from": null,
-      "free": true,
-      "audience": [],
-      "tags": [
-        "gratuit"
-      ],
-      "source": "Rockerill (Charleroi)"
     },
     {
       "id": "fb-1565857758516261",
@@ -5290,31 +4842,6 @@
       "classified": true
     },
     {
-      "id": "web-rockerill-charleroi-apunkalypse-now-peter-the-test-tube-babies-pretty-much-avera",
-      "title": "Apunkalypse Now ! Peter & The Test Tube Babies + Pretty Much Average + Werly",
-      "category": "concert",
-      "venue": "Rockerill",
-      "city": "Charleroi",
-      "lat": 50.4132027,
-      "lon": 4.4049544,
-      "start": "2026-12-11T20:00:00",
-      "end": "2026-12-11T20:00:00",
-      "image": "https://pict.myclubplasma.be/FlyersDates/Thumbs/52026/rockerill111226_A3_paperversion_1789564280.jpg",
-      "page_url": "https://www.rockerill.com/agenda/apunkalypse-now-peter-the-test-tube-babies-pretty-much-average-werly-52026/",
-      "url": "https://shop.utick.net/?pos=ROCKERILL&module=ACTIVITYSERIEDETAILS&s=8D8AD534-931D-0C2F-4C5D-87F3FA5C6E7E",
-      "summary": "Concert punk: Peter & The Test Tube Babies (UK) + Pretty Much Average (BE) + Werly (BE)",
-      "price_from": 15,
-      "free": false,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée",
-        "entre potes"
-      ],
-      "source": "Rockerill (Charleroi)"
-    },
-    {
       "id": "fb-1458952072961842",
       "title": "11/12 MONS : Spectacle de Robby au Théâtre des Rues",
       "category": "theatre",
@@ -5426,31 +4953,6 @@
       "classified": true
     },
     {
-      "id": "web-rockerill-charleroi-flashforward-dave-clarke-madben-megane-brescich-2026-12-12",
-      "title": "Flashforward: Dave Clarke + Madben + Megane Brescich",
-      "category": "concert",
-      "venue": "Rockerill",
-      "city": "Charleroi",
-      "lat": 50.4132027,
-      "lon": 4.4049544,
-      "start": "2026-12-12T22:00:00",
-      "end": "2026-12-12T22:00:00",
-      "image": "https://pict.myclubplasma.be/FlyersDates/Thumbs/51505/Post_INSTA_logo_1784814358.jpg",
-      "page_url": "https://www.rockerill.com/agenda/flashforward-dave-clarke-madben-megane-brescich-51505/",
-      "url": "https://shop.utick.net/?pos=ROCKERILL&module=ACTIVITYSERIEDETAILS&s=945D55A0-2729-BC59-B52B-92577D1C04E3",
-      "summary": "DJ: Dave Clarke (UK) + Megane Brescich (BE) + Madben (FR)",
-      "price_from": 25,
-      "free": false,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée",
-        "entre potes"
-      ],
-      "source": "Rockerill (Charleroi)"
-    },
-    {
       "id": "fb-1755602135735452",
       "title": "Concert de Noël et vin chaud 🍷",
       "category": "concert",
@@ -5493,31 +4995,6 @@
       "tags": [],
       "source": "Facebook (événement public)",
       "classified": true
-    },
-    {
-      "id": "web-rockerill-charleroi-hell-is-here-the-prestige-atum-nophi-2026-12-18",
-      "title": "Hell is Here: The Prestige + Atum Nophi",
-      "category": "concert",
-      "venue": "Rockerill",
-      "city": "Charleroi",
-      "lat": 50.4132027,
-      "lon": 4.4049544,
-      "start": "2026-12-18T20:00:00",
-      "end": "2026-12-18T20:00:00",
-      "image": "https://pict.myclubplasma.be/FlyersDates/Thumbs/51956/HIH_181226_A3_GOOD_1790071821.jpg",
-      "page_url": "https://www.rockerill.com/agenda/hell-is-here-the-prestige-atum-nophi-51956/",
-      "url": "https://shop.utick.net/?pos=ROCKERILL&module=ACTIVITYSERIEDETAILS&s=886011DD-06BF-53DA-122D-6EED8341E3D7",
-      "summary": "Concert: The Prestige (FR) + Atum Nophi (BE)",
-      "price_from": 15,
-      "free": false,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée",
-        "entre potes"
-      ],
-      "source": "Rockerill (Charleroi)"
     },
     {
       "id": "fb-28372787912381115",
