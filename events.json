@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T10:17:58",
+  "generated": "2026-10-15T16:18:06",
   "events": [
     {
       "id": "local-foire-octobre-liege-2026",
@@ -401,31 +401,6 @@
       "classified": true
     },
     {
-      "id": "web-fuse-bruxelles-fuse-presents-maribou-state-dj-set-cinthie-2026-10-16",
-      "title": "Fuse presents: Maribou State (DJ set) & Cinthie",
-      "category": "concert",
-      "venue": "Fuse",
-      "city": "Bruxelles",
-      "lat": 50.8353591,
-      "lon": 4.3447628,
-      "start": "2026-10-16T10:00:00",
-      "end": "2026-10-16T10:00:00",
-      "image": "https://www.fuse.be/uploads/events/_1200x630_crop_center-center_82_none/16_10-VO-JPG.jpg?v=1789569916",
-      "page_url": "https://www.fuse.be/events/fuse-presents-2",
-      "url": "https://tickets.fuse.be/d402ee9306ba4a1993bcf3a2894cff91",
-      "summary": "Soirée avec Maribou State en DJ set et Cinthie au Fuse.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée",
-        "entre potes"
-      ],
-      "source": "Fuse (Bruxelles)"
-    },
-    {
       "id": "fb-1569829150814705",
       "title": "Desertfest Liège 2026",
       "category": "festival",
@@ -533,31 +508,6 @@
       "tags": [],
       "source": "Facebook (événement public)",
       "classified": true
-    },
-    {
-      "id": "web-fuse-bruxelles-24hrs-of-fuse-2026-10-17",
-      "title": "24HRS of Fuse",
-      "category": "festival",
-      "venue": "Fuse",
-      "city": "Bruxelles",
-      "lat": 50.8353591,
-      "lon": 4.3447628,
-      "start": "2026-10-17T10:00:00",
-      "end": "2026-10-18T20:00:00",
-      "image": "https://www.fuse.be/uploads/general/_1920xAUTO_crop_center-center_none/24H-FUSE_KristinaRailaite_Analog-14-1-2-copie.jpg?v=1791896438",
-      "page_url": "https://www.fuse.be/events/24hrs-of-fuse",
-      "url": "https://tickets.fuse.be/2d40f80d59d94e868e8c4bc1315fc544",
-      "summary": "24 heures de musique continue avec DJ Hell, Clara D, Ignez, Motion et bien d'autres.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée",
-        "entre potes"
-      ],
-      "source": "Fuse (Bruxelles)"
     },
     {
       "id": "fb-1715360219559167",
@@ -1370,31 +1320,6 @@
       "classified": true
     },
     {
-      "id": "web-fuse-bruxelles-fuse-presents-joyhauser-all-night-long-2026-10-23",
-      "title": "Fuse presents: Joyhauser (all night long)",
-      "category": "concert",
-      "venue": "Fuse",
-      "city": "Bruxelles",
-      "lat": 50.8353591,
-      "lon": 4.3447628,
-      "start": "2026-10-23T10:00:00",
-      "end": "2026-10-23T10:00:00",
-      "image": "https://www.fuse.be/uploads/events/_1200x630_crop_center-center_82_none/23_10.jpg?v=1789484744",
-      "page_url": "https://www.fuse.be/events/fuse-presents-joyhauser-all-night-long",
-      "url": "https://tickets.fuse.be/a3eef0d7d42b4598b8d3dac724817539",
-      "summary": "Joyhauser en résidence toute la nuit au Fuse.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée",
-        "entre potes"
-      ],
-      "source": "Fuse (Bruxelles)"
-    },
-    {
       "id": "fb-1731014437804213",
       "title": "KALOPSIA @ BD LIEGE",
       "category": "geek",
@@ -1538,31 +1463,6 @@
       "url": "https://eshop.spa-francorchamps.be/",
       "summary": "Access to the campsite: from 07h00 on the first day of the event until 20h00 on the last day of the event.",
       "source": "spa-francorchamps.be"
-    },
-    {
-      "id": "web-fuse-bruxelles-fuse-presents-marco-shuttle-dold-live-2026-10-24",
-      "title": "Fuse presents: Marco Shuttle & Dold (live)",
-      "category": "concert",
-      "venue": "Fuse",
-      "city": "Bruxelles",
-      "lat": 50.8353591,
-      "lon": 4.3447628,
-      "start": "2026-10-24T10:00:00",
-      "end": "2026-10-24T10:00:00",
-      "image": "https://www.fuse.be/uploads/events/_1200x630_crop_center-center_82_none/24_10.jpg?v=1791293747",
-      "page_url": "https://www.fuse.be/events/fuse-presents-marcoshuttle",
-      "url": "https://tickets.fuse.be/4fc67280b96f4642913024ae4b0a8579",
-      "summary": "Marco Shuttle et Dold en live au Fuse avec Bobbi Watson et Egna.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée",
-        "entre potes"
-      ],
-      "source": "Fuse (Bruxelles)"
     },
     {
       "id": "fb-1396062352369218",
@@ -2270,31 +2170,6 @@
       "classified": true
     },
     {
-      "id": "web-fuse-bruxelles-fuse-presents-silva-bumpa-2026-10-31",
-      "title": "Fuse presents: Silva Bumpa",
-      "category": "concert",
-      "venue": "Fuse",
-      "city": "Bruxelles",
-      "lat": 50.8353591,
-      "lon": 4.3447628,
-      "start": "2026-10-31T10:00:00",
-      "end": "2026-10-31T10:00:00",
-      "image": "https://www.fuse.be/uploads/events/_1200x630_crop_center-center_82_none/31_10.png?v=1790868673",
-      "page_url": "https://www.fuse.be/events/fuse-presents-silva-bumba",
-      "url": "https://tickets.fuse.be/9d4092612a2d42219a9e5900a887062b/",
-      "summary": "Silva Bumpa et ses guests DJ Cosworth, Jhobei et Catalina au Fuse.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée",
-        "entre potes"
-      ],
-      "source": "Fuse (Bruxelles)"
-    },
-    {
       "id": "fb-1481695939993136",
       "title": "Le salon des Arts Ménagers 2026",
       "category": "fair",
@@ -2757,31 +2632,6 @@
       "tags": [],
       "source": "Facebook (événement public)",
       "classified": true
-    },
-    {
-      "id": "web-fuse-bruxelles-fuse-presents-edward-loidis-2026-11-06",
-      "title": "Fuse presents: Edward & Loidis",
-      "category": "concert",
-      "venue": "Fuse",
-      "city": "Bruxelles",
-      "lat": 50.8353591,
-      "lon": 4.3447628,
-      "start": "2026-11-06T10:00:00",
-      "end": "2026-11-06T10:00:00",
-      "image": "https://www.fuse.be/uploads/events/_1200x630_crop_center-center_82_none/06_11.png?v=1790870547",
-      "page_url": "https://www.fuse.be/events/fuse-presents-edward-loidis",
-      "url": "https://tickets.fuse.be/fdab0a8cf49349a6ad09c3e8ec7c04ae",
-      "summary": "Edward et Loidis avec AliA au Fuse.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée",
-        "entre potes"
-      ],
-      "source": "Fuse (Bruxelles)"
     },
     {
       "id": "fb-1350839233175596",
