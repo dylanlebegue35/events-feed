@@ -1,5 +1,5 @@
 {
-  "genere": "2026-10-16T10:19:21",
+  "genere": "2026-10-16T16:18:31",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -47,7 +47,7 @@
     {
       "source": "Province de Liège",
       "ok": false,
-      "erreur": "curl 35 pour https://www.provincedeliege.be"
+      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
     },
     {
       "source": "Stavelot",
