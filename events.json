@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T22:15:58",
+  "generated": "2026-10-17T04:15:36",
   "events": [
     {
       "id": "local-foire-octobre-liege-2026",
@@ -20,75 +20,6 @@
       "source": "manuel"
     },
     {
-      "id": "fb-1968499717151423",
-      "title": "SOIRÉE BLEUS CEM",
-      "category": "party",
-      "venue": "Petit Bitu",
-      "city": "Namur",
-      "lat": 50.46559,
-      "lon": 4.86194,
-      "start": "2026-10-15T19:00:00",
-      "end": "2026-10-16T01:00:00",
-      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1968499717151423.jpg",
-      "page_url": "https://www.facebook.com/events/1968499717151423/",
-      "url": "https://www.facebook.com/events/1968499717151423/",
-      "summary": "⚔️ OYÉ, OYÉ, CHEVALIERS ! ⚔️ Le jeudi 15 octobre, les terres du petit bitu vous ouvrent leurs portes pour une Soirée Bleus CEM, placée sous le signe des Chevaliers 🏰 Préparez vos armures, rassemblez vos troupes et venez défendre les couleurs de votre cercle autour de quelques breuvages dignes des pl",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "student"
-      ],
-      "tags": [],
-      "source": "Facebook (événement public)",
-      "classified": true
-    },
-    {
-      "id": "fb-1569086724502942",
-      "title": "Soirée jupette OAS 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-      "category": "party",
-      "venue": "Cercle EMCP Namur",
-      "city": "Namur",
-      "lat": 50.466218957533,
-      "lon": 4.8576521873474,
-      "start": "2026-10-15T20:30:00",
-      "end": "2026-10-16T01:00:00",
-      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1569086724502942.jpg",
-      "page_url": "https://www.facebook.com/events/1569086724502942/",
-      "url": "https://www.facebook.com/events/1569086724502942/",
-      "summary": "On vous a manqué ? Range tes PowerPoints, oublie tes syllabus : l’Ordre Adam Smith 🏴󠁧󠁢󠁳󠁣󠁴󠁿 sort les jupes et les mousses pour le retour de la traditionnelle Soirée Jupette 💃🔥 📅 Jeudi 15 octobre ⏰ 21h 📍 Cercle EMCP Les impétrants, plus beaux que jamais dans leurs mini-jupes taille 34, t’attendent pou",
-      "price_from": null,
-      "free": true,
-      "audience": [
-        "student"
-      ],
-      "tags": [],
-      "source": "Facebook (événement public)",
-      "classified": true
-    },
-    {
-      "id": "fb-1037018049150756",
-      "title": "Session Pilates - NAMUR",
-      "category": "wellness",
-      "venue": "Namur",
-      "city": "Namur",
-      "lat": 50.4665284,
-      "lon": 4.8661892,
-      "start": "2026-10-16T00:00:00",
-      "end": "2026-10-16T01:00:00",
-      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1037018049150756.jpg",
-      "page_url": "https://www.facebook.com/events/1037018049150756/",
-      "url": "https://www.facebook.com/events/1037018049150756/",
-      "summary": "Les inscriptions sont officiellement ouvertes! Venez bouger avec moi cet automne, dans une ambiance motivante. 🎧 📍 Jeudi — Namur | 18h à 19h Prix: • Cours à la carte : 20$ • Session de 10 cours : 170$ • 2 sessions (20 cours) : 325$ Pour vous inscrire, écrivez-moi en privé ou au zaya.pilates@hotmail.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Facebook (événement public)",
-      "classified": true
-    },
-    {
       "id": "fb-1569829150814705",
       "title": "Desertfest Liège 2026",
       "category": "festival",
@@ -107,71 +38,6 @@
       "audience": [
         "young"
       ],
-      "tags": [],
-      "source": "Facebook (événement public)",
-      "classified": true
-    },
-    {
-      "id": "fb-1387510666736934",
-      "title": "SOIRÉE JAZZY",
-      "category": "concert",
-      "venue": "Avenue de Philippeville 221, Marcinelle, Belgique",
-      "city": "Charleroi",
-      "lat": 50.39599,
-      "lon": 4.45615,
-      "start": "2026-10-16T18:00:00",
-      "end": "2026-10-16T23:00:00",
-      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1387510666736934.jpg",
-      "page_url": "https://www.facebook.com/events/1387510666736934/",
-      "url": "https://www.facebook.com/events/1387510666736934/",
-      "summary": "� VENDREDI 16 OCTOBRE — SOIRÉE JAZZ� Une soirée comme on les aime : bonne cuisine, vin dans les verres et jazz en live. � � The Good Call sera là pour installer une ambiance jazzy, élégante et chaleureuse… parfaite pour un vendredi soir qui mérite mieux qu’une soirée canapé. � � Dîner • musique live",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Facebook (événement public)",
-      "classified": true
-    },
-    {
-      "id": "fb-1363333850190883",
-      "title": "La Nuit des musées à Mons 2026",
-      "category": "culture",
-      "venue": "Grand'Place 22, 7000 Mons, Belgium",
-      "city": "Mons",
-      "lat": 50.45483,
-      "lon": 3.95209,
-      "start": "2026-10-16T19:00:00",
-      "end": "2026-10-16T22:00:00",
-      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1363333850190883.jpg",
-      "page_url": "https://www.facebook.com/events/1363333850190883/",
-      "url": "https://miniurl.be/r-6wqm",
-      "summary": "⚡⚡Pour cette 11e édition, les musées et lieux d’expositions du centre-ville de Mons vous ouvrent leurs portes jusqu’au bout de la nuit. Cette année, c’est la thématique de l’engagement qui est mise à l’honneur, sous toutes ses formes : engagement citoyen, amoureux, amical, pour le patrimoine et la c",
-      "price_from": null,
-      "free": true,
-      "audience": [],
-      "tags": [],
-      "source": "Facebook (événement public)",
-      "classified": true
-    },
-    {
-      "id": "fb-2068712310515942",
-      "title": "Soirée dégustation de vins",
-      "category": "food",
-      "venue": "Scavée du biéreau 2, 1348 Louvain-la-Neuve, Belgium",
-      "city": "Louvain-la-Neuve",
-      "lat": 50.6653,
-      "lon": 4.61707,
-      "start": "2026-10-16T19:00:00",
-      "end": "2026-10-16T22:00:00",
-      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-2068712310515942.jpg",
-      "page_url": "https://www.facebook.com/events/2068712310515942/",
-      "url": "https://www.betch-lln.be/event/soiree-degustation-de-vins-663/register",
-      "summary": "Une soirée pour découvrir, déguster et se régaler 🍷 Viens passer une chouette soirée chez Betch autour de 5 vins soigneusement sélectionnés, accompagnés de tapas gourmandes. Au fil de la dégustation, on te fera découvrir les accords entre mets et vins, avec une présentation de chaque vin et quelques",
-      "price_from": null,
-      "free": null,
-      "audience": [],
       "tags": [],
       "source": "Facebook (événement public)",
       "classified": true

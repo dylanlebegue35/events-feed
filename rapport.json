@@ -1,5 +1,5 @@
 {
-  "genere": "2026-10-16T22:15:58",
+  "genere": "2026-10-17T04:15:36",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -135,7 +135,7 @@
     {
       "source": "Mars – Mons arts de la scène",
       "ok": false,
-      "erreur": "curl 28 pour https://www.surmars.be"
+      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
     },
     {
       "source": "Propositions de l'app",
@@ -147,9 +147,9 @@
       "source": "Facebook (service tiers)",
       "ok": true,
       "etat": "pas encore l'heure",
-      "gardes": 254
+      "gardes": 248
     }
   ],
-  "avec_image": 264,
-  "total": 264
+  "avec_image": 258,
+  "total": 258
 }
