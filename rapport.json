@@ -1,5 +1,5 @@
 {
-  "genere": "2026-10-18T10:12:13",
+  "genere": "2026-10-18T16:12:28",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -47,7 +47,7 @@
     {
       "source": "Province de Liège",
       "ok": false,
-      "erreur": "curl 35 pour https://www.provincedeliege.be"
+      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
     },
     {
       "source": "Stavelot",
@@ -71,12 +71,8 @@
     },
     {
       "source": "Village de Noël (Liège)",
-      "ok": true,
-      "page_caracteres": 11836,
-      "ia_a_trouve": 2,
-      "gardes": 2,
-      "ecartes": 0,
-      "extrait_reponse_ia": ""
+      "ok": false,
+      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
     },
     {
       "source": "Théâtre de Liège",
@@ -150,6 +146,6 @@
       "gardes": 231
     }
   ],
-  "avec_image": 241,
-  "total": 241
+  "avec_image": 239,
+  "total": 239
 }

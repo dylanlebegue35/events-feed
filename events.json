@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T10:12:13",
+  "generated": "2026-10-18T16:12:28",
   "events": [
     {
       "id": "local-foire-octobre-liege-2026",
@@ -3165,56 +3165,6 @@
       "tags": [],
       "source": "Facebook (événement public)",
       "classified": true
-    },
-    {
-      "id": "web-village-de-no-l-li-ge-le-village-de-no-l-2026-11-27",
-      "title": "Le Village de Noël",
-      "category": "fair",
-      "venue": "Place du Marché - Place St Lambert",
-      "city": "Liège",
-      "lat": 50.6450944,
-      "lon": 5.5736112,
-      "start": "2026-11-27T10:00:00",
-      "end": "2026-12-30T20:00:00",
-      "image": "https://cdn.prod.website-files.com/6368c5291a6c8b8e4deae634/6368c5291a6c8b5cb2eae6d6_Marche%CC%81%20de%20Noe%CC%88l%20305.jpeg",
-      "page_url": "https://www.villagedenoel.be/programme",
-      "url": "https://www.villagedenoel.be/programme",
-      "summary": "Le plus ancien marché de Noël de Belgique avec 200 chalets d'artisanat, gastronomie et divertissements au cœur de Liège.",
-      "price_from": null,
-      "free": true,
-      "audience": [
-        "family"
-      ],
-      "tags": [
-        "gratuit",
-        "gourmand",
-        "créatif"
-      ],
-      "source": "Village de Noël (Liège)"
-    },
-    {
-      "id": "web-village-de-no-l-li-ge-la-patinoire-de-no-l-2026-11-27",
-      "title": "La Patinoire de Noël",
-      "category": "family",
-      "venue": "Place de la Cathédrale",
-      "city": "Liège",
-      "lat": 50.6406903,
-      "lon": 5.5715938,
-      "start": "2026-11-27T10:00:00",
-      "end": "2027-01-02T20:00:00",
-      "image": "https://cdn.prod.website-files.com/6368c5291a6c8b8e4deae634/6368c5291a6c8b0e16eae755_FooterPatinoireIllu.png",
-      "page_url": "https://www.villagedenoel.be/activite/la-patinoire",
-      "url": "https://www.villagedenoel.be/activite/la-patinoire",
-      "summary": "Patinoire de Noël à Liège pour une session de glisse inoubliable en famille ou entre amis.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "family"
-      ],
-      "tags": [
-        "en plein air"
-      ],
-      "source": "Village de Noël (Liège)"
     },
     {
       "id": "fb-27609798585362607",
