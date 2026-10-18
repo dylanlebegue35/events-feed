@@ -1,5 +1,5 @@
 {
-  "genere": "2026-10-17T22:09:54",
+  "genere": "2026-10-18T04:16:19",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -147,9 +147,9 @@
       "source": "Facebook (service tiers)",
       "ok": true,
       "etat": "pas encore l'heure",
-      "gardes": 248
+      "gardes": 231
     }
   ],
-  "avec_image": 258,
-  "total": 258
+  "avec_image": 241,
+  "total": 241
 }
