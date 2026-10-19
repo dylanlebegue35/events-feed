@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T10:22:51",
+  "generated": "2026-10-19T16:22:52",
   "events": [
     {
       "id": "local-foire-octobre-liege-2026",
@@ -2952,31 +2952,6 @@
       "tags": [],
       "source": "Facebook (événement public)",
       "classified": true
-    },
-    {
-      "id": "web-madame-moustache-bruxelles-jwles-2026-11-27",
-      "title": "JWLES",
-      "category": "concert",
-      "venue": "Madame Moustache",
-      "city": "Bruxelles",
-      "lat": 50.8514898,
-      "lon": 4.3489335,
-      "start": "2026-11-27T19:30:00",
-      "end": "2026-11-27T23:00:00",
-      "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1776845463666-Q3U6VZNK9EP3ZDDNJ60Y/jwles.jpeg",
-      "page_url": "https://www.madamemoustache.be/agenda/jwles",
-      "url": "https://www.madamemoustache.be/agenda/jwles",
-      "summary": "Jwles pose son live à Madame Moustache. Entre rap, mode et culture visuelle, un univers singulier et hypnotique.",
-      "price_from": 17,
-      "free": false,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée",
-        "entre potes"
-      ],
-      "source": "Madame Moustache (Bruxelles)"
     },
     {
       "id": "fb-1374230634551005",
