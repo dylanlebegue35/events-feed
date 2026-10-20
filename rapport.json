@@ -1,10 +1,12 @@
 {
-  "genere": "2026-10-20T22:17:52",
+  "genere": "2026-10-20T23:11:46",
   "sources": [
     {
       "source": "Reflektor (Liège)",
       "ok": false,
-      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
+      "gardes": 44,
+      "ecartes": 2
     },
     {
       "source": "Les Ardentes (Liège)",
@@ -27,27 +29,37 @@
     {
       "source": "VisitHuy",
       "ok": false,
-      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
+      "gardes": 4,
+      "ecartes": 4
     },
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": false,
-      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
+      "gardes": 41,
+      "ecartes": 18
     },
     {
       "source": "Le Forum (Liège)",
       "ok": false,
-      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
+      "gardes": 66,
+      "ecartes": 5
     },
     {
       "source": "Standard de Liège",
       "ok": false,
-      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
+      "gardes": 2,
+      "ecartes": 1
     },
     {
       "source": "Province de Liège",
       "ok": false,
-      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
+      "gardes": 3,
+      "ecartes": 0
     },
     {
       "source": "Stavelot",
@@ -57,57 +69,79 @@
     {
       "source": "Pays de Herve",
       "ok": false,
-      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
+      "gardes": 0,
+      "ecartes": 1
     },
     {
       "source": "Ville de Huy",
       "ok": false,
-      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
+      "gardes": 4,
+      "ecartes": 1
     },
     {
       "source": "Grand Curtius (Liège)",
       "ok": false,
-      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
+      "gardes": 7,
+      "ecartes": 3
     },
     {
       "source": "Village de Noël (Liège)",
       "ok": false,
-      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
+      "gardes": 2,
+      "ecartes": 0
     },
     {
       "source": "Théâtre de Liège",
       "ok": false,
-      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
+      "gardes": 1,
+      "ecartes": 2
     },
     {
       "source": "Opéra Royal de Wallonie",
       "ok": false,
-      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
+      "gardes": 7,
+      "ecartes": 0
     },
     {
       "source": "Rockerill (Charleroi)",
       "ok": false,
-      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
+      "gardes": 10,
+      "ecartes": 1
     },
     {
       "source": "Fuse (Bruxelles)",
       "ok": false,
-      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
+      "gardes": 4,
+      "ecartes": 2
     },
     {
       "source": "Madame Moustache (Bruxelles)",
       "ok": false,
-      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
+      "gardes": 1,
+      "ecartes": 0
     },
     {
       "source": "Recyclart (Bruxelles)",
       "ok": false,
-      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
+      "gardes": 10,
+      "ecartes": 4
     },
     {
       "source": "Ancienne Belgique (Bruxelles)",
       "ok": false,
-      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
+      "gardes": 0,
+      "ecartes": 10
     },
     {
       "source": "Botanique (Bruxelles)",
@@ -117,17 +151,23 @@
     {
       "source": "Trix (Anvers)",
       "ok": false,
-      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
+      "gardes": 19,
+      "ecartes": 11
     },
     {
       "source": "Het Depot (Louvain)",
       "ok": false,
-      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
+      "gardes": 11,
+      "ecartes": 3
     },
     {
       "source": "Mars – Mons arts de la scène",
       "ok": false,
-      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
+      "gardes": 8,
+      "ecartes": 1
     },
     {
       "source": "Propositions de l'app",
@@ -136,12 +176,198 @@
       "nouvelles": 0
     },
     {
-      "source": "Facebook (service tiers)",
+      "source": "Facebook : soirée Liège",
       "ok": true,
-      "etat": "pas encore l'heure",
-      "gardes": 219
+      "recus": 25,
+      "nouveaux": 2
+    },
+    {
+      "source": "Facebook : concert Liège",
+      "ok": true,
+      "recus": 21,
+      "nouveaux": 1
+    },
+    {
+      "source": "Facebook : étudiants TD Liège",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : festival Liège",
+      "ok": true,
+      "recus": 19,
+      "nouveaux": 1
+    },
+    {
+      "source": "Facebook : soirée Namur",
+      "ok": true,
+      "recus": 25,
+      "nouveaux": 5
+    },
+    {
+      "source": "Facebook : concert Namur",
+      "ok": true,
+      "recus": 25,
+      "nouveaux": 7
+    },
+    {
+      "source": "Facebook : étudiants TD Namur",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : festival Namur",
+      "ok": true,
+      "recus": 16,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : soirée Mons",
+      "ok": true,
+      "recus": 25,
+      "nouveaux": 12
+    },
+    {
+      "source": "Facebook : concert Mons",
+      "ok": true,
+      "recus": 25,
+      "nouveaux": 14
+    },
+    {
+      "source": "Facebook : étudiants TD Mons",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : festival Mons",
+      "ok": true,
+      "recus": 21,
+      "nouveaux": 15
+    },
+    {
+      "source": "Facebook : soirée Charleroi",
+      "ok": true,
+      "recus": 21,
+      "nouveaux": 2
+    },
+    {
+      "source": "Facebook : concert Charleroi",
+      "ok": true,
+      "recus": 6,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : étudiants TD Charleroi",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : festival Charleroi",
+      "ok": true,
+      "recus": 16,
+      "nouveaux": 2
+    },
+    {
+      "source": "Facebook : soirée Bruxelles",
+      "ok": true,
+      "recus": 6,
+      "nouveaux": 1
+    },
+    {
+      "source": "Facebook : concert Bruxelles",
+      "ok": true,
+      "recus": 25,
+      "nouveaux": 8
+    },
+    {
+      "source": "Facebook : étudiants TD Bruxelles",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : festival Bruxelles",
+      "ok": true,
+      "recus": 8,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : soirée Louvain-la-Neuve",
+      "ok": true,
+      "recus": 25,
+      "nouveaux": 19
+    },
+    {
+      "source": "Facebook : concert Louvain-la-Neuve",
+      "ok": true,
+      "recus": 25,
+      "nouveaux": 6
+    },
+    {
+      "source": "Facebook : étudiants TD Louvain-la-Neuve",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : festival Louvain-la-Neuve",
+      "ok": true,
+      "recus": 25,
+      "nouveaux": 4
+    },
+    {
+      "source": "Facebook : soirée Verviers",
+      "ok": true,
+      "recus": 8,
+      "nouveaux": 2
+    },
+    {
+      "source": "Facebook : concert Verviers",
+      "ok": true,
+      "recus": 3,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : étudiants TD Verviers",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : festival Verviers",
+      "ok": true,
+      "recus": 9,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : soirée Vielsalm",
+      "ok": true,
+      "recus": 3,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : concert Vielsalm",
+      "ok": true,
+      "recus": 3,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : étudiants TD Vielsalm",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : festival Vielsalm",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
     }
   ],
-  "avec_image": 226,
-  "total": 226
+  "avec_image": 525,
+  "total": 525
 }
