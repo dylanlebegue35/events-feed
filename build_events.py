@@ -246,8 +246,13 @@ def pages():
                 cache[s["url"]] = {"hash": digest, "day": TODAY.isoformat()[:7], "raw": raw}
         except Exception as ex:
             print(f"  ! {s['name']} : {ex}", file=sys.stderr)
-            REPORT.append({"source": s["name"], "ok": False, "erreur": str(ex)[:300]})
-            continue
+            old = cache.get(s["url"])
+            if not (old and old.get("raw")):
+                REPORT.append({"source": s["name"], "ok": False, "erreur": str(ex)[:300]})
+                continue
+            # L'IA ou le site est indisponible : on garde la dernière lecture réussie plutôt que de vider l'app.
+            raw, answer, text = old["raw"], "", ""
+            REPORT.append({"source": s["name"], "ok": False, "erreur": "lecture indisponible, dernière lecture réutilisée : " + str(ex)[:200]})
         n, skipped = 0, 0
         for r in raw:
             try:
@@ -286,9 +291,12 @@ def pages():
                 print(f"  ! événement ignoré ({r.get('title')}): {ex}", file=sys.stderr)
         print(f"  {s['name']}: {n} événements")
         PAGE_CACHE_FILE.write_text(json.dumps(cache, ensure_ascii=False))
-        REPORT.append({"source": s["name"], "ok": True, "page_caracteres": len(text), "ia_a_trouve": len(raw),
-                       "gardes": n, "ecartes": skipped,
-                       "extrait_reponse_ia": answer[:200] if not raw else ""})
+        if REPORT and REPORT[-1].get("source") == s["name"] and not REPORT[-1].get("ok"):
+            REPORT[-1].update({"gardes": n, "ecartes": skipped})       # repli : on complète la ligne déjà écrite
+        else:
+            REPORT.append({"source": s["name"], "ok": True, "page_caracteres": len(text), "ia_a_trouve": len(raw),
+                           "gardes": n, "ecartes": skipped,
+                           "extrait_reponse_ia": answer[:200] if not raw else ""})
     return out
 
 
