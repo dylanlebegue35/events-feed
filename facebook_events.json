@@ -1349,29 +1349,6 @@
    "classified": true
   },
   {
-   "id": "fb-1043438558381267",
-   "title": "Conférence Natacha Calestrémé - Mons (BE)",
-   "category": "talks",
-   "venue": "Amphithéatre Stievenart UMons",
-   "city": "Mons",
-   "lat": 50.444889436382,
-   "lon": 3.9582426999952,
-   "start": "2026-10-20T19:30:00",
-   "end": "2026-10-20T22:30:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1043438558381267.jpg",
-   "page_url": "https://www.facebook.com/events/1043438558381267/",
-   "url": "https://www.facebook.com/events/1043438558381267/",
-   "summary": "Avancer vers notre mission de vie Avez-vous déjà vécu une expérience inexplicable ? Penser à quelqu’un qui vous appelle aussitôt… rencontrer la bonne personne au moment où vous vous posez une question… entendre une phrase qui semble répondre exactement à ce que vous vivez… Hasard ou message de l’uni",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1598624458633000",
    "title": "Balade-aquarellade \"ZOOMons\"",
    "category": "outdoor",
@@ -1520,29 +1497,6 @@
    "price_from": null,
    "free": null,
    "audience": [],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1473645154729464",
-   "title": "Le débat du CEL Mons : Thomas Dermine face à Georges-Louis Bouchez",
-   "category": "talks",
-   "venue": "Auditoire Van Gogh",
-   "city": "Mons",
-   "lat": 50.463820265119,
-   "lon": 3.9545321001473,
-   "start": "2026-10-20T18:00:00",
-   "end": "2026-10-20T21:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1473645154729464.jpg",
-   "page_url": "https://www.facebook.com/events/1473645154729464/",
-   "url": "https://www.facebook.com/events/1473645154729464/",
-   "summary": "Le CEL Mons vous donne rendez-vous pour une soirée de débat avec Thomas Dermine , bourgmestre de Charleroi et Georges-Louis Bouchez, président du MR et député fédéral, autour des grands enjeux qui façonnent notre société et notre avenir. Emploi, sécurité et solidarité en Wallonie, mais aussi les enj",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
    "tags": [],
    "source": "Facebook (événement public)",
    "classified": true
@@ -2658,29 +2612,6 @@
    "free": null,
    "audience": [
     "family"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1699340161287663",
-   "title": "La Belle et la Bête",
-   "category": "cinema",
-   "venue": "Pathé LLN - Grand-Place 55, 1348 Ottignies-Louvain-la-Neuve, Belgique",
-   "city": "Louvain-la-Neuve",
-   "lat": 50.66909,
-   "lon": 4.61184,
-   "start": "2026-10-20T19:30:00",
-   "end": "2026-10-20T22:30:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1699340161287663.jpg",
-   "page_url": "https://www.facebook.com/events/1699340161287663/",
-   "url": "https://www.facebook.com/events/1699340161287663/",
-   "summary": "Un film de Jean Cocteau, avec Jean Marais, Josette Day France, 1946, 96 min., v.o. fr., noir & blanc Parmi les nombreuses œuvres du cinéaste, poète, écrivain, peintre ou encore dramaturge français Jean Cocteau, La Belle et la Bête demeure l’une de ses créations majeures, réunissant ses multiples tal",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
    ],
    "tags": [],
    "source": "Facebook (événement public)",

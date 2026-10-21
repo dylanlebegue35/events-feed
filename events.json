@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T23:11:46",
+  "generated": "2026-10-21T04:23:18",
   "events": [
     {
       "id": "web-province-de-li-ge-jeudi-sant-2026-02-05",
@@ -394,135 +394,6 @@
         "créatif"
       ],
       "source": "Grand Curtius (Liège)"
-    },
-    {
-      "id": "web-les-grignoux-cin-ma-li-ge-sanguine-2026-10-20",
-      "title": "Sanguine",
-      "category": "cinema",
-      "venue": "Caméo",
-      "city": "Namur",
-      "lat": 50.4667124,
-      "lon": 4.8637516,
-      "start": "2026-10-20T10:00:00",
-      "end": "2026-10-20T10:00:00",
-      "image": "https://www.grignoux.be//upload/grignoux/event/3143/sanguine_og.webp",
-      "page_url": "https://www.grignoux.be/fr/evenement/3143/sanguine",
-      "url": "https://www.grignoux.be/fr/evenement/3143/sanguine",
-      "summary": "Avant-première.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Les Grignoux – cinéma (Liège)"
-    },
-    {
-      "id": "web-trix-anvers-big-special-2026-10-20",
-      "title": "Big Special",
-      "category": "concert",
-      "venue": "Trix",
-      "city": "Anvers",
-      "lat": 51.2195776,
-      "lon": 4.4483726,
-      "start": "2026-10-20T10:00:00",
-      "end": "2026-10-20T10:00:00",
-      "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/94a1/48/b6313610430498f59b44a9aa260e735d32462169.webp",
-      "page_url": "https://www.trixonline.be/nl/event/big-special-2",
-      "url": "https://www.trixonline.be/nl/event/big-special-2",
-      "summary": "Concert Big Special.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Trix (Anvers)"
-    },
-    {
-      "id": "fb-1473645154729464",
-      "title": "Le débat du CEL Mons : Thomas Dermine face à Georges-Louis Bouchez",
-      "category": "talks",
-      "venue": "Auditoire Van Gogh",
-      "city": "Mons",
-      "lat": 50.463820265119,
-      "lon": 3.9545321001473,
-      "start": "2026-10-20T18:00:00",
-      "end": "2026-10-20T21:00:00",
-      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1473645154729464.jpg",
-      "page_url": "https://www.facebook.com/events/1473645154729464/",
-      "url": "https://www.facebook.com/events/1473645154729464/",
-      "summary": "Le CEL Mons vous donne rendez-vous pour une soirée de débat avec Thomas Dermine , bourgmestre de Charleroi et Georges-Louis Bouchez, président du MR et député fédéral, autour des grands enjeux qui façonnent notre société et notre avenir. Emploi, sécurité et solidarité en Wallonie, mais aussi les enj",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Facebook (événement public)",
-      "classified": true
-    },
-    {
-      "id": "fb-1043438558381267",
-      "title": "Conférence Natacha Calestrémé - Mons (BE)",
-      "category": "talks",
-      "venue": "Amphithéatre Stievenart UMons",
-      "city": "Mons",
-      "lat": 50.444889436382,
-      "lon": 3.9582426999952,
-      "start": "2026-10-20T19:30:00",
-      "end": "2026-10-20T22:30:00",
-      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1043438558381267.jpg",
-      "page_url": "https://www.facebook.com/events/1043438558381267/",
-      "url": "https://www.facebook.com/events/1043438558381267/",
-      "summary": "Avancer vers notre mission de vie Avez-vous déjà vécu une expérience inexplicable ? Penser à quelqu’un qui vous appelle aussitôt… rencontrer la bonne personne au moment où vous vous posez une question… entendre une phrase qui semble répondre exactement à ce que vous vivez… Hasard ou message de l’uni",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Facebook (événement public)",
-      "classified": true
-    },
-    {
-      "id": "fb-1699340161287663",
-      "title": "La Belle et la Bête",
-      "category": "cinema",
-      "venue": "Pathé LLN - Grand-Place 55, 1348 Ottignies-Louvain-la-Neuve, Belgique",
-      "city": "Louvain-la-Neuve",
-      "lat": 50.66909,
-      "lon": 4.61184,
-      "start": "2026-10-20T19:30:00",
-      "end": "2026-10-20T22:30:00",
-      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1699340161287663.jpg",
-      "page_url": "https://www.facebook.com/events/1699340161287663/",
-      "url": "https://www.facebook.com/events/1699340161287663/",
-      "summary": "Un film de Jean Cocteau, avec Jean Marais, Josette Day France, 1946, 96 min., v.o. fr., noir & blanc Parmi les nombreuses œuvres du cinéaste, poète, écrivain, peintre ou encore dramaturge français Jean Cocteau, La Belle et la Bête demeure l’une de ses créations majeures, réunissant ses multiples tal",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Facebook (événement public)",
-      "classified": true
-    },
-    {
-      "id": "web-mars-mons-arts-de-la-sc-ne-les-plan-tes-2026-10-20",
-      "title": "Les Planètes",
-      "category": "concert",
-      "venue": "Mars",
-      "city": "Mons",
-      "lat": 50.4650237,
-      "lon": 3.9554029,
-      "start": "2026-10-20T20:00:00",
-      "end": "2026-10-20T20:00:00",
-      "image": "https://surmars.be/sites/default/files/2026-04/Ekinox-Les%20planetes.jpg",
-      "page_url": "https://www.surmars.be/agenda/2026-10/musique/les-planetes",
-      "url": "https://lesfestivalsdewallonie.click/book/5855C1F5-F6ED-0A73-1CA6-170E7034427A",
-      "summary": "",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Mars – Mons arts de la scène"
     },
     {
       "id": "web-les-grignoux-cin-ma-li-ge-le-corset-2026-10-21",
@@ -7995,8 +7866,7 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Reflektor (Liège)",
-      "image_credit": "Illustration : Cbusram / Wikimedia Commons, CC BY-SA 4.0"
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "web-reflektor-li-ge-kahil-el-zabar-isaiah-collier-duo-2026-12-09",
@@ -8140,8 +8010,7 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Reflektor (Liège)",
-      "image_credit": "Illustration : Shariful iea / Wikimedia Commons, CC BY-SA 4.0"
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "web-trix-anvers-a-tribute-to-the-kids-releaseshow-2026-12-11",
@@ -8550,8 +8419,7 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Les Grignoux – cinéma (Liège)",
-      "image_credit": "Quentin Lowagie / Klow / Wikimedia Commons, CC BY 4.0"
+      "source": "Les Grignoux – cinéma (Liège)"
     },
     {
       "id": "web-le-forum-li-ge-les-4-saisons-ballet-2026-12-15",
@@ -8611,8 +8479,7 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Reflektor (Liège)",
-      "image_credit": "Illustration : Ophirh22 / Wikimedia Commons, CC BY-SA 4.0"
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "web-op-ra-royal-de-wallonie-tha-s-2026-12-17",
@@ -8695,8 +8562,7 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Reflektor (Liège)",
-      "image_credit": "Illustration : Cbusram / Wikimedia Commons, CC BY-SA 4.0"
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "web-rockerill-charleroi-hell-is-here-the-prestige-atum-nophi-2026-12-18",
@@ -9230,8 +9096,7 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Reflektor (Liège)",
-      "image_credit": "Illustration : K jagmohan / Wikimedia Commons, CC BY-SA 4.0"
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "web-le-forum-li-ge-olivier-de-benoist-le-droit-au-bonheur-2027-01-09",
@@ -9414,8 +9279,7 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Reflektor (Liège)",
-      "image_credit": "Illustration : Shariful iea / Wikimedia Commons, CC BY-SA 4.0"
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "web-le-forum-li-ge-mathieu-stepson-2027-01-21",
@@ -9601,8 +9465,7 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Reflektor (Liège)",
-      "image_credit": "Illustration : Ophirh22 / Wikimedia Commons, CC BY-SA 4.0"
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "web-le-forum-li-ge-garou-solo-2027-01-29",
@@ -9852,8 +9715,7 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Reflektor (Liège)",
-      "image_credit": "Illustration : Chicken4War / Wikimedia Commons, CC BY-SA 4.0"
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "fb-1056899513818482",
@@ -9963,8 +9825,7 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Reflektor (Liège)",
-      "image_credit": "Illustration : Shariful iea / Wikimedia Commons, CC BY-SA 4.0"
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "web-reflektor-li-ge-sam-bettens-2027-02-18",
@@ -9984,8 +9845,7 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Reflektor (Liège)",
-      "image_credit": "Illustration : K jagmohan / Wikimedia Commons, CC BY-SA 4.0"
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "web-trix-anvers-flowerovlove-2027-02-19",
@@ -10048,8 +9908,7 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Reflektor (Liège)",
-      "image_credit": "Illustration : Qviri / Wikimedia Commons, CC BY-SA 4.0"
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "fb-1894841961207323",
@@ -10089,8 +9948,7 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Reflektor (Liège)",
-      "image_credit": "Illustration : Qviri / Wikimedia Commons, CC BY-SA 4.0"
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "web-trix-anvers-soak-2027-02-25",
@@ -10171,8 +10029,7 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Reflektor (Liège)",
-      "image_credit": "Illustration : Shawndeney / Wikimedia Commons, CC0"
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "fb-807710235669299",
@@ -10256,8 +10113,7 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Reflektor (Liège)",
-      "image_credit": "Illustration : K jagmohan / Wikimedia Commons, CC BY-SA 4.0"
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "web-trix-anvers-cleopatrick-2027-03-10",
@@ -10297,8 +10153,7 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Reflektor (Liège)",
-      "image_credit": "Illustration : Shariful iea / Wikimedia Commons, CC BY-SA 4.0"
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "fb-1494656599096089",
@@ -10383,8 +10238,7 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Reflektor (Liège)",
-      "image_credit": "Illustration : Cbusram / Wikimedia Commons, CC BY-SA 4.0"
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "web-het-depot-louvain-de-volksjury-de-millennium-case-extra-show-2027-03-24",
@@ -10485,8 +10339,7 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Reflektor (Liège)",
-      "image_credit": "Illustration : Cbusram / Wikimedia Commons, CC BY-SA 4.0"
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "fb-1032801196107604",
@@ -10675,8 +10528,7 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Reflektor (Liège)",
-      "image_credit": "Illustration : Shawndeney / Wikimedia Commons, CC0"
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "web-trix-anvers-florence-road-2027-05-01",
@@ -11045,8 +10897,7 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Reflektor (Liège)",
-      "image_credit": "Illustration : Cbusram / Wikimedia Commons, CC BY-SA 4.0"
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "fb-848817544951910",
