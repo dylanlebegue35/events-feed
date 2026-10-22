@@ -2,8 +2,8 @@
   "_aide": "Événements publics Facebook lus par un service tiers (Apify). Contraire au règlement de Meta : à garder désactivable. Mettre enabled à true pour l'activer (il faut le secret APIFY_TOKEN). Chaque événement renvoyé est facturé, même s'il est déjà connu.",
   "enabled": true,
   "actor": "alfalfa~facebook-events-scraper",
-  "max_events_per_query": 25,
-  "min_days_between_runs": 7,
+  "max_events_per_query": 20,
+  "min_days_between_runs": 14,
   "max_cost_usd_per_query": 0.15,
   "cities": [
     "Liège",
@@ -24,9 +24,7 @@
   ],
   "keywords": [
     "soirée",
-    "concert",
-    "étudiants TD",
-    "festival"
+    "étudiants TD"
   ],
   "max_km_from_city": 45
 }
