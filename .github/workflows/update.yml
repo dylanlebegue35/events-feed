@@ -11,6 +11,7 @@ on:
       - "sources.json"
       - "facebook_searches.json"
       - "manual_events.json"
+      - "sponsors.json"
       - "inbox/**"
 
 permissions:

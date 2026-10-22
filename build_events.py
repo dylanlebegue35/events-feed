@@ -1056,6 +1056,24 @@ def ticketmaster():
     return list(found.values())
 
 
+SPONSORS_FILE = HERE / "sponsors.json"
+
+
+def apply_sponsors(events):
+    """Événements mis en avant par les organisateurs : l'app les affiche en tête avec l'étiquette « Sponsorisé »."""
+    try:
+        sponsors = json.loads(SPONSORS_FILE.read_text(encoding="utf-8"))["sponsors"]
+    except FileNotFoundError:
+        return
+    ids = {s["id"] for s in sponsors if s.get("jusqu_au", "9999-12-31") >= TODAY.isoformat()}
+    n = 0
+    for e in events:
+        if e["id"] in ids:
+            e["sponsored"] = True
+            n += 1
+    print(f"Sponsorisés: {n} (sur {len(ids)} en cours dans sponsors.json)")
+
+
 def main():
     events = []
     for name, fn in [("Spa-Francorchamps", spa), ("Manuel", manual), ("Pages web (IA)", pages), ("Dépôt", inbox), ("Propositions de l'app", submissions), ("Facebook (service tiers)", facebook), ("Ticketmaster", ticketmaster)]:
@@ -1110,6 +1128,7 @@ def main():
         (HERE / "fallback_images.json").write_text(json.dumps(fallback_pool(), ensure_ascii=False, indent=1), encoding="utf-8")
     except Exception as ex:
         print(f"Photos de secours: ÉCHEC ({ex})", file=sys.stderr)
+    apply_sponsors(uniq)
     OUT.write_text(json.dumps({"generated": datetime.now().isoformat(timespec="seconds"), "events": uniq},
                               ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"écrit : {OUT.name}, {len(uniq)} événements")

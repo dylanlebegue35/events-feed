@@ -1,0 +1,4 @@
+{
+ "_aide": "Événements mis en avant (étiquette « Sponsorisé », en tête du fil, 2 au maximum). id = l'id de l'événement dans events.json ; jusqu_au = dernier jour de la mise en avant ; partenaire_fondateur = offert (promesse du 23/10/2026).",
+ "sponsors": []
+}
