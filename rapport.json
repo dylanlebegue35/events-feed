@@ -1,5 +1,5 @@
 {
-  "genere": "2026-10-22T21:34:05",
+  "genere": "2026-10-22T21:47:36",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -49,9 +49,9 @@
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 45481,
-      "ia_a_trouve": 73,
-      "gardes": 73,
+      "page_caracteres": 45469,
+      "ia_a_trouve": 74,
+      "gardes": 74,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -230,6 +230,6 @@
       "gardes": 255
     }
   ],
-  "avec_image": 694,
-  "total": 694
+  "avec_image": 1311,
+  "total": 1311
 }
