@@ -4,16 +4,23 @@
   "actor": "alfalfa~facebook-events-scraper",
   "max_events_per_query": 25,
   "min_days_between_runs": 7,
-  "max_cost_usd_per_query": 0.3,
+  "max_cost_usd_per_query": 0.15,
   "cities": [
     "Liège",
+    "Verviers",
     "Namur",
     "Mons",
     "Charleroi",
     "Bruxelles",
     "Louvain-la-Neuve",
-    "Verviers",
-    "Vielsalm"
+    "Vielsalm",
+    "Anvers",
+    "Gand",
+    "Louvain",
+    "Bruges",
+    "Hasselt",
+    "Tournai",
+    "Arlon"
   ],
   "keywords": [
     "soirée",
