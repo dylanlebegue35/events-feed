@@ -1000,7 +1000,7 @@ def ticketmaster():
     for city, lat, lon in TM_HUBS:
         for seg in TM_SEGMENTS:
             url = ("https://app.ticketmaster.com/discovery/v2/events.json?apikey=" + quote(key) +
-                   f"&latlong={lat},{lon}&radius=60&unit=km&size=100&sort=date,asc&locale=*&classificationName={quote(seg)}")
+                   f"&latlong={lat},{lon}&radius=60&unit=km&countryCode=BE&size=100&sort=date,asc&locale=*&classificationName={quote(seg)}")  # Belgique seulement : le rayon déborde sur la France, le Luxembourg, etc.
             raw = subprocess.run(["curl", "-s", "--max-time", "30", url], capture_output=True, text=True).stdout
             time.sleep(0.4)
             try:
