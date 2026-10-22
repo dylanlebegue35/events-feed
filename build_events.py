@@ -960,7 +960,7 @@ def fill_images(events, limit=150):
 # ============================================================ assemblage
 # ============================================================ Ticketmaster (clé gardée côté robot, jamais dans l'app)
 TM_HUBS = [("Liège", 50.6326, 5.5797), ("Bruxelles", 50.8503, 4.3517), ("Namur", 50.4674, 4.8720),
-           ("Charleroi", 50.4108, 4.4446), ("Luxembourg", 49.6116, 6.1319), ("Paris", 48.8566, 2.3522), ("Lille", 50.6292, 3.0573)]
+           ("Charleroi", 50.4108, 4.4446), ("Gand", 51.0543, 3.7174), ("Anvers", 51.2194, 4.4025)]   # Belgique d'abord ; d'autres pays quand on les développera
 TM_SEGMENTS = ["Music", "Sports", "Arts & Theatre", "Miscellaneous"]
 
 
