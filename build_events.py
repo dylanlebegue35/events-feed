@@ -993,10 +993,10 @@ def _tm_category(segment, genre):
 
 
 def ticketmaster():
-    key = os.environ.get("TICKETMASTER_KEY")
+    key = (os.environ.get("TICKETMASTER_KEY") or "").strip()   # un copier-coller ajoute parfois un saut de ligne
     if not key:
         raise RuntimeError("TICKETMASTER_KEY absente")
-    found = {}
+    found, errors, answered = {}, [], 0
     for city, lat, lon in TM_HUBS:
         for seg in TM_SEGMENTS:
             url = ("https://app.ticketmaster.com/discovery/v2/events.json?apikey=" + quote(key) +
@@ -1004,9 +1004,17 @@ def ticketmaster():
             raw = subprocess.run(["curl", "-s", "--max-time", "30", url], capture_output=True, text=True).stdout
             time.sleep(0.4)
             try:
-                items = json.loads(raw).get("_embedded", {}).get("events", [])
+                data = json.loads(raw)
             except Exception:
+                errors.append(f"réponse illisible : {raw[:120]!r}")
                 continue
+            # Ticketmaster répond par {"fault": {...}} ou {"errors": [...]} quand il refuse (clé invalide, limite atteinte…)
+            fault = (data.get("fault") or {}).get("faultstring") or "; ".join(e.get("detail") or e.get("code") or "" for e in data.get("errors") or [])
+            if fault:
+                errors.append(fault)
+                continue
+            answered += 1
+            items = data.get("_embedded", {}).get("events", [])
             for it in items:
                 try:
                     venue = it["_embedded"]["venues"][0]
@@ -1040,6 +1048,11 @@ def ticketmaster():
                         first["end"] = max(first["end"], ev["end"])
                 else:
                     found[k] = ev
+    if errors:
+        why = " | ".join(sorted(set(errors)))
+        if not answered:                     # toutes les requêtes refusées : on le dit clairement au lieu de « 0 événements »
+            raise RuntimeError(f"Ticketmaster refuse toutes les requêtes : {why}")
+        print(f"Ticketmaster : {len(errors)} requêtes refusées ({why})", file=sys.stderr)
     return list(found.values())
 
 
