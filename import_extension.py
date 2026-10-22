@@ -52,6 +52,8 @@ def main():
         venue = (it.get("venue") or "").strip() or None
         city_pos = b.geocode(None, city)
         pos = b.geocode(venue, city) if venue else None
+        if venue and (not pos or pos == city_pos) and "(" in venue:      # « Centre Culturel (Salle X) » : on cherche sans la parenthèse
+            pos = b.geocode(re.sub(r"\s*\(.*?\)", "", venue).strip(), city)
         if pos and city_pos and b._km(pos, city_pos) > 40:
             pos = None
         pos = pos or city_pos
@@ -65,7 +67,7 @@ def main():
             "start": sd.isoformat(timespec="seconds"), "end": ed.isoformat(timespec="seconds"),
             "image": it.get("image") if (it.get("image") or "").startswith("https://") else None,
             "page_url": url, "url": url, "summary": (it.get("summary") or "")[:300],
-            "price_from": it.get("price_from"), "free": True if it.get("free") else None,
+            "price_from": it.get("price_from") or None, "free": True if (it.get("free") or it.get("price_from") == 0) else None,
             "audience": [], "tags": [], "source": "Facebook (extension)",
             "geo_precise": bool(venue and pos != city_pos),
         })

@@ -462,5 +462,561 @@
  "château de wégimont|ayeneux": [
   50.6125991,
   5.7376524
+ ],
+ "l'orange givrée bar|liège": [
+  50.6413354,
+  5.5695207
+ ],
+ "échecs et malt|liège": [
+  50.6401263,
+  5.5747544
+ ],
+ "auberge liège georges simenon|liège": [
+  50.641546,
+  5.5843609
+ ],
+ "j.s. grivegnée (rue nicolas spiroux 75)|liège": [
+  50.6450944,
+  5.5736112
+ ],
+ "le forum de liège|liège": [
+  50.6715318,
+  5.0765706
+ ],
+ "boulevard saucy 25|liège": [
+  50.6414383,
+  5.5806382
+ ],
+ "pixels café|liège": [
+  50.6396097,
+  5.5747981
+ ],
+ "sam's coffee house|liège": [
+  50.6450944,
+  5.5736112
+ ],
+ "bluepoint liège|liège": [
+  50.6196913,
+  5.592283
+ ],
+ "fnac liège|liège": [
+  50.6441392,
+  5.5725692
+ ],
+ "kultura.|liège": [
+  50.6401478,
+  5.5829417
+ ],
+ "cultivarium|liège": [
+  50.644409,
+  5.5778672
+ ],
+ "rue du beau mur|liège": [
+  50.6284879,
+  5.5888332
+ ],
+ "cercle du laveu (45 rue des wallons)|liège": [
+  50.6305138,
+  5.558655
+ ],
+ "none|anvers": [
+  51.2211097,
+  4.3997081
+ ],
+ "de kathedraal|anvers": [
+  51.3473407,
+  4.6798933
+ ],
+ "stadsschouwburg antwerpen|anvers": [
+  51.2157136,
+  4.4098911
+ ],
+ "café rood wit|anvers": [
+  51.1997084,
+  4.4252049
+ ],
+ "love²arts lounge & gallery|anvers": [
+  51.2211097,
+  4.3997081
+ ],
+ "zegelstraat 5, borgerhout|anvers": [
+  51.2141822,
+  4.4431903
+ ],
+ "blikfabriek|anvers": [
+  51.1870116,
+  4.3661279
+ ],
+ "de gryspeerstraat 9, deurne|anvers": [
+  51.2267045,
+  4.4538135
+ ],
+ "kavka zappa|anvers": [
+  51.2211097,
+  4.3997081
+ ],
+ "de studio|anvers": [
+  51.213319,
+  4.4042508
+ ],
+ "chatleroi|anvers": [
+  51.2080891,
+  4.392765
+ ],
+ "de burburestraat 11|anvers": [
+  51.2094591,
+  4.3916096
+ ],
+ "arenberg|anvers": [
+  51.2149111,
+  4.4085197
+ ],
+ "haantjeslei 213|anvers": [
+  51.2004765,
+  4.404355
+ ],
+ "vredestraat 16, berchem|anvers": [
+  51.1946589,
+  4.4208896
+ ],
+ "vleminckveld 5|anvers": [
+  51.2149508,
+  4.4029983
+ ],
+ "none|gand": [
+  51.0538286,
+  3.7250121
+ ],
+ "planet group arena|gand": [
+  51.0160755,
+  3.7325263
+ ],
+ "station gent-dampoort|gand": [
+  51.0558423,
+  3.7404701
+ ],
+ "kramersplein 15|gand": [
+  51.0413597,
+  3.7262532
+ ],
+ "theaterzaal ledeberg|gand": [
+  51.0538286,
+  3.7250121
+ ],
+ "zaal goedleven|gand": [
+  51.0538286,
+  3.7250121
+ ],
+ "sint-amanduskapel|gand": [
+  51.0629522,
+  3.7497788
+ ],
+ "logos foundation|gand": [
+  51.0611146,
+  3.7320952
+ ],
+ "ha concerts|gand": [
+  51.0538286,
+  3.7250121
+ ],
+ "claw|gand": [
+  51.0542903,
+  3.7309231
+ ],
+ "muzikantenhuis|gand": [
+  51.0567485,
+  3.7359862
+ ],
+ "pentagon gent|gand": [
+  51.0688451,
+  3.7278012
+ ],
+ "de speurneus|gand": [
+  51.0439876,
+  3.7579209
+ ],
+ "none|namur": [
+  50.4665284,
+  4.8661892
+ ],
+ "citadelle de namur|namur": [
+  50.459349,
+  4.8614296
+ ],
+ "institut saint-berthuin|namur": [
+  50.4361067,
+  4.7953187
+ ],
+ "hockey namur|namur": [
+  50.480579,
+  4.838419
+ ],
+ "route 23 namur|namur": [
+  50.0857164,
+  4.523205
+ ],
+ "ferme de vevy wéron|namur": [
+  50.4194752,
+  4.8526827
+ ],
+ "le delta|namur": [
+  50.462418,
+  4.8684828
+ ],
+ "château d'amée|namur": [
+  50.4390144,
+  4.8647662
+ ],
+ "la templerie des hiboux|namur": [
+  50.4834039,
+  4.7462992
+ ],
+ "none|charleroi": [
+  50.4116233,
+  4.444528
+ ],
+ "cal charleroi|charleroi": [
+  50.4116233,
+  4.444528
+ ],
+ "école de lodelinsart ouest|charleroi": [
+  50.4116233,
+  4.444528
+ ],
+ "complexe sportif de roux|charleroi": [
+  50.4465652,
+  4.3896614
+ ],
+ "théâtre marignan|charleroi": [
+  50.4087619,
+  4.4403859
+ ],
+ "maison arc-en-ciel de charleroi|charleroi": [
+  50.4116233,
+  4.444528
+ ],
+ "igretec|charleroi": [
+  50.4758121,
+  4.4713134
+ ],
+ "eden|charleroi": [
+  50.4108771,
+  4.441135
+ ],
+ "brasserie du mambourg|charleroi": [
+  50.4116233,
+  4.444528
+ ],
+ "on 600 belle institut|charleroi": [
+  50.4116233,
+  4.444528
+ ],
+ "hôtel charleroi airport van der valk|charleroi": [
+  50.4116233,
+  4.444528
+ ],
+ "none|mons": [
+  50.4549568,
+  3.951958
+ ],
+ "la vie est belge|mons": [
+  50.4538028,
+  3.9524202
+ ],
+ "get - craft drinks & live music|mons": [
+  50.4549568,
+  3.951958
+ ],
+ "port de plaisance de mons - grand large|mons": [
+  50.4695459,
+  3.9375251
+ ],
+ "place léopold|mons": [
+  50.4531394,
+  3.9432457
+ ],
+ "grand-place 27|mons": [
+  50.4543788,
+  3.9517231
+ ],
+ "lotto mons expo|mons": [
+  50.4579725,
+  3.9374999
+ ],
+ "auberge de jeunesse du beffroi|mons": [
+  50.4538153,
+  3.9500358
+ ],
+ "rue des clercs 34|mons": [
+  50.4536246,
+  3.9491898
+ ],
+ "none|louvain": [
+  50.879202,
+  4.7011675
+ ],
+ "faculty club leuven|louvain": [
+  50.8712681,
+  4.6963807
+ ],
+ "king power at den dreef stadion|louvain": [
+  50.8684105,
+  4.6942994
+ ],
+ "unique - vlaams-brabants regenbooghuis|louvain": [
+  50.879202,
+  4.7011675
+ ],
+ "openbaar entrepot voor de kunsten (opek)|louvain": [
+  50.8876442,
+  4.6998906
+ ],
+ "brabanthal|louvain": [
+  50.8553565,
+  4.728548
+ ],
+ "demo-spel leuven|louvain": [
+  50.8793484,
+  4.689646
+ ],
+ "café apero|louvain": [
+  50.8787181,
+  4.6996921
+ ],
+ "wereldcafé|louvain": [
+  50.8783881,
+  4.6978874
+ ],
+ "none|bruges": [
+  51.2085526,
+  3.226772
+ ],
+ "provinciaal hof|bruges": [
+  51.2089199,
+  3.225259
+ ],
+ "sint-michiels (dorpsstraat 1)|bruges": [
+  51.2085526,
+  3.226772
+ ],
+ "dijver 12|bruges": [
+  51.2058726,
+  3.2257874
+ ],
+ "brocante café|bruges": [
+  51.2085526,
+  3.226772
+ ],
+ "wanderkamers|bruges": [
+  51.2085526,
+  3.226772
+ ],
+ "stadsschouwburg|bruges": [
+  51.2105315,
+  3.2236065
+ ],
+ "jan breydelstadion|bruges": [
+  51.1933461,
+  3.1805853
+ ],
+ "none|hasselt": [
+  50.9303735,
+  5.3378043
+ ],
+ "vilderstraat 5|hasselt": [
+  50.9303735,
+  5.3378043
+ ],
+ "knst.hasselt|hasselt": [
+  50.9273264,
+  5.3457476
+ ],
+ "olympia hasselt|hasselt": [
+  50.9368977,
+  5.3129685
+ ],
+ "luikersteenweg 395|hasselt": [
+  50.9009153,
+  5.3557449
+ ],
+ "neshama|hasselt": [
+  50.9303735,
+  5.3378043
+ ],
+ "avansa limburg|hasselt": [
+  50.928484,
+  5.3354449
+ ],
+ "zaal elkerlyk|hasselt": [
+  50.9303735,
+  5.3378043
+ ],
+ "café café|hasselt": [
+  50.9311561,
+  5.3424025
+ ],
+ "bootstraat 9|hasselt": [
+  50.9399753,
+  5.3523764
+ ],
+ "monke temple|hasselt": [
+  50.9303735,
+  5.3378043
+ ],
+ "none|arlon": [
+  49.6834601,
+  5.8167711
+ ],
+ "bibliothèque communale d'arlon|arlon": [
+  49.6791942,
+  5.8013919
+ ],
+ "institut notre-dame d'arlon|arlon": [
+  49.6817325,
+  5.8153442
+ ],
+ "ibis styles arlon porte du luxembourg|arlon": [
+  49.6834601,
+  5.8167711
+ ],
+ "musée d'autelbas|arlon": [
+  49.6454861,
+  5.8628809
+ ],
+ "place léopold|arlon": [
+  49.6832073,
+  5.8124122
+ ],
+ "ô47|arlon": [
+  49.6834601,
+  5.8167711
+ ],
+ "l'entrepôt|arlon": [
+  49.6806741,
+  5.8060152
+ ],
+ "le palais|arlon": [
+  49.6833649,
+  5.8126911
+ ],
+ "église du sacré-cœur d'arlon|arlon": [
+  49.6834601,
+  5.8167711
+ ],
+ "hall polyvalent d'arlon|arlon": [
+  49.6834601,
+  5.8167711
+ ],
+ "none|bastogne": [
+  50.0023102,
+  5.7173386
+ ],
+ "centre culturel de bastogne (salle jean xxiii)|bastogne": [
+  50.0023102,
+  5.7173386
+ ],
+ "la guilde|bastogne": [
+  50.0023102,
+  5.7173386
+ ],
+ "centre culturel de bastogne (espace 23)|bastogne": [
+  50.0023102,
+  5.7173386
+ ],
+ "centre technique et administratif communal|bastogne": [
+  50.0023102,
+  5.7173386
+ ],
+ "musée de la grande ardenne|bastogne": [
+  50.0023102,
+  5.7173386
+ ],
+ "none|marche-en-famenne": [
+  50.2270943,
+  5.3419568
+ ],
+ "rue victor libert 36j|marche-en-famenne": [
+  50.2285017,
+  5.3359561
+ ],
+ "wex|marche-en-famenne": [
+  50.2469424,
+  5.3373521
+ ],
+ "wexclub|marche-en-famenne": [
+  50.2270943,
+  5.3419568
+ ],
+ "délices d'italie (place du roi albert 3)|marche-en-famenne": [
+  50.2270943,
+  5.3419568
+ ],
+ "délices d'italie|marche-en-famenne": [
+  50.2270943,
+  5.3419568
+ ],
+ "none|libramont": [
+  49.94991,
+  5.4370892
+ ],
+ "repair café libramont|libramont": [
+  49.94991,
+  5.4370892
+ ],
+ "halle aux foires de libramont|libramont": [
+  49.914892,
+  5.3764508
+ ],
+ "institut saint-joseph libramont|libramont": [
+  49.9192408,
+  5.3886428
+ ],
+ "église de libramont|libramont": [
+  49.9180935,
+  5.3888519
+ ],
+ "libramont exhibition & congress|libramont": [
+  49.9112797,
+  5.3733532
+ ],
+ "place communale 5-7|libramont": [
+  49.9161146,
+  5.3774451
+ ],
+ "none|virton": [
+  49.5677263,
+  5.5329559
+ ],
+ "avenue bouvier 87|virton": [
+  49.5638522,
+  5.5238291
+ ],
+ "restaurant le franklin|virton": [
+  49.5668576,
+  5.5346395
+ ],
+ "le p'tit théâtre (ethe)|virton": [
+  49.5677263,
+  5.5329559
+ ],
+ "le p'tit théâtre|virton": [
+  49.5677263,
+  5.5329559
+ ],
+ "musée gaumais|virton": [
+  49.5677586,
+  5.5353007
+ ],
+ "espace cohésion|virton": [
+  49.5674538,
+  5.5295788
+ ],
+ "salle du tennis de table (cour marchal 7)|virton": [
+  49.5677263,
+  5.5329559
+ ],
+ "salle du tennis de table|virton": [
+  49.5677263,
+  5.5329559
  ]
 }
