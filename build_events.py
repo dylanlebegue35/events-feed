@@ -958,9 +958,94 @@ def fill_images(events, limit=150):
 
 
 # ============================================================ assemblage
+# ============================================================ Ticketmaster (clé gardée côté robot, jamais dans l'app)
+TM_HUBS = [("Liège", 50.6326, 5.5797), ("Bruxelles", 50.8503, 4.3517), ("Namur", 50.4674, 4.8720),
+           ("Charleroi", 50.4108, 4.4446), ("Luxembourg", 49.6116, 6.1319), ("Paris", 48.8566, 2.3522), ("Lille", 50.6292, 3.0573)]
+TM_SEGMENTS = ["Music", "Sports", "Arts & Theatre", "Miscellaneous"]
+
+
+def _tm_category(segment, genre):
+    g, s = genre.lower(), segment.lower()
+    has = lambda *w: any(x in g for x in w)
+    if has("motor", "racing"):
+        return "motorsport"
+    if s == "music":
+        if has("festival"):
+            return "festival"
+        return "party" if has("dance", "electronic", "club", "dj") else "concert"
+    if s == "sports":
+        return "sport"
+    if s == "film":
+        return "cinema"
+    if s == "arts & theatre":
+        return "expo" if has("fine art", "museum", "exhibit", "photograph") else "theatre"
+    if has("fair", "fête"):
+        return "fair"
+    if has("festival"):
+        return "festival"
+    if has("family", "children", "kids"):
+        return "family"
+    if has("gaming", "esport", "comic", "convention"):
+        return "geek"
+    if has("lecture", "seminar", "talk", "conference"):
+        return "talks"
+    return "culture"
+
+
+def ticketmaster():
+    key = os.environ.get("TICKETMASTER_KEY")
+    if not key:
+        raise RuntimeError("TICKETMASTER_KEY absente")
+    found = {}
+    for city, lat, lon in TM_HUBS:
+        for seg in TM_SEGMENTS:
+            url = ("https://app.ticketmaster.com/discovery/v2/events.json?apikey=" + quote(key) +
+                   f"&latlong={lat},{lon}&radius=60&unit=km&size=100&sort=date,asc&locale=*&classificationName={quote(seg)}")
+            raw = subprocess.run(["curl", "-s", "--max-time", "30", url], capture_output=True, text=True).stdout
+            time.sleep(0.4)
+            try:
+                items = json.loads(raw).get("_embedded", {}).get("events", [])
+            except Exception:
+                continue
+            for it in items:
+                try:
+                    venue = it["_embedded"]["venues"][0]
+                    la, lo = float(venue["location"]["latitude"]), float(venue["location"]["longitude"])
+                    start = it["dates"]["start"].get("dateTime") or (it["dates"]["start"]["localDate"] + "T20:00:00Z")
+                    sd = datetime.fromisoformat(start.replace("Z", "+00:00")).astimezone(ZoneInfo("Europe/Brussels")).replace(tzinfo=None)
+                except Exception:
+                    continue
+                if sd.date() < TODAY:
+                    continue
+                cl = (it.get("classifications") or [{}])[0]
+                imgs = sorted(it.get("images") or [], key=lambda i: i.get("width") or 0)
+                big = [i for i in imgs if (i.get("width") or 0) >= 640]
+                img = (next((i for i in big if i.get("ratio") == "16_9"), None) or (big[0] if big else None) or (imgs[-1] if imgs else {})).get("url")
+                prices = [p["min"] for p in it.get("priceRanges") or [] if p.get("min") is not None]
+                title = it["name"].strip()
+                base = title.split(" - ")[0].strip()
+                k = (re.sub(r"\W+", "", base.lower()), (venue.get("name") or "").lower())
+                ev = {
+                    "id": "tm-" + it["id"], "title": base, "category": _tm_category((cl.get("segment") or {}).get("name", ""), (cl.get("genre") or {}).get("name", "")),
+                    "venue": venue.get("name") or city, "city": (venue.get("city") or {}).get("name") or city, "lat": la, "lon": lo,
+                    "start": sd.isoformat(timespec="seconds"), "end": sd.isoformat(timespec="seconds"),
+                    "image": img, "url": it.get("url"), "summary": (it.get("info") or it.get("pleaseNote") or "")[:300],
+                    "price_from": min(prices) if prices else None, "free": None, "audience": [], "tags": [], "source": "Ticketmaster",
+                }
+                if k in found:                       # même spectacle sur plusieurs dates : une seule fiche, « jusqu'au » la dernière
+                    first = found[k]
+                    if ev["start"] < first["start"]:
+                        ev["end"] = max(first["end"], ev["end"]); found[k] = ev
+                    else:
+                        first["end"] = max(first["end"], ev["end"])
+                else:
+                    found[k] = ev
+    return list(found.values())
+
+
 def main():
     events = []
-    for name, fn in [("Spa-Francorchamps", spa), ("Manuel", manual), ("Pages web (IA)", pages), ("Dépôt", inbox), ("Propositions de l'app", submissions), ("Facebook (service tiers)", facebook)]:
+    for name, fn in [("Spa-Francorchamps", spa), ("Manuel", manual), ("Pages web (IA)", pages), ("Dépôt", inbox), ("Propositions de l'app", submissions), ("Facebook (service tiers)", facebook), ("Ticketmaster", ticketmaster)]:
         try:
             got = fn()
             print(f"{name}: {len(got)} événements")
