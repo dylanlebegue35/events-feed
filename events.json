@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T21:13:13",
+  "generated": "2026-10-22T21:27:28",
   "events": [
     {
       "id": "web-visithuy-l-invention-cach-e-2026-05-25",
@@ -1097,10 +1097,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/HF-THIEFAINE-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202610232000.html",
       "url": "https://www.leforum.be/spectacle_202610232000.html",
-      "summary": "Concert d'Hubert Félix Thiefaine présenté par Next-Step.be en accord avec Lorelei et Arachnée Productions.",
+      "summary": "Hubert Félix Thiefaine en concert au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -3166,10 +3168,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/beatles510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202610282000.html",
       "url": "https://www.leforum.be/spectacle_202610282000.html",
-      "summary": "The Cavern Beatles présenté par Etoile Productions et Kultopolis.",
+      "summary": "The Cavern Beatles, hommage aux Beatles, au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -3912,10 +3916,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/ADEMO 510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202610302000.html",
       "url": "https://www.leforum.be/spectacle_202610302000.html",
-      "summary": "Concert de Salvatore Adamo présenté par Mediascene.",
+      "summary": "Salvatore Adamo en concert au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -4700,10 +4706,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/NATASHA ST PIER 510x630 copie.jpg",
       "page_url": "https://www.leforum.be/spectacle_202610312000.html",
       "url": "https://www.leforum.be/spectacle_202610312000.html",
-      "summary": "Concert de Natasha St-Pier présenté par Mediascene.",
+      "summary": "Natasha St-Pier en concert au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -5152,10 +5160,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/MARINE-LEONARDI_v2-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611032000.html",
       "url": "https://www.leforum.be/spectacle_202611032000.html",
-      "summary": "Concert de Marine Leonardi & Mauvaise Graine présenté par Back in the Dayz en accord avec Agapè.",
+      "summary": "Marine Leonardi et Mauvaise Graine en concert au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -5383,10 +5393,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/tim-burton-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611042000.html",
       "url": "https://www.leforum.be/spectacle_202611042000.html",
-      "summary": "Tribute orchestral aux univers de Tim Burton et fantasy présenté par Overheards.",
+      "summary": "Orchestral Tribute of Tim Burton & Dark Fantasy au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -5592,10 +5604,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/MOGWAI_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611052000.html",
       "url": "https://www.leforum.be/spectacle_202611052000.html",
-      "summary": "Concert Mogwai 30 présenté par Reflektor.",
+      "summary": "Mogwai 30 en concert au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -5925,7 +5939,7 @@
     {
       "id": "web-le-forum-li-ge-y-a-d-la-joie-bordel-claude-fran-ois-2026-11-06",
       "title": "Y A D'LA JOIE ...BORDEL! - CLAUDE FRANÇOIS",
-      "category": "concert",
+      "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
       "lat": 50.6715318,
@@ -5935,10 +5949,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/Claude_510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611062000.html",
       "url": "https://www.leforum.be/spectacle_202611062000.html",
-      "summary": "Tribute à Claude François présenté par Ose la Joie en accord avec CTX Agency.",
+      "summary": "Y a d'la joie...bordel! - Hommage à Claude François au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -6381,7 +6397,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/Damien-Gillard-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611072000.html",
       "url": "https://www.leforum.be/spectacle_202611072000.html",
-      "summary": "Spectacle d'humour \"Rude\" avec Damien Gillard présenté par Corniaud and Co.",
+      "summary": "Damien Gillard dans Rude au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -6671,7 +6687,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/NINO ARIAL 510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611081730.html",
       "url": "https://www.leforum.be/spectacle_202611081730.html",
-      "summary": "Spectacle d'humour de Nino Arial présenté par Kiss Kiss Prod.",
+      "summary": "Nino Arial : Pas comme eux au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -7002,7 +7018,7 @@
     },
     {
       "id": "web-le-forum-li-ge-kody-volu-2026-11-11",
-      "title": "KODY \"ÉVOLUÉ\"",
+      "title": "KODY ÉVOLUÉ",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -7013,10 +7029,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/KODY-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611112000.html",
       "url": "https://www.leforum.be/spectacle_202611112000.html",
-      "summary": "Spectacle \"Évolué\" de Kody présenté par Diagonale Productions.",
+      "summary": "Kody dans Évolué au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -7158,7 +7176,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/agebete-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611122000.html",
       "url": "https://www.leforum.be/spectacle_202611122000.html",
-      "summary": "Spectacle avec Michèle Laroque et Kad Merad présenté par Next-Step.be.",
+      "summary": "L'Âge Bête avec Michèle Laroque et Kad Merad au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -7393,10 +7411,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/GREASE_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611132000.html",
       "url": "https://www.leforum.be/spectacle_202611132000.html",
-      "summary": "Comédie musicale \"Grease is the Word\" présentée par Mediascene.",
+      "summary": "Grease is the Word au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -7952,7 +7972,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/amine-radi-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611142000.html",
       "url": "https://www.leforum.be/spectacle_202611142000.html",
-      "summary": "Spectacle d'humour \"La Suivette\" avec Amine Radi présenté par Kiss Kiss Prod.",
+      "summary": "Amine Radi dans La Suivette au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -8271,10 +8291,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/JULIEN_DASSIN_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611151600.html",
       "url": "https://www.leforum.be/spectacle_202611151600.html",
-      "summary": "Concert Julien Dassin chante Joe Dassin présenté par Solmania Events.",
+      "summary": "Julien Dassin chante Joe Dassin au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -8441,10 +8463,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/Affiche-PE-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611172000.html",
       "url": "https://www.leforum.be/spectacle_202611172000.html",
-      "summary": "Spectacle présenté par Back in the Dayz en accord avec La Vie est une Fête.",
+      "summary": "PE, ça ne s'est pas passé comme prévu au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -8535,7 +8559,7 @@
     },
     {
       "id": "web-le-forum-li-ge-cl-ment-viktorovitch-l-art-de-ne-pas-dire-2026-11-18",
-      "title": "CLÉMENT VIKTOROVITCH \"L'ART DE NE PAS DIRE\"",
+      "title": "CLÉMENT VIKTOROVITCH L'ART DE NE PAS DIRE",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -8546,7 +8570,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/clement_viktorovitch_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611182000.html",
       "url": "https://www.leforum.be/spectacle_202611182000.html",
-      "summary": "Spectacle d'humour de Clément Viktorovitch présenté par OD Live.",
+      "summary": "Clément Viktorovitch L'Art de ne pas dire au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -8657,7 +8681,7 @@
     },
     {
       "id": "web-le-forum-li-ge-renaud-rutten-fait-son-cin-ma-2026-11-19",
-      "title": "RENAUD RUTTEN FAIT SON CINÉMA !",
+      "title": "RENAUD RUTTEN FAIT SON CINÉMA!",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -8668,7 +8692,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/RENAUD_rutten-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611192000.html",
       "url": "https://www.leforum.be/spectacle_202611192000.html",
-      "summary": "Spectacle d'humour de Renaud Rutten présenté par Grand Opera.",
+      "summary": "Renaud Rutten fait son cinéma! au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -8908,10 +8932,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/hans-zimmer-alan-silvestri-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611202000.html",
       "url": "https://www.leforum.be/spectacle_202611202000.html",
-      "summary": "Concert tribute aux musiques de Hans Zimmer et Alan Silvestri présenté par Grand Opera.",
+      "summary": "The Music of Hans Zimmer & Alan Silvestri au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -9470,10 +9496,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/LETZ_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611212000.html",
       "url": "https://www.leforum.be/spectacle_202611212000.html",
-      "summary": "Tribute à Led Zeppelin présenté par Etoile Productions et Kultopolis.",
+      "summary": "Zeppelin's Resurrection - Letz-Zep au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -9663,7 +9691,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/jamelcomedyclub-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611221800.html",
       "url": "https://www.leforum.be/spectacle_202611221800.html",
-      "summary": "Jamel Comedy Club présenté par First Line Production.",
+      "summary": "Jamel Comedy Club au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -9685,7 +9713,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/AFFICHE-VERTICALE-CASSE-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611242000.html",
       "url": "https://www.leforum.be/spectacle_202611242000.html",
-      "summary": "Ballet Casse-Noisette avec orchestre présenté par Franceconcert.",
+      "summary": "Casse-Noisette - Ballet et Orchestre au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -9716,7 +9744,7 @@
     },
     {
       "id": "web-le-forum-li-ge-laurent-gerra-se-met-table-2026-11-25",
-      "title": "LAURENT GERRA \"SE MET À TABLE !\"",
+      "title": "LAURENT GERRA SE MET À TABLE!",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -9727,7 +9755,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/GERRA510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611252000.html",
       "url": "https://www.leforum.be/spectacle_202611252000.html",
-      "summary": "Spectacle d'humour de Laurent Gerra présenté par OD Live.",
+      "summary": "Laurent Gerra se met à table! au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -9838,7 +9866,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/MACHIAVEL 510X630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611262000.html",
       "url": "https://www.leforum.be/spectacle_202611262000.html",
-      "summary": "Spectacle de magie de Machiavel présenté par Stage Magic.",
+      "summary": "Machiavel au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -10046,10 +10074,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/TYPH-BARROW-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611272000.html",
       "url": "https://www.leforum.be/spectacle_202611272000.html",
-      "summary": "Concert Typh Barrow Dreama Tour 2026 présenté par OD Live Productions.",
+      "summary": "Typh Barrow Dreama Tour 2026 au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -10290,7 +10320,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/connasse_510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611282000.html",
       "url": "https://www.leforum.be/spectacle_202611282000.html",
-      "summary": "Spectacle d'humour présenté par Cœur de Scène Productions.",
+      "summary": "C'est décidé je deviens une connasse au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -10593,10 +10623,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/Elvis_TheConcert2026_510.png",
       "page_url": "https://www.leforum.be/spectacle_202611292000.html",
       "url": "https://www.leforum.be/spectacle_202611292000.html",
-      "summary": "Elvis - The Concert présenté par Show-time.be.",
+      "summary": "Elvis - The Concert au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -10636,10 +10668,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/VeronicDicaire_NouveauSpectacle_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612012000.html",
       "url": "https://www.leforum.be/spectacle_202612012000.html",
-      "summary": "Nouveau spectacle de Véronic Dicaire présenté par Diagonale Productions.",
+      "summary": "Véronic Dicaire Nouveau Spectacle au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -10747,10 +10781,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/VeronicDicaire_NouveauSpectacle_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612022000.html",
       "url": "https://www.leforum.be/spectacle_202612022000.html",
-      "summary": "Nouveau spectacle de Véronic Dicaire présenté par Diagonale Productions.",
+      "summary": "Véronic Dicaire Nouveau Spectacle au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -10854,10 +10890,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/HOMMAGE A FRANCE GALL 510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612032000.html",
       "url": "https://www.leforum.be/spectacle_202612032000.html",
-      "summary": "Hommage à France Gall présenté par Eventside.",
+      "summary": "Hommage à France Gall au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -10894,7 +10932,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/nino-arial510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612042000.html",
       "url": "https://www.leforum.be/spectacle_202612042000.html",
-      "summary": "Spectacle d'humour de Nino Arial présenté par Kiss Kiss Prod.",
+      "summary": "Nino Arial : Pas comme eux au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -10987,7 +11025,7 @@
     },
     {
       "id": "web-le-forum-li-ge-olivier-de-benoist-le-droit-au-bonheur-2026-12-05",
-      "title": "OLIVIER DE BENOIST \"LE DROIT AU BONHEUR\"",
+      "title": "OLIVIER DE BENOIST LE DROIT AU BONHEUR",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -10998,7 +11036,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/ODB-510.png",
       "page_url": "https://www.leforum.be/spectacle_202612052000.html",
       "url": "https://www.leforum.be/spectacle_202612052000.html",
-      "summary": "Spectacle d'humour d'Olivier de Benoist présenté par OD Live.",
+      "summary": "Olivier de Benoist Le Droit au bonheur au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -11192,10 +11230,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/LEMAY-LALANNE 510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612061800.html",
       "url": "https://www.leforum.be/spectacle_202612061800.html",
-      "summary": "Concert de Lynda Lemay & Jean-Félix Lalanne présenté par Mediascene.",
+      "summary": "Lynda Lemay & Jean-Félix Lalanne au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -11245,7 +11285,7 @@
     },
     {
       "id": "web-le-forum-li-ge-j-r-me-de-warz-e-va-au-diable-2026-12-08",
-      "title": "JÉRÔME DE WARZÉE \"VA AU DIABLE\"",
+      "title": "JÉRÔME DE WARZÉE VA AU DIABLE",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -11256,7 +11296,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/A2-Jerome-de-Warzee-510.png",
       "page_url": "https://www.leforum.be/spectacle_202612082000.html",
       "url": "https://www.leforum.be/spectacle_202612082000.html",
-      "summary": "Spectacle d'humour de Jérôme de Warzée présenté par Mediascene.",
+      "summary": "Jérôme de Warzée Va au diable au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -11341,10 +11381,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/GIPSY-KINGS-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612092000.html",
       "url": "https://www.leforum.be/spectacle_202612092000.html",
-      "summary": "Concert de Pablo Reyes, ancien membre de Gipsy Kings, présenté par Eventside.",
+      "summary": "Pablo Reyes ancien membre de Gipsy Kings au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -11490,10 +11532,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/pink_floyd_format_510X630.png",
       "page_url": "https://www.leforum.be/spectacle_202612112000.html",
       "url": "https://www.leforum.be/spectacle_202612112000.html",
-      "summary": "Tribute aux 60 ans de Pink Floyd présenté par Show-time.be.",
+      "summary": "60 Years of Pink Floyd au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -11588,7 +11632,7 @@
     },
     {
       "id": "web-le-forum-li-ge-brel-le-spectacle-2026-12-12",
-      "title": "BREL ! LE SPECTACLE",
+      "title": "BREL! LE SPECTACLE",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -11599,10 +11643,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/BREL-lespectacle510.png",
       "page_url": "https://www.leforum.be/spectacle_202612122000.html",
       "url": "https://www.leforum.be/spectacle_202612122000.html",
-      "summary": "Brel ! Le Spectacle présenté par Directo Prod & Gil Marsalla.",
+      "summary": "Brel! Le Spectacle au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -11727,7 +11773,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/cochons-d-inde-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612131700.html",
       "url": "https://www.leforum.be/spectacle_202612131700.html",
-      "summary": "Spectacle jeunesse \"Cochons d'Inde\" présenté par Le Forum.",
+      "summary": "Cochons d'Inde au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -11749,10 +11795,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/CARMEN 510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612142000.html",
       "url": "https://www.leforum.be/spectacle_202612142000.html",
-      "summary": "Carmen par la compagnie Antonio Gades présenté par Stage Magic.",
+      "summary": "Carmen by the Antonio Gades Company au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -11769,7 +11817,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/les-quatres-saisons-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612152000.html",
       "url": "https://www.leforum.be/spectacle_202612152000.html",
-      "summary": "Ballet Les 4 Saisons présenté par Franceconcert.",
+      "summary": "Les 4 Saisons Ballet au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -11791,10 +11839,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/2CALOGERO_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612162000.html",
       "url": "https://www.leforum.be/spectacle_202612162000.html",
-      "summary": "Concert de Calogero présenté par OD Live.",
+      "summary": "Calogero en concert au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -11840,7 +11890,7 @@
     },
     {
       "id": "web-le-forum-li-ge-david-castello-lopes-delicieux-2026-12-17",
-      "title": "DAVID CASTELLO-LOPES - \"DELICIEUX\"",
+      "title": "DAVID CASTELLO-LOPES DELICIEUX",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -11851,7 +11901,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/dcl510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612172000.html",
       "url": "https://www.leforum.be/spectacle_202612172000.html",
-      "summary": "Spectacle d'humour \"Délicieux\" de David Castello-Lopes présenté par Next-Step.be.",
+      "summary": "David Castello-Lopes Delicieux au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -11983,10 +12033,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/Goldmanmania-510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612192000.html",
       "url": "https://www.leforum.be/spectacle_202612192000.html",
-      "summary": "Goldmanmania - On n'a pas changé présenté par Etoile Productions.",
+      "summary": "Goldmanmania On n'a pas changé au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -12070,10 +12122,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/les-gauff-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612202000.html",
       "url": "https://www.leforum.be/spectacle_202612202000.html",
-      "summary": "Concert présenté par G.A.S ASBL.",
+      "summary": "Le tout dernier concert du Mon Dentier au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -12138,7 +12192,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/NACIM-HADDAD510.png",
       "page_url": "https://www.leforum.be/spectacle_202612262000.html",
       "url": "https://www.leforum.be/spectacle_202612262000.html",
-      "summary": "Spectacle d'humour de Nacim Haddad présenté par Kiss Kiss Prod.",
+      "summary": "Nacim Haddad Ayta World Tour au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -12244,7 +12298,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/la-belle-au-bois-dormant-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612271400.html",
       "url": "https://www.leforum.be/spectacle_202612271400.html",
-      "summary": "Ballet La Belle au Bois Dormant présenté par Grand Opera.",
+      "summary": "La Belle au Bois Dormant au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -12266,7 +12320,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/lac-des-cygnes-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612271800.html",
       "url": "https://www.leforum.be/spectacle_202612271800.html",
-      "summary": "Ballet Le Lac des Cygnes présenté par Grand Opera.",
+      "summary": "Le Lac des Cygnes au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -12357,7 +12411,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/un-courrier-de-noel-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612291900.html",
       "url": "https://www.leforum.be/spectacle_202612291900.html",
-      "summary": "Spectacle \"Un courrier pour Noël\" présenté par Enchanté - Arts de la Scène.",
+      "summary": "Un Courrier pour Noël au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -12433,8 +12487,8 @@
       "classified": true
     },
     {
-      "id": "web-le-forum-li-ge-chers-parents-2026-12-31",
-      "title": "CHERS PARENTS",
+      "id": "web-le-forum-li-ge-chers-parents-le-r-veillon-au-champagne-2026-12-31",
+      "title": "CHERS PARENTS - LE RÉVEILLON AU CHAMPAGNE",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -12445,7 +12499,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/CHERS-PARENTS_510-ok.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612312000.html",
       "url": "https://www.leforum.be/spectacle_202612312000.html",
-      "summary": "Réveillon au champagne avec la pièce \"Chers Parents\" présenté par Le Forum et Théâtre Arlequin.",
+      "summary": "Chers Parents Réveillon au Champagne au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -12492,7 +12546,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/GUIHOME_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701052000.html",
       "url": "https://www.leforum.be/spectacle_202701052000.html",
-      "summary": "Spectacle d'humour de Guihome présenté par Comme des Gosses Company.",
+      "summary": "Guihome vous détend au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -12514,7 +12568,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/thierry-lhermitte-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701062000.html",
       "url": "https://www.leforum.be/spectacle_202701062000.html",
-      "summary": "Spectacle de Thierry Lhermitte présenté par Eventside.",
+      "summary": "La Rencontre Thierry Lhermitte au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -12536,7 +12590,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/fabrice-eboue-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701072000.html",
       "url": "https://www.leforum.be/spectacle_202701072000.html",
-      "summary": "Spectacle d'humour \"Solitudes\" de Fabrice Eboue présenté par OD Live.",
+      "summary": "Fabrice Eboue Solitudes au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -12558,10 +12612,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/u2-510x630px.png",
       "page_url": "https://www.leforum.be/spectacle_202701082000.html",
       "url": "https://www.leforum.be/spectacle_202701082000.html",
-      "summary": "Tribute à U2 présenté par Ginger.",
+      "summary": "With U2 Day A U2 Tribute au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -12587,7 +12643,7 @@
     },
     {
       "id": "web-le-forum-li-ge-olivier-de-benoist-le-droit-au-bonheur-2027-01-09",
-      "title": "OLIVIER DE BENOIST \"LE DROIT AU BONHEUR\"",
+      "title": "OLIVIER DE BENOIST LE DROIT AU BONHEUR",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -12598,7 +12654,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/ODB-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701092000.html",
       "url": "https://www.leforum.be/spectacle_202701092000.html",
-      "summary": "Spectacle d'humour d'Olivier de Benoist présenté par OD Live.",
+      "summary": "Olivier de Benoist Le Droit au bonheur au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -12620,16 +12676,18 @@
       "image": "https://www.leforum.be/visuel/SlideFront/CREDEVILLE 510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701101700.html",
       "url": "https://www.leforum.be/spectacle_202701101700.html",
-      "summary": "Spectacle de magie \"Enchanteur\" de Geremy Credeville présenté par Kiss Kiss Prod.",
+      "summary": "Geremy Credeville dans Enchanteur au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
       "id": "web-le-forum-li-ge-arnaud-tsamere-tous-contraints-2027-01-14",
-      "title": "ARNAUD TSAMERE - \"TOUS CONTRAINTS\"",
+      "title": "ARNAUD TSAMERE TOUS CONTRAINTS",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -12640,7 +12698,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/COUVEVENT-ARNAUD-TSAMERE-TOUS-CONTRAINTS-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701142000.html",
       "url": "https://www.leforum.be/spectacle_202701142000.html",
-      "summary": "Spectacle d'humour \"Tous Contraints\" d'Arnaud Tsamere présenté par OD Live.",
+      "summary": "Arnaud Tsamere Tous Contraints au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -12651,7 +12709,7 @@
     },
     {
       "id": "web-le-forum-li-ge-arnaud-tsamere-tous-contraints-2027-01-15",
-      "title": "ARNAUD TSAMERE - \"TOUS CONTRAINTS\"",
+      "title": "ARNAUD TSAMERE TOUS CONTRAINTS",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -12662,7 +12720,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/COUVEVENT-ARNAUD-TSAMERE-TOUS-CONTRAINTS-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701152000.html",
       "url": "https://www.leforum.be/spectacle_202701152000.html",
-      "summary": "Spectacle d'humour \"Tous Contraints\" d'Arnaud Tsamere présenté par OD Live.",
+      "summary": "Arnaud Tsamere Tous Contraints au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -12696,7 +12754,7 @@
     },
     {
       "id": "web-le-forum-li-ge-sarah-schwab-elles-et-moi-2027-01-16",
-      "title": "SARAH SCHWAB - \"ELLES ET MOI\"",
+      "title": "SARAH SCHWAB ELLES ET MOI",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -12707,7 +12765,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/sarah-schwab-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701162000.html",
       "url": "https://www.leforum.be/spectacle_202701162000.html",
-      "summary": "Spectacle d'humour \"Elles et Moi\" de Sarah Schwab présenté par Mediascene.",
+      "summary": "Sarah Schwab Elles et moi au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -12729,7 +12787,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/Lalou 510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701202000.html",
       "url": "https://www.leforum.be/spectacle_202701202000.html",
-      "summary": "Spectacle de Lalou BRT présenté par Furax, Black Bird Prod et Back in the Dayz.",
+      "summary": "Lalou BRT au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -12771,7 +12829,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/mathieur-stepson-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701212000.html",
       "url": "https://www.leforum.be/spectacle_202701212000.html",
-      "summary": "Spectacle d'humour de Mathieu Stepson présenté par OD Live.",
+      "summary": "Mathieu Stepson au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -12828,7 +12886,7 @@
     },
     {
       "id": "web-le-forum-li-ge-damien-gillard-rude-2027-01-22",
-      "title": "DAMIEN GILLARD - \"RUDE\"",
+      "title": "DAMIEN GILLARD RUDE",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -12839,7 +12897,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/Damien-Gillard-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701222000.html",
       "url": "https://www.leforum.be/spectacle_202701222000.html",
-      "summary": "Spectacle d'humour \"Rude\" de Damien Gillard présenté par Corniaud and Co.",
+      "summary": "Damien Gillard Rude au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -12861,10 +12919,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/depeche-mode-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701232000.html",
       "url": "https://www.leforum.be/spectacle_202701232000.html",
-      "summary": "Tribute à Depeche Mode présenté par Médiascène et Palladium Prod.",
+      "summary": "The Depeche Mode Experience au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -12901,7 +12961,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/MANON-BRIL-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701272000.html",
       "url": "https://www.leforum.be/spectacle_202701272000.html",
-      "summary": "Spectacle d'humour \"300 000 ans\" de Manon Bril présenté par Fourchette Suisse Productions.",
+      "summary": "Manon Bril 300 000 ans au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -12923,10 +12983,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/COLDPLAY-FORUM510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701282000.html",
       "url": "https://www.leforum.be/spectacle_202701282000.html",
-      "summary": "Tribute à Coldplay présenté par Eventside.",
+      "summary": "Coldplay by Coverplay au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -12952,7 +13014,7 @@
     },
     {
       "id": "web-le-forum-li-ge-garou-solo-2027-01-29",
-      "title": "GAROU \"SOLO\"",
+      "title": "GAROU SOLO",
       "category": "concert",
       "venue": "Le Forum",
       "city": "Liège",
@@ -12963,10 +13025,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/Garou 510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701292000.html",
       "url": "https://www.leforum.be/spectacle_202701292000.html",
-      "summary": "Concert \"Solo\" de Garou présenté par Diagonale Productions.",
+      "summary": "Garou Solo au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -13065,7 +13129,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/casse-noisette-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701302000.html",
       "url": "https://www.leforum.be/spectacle_202701302000.html",
-      "summary": "Ballet Casse-Noisette avec orchestre présenté par Franceconcert.",
+      "summary": "Casse-Noisette Ballet et Orchestre au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -13087,11 +13151,11 @@
       "image": "https://www.leforum.be/visuel/SlideFront/KPOP510.png",
       "page_url": "https://www.leforum.be/spectacle_202701311400.html",
       "url": "https://www.leforum.be/spectacle_202701311400.html",
-      "summary": "K-pop Superstars présenté par Grand Opera.",
+      "summary": "K-Pop Superstars au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
-        "young"
+        "family"
       ],
       "tags": [],
       "source": "Le Forum (Liège)"
@@ -13109,10 +13173,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/rapsat-510.png",
       "page_url": "https://www.leforum.be/spectacle_202702022000.html",
       "url": "https://www.leforum.be/spectacle_202702022000.html",
-      "summary": "Hommage à Pierre Rapsat présenté par Eventside.",
+      "summary": "Hommage à Pierre Rapsat Brasero au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -13150,7 +13216,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/menopause-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202702032000.html",
       "url": "https://www.leforum.be/spectacle_202702032000.html",
-      "summary": "Spectacle \"Menopause\" présenté par Mediascene.",
+      "summary": "Menopause au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -13362,7 +13428,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/VISU_POELVOORDE-510.png",
       "page_url": "https://www.leforum.be/spectacle_202702052000.html",
       "url": "https://www.leforum.be/spectacle_202702052000.html",
-      "summary": "Spectacle avec Benoît Poelvoorde et Bérénice Bourgueil présenté par Corniaud and Co.",
+      "summary": "Tu aimes tellement la vie au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -13404,7 +13470,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/verino-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202702062000.html",
       "url": "https://www.leforum.be/spectacle_202702062000.html",
-      "summary": "Spectacle \"Rodéo\" de Verino présenté par OD Live.",
+      "summary": "Verino Rodéo au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -13438,7 +13504,7 @@
     },
     {
       "id": "web-le-forum-li-ge-messmer-13hz-derni-res-repr-sentations-2027-02-10",
-      "title": "MESSMER \"13HZ\" - DERNIÈRES REPRÉSENTATIONS",
+      "title": "MESSMER 13HZ - DERNIÈRES REPRÉSENTATIONS",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -13449,10 +13515,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/MESSMER 510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202702102000.html",
       "url": "https://www.leforum.be/spectacle_202702102000.html",
-      "summary": "Spectacle de magie \"13Hz\" de Messmer - dernières représentations, présenté par Diagonale Productions.",
+      "summary": "Messmer 13Hz Dernières représentations au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -13479,7 +13547,7 @@
     },
     {
       "id": "web-le-forum-li-ge-messmer-13hz-derni-res-repr-sentations-2027-02-11",
-      "title": "MESSMER \"13HZ\" - DERNIÈRES REPRÉSENTATIONS",
+      "title": "MESSMER 13HZ - DERNIÈRES REPRÉSENTATIONS",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -13490,10 +13558,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/MESSMER 510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202702112000.html",
       "url": "https://www.leforum.be/spectacle_202702112000.html",
-      "summary": "Spectacle de magie \"13Hz\" de Messmer - dernières représentations, présenté par Diagonale Productions.",
+      "summary": "Messmer 13Hz Dernières représentations au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -13533,7 +13603,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/EDGAR-YVES 510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202702122000.html",
       "url": "https://www.leforum.be/spectacle_202702122000.html",
-      "summary": "Spectacle \"Vigilance\" d'Edgar-Yves présenté par Pirates Nation.",
+      "summary": "Edgar-Yves dans Vigilance au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -13544,7 +13614,7 @@
     },
     {
       "id": "web-le-forum-li-ge-michel-fugain-c-est-l-histoire-d-une-belle-histoire-2027-02-13",
-      "title": "MICHEL FUGAIN \"C'EST L'HISTOIRE D'UNE BELLE HISTOIRE\"",
+      "title": "MICHEL FUGAIN C'EST L'HISTOIRE D'UNE BELLE HISTOIRE",
       "category": "concert",
       "venue": "Le Forum",
       "city": "Liège",
@@ -13555,10 +13625,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/MichelFugain_TOURNEE_CARRE2-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202702132000.html",
       "url": "https://www.leforum.be/spectacle_202702132000.html",
-      "summary": "Concert de Michel Fugain présenté par Diagonale Productions.",
+      "summary": "Michel Fugain C'est l'histoire d'une belle histoire au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -13598,10 +13670,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/cercles-poetes-disparue510.png",
       "page_url": "https://www.leforum.be/spectacle_202702152000.html",
       "url": "https://www.leforum.be/spectacle_202702152000.html",
-      "summary": "Spectacle \"Le Cercle des Poètes Disparus\" présenté par Médiascène.",
+      "summary": "Le Cercle des poètes disparus au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -13638,10 +13712,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/affiche-4-sans-voix510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202702182000.html",
       "url": "https://www.leforum.be/spectacle_202702182000.html",
-      "summary": "Spectacle présenté par Birdie Productions.",
+      "summary": "Les 4 sans voix au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -13667,7 +13743,7 @@
     },
     {
       "id": "web-le-forum-li-ge-blandine-lehout-dans-la-vie-de-ta-m-re-2027-02-19",
-      "title": "BLANDINE LEHOUT DANS \"LA VIE DE TA MÈRE\"",
+      "title": "BLANDINE LEHOUT DANS LA VIE DE TA MÈRE",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -13678,7 +13754,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/la_vie_de_ta_mere_510x630.png",
       "page_url": "https://www.leforum.be/spectacle_202702192000.html",
       "url": "https://www.leforum.be/spectacle_202702192000.html",
-      "summary": "Spectacle d'humour \"La Vie de ta Mère\" de Blandine Lehout présenté par Pow Pow Pow.",
+      "summary": "Blandine Lehout dans La Vie de ta mère au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -13731,8 +13807,8 @@
       "source": "Reflektor (Liège)"
     },
     {
-      "id": "web-le-forum-li-ge-mask-singer-la-tourn-e-2027-02-20",
-      "title": "MASK SINGER - LA TOURNÉE",
+      "id": "web-le-forum-li-ge-mask-singer-la-tournee-2027-02-20",
+      "title": "MASK SINGER - LA TOURNEE",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -13743,7 +13819,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/MASK-SINGER-VISU510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202702201730.html",
       "url": "https://www.leforum.be/spectacle_202702201730.html",
-      "summary": "Mask Singer - la tournée présenté par Mediascene.",
+      "summary": "Mask Singer La Tournée au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -13765,12 +13841,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/un-chateau-de-cartes-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202702211700.html",
       "url": "https://www.leforum.be/spectacle_202702211700.html",
-      "summary": "Spectacle jeunesse \"Un Château de Cartes\" présenté par Le Forum.",
+      "summary": "Un Château de cartes au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "family"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -13848,7 +13922,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/barre_lompret_510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202702252000.html",
       "url": "https://www.leforum.be/spectacle_202702252000.html",
-      "summary": "Spectacle d'humour \"Une Heure Trente\" avec Pierre-Emmanuel Barré et Aymeric Lompret.",
+      "summary": "Une Heure Trente avec Pierre-Emmanuel Barré et Aymeric Lompret au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -13931,7 +14005,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/DON_QUICHOTTE510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202702281500.html",
       "url": "https://www.leforum.be/spectacle_202702281500.html",
-      "summary": "Spectacle jeunesse \"Don Quichotte\" présenté par Ovation Events.",
+      "summary": "Don Quichotte au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -14037,16 +14111,18 @@
       "image": "https://www.leforum.be/visuel/SlideFront/RO_Le Forum, Liege_no text_510x630px.jpg",
       "page_url": "https://www.leforum.be/spectacle_202703052000.html",
       "url": "https://www.leforum.be/spectacle_202703052000.html",
-      "summary": "Rock Orchestra by Candlelight présenté par Festival of the Deal Limited.",
+      "summary": "Rock Orchestra by Candlelight au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
       "id": "web-le-forum-li-ge-dany-boon-clown-n-est-pas-un-metier-2027-03-08",
-      "title": "DANY BOON - CLOWN N'EST PAS UN METIER !!",
+      "title": "DANY BOON - CLOWN N'EST PAS UN METIER!!",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -14057,7 +14133,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/DanyBoon_Clown_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202703082000.html",
       "url": "https://www.leforum.be/spectacle_202703082000.html",
-      "summary": "Spectacle d'humour \"Clown n'est pas un métier !!\" de Dany Boon présenté par OD Live Productions.",
+      "summary": "Dany Boon Clown n'est pas un métier!! au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -14119,10 +14195,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/desenchantee510.png",
       "page_url": "https://www.leforum.be/spectacle_202703102000.html",
       "url": "https://www.leforum.be/spectacle_202703102000.html",
-      "summary": "Tribute à Mylène Farmer présenté par Eventside.",
+      "summary": "Désenchantée Tribute Mylène Farmer au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -14139,10 +14217,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/agnes-botty-visu510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202703112000.html",
       "url": "https://www.leforum.be/spectacle_202703112000.html",
-      "summary": "Agnès Botty - Release Party présenté par Le Forum et FKP Scorpio.",
+      "summary": "Agnès Botty Release Party au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -14179,7 +14259,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/agebete-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202703122000.html",
       "url": "https://www.leforum.be/spectacle_202703122000.html",
-      "summary": "Spectacle avec Michèle Laroque et Kad Merad présenté par Next-Step.be.",
+      "summary": "L'Âge Bête au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -14222,7 +14302,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/FEMMES_510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202703132000.html",
       "url": "https://www.leforum.be/spectacle_202703132000.html",
-      "summary": "Spectacle d'humour présenté par Coeur de Scène Productions.",
+      "summary": "Les Femmes ont toujours raison au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -14264,16 +14344,18 @@
       "image": "https://www.leforum.be/visuel/SlideFront/HOOVERPHONIC-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202703172000.html",
       "url": "https://www.leforum.be/spectacle_202703172000.html",
-      "summary": "Concert de Hooverphonic présenté par Veryshow et Back in the Dayz.",
+      "summary": "Hooverphonic au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
       "id": "web-le-forum-li-ge-ilyes-djadel-d-j-2027-03-18",
-      "title": "ILYES DJADEL \"DÉJÀ\"",
+      "title": "ILYES DJADEL DÉJÀ",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -14284,7 +14366,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/ilyes-djadel-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202703182000.html",
       "url": "https://www.leforum.be/spectacle_202703182000.html",
-      "summary": "Spectacle d'humour \"Déjà\" d'Ilyes Djadel présenté par OD Live.",
+      "summary": "Ilyes Djadel Déjà au Forum de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -14318,7 +14400,7 @@
     },
     {
       "id": "web-le-forum-li-ge-fabien-olicard-albert-2027-03-19",
-      "title": "FABIEN OLICARD \"ALBERT\"",
+      "title": "FABIEN OLICARD ALBERT",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -14329,10 +14411,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/olicard-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202703192000.html",
       "url": "https://www.leforum.be/spectacle_202703192000.html",
-      "summary": "Spectacle de mentalisme \"Albert\" de Fabien Olicard présenté par Mediascene.",
+      "summary": "Fabien Olicard Albert au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -14349,10 +14433,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/MANDRAKE 510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202703201700.html",
       "url": "https://www.leforum.be/spectacle_202703201700.html",
-      "summary": "Spectacle de magie \"Univers\" de Maxime Mandrake présenté par Shadow to Live.",
+      "summary": "Maxime Mandrake Univers au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -14410,12 +14496,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/le-temps-qui-reste-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202703211700.html",
       "url": "https://www.leforum.be/spectacle_202703211700.html",
-      "summary": "Spectacle jeunesse \"Le Temps qui Reste\" présenté par Le Forum.",
+      "summary": "Le Temps qui reste au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "family"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -14440,6 +14524,72 @@
       "source": "Reflektor (Liège)"
     },
     {
+      "id": "web-le-forum-li-ge-pierre-theunis-2027-03-25",
+      "title": "PIERRE THEUNIS",
+      "category": "theatre",
+      "venue": "Le Forum",
+      "city": "Liège",
+      "lat": 50.6715318,
+      "lon": 5.0765706,
+      "start": "2027-03-25T20:00:00",
+      "end": "2027-03-25T20:00:00",
+      "image": "https://www.leforum.be/visuel/SlideFront/pierre-theunis-510.jpg",
+      "page_url": "https://www.leforum.be/spectacle_202703252000.html",
+      "url": "https://www.leforum.be/spectacle_202703252000.html",
+      "summary": "Pierre Theunis au Forum de Liège.",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
+      "source": "Le Forum (Liège)"
+    },
+    {
+      "id": "web-le-forum-li-ge-michel-leeb-ma-vie-en-rire-2027-03-27",
+      "title": "MICHEL LEEB MA VIE EN RIRE",
+      "category": "theatre",
+      "venue": "Le Forum",
+      "city": "Liège",
+      "lat": 50.6715318,
+      "lon": 5.0765706,
+      "start": "2027-03-27T20:00:00",
+      "end": "2027-03-27T20:00:00",
+      "image": "https://www.leforum.be/visuel/SlideFront/michel-leeb-510.jpg",
+      "page_url": "https://www.leforum.be/spectacle_202703272000.html",
+      "url": "https://www.leforum.be/spectacle_202703272000.html",
+      "summary": "Michel Leeb Ma Vie en rire au Forum de Liège.",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
+      "source": "Le Forum (Liège)"
+    },
+    {
+      "id": "web-le-forum-li-ge-moi-et-mon-dino-2027-03-28",
+      "title": "MOI ET MON DINO",
+      "category": "theatre",
+      "venue": "Le Forum",
+      "city": "Liège",
+      "lat": 50.6715318,
+      "lon": 5.0765706,
+      "start": "2027-03-28T14:00:00",
+      "end": "2027-03-28T14:00:00",
+      "image": "https://www.leforum.be/visuel/SlideFront/DINO-510.png",
+      "page_url": "https://www.leforum.be/spectacle_202703281400.html",
+      "url": "https://www.leforum.be/spectacle_202703281400.html",
+      "summary": "Moi et mon Dino au Forum de Liège.",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "family"
+      ],
+      "tags": [],
+      "source": "Le Forum (Liège)"
+    },
+    {
       "id": "web-trix-anvers-westside-cowboy-2027-03-31",
       "title": "Westside Cowboy",
       "category": "concert",
@@ -14458,6 +14608,28 @@
       "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
+    },
+    {
+      "id": "web-le-forum-li-ge-akim-omiri-contexte-2027-04-02",
+      "title": "AKIM OMIRI CONTEXTE",
+      "category": "theatre",
+      "venue": "Le Forum",
+      "city": "Liège",
+      "lat": 50.6715318,
+      "lon": 5.0765706,
+      "start": "2027-04-02T20:00:00",
+      "end": "2027-04-02T20:00:00",
+      "image": "https://www.leforum.be/visuel/SlideFront/AKIM-OMIRI510.jpg",
+      "page_url": "https://www.leforum.be/spectacle_202704022000.html",
+      "url": "https://www.leforum.be/spectacle_202704022000.html",
+      "summary": "Akim Omiri Contexte au Forum de Liège.",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
+      "source": "Le Forum (Liège)"
     },
     {
       "id": "fb-1806645983651300",
