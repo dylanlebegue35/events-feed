@@ -326,5 +326,57 @@
  "centro cultural verdoejo|mons|world": [
   50.4549568,
   3.951958
+ ],
+ "brasserie sauvenière|liège": [
+  50.6434174,
+  5.568815
+ ],
+ "caméo|liège": [
+  50.6450944,
+  5.5736112
+ ],
+ "stade maurice dufrasne|seraing": [
+  50.6152381,
+  5.5089437
+ ],
+ "palais provincial|liège": [
+  50.6461675,
+  5.5731382
+ ],
+ "beursschouwburg|bruxelles": [
+  50.8485496,
+  4.3482309
+ ],
+ "ab antenna|bruxelles": [
+  50.8551025,
+  4.3510915
+ ],
+ "none|anvers|world": [
+  51.2211097,
+  4.3997081
+ ],
+ "none|gand|world": [
+  51.0538286,
+  3.7250121
+ ],
+ "none|louvain|world": [
+  50.879202,
+  4.7011675
+ ],
+ "none|bruges|world": [
+  51.2085526,
+  3.226772
+ ],
+ "none|hasselt|world": [
+  50.9303735,
+  5.3378043
+ ],
+ "none|tournai|world": [
+  50.6056458,
+  3.3878179
+ ],
+ "none|arlon|world": [
+  49.6834601,
+  5.8167711
  ]
 }
