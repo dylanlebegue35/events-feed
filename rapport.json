@@ -1,5 +1,5 @@
 {
-  "genere": "2026-10-21T22:17:28",
+  "genere": "2026-10-22T04:22:06",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -37,8 +37,8 @@
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": false,
       "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
-      "gardes": 40,
-      "ecartes": 19
+      "gardes": 39,
+      "ecartes": 20
     },
     {
       "source": "Le Forum (Liège)",
@@ -84,8 +84,8 @@
       "source": "Grand Curtius (Liège)",
       "ok": false,
       "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
-      "gardes": 7,
-      "ecartes": 3
+      "gardes": 6,
+      "ecartes": 4
     },
     {
       "source": "Village de Noël (Liège)",
@@ -152,15 +152,15 @@
       "source": "Trix (Anvers)",
       "ok": false,
       "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
-      "gardes": 18,
-      "ecartes": 12
+      "gardes": 16,
+      "ecartes": 14
     },
     {
       "source": "Het Depot (Louvain)",
       "ok": false,
       "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
-      "gardes": 11,
-      "ecartes": 3
+      "gardes": 10,
+      "ecartes": 4
     },
     {
       "source": "Mars – Mons arts de la scène",
@@ -179,9 +179,9 @@
       "source": "Facebook (service tiers)",
       "ok": true,
       "etat": "pas encore l'heure",
-      "gardes": 275
+      "gardes": 269
     }
   ],
-  "avec_image": 519,
-  "total": 519
+  "avec_image": 508,
+  "total": 508
 }
