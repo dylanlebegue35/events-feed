@@ -1026,5 +1026,2801 @@
  "maison du tourisme du pays de herve|herve": [
   50.6423916,
   5.7913115
+ ],
+ "none|amay": [
+  50.5539958,
+  5.3054159
+ ],
+ "centre culturel d'amay|amay": [
+  50.5488309,
+  5.3171486
+ ],
+ "allée du rivage, bloc 23|amay": [
+  50.5539958,
+  5.3054159
+ ],
+ "none|amblève": [
+  50.3543055,
+  6.1705559
+ ],
+ "amblève (amel)|amblève": [
+  50.3589559,
+  6.1318332
+ ],
+ "none|ans": [
+  50.6528672,
+  5.540606
+ ],
+ "centre culturel d'ans, alleur|ans": [
+  50.6744351,
+  5.512348
+ ],
+ "rue georges truffaut 35|ans": [
+  50.6752476,
+  5.5144943
+ ],
+ "centre plénitude, rue d'othée|ans": [
+  50.6528672,
+  5.540606
+ ],
+ "bibliothèques d'ans|ans": [
+  50.6745195,
+  5.5123977
+ ],
+ "none|anthisnes": [
+  50.481662,
+  5.5225261
+ ],
+ "la fermette de grison, chemin des patars 50|anthisnes": [
+  50.481662,
+  5.5225261
+ ],
+ "avouerie d'anthisnes, avenue de l'abbaye 17-19|anthisnes": [
+  50.481662,
+  5.5225261
+ ],
+ "avouerie d'anthisnes|anthisnes": [
+  50.4797617,
+  5.5234946
+ ],
+ "none|aubel": [
+  50.7041498,
+  5.8585553
+ ],
+ "espace culturel d'aubel|aubel": [
+  50.7041498,
+  5.8585553
+ ],
+ "aubel|aubel": [
+  50.6968847,
+  5.839214
+ ],
+ "hall omnisports d'aubel|aubel": [
+  50.7050951,
+  5.8597136
+ ],
+ "none|awans": [
+  50.6670346,
+  5.4622239
+ ],
+ "maison des villages, rue noël heine 3|awans": [
+  50.6670346,
+  5.4622239
+ ],
+ "rue louis germeaux 12|awans": [
+  50.6812327,
+  5.4543818
+ ],
+ "none|aywaille": [
+  50.4584812,
+  5.6989069
+ ],
+ "salle le century|aywaille": [
+  50.4584812,
+  5.6989069
+ ],
+ "place joseph thiry|aywaille": [
+  50.4738172,
+  5.6752485
+ ],
+ "centre récréatif de remouchamps|aywaille": [
+  50.4584812,
+  5.6989069
+ ],
+ "none|baelen": [
+  50.5847891,
+  6.0566496
+ ],
+ "heggen 20|baelen": [
+  50.6407394,
+  5.9681416
+ ],
+ "games trotters, route d'eupen 146|baelen": [
+  50.5847891,
+  6.0566496
+ ],
+ "baelen|baelen": [
+  50.6312854,
+  5.9713469
+ ],
+ "studio chasana yoga|baelen": [
+  50.5847891,
+  6.0566496
+ ],
+ "none|bassenge": [
+  50.7583596,
+  5.6094772
+ ],
+ "rue nouwen 10|bassenge": [
+  50.7603767,
+  5.6044347
+ ],
+ "rue du commerce 12|bassenge": [
+  50.7568505,
+  5.5956276
+ ],
+ "none|berloz": [
+  50.6978415,
+  5.2140163
+ ],
+ "rue de la drève|berloz": [
+  50.6959192,
+  5.2071288
+ ],
+ "rue de la campagnette|berloz": [
+  50.7007654,
+  5.2270983
+ ],
+ "none|beyne-heusay": [
+  50.6220566,
+  5.6534141
+ ],
+ "rue du heusay 19|beyne-heusay": [
+  50.6236308,
+  5.6542576
+ ],
+ "avenue de la gare 66b|beyne-heusay": [
+  50.6183873,
+  5.6566064
+ ],
+ "none|blegny": [
+  50.6727185,
+  5.7252372
+ ],
+ "rue de l'institut 27|blegny": [
+  50.6728072,
+  5.7221867
+ ],
+ "mortier|blegny": [
+  50.6821815,
+  5.7432715
+ ],
+ "blegny|blegny": [
+  50.6672591,
+  5.6906619
+ ],
+ "blegny-mine|blegny": [
+  50.6871017,
+  5.7243044
+ ],
+ "rue de la station 115-117|blegny": [
+  50.6787353,
+  5.7224725
+ ],
+ "blegny / barchon|blegny": [
+  50.6638263,
+  5.69622
+ ],
+ "espace simone veil|blegny": [
+  50.670908,
+  5.7257614
+ ],
+ "none|braives": [
+  50.6300711,
+  5.1435257
+ ],
+ "ferme limbort, rue nouvelle|braives": [
+  50.6214478,
+  5.1417975
+ ],
+ "rue de dreye 13|braives": [
+  50.6061465,
+  5.1765379
+ ],
+ "braives|braives": [
+  50.6274339,
+  5.138643
+ ],
+ "l'atelier braives|braives": [
+  50.6300711,
+  5.1435257
+ ],
+ "école de ciplet, rue genon 19|braives": [
+  50.6300711,
+  5.1435257
+ ],
+ "espace samare, ancienne gare de braives|braives": [
+  50.6300711,
+  5.1435257
+ ],
+ "les ateliers de la traversine|braives": [
+  50.6300711,
+  5.1435257
+ ],
+ "none|bullange": [
+  50.4075533,
+  6.257827
+ ],
+ "zur lehmkaul 2, mürringen|bullange": [
+  50.4085192,
+  6.3047821
+ ],
+ "none|burdinne": [
+  50.5812607,
+  5.072436
+ ],
+ "rue chimpisse 7|burdinne": [
+  50.5827109,
+  5.0768054
+ ],
+ "thier de l'église|burdinne": [
+  50.5811786,
+  5.1261465
+ ],
+ "none|burg-reuland": [
+  50.1967468,
+  6.1342559
+ ],
+ "vennhütte, am bahnhof 13|burg-reuland": [
+  50.1985723,
+  6.1529411
+ ],
+ "kellstrasse 12, grüfflingen|burg-reuland": [
+  50.223329,
+  6.088397
+ ],
+ "dürler|burg-reuland": [
+  50.1905384,
+  6.0697651
+ ],
+ "none|butgenbach": [
+  50.4267259,
+  6.2053573
+ ],
+ "nidrum|butgenbach": [
+  50.4443801,
+  6.1968162
+ ],
+ "hof von bütgenbach, zum walkerstal 15|butgenbach": [
+  50.4267259,
+  6.2053573
+ ],
+ "worriken|butgenbach": [
+  50.4251539,
+  6.2178508
+ ],
+ "none|chaudfontaine": [
+  50.5823347,
+  5.6304271
+ ],
+ "galerie de la gare de chaudfontaine|chaudfontaine": [
+  50.5823347,
+  5.6304271
+ ],
+ "casino de chaudfontaine|chaudfontaine": [
+  50.5866944,
+  5.6423895
+ ],
+ "domaine bellum fagetum, rue du croléfonds|chaudfontaine": [
+  50.5823347,
+  5.6304271
+ ],
+ "none|dalhem": [
+  50.7139302,
+  5.7229816
+ ],
+ "salle paroissiale de dalhem|dalhem": [
+  50.7139302,
+  5.7229816
+ ],
+ "jp20, rue bouchtay 8|dalhem": [
+  50.7139302,
+  5.7229816
+ ],
+ "none|dison": [
+  50.611374,
+  5.854735
+ ],
+ "salle d'andrimont|dison": [
+  50.6044502,
+  5.8681118
+ ],
+ "le tremplin, rue du moulin 8|dison": [
+  50.611374,
+  5.854735
+ ],
+ "centre culturel de dison|dison": [
+  50.6082716,
+  5.8547738
+ ],
+ "none|donceel": [
+  50.6478971,
+  5.3199408
+ ],
+ "rue des templiers 9|donceel": [
+  50.639315,
+  5.3179867
+ ],
+ "salle du vieux haneffe|donceel": [
+  50.6478971,
+  5.3199408
+ ],
+ "none|engis": [
+  50.5626194,
+  5.3881906
+ ],
+ "equi'dés, engis|engis": [
+  50.5626194,
+  5.3881906
+ ],
+ "rue reine astrid 10|engis": [
+  50.5844359,
+  5.4036511
+ ],
+ "bibliothèque-ludothèque, rue reine astrid 6|engis": [
+  50.5626194,
+  5.3881906
+ ],
+ "salle grandfils|engis": [
+  50.5626194,
+  5.3881906
+ ],
+ "none|esneux": [
+  50.533588,
+  5.5686219
+ ],
+ "piscine pré en bulles|esneux": [
+  50.533588,
+  5.5686219
+ ],
+ "esneux|esneux": [
+  50.530508,
+  5.5728356
+ ],
+ "méry|esneux": [
+  50.5479511,
+  5.5871867
+ ],
+ "none|eupen": [
+  50.6305665,
+  6.0312717
+ ],
+ "kulturzentrum alter schlachthof|eupen": [
+  50.6262128,
+  6.02647
+ ],
+ "barrage de la vesdre (wesertalsperre)|eupen": [
+  50.6305665,
+  6.0312717
+ ],
+ "barrage de la vesdre|eupen": [
+  50.6185148,
+  6.0903362
+ ],
+ "experience factory eupen|eupen": [
+  50.6382586,
+  6.0040219
+ ],
+ "none|faimes": [
+  50.6652169,
+  5.2627409
+ ],
+ "salle la forge, rue albert warnotte 26, celles|faimes": [
+  50.6546821,
+  5.2464697
+ ],
+ "rue adolphe braas|faimes": [
+  50.6600565,
+  5.2562451
+ ],
+ "none|fexhe-le-haut-clocher": [
+  50.6643107,
+  5.3993831
+ ],
+ "grand-route 127|fexhe-le-haut-clocher": [
+  50.6548013,
+  5.4255792
+ ],
+ "none|flémalle": [
+  50.5994478,
+  5.4699616
+ ],
+ "fort de flémalle|flémalle": [
+  50.6078614,
+  5.4648793
+ ],
+ "salle omnisports, rue beau site 23, flémalle-haute|flémalle": [
+  50.5994478,
+  5.4699616
+ ],
+ "e-pôle flémalle|flémalle": [
+  50.5994478,
+  5.4699616
+ ],
+ "flémalle|flémalle": [
+  50.6222214,
+  5.4220614
+ ],
+ "maison du peuple, grand'route 396|flémalle": [
+  50.5994478,
+  5.4699616
+ ],
+ "none|fléron": [
+  50.6168354,
+  5.6832219
+ ],
+ "espace culture de fléron|fléron": [
+  50.6168354,
+  5.6832219
+ ],
+ "salle saint-laurent|fléron": [
+  50.6168354,
+  5.6832219
+ ],
+ "batifix, retinne|fléron": [
+  50.6168354,
+  5.6832219
+ ],
+ "none|geer": [
+  50.6684881,
+  5.1710529
+ ],
+ "salle de la liberté|geer": [
+  50.6754763,
+  5.2116932
+ ],
+ "rue du centre 22|geer": [
+  50.6753156,
+  5.2112384
+ ],
+ "rue des peupliers|geer": [
+  50.6643129,
+  5.1778726
+ ],
+ "none|hamoir": [
+  50.4360296,
+  5.5469814
+ ],
+ "route de xhignesse 21|hamoir": [
+  50.4292894,
+  5.5411361
+ ],
+ "none|hannut": [
+  50.6724649,
+  5.0779916
+ ],
+ "rue de tirlemont 67|hannut": [
+  50.6751557,
+  5.0734547
+ ],
+ "marché couvert|hannut": [
+  50.6752662,
+  5.0835982
+ ],
+ "none|herstal": [
+  50.6650412,
+  5.629981
+ ],
+ "herstal|herstal": [
+  50.6607262,
+  5.6229797
+ ],
+ "65 rue de l'abattoir|herstal": [
+  50.6650412,
+  5.629981
+ ],
+ "rue henri nottet 11|herstal": [
+  50.665677,
+  5.6107899
+ ],
+ "none|herve": [
+  50.63916,
+  5.7931012
+ ],
+ "hall des criées|herve": [
+  50.6498362,
+  5.7983858
+ ],
+ "lizard wizard, place preud'homme|huy": [
+  50.5180856,
+  5.2408138
+ ],
+ "huy|huy": [
+  50.5180856,
+  5.2408138
+ ],
+ "centre culturel de huy|huy": [
+  50.5228929,
+  5.2417522
+ ],
+ "église notre-dame de la sarte|huy": [
+  50.5138437,
+  5.2504911
+ ],
+ "parc vierset godin-parnajon|huy": [
+  50.5180856,
+  5.2408138
+ ],
+ "none|héron": [
+  50.5508203,
+  5.0971783
+ ],
+ "chaussée de wavre 41|héron": [
+  50.5489714,
+  5.0877127
+ ],
+ "none|jalhay": [
+  50.5592528,
+  5.9647526
+ ],
+ "abc café, rue de la fagne 13|jalhay": [
+  50.5583828,
+  5.9695325
+ ],
+ "tiège 78|jalhay": [
+  50.5201105,
+  5.909664
+ ],
+ "herbiester 143|jalhay": [
+  50.5610325,
+  5.9766845
+ ],
+ "none|juprelle": [
+  50.7112425,
+  5.5265882
+ ],
+ "mamjami, chaussée de tongres 13|juprelle": [
+  50.7112425,
+  5.5265882
+ ],
+ "rue provinciale 26|juprelle": [
+  50.6864563,
+  5.5537653
+ ],
+ "la cafet., rue du chainay 61|juprelle": [
+  50.7112425,
+  5.5265882
+ ],
+ "chaussée de tongres 380|juprelle": [
+  50.7082654,
+  5.5254019
+ ],
+ "none|la calamine": [
+  50.7154957,
+  6.013341
+ ],
+ "la calamine (kelmis)|la calamine": [
+  50.715649,
+  6.0134313
+ ],
+ "patronage kelmis|la calamine": [
+  50.7184453,
+  6.0123378
+ ],
+ "none|lierneux": [
+  50.2858086,
+  5.7921558
+ ],
+ "stade, rue de la gare 31|lierneux": [
+  50.2858086,
+  5.7921558
+ ],
+ "salle jeunesse lierneux|lierneux": [
+  50.2844061,
+  5.7983777
+ ],
+ "pré du renard|lierneux": [
+  50.2839123,
+  5.7916855
+ ],
+ "none|limbourg": [
+  50.9977937,
+  5.4453575
+ ],
+ "hall sportif de dolhain|limbourg": [
+  50.9977937,
+  5.4453575
+ ],
+ "none|lincent": [
+  50.711613,
+  5.0318166
+ ],
+ "hall sportif, rue des écoles 6|lincent": [
+  50.7149039,
+  5.0324315
+ ],
+ "le pôle|liège": [
+  50.6330005,
+  5.5869633
+ ],
+ "antidote - vintage & designer shop|liège": [
+  50.6450944,
+  5.5736112
+ ],
+ "trocadéro de liège|liège": [
+  50.6422969,
+  5.5718521
+ ],
+ "le beau-mur|liège": [
+  50.6450944,
+  5.5736112
+ ],
+ "none|malmedy": [
+  50.4265348,
+  6.0276059
+ ],
+ "la scène malmedy|malmedy": [
+  50.4323535,
+  6.0285194
+ ],
+ "taverne de rome|malmedy": [
+  50.4265348,
+  6.0276059
+ ],
+ "none|marchin": [
+  50.4802051,
+  5.2263372
+ ],
+ "bistro de grand-marchin|marchin": [
+  50.4802051,
+  5.2263372
+ ],
+ "potago, ereffe 32|marchin": [
+  50.4802051,
+  5.2263372
+ ],
+ "bibliothèque, place de belle-maison 2|marchin": [
+  50.480568,
+  5.2259082
+ ],
+ "none|modave": [
+  50.4416137,
+  5.3017936
+ ],
+ "crie de modave|modave": [
+  50.4437163,
+  5.2880011
+ ],
+ "le jardin de la patchamama, rue trou botin|modave": [
+  50.4416137,
+  5.3017936
+ ],
+ "château de modave|modave": [
+  50.4408809,
+  5.2868687
+ ],
+ "place georges hubin, vierset|modave": [
+  50.4830722,
+  5.2977692
+ ],
+ "rue rausa|modave": [
+  50.516774,
+  5.3241457
+ ],
+ "none|nandrin": [
+  50.5162261,
+  5.3992564
+ ],
+ "domaine de la gotte, rue de la halète 50|nandrin": [
+  50.5226778,
+  5.4327939
+ ],
+ "domaine du bowi, route du condroz 413|nandrin": [
+  50.5162261,
+  5.3992564
+ ],
+ "espace des templiers, villers-le-temple|nandrin": [
+  50.5162261,
+  5.3992564
+ ],
+ "none|neupré": [
+  50.5431751,
+  5.4901079
+ ],
+ "rue rimière 53, rotheux|neupré": [
+  50.5355139,
+  5.4631081
+ ],
+ "none|olne": [
+  50.5901199,
+  5.7479948
+ ],
+ "salle théo dubois, rue du presbytère 8|olne": [
+  50.5901199,
+  5.7479948
+ ],
+ "la neuville, saint-hadelin|olne": [
+  50.5955206,
+  5.716256
+ ],
+ "brasserie les montagnards|olne": [
+  50.5901199,
+  5.7479948
+ ],
+ "none|ouffet": [
+  50.4377341,
+  5.4653273
+ ],
+ "bibliothèque communale d'ouffet|ouffet": [
+  50.4377341,
+  5.4653273
+ ],
+ "ouffet|ouffet": [
+  50.4377341,
+  5.4653273
+ ],
+ "salle aux oies, rue aux oies 2|ouffet": [
+  50.4377341,
+  5.4653273
+ ],
+ "none|oupeye": [
+  50.7171345,
+  5.6425
+ ],
+ "rue vallée 15|oupeye": [
+  50.7143014,
+  5.6802652
+ ],
+ "rofc|oupeye": [
+  50.7171345,
+  5.6425
+ ],
+ "rue de herstal 43|oupeye": [
+  50.7045737,
+  5.6231566
+ ],
+ "none|pepinster": [
+  50.5710311,
+  5.7978592
+ ],
+ "vicoq, rue hodister 150|pepinster": [
+  50.5710311,
+  5.7978592
+ ],
+ "rue du purgatoire 44|pepinster": [
+  50.5769351,
+  5.8343061
+ ],
+ "hall du paire|pepinster": [
+  50.5808189,
+  5.818774
+ ],
+ "soiron-centre 2|pepinster": [
+  50.5923001,
+  5.7883522
+ ],
+ "none|plombières": [
+  50.7377318,
+  5.9611134
+ ],
+ "m&t, rue de l'église 20|plombières": [
+  50.7377318,
+  5.9611134
+ ],
+ "plombières|plombières": [
+  50.7339752,
+  5.9697292
+ ],
+ "salle culturelle de gemmenich|plombières": [
+  50.7377318,
+  5.9611134
+ ],
+ "none|raeren": [
+  50.6761305,
+  6.1108404
+ ],
+ "mehrzweckhalle hauset|raeren": [
+  50.7080587,
+  6.0698979
+ ],
+ "villa máro, gostert 102|raeren": [
+  50.6761305,
+  6.1108404
+ ],
+ "none|saint-georges-sur-meuse": [
+  50.6000654,
+  5.3584259
+ ],
+ "place douffet|saint-georges-sur-meuse": [
+  50.5824342,
+  5.3567516
+ ],
+ "eva, chaussée verte 96|saint-georges-sur-meuse": [
+  50.6018438,
+  5.3473367
+ ],
+ "rue albert 1er|saint-georges-sur-meuse": [
+  50.6002352,
+  5.3571001
+ ],
+ "none|saint-vith": [
+  50.2803881,
+  6.1258953
+ ],
+ "centre de saint-vith|saint-vith": [
+  50.2803881,
+  6.1258953
+ ],
+ "salsana, heuem|saint-vith": [
+  50.2803881,
+  6.1258953
+ ],
+ "saint-vith|saint-vith": [
+  50.2852371,
+  6.1448516
+ ],
+ "triangel st. vith|saint-vith": [
+  50.2807375,
+  6.1317444
+ ],
+ "kino corso st.vith|saint-vith": [
+  50.2799778,
+  6.129711
+ ],
+ "none|seraing": [
+  50.6152381,
+  5.5089437
+ ],
+ "esplanade de l'avenir|seraing": [
+  50.6102295,
+  5.5132606
+ ],
+ "centre culturel de seraing|seraing": [
+  50.6047423,
+  5.516472
+ ],
+ "gastronomia, 118 rue jean potier|seraing": [
+  50.6152381,
+  5.5089437
+ ],
+ "maison du peuple|seraing": [
+  50.6046714,
+  5.515784
+ ],
+ "none|soumagne": [
+  50.6330605,
+  5.7317942
+ ],
+ "domaine provincial de wégimont|soumagne": [
+  50.6120636,
+  5.7367203
+ ],
+ "baroni - cicchetti & vino|soumagne": [
+  50.6330605,
+  5.7317942
+ ],
+ "none|spa": [
+  50.4920654,
+  5.8627569
+ ],
+ "maison des jeunes et de la culture de spa|spa": [
+  50.4920654,
+  5.8627569
+ ],
+ "van der valk hotel spa|spa": [
+  50.492897,
+  5.8632689
+ ],
+ "none|sprimont": [
+  50.5055291,
+  5.6617176
+ ],
+ "foyer culturel de sprimont|sprimont": [
+  50.5009404,
+  5.6641221
+ ],
+ "none|stavelot": [
+  50.3942409,
+  5.9310335
+ ],
+ "circuit de spa-francorchamps|stavelot": [
+  50.4369331,
+  5.970133
+ ],
+ "caves de l'abbaye de stavelot|stavelot": [
+  50.3942409,
+  5.9310335
+ ],
+ "salle electrabel, quai des vieux moulins|stavelot": [
+  50.3942409,
+  5.9310335
+ ],
+ "avenue ferdinand nicolay|stavelot": [
+  50.3944118,
+  5.9310793
+ ],
+ "none|stoumont": [
+  50.4069504,
+  5.80836
+ ],
+ "le fagotin, route de l'amblève 56|stoumont": [
+  50.4091039,
+  5.8078152
+ ],
+ "village 71|stoumont": [
+  50.4072955,
+  5.805013
+ ],
+ "rahier 85|stoumont": [
+  50.3837493,
+  5.7788339
+ ],
+ "route de l'amblève 88|stoumont": [
+  50.4113799,
+  5.8050923
+ ],
+ "none|theux": [
+  50.5349195,
+  5.8132867
+ ],
+ "place du perron|theux": [
+  50.53555,
+  5.8130931
+ ],
+ "theux|theux": [
+  50.5258608,
+  5.819903
+ ],
+ "place du marais 1, la reid|theux": [
+  50.4885434,
+  5.7901565
+ ],
+ "terrain de foot de la reid|theux": [
+  50.5349195,
+  5.8132867
+ ],
+ "rue charles rittwéger 220|theux": [
+  50.5473145,
+  5.8101335
+ ],
+ "centre culturel de theux|theux": [
+  50.5360344,
+  5.8133701
+ ],
+ "none|thimister-clermont": [
+  50.654074,
+  5.8741374
+ ],
+ "patro de thimister|thimister-clermont": [
+  50.654074,
+  5.8741374
+ ],
+ "centre de thimister|thimister-clermont": [
+  50.6545706,
+  5.864231
+ ],
+ "none|trois-ponts": [
+  50.3726812,
+  5.8702957
+ ],
+ "espace culturel de trois-ponts|trois-ponts": [
+  50.3726812,
+  5.8702957
+ ],
+ "none|trooz": [
+  50.5728102,
+  5.6883726
+ ],
+ "padel tennis trooz|trooz": [
+  50.5728102,
+  5.6883726
+ ],
+ "espace culturel du maka, rue fenderie|trooz": [
+  50.5728102,
+  5.6883726
+ ],
+ "maison de la laïcité de trooz|trooz": [
+  50.5713132,
+  5.6904148
+ ],
+ "none|verviers": [
+  50.59324,
+  5.867828
+ ],
+ "salle « la brique pilée » - plaine ozanam, lambermont|verviers": [
+  50.59324,
+  5.867828
+ ],
+ "rue lucien defays 77|verviers": [
+  50.5932863,
+  5.8502778
+ ],
+ "centre culturel de verviers|verviers": [
+  50.5931763,
+  5.847641
+ ],
+ "spirit of 66|verviers": [
+  50.5936033,
+  5.8610528
+ ],
+ "place général jacques 16|verviers": [
+  50.5865214,
+  5.8583701
+ ],
+ "none|villers-le-bouillet": [
+  50.5753715,
+  5.2607066
+ ],
+ "rue de la plaine 2|villers-le-bouillet": [
+  50.5684533,
+  5.2667366
+ ],
+ "maison madeleine, rue vaux-toultia 2|villers-le-bouillet": [
+  50.5753715,
+  5.2607066
+ ],
+ "rue mâlvoye 3, warnant-dreye|villers-le-bouillet": [
+  50.5940266,
+  5.2293559
+ ],
+ "l'authentique, rue de waremme 21|villers-le-bouillet": [
+  50.5753715,
+  5.2607066
+ ],
+ "rue de waremme 29|villers-le-bouillet": [
+  50.5695876,
+  5.2666514
+ ],
+ "maison des solidarités, rue de waremme 29|villers-le-bouillet": [
+  50.5753715,
+  5.2607066
+ ],
+ "bords de meuse, visé|visé": [
+  50.7347797,
+  5.6936397
+ ],
+ "rue de la chinstrée 2d|visé": [
+  50.7371424,
+  5.6941508
+ ],
+ "collégiale saint-martin et saint-hadelin|visé": [
+  50.7330795,
+  5.6958628
+ ],
+ "salle de l'alliance|visé": [
+  50.7347797,
+  5.6936397
+ ],
+ "none|waimes": [
+  50.4724142,
+  6.1222907
+ ],
+ "chemin des campanules 7, robertville|waimes": [
+  50.4724142,
+  6.1222907
+ ],
+ "rue de rôbroû, faymonville|waimes": [
+  50.3925098,
+  6.1460189
+ ],
+ "rue du lac 31|waimes": [
+  50.45383,
+  6.1219728
+ ],
+ "none|wanze": [
+  50.5368559,
+  5.2143865
+ ],
+ "salle jacques brel, rue delloye|wanze": [
+  50.5357802,
+  5.2139906
+ ],
+ "centre culturel de wanze|wanze": [
+  50.5357642,
+  5.2143259
+ ],
+ "none|waremme": [
+  50.6976875,
+  5.2546191
+ ],
+ "chaussée romaine 69|waremme": [
+  50.6930533,
+  5.2671909
+ ],
+ "parc des mayeurs|waremme": [
+  50.6976875,
+  5.2546191
+ ],
+ "av. prince régent 30|waremme": [
+  50.6897728,
+  5.2451167
+ ],
+ "rue émile hallet 7|waremme": [
+  50.6949831,
+  5.248491
+ ],
+ "amnezia|waremme": [
+  50.6976875,
+  5.2546191
+ ],
+ "rue des prés 43|waremme": [
+  50.698352,
+  5.2489501
+ ],
+ "none|welkenraedt": [
+  50.6607788,
+  5.9732784
+ ],
+ "centre culturel de welkenraedt|welkenraedt": [
+  50.6640052,
+  5.9689967
+ ],
+ "école saint-joseph|welkenraedt": [
+  50.6609088,
+  5.9684663
+ ],
+ "athénée royal de welkenraedt|welkenraedt": [
+  50.6624468,
+  5.9727054
+ ],
+ "welkenraedt|welkenraedt": [
+  50.6596575,
+  5.9754899
+ ],
+ "route charlemagne 22, henri-chapelle|welkenraedt": [
+  50.6778815,
+  5.9339733
+ ],
+ "none|anderlues": [
+  50.4040264,
+  4.2642008
+ ],
+ "anderlues|anderlues": [
+  50.4078243,
+  4.2700889
+ ],
+ "none|antoing": [
+  50.5575997,
+  3.4660672
+ ],
+ "rue des écoles, 7640 antoing|antoing": [
+  50.5506172,
+  3.4551786
+ ],
+ "rue de la station 14, 7640 antoing|antoing": [
+  50.5691533,
+  3.4516075
+ ],
+ "bibliothèque d'antoing|antoing": [
+  50.5575997,
+  3.4660672
+ ],
+ "none|ath": [
+  50.6311349,
+  3.7769485
+ ],
+ "hôtel de ville d'ath|ath": [
+  50.6666442,
+  3.6193257
+ ],
+ "wl tavern, rue de la station 23|ath": [
+  50.6311349,
+  3.7769485
+ ],
+ "maison culturelle d'ath|ath": [
+  50.6311349,
+  3.7769485
+ ],
+ "none|beaumont": [
+  50.2355294,
+  4.2383115
+ ],
+ "rue du pavé 17, 6500 barbençon|beaumont": [
+  50.2227805,
+  4.2815381
+ ],
+ "salle désirée, beaumont|beaumont": [
+  50.2355294,
+  4.2383115
+ ],
+ "rec beaumont, rue de l'abattoir, 6500 beaumont|beaumont": [
+  50.2355294,
+  4.2383115
+ ],
+ "barbençon|beaumont": [
+  50.2251831,
+  4.307107
+ ],
+ "none|belœil": [
+  50.5312882,
+  3.6880111
+ ],
+ "rue aux fleurs 16, 7973 stambruges|belœil": [
+  50.4985989,
+  3.7047657
+ ],
+ "none|bernissart": [
+  50.4785984,
+  3.691426
+ ],
+ "rue lotard 16, 7320 bernissart|bernissart": [
+  50.4766204,
+  3.6502653
+ ],
+ "bernissart|bernissart": [
+  50.4755514,
+  3.6504455
+ ],
+ "rue grande 139, bernissart|bernissart": [
+  50.4740913,
+  3.6506386
+ ],
+ "none|binche": [
+  50.4103004,
+  4.165163
+ ],
+ "brasserie la binchoise|binche": [
+  50.4263301,
+  4.1262942
+ ],
+ "théâtre communal de binche|binche": [
+  50.4107854,
+  4.1658203
+ ],
+ "none|boussu": [
+  50.4331253,
+  3.7960902
+ ],
+ "place de boussu|boussu": [
+  50.4411199,
+  3.8318287
+ ],
+ "boribar, rue françois dorzée 99|boussu": [
+  50.4326086,
+  3.8014968
+ ],
+ "b-bar, rue de valenciennes 487|boussu": [
+  50.4323458,
+  3.8048034
+ ],
+ "centre culturel de boussu|boussu": [
+  50.431286,
+  3.8277825
+ ],
+ "bibliothèque de boussu|boussu": [
+  50.4329546,
+  3.7941342
+ ],
+ "none|braine-le-comte": [
+  50.6107057,
+  4.1360702
+ ],
+ "école notre-dame, rue de l'église 33|braine-le-comte": [
+  50.6107057,
+  4.1360702
+ ],
+ "salle communale baudouin iv|braine-le-comte": [
+  50.6107057,
+  4.1360702
+ ],
+ "none|brunehaut": [
+  50.5175505,
+  3.3873003
+ ],
+ "la pescherie, brunehaut|brunehaut": [
+  50.5175505,
+  3.3873003
+ ],
+ "none|celles": [
+  50.7125435,
+  3.4571664
+ ],
+ "bibliothèque communale de celles|celles": [
+  50.7125435,
+  3.4571664
+ ],
+ "club house du hall sportif, rue parfait 14, 7760 celles|celles": [
+  50.7125435,
+  3.4571664
+ ],
+ "rue parfait 3, 7760 celles|celles": [
+  50.710337,
+  3.4595676
+ ],
+ "le saulchoir, rue de becquereau 6, 7760 celles|celles": [
+  50.7125435,
+  3.4571664
+ ],
+ "none|chapelle-lez-herlaimont": [
+  50.4713117,
+  4.280504
+ ],
+ "centre culturel d'herlaimont|chapelle-lez-herlaimont": [
+  50.4716137,
+  4.2800105
+ ],
+ "chapelle-lez-herlaimont|chapelle-lez-herlaimont": [
+  50.4713928,
+  4.2829556
+ ],
+ "arcades restaurant, rue de gouy 49|chapelle-lez-herlaimont": [
+  50.4713117,
+  4.280504
+ ],
+ "quai10|charleroi": [
+  50.4116233,
+  4.444528
+ ],
+ "arboréo, avenue des muguets 16, marcinelle|charleroi": [
+  50.3733008,
+  4.4578992
+ ],
+ "poche théâtre|charleroi": [
+  50.4171772,
+  4.4434705
+ ],
+ "campus ucharleroi, boulevard solvay 31|charleroi": [
+  50.4116233,
+  4.444528
+ ],
+ "charleroi|charleroi": [
+  50.4116233,
+  4.444528
+ ],
+ "la ruche théâtre royal|charleroi": [
+  50.4116233,
+  4.444528
+ ],
+ "none|chimay": [
+  50.0356458,
+  4.3212573
+ ],
+ "circuit de chimay|chimay": [
+  50.0554489,
+  4.3037202
+ ],
+ "collégiale des saints-pierre-et-paul, chimay|chimay": [
+  50.0356458,
+  4.3212573
+ ],
+ "rue de virelles 75, 6460 chimay|chimay": [
+  50.0513115,
+  4.323786
+ ],
+ "centre culturel, rue des battis 34, 6464 baileux|chimay": [
+  50.0307411,
+  4.3714748
+ ],
+ "bâtiment henquin, grand'place 10, 6460 chimay|chimay": [
+  50.0356458,
+  4.3212573
+ ],
+ "none|chièvres": [
+  50.5699999,
+  3.7793462
+ ],
+ "rue de saint-ghislain 16, 7950 chièvres|chièvres": [
+  50.5841683,
+  3.8066797
+ ],
+ "chièvres|chièvres": [
+  50.587265,
+  3.8088401
+ ],
+ "none|châtelet": [
+  50.4046075,
+  4.5243511
+ ],
+ "châtelet|châtelet": [
+  50.4046075,
+  4.5243511
+ ],
+ "none|colfontaine": [
+  50.4056635,
+  3.8513958
+ ],
+ "avenue docteur schweitzer|colfontaine": [
+  50.4275612,
+  3.8458982
+ ],
+ "colfontaine|colfontaine": [
+  50.3913401,
+  3.8446369
+ ],
+ "none|comines-warneton": [
+  50.7687443,
+  2.9997568
+ ],
+ "jardin public|comines-warneton": [
+  50.7687443,
+  2.9997568
+ ],
+ "lys arena|comines-warneton": [
+  50.7687443,
+  2.9997568
+ ],
+ "école fondamentale saint-henri|comines-warneton": [
+  50.7054178,
+  2.8890599
+ ],
+ "none|courcelles": [
+  50.4574699,
+  4.376008
+ ],
+ "salle de miaucourt|courcelles": [
+  50.4574699,
+  4.376008
+ ],
+ "rue du général de gaulle 72|courcelles": [
+  50.4583374,
+  4.3799883
+ ],
+ "rue du cimetière|courcelles": [
+  50.4600883,
+  4.3576696
+ ],
+ "none|dour": [
+  50.3963781,
+  3.7786762
+ ],
+ "dour|dour": [
+  50.3906673,
+  3.803932
+ ],
+ "plaine de la machine à feu|dour": [
+  50.3963781,
+  3.7786762
+ ],
+ "centre athéna|dour": [
+  50.3963781,
+  3.7786762
+ ],
+ "école communale de moranfayt|dour": [
+  50.3963781,
+  3.7786762
+ ],
+ "none|ellezelles": [
+  50.7287148,
+  3.6942082
+ ],
+ "place 1, 7890 ellezelles|ellezelles": [
+  50.7337955,
+  3.6808863
+ ],
+ "none|enghien": [
+  50.6957066,
+  4.0411928
+ ],
+ "enghien|enghien": [
+  50.6928205,
+  4.038373
+ ],
+ "petit-enghien|enghien": [
+  50.6899321,
+  4.0845939
+ ],
+ "écuries du parc d'enghien|enghien": [
+  50.6957066,
+  4.0411928
+ ],
+ "rue du patronage 27|enghien": [
+  50.6966368,
+  4.042796
+ ],
+ "none|erquelinnes": [
+  50.303062,
+  4.1584553
+ ],
+ "rue notre-dame 51, erquelinnes|erquelinnes": [
+  50.3104614,
+  4.126184
+ ],
+ "none|estaimpuis": [
+  50.7059794,
+  3.2640184
+ ],
+ "rue de menin 6, 7730 estaimpuis|estaimpuis": [
+  50.710966,
+  3.2485418
+ ],
+ "bibliothèque d'estaimpuis|estaimpuis": [
+  50.7137158,
+  3.2896702
+ ],
+ "kojump, rue jules vantieghem 15, 7730 estaimpuis|estaimpuis": [
+  50.7059794,
+  3.2640184
+ ],
+ "ceme estaimpuis|estaimpuis": [
+  50.7059794,
+  3.2640184
+ ],
+ "rue de menin 4, 7730 estaimpuis|estaimpuis": [
+  50.71077,
+  3.2495624
+ ],
+ "none|estinnes": [
+  50.3801733,
+  4.1150986
+ ],
+ "kiosque de peissant|estinnes": [
+  50.3801733,
+  4.1150986
+ ],
+ "salon communal d'estinnes-au-mont|estinnes": [
+  50.3801733,
+  4.1150986
+ ],
+ "maison villageoise, rue oscar marcq 1, 7120 vellereille-les-brayeux|estinnes": [
+  50.3801733,
+  4.1150986
+ ],
+ "none|farciennes": [
+  50.4321021,
+  4.5467095
+ ],
+ "patro farciennes|farciennes": [
+  50.4321021,
+  4.5467095
+ ],
+ "none|fleurus": [
+  50.482944,
+  4.549699
+ ],
+ "ruelle de l'abbaye 251|fleurus": [
+  50.4385552,
+  4.5034801
+ ],
+ "place albert 1er|fleurus": [
+  50.4827818,
+  4.5507832
+ ],
+ "place de wagnelée|fleurus": [
+  50.5228075,
+  4.5332605
+ ],
+ "rue fleurjoux 50|fleurus": [
+  50.4783521,
+  4.5536632
+ ],
+ "taverne le coq d'or|fleurus": [
+  50.482944,
+  4.549699
+ ],
+ "bibliothèque, place albert 1er 15|fleurus": [
+  50.482944,
+  4.549699
+ ],
+ "none|fontaine-l'évêque": [
+  50.4107021,
+  4.3247583
+ ],
+ "fontaine-l'évêque|fontaine-l'évêque": [
+  50.411274,
+  4.3241471
+ ],
+ "rue chaussée 194|fontaine-l'évêque": [
+  50.4386367,
+  4.3368464
+ ],
+ "rue cressonnière 98|fontaine-l'évêque": [
+  50.4112825,
+  4.3123504
+ ],
+ "none|frameries": [
+  50.4096511,
+  3.8933015
+ ],
+ "sparkoh!, rue de mons 3|frameries": [
+  50.4186333,
+  3.9013139
+ ],
+ "frameries|frameries": [
+  50.4057561,
+  3.9064436
+ ],
+ "place de frameries|frameries": [
+  50.4096686,
+  3.8935891
+ ],
+ "none|frasnes-lez-anvaing": [
+  50.680252,
+  3.6229618
+ ],
+ "anvaing|frasnes-lez-anvaing": [
+  50.6817661,
+  3.5617225
+ ],
+ "place de buissenal, 7911 frasnes-lez-anvaing|frasnes-lez-anvaing": [
+  50.6634126,
+  3.6495136
+ ],
+ "athénée royal l. tellier, anvaing|frasnes-lez-anvaing": [
+  50.680252,
+  3.6229618
+ ],
+ "place de saint-sauveur, 7912 frasnes-lez-anvaing|frasnes-lez-anvaing": [
+  50.7063459,
+  3.5984037
+ ],
+ "rue de la fauvette 6, 7911 frasnes-lez-buissenal|frasnes-lez-anvaing": [
+  50.6674347,
+  3.6180043
+ ],
+ "bassins de décantation de frasnes|frasnes-lez-anvaing": [
+  50.680252,
+  3.6229618
+ ],
+ "none|gerpinnes": [
+  50.3470877,
+  4.5276252
+ ],
+ "maison de village de fromiée|gerpinnes": [
+  50.3315129,
+  4.5774934
+ ],
+ "none|ham-sur-heure-nalinnes": [
+  50.3257445,
+  4.4143998
+ ],
+ "bar le kiosque, place du centre 16|ham-sur-heure-nalinnes": [
+  50.3257445,
+  4.4143998
+ ],
+ "sod games, rue d'acoz 5h, 6120 nalinnes|ham-sur-heure-nalinnes": [
+  50.3257445,
+  4.4143998
+ ],
+ "beignée|ham-sur-heure-nalinnes": [
+  50.3334037,
+  4.4065703
+ ],
+ "chemin d'oultre-heure 20, 6120 nalinnes|ham-sur-heure-nalinnes": [
+  50.3215964,
+  4.3923226
+ ],
+ "none|hensies": [
+  50.4325979,
+  3.6847564
+ ],
+ "rue ferrer, 7350 hensies|hensies": [
+  50.429128,
+  3.7389499
+ ],
+ "rue de l'église 30, 7350 hensies|hensies": [
+  50.4352743,
+  3.6796642
+ ],
+ "none|jurbise": [
+  50.5219843,
+  3.9080503
+ ],
+ "le centre de l'hêtre, jurbise|jurbise": [
+  50.5219843,
+  3.9080503
+ ],
+ "la cabane des lutins, jurbise|jurbise": [
+  50.5219843,
+  3.9080503
+ ],
+ "none|la louvière": [
+  50.4793576,
+  4.18563
+ ],
+ "théâtre de la louvière|la louvière": [
+  50.4107854,
+  4.1658203
+ ],
+ "louvexpo, rue arthur delaby 7|la louvière": [
+  50.4832112,
+  4.1825584
+ ],
+ "la louvière|la louvière": [
+  50.4793576,
+  4.18563
+ ],
+ "rue augustin mathy 16|la louvière": [
+  50.4790173,
+  4.212188
+ ],
+ "elysée|la louvière": [
+  50.4854921,
+  4.1602689
+ ],
+ "none|le rœulx": [
+  50.5047946,
+  4.0914883
+ ],
+ "centre culturel du rœulx, rue d'houdeng 27c, 7070 le rœulx|le rœulx": [
+  50.5047946,
+  4.0914883
+ ],
+ "grand'place 1, 7070 le rœulx|le rœulx": [
+  50.5012699,
+  4.109309
+ ],
+ "none|les bons villers": [
+  50.5204241,
+  4.4631101
+ ],
+ "agricoeur, rue de sart-dames-avelines 8a, 6210 frasnes-lez-gosselies|les bons villers": [
+  50.5204241,
+  4.4631101
+ ],
+ "complexe sportif de frasnes-lez-gosselies|les bons villers": [
+  50.5308955,
+  4.4522465
+ ],
+ "maison communale de frasnes-lez-gosselies|les bons villers": [
+  50.5204241,
+  4.4631101
+ ],
+ "site agricoeur, rue de sart-dames-avelines 8a, 6210 frasnes-lez-gosselies|les bons villers": [
+  50.5204241,
+  4.4631101
+ ],
+ "none|lessines": [
+  50.7123036,
+  3.8301131
+ ],
+ "rue de la déportation 37|lessines": [
+  50.7090556,
+  3.8360023
+ ],
+ "centre culturel rené magritte|lessines": [
+  50.7131189,
+  3.8327409
+ ],
+ "théâtre jean-claude drouot|lessines": [
+  50.7123036,
+  3.8301131
+ ],
+ "bois-de-lessines|lessines": [
+  50.6974669,
+  3.8894562
+ ],
+ "none|leuze-en-hainaut": [
+  50.5968464,
+  3.62773
+ ],
+ "l'oasis|leuze-en-hainaut": [
+  50.5968464,
+  3.62773
+ ],
+ "none|lobbes": [
+  50.3539308,
+  4.2386582
+ ],
+ "salon communal de lobbes|lobbes": [
+  50.3539308,
+  4.2386582
+ ],
+ "l'emporium, rue de l'entreville 11a, 6540 lobbes|lobbes": [
+  50.3539308,
+  4.2386582
+ ],
+ "none|manage": [
+  50.5040159,
+  4.2355599
+ ],
+ "les jardins de scailmont, fayt-lez-manage|manage": [
+  50.5040159,
+  4.2355599
+ ],
+ "manage|manage": [
+  50.5061936,
+  4.2347126
+ ],
+ "db club, chaussée de nivelles 44d|manage": [
+  50.5040159,
+  4.2355599
+ ],
+ "none|momignies": [
+  50.0088658,
+  4.2140423
+ ],
+ "zone industrielle plantis des aisements, 6590 momignies|momignies": [
+  50.0256901,
+  4.1460495
+ ],
+ "rue de beauwelz 39a, 6590 momignies|momignies": [
+  50.0216642,
+  4.1570186
+ ],
+ "rue des quewettes 3, 6596 momignies|momignies": [
+  50.0088658,
+  4.2140423
+ ],
+ "grand-place 1, 6590 momignies|momignies": [
+  50.0299964,
+  4.1661021
+ ],
+ "place 2, 6596 momignies|momignies": [
+  50.0160399,
+  4.2547423
+ ],
+ "théâtre royal de mons|mons": [
+  50.4553157,
+  3.9523597
+ ],
+ "none|montigny-le-tilleul": [
+  50.3788966,
+  4.3793383
+ ],
+ "as montigny, rue bois frion 109, 6110 montigny-le-tilleul|montigny-le-tilleul": [
+  50.3788966,
+  4.3793383
+ ],
+ "avenue des pommiers 36, 6110 montigny-le-tilleul|montigny-le-tilleul": [
+  50.3726844,
+  4.3727423
+ ],
+ "auditoire de coomand, rue de gozée 706, 6110 montigny-le-tilleul|montigny-le-tilleul": [
+  50.3788966,
+  4.3793383
+ ],
+ "mobil g'art age, rue de gozée 537, montigny-le-tilleul|montigny-le-tilleul": [
+  50.3788966,
+  4.3793383
+ ],
+ "none|morlanwelz": [
+  50.4550743,
+  4.2425425
+ ],
+ "morlanwelz|morlanwelz": [
+  50.4585233,
+  4.2470547
+ ],
+ "musée royal de mariemont|morlanwelz": [
+  50.4677677,
+  4.2326838
+ ],
+ "place de carnières|morlanwelz": [
+  50.4422143,
+  4.2537911
+ ],
+ "rue des écoles 32, carnières|morlanwelz": [
+  50.4505088,
+  4.261846
+ ],
+ "none|mouscron": [
+  50.7436672,
+  3.2142729
+ ],
+ "hurlu comedy club|mouscron": [
+  50.7427935,
+  3.2232699
+ ],
+ "rue roger salengro|mouscron": [
+  50.746231,
+  3.2089834
+ ],
+ "la grange mouscron|mouscron": [
+  50.6099184,
+  3.392586
+ ],
+ "la bohème bar & jardin|mouscron": [
+  50.7436672,
+  3.2142729
+ ],
+ "église du nouveau-monde|mouscron": [
+  50.7490905,
+  3.2016921
+ ],
+ "bibliothèque publique, rue du beau chêne 20|mouscron": [
+  50.7436672,
+  3.2142729
+ ],
+ "none|pecq": [
+  50.685616,
+  3.3407492
+ ],
+ "pecq|pecq": [
+  50.6877424,
+  3.3273681
+ ],
+ "none|pont-à-celles": [
+  50.515524,
+  4.3827159
+ ],
+ "pont-à-celles|pont-à-celles": [
+  50.5129074,
+  4.361918
+ ],
+ "place des résistants, viesville|pont-à-celles": [
+  50.4869584,
+  4.4065668
+ ],
+ "none|péruwelz": [
+  50.5333211,
+  3.5636807
+ ],
+ "sellerie de péruwelz, rue albert 1er 45|péruwelz": [
+  50.5333211,
+  3.5636807
+ ],
+ "none|quaregnon": [
+  50.4354162,
+  3.8646286
+ ],
+ "chemin du bon dieu 148|quaregnon": [
+  50.4378785,
+  3.8703948
+ ],
+ "maison culturelle de quaregnon|quaregnon": [
+  50.4435617,
+  3.8590761
+ ],
+ "none|quiévrain": [
+  50.4058844,
+  3.6823764
+ ],
+ "rue de l'abattoir 2, quiévrain|quiévrain": [
+  50.4080267,
+  3.6817007
+ ],
+ "none|quévy": [
+  50.3678607,
+  3.9669089
+ ],
+ "le kilo, quévy|quévy": [
+  50.3678607,
+  3.9669089
+ ],
+ "maison culturelle et citoyenne d'asquillies|quévy": [
+  50.3678607,
+  3.9669089
+ ],
+ "none|rumes": [
+  50.5424136,
+  3.3176083
+ ],
+ "centremergences, rue albert moulin, 7610 rumes|rumes": [
+  50.5424136,
+  3.3176083
+ ],
+ "place du docteur bocquet 9, rumes|rumes": [
+  50.5555843,
+  3.3039154
+ ],
+ "none|saint-ghislain": [
+  50.4477484,
+  3.8195241
+ ],
+ "rue de chièvres 17, tertre|saint-ghislain": [
+  50.4721873,
+  3.8156924
+ ],
+ "centre de saint-ghislain|saint-ghislain": [
+  50.452647,
+  3.7928566
+ ],
+ "sirault|saint-ghislain": [
+  50.5054072,
+  3.7882895
+ ],
+ "école jean rolland|saint-ghislain": [
+  50.4456621,
+  3.8161094
+ ],
+ "none|seneffe": [
+  50.5292555,
+  4.2566988
+ ],
+ "la cantine de ad, rue rouge croix 6/9, 7180 seneffe|seneffe": [
+  50.5292555,
+  4.2566988
+ ],
+ "espace culturel de la samme|seneffe": [
+  50.5304612,
+  4.2592147
+ ],
+ "seneffe|seneffe": [
+  50.5251822,
+  4.266841
+ ],
+ "rue ferrer 2, 7181 seneffe|seneffe": [
+  50.5200579,
+  4.2036079
+ ],
+ "rue de la rouge croix 1, 7180 seneffe|seneffe": [
+  50.5308969,
+  4.2590041
+ ],
+ "none|silly": [
+  50.6428391,
+  3.9423486
+ ],
+ "le salon - silly concerts|silly": [
+  50.6428391,
+  3.9423486
+ ],
+ "place communale 18, 7830 silly|silly": [
+  50.6482501,
+  3.9235495
+ ],
+ "place communale, 7830 silly|silly": [
+  50.6486943,
+  3.9233537
+ ],
+ "none|soignies": [
+  50.579203,
+  4.0685604
+ ],
+ "chaussée du roeulx|soignies": [
+  50.5602213,
+  4.0781281
+ ],
+ "rue du lombard 2|soignies": [
+  50.5794435,
+  4.0693271
+ ],
+ "mj soignies, parc pater|soignies": [
+  50.579203,
+  4.0685604
+ ],
+ "rue henri leroy|soignies": [
+  50.579203,
+  4.0685604
+ ],
+ "chemin de la longue borne 7|soignies": [
+  50.5880158,
+  4.087959
+ ],
+ "collégiale saint-vincent|soignies": [
+  50.579324,
+  4.0705789
+ ],
+ "none|thuin": [
+  50.3397445,
+  4.2870475
+ ],
+ "centre culturel haute sambre, rue des nobles 32|thuin": [
+  50.3392224,
+  4.2856081
+ ],
+ "hall polyvalent|thuin": [
+  50.3390973,
+  4.3262077
+ ],
+ "chant des oiseaux|thuin": [
+  50.3361635,
+  4.2939259
+ ],
+ "none|tournai": [
+  50.6056458,
+  3.3878179
+ ],
+ "quai des bananes, chaussée de bruxelles 112|tournai": [
+  50.6056458,
+  3.3878179
+ ],
+ "skill volley club tournai|tournai": [
+  50.6078276,
+  3.3678321
+ ],
+ "the warlord tavern|tournai": [
+  50.6061279,
+  3.3919027
+ ],
+ "stories|tournai": [
+  50.6090143,
+  3.3869495
+ ],
+ "rue as pois 7|tournai": [
+  50.6061412,
+  3.3811249
+ ],
+ "halle aux draps|tournai": [
+  50.605824,
+  3.3860818
+ ],
+ "église saint-jacques|tournai": [
+  50.608851,
+  3.3846816
+ ],
+ "palette saint-piat|tournai": [
+  50.6028623,
+  3.3942548
+ ],
+ "none|écaussinnes": [
+  50.5608449,
+  4.1704846
+ ],
+ "maison des solidarités, rue de la marlière 43, 7190 écaussinnes|écaussinnes": [
+  50.5608449,
+  4.1704846
+ ],
+ "clos des jonquilles, écaussinnes|écaussinnes": [
+  50.566057,
+  4.161883
+ ],
+ "le castel & co, écaussinnes|écaussinnes": [
+  50.5608449,
+  4.1704846
+ ],
+ "hall polyvalent, rue de sacueni 1, 7190 écaussinnes|écaussinnes": [
+  50.5608449,
+  4.1704846
+ ],
+ "none|andenne": [
+  50.4893981,
+  5.0965468
+ ],
+ "sclaigneaux, andenne|andenne": [
+  50.4922014,
+  5.0265885
+ ],
+ "le bon plan, promenade des ours 30-32, 5300 andenne|andenne": [
+  50.4893981,
+  5.0965468
+ ],
+ "place wauters, seilles, 5300 andenne|andenne": [
+  50.4994893,
+  5.0812226
+ ],
+ "namêche, andenne|andenne": [
+  50.4712487,
+  4.9947316
+ ],
+ "rue docteur melin 14, 5300 andenne|andenne": [
+  50.4884764,
+  5.0914026
+ ],
+ "none|anhée": [
+  50.3101511,
+  4.8776042
+ ],
+ "rue de foy 8, salet, 5537 anhée|anhée": [
+  50.3088542,
+  4.8184169
+ ],
+ "rue du chérimont 2, 5537 anhée|anhée": [
+  50.3301878,
+  4.7919995
+ ],
+ "chemin saint-stamp 1, anhée|anhée": [
+  50.2936229,
+  4.8432264
+ ],
+ "salle la roynette, rue de l'église 3, 5537 annevoie|anhée": [
+  50.3101511,
+  4.8776042
+ ],
+ "maison de la ruralité, place vaxelaire 20, 5537 bioul|anhée": [
+  50.3101511,
+  4.8776042
+ ],
+ "maredsous, 5537 anhée|anhée": [
+  50.304636,
+  4.769483
+ ],
+ "none|assesse": [
+  50.3718261,
+  5.0217639
+ ],
+ "rue haute 7, 5332 crupet|assesse": [
+  50.3482818,
+  4.96101
+ ],
+ "rue jaumain 15, 5330 assesse|assesse": [
+  50.3702204,
+  5.029212
+ ],
+ "rus assesse - école des jeunes|assesse": [
+  50.3718261,
+  5.0217639
+ ],
+ "none|beauraing": [
+  50.1102739,
+  4.9549279
+ ],
+ "sanctuaire de beauraing|beauraing": [
+  50.1085281,
+  4.9609535
+ ],
+ "placette rue de bouillon, 5570 beauraing|beauraing": [
+  50.1102739,
+  4.9549279
+ ],
+ "centre culturel de beauraing, rue de rochefort 42|beauraing": [
+  50.1102739,
+  4.9549279
+ ],
+ "indbg école des frères, beauraing|beauraing": [
+  50.110456,
+  4.9532492
+ ],
+ "brasserie le pèlerin, beauraing|beauraing": [
+  50.1102739,
+  4.9549279
+ ],
+ "beauraing|beauraing": [
+  50.1148164,
+  4.9567776
+ ],
+ "none|bièvre": [
+  49.9411216,
+  5.0168496
+ ],
+ "bièvre|bièvre": [
+  49.9688546,
+  5.0131377
+ ],
+ "église de bièvre, rue de bouillon 39a, 5555 bièvre|bièvre": [
+  49.9411216,
+  5.0168496
+ ],
+ "none|cerfontaine": [
+  50.1689705,
+  4.4125744
+ ],
+ "office du tourisme, place de l'église 9, 5630 cerfontaine|cerfontaine": [
+  50.1704555,
+  4.4126563
+ ],
+ "rue de daussois, soumoy, 5630 cerfontaine|cerfontaine": [
+  50.1980742,
+  4.4414898
+ ],
+ "cerfontaine|cerfontaine": [
+  50.1586265,
+  4.3998997
+ ],
+ "église de cerfontaine|cerfontaine": [
+  50.1765018,
+  4.4675181
+ ],
+ "none|ciney": [
+  50.2964911,
+  5.1008664
+ ],
+ "place du roi baudouin, 5590 ciney|ciney": [
+  50.2841225,
+  5.0943307
+ ],
+ "ciney expo|ciney": [
+  50.3103504,
+  5.1163012
+ ],
+ "le domaine d'achêne, ciney|ciney": [
+  50.2964911,
+  5.1008664
+ ],
+ "none|couvin": [
+  50.0524258,
+  4.4968742
+ ],
+ "école communale de pesche, rue roger-lambert 2, 5660 couvin|couvin": [
+  50.0524258,
+  4.4968742
+ ],
+ "none|dinant": [
+  50.2591813,
+  4.9130588
+ ],
+ "plateau de la citadelle, dinant|dinant": [
+  50.2618442,
+  4.915498
+ ],
+ "none|doische": [
+  50.1357152,
+  4.7458219
+ ],
+ "doische|doische": [
+  50.1416819,
+  4.7576654
+ ],
+ "rue d'aremberg 11, gimnée, 5680 doische|doische": [
+  50.1346769,
+  4.7280475
+ ],
+ "none|fernelmont": [
+  50.5488676,
+  4.991229
+ ],
+ "rue saint-martin 24, 5380 fernelmont|fernelmont": [
+  50.5657169,
+  4.9552237
+ ],
+ "efcf, noville-les-bois|fernelmont": [
+  50.5528219,
+  4.9769207
+ ],
+ "none|floreffe": [
+  50.4366874,
+  4.7600394
+ ],
+ "floreffe|floreffe": [
+  50.4431734,
+  4.7622321
+ ],
+ "none|florennes": [
+  50.2514227,
+  4.6030187
+ ],
+ "salle saint-pierre, place de la chapelle 1, 5620 florennes|florennes": [
+  50.2514227,
+  4.6030187
+ ],
+ "foyer culturel de florennes|florennes": [
+  50.2487321,
+  4.606801
+ ],
+ "le passage oublié, florennes|florennes": [
+  50.2514227,
+  4.6030187
+ ],
+ "none|fosses-la-ville": [
+  50.3959512,
+  4.6978935
+ ],
+ "parc de fosses-la-ville|fosses-la-ville": [
+  50.3949305,
+  4.7008026
+ ],
+ "none|gedinne": [
+  49.9792667,
+  4.9388966
+ ],
+ "place languillier, gedinne|gedinne": [
+  49.9806298,
+  4.9358018
+ ],
+ "rue de robio 11, 5575 gedinne|gedinne": [
+  49.9822518,
+  4.9374188
+ ],
+ "hôtel de la poste, rue de charleville 15, 5575 gedinne|gedinne": [
+  49.9792667,
+  4.9388966
+ ],
+ "rue du centre 6, louette-saint-pierre, 5575 gedinne|gedinne": [
+  49.9602254,
+  4.9266654
+ ],
+ "none|gembloux": [
+  50.5597273,
+  4.6943126
+ ],
+ "le rétro, rue phocas lejeune 27, 5032 isnes|gembloux": [
+  50.501746,
+  4.7122835
+ ],
+ "agricotiers, gembloux|gembloux": [
+  50.5597273,
+  4.6943126
+ ],
+ "e-paddock, rue théo toussaint 2, 5030 gembloux|gembloux": [
+  50.5597273,
+  4.6943126
+ ],
+ "passage des déportés 2, 5030 gembloux|gembloux": [
+  50.5615931,
+  4.6962284
+ ],
+ "atrium 57, centre culturel de gembloux|gembloux": [
+  50.5597273,
+  4.6943126
+ ],
+ "none|gesves": [
+  50.4028535,
+  5.0776175
+ ],
+ "maison de la laïcité, chaussée de gramptinne 118, 5340 gesves|gesves": [
+  50.4028535,
+  5.0776175
+ ],
+ "centre de gesves|gesves": [
+  50.3991796,
+  5.1250968
+ ],
+ "none|hamois": [
+  50.3408694,
+  5.1594475
+ ],
+ "la ferme de la préale, rue de la préale 5, 5362 hamois|hamois": [
+  50.3408694,
+  5.1594475
+ ],
+ "salle de la fanfare, hamois|hamois": [
+  50.3408694,
+  5.1594475
+ ],
+ "rue de rempache, 5364 schaltin, hamois|hamois": [
+  50.3732498,
+  5.1370863
+ ],
+ "none|hastière": [
+  50.2157995,
+  4.8268247
+ ],
+ "les passagers de l'eau, rue de meuse 11, 5540 hastière|hastière": [
+  50.2157995,
+  4.8268247
+ ],
+ "église abbatiale saint-pierre, hastière-par-delà|hastière": [
+  50.2149806,
+  4.8270227
+ ],
+ "avenue guy stinglhamber 6, 5540 hastière|hastière": [
+  50.2128275,
+  4.8206937
+ ],
+ "none|havelange": [
+  50.3870946,
+  5.23958
+ ],
+ "naya fondation, montegnet 2e, 5370 havelange|havelange": [
+  50.3870946,
+  5.23958
+ ],
+ "cépages & terroirs, avenue de criel 26, 5370 havelange|havelange": [
+  50.3870946,
+  5.23958
+ ],
+ "centre culturel, rue d'ocolna, 5370 havelange|havelange": [
+  50.3870946,
+  5.23958
+ ],
+ "none|houyet": [
+  50.1868629,
+  5.0067044
+ ],
+ "école de houyet|houyet": [
+  50.2280787,
+  5.0089023
+ ],
+ "maupas, 5560 houyet|houyet": [
+  50.1912054,
+  5.0081199
+ ],
+ "rue saint-roch 15, 5560 houyet|houyet": [
+  50.1869184,
+  5.0069082
+ ],
+ "tiers-lieu la gare, rue de la station, 5560 houyet|houyet": [
+  50.1868629,
+  5.0067044
+ ],
+ "none|jemeppe-sur-sambre": [
+  50.4656388,
+  4.6686837
+ ],
+ "bibliothèque communale, rue de la poste 4, 5190 jemeppe-sur-sambre|jemeppe-sur-sambre": [
+  50.4656388,
+  4.6686837
+ ],
+ "irisez-vous, jemeppe-sur-sambre|jemeppe-sur-sambre": [
+  50.4656388,
+  4.6686837
+ ],
+ "none|la bruyère": [
+  50.5334801,
+  4.8097135
+ ],
+ "la bruyère|la bruyère": [
+  50.7619537,
+  4.7843076
+ ],
+ "place communale 6, 5080 rhisnes|la bruyère": [
+  50.5056741,
+  4.8040616
+ ],
+ "rhisnes, la bruyère|la bruyère": [
+  50.5056933,
+  4.8038939
+ ],
+ "none|mettet": [
+  50.3212094,
+  4.6584949
+ ],
+ "mettet xp, rue saint-donat 6, 5640 mettet|mettet": [
+  50.3212094,
+  4.6584949
+ ],
+ "mettet xp - circuit jules tacheny|mettet": [
+  50.3212094,
+  4.6584949
+ ],
+ "hall des sports de mettet|mettet": [
+  50.3212094,
+  4.6584949
+ ],
+ "place saint-martin, 5640 mettet|mettet": [
+  50.3339822,
+  4.608114
+ ],
+ "avenue de la citadelle, 5100 namur|namur": [
+  50.4531897,
+  4.8648061
+ ],
+ "rue de la gare de naninne 114, 5100 namur|namur": [
+  50.4191902,
+  4.9290673
+ ],
+ "arsenal de namur|namur": [
+  50.4642023,
+  4.8574135
+ ],
+ "prisme - théâtre de namur|namur": [
+  50.4665284,
+  4.8661892
+ ],
+ "le servais, place maurice servais, 5000 namur|namur": [
+  50.4665284,
+  4.8661892
+ ],
+ "le delta, namur|namur": [
+  50.462418,
+  4.8684828
+ ],
+ "la nef, rue saint-nicolas 2, 5000 namur|namur": [
+  50.4665284,
+  4.8661892
+ ],
+ "le chapitre, namur|namur": [
+  50.464383,
+  4.859436
+ ],
+ "hockey namur, montagne d'hastedon 49, 5002 saint-servais|namur": [
+  50.4665284,
+  4.8661892
+ ],
+ "none|ohey": [
+  50.4359066,
+  5.1238439
+ ],
+ "le rendez-vous du coing, ohey|ohey": [
+  50.4359066,
+  5.1238439
+ ],
+ "rue de goesnes, perwez, ohey|ohey": [
+  50.4615034,
+  5.1939564
+ ],
+ "tennis club grand ohey|ohey": [
+  50.4359066,
+  5.1238439
+ ],
+ "foyer rural, place roi baudouin 75, 5350 ohey|ohey": [
+  50.4359066,
+  5.1238439
+ ],
+ "none|onhaye": [
+  50.2435657,
+  4.840864
+ ],
+ "complexe sportif et associatif de miavoye, onhaye|onhaye": [
+  50.2302579,
+  4.780106
+ ],
+ "place henri collignon, 5520 onhaye|onhaye": [
+  50.242499,
+  4.8397548
+ ],
+ "rue de la spêche, sommière, 5523 onhaye|onhaye": [
+  50.2767438,
+  4.8405782
+ ],
+ "none|profondeville": [
+  50.3762043,
+  4.8675024
+ ],
+ "central bar, profondeville|profondeville": [
+  50.3775488,
+  4.8696596
+ ],
+ "avenue roquebrune cap martin, profondeville|profondeville": [
+  50.3842343,
+  4.8549578
+ ],
+ "rue du village 3, arbre, 5170 profondeville|profondeville": [
+  50.3664041,
+  4.820748
+ ],
+ "maison de la culture de profondeville|profondeville": [
+  50.3784903,
+  4.8702282
+ ],
+ "none|rochefort": [
+  50.15542,
+  5.1752822
+ ],
+ "place du thiers, rochefort|rochefort": [
+  50.15542,
+  5.1752822
+ ],
+ "rue louis banneux 8, 5580 rochefort|rochefort": [
+  50.1629315,
+  5.22328
+ ],
+ "la malle poste, rue de behogne 46, 5580 rochefort|rochefort": [
+  50.15542,
+  5.1752822
+ ],
+ "rue des sarrasins, han-sur-lesse, 5580 rochefort|rochefort": [
+  50.1251482,
+  5.1860631
+ ],
+ "rue saint-barthélemy 13, buissonville, 5580 rochefort|rochefort": [
+  50.15542,
+  5.1752822
+ ],
+ "rue de behogne 5, 5580 rochefort|rochefort": [
+  50.1600843,
+  5.2238843
+ ],
+ "tienne des solins 1, ave-et-auffe, rochefort|rochefort": [
+  50.1091671,
+  5.1452473
+ ],
+ "none|sambreville": [
+  50.4490552,
+  4.6108156
+ ],
+ "théâtre de sambreville|sambreville": [
+  50.4468692,
+  4.6369282
+ ],
+ "aroca, rue du presbytère 1a, 5060 tamines|sambreville": [
+  50.4490552,
+  4.6108156
+ ],
+ "place communale (église saint-victor), auvelais|sambreville": [
+  50.4490552,
+  4.6108156
+ ],
+ "place communale, auvelais|sambreville": [
+  50.4490552,
+  4.6108156
+ ],
+ "communauté éducative saint-jean-baptiste, tamines|sambreville": [
+  50.4490552,
+  4.6108156
+ ],
+ "collège saint-andré, auvelais|sambreville": [
+  50.4476775,
+  4.627772
+ ],
+ "sambreville|sambreville": [
+  50.4520541,
+  4.608163
+ ],
+ "avenue président roosevelt 113b, 5060 tamines|sambreville": [
+  50.4368799,
+  4.6078865
+ ],
+ "pavillon du parc, rue des auges 3, 5060 auvelais|sambreville": [
+  50.4490552,
+  4.6108156
+ ],
+ "none|sombreffe": [
+  50.5225432,
+  4.5991932
+ ],
+ "chaussée de chastre 147, 5140 sombreffe|sombreffe": [
+  50.5392188,
+  4.5962679
+ ],
+ "école des deux châtaigniers, chaussée de nivelles 79-81, 5140 sombreffe|sombreffe": [
+  50.5225432,
+  4.5991932
+ ],
+ "chaussée de chastre 60, sombreffe|sombreffe": [
+  50.5344178,
+  4.5984687
+ ],
+ "none|somme-leuze": [
+  50.3137229,
+  5.3212257
+ ],
+ "rue saint-donat, nettinne, 5377 somme-leuze|somme-leuze": [
+  50.2882482,
+  5.2647344
+ ],
+ "somme-leuze|somme-leuze": [
+  50.3367812,
+  5.3673915
+ ],
+ "rue du pays du roi 27a, 5377 somme-leuze|somme-leuze": [
+  50.3331196,
+  5.3838139
+ ],
+ "none|viroinval": [
+  50.0516361,
+  4.6270287
+ ],
+ "rue vieille église 10, 5670 nismes|viroinval": [
+  50.0744461,
+  4.5474393
+ ],
+ "centre culturel action-sud, viroinval|viroinval": [
+  50.0516361,
+  4.6270287
+ ],
+ "le nuton pub, vierves-sur-viroin|viroinval": [
+  50.0801889,
+  4.6340824
+ ],
+ "none|vresse-sur-semois": [
+  49.8729769,
+  4.9340633
+ ],
+ "rue albert raty 83, 5550 vresse-sur-semois|vresse-sur-semois": [
+  49.873185,
+  4.9338745
+ ],
+ "none|walcourt": [
+  50.2513997,
+  4.4314089
+ ],
+ "brasserie de l'aigle, place de l'hôtel de ville 9, walcourt|walcourt": [
+  50.2514772,
+  4.4309587
+ ],
+ "place saint-laurent, 5650 yves-gomezée|walcourt": [
+  50.2409345,
+  4.4937788
+ ],
+ "le grain égaré, rue py des tiennes, 5651 walcourt|walcourt": [
+  50.2513997,
+  4.4314089
+ ],
+ "allée du 125e régiment d'infanterie, 5650 walcourt|walcourt": [
+  50.2545085,
+  4.4298539
+ ],
+ "basilique saint-materne de walcourt|walcourt": [
+  50.2515118,
+  4.432064
+ ],
+ "centre de walcourt|walcourt": [
+  50.3105534,
+  4.4959875
+ ],
+ "none|yvoir": [
+  50.3260425,
+  4.877815
+ ],
+ "mont, yvoir|yvoir": [
+  50.3536243,
+  4.9015087
+ ],
+ "rochers du paradou, yvoir|yvoir": [
+  50.3374538,
+  4.8739419
+ ],
+ "chaussée de dinant, spontin, 5530 yvoir|yvoir": [
+  50.3336313,
+  5.0206804
+ ],
+ "les 4 sources, fond d'ahinvaux 1, 5530 yvoir|yvoir": [
+  50.3422937,
+  4.9071797
+ ],
+ "warnant, yvoir|yvoir": [
+  50.3260425,
+  4.877815
+ ],
+ "église saint-éloi, yvoir|yvoir": [
+  50.3264616,
+  4.8781971
+ ],
+ "none|éghezée": [
+  50.591679,
+  4.9065999
+ ],
+ "rue du presbytère 22, 5310 bonneffe|éghezée": [
+  50.591679,
+  4.9065999
+ ],
+ "poste de secours, chaussée de namur 28, éghezée|éghezée": [
+  50.5898403,
+  4.9118217
+ ],
+ "rue de winée 15, 5310 éghezée|éghezée": [
+  50.562847,
+  4.9221593
  ]
 }
