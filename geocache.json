@@ -5566,5 +5566,341 @@
  "rue de l'étang 3|incourt": [
   50.6820114,
   4.7609974
+ ],
+ "none|leuven": [
+  50.879202,
+  4.7011675
+ ],
+ "martelarenplein 13|leuven": [
+  50.8816371,
+  4.7139087
+ ],
+ "30cc|leuven": [
+  50.8789233,
+  4.6960933
+ ],
+ "brabanthal|leuven": [
+  50.8553565,
+  4.728548
+ ],
+ "rumba events|leuven": [
+  50.879202,
+  4.7011675
+ ],
+ "herbert hooverplein 26|leuven": [
+  50.8767811,
+  4.7062027
+ ],
+ "café apero|leuven": [
+  50.8787181,
+  4.6996921
+ ],
+ "van hovestadion|leuven": [
+  50.879202,
+  4.7011675
+ ],
+ "bierbeekstraat 97|leuven": [
+  50.8714544,
+  4.7176492
+ ],
+ "muntstraat 28-30|leuven": [
+  50.8780654,
+  4.7025915
+ ],
+ "none|dilbeek": [
+  50.8480711,
+  4.2662591
+ ],
+ "westrand, kamerijklaan 46|dilbeek": [
+  50.849993,
+  4.2608262
+ ],
+ "westrand – cultuurcentrum|dilbeek": [
+  50.8480711,
+  4.2662591
+ ],
+ "gemeenschapslokalen|dilbeek": [
+  50.8480711,
+  4.2662591
+ ],
+ "piscine de dilbeek|dilbeek": [
+  50.8480711,
+  4.2662591
+ ],
+ "solleveld|dilbeek": [
+  50.8644195,
+  4.2171139
+ ],
+ "zaal scherpenstein|dilbeek": [
+  50.8480711,
+  4.2662591
+ ],
+ "neerhofstraat 2|dilbeek": [
+  50.839046,
+  4.259139
+ ],
+ "none|vilvoorde": [
+  50.928711,
+  4.423126
+ ],
+ "cc het bolwerk, bolwerkstraat 17|vilvoorde": [
+  50.928711,
+  4.423126
+ ],
+ "cc het bolwerk|vilvoorde": [
+  50.9294546,
+  4.4326736
+ ],
+ "mechelsesteenweg 586a|vilvoorde": [
+  50.9450691,
+  4.4437549
+ ],
+ "thaelstraat|vilvoorde": [
+  50.9242871,
+  4.4127205
+ ],
+ "brusselsesteenweg 73|vilvoorde": [
+  50.9816414,
+  4.4614396
+ ],
+ "hall9 bouldering|vilvoorde": [
+  50.928711,
+  4.423126
+ ],
+ "église onze-lieve-vrouw van goede hoop|vilvoorde": [
+  50.928711,
+  4.423126
+ ],
+ "asiat park|vilvoorde": [
+  50.9406261,
+  4.4307282
+ ],
+ "mechelsesteenweg 588d|vilvoorde": [
+  50.9465755,
+  4.4463968
+ ],
+ "none|halle": [
+  50.7360524,
+  4.2374349
+ ],
+ "leide 3|halle": [
+  50.7361971,
+  4.2400922
+ ],
+ "den ast|halle": [
+  50.7383107,
+  4.2364673
+ ],
+ "sint-jozefzaal|halle": [
+  50.7360524,
+  4.2374349
+ ],
+ "molenborre 18a|halle": [
+  50.7337409,
+  4.2351742
+ ],
+ "kasteelstraat 77a|halle": [
+  50.7194953,
+  4.2589011
+ ],
+ "centre de halle|halle": [
+  50.7497534,
+  4.2541115
+ ],
+ "auguste demaeghtlaan 40|halle": [
+  50.739189,
+  4.2353462
+ ],
+ "bergensesteenweg 65|halle": [
+  50.7330266,
+  4.2326805
+ ],
+ "molenborre 18|halle": [
+  50.7337409,
+  4.2351742
+ ],
+ "lenniksesteenweg 2|halle": [
+  50.7439603,
+  4.2264334
+ ],
+ "cc 't vondel|halle": [
+  50.7362147,
+  4.2390837
+ ],
+ "none|grimbergen": [
+  50.9457843,
+  4.3890967
+ ],
+ "jozef van den berghestraat|grimbergen": [
+  50.9275307,
+  4.4105722
+ ],
+ "bibliothèque, gemeenteplein 1b|grimbergen": [
+  50.9457843,
+  4.3890967
+ ],
+ "basilique de grimbergen|grimbergen": [
+  50.9457843,
+  4.3890967
+ ],
+ "feestzaal cornelius|grimbergen": [
+  50.9457843,
+  4.3890967
+ ],
+ "observatoire mira, abdijstraat 22|grimbergen": [
+  50.9457843,
+  4.3890967
+ ],
+ "zevensterre 9|grimbergen": [
+  50.951938,
+  4.364703
+ ],
+ "cc strombeek|grimbergen": [
+  50.9074992,
+  4.3530202
+ ],
+ "grimbergen|grimbergen": [
+  50.932458,
+  4.3717863
+ ],
+ "mot|grimbergen": [
+  50.926821,
+  4.3726499
+ ],
+ "none|zaventem": [
+  50.8806207,
+  4.4730008
+ ],
+ "cc de factorij, willem lambertstraat 10|zaventem": [
+  50.8843428,
+  4.4700312
+ ],
+ "tramlaan 38, sterrebeek|zaventem": [
+  50.8630052,
+  4.5096266
+ ],
+ "cc de factorij|zaventem": [
+  50.8843428,
+  4.4700312
+ ],
+ "groenveld 1|zaventem": [
+  50.8896663,
+  4.4686033
+ ],
+ "rustoorddreef 1|zaventem": [
+  50.8831908,
+  4.4700849
+ ],
+ "imbroekstraat 80|zaventem": [
+  50.8822787,
+  4.4847935
+ ],
+ "excelsiorlaan 16|zaventem": [
+  50.8842351,
+  4.4580962
+ ],
+ "zeenstraat 82|zaventem": [
+  50.8616566,
+  4.5028023
+ ],
+ "none|tienen": [
+  50.8074825,
+  4.9371775
+ ],
+ "veemarkt 37|tienen": [
+  50.8057653,
+  4.9399293
+ ],
+ "oc de koepel|tienen": [
+  50.8074825,
+  4.9371775
+ ],
+ "club de pétanque|tienen": [
+  50.8074825,
+  4.9371775
+ ],
+ "plan b|tienen": [
+  50.8072095,
+  4.9471702
+ ],
+ "cc de kruisboog|tienen": [
+  50.8047363,
+  4.9364991
+ ],
+ "sporthal houtemveld|tienen": [
+  50.8074825,
+  4.9371775
+ ],
+ "gilainstraat 70|tienen": [
+  50.8102251,
+  4.9359924
+ ],
+ "kvk tienen|tienen": [
+  50.8041379,
+  4.9485321
+ ],
+ "de schakel|tienen": [
+  50.8117115,
+  4.9258401
+ ],
+ "veemarkt|tienen": [
+  50.8054685,
+  4.9401602
+ ],
+ "donystraat 113|tienen": [
+  50.8069165,
+  4.9469616
+ ],
+ "none|asse": [
+  50.9094333,
+  4.2015646
+ ],
+ "'t smiske, gemeenteplein 7|asse": [
+  50.9094333,
+  4.2015646
+ ],
+ "zaal 't kloosterhof, mollem|asse": [
+  50.9094333,
+  4.2015646
+ ],
+ "feestzaal 't fonteintje|asse": [
+  50.9094333,
+  4.2015646
+ ],
+ "bibliothèque, huinegem 2|asse": [
+  50.9094333,
+  4.2015646
+ ],
+ "asse|asse": [
+  50.9064259,
+  4.2083648
+ ],
+ "none|sint-pieters-leeuw": [
+  50.7800261,
+  4.2443604
+ ],
+ "wildersportcomplex|sint-pieters-leeuw": [
+  50.7992953,
+  4.2861916
+ ],
+ "sint-pieters-leeuw|sint-pieters-leeuw": [
+  50.7811835,
+  4.2452186
+ ],
+ "arthur quintusstraat 22|sint-pieters-leeuw": [
+  50.791371,
+  4.2775024
+ ],
+ "vlezenbeek|sint-pieters-leeuw": [
+  50.8075574,
+  4.2319001
+ ],
+ "sportlaan 13|sint-pieters-leeuw": [
+  50.800607,
+  4.2857371
+ ],
+ "pepingensesteenweg 250|sint-pieters-leeuw": [
+  50.7613819,
+  4.2186095
  ]
 }
