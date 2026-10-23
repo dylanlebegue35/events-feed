@@ -605,29 +605,6 @@
    "classified": true
   },
   {
-   "id": "fb-1382104873904848",
-   "title": "Soirée Walhardent - Les bâtisseurs de Liège",
-   "category": "talks",
-   "venue": "Sligro Liège",
-   "city": "Herstal",
-   "lat": 50.68971,
-   "lon": 5.57934,
-   "start": "2026-10-22T18:00:00",
-   "end": "2026-10-22T22:30:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1382104873904848.jpg",
-   "page_url": "https://www.facebook.com/events/1382104873904848/",
-   "url": "https://www.facebook.com/events/1382104873904848/",
-   "summary": "La Grande Soirée Walhardent - Les bâtisseurs de Liège La soirée networking par excellence des entrepreneurs et commerçants de la province de Liège. Liège est une terre d'entrepreneurs. Une province portée par des femmes et des hommes qui créent, investissent, innovent, développent l'emploi et contri",
-   "price_from": null,
-   "free": true,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-701312919421844",
    "title": "Liège Run (Registration is mandatory / Weekly meetup / Recurrent event )",
    "category": "sport",
@@ -2528,52 +2505,6 @@
    "classified": true
   },
   {
-   "id": "fb-1925492791742609",
-   "title": "24H Vélo de Louvain-la-Neuve 2026 - Course",
-   "category": "sport",
-   "venue": "Louvain La Neuve",
-   "city": "Louvain-la-Neuve",
-   "lat": 50.6693344093,
-   "lon": 4.60530242899,
-   "start": "2026-10-21T13:00:00",
-   "end": "2026-10-22T13:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1925492791742609.jpg",
-   "page_url": "https://www.facebook.com/events/1925492791742609/",
-   "url": "https://www.cse.be/event",
-   "summary": "Le plus grand événement de Louvain-la-Neuve est de retour, et cette année marque un moment historique : les 50 ans de la course des 24 Heures Vélo. 🚲 À cette occasion, le CSE Animations a le plaisir d'ouvrir les inscriptions pour l'édition 2026, qui se tiendra les 21 et 22 octobre 2026. Après le suc",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "student"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-2127423677831767",
-   "title": "24H Vélo de Louvain-la-Neuve 2026",
-   "category": "sport",
-   "venue": "Grand-Place, 1348 Ottignies-Louvain-la-Neuve, Belgique",
-   "city": "Louvain-la-Neuve",
-   "lat": 50.66964,
-   "lon": 4.6107,
-   "start": "2026-10-21T13:00:00",
-   "end": "2026-10-22T13:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-2127423677831767.jpg",
-   "page_url": "https://www.facebook.com/events/2127423677831767/",
-   "url": "https://www.facebook.com/events/2127423677831767/",
-   "summary": "Vous l’attendiez … Les 24 Heures Vélo de Louvain-la-Neuve sont de retour !! 🚴🎉 Après une longue année d'attente, la plus grande fête estudiantine de Belgique revient pour sa 47ème édition les mercredi 21 et jeudi 22 octobre 2026, édition toute particulière puisqu’elle célébrera les 50 ans de l’événe",
-   "price_from": null,
-   "free": true,
-   "audience": [
-    "student"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1910374759655313",
    "title": "🇷🇺 La minute Russe 🤹‍♂️",
    "category": "theatre",
@@ -2590,29 +2521,6 @@
    "price_from": null,
    "free": null,
    "audience": [],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1029922310047595",
-   "title": "24H Vélo de Louvain-la-Neuve 2026 - Fête des voisins",
-   "category": "party",
-   "venue": "Rue des Blancs Chevaux, 1348 Ottignies-Louvain-la-Neuve, Belgique",
-   "city": "Louvain-la-Neuve",
-   "lat": 50.67143,
-   "lon": 4.60972,
-   "start": "2026-10-21T19:00:00",
-   "end": "2026-10-22T00:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1029922310047595.jpg",
-   "page_url": "https://www.facebook.com/events/1029922310047595/",
-   "url": "https://forms.gle/wJnx2qquRoPGgXMd6",
-   "summary": "La Fête des Voisins est de retour 🎉! Pour la 13e année consécutive, la Rue des Blancs Chevaux accueillera la Fête des Voisins dans le cadre des 24 Heures Vélo de Louvain-la-Neuve. Le mercredi 21 octobre à partir de 19h, étudiants, habitants et adultes sont invités à se retrouver autour d’un repas, d",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "family"
-   ],
    "tags": [],
    "source": "Facebook (événement public)",
    "classified": true
@@ -2656,29 +2564,6 @@
    "free": null,
    "audience": [
     "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1054858020522549",
-   "title": "24H Vélo de Louvain-la-Neuve 2026",
-   "category": "sport",
-   "venue": "Louvain-la-Neuve",
-   "city": "Louvain-la-Neuve",
-   "lat": 50.6740673,
-   "lon": 4.6138095,
-   "start": "2026-10-21T13:00:00",
-   "end": "2026-10-22T13:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1054858020522549.jpg",
-   "page_url": "https://www.facebook.com/events/1054858020522549/",
-   "url": "https://www.facebook.com/events/1054858020522549/",
-   "summary": "Stay tuned, something big is coming ... 5️⃣0️⃣",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "student"
    ],
    "tags": [],
    "source": "Facebook (événement public)",
@@ -4834,29 +4719,6 @@
    "classified": true
   },
   {
-   "id": "fb-2648063675625343",
-   "title": "Soirée Halloween",
-   "category": "party",
-   "venue": "Petit Bitu",
-   "city": "Namur",
-   "lat": 50.46559,
-   "lon": 4.86194,
-   "start": "2026-10-22T20:00:00",
-   "end": "2026-10-22T23:00:00",
-   "image": "https://scontent.fhan3-5.fna.fbcdn.net/v/t39.30808-6/854481801_1759832932810428_913437190895811632_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1170x1458&ctp=s960x960&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=08C8V_2YY_0Q7kNvwFFEPcz&_nc_oc=Adq4LjQ94XepdRCPcr-4kgWyuM2YwPGbOqKY856LlsZCwXU-UHFCt7HLrlmUJK_kVbXOBgp5vgd1UY_mRZut6usG&_nc_zt=23&_nc_ht=scontent.fhan3-5.fna&_nc_gid=5HmEGFZ_nwG5xXPzRi-c3Q&_nc_ss=70289&oh=00_AQPUAH5DboLpklUip0Ra7Tmlh6xdsX69MqDFexeBafFEZQ&oe=6ADDB187",
-   "page_url": "https://www.facebook.com/events/2648063675625343/",
-   "url": "https://www.facebook.com/events/2648063675625343/",
-   "summary": "🎃👻 HALLOWEEN PARTY – COMITÉ RP-CF 👻🎃 Les monstres sont de sortie… et le comité RP-CF aussi ! 🧛‍♂️🕸️ 📅 Rendez-vous le jeudi 22 octobre pour une soirée Halloween qui s’annonce terrifiante… mais surtout mémorable ! 🔥 📍 On se retrouve au Petit Bitu, rue de Bruxelles 51 à Namur, pour faire trembler les m",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "student"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1113061924922515",
    "title": "Soirée Cocktails",
    "category": "party",
@@ -5421,29 +5283,6 @@
    "free": true,
    "audience": [
     "family"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1380049954249463",
-   "title": "Soirée jeux de société",
-   "category": "party",
-   "venue": "Scavée du biéreau 2, 1348 Louvain-la-Neuve, Belgium",
-   "city": "Louvain-la-Neuve",
-   "lat": 50.6653,
-   "lon": 4.61707,
-   "start": "2026-10-22T19:00:00",
-   "end": "2026-10-22T22:00:00",
-   "image": "https://scontent.fdoh11-1.fna.fbcdn.net/v/t39.99422-6/830682915_2789445364773748_2481988553823283713_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s960x960&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=aRgWWcMNEn0Q7kNvwGlv7vb&_nc_oc=Adp7GyLeR0CGMWkUHV_BhZ_UiKfAZcTHwZBFYnuSTRfjmp0u1nWUWqovM4CvIwnWu1Q&_nc_zt=14&_nc_ht=scontent.fdoh11-1.fna&_nc_gid=iBInPvqBaN8pykPUsizCgQ&_nc_ss=70289&oh=00_AQPwBRYHFzAC2GvtwBmW8634im169LWi-z-dt5IeAJmLIg&oe=6ADDC968",
-   "page_url": "https://www.facebook.com/events/1380049954249463/",
-   "url": "https://www.betch-lln.be/event/soiree-jeux-de-societe-641/register",
-   "summary": "Soirée Jeux de Société chez Betch🎲 Mange, joue, rigole… et passe une soirée pleine de fun ! 😄 Que tu sois expert·e ou débutant·e, viens découvrir des jeux de plateau, de cartes ou d’ambiance avec tes amis. Ambiance conviviale garantie♟️ 🕗 19h – 22h 💰 Entrée - 5€ 💺 Réservation recommandée : https://w",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "student"
    ],
    "tags": [],
    "source": "Facebook (événement public)",
