@@ -764,6 +764,10 @@ def event_from_ai(r, source_name, poster_url=None, default_city="", default_venu
 # ============================================================ photos libres de droit (Wikimedia Commons)
 IMG_CACHE_FILE = HERE / "image_cache.json"
 _img_cache = json.loads(IMG_CACHE_FILE.read_text()) if IMG_CACHE_FILE.exists() else {}
+# Chaque nouvelle recherche de photo prend ~2 s : on en fait au plus tant par passage pour rester sous les
+# 25 minutes du robot. Le cache est enregistré à chaque passage, donc les photos se complètent au fil des passages.
+MAX_NEW_IMAGE_LOOKUPS = 150
+_new_lookups = 0
 _desc = {}   # texte décrivant chaque photo (titre + description), pour vérifier le lieu
 OK_LICENSES = re.compile(r"^(CC0|CC BY|CC BY-SA|Public domain|PD|Attribution)", re.I)
 BAD_TITLE = re.compile(r"logo|map|carte|plan|diagram|schema|svg|flag|drapeau|coat|blason|poster|affiche|screenshot|icon|televis|broadcast|engraving|gravure|portrait|manuscript|stamp|coin|painting|drawing", re.I)
@@ -792,6 +796,10 @@ def commons_images(query, n=8, min_w=900, require=None, generic=False):
     key = "L|" + query + ("|" + ",".join(require) if require else "") + ("|g" if generic else "")
     if key in _img_cache:
         return [tuple(x) for x in _img_cache[key]]
+    global _new_lookups
+    if _new_lookups >= MAX_NEW_IMAGE_LOOKUPS:
+        return []                                    # budget du passage épuisé : on réessaiera au prochain
+    _new_lookups += 1
     params = ("action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=30&prop=imageinfo"
               "&iiprop=url|size|extmetadata&iiurlwidth=1000&gsrsearch=" + quote(query + " filetype:bitmap"))
     body = None
@@ -1090,13 +1098,17 @@ def main():
             seen.add(k)
             uniq.append(e)
     try:
-        old = {e["id"]: e.get("image") for e in json.loads(OUT.read_text())["events"] if e.get("image")}
+        old = {e["id"]: e for e in json.loads(OUT.read_text())["events"] if e.get("image")}
         for e in uniq:
-            if not e.get("image") and old.get(e["id"]):
-                e["image"] = old[e["id"]]
+            prev = old.get(e["id"])
+            # une photo Wikimedia de secours sur un événement Facebook n'est pas gardée : on retente la vraie affiche
+            if not e.get("image") and prev and not (prev.get("image_credit") and "facebook.com" in (e.get("url") or "")):
+                e["image"] = prev["image"]
+                if prev.get("image_credit"):
+                    e["image_credit"] = prev["image_credit"]
     except Exception:
         pass
-    fill_images(uniq, limit=80)
+    fill_images(uniq, limit=400)                    # ~0,5 s par page (les pages Facebook donnent la vraie affiche)
     for e in uniq:                                   # dernier recours : photo libre du lieu, puis de la catégorie
         if not e.get("image"):
             got = photo_for(e.get("venue"), e.get("city", ""), CATEGORY_QUERIES.get(e.get("category"), ["city event"]), seed=e.get("id"))
