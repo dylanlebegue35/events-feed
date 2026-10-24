@@ -1,5 +1,5 @@
 {
-  "genere": "2026-10-24T02:02:10",
+  "genere": "2026-10-24T04:26:36",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -49,9 +49,9 @@
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 45763,
-      "ia_a_trouve": 76,
-      "gardes": 76,
+      "page_caracteres": 45771,
+      "ia_a_trouve": 77,
+      "gardes": 77,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -68,8 +68,8 @@
       "source": "Province de Liège",
       "ok": true,
       "page_caracteres": 19145,
-      "ia_a_trouve": 3,
-      "gardes": 3,
+      "ia_a_trouve": 4,
+      "gardes": 4,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -80,7 +80,7 @@
       "ia_a_trouve": 0,
       "gardes": 0,
       "ecartes": 0,
-      "extrait_reponse_ia": "[]"
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Pays de Herve",
@@ -230,6 +230,6 @@
       "gardes": 245
     }
   ],
-  "avec_image": 2233,
-  "total": 2233
+  "avec_image": 2235,
+  "total": 2235
 }
