@@ -764,10 +764,11 @@ def event_from_ai(r, source_name, poster_url=None, default_city="", default_venu
 # ============================================================ photos libres de droit (Wikimedia Commons)
 IMG_CACHE_FILE = HERE / "image_cache.json"
 _img_cache = json.loads(IMG_CACHE_FILE.read_text()) if IMG_CACHE_FILE.exists() else {}
-# Chaque nouvelle recherche de photo prend ~2 s : on en fait au plus tant par passage pour rester sous les
-# 25 minutes du robot. Le cache est enregistré à chaque passage, donc les photos se complètent au fil des passages.
-MAX_NEW_IMAGE_LOOKUPS = 150
-_new_lookups = 0
+# Wikimedia fait attendre quand on lui demande beaucoup (~6 s par recherche en moyenne) : on lui accorde au plus
+# 3 minutes par passage pour rester sous les 25 minutes du robot. Le cache est enregistré à chaque passage,
+# donc les photos se complètent au fil des passages.
+IMAGE_LOOKUP_SECONDS = 180
+_lookup_spent = 0.0
 _desc = {}   # texte décrivant chaque photo (titre + description), pour vérifier le lieu
 OK_LICENSES = re.compile(r"^(CC0|CC BY|CC BY-SA|Public domain|PD|Attribution)", re.I)
 BAD_TITLE = re.compile(r"logo|map|carte|plan|diagram|schema|svg|flag|drapeau|coat|blason|poster|affiche|screenshot|icon|televis|broadcast|engraving|gravure|portrait|manuscript|stamp|coin|painting|drawing", re.I)
@@ -796,10 +797,17 @@ def commons_images(query, n=8, min_w=900, require=None, generic=False):
     key = "L|" + query + ("|" + ",".join(require) if require else "") + ("|g" if generic else "")
     if key in _img_cache:
         return [tuple(x) for x in _img_cache[key]]
-    global _new_lookups
-    if _new_lookups >= MAX_NEW_IMAGE_LOOKUPS:
-        return []                                    # budget du passage épuisé : on réessaiera au prochain
-    _new_lookups += 1
+    global _lookup_spent
+    if _lookup_spent >= IMAGE_LOOKUP_SECONDS:
+        return []                                    # temps du passage épuisé : on réessaiera au prochain
+    started = time.time()
+    try:
+        return _commons_search(key, query, n, min_w, require, generic)
+    finally:
+        _lookup_spent += time.time() - started
+
+
+def _commons_search(key, query, n, min_w, require, generic):
     params = ("action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=30&prop=imageinfo"
               "&iiprop=url|size|extmetadata&iiurlwidth=1000&gsrsearch=" + quote(query + " filetype:bitmap"))
     body = None
