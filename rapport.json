@@ -1,12 +1,12 @@
 {
-  "genere": "2026-10-23T04:25:34",
+  "genere": "2026-10-24T02:02:10",
   "sources": [
     {
       "source": "Reflektor (Liège)",
       "ok": true,
-      "page_caracteres": 17686,
-      "ia_a_trouve": 48,
-      "gardes": 48,
+      "page_caracteres": 17505,
+      "ia_a_trouve": 49,
+      "gardes": 49,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -31,7 +31,7 @@
     {
       "source": "VisitHuy",
       "ok": true,
-      "page_caracteres": 5921,
+      "page_caracteres": 5925,
       "ia_a_trouve": 9,
       "gardes": 9,
       "ecartes": 0,
@@ -40,18 +40,18 @@
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 60000,
-      "ia_a_trouve": 7,
-      "gardes": 7,
+      "page_caracteres": 55574,
+      "ia_a_trouve": 6,
+      "gardes": 6,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 45480,
-      "ia_a_trouve": 96,
-      "gardes": 96,
+      "page_caracteres": 45763,
+      "ia_a_trouve": 76,
+      "gardes": 76,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -76,19 +76,19 @@
     {
       "source": "Stavelot",
       "ok": true,
-      "page_caracteres": 36787,
+      "page_caracteres": 36799,
       "ia_a_trouve": 0,
       "gardes": 0,
       "ecartes": 0,
-      "extrait_reponse_ia": ""
+      "extrait_reponse_ia": "[]"
     },
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 13559,
+      "page_caracteres": 13332,
       "ia_a_trouve": 3,
-      "gardes": 3,
-      "ecartes": 0,
+      "gardes": 1,
+      "ecartes": 2,
       "extrait_reponse_ia": ""
     },
     {
@@ -103,10 +103,10 @@
     {
       "source": "Grand Curtius (Liège)",
       "ok": true,
-      "page_caracteres": 11527,
-      "ia_a_trouve": 13,
-      "gardes": 9,
-      "ecartes": 4,
+      "page_caracteres": 10835,
+      "ia_a_trouve": 9,
+      "gardes": 6,
+      "ecartes": 3,
       "extrait_reponse_ia": ""
     },
     {
@@ -120,10 +120,12 @@
     },
     {
       "source": "Théâtre de Liège",
-      "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : curl 28 pour https://www.theatredeliege.be",
+      "ok": true,
+      "page_caracteres": 6063,
+      "ia_a_trouve": 4,
       "gardes": 4,
-      "ecartes": 0
+      "ecartes": 0,
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Opéra Royal de Wallonie",
@@ -137,7 +139,7 @@
     {
       "source": "Rockerill (Charleroi)",
       "ok": true,
-      "page_caracteres": 11630,
+      "page_caracteres": 11378,
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
@@ -148,8 +150,8 @@
       "ok": true,
       "page_caracteres": 4986,
       "ia_a_trouve": 6,
-      "gardes": 6,
-      "ecartes": 0,
+      "gardes": 5,
+      "ecartes": 1,
       "extrait_reponse_ia": ""
     },
     {
@@ -157,8 +159,8 @@
       "ok": true,
       "page_caracteres": 48476,
       "ia_a_trouve": 23,
-      "gardes": 23,
-      "ecartes": 0,
+      "gardes": 22,
+      "ecartes": 1,
       "extrait_reponse_ia": ""
     },
     {
@@ -173,7 +175,7 @@
     {
       "source": "Ancienne Belgique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 6868,
+      "page_caracteres": 6961,
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
@@ -191,18 +193,18 @@
     {
       "source": "Trix (Anvers)",
       "ok": true,
-      "page_caracteres": 10793,
-      "ia_a_trouve": 30,
-      "gardes": 25,
+      "page_caracteres": 10736,
+      "ia_a_trouve": 20,
+      "gardes": 15,
       "ecartes": 5,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Het Depot (Louvain)",
       "ok": true,
-      "page_caracteres": 7140,
-      "ia_a_trouve": 15,
-      "gardes": 15,
+      "page_caracteres": 8915,
+      "ia_a_trouve": 7,
+      "gardes": 7,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -225,9 +227,9 @@
       "source": "Facebook (service tiers)",
       "ok": true,
       "etat": "pas encore l'heure",
-      "gardes": 248
+      "gardes": 245
     }
   ],
-  "avec_image": 1139,
-  "total": 1139
+  "avec_image": 2233,
+  "total": 2233
 }
