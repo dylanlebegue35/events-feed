@@ -1,5 +1,5 @@
 {
-  "genere": "2026-10-24T16:18:55",
+  "genere": "2026-10-24T22:19:54",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -40,18 +40,18 @@
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 53195,
-      "ia_a_trouve": 41,
-      "gardes": 41,
+      "page_caracteres": 57749,
+      "ia_a_trouve": 6,
+      "gardes": 6,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 45784,
-      "ia_a_trouve": 71,
-      "gardes": 71,
+      "page_caracteres": 45760,
+      "ia_a_trouve": 97,
+      "gardes": 97,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -68,8 +68,8 @@
       "source": "Province de Liège",
       "ok": true,
       "page_caracteres": 19145,
-      "ia_a_trouve": 5,
-      "gardes": 5,
+      "ia_a_trouve": 3,
+      "gardes": 3,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -85,9 +85,9 @@
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 13204,
-      "ia_a_trouve": 2,
-      "gardes": 0,
+      "page_caracteres": 13206,
+      "ia_a_trouve": 4,
+      "gardes": 2,
       "ecartes": 2,
       "extrait_reponse_ia": ""
     },
@@ -103,7 +103,7 @@
     {
       "source": "Grand Curtius (Liège)",
       "ok": true,
-      "page_caracteres": 10835,
+      "page_caracteres": 11307,
       "ia_a_trouve": 9,
       "gardes": 6,
       "ecartes": 3,
@@ -175,7 +175,7 @@
     {
       "source": "Ancienne Belgique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 6961,
+      "page_caracteres": 6856,
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
@@ -184,27 +184,27 @@
     {
       "source": "Botanique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 174,
-      "ia_a_trouve": 0,
-      "gardes": 0,
+      "page_caracteres": 3944,
+      "ia_a_trouve": 3,
+      "gardes": 3,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Trix (Anvers)",
       "ok": true,
-      "page_caracteres": 10646,
-      "ia_a_trouve": 15,
-      "gardes": 15,
-      "ecartes": 0,
+      "page_caracteres": 10652,
+      "ia_a_trouve": 29,
+      "gardes": 25,
+      "ecartes": 4,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Het Depot (Louvain)",
       "ok": true,
-      "page_caracteres": 8915,
-      "ia_a_trouve": 7,
-      "gardes": 7,
+      "page_caracteres": 8976,
+      "ia_a_trouve": 17,
+      "gardes": 17,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -230,6 +230,6 @@
       "gardes": 245
     }
   ],
-  "avec_image": 2264,
-  "total": 2264
+  "avec_image": 2277,
+  "total": 2277
 }
