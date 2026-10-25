@@ -1,12 +1,12 @@
 {
-  "genere": "2026-10-25T16:23:04",
+  "genere": "2026-10-25T22:18:45",
   "sources": [
     {
       "source": "Reflektor (Liège)",
       "ok": true,
-      "page_caracteres": 17497,
-      "ia_a_trouve": 45,
-      "gardes": 45,
+      "page_caracteres": 17690,
+      "ia_a_trouve": 44,
+      "gardes": 44,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -40,7 +40,7 @@
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 55219,
+      "page_caracteres": 53671,
       "ia_a_trouve": 6,
       "gardes": 6,
       "ecartes": 0,
@@ -49,9 +49,9 @@
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 45786,
-      "ia_a_trouve": 71,
-      "gardes": 71,
+      "page_caracteres": 45797,
+      "ia_a_trouve": 72,
+      "gardes": 72,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -68,8 +68,8 @@
       "source": "Province de Liège",
       "ok": true,
       "page_caracteres": 19145,
-      "ia_a_trouve": 5,
-      "gardes": 5,
+      "ia_a_trouve": 3,
+      "gardes": 3,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -85,7 +85,7 @@
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 13115,
+      "page_caracteres": 13117,
       "ia_a_trouve": 2,
       "gardes": 0,
       "ecartes": 2,
@@ -188,14 +188,14 @@
       "ia_a_trouve": 0,
       "gardes": 0,
       "ecartes": 0,
-      "extrait_reponse_ia": "[]"
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Trix (Anvers)",
       "ok": true,
-      "page_caracteres": 10652,
-      "ia_a_trouve": 29,
-      "gardes": 25,
+      "page_caracteres": 10648,
+      "ia_a_trouve": 19,
+      "gardes": 15,
       "ecartes": 4,
       "extrait_reponse_ia": ""
     },
@@ -230,6 +230,6 @@
       "gardes": 230
     }
   ],
-  "avec_image": 2140,
-  "total": 2140
+  "avec_image": 2127,
+  "total": 2127
 }
