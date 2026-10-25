@@ -1,5 +1,5 @@
 {
-  "genere": "2026-10-25T04:25:10",
+  "genere": "2026-10-25T10:18:20",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -49,9 +49,9 @@
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 45767,
-      "ia_a_trouve": 72,
-      "gardes": 72,
+      "page_caracteres": 45775,
+      "ia_a_trouve": 75,
+      "gardes": 75,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -68,8 +68,8 @@
       "source": "Province de Liège",
       "ok": true,
       "page_caracteres": 19145,
-      "ia_a_trouve": 3,
-      "gardes": 3,
+      "ia_a_trouve": 5,
+      "gardes": 5,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -85,7 +85,7 @@
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 13206,
+      "page_caracteres": 13203,
       "ia_a_trouve": 4,
       "gardes": 2,
       "ecartes": 2,
@@ -148,10 +148,10 @@
     {
       "source": "Fuse (Bruxelles)",
       "ok": true,
-      "page_caracteres": 5034,
+      "page_caracteres": 5175,
       "ia_a_trouve": 6,
-      "gardes": 5,
-      "ecartes": 1,
+      "gardes": 6,
+      "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -183,12 +183,10 @@
     },
     {
       "source": "Botanique (Bruxelles)",
-      "ok": true,
-      "page_caracteres": 3944,
-      "ia_a_trouve": 3,
+      "ok": false,
+      "erreur": "lecture indisponible, dernière lecture réutilisée : curl 28 pour https://botanique.be/fr/agenda",
       "gardes": 3,
-      "ecartes": 0,
-      "extrait_reponse_ia": ""
+      "ecartes": 0
     },
     {
       "source": "Trix (Anvers)",
@@ -230,6 +228,6 @@
       "gardes": 230
     }
   ],
-  "avec_image": 2150,
-  "total": 2150
+  "avec_image": 2155,
+  "total": 2155
 }
