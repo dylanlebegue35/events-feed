@@ -1,12 +1,12 @@
 {
-  "genere": "2026-10-25T10:18:20",
+  "genere": "2026-10-25T16:23:04",
   "sources": [
     {
       "source": "Reflektor (Liège)",
       "ok": true,
-      "page_caracteres": 17690,
-      "ia_a_trouve": 49,
-      "gardes": 49,
+      "page_caracteres": 17497,
+      "ia_a_trouve": 45,
+      "gardes": 45,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -31,7 +31,7 @@
     {
       "source": "VisitHuy",
       "ok": true,
-      "page_caracteres": 5925,
+      "page_caracteres": 5912,
       "ia_a_trouve": 9,
       "gardes": 9,
       "ecartes": 0,
@@ -40,7 +40,7 @@
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 57749,
+      "page_caracteres": 55219,
       "ia_a_trouve": 6,
       "gardes": 6,
       "ecartes": 0,
@@ -49,9 +49,9 @@
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 45775,
-      "ia_a_trouve": 75,
-      "gardes": 75,
+      "page_caracteres": 45786,
+      "ia_a_trouve": 71,
+      "gardes": 71,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -85,9 +85,9 @@
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 13203,
-      "ia_a_trouve": 4,
-      "gardes": 2,
+      "page_caracteres": 13115,
+      "ia_a_trouve": 2,
+      "gardes": 0,
       "ecartes": 2,
       "extrait_reponse_ia": ""
     },
@@ -157,10 +157,10 @@
     {
       "source": "Madame Moustache (Bruxelles)",
       "ok": true,
-      "page_caracteres": 48476,
-      "ia_a_trouve": 23,
-      "gardes": 21,
-      "ecartes": 2,
+      "page_caracteres": 44646,
+      "ia_a_trouve": 20,
+      "gardes": 20,
+      "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -175,7 +175,7 @@
     {
       "source": "Ancienne Belgique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 6856,
+      "page_caracteres": 6835,
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
@@ -183,10 +183,12 @@
     },
     {
       "source": "Botanique (Bruxelles)",
-      "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : curl 28 pour https://botanique.be/fr/agenda",
-      "gardes": 3,
-      "ecartes": 0
+      "ok": true,
+      "page_caracteres": 174,
+      "ia_a_trouve": 0,
+      "gardes": 0,
+      "ecartes": 0,
+      "extrait_reponse_ia": "[]"
     },
     {
       "source": "Trix (Anvers)",
@@ -228,6 +230,6 @@
       "gardes": 230
     }
   ],
-  "avec_image": 2155,
-  "total": 2155
+  "avec_image": 2140,
+  "total": 2140
 }
