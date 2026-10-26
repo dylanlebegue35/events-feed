@@ -1,12 +1,12 @@
 {
-  "genere": "2026-10-26T16:42:50",
+  "genere": "2026-10-26T22:27:07",
   "sources": [
     {
       "source": "Reflektor (Liège)",
       "ok": true,
-      "page_caracteres": 17159,
-      "ia_a_trouve": 45,
-      "gardes": 45,
+      "page_caracteres": 16966,
+      "ia_a_trouve": 48,
+      "gardes": 48,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -40,18 +40,18 @@
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 59414,
-      "ia_a_trouve": 6,
-      "gardes": 6,
+      "page_caracteres": 57364,
+      "ia_a_trouve": 4,
+      "gardes": 4,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 45803,
-      "ia_a_trouve": 78,
-      "gardes": 78,
+      "page_caracteres": 45756,
+      "ia_a_trouve": 80,
+      "gardes": 80,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -103,10 +103,10 @@
     {
       "source": "Grand Curtius (Liège)",
       "ok": true,
-      "page_caracteres": 10370,
-      "ia_a_trouve": 8,
+      "page_caracteres": 10842,
+      "ia_a_trouve": 6,
       "gardes": 6,
-      "ecartes": 2,
+      "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -175,7 +175,7 @@
     {
       "source": "Ancienne Belgique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 6837,
+      "page_caracteres": 6586,
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
@@ -230,6 +230,6 @@
       "gardes": 223
     }
   ],
-  "avec_image": 2051,
-  "total": 2051
+  "avec_image": 2052,
+  "total": 2052
 }
