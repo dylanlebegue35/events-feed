@@ -1,12 +1,12 @@
 {
-  "genere": "2026-10-26T22:27:07",
+  "genere": "2026-10-27T04:27:38",
   "sources": [
     {
       "source": "Reflektor (Liège)",
       "ok": true,
-      "page_caracteres": 16966,
-      "ia_a_trouve": 48,
-      "gardes": 48,
+      "page_caracteres": 17159,
+      "ia_a_trouve": 45,
+      "gardes": 45,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -40,7 +40,7 @@
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 57364,
+      "page_caracteres": 57350,
       "ia_a_trouve": 4,
       "gardes": 4,
       "ecartes": 0,
@@ -49,7 +49,7 @@
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 45756,
+      "page_caracteres": 45766,
       "ia_a_trouve": 80,
       "gardes": 80,
       "ecartes": 0,
@@ -85,7 +85,7 @@
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 13082,
+      "page_caracteres": 13083,
       "ia_a_trouve": 2,
       "gardes": 0,
       "ecartes": 2,
@@ -175,7 +175,7 @@
     {
       "source": "Ancienne Belgique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 6586,
+      "page_caracteres": 6598,
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
@@ -186,8 +186,8 @@
       "ok": true,
       "page_caracteres": 4158,
       "ia_a_trouve": 3,
-      "gardes": 3,
-      "ecartes": 0,
+      "gardes": 0,
+      "ecartes": 3,
       "extrait_reponse_ia": ""
     },
     {
@@ -202,9 +202,9 @@
     {
       "source": "Het Depot (Louvain)",
       "ok": true,
-      "page_caracteres": 8976,
-      "ia_a_trouve": 17,
-      "gardes": 17,
+      "page_caracteres": 9137,
+      "ia_a_trouve": 16,
+      "gardes": 16,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -227,9 +227,9 @@
       "source": "Facebook (service tiers)",
       "ok": true,
       "etat": "pas encore l'heure",
-      "gardes": 223
+      "gardes": 222
     }
   ],
-  "avec_image": 2052,
-  "total": 2052
+  "avec_image": 2040,
+  "total": 2040
 }
