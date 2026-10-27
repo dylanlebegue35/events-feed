@@ -1,12 +1,12 @@
 {
-  "genere": "2026-10-27T04:27:38",
+  "genere": "2026-10-27T10:31:26",
   "sources": [
     {
       "source": "Reflektor (Liège)",
       "ok": true,
-      "page_caracteres": 17159,
-      "ia_a_trouve": 45,
-      "gardes": 45,
+      "page_caracteres": 16902,
+      "ia_a_trouve": 46,
+      "gardes": 46,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -49,9 +49,9 @@
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 45766,
-      "ia_a_trouve": 80,
-      "gardes": 80,
+      "page_caracteres": 45765,
+      "ia_a_trouve": 74,
+      "gardes": 74,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -67,7 +67,7 @@
     {
       "source": "Province de Liège",
       "ok": true,
-      "page_caracteres": 19059,
+      "page_caracteres": 19453,
       "ia_a_trouve": 3,
       "gardes": 3,
       "ecartes": 0,
@@ -94,7 +94,7 @@
     {
       "source": "Ville de Huy",
       "ok": true,
-      "page_caracteres": 5369,
+      "page_caracteres": 5342,
       "ia_a_trouve": 4,
       "gardes": 4,
       "ecartes": 0,
@@ -184,10 +184,10 @@
     {
       "source": "Botanique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 4158,
+      "page_caracteres": 4967,
       "ia_a_trouve": 3,
-      "gardes": 0,
-      "ecartes": 3,
+      "gardes": 3,
+      "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -230,6 +230,6 @@
       "gardes": 222
     }
   ],
-  "avec_image": 2040,
-  "total": 2040
+  "avec_image": 2039,
+  "total": 2039
 }
