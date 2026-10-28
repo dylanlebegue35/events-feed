@@ -921,11 +921,16 @@ def fallback_pool():
 
 # ============================================================ photos manquantes
 BAD_IMG = re.compile(r"logo|favicon|icon|sprite|flag|avatar|placeholder|blank|pixel|spinner|loader|banner-cookie|\.svg|\.gif|qtranslate|cropped-|site-icon|apple-touch|thumb-?\d{2,3}x\d{2,3}", re.I)
+# l'og:image des pages Facebook (lookaside.fbsbx.com) n'est pas une image : une petite page HTML qui renvoie
+# vers facebook.com/photo.php (il faut un compte). On ne la garde jamais ; l'app montre alors la photo de la catégorie.
+FB_FAKE_IMG = re.compile(r"lookaside\.(fbsbx|facebook)\.com|static\.xx\.fbcdn\.net/rsrc\.php", re.I)   # + image de l'interface
 
 
 def best_image(page, base):
     """Photo la plus probable d'une page d'événement : og:image, sinon première vraie image du contenu."""
     img = _best_image(page, base)
+    if img and FB_FAKE_IMG.search(img):
+        return None
     return img.replace("http://", "https://", 1) if img else img          # l'iPhone refuse les images non sécurisées
 
 
@@ -963,6 +968,8 @@ def fill_images(events, limit=150):
         link = e.get("page_url") or e.get("url")
         if e.get("image") or not link or done >= limit:
             continue
+        if re.match(r"https?://([a-z0-9-]+\.)?(facebook\.com|fb\.me)/", link, re.I):
+            continue            # une page Facebook ne donne qu'une fausse image (voir FB_FAKE_IMG)
         try:
             page = fetch(link, timeout=15)
         except Exception:
@@ -1106,7 +1113,9 @@ def main():
             seen.add(k)
             uniq.append(e)
     try:
-        old = {e["id"]: e for e in json.loads(OUT.read_text())["events"] if e.get("image")}
+        old = {e["id"]: e for e in json.loads(OUT.read_text())["events"]
+               if e.get("image") and not FB_FAKE_IMG.search(e["image"])
+               and not ("wikimedia.org" in e["image"] and not e.get("image_credit"))}   # photo libre sans crédit : on la refait
         for e in uniq:
             prev = old.get(e["id"])
             # une photo Wikimedia de secours sur un événement Facebook n'est pas gardée : on retente la vraie affiche
@@ -1116,7 +1125,15 @@ def main():
                     e["image_credit"] = prev["image_credit"]
     except Exception:
         pass
-    fill_images(uniq, limit=400)                    # ~0,5 s par page (les pages Facebook donnent la vraie affiche)
+    for e in uniq:
+        if FB_FAKE_IMG.search(e.get("image") or ""):
+            e["image"] = None
+        elif re.search(r"\.fbcdn\.net/", e.get("image") or ""):
+            _fb_rehost(e)           # adresse Facebook signée, qui expire : on en garde une copie, ou rien si elle a expiré
+        # événement relevé par l'extension : si le service tiers a déjà copié son affiche, on la reprend
+        if e["id"].startswith("fbx-") and not e.get("image") and (POSTERS / f"fb-{e['id'][4:]}.jpg").exists():
+            e["image"] = RAW_BASE + f"fb-{e['id'][4:]}.jpg"
+    fill_images(uniq, limit=400)                    # ~0,5 s par page (les pages Facebook sont sautées)
     for e in uniq:                                   # dernier recours : photo libre du lieu, puis de la catégorie
         if not e.get("image"):
             got = photo_for(e.get("venue"), e.get("city", ""), CATEGORY_QUERIES.get(e.get("category"), ["city event"]), seed=e.get("id"))
