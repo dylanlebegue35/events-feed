@@ -1,5 +1,5 @@
 {
-  "genere": "2026-10-27T22:30:01",
+  "genere": "2026-10-28T04:32:52",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -40,20 +40,18 @@
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 51967,
-      "ia_a_trouve": 3,
-      "gardes": 3,
+      "page_caracteres": 53554,
+      "ia_a_trouve": 4,
+      "gardes": 4,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Le Forum (Liège)",
-      "ok": true,
-      "page_caracteres": 46075,
-      "ia_a_trouve": 71,
+      "ok": false,
+      "erreur": "lecture indisponible, dernière lecture réutilisée : Expecting value: line 1 column 1 (char 0)",
       "gardes": 71,
-      "ecartes": 0,
-      "extrait_reponse_ia": ""
+      "ecartes": 0
     },
     {
       "source": "Standard de Liège",
@@ -175,7 +173,7 @@
     {
       "source": "Ancienne Belgique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 6569,
+      "page_caracteres": 6581,
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
@@ -227,9 +225,9 @@
       "source": "Facebook (service tiers)",
       "ok": true,
       "etat": "pas encore l'heure",
-      "gardes": 222
+      "gardes": 220
     }
   ],
-  "avec_image": 2035,
-  "total": 2035
+  "avec_image": 2022,
+  "total": 2022
 }
