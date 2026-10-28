@@ -1,5 +1,5 @@
 {
-  "genere": "2026-10-28T22:32:04",
+  "genere": "2026-10-28T23:46:36",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -40,20 +40,18 @@
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 49117,
-      "ia_a_trouve": 38,
-      "gardes": 38,
+      "page_caracteres": 58391,
+      "ia_a_trouve": 3,
+      "gardes": 3,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Le Forum (Liège)",
-      "ok": true,
-      "page_caracteres": 45765,
-      "ia_a_trouve": 79,
+      "ok": false,
+      "erreur": "lecture indisponible, dernière lecture réutilisée : Expecting value: line 1 column 1 (char 0)",
       "gardes": 79,
-      "ecartes": 0,
-      "extrait_reponse_ia": ""
+      "ecartes": 0
     },
     {
       "source": "Standard de Liège",
@@ -103,9 +101,9 @@
     {
       "source": "Grand Curtius (Liège)",
       "ok": true,
-      "page_caracteres": 9946,
-      "ia_a_trouve": 6,
-      "gardes": 6,
+      "page_caracteres": 9474,
+      "ia_a_trouve": 4,
+      "gardes": 4,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -175,7 +173,7 @@
     {
       "source": "Ancienne Belgique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 6632,
+      "page_caracteres": 6644,
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
@@ -202,9 +200,9 @@
     {
       "source": "Het Depot (Louvain)",
       "ok": true,
-      "page_caracteres": 8744,
-      "ia_a_trouve": 10,
-      "gardes": 10,
+      "page_caracteres": 8746,
+      "ia_a_trouve": 15,
+      "gardes": 15,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -230,6 +228,6 @@
       "gardes": 220
     }
   ],
-  "avec_image": 2052,
-  "total": 2052
+  "avec_image": 2024,
+  "total": 2024
 }
