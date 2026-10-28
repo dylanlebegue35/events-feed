@@ -1,5 +1,5 @@
 {
-  "genere": "2026-10-28T10:34:52",
+  "genere": "2026-10-28T16:41:43",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -40,27 +40,27 @@
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 53555,
-      "ia_a_trouve": 3,
-      "gardes": 3,
+      "page_caracteres": 50281,
+      "ia_a_trouve": 4,
+      "gardes": 4,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 46038,
-      "ia_a_trouve": 75,
-      "gardes": 75,
+      "page_caracteres": 46052,
+      "ia_a_trouve": 71,
+      "gardes": 71,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Standard de Liège",
       "ok": true,
-      "page_caracteres": 7724,
-      "ia_a_trouve": 2,
-      "gardes": 2,
+      "page_caracteres": 7713,
+      "ia_a_trouve": 3,
+      "gardes": 3,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -85,7 +85,7 @@
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 13083,
+      "page_caracteres": 13713,
       "ia_a_trouve": 2,
       "gardes": 0,
       "ecartes": 2,
@@ -139,16 +139,16 @@
     {
       "source": "Rockerill (Charleroi)",
       "ok": true,
-      "page_caracteres": 11378,
-      "ia_a_trouve": 10,
-      "gardes": 10,
+      "page_caracteres": 12072,
+      "ia_a_trouve": 11,
+      "gardes": 11,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Fuse (Bruxelles)",
       "ok": true,
-      "page_caracteres": 5175,
+      "page_caracteres": 5115,
       "ia_a_trouve": 6,
       "gardes": 6,
       "ecartes": 0,
@@ -166,9 +166,9 @@
     {
       "source": "Recyclart (Bruxelles)",
       "ok": true,
-      "page_caracteres": 5000,
-      "ia_a_trouve": 15,
-      "gardes": 15,
+      "page_caracteres": 4987,
+      "ia_a_trouve": 10,
+      "gardes": 10,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -230,6 +230,6 @@
       "gardes": 220
     }
   ],
-  "avec_image": 2019,
-  "total": 2019
+  "avec_image": 2012,
+  "total": 2012
 }
