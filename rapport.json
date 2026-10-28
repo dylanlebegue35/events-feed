@@ -1,5 +1,5 @@
 {
-  "genere": "2026-10-28T16:41:43",
+  "genere": "2026-10-28T22:32:04",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -31,7 +31,7 @@
     {
       "source": "VisitHuy",
       "ok": true,
-      "page_caracteres": 5912,
+      "page_caracteres": 5881,
       "ia_a_trouve": 9,
       "gardes": 9,
       "ecartes": 0,
@@ -40,18 +40,18 @@
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 50281,
-      "ia_a_trouve": 4,
-      "gardes": 4,
+      "page_caracteres": 49117,
+      "ia_a_trouve": 38,
+      "gardes": 38,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 46052,
-      "ia_a_trouve": 71,
-      "gardes": 71,
+      "page_caracteres": 45765,
+      "ia_a_trouve": 79,
+      "gardes": 79,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -85,7 +85,7 @@
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 13713,
+      "page_caracteres": 13711,
       "ia_a_trouve": 2,
       "gardes": 0,
       "ecartes": 2,
@@ -175,7 +175,7 @@
     {
       "source": "Ancienne Belgique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 6554,
+      "page_caracteres": 6632,
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
@@ -193,16 +193,16 @@
     {
       "source": "Trix (Anvers)",
       "ok": true,
-      "page_caracteres": 10934,
-      "ia_a_trouve": 15,
-      "gardes": 15,
+      "page_caracteres": 10832,
+      "ia_a_trouve": 17,
+      "gardes": 17,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Het Depot (Louvain)",
       "ok": true,
-      "page_caracteres": 9077,
+      "page_caracteres": 8744,
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
@@ -211,7 +211,7 @@
     {
       "source": "Mars – Mons arts de la scène",
       "ok": true,
-      "page_caracteres": 11515,
+      "page_caracteres": 11789,
       "ia_a_trouve": 9,
       "gardes": 9,
       "ecartes": 0,
@@ -230,6 +230,6 @@
       "gardes": 220
     }
   ],
-  "avec_image": 2012,
-  "total": 2012
+  "avec_image": 2052,
+  "total": 2052
 }
