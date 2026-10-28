@@ -1,5 +1,5 @@
 {
-  "genere": "2026-10-28T04:32:52",
+  "genere": "2026-10-28T10:34:52",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -40,18 +40,20 @@
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 53554,
-      "ia_a_trouve": 4,
-      "gardes": 4,
+      "page_caracteres": 53555,
+      "ia_a_trouve": 3,
+      "gardes": 3,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Le Forum (Liège)",
-      "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : Expecting value: line 1 column 1 (char 0)",
-      "gardes": 71,
-      "ecartes": 0
+      "ok": true,
+      "page_caracteres": 46038,
+      "ia_a_trouve": 75,
+      "gardes": 75,
+      "ecartes": 0,
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Standard de Liège",
@@ -92,16 +94,16 @@
     {
       "source": "Ville de Huy",
       "ok": true,
-      "page_caracteres": 5384,
-      "ia_a_trouve": 5,
+      "page_caracteres": 5426,
+      "ia_a_trouve": 4,
       "gardes": 4,
-      "ecartes": 1,
+      "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Grand Curtius (Liège)",
       "ok": true,
-      "page_caracteres": 10842,
+      "page_caracteres": 9946,
       "ia_a_trouve": 6,
       "gardes": 6,
       "ecartes": 0,
@@ -173,7 +175,7 @@
     {
       "source": "Ancienne Belgique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 6581,
+      "page_caracteres": 6554,
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
@@ -191,7 +193,7 @@
     {
       "source": "Trix (Anvers)",
       "ok": true,
-      "page_caracteres": 10949,
+      "page_caracteres": 10934,
       "ia_a_trouve": 15,
       "gardes": 15,
       "ecartes": 0,
@@ -200,9 +202,9 @@
     {
       "source": "Het Depot (Louvain)",
       "ok": true,
-      "page_caracteres": 9137,
-      "ia_a_trouve": 16,
-      "gardes": 16,
+      "page_caracteres": 9077,
+      "ia_a_trouve": 10,
+      "gardes": 10,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -228,6 +230,6 @@
       "gardes": 220
     }
   ],
-  "avec_image": 2022,
-  "total": 2022
+  "avec_image": 2019,
+  "total": 2019
 }
