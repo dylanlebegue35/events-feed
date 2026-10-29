@@ -1,12 +1,14 @@
 {
-  "genere": "2026-10-29T22:35:10",
+  "genere": "2026-10-29T23:56:32",
   "sources": [
     {
       "source": "Reflektor (Liège)",
-      "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
+      "ok": true,
+      "page_caracteres": 16929,
+      "ia_a_trouve": 46,
       "gardes": 46,
-      "ecartes": 0
+      "ecartes": 0,
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Les Ardentes (Liège)",
@@ -78,12 +80,10 @@
     },
     {
       "source": "Pays de Herve",
-      "ok": true,
-      "page_caracteres": 13710,
-      "ia_a_trouve": 2,
+      "ok": false,
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
       "gardes": 0,
-      "ecartes": 2,
-      "extrait_reponse_ia": ""
+      "ecartes": 2
     },
     {
       "source": "Ville de Huy",
@@ -114,10 +114,12 @@
     },
     {
       "source": "Théâtre de Liège",
-      "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
+      "ok": true,
+      "page_caracteres": 6120,
+      "ia_a_trouve": 4,
       "gardes": 4,
-      "ecartes": 0
+      "ecartes": 0,
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Opéra Royal de Wallonie",
@@ -200,18 +202,29 @@
       "ecartes": 0
     },
     {
+      "source": "Le Hangar (Liège)",
+      "ok": true,
+      "recus": 0
+    },
+    {
       "source": "Propositions de l'app",
       "ok": true,
       "recues": 0,
       "nouvelles": 0
     },
     {
-      "source": "Facebook (service tiers)",
+      "source": "Facebook : Le Hangar Liège",
       "ok": true,
-      "etat": "pas encore l'heure",
-      "gardes": 214
+      "recus": 4,
+      "nouveaux": 4
+    },
+    {
+      "source": "Facebook : techno Liège",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
     }
   ],
-  "avec_image": 874,
-  "total": 1994
+  "avec_image": 878,
+  "total": 1998
 }

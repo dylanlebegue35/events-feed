@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T23:57:09",
+ "generated": "2026-10-29T23:56:32",
  "places": [
   {
    "id": "vivyo-bowling-362-malmedy",
@@ -173,18 +173,6 @@
    "image": "https://liege.getout.be/wp-content/uploads/2022/04/SITE-DISCOCLUB-2024-800x1200-1-380x650-c-default.jpg"
   },
   {
-   "id": "osm-node-6579937838",
-   "name": "Kinderboerderij",
-   "kind": "zoo",
-   "kind_label": "Parc animalier",
-   "city": "",
-   "lat": 50.9862438,
-   "lon": 5.2709263,
-   "website": null,
-   "hours": null,
-   "image": null
-  },
-  {
    "id": "osm-node-7821986569",
    "name": "Fraxinus Aventure",
    "kind": "climbing",
@@ -339,18 +327,6 @@
    "website": "https://twilightcafe.be/about",
    "hours": null,
    "image": "https://impro.usercontent.one/appid/oneComWsb/domain/twilightcafe.be/media/twilightcafe.be/onewebmedia/421_008_27303_Phil_Clayton.jpg?etag=W%2F%22f4e32-58417e4f%22&sourceContentType=image%2Fjpeg&quality=80"
-  },
-  {
-   "id": "osm-node-11748160431",
-   "name": "Le Pré Des Secrets",
-   "kind": "zoo",
-   "kind_label": "Parc animalier",
-   "city": "",
-   "lat": 50.471641,
-   "lon": 5.7964906,
-   "website": null,
-   "hours": null,
-   "image": null
   },
   {
    "id": "osm-node-11816550340",
@@ -1025,18 +1001,6 @@
    "image": null
   },
   {
-   "id": "osm-way-404989800",
-   "name": "Kinderboerderij Pietersheim",
-   "kind": "zoo",
-   "kind_label": "Parc animalier",
-   "city": "",
-   "lat": 50.9024774,
-   "lon": 5.6581548,
-   "website": null,
-   "hours": "Apr-Sep: Mo-Su 08:00-21:00; Oct: Mo-Su 08:00-19:00; Nov-Mar: Mo-Su 08:00-18:00",
-   "image": null
-  },
-  {
    "id": "osm-way-406997294",
    "name": "Keywi",
    "kind": "escape",
@@ -1117,30 +1081,6 @@
    "lat": 50.6304116,
    "lon": 6.028353,
    "website": "https://www.ostbelgiensport.be/desktopdefault.aspx/tabid-4678/linkid-23484/catid-1265",
-   "hours": null,
-   "image": null
-  },
-  {
-   "id": "osm-way-608697943",
-   "name": "'tHoevendrieske zorg-kinderboerderij",
-   "kind": "zoo",
-   "kind_label": "Parc animalier",
-   "city": "Linter",
-   "lat": 50.8510347,
-   "lon": 5.0494058,
-   "website": null,
-   "hours": "We 13:00-19:00; Sa,Su 11:00-19:00",
-   "image": null
-  },
-  {
-   "id": "osm-way-612346203",
-   "name": "De Kleine Boerderij",
-   "kind": "zoo",
-   "kind_label": "Parc animalier",
-   "city": "",
-   "lat": 50.9926153,
-   "lon": 5.5718361,
-   "website": null,
    "hours": null,
    "image": null
   },
@@ -1373,18 +1313,6 @@
    "image": null
   },
   {
-   "id": "osm-way-1302851545",
-   "name": "Rotwildgehege",
-   "kind": "zoo",
-   "kind_label": "Parc animalier",
-   "city": "Kelmis",
-   "lat": 50.7217368,
-   "lon": 6.0182728,
-   "website": null,
-   "hours": null,
-   "image": null
-  },
-  {
    "id": "osm-way-1345697611",
    "name": "BattleKart",
    "kind": "karting",
@@ -1405,18 +1333,6 @@
    "lat": 50.3950363,
    "lon": 5.8730187,
    "website": "https://www.plopsa.com/fr/plopsaland-ardennes",
-   "hours": null,
-   "image": null
-  },
-  {
-   "id": "osm-way-1390674607",
-   "name": "Dieren en speeltuin Hoeve op den Mierhoop",
-   "kind": "zoo",
-   "kind_label": "Parc animalier",
-   "city": "Nieuwerkerken",
-   "lat": 50.8828949,
-   "lon": 5.2197898,
-   "website": null,
    "hours": null,
    "image": null
   },
