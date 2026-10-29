@@ -29,5 +29,10 @@
   "max_km_from_city": 45,
   "posters_per_run": 0,
   "cost_usd_per_event": 0.004,
-  "_aide_affiches": "posters_per_run : nombre d'événements relevés avec l'extension dont on demande l'affiche à chaque passage (payant, ~0,003 $ l'un ; 0 = arrêté)."
+  "_aide_affiches": "posters_per_run : nombre d'événements relevés avec l'extension dont on demande l'affiche à chaque passage (payant, ~0,003 $ l'un ; 0 = arrêté).",
+  "extra_queries": [
+    "Le Hangar Liège",
+    "techno Liège"
+  ],
+  "_aide_extra_queries": "Recherches en plus (un lieu, un style de soirée). Une recherche nouvelle part au passage suivant du robot, sans attendre les 14 jours ; ensuite elle suit le rythme normal."
 }

@@ -1,0 +1,56 @@
+{
+ "_aide": "Lieux sans date, choisis à la main : ils s'affichent dans « Quand tu veux » de l'app, avant ceux d'OpenStreetMap. Champs : kind = bar, bowling, park, escape, karting, minigolf, climbing, arcade, club, zoo… ; pitch = une phrase « pourquoi y aller » ; offer = l'offre Vivyo négociée (sinon null) ; partner = true si le lieu a signé un partenariat (badge « Partenaire »). lat/lon : clic droit sur le lieu dans Google Maps. image : laisser null, le robot prend la photo du site officiel. Chaque modification relance le robot.",
+ "lieux": [
+  {
+   "id": "vivyo-bowling-362-malmedy",
+   "name": "Bowling 362",
+   "kind": "bowling",
+   "kind_label": "Bowling",
+   "city": "Malmedy",
+   "address": "Avenue des Alliés 100, 4960 Malmedy",
+   "lat": 50.4224661,
+   "lon": 6.0131113,
+   "website": null,
+   "instagram": null,
+   "hours": null,
+   "image": null,
+   "pitch": "12 pistes, billard, fléchettes et simulateurs de course. Jusqu'à 6 par piste.",
+   "offer": null,
+   "partner": false
+  },
+  {
+   "id": "vivyo-center-parcs-les-ardennes",
+   "name": "Center Parcs Les Ardennes",
+   "kind": "park",
+   "kind_label": "Parc de loisirs",
+   "city": "Vielsalm",
+   "address": "Golonfa, 6690 Vielsalm",
+   "lat": 50.2935152,
+   "lon": 5.9089945,
+   "website": "https://www.centerparcs.be/be-fr/belgique/fp_AR_vacances-les-ardennes/billets-journee",
+   "instagram": null,
+   "hours": null,
+   "image": null,
+   "pitch": "Pas besoin de réserver un séjour : un billet à la journée, puis bowling ou mini-golf en supplément.",
+   "offer": null,
+   "partner": false
+  },
+  {
+   "id": "vivyo-pot-au-lait-liege",
+   "name": "Le Pot au Lait",
+   "kind": "bar",
+   "kind_label": "Bar",
+   "city": "Liège",
+   "address": "Rue Sœurs de Hasque 9, 4000 Liège",
+   "lat": 50.6400649,
+   "lon": 5.5737386,
+   "website": "https://www.potaulait.be",
+   "instagram": null,
+   "hours": null,
+   "image": null,
+   "pitch": "Le bar culte caché au fond d'une cour : déco délirante, bières belges, DJ. Classé parmi les meilleurs bars d'Europe.",
+   "offer": null,
+   "partner": false
+  }
+ ]
+}

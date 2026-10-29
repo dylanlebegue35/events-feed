@@ -4,6 +4,7 @@
 Sources :
   1. Spa-Francorchamps : lecture du calendrier officiel (connecteur sur mesure)
   2. Pages web de sources.json : une IA lit chaque page et en extrait les événements
+     (et les agendas WordPress « The Events Calendar » de sources.json, lus directement, sans IA)
   3. manual_events.json : événements vérifiés à la main
   4. Propositions envoyées depuis l'app et acceptées par Dylan (boîte Cloudflare, variable INBOX_TOKEN)
 
@@ -337,10 +338,12 @@ PLACE_KINDS = {
     ("leisure", "miniature_golf"): ("minigolf", "Mini-golf"),
     ("amenity", "nightclub"): ("club", "Club"),
     ("leisure", "water_park"): ("waterpark", "Parc aquatique"),
+    ("tourism", "theme_park"): ("park", "Parc de loisirs"),
+    ("tourism", "zoo"): ("zoo", "Parc animalier"),
 }
 
 
-def places(radius=15000):
+def places(radius=50000):
     around = f"(around:{radius},{CENTER[0]},{CENTER[1]})"
     body = "".join(f'nwr{around}["{k}"="{v}"];' for (k, v) in PLACE_KINDS)
     query = f"[out:json][timeout:60];({body});out tags center;"
@@ -367,8 +370,14 @@ def places(radius=15000):
         kind = next((PLACE_KINDS[(k, v)] for (k, v) in PLACE_KINDS if t.get(k) == v), None)
         if not kind or (name.lower(), kind[0]) in seen:
             continue
+        # un rocher en pleine nature n'est pas une sortie « sans attendre » : seulement les salles d'escalade
+        if kind[0] == "climbing" and not (t.get("leisure") in ("sports_centre", "fitness_centre")
+                                          or t.get("indoor") == "yes" or "building" in t):
+            continue
         seen.add((name.lower(), kind[0]))
         site = t.get("website") or t.get("contact:website")
+        if kind[0] in ("zoo", "park") and not site:
+            continue        # sans site : souvent une petite ferme ou une plaine de jeux, pas une sortie
         if site and not site.startswith("http"):
             site = "https://" + site
         out.append({
@@ -377,6 +386,67 @@ def places(radius=15000):
             "hours": t.get("opening_hours"), "image": None,
         })
     return out
+
+
+
+CHOSEN_PLACES = HERE / "lieux_choisis.json"
+
+
+def in_belgium(lat, lon):
+    """Le point est-il en Belgique ? (Nominatim, une fois par lieu, gardé dans geocache.json)
+    À 50 km de Liège, OpenStreetMap donne aussi Maastricht et Aix-la-Chapelle : Belgique d'abord."""
+    key = f"pays|{lat:.3f},{lon:.3f}"
+    if key not in _geo:
+        time.sleep(1.1)  # Nominatim : 1 requête par seconde maximum
+        r = subprocess.run(["curl", "-s", "--max-time", "20", "-A", "StudioAppsBot/1.0 (events-feed)",
+                            f"https://nominatim.openstreetmap.org/reverse?format=json&zoom=3&lat={lat}&lon={lon}"],
+                           capture_output=True)
+        try:
+            _geo[key] = json.loads(r.stdout)["address"]["country_code"]
+        except Exception:
+            return True             # dans le doute on garde, et on redemandera au prochain passage
+    return _geo[key] == "be"
+
+
+def build_places():
+    """Lieux sans date (« Quand tu veux » dans l'app) : ceux choisis à la main d'abord (bars, partenaires),
+    puis ceux trouvés sur OpenStreetMap. Écrit places.json."""
+    out_file = HERE / "places.json"
+    prev = json.loads(out_file.read_text())["places"] if out_file.exists() else []
+    chosen = [c for c in (json.loads(CHOSEN_PLACES.read_text())["lieux"] if CHOSEN_PLACES.exists() else [])
+              if c.get("name") and c.get("lat") is not None and c.get("lon") is not None]
+    try:
+        osm = places()
+    except Exception as ex:
+        print(f"Lieux d'activités: OpenStreetMap en échec ({ex}), on garde la liste précédente", file=sys.stderr)
+        osm = [p for p in prev if p["id"].startswith("osm-")]
+    osm = [p for p in osm if in_belgium(p["lat"], p["lon"])]
+    GEOCACHE.write_text(json.dumps(_geo, ensure_ascii=False, indent=1))
+    # un lieu choisi remplace le même lieu trouvé sur OpenStreetMap (même type, à moins de 300 m)
+    lieux = chosen + [p for p in osm if not any(p["kind"] == c["kind"] and _km([p["lat"], p["lon"]], [c["lat"], c["lon"]]) < 0.3
+                                                for c in chosen)]
+    # photo du site officiel déjà trouvée : on la reprend (les photos libres, elles, sont revérifiées)
+    old = {p["id"]: p for p in prev if p.get("image") and "wikimedia.org" not in p["image"]}
+    for p in lieux:          # photo du site officiel, sinon photo libre du lieu précis, sinon rien (l'app montre une icône)
+        if p.get("image"):
+            continue
+        if p["id"] in old:
+            p["image"] = old[p["id"]]["image"]
+            continue
+        if p.get("website") and own_site(p["name"], p["website"]):
+            try:
+                img = best_image(fetch(p["website"], timeout=15), p["website"])
+                p["image"] = img if img and is_image(img) else None
+            except Exception:
+                pass
+        if not p.get("image"):
+            got = venue_photo(p["name"], p.get("city", ""))
+            if got:
+                p["image"], p["image_credit"] = got
+    out_file.write_text(json.dumps({"generated": datetime.now().isoformat(timespec="seconds"), "places": lieux},
+                                   ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"Lieux : {len(chosen)} choisis à la main, {len(lieux) - len(chosen)} OpenStreetMap")
+    return lieux
 
 
 
@@ -731,13 +801,16 @@ def facebook():
         REPORT.append({"source": "Facebook (service tiers)", "ok": True, "etat": "désactivé", "gardes": len(store["events"])})
         return store["events"]
     last = store.get("last_run")
-    if last and (datetime.now() - datetime.fromisoformat(last)) < timedelta(days=cfg.get("min_days_between_runs", 7)):
+    extra = cfg.get("extra_queries") or []
+    fresh = [q for q in extra if q not in store.get("extra_done", [])]
+    due = not last or (datetime.now() - datetime.fromisoformat(last)) >= timedelta(days=cfg.get("min_days_between_runs", 7))
+    if not due and not fresh:
         store["events"] = tidy(store["events"])
         FB_STORE.write_text(json.dumps(store, ensure_ascii=False, indent=1), encoding="utf-8")
         REPORT.append({"source": "Facebook (service tiers)", "ok": True, "etat": "pas encore l'heure", "gardes": len(store["events"])})
         return store["events"]
     known, new_ids = {e["id"] for e in store["events"]}, set()
-    queries = cfg.get("queries") or [f"{k} {c}".strip() for c in cities for k in (cfg.get("keywords") or [""])]
+    queries = (cfg.get("queries") or [f"{k} {c}".strip() for c in cities for k in (cfg.get("keywords") or [""])]) + extra if due else fresh
     spent_cap = cfg.get("max_cost_usd_per_query", 0.30)
     for q in queries:
         try:
@@ -765,9 +838,59 @@ def facebook():
     store["events"] = tidy(store["events"])
     for i in new_ids - {e["id"] for e in store["events"]}:      # écarté par le tri : on ne garde pas son affiche
         (POSTERS / f"{i}.jpg").unlink(missing_ok=True)
-    store["last_run"] = datetime.now().isoformat(timespec="seconds")
+    store["extra_done"] = sorted(set(store.get("extra_done", [])) | {q for q in queries if q in extra})
+    if due:
+        store["last_run"] = datetime.now().isoformat(timespec="seconds")
     FB_STORE.write_text(json.dumps(store, ensure_ascii=False, indent=1), encoding="utf-8")
     return store["events"]
+
+
+WP_CATEGORY = [(r"concert|live|jam|blues|rock|jazz|\brap\b", "concert"), (r"soir[ée]e|\bdj\b|techno|house|party|f[êe]te|rave", "party"),
+               (r"expo|vernissage|galerie", "expo"), (r"com[ée]d(ie|y)|stand.?up|th[ée][âa]tre|impro|spectacle", "theatre"),
+               (r"atelier|workshop", "workshop"), (r"march[ée]|brocante", "flea")]
+
+
+def wordpress_agendas():
+    """Agendas des sites WordPress qui utilisent « The Events Calendar » (ex. Le Hangar à Liège) :
+    une liste propre, lue sans IA et sans frais. À brancher dans sources.json, « agendas_wordpress »."""
+    out = []
+    for s in json.loads((HERE / "sources.json").read_text()).get("agendas_wordpress", []):
+        if not s.get("enabled", True):
+            continue
+        try:
+            api = s["url"].rstrip("/") + f"/wp-json/tribe/events/v1/events?per_page=50&start_date={TODAY.isoformat()}"
+            items = json.loads(fetch(api, timeout=25)).get("events", [])
+            for it in items:
+                title = html.unescape(it.get("title") or "").strip()
+                sd = datetime.fromisoformat(it["start_date"].replace(" ", "T"))
+                ed = datetime.fromisoformat((it.get("end_date") or it["start_date"]).replace(" ", "T"))
+                if not title or ed.date() < TODAY or re.match(r"(ferm[ée]|fermeture|closed)\b", title, re.I):
+                    continue                # « Fermé » : un jour de fermeture, pas un événement
+                v = it.get("venue") or {}
+                venue, city = html.unescape(v.get("venue") or s["venue"]), v.get("city") or s["city"]
+                pos = [float(v["geo_lat"]), float(v["geo_lng"])] if v.get("geo_lat") and v.get("geo_lng") else geocode(venue, city)
+                if not pos:
+                    continue
+                cats = " ".join(c.get("name", "") for c in it.get("categories", []))
+                category = next((c for pat, c in WP_CATEGORY if re.search(pat, f"{title} {cats}", re.I)), s.get("category_hint", "culture"))
+                cost = html.unescape(it.get("cost") or "")
+                free = bool(re.search(r"gratuit|free|libre", cost, re.I))
+                price = re.search(r"\d+(?:[.,]\d+)?", cost)
+                summary = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", it.get("description") or ""))).strip()
+                out.append({
+                    "id": "wp-" + re.sub(r"[^a-z0-9]+", "-", f"{s['name']}-{title}-{sd.date()}".lower())[:80],
+                    "title": title, "category": category, "venue": venue, "city": city, "lat": pos[0], "lon": pos[1],
+                    "start": sd.isoformat(timespec="seconds"), "end": ed.isoformat(timespec="seconds"),
+                    "image": (it.get("image") or {}).get("url") or None, "page_url": it.get("url"),
+                    "url": it.get("website") or it.get("url"), "summary": summary[:300],
+                    "price_from": None if free or not price else float(price.group().replace(",", ".")), "free": free or None,
+                    "audience": [], "tags": [c.get("name") for c in it.get("categories", []) if c.get("name")][:4],
+                    "source": s["name"],
+                })
+            REPORT.append({"source": s["name"], "ok": True, "recus": len(items)})
+        except Exception as ex:
+            REPORT.append({"source": s["name"], "ok": False, "erreur": str(ex)[:300]})
+    return out
 
 
 def event_from_ai(r, source_name, poster_url=None, default_city="", default_venue=None, hint="culture"):
@@ -1107,7 +1230,7 @@ def apply_sponsors(events):
 
 def main():
     events = []
-    for name, fn in [("Spa-Francorchamps", spa), ("Manuel", manual), ("Pages web (IA)", pages), ("Dépôt", inbox), ("Propositions de l'app", submissions), ("Facebook (service tiers)", facebook), ("Ticketmaster", ticketmaster)]:
+    for name, fn in [("Spa-Francorchamps", spa), ("Manuel", manual), ("Pages web (IA)", pages), ("Agendas WordPress", wordpress_agendas), ("Dépôt", inbox), ("Propositions de l'app", submissions), ("Facebook (service tiers)", facebook), ("Ticketmaster", ticketmaster)]:
         try:
             got = fn()
             print(f"{name}: {len(got)} événements")
@@ -1146,23 +1269,9 @@ def main():
             if got:
                 e["image"], e["image_credit"] = got
     try:
-        lieux = places()
-        for p in lieux:          # photo du site officiel, sinon photo libre du lieu précis, sinon rien (l'app montre une icône)
-            if p.get("website") and own_site(p["name"], p["website"]):
-                try:
-                    img = best_image(fetch(p["website"], timeout=15), p["website"])
-                    p["image"] = img if img and is_image(img) else None
-                except Exception:
-                    pass
-            if not p.get("image"):
-                got = venue_photo(p["name"], p.get("city", ""))
-                if got:
-                    p["image"], p["image_credit"] = got
-        (HERE / "places.json").write_text(json.dumps({"generated": datetime.now().isoformat(timespec="seconds"),
-                                                      "places": lieux}, ensure_ascii=False, indent=1), encoding="utf-8")
-        print(f"Lieux d'activités: {len(lieux)}")
+        build_places()
     except Exception as ex:
-        print(f"Lieux d'activités: ÉCHEC ({ex}), on garde la liste précédente", file=sys.stderr)
+        print(f"Lieux : ÉCHEC ({ex}), on garde la liste précédente", file=sys.stderr)
     (HERE / "rapport.json").write_text(json.dumps(
         {"genere": datetime.now().isoformat(timespec="seconds"), "sources": REPORT,
          "avec_image": sum(1 for e in uniq if e.get("image")), "total": len(uniq)},

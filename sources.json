@@ -207,5 +207,16 @@
       "enabled": false,
       "_note": "Testé le 13/10/2026 : calendrier chargé par JavaScript, pas lisible sans navigateur invisible."
     }
-  ]
+  ],
+  "agendas_wordpress": [
+    {
+      "name": "Le Hangar (Liège)",
+      "url": "https://lehangar.be",
+      "city": "Liège",
+      "venue": "Le Hangar",
+      "category_hint": "party",
+      "enabled": true
+    }
+  ],
+  "_aide_agendas_wordpress": "Sites WordPress avec l'extension « The Events Calendar » (une adresse /wp-json/tribe/events/v1/events répond) : lus directement, sans IA et gratuitement."
 }
