@@ -26,5 +26,8 @@
     "soirée",
     "étudiants TD"
   ],
-  "max_km_from_city": 45
+  "max_km_from_city": 45,
+  "posters_per_run": 0,
+  "cost_usd_per_event": 0.004,
+  "_aide_affiches": "posters_per_run : nombre d'événements relevés avec l'extension dont on demande l'affiche à chaque passage (payant, ~0,003 $ l'un ; 0 = arrêté)."
 }

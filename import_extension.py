@@ -65,7 +65,7 @@ def main():
             "category": it.get("category") if it.get("category") in b.CATEGORIES else "culture",
             "venue": venue or city, "city": city, "lat": pos[0], "lon": pos[1],
             "start": sd.isoformat(timespec="seconds"), "end": ed.isoformat(timespec="seconds"),
-            "image": it.get("image") if (it.get("image") or "").startswith("https://") else None,
+            "image": it.get("image") if (it.get("image") or "").startswith("https://") and not b.FB_FAKE_IMG.search(it["image"]) else None,
             "page_url": url, "url": url, "summary": (it.get("summary") or "")[:300],
             "price_from": it.get("price_from") or None, "free": True if (it.get("free") or it.get("price_from") == 0) else None,
             "audience": [], "tags": [], "source": "Facebook (extension)",
@@ -79,6 +79,8 @@ def main():
     if "--write" in sys.argv:
         for e in kept:
             e.pop("geo_precise", None)
+            if re.search(r"\.fbcdn\.net/", e.get("image") or ""):
+                b._fb_rehost(e)         # l'adresse de l'affiche expire en quelques jours : copie dans posters/ tout de suite
         manual["events"] += kept
         MANUAL.write_text(json.dumps(manual, ensure_ascii=False, indent=2), encoding="utf-8")
         print("écrit dans manual_events.json")

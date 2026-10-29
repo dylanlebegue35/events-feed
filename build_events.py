@@ -10,7 +10,7 @@ Sources :
 Variables d'environnement : ANTHROPIC_API_KEY (pour l'étape 2, sinon ignorée).
 Usage : python3 build_events.py
 """
-import base64, hashlib, html, json, os, re, subprocess, sys, tempfile, time
+import base64, hashlib, html, json, os, re, subprocess, sys, tempfile, time, unicodedata
 from datetime import date, datetime, timedelta
 from zoneinfo import ZoneInfo
 from pathlib import Path
@@ -670,6 +670,41 @@ def fb_classify(events):
     return out
 
 
+def fb_extension_posters(cfg, store, token):
+    """Les événements relevés avec l'extension n'ont pas d'affiche : on demande au service tiers ces événements précis
+    (par leur lien) et on copie l'affiche tout de suite. Payant (~0,003 $ par événement) : "posters_per_run" à 0 = arrêté."""
+    tried = set(store.get("posters_tried") or [])
+    todo = []
+    for e in json.loads((HERE / "manual_events.json").read_text())["events"]:
+        fid = e["id"][4:] if e["id"].startswith("fbx-") else None
+        if (fid and not e.get("image") and e["id"] not in tried and datetime.fromisoformat(e["end"]).date() >= TODAY
+                and not (POSTERS / f"fb-{fid}.jpg").exists() and not (POSTERS / f"{e['id']}.jpg").exists()):
+            todo.append(e)
+    todo = todo[:cfg["posters_per_run"]]
+    if not todo:
+        return
+    payload = {"startUrls": [{"url": f"https://www.facebook.com/events/{e['id'][4:]}/"} for e in todo], "maxEvents": len(todo)}
+    cap = round(len(todo) * cfg.get("cost_usd_per_event", 0.004), 2)
+    r = subprocess.run(
+        ["curl", "-s", "--max-time", "290", "-X", "POST", "-H", "Content-Type: application/json", "-d", json.dumps(payload),
+         f"https://api.apify.com/v2/acts/{cfg.get('actor', 'alfalfa~facebook-events-scraper')}/run-sync-get-dataset-items"
+         f"?token={token}&maxTotalChargeUsd={cap}&timeout=280"], capture_output=True)
+    items = json.loads(r.stdout.decode("utf-8", errors="ignore") or "[]")
+    if not isinstance(items, list):
+        raise RuntimeError(str(items)[:200])
+    by_id = {str(it.get("id")): it for it in items if isinstance(it, dict)}
+    ok = 0
+    for e in todo:
+        it = by_id.get(e["id"][4:])
+        if it and it.get("imageUrl"):
+            ev = {"id": e["id"], "image": it["imageUrl"]}
+            _fb_rehost(ev)
+            ok += bool(ev["image"])
+        tried.add(e["id"])
+    store["posters_tried"] = sorted(tried)
+    REPORT.append({"source": "Facebook : affiches de l'extension", "ok": True, "demandes": len(todo), "recus": len(items), "copiees": ok})
+
+
 def facebook():
     cfg = json.loads(FB_CONFIG.read_text()) if FB_CONFIG.exists() else {}
     store = json.loads(FB_STORE.read_text()) if FB_STORE.exists() else {"last_run": None, "events": []}
@@ -685,6 +720,11 @@ def facebook():
         return fb_classify(up)
 
     token = os.environ.get("APIFY_TOKEN")
+    if cfg.get("enabled") and token and cfg.get("posters_per_run", 0) > 0:
+        try:
+            fb_extension_posters(cfg, store, token)
+        except Exception as ex:
+            print(f"  ! affiches de l'extension : {str(ex).replace(token, '***')}", file=sys.stderr)
     if not cfg.get("enabled") or not token:
         store["events"] = tidy(store["events"])
         FB_STORE.write_text(json.dumps(store, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -696,7 +736,7 @@ def facebook():
         FB_STORE.write_text(json.dumps(store, ensure_ascii=False, indent=1), encoding="utf-8")
         REPORT.append({"source": "Facebook (service tiers)", "ok": True, "etat": "pas encore l'heure", "gardes": len(store["events"])})
         return store["events"]
-    known = {e["id"] for e in store["events"]}
+    known, new_ids = {e["id"] for e in store["events"]}, set()
     queries = cfg.get("queries") or [f"{k} {c}".strip() for c in cities for k in (cfg.get("keywords") or [""])]
     spent_cap = cfg.get("max_cost_usd_per_query", 0.30)
     for q in queries:
@@ -713,17 +753,18 @@ def facebook():
             for it in items:
                 ev = _fb_event(it, q)
                 if ev and ev["id"] not in known:
+                    _fb_rehost(ev)          # tout de suite : l'adresse de l'affiche donnée par Facebook expire en quelques jours
                     store["events"].append(ev)
                     known.add(ev["id"])
+                    new_ids.add(ev["id"])
                     got += 1
             REPORT.append({"source": f"Facebook : {q}", "ok": True, "recus": len(items), "nouveaux": got})
         except Exception as ex:
             print(f"  ! facebook {q} : {str(ex).replace(token, '***')}", file=sys.stderr)
             REPORT.append({"source": f"Facebook : {q}", "ok": False, "erreur": str(ex).replace(token, "***")[:300]})
     store["events"] = tidy(store["events"])
-    for ev in store["events"]:          # la photo n'est copiée qu'après le tri : on ne garde rien d'inutile
-        if ev.get("classified") or not os.environ.get("ANTHROPIC_API_KEY"):
-            _fb_rehost(ev)
+    for i in new_ids - {e["id"] for e in store["events"]}:      # écarté par le tri : on ne garde pas son affiche
+        (POSTERS / f"{i}.jpg").unlink(missing_ok=True)
     store["last_run"] = datetime.now().isoformat(timespec="seconds")
     FB_STORE.write_text(json.dumps(store, ensure_ascii=False, indent=1), encoding="utf-8")
     return store["events"]
@@ -773,30 +814,14 @@ _desc = {}   # texte décrivant chaque photo (titre + description), pour vérifi
 OK_LICENSES = re.compile(r"^(CC0|CC BY|CC BY-SA|Public domain|PD|Attribution)", re.I)
 BAD_TITLE = re.compile(r"logo|map|carte|plan|diagram|schema|svg|flag|drapeau|coat|blason|poster|affiche|screenshot|icon|televis|broadcast|engraving|gravure|portrait|manuscript|stamp|coin|painting|drawing", re.I)
 
-CATEGORY_QUERIES = {
-    "concert": ["live concert", "concert stage", "rock concert"], "festival": ["music festival", "festival crowd"],
-    "party": ["nightclub", "dance party", "disco"], "theatre": ["theatre performance", "theatre stage", "opera"],
-    "expo": ["art exhibition", "art museum", "museum gallery"], "cinema": ["movie theater", "cinema hall"],
-    "culture": ["historic building", "old town", "heritage"], "sport": ["football match", "sports stadium", "running race"],
-    "motorsport": ["motor racing", "race track", "grand prix"], "outdoor": ["hiking trail", "forest path", "nature walk"],
-    "food": ["street food", "food market", "farmers market"], "flea": ["flea market", "antique market"],
-    "fair": ["funfair", "ferris wheel", "carnival"], "family": ["children playing", "family park"],
-    "wellness": ["outdoor yoga", "yoga class"], "workshop": ["craft workshop", "pottery workshop"],
-    "talks": ["conference audience", "public lecture"], "geek": ["video game", "comic convention", "board game"],
-}
-KIND_QUERIES = {
-    "bowling": ["bowling alley", "bowling lanes", "bowling center", "ten-pin bowling", "bowling"], "escape": ["escape room", "escape game"], "karting": ["go-kart", "kart track", "karting"],
-    "laser": ["laser tag", "laser game"], "trampoline": ["trampoline park", "trampoline"], "climbing": ["sport climbing", "bouldering", "climbing wall", "rock climber"],
-    "billiards": ["billiards", "pool table"], "arcade": ["arcade game", "video arcade", "arcade", "pinball"], "minigolf": ["miniature golf", "mini golf", "minigolf", "mini-golf"],
-    "club": ["nightclub", "dance floor", "disco", "club night"], "waterpark": ["water park", "waterslide"],
-}
-
-
 def commons_images(query, n=8, min_w=900, require=None, generic=False):
     """Plusieurs photos libres pour une recherche : liste de (url, crédit). Résultats mémorisés."""
     key = "L|" + query + ("|" + ",".join(require) if require else "") + ("|g" if generic else "")
     if key in _img_cache:
-        return [tuple(x) for x in _img_cache[key]]
+        for x in _img_cache[key]:
+            if len(x) > 2:
+                _desc[x[0]] = x[2]
+        return [tuple(x[:2]) for x in _img_cache[key]]
     global _lookup_spent
     if _lookup_spent >= IMAGE_LOOKUP_SECONDS:
         return []                                    # temps du passage épuisé : on réessaiera au prochain
@@ -834,7 +859,7 @@ def _commons_search(key, query, n, min_w, require, generic):
                 continue
             if w < min_w or h < 500 or w < h * 1.1:
                 continue
-            said = (p.get("title", "") + " " + meta.get("ObjectName", {}).get("value", "") + " "
+            said = (p.get("title", "") + "\n" + meta.get("ObjectName", {}).get("value", "") + " "
                     + re.sub(r"<[^>]+>", " ", meta.get("ImageDescription", {}).get("value", ""))).lower()
             if require and not any(tok in said for tok in require):
                 continue
@@ -852,14 +877,9 @@ def _commons_search(key, query, n, min_w, require, generic):
                 break
     except Exception:
         found = []
-    _img_cache[key] = [list(x) for x in found]
+    _img_cache[key] = [[u, c, _desc.get(u, "")] for u, c in found]
     IMG_CACHE_FILE.write_text(json.dumps(_img_cache, ensure_ascii=False, indent=1))
     return found
-
-
-def commons_image(query, min_w=900, require=None, generic=False):
-    got = commons_images(query, n=1, min_w=min_w, require=require, generic=generic)
-    return got[0] if got else None
 
 
 GENERIC_WORDS = set("le la les de du des d l un une et au aux en sur the of and escape game karting bowling club salle studio rock bloc dalle partie centrale gauche droite face ouest est nord sud massif "
@@ -872,51 +892,24 @@ def distinctive_tokens(name):
     return [w for w in words if w not in GENERIC_WORDS]
 
 
-def _pick(seq, seed):
-    h = 5381
-    for ch in str(seed):
-        h = (h * 33 + ord(ch)) & 0xFFFFFFFF
-    return seq[h % len(seq)]
+def _plain(s):
+    return unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode().lower()
 
 
-def commons_text_has(url, words):
-    return any(w in _desc.get(url, "") for w in words)
-
-
-def photo_for(name, city, fallback_query, seed=None):
-    """Photo du lieu précis seulement si elle le nomme vraiment ; sinon une photo libre du même genre,
-    choisie parmi plusieurs selon le lieu pour que deux lieux voisins n'aient pas la même image."""
+def venue_photo(name, city):
+    """Photo libre du lieu précis, ou rien. Le nom du fichier doit contenir tous les mots propres au lieu, et la photo
+    doit être située dans la ville ou en Belgique : jamais l'« illustration » d'un autre lieu (un bowling américain…)."""
     tokens = distinctive_tokens(name)
-    place_words = [w for w in re.findall(r"[a-zA-Zà-ÿ]{4,}", (city or "").lower())] + ["liège", "liege", "belgi", "wallon"]
-    if tokens and any(len(t) >= 6 for t in tokens):
-        for item in commons_images(f"{name} {city}".strip(), n=4, require=tokens):
-            # la photo doit nommer le lieu ET être située dans la région : sinon c'est un homonyme (plage, cathédrale…)
-            if True:
-                text_ok = commons_text_has(item[0], place_words)
-                if text_ok:
-                    return item
-    pool = []
-    for q in ([fallback_query] if isinstance(fallback_query, str) else fallback_query):
-        for item in commons_images(q, n=8, generic=True):
-            if item[0] not in [x[0] for x in pool]:
-                pool.append(item)
-    if not pool:
+    if not tokens or not any(len(t) >= 6 for t in tokens):
         return None
-    url, credit = _pick(pool, seed or name or city)
-    return url, "Illustration : " + credit
-
-
-def fallback_pool():
-    """Quelques photos par catégorie, pour les événements lus en direct par l'app (Ticketmaster, OpenAgenda)."""
-    pool = {}
-    for cat, q in CATEGORY_QUERIES.items():
-        urls = []
-        for variant in q:
-            for got in commons_images(variant, n=4, generic=True):
-                if got[0] not in [u[0] for u in urls]:
-                    urls.append(got)
-        pool[cat] = [{"url": u, "credit": c} for u, c in urls[:5]]
-    return pool
+    # tous les mots du nom, même « mini-golf » ou « rocher » : une photo du village de Crisnée n'est pas son mini-golf
+    words = [w for w in re.findall(r"[a-zA-Zà-ÿ]{3,}", name.lower()) if w not in ("les", "des", "une", "aux", "sur", "the", "and")]
+    region = [_plain(w) for w in re.findall(r"[a-zA-Zà-ÿ]{4,}", city or "")] + ["liege", "belgi", "wallon", "bruxelles", "brussel"]
+    for url, credit in commons_images(f'"{name}" {city}'.strip(), n=4, require=tokens):
+        title, _, rest = _plain(_desc.get(url, "")).partition("\n")
+        if all(_plain(w) in title for w in words) and any(w in title + rest for w in region):
+            return url, credit
+    return None
 
 
 # ============================================================ photos manquantes
@@ -962,6 +955,21 @@ def _best_image(page, base):
     return anywhere[0] if anywhere else None
 
 
+def own_site(name, url):
+    """Le site est-il celui du lieu ? Son adresse doit contenir un mot propre au lieu :
+    « rbcesneux.be » (un club de basket) n'est pas le site du Mini-golf du Panorama."""
+    host = _plain(re.sub(r"^https?://(www\.)?", "", url or "").split("/")[0])
+    return any(_plain(t) in host for t in distinctive_tokens(name))
+
+
+def is_image(url):
+    """L'adresse renvoie-t-elle vraiment une image ? (et pas une page d'erreur ou de connexion)"""
+    r = subprocess.run(["curl", "-sL", "-o", "/dev/null", "--max-time", "10", "-r", "0-2047", "-w", "%{http_code} %{content_type}",
+                        "--", url], capture_output=True, text=True)
+    code, _, ctype = r.stdout.partition(" ")
+    return code in ("200", "206") and ctype.startswith("image/")
+
+
 def fill_images(events, limit=150):
     done = 0
     for e in events:
@@ -976,7 +984,7 @@ def fill_images(events, limit=150):
             continue
         done += 1
         img = best_image(page, link)
-        if img:
+        if img and is_image(img):
             e["image"] = img
 
 
@@ -1114,15 +1122,11 @@ def main():
             uniq.append(e)
     try:
         old = {e["id"]: e for e in json.loads(OUT.read_text())["events"]
-               if e.get("image") and not FB_FAKE_IMG.search(e["image"])
-               and not ("wikimedia.org" in e["image"] and not e.get("image_credit"))}   # photo libre sans crédit : on la refait
-        for e in uniq:
+               if e.get("image") and not FB_FAKE_IMG.search(e["image"]) and "wikimedia.org" not in e["image"]}
+        for e in uniq:                  # on ne reprend que les vraies affiches : les photos libres sont revérifiées
             prev = old.get(e["id"])
-            # une photo Wikimedia de secours sur un événement Facebook n'est pas gardée : on retente la vraie affiche
-            if not e.get("image") and prev and not (prev.get("image_credit") and "facebook.com" in (e.get("url") or "")):
+            if not e.get("image") and prev:
                 e["image"] = prev["image"]
-                if prev.get("image_credit"):
-                    e["image_credit"] = prev["image_credit"]
     except Exception:
         pass
     for e in uniq:
@@ -1131,25 +1135,27 @@ def main():
         elif re.search(r"\.fbcdn\.net/", e.get("image") or ""):
             _fb_rehost(e)           # adresse Facebook signée, qui expire : on en garde une copie, ou rien si elle a expiré
         # événement relevé par l'extension : si le service tiers a déjà copié son affiche, on la reprend
-        if e["id"].startswith("fbx-") and not e.get("image") and (POSTERS / f"fb-{e['id'][4:]}.jpg").exists():
-            e["image"] = RAW_BASE + f"fb-{e['id'][4:]}.jpg"
+        for name in (f"fb-{e['id'][4:]}.jpg", f"{e['id']}.jpg") if e["id"].startswith("fbx-") and not e.get("image") else ():
+            if (POSTERS / name).exists():
+                e["image"] = RAW_BASE + name
+                break
     fill_images(uniq, limit=400)                    # ~0,5 s par page (les pages Facebook sont sautées)
-    for e in uniq:                                   # dernier recours : photo libre du lieu, puis de la catégorie
+    for e in uniq:              # sinon : photo libre du lieu précis, ou rien (l'app montre la photo vérifiée de la catégorie)
         if not e.get("image"):
-            got = photo_for(e.get("venue"), e.get("city", ""), CATEGORY_QUERIES.get(e.get("category"), ["city event"]), seed=e.get("id"))
+            got = venue_photo(e.get("venue"), e.get("city", ""))
             if got:
                 e["image"], e["image_credit"] = got
     try:
         lieux = places()
-        for p in [x for x in lieux if x.get("website")][:25]:   # photo du site officiel quand il y en a un
-            if p.get("website"):
+        for p in lieux:          # photo du site officiel, sinon photo libre du lieu précis, sinon rien (l'app montre une icône)
+            if p.get("website") and own_site(p["name"], p["website"]):
                 try:
-                    p["image"] = best_image(fetch(p["website"], timeout=8), p["website"])
+                    img = best_image(fetch(p["website"], timeout=15), p["website"])
+                    p["image"] = img if img and is_image(img) else None
                 except Exception:
                     pass
-        for p in lieux:
             if not p.get("image"):
-                got = photo_for(p["name"], p.get("city", ""), KIND_QUERIES.get(p["kind"], ["leisure"]), seed=p["id"])
+                got = venue_photo(p["name"], p.get("city", ""))
                 if got:
                     p["image"], p["image_credit"] = got
         (HERE / "places.json").write_text(json.dumps({"generated": datetime.now().isoformat(timespec="seconds"),
@@ -1161,10 +1167,7 @@ def main():
         {"genere": datetime.now().isoformat(timespec="seconds"), "sources": REPORT,
          "avec_image": sum(1 for e in uniq if e.get("image")), "total": len(uniq)},
         ensure_ascii=False, indent=2), encoding="utf-8")
-    try:
-        (HERE / "fallback_images.json").write_text(json.dumps(fallback_pool(), ensure_ascii=False, indent=1), encoding="utf-8")
-    except Exception as ex:
-        print(f"Photos de secours: ÉCHEC ({ex})", file=sys.stderr)
+    # fallback_images.json (photos de catégorie) est choisi et vérifié à l'œil : le robot n'y touche plus
     apply_sponsors(uniq)
     OUT.write_text(json.dumps({"generated": datetime.now().isoformat(timespec="seconds"), "events": uniq},
                               ensure_ascii=False, indent=2), encoding="utf-8")
