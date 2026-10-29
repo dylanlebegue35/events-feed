@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T10:41:24",
+  "generated": "2026-10-29T16:49:06",
   "events": [
     {
       "id": "web-visithuy-l-invention-cach-e-2026-05-25",
@@ -20,6 +20,28 @@
       "audience": [],
       "tags": [],
       "source": "VisitHuy"
+    },
+    {
+      "id": "web-province-de-li-ge-exposition-gustave-marissiaux-la-mine-en-lumi-re-2026-06-05",
+      "title": "Exposition - Gustave Marissiaux. La mine en lumière",
+      "category": "expo",
+      "venue": "Musée de la Vie wallonne",
+      "city": "Liège",
+      "lat": 50.6470126,
+      "lon": 5.5762205,
+      "start": "2026-06-05T10:00:00",
+      "end": "2027-01-03T20:00:00",
+      "image": "https://www.provincedeliege.be/sites/default/files/styles/plg_medias_h_600/public/media/19898/Affiche_Marissiaux_web.jpg?itok=W2c-ZKQ-",
+      "page_url": "https://www.provincedeliege.be/fr/evenement/17/19898",
+      "url": "https://www.provincedeliege.be/fr/evenement/17/19898",
+      "summary": "Plongée au cœur des charbonnages liégeois dans cette exposition consacrée à Gustave Marissiaux.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [
+        "découverte"
+      ],
+      "source": "Province de Liège"
     },
     {
       "id": "web-visithuy-a-la-d-couverte-de-l-italie-via-ses-t-l-ph-riques-2026-08-29",
@@ -160,6 +182,26 @@
         "découverte"
       ],
       "source": "Grand Curtius (Liège)"
+    },
+    {
+      "id": "web-province-de-li-ge-semaine-infernale-2026-au-mus-e-de-la-vie-wallonne-2026-10-18",
+      "title": "Semaine infernale 2026 au Musée de la Vie wallonne",
+      "category": "culture",
+      "venue": "Musée de la Vie wallonne",
+      "city": "Liège",
+      "lat": 50.6470126,
+      "lon": 5.5762205,
+      "start": "2026-10-18T10:00:00",
+      "end": "2026-10-31T20:00:00",
+      "image": "https://www.provincedeliege.be/sites/default/files/media/20047/vacancesInfernales_2026_2000-400px.jpg",
+      "page_url": "https://www.provincedeliege.be/fr/evenement/17/20047",
+      "url": "https://www.provincedeliege.be/fr/evenement/17/20047",
+      "summary": "Programme effrayant pour la période d'Halloween au Musée de la Vie wallonne.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Province de Liège"
     },
     {
       "id": "fbx-1127866592912327",
@@ -616,7 +658,7 @@
       "image": "https://www.operaliege.be/app/uploads/2026/03/2026-04-01_ORW-26-27_Hero_Enfant-Horloge_V3-scaled.jpg",
       "page_url": "https://www.operaliege.be/evenement/operas-lheure-espagnole-lenfant-et-les-sortileges-2026/",
       "url": "https://www.operaliege.be/evenement/operas-lheure-espagnole-lenfant-et-les-sortileges-2026/?opened",
-      "summary": "Opéra de Maurice Ravel : L'Heure espagnole et L'Enfant et les sortilèges",
+      "summary": "Deux opéras de Maurice Ravel : L'Heure espagnole et L'Enfant et les sortilèges.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -1470,7 +1512,9 @@
       "price_from": null,
       "free": null,
       "audience": [],
-      "tags": [],
+      "tags": [
+        "soirée"
+      ],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
@@ -2682,7 +2726,7 @@
       "lon": 3.9423486,
       "start": "2026-10-30T20:00:00",
       "end": "2026-10-30T21:30:00",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Phantom_featuring_Lio.jpg/1280px-Phantom_featuring_Lio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Harbourfront_Centre_Concert_Stage%2C_Toronto_2026.jpg/1280px-Harbourfront_Centre_Concert_Stage%2C_Toronto_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1101007082875060/",
       "url": "https://www.facebook.com/events/1101007082875060/",
       "summary": "Concert de Simon Cortisone au Salon, la salle de concerts de Silly, en collaboration avec Silly Culture.",
@@ -2691,7 +2735,7 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)",
-      "image_credit": "Marcwathieu / Wikimedia Commons, CC BY-SA 3.0"
+      "image_credit": "Illustration : Chicken4War / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "fbx-1973824483189957",
@@ -2832,12 +2876,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/ADEMO 510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202610302000.html",
       "url": "https://www.leforum.be/spectacle_202610302000.html",
-      "summary": "MEDIASCENE présente SALVATORE ADAMO",
+      "summary": "MEDIASCENE présente Salvatore Adamo en concert au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -3556,6 +3598,26 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
+      "id": "web-province-de-li-ge-le-palais-et-ses-fant-mes-2026-10-31",
+      "title": "Le Palais et ses Fantômes",
+      "category": "culture",
+      "venue": "Palais provincial de Liège",
+      "city": "Liège",
+      "lat": 50.6461675,
+      "lon": 5.5731382,
+      "start": "2026-10-31T10:00:00",
+      "end": "2026-10-31T10:00:00",
+      "image": "https://www.provincedeliege.be/sites/default/files/media/19186/961A9548-palais-banner-2000x400.jpg",
+      "page_url": "https://www.provincedeliege.be/fr/evenement/233/20066",
+      "url": "https://www.provincedeliege.be/fr/evenement/233/20066",
+      "summary": "Visite horrifique hors du commun au Palais Provincial de Liège avec la Compagnie du Moderne.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Province de Liège"
+    },
+    {
       "id": "web-th-tre-de-li-ge-forum-impact-2026-2026-10-31",
       "title": "Forum IMPACT 2026",
       "category": "festival",
@@ -4032,7 +4094,7 @@
       "lon": 5.5308478,
       "start": "2026-10-31T13:00:00",
       "end": "2026-10-31T16:00:00",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Virton._Avenue_Bouvier_%28vue_de_la_Gare%29%2C_GP074602_%282%29.jpg/1280px-Virton._Avenue_Bouvier_%28vue_de_la_Gare%29%2C_GP074602_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Boys_playing_street_football_in_Egypt.jpg/1280px-Boys_playing_street_football_in_Egypt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/2015780866048036/",
       "url": "https://www.facebook.com/events/2015780866048036/",
       "summary": "Après-midi et soirée Halloween avec animations au Repaire.",
@@ -4041,7 +4103,7 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)",
-      "image_credit": "Unknown / Wikimedia Commons, Public domain"
+      "image_credit": "Illustration : Mohamed Hozyen Ahmed / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "fbx-1093952770197294",
@@ -4223,7 +4285,7 @@
       "lon": 4.3559944,
       "start": "2026-10-31T14:30:00",
       "end": "2026-10-31T17:00:00",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Bruxelles-centre%2C_place_d%27Espagne_-_panoramio.jpg/1280px-Bruxelles-centre%2C_place_d%27Espagne_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Cockayne_Nature_Walk_MRD_01.jpg/1280px-Cockayne_Nature_Walk_MRD_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1031323772832506/",
       "url": "https://www.facebook.com/events/1031323772832506/",
       "summary": "Jeu de piste dans le centre de Bruxelles, entre lieux connus et coins méconnus. Billets payants, plusieurs dates.",
@@ -4232,7 +4294,7 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)",
-      "image_credit": "charles lecompte / Wikimedia Commons, CC BY-SA 3.0"
+      "image_credit": "Illustration : Mike Dickison / Wikimedia Commons, CC BY 4.0"
     },
     {
       "id": "fbx-1143263788259703",
@@ -4391,7 +4453,7 @@
       "lon": 4.2002248,
       "start": "2026-10-31T16:00:00",
       "end": "2026-10-31T19:00:00",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Dam_Park_Sports_Stadium_-_Ayr_-_geograph.org.uk_-_6030300.jpg/1280px-Dam_Park_Sports_Stadium_-_Ayr_-_geograph.org.uk_-_6030300.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Stade_Leburton.jpg/1280px-Stade_Leburton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/4590222824586582/",
       "url": "https://www.facebook.com/events/4590222824586582/",
       "summary": "Course cycliste par équipes de trois sur le thème d'Halloween.",
@@ -4400,7 +4462,7 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)",
-      "image_credit": "Illustration : Ian Rainey / Wikimedia Commons, CC BY-SA 2.0"
+      "image_credit": "K7E0V3I3N / Wikimedia Commons, CC BY-SA 3.0"
     },
     {
       "id": "fbx-1390197926611466",
@@ -4475,7 +4537,7 @@
       "lon": 5.8124122,
       "start": "2026-10-31T17:00:00",
       "end": "2026-10-31T20:00:00",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Live_concert_of_James.jpg/1280px-Live_concert_of_James.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Arlon_Place_Lepold_Parking.jpg/1280px-Arlon_Place_Lepold_Parking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/2492143601266601/",
       "url": "https://www.facebook.com/events/2492143601266601/",
       "summary": "Apéro-concert spécial Halloween avec Loud Parks et Marc Poncin, organisé par la Commission des fêtes.",
@@ -4484,7 +4546,7 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)",
-      "image_credit": "Illustration : Shariful iea / Wikimedia Commons, CC BY-SA 4.0"
+      "image_credit": "KaiBorgeest / Wikimedia Commons, CC BY 4.0"
     },
     {
       "id": "fbx-2566317477204858",
@@ -4538,7 +4600,7 @@
       "lon": 4.0845939,
       "start": "2026-10-31T17:00:00",
       "end": "2026-10-31T20:00:00",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Children_playing_in_the_rice_mill_%28edited%29.jpg/1280px-Children_playing_in_the_rice_mill_%28edited%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/2001_-_%27Petit-Enghien%27_-_Marie-Claire_Lef%C3%A9bure.JPG/1280px-2001_-_%27Petit-Enghien%27_-_Marie-Claire_Lef%C3%A9bure.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1075232678242544/",
       "url": "https://www.facebook.com/events/1075232678242544/",
       "summary": "Marche déguisée et frissonnante d'Halloween dans le village de Petit-Enghien.",
@@ -4547,7 +4609,7 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)",
-      "image_credit": "Illustration : Original:  Azimronnie\nDerivative work:  Radomianin / Wikimedia Commons, CC BY-SA 4.0"
+      "image_credit": "Marie-Claire / Wikimedia Commons, CC BY 4.0"
     },
     {
       "id": "fbx-1390757319885634",
@@ -4643,7 +4705,7 @@
       "lon": 4.396665,
       "start": "2026-10-31T17:00:00",
       "end": "2026-10-31T20:00:00",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Kazantip%2C_Popovka%2C_Crimea%2C_Dance_party%2C_Peak_moments.jpg/1280px-Kazantip%2C_Popovka%2C_Crimea%2C_Dance_party%2C_Peak_moments.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Uccle%2C_quartier_Bascule%2C_r%C3%A9sidence_Rivoli%2C_chauss%C3%A9e_de_Waterloo%2C_angle_rue_E.Claus_-_panoramio.jpg/1280px-Uccle%2C_quartier_Bascule%2C_r%C3%A9sidence_Rivoli%2C_chauss%C3%A9e_de_Waterloo%2C_angle_rue_E.Claus_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1123512096886913/",
       "url": "https://www.facebook.com/events/1123512096886913/",
       "summary": "Soirée Halloween immersive au Lumilab de Waterloo.",
@@ -4652,7 +4714,7 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)",
-      "image_credit": "Illustration : Vyacheslav Argenberg / Wikimedia Commons, CC BY 4.0"
+      "image_credit": "charles lecompte / Wikimedia Commons, CC BY-SA 3.0"
     },
     {
       "id": "fbx-1022269607525511",
@@ -4664,7 +4726,7 @@
       "lon": 4.5617546,
       "start": "2026-10-31T17:00:00",
       "end": "2026-10-31T20:00:00",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Children_playing_in_the_rice_mill_%28edited%29.jpg/1280px-Children_playing_in_the_rice_mill_%28edited%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/NW_view_of_the_Court-Saint-%C3%89tienne_cemetery_from_the_Mausol%C3%A9e_Goblet_d%27Alviella_%28DSCF7584%29.jpg/1280px-NW_view_of_the_Court-Saint-%C3%89tienne_cemetery_from_the_Mausol%C3%A9e_Goblet_d%27Alviella_%28DSCF7584%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1022269607525511/",
       "url": "https://www.facebook.com/events/1022269607525511/",
       "summary": "Fête d'Halloween avec cortège et animations pour les enfants.",
@@ -4673,7 +4735,7 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)",
-      "image_credit": "Illustration : Original:  Azimronnie\nDerivative work:  Radomianin / Wikimedia Commons, CC BY-SA 4.0"
+      "image_credit": "Trougnouf (Benoit Brummer) / Wikimedia Commons, CC BY 4.0"
     },
     {
       "id": "fbx-1494718322419837",
@@ -4854,7 +4916,7 @@
       "lon": 5.9713469,
       "start": "2026-10-31T18:00:00",
       "end": "2026-10-31T21:00:00",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Withers_Family_Park_information_board.jpg/1280px-Withers_Family_Park_information_board.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Baelen_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "page_url": "https://www.facebook.com/events/1122888923636106/",
       "url": "https://www.facebook.com/events/1122888923636106/",
       "summary": "Soirée Halloween organisée par le Patro Saint-Paul pour les enfants et les familles de Baelen-Membach.",
@@ -4863,7 +4925,7 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)",
-      "image_credit": "Illustration : David Palmer / Wikimedia Commons, CC BY-SA 4.0"
+      "image_credit": "Frinck51 / Wikimedia Commons, CC BY 2.0"
     },
     {
       "id": "fbx-915129784802119",
@@ -5064,7 +5126,7 @@
       "lon": 4.2347126,
       "start": "2026-10-31T18:00:00",
       "end": "2026-11-01T02:00:00",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Stonewall_Inn_with_Orlando_nightclub_shooting_memorial_during_Pride_2016_%2850126p%29.jpg/1280px-Stonewall_Inn_with_Orlando_nightclub_shooting_memorial_during_Pride_2016_%2850126p%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Fayt-lez-Manage_060528_%283%29.JPG/1280px-Fayt-lez-Manage_060528_%283%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1076166998644643/",
       "url": "https://www.facebook.com/events/1076166998644643/",
       "summary": "Soirée électro festive pour Halloween organisée par Elle Aime Prod.",
@@ -5073,7 +5135,7 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)",
-      "image_credit": "Illustration : Rhododendrites / Wikimedia Commons, CC BY-SA 4.0"
+      "image_credit": "Jean-Pol GRANDMONT / Wikimedia Commons, CC BY-SA 3.0"
     },
     {
       "id": "fbx-1593572832149620",
@@ -6304,12 +6366,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/NATASHA ST PIER 510x630 copie.jpg",
       "page_url": "https://www.leforum.be/spectacle_202610312000.html",
       "url": "https://www.leforum.be/spectacle_202610312000.html",
-      "summary": "MEDIASCENE présente NATASHA ST-PIER",
+      "summary": "MEDIASCENE présente Natasha St-Pier en concert au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -7129,7 +7189,7 @@
       "image": "https://www.provincedeliege.be/sites/default/files/media/19186/961A9548-palais-banner-2000x400.jpg",
       "page_url": "https://www.provincedeliege.be/fr/evenement/233/19186",
       "url": "https://www.provincedeliege.be/fr/evenement/233/19186",
-      "summary": "La Province de Liège organise des visites gratuites du Palais provincial le 1er dimanche du mois afin de le faire découvrir à des publics nouveaux.",
+      "summary": "Visites gratuites du Palais provincial pour rendre le Palais aux Liégeois et le faire découvrir à des publics nouveaux.",
       "price_from": null,
       "free": true,
       "audience": [],
@@ -7903,7 +7963,7 @@
       "end": "2026-11-03T19:00:00",
       "image": "https://s1.ticketm.net/dam/a/550/f80aedb0-8b54-4ced-81ce-39f322301550_RETINA_PORTRAIT_16_9.jpg",
       "url": "https://www.ticketmaster.be/event/arlo-parks-desire-tour-tickets/1873346730",
-      "summary": "Support Artist: BAIRD Event information & timings: www.livenation.be",
+      "summary": "19:00 Doors 20:00 Baird 21:00 Arlo Parks Event information & timings: www.livenation.be",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -8049,12 +8109,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/MARINE-LEONARDI_v2-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611032000.html",
       "url": "https://www.leforum.be/spectacle_202611032000.html",
-      "summary": "BACK IN THE DAYZ en accord avec AGAPÈ présente MARINE LEONARDI, MAUVAISE GRAINE",
+      "summary": "BACK IN THE DAYZ en accord avec AGAPÈ présente Marine Leonardi, Mauvaise Graine.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -8677,12 +8735,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/tim-burton-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611042000.html",
       "url": "https://www.leforum.be/spectacle_202611042000.html",
-      "summary": "OVERHEARDS presents AN ORCHESTRAL TRIBUTE OF TIM BURTON & DARK FANTASY",
+      "summary": "OVERHEARDS presents An Orchestral Tribute of Tim Burton & Dark Fantasy.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -9537,12 +9593,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/MOGWAI_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611052000.html",
       "url": "https://www.leforum.be/spectacle_202611052000.html",
-      "summary": "REFLEKTOR présente MOGWAI 30",
+      "summary": "REFLEKTOR présente Mogwai 30 au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -10733,12 +10787,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/Claude_510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611062000.html",
       "url": "https://www.leforum.be/spectacle_202611062000.html",
-      "summary": "OSE LA JOIE en accord avec CTX AGENCY et MYLITTLE VOICE PRODUCTION présente \"Y A D'LA JOIE ...BORDEL!\" - CLAUDE FRANÇOIS",
+      "summary": "OSE LA JOIE présente \"Y A D'LA JOIE ...BORDEL!\" - Claude François.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -12993,12 +13045,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/Damien-Gillard-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611072000.html",
       "url": "https://www.leforum.be/spectacle_202611072000.html",
-      "summary": "CORNIAUD AND CO présente DAMIEN GILLARD - \" RUDE \"",
+      "summary": "CORNIAUD AND CO présente Damien Gillard - \" RUDE \".",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -14557,12 +14607,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/NINO ARIAL 510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611081730.html",
       "url": "https://www.leforum.be/spectacle_202611081730.html",
-      "summary": "KISS KISS PROD en accord avec JUICY PRODUCTION présente NINO ARIAL : PAS COMME EUX",
+      "summary": "KISS KISS PROD en accord avec JUICY PRODUCTION présente Nino Arial : Pas Comme Eux.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -16163,12 +16211,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/KODY-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611112000.html",
       "url": "https://www.leforum.be/spectacle_202611112000.html",
-      "summary": "DIAGONALE PRODUCTIONS présente KODY \"ÉVOLUÉ\"",
+      "summary": "DIAGONALE PRODUCTIONS présente Kody \"Évolué\" au Forum.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -16620,12 +16666,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/agebete-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611122000.html",
       "url": "https://www.leforum.be/spectacle_202611122000.html",
-      "summary": "NEXT-STEP.BE en accord avec GILBERT COULLIER PRODUCTIONS présente L'ÂGE BÊTE",
+      "summary": "NEXT-STEP.BE présente Michèle Laroque et Kad Merad dans L'ÂGE BÊTE.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -16943,8 +16987,8 @@
       "source": "Recyclart (Bruxelles)"
     },
     {
-      "id": "web-province-de-li-ge-rencontre-avec-marie-anne-chazel-2026-11-13",
-      "title": "Rencontre avec Marie-Anne Chazel",
+      "id": "web-province-de-li-ge-fifcl-rencontre-avec-marie-anne-chazel-2026-11-13",
+      "title": "FIFCL : rencontre avec Marie-Anne Chazel",
       "category": "culture",
       "venue": "Palais provincial de Liège",
       "city": "Liège",
@@ -16955,7 +16999,7 @@
       "image": "https://www.provincedeliege.be/sites/default/files/styles/plg_medias_h_600/public/media/20072/1080x1350_Chazel2.jpg?itok=pxD23aMg",
       "page_url": "https://www.provincedeliege.be/fr/evenement/13/20072",
       "url": "https://www.provincedeliege.be/fr/evenement/13/20072",
-      "summary": "Rencontre avec Marie-Anne Chazel au Palais provincial de Liège. Entrée gratuite sur réservation.",
+      "summary": "Rencontre avec Marie-Anne Chazel le vendredi 13 novembre à 11h - entrée gratuite sur réservation.",
       "price_from": null,
       "free": true,
       "audience": [],
@@ -17559,7 +17603,7 @@
       "lon": 3.9423486,
       "start": "2026-11-13T19:30:00",
       "end": "2026-11-13T22:30:00",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Phantom_featuring_Lio.jpg/1280px-Phantom_featuring_Lio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Live_concert_of_James.jpg/1280px-Live_concert_of_James.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1383335350533704/",
       "url": "https://www.facebook.com/events/1383335350533704/",
       "summary": "Soirée de sortie de l'album « Unexpected Madness » du groupe Azylum au Salon de Silly.",
@@ -17568,7 +17612,7 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)",
-      "image_credit": "Marcwathieu / Wikimedia Commons, CC BY-SA 3.0"
+      "image_credit": "Illustration : Shariful iea / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "fbx-29947433134856781",
@@ -17772,12 +17816,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/GREASE_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611132000.html",
       "url": "https://www.leforum.be/spectacle_202611132000.html",
-      "summary": "MEDIASCENE présente \" GREASE IS THE WORD \"",
+      "summary": "MEDIASCENE présente \"Grease Is The Word\" au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -19886,12 +19928,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/amine-radi-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611142000.html",
       "url": "https://www.leforum.be/spectacle_202611142000.html",
-      "summary": "KISS KISS PROD présente AMINE RADI - LA SUIVETTE",
+      "summary": "KISS KISS PROD présente Amine Radi - La Suivette.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -21037,12 +21077,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/JULIEN_DASSIN_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611151600.html",
       "url": "https://www.leforum.be/spectacle_202611151600.html",
-      "summary": "L'ASBL SOLMANIA EVENTS présente JULIEN DASSIN CHANTE JOE DASSIN",
+      "summary": "L'ASBL SOLMANIA EVENTS présente Julien Dassin chante Joe Dassin.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -21554,12 +21592,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/Affiche-PE-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611172000.html",
       "url": "https://www.leforum.be/spectacle_202611172000.html",
-      "summary": "BACK IN THE DAYZ en accord avec LA VIE EST UNE FÊTE présente PE, çA NE S'EST PAS PASSé COMME PRéVU",
+      "summary": "BACK IN THE DAYZ en accord avec LA VIE EST UNE FÊTE présente PE.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -21702,8 +21738,8 @@
       "image_credit": "Illustration : Trevor Littlewood / Wikimedia Commons, CC BY-SA 2.0"
     },
     {
-      "id": "web-reflektor-li-ge-nayte-2026-11-18",
-      "title": "NAYTE",
+      "id": "web-reflektor-li-ge-nayte-18-11-2026-11-18",
+      "title": "NAYTE (18/11)",
       "category": "concert",
       "venue": "Reflektor",
       "city": "Liège",
@@ -22070,12 +22106,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/clement_viktorovitch_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611182000.html",
       "url": "https://www.leforum.be/spectacle_202611182000.html",
-      "summary": "OD LIVE présente CLÉMENT VIKTOROVITCH \"L'ART DE NE PAS DIRE\"",
+      "summary": "OD LIVE présente Clément Viktorovitch \"L'Art De Ne Pas Dire\".",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -22158,8 +22192,8 @@
       "image_credit": "Illustration : Yu Chu Chin / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
-      "id": "web-reflektor-li-ge-nayte-2026-11-19",
-      "title": "NAYTE",
+      "id": "web-reflektor-li-ge-nayte-19-11-2026-11-19",
+      "title": "NAYTE (19/11)",
       "category": "concert",
       "venue": "Reflektor",
       "city": "Liège",
@@ -22546,12 +22580,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/RENAUD_rutten-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611192000.html",
       "url": "https://www.leforum.be/spectacle_202611192000.html",
-      "summary": "GRAND OPERA présente RENAUD RUTTEN FAIT SON CINÉMA !",
+      "summary": "GRAND OPERA présente Renaud Rutten Fait Son Cinéma !",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -22761,8 +22793,8 @@
       "source": "Madame Moustache (Bruxelles)"
     },
     {
-      "id": "web-reflektor-li-ge-the-jazz-room-un-voyage-au-c-ur-de-la-nouvelle-orl-ans-2026-11-2",
-      "title": "The Jazz Room : un voyage au cœur de La Nouvelle-Orléans",
+      "id": "web-reflektor-li-ge-the-jazz-room-un-voyage-au-c-ur-de-la-nouvelle-orl-ans-11-2026-2",
+      "title": "The Jazz Room : un voyage au cœur de La Nouvelle-Orléans (11/2026)",
       "category": "concert",
       "venue": "Reflektor",
       "city": "Liège",
@@ -23598,12 +23630,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/hans-zimmer-alan-silvestri-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611202000.html",
       "url": "https://www.leforum.be/spectacle_202611202000.html",
-      "summary": "GRAND OPERA présente THE MUSIC OF HANS ZIMMER & ALAN SILVESTRI",
+      "summary": "GRAND OPERA présente The Music Of Hans Zimmer & Alan Silvestri.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -24310,8 +24340,8 @@
       "image_credit": "Illustration : Republic of  Korea from Seoul, Republic of Korea / Wikimedia Commons, CC BY-SA 2.0"
     },
     {
-      "id": "web-province-de-li-ge-salon-des-vins-2026-2026-11-21",
-      "title": "Salon des Vins 2026",
+      "id": "web-province-de-li-ge-3e-salon-des-viticulteurs-de-la-province-de-li-ge-2026-11-21",
+      "title": "3e Salon des Viticulteurs de la Province de Liège",
       "category": "food",
       "venue": "Liège",
       "city": "Liège",
@@ -24322,7 +24352,7 @@
       "image": "https://www.provincedeliege.be/sites/default/files/styles/plg_medias_h_600/public/media/20068/CPFAR%20-%20Affiche%203eme%20salon%20viticulteur%20211126.jpg?itok=a3H3MKZf",
       "page_url": "https://www.provincedeliege.be/fr/evenement/36/20068",
       "url": "https://www.provincedeliege.be/fr/evenement/36/20068",
-      "summary": "3e Salon des Viticulteurs de la Province de Liège. Venez découvrir de nouveaux vignerons et viticulteurs proche de chez vous !",
+      "summary": "Découvrez de nouveaux vignerons et viticulteurs proches de chez vous à ce salon des viticulteurs.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -24365,7 +24395,7 @@
       "image": "https://www.operaliege.be/app/uploads/2026/03/2026-03-12_ORW-26-27_Hero_ZombieOpera_V2-1-scaled.jpg",
       "page_url": "https://www.operaliege.be/evenement/zombie-opera-2026/",
       "url": "https://www.operaliege.be/evenement/zombie-opera-2026/?opened",
-      "summary": "Opéra réalisé par Andrea Battistoni",
+      "summary": "Opéra réalisé par Andrea Battistoni.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -24385,12 +24415,10 @@
       "image": "https://www.operaliege.be/app/uploads/2026/04/Zombie-Co-v1-1600x900px-2026-2027.png",
       "page_url": "https://www.operaliege.be/evenement/animation-zombie-co-2026/",
       "url": "https://www.operaliege.be/evenement/animation-zombie-co-2026/?opened",
-      "summary": "Animation en lien avec la saison Zombie Opera",
+      "summary": "Animation Zombie & Co.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "family"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Opéra Royal de Wallonie"
     },
@@ -25757,12 +25785,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/LETZ_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611212000.html",
       "url": "https://www.leforum.be/spectacle_202611212000.html",
-      "summary": "ETOILE PRODUCTIONS & KULTOPOLIS présentent ZEPPELIN'S RESURRECTION - LETZ-ZEP",
+      "summary": "ETOILE PRODUCTIONS & KULTOPOLIS présentent Zeppelin's Resurrection - Letz-Zep.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -26870,12 +26896,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/jamelcomedyclub-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611221800.html",
       "url": "https://www.leforum.be/spectacle_202611221800.html",
-      "summary": "FIRST LINE PRODUCTION présente JAMEL COMEDY CLUB",
+      "summary": "FIRST LINE PRODUCTION présente Jamel Comedy Club au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -27010,12 +27034,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/AFFICHE-VERTICALE-CASSE-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611242000.html",
       "url": "https://www.leforum.be/spectacle_202611242000.html",
-      "summary": "FRANCECONCERT présente CASSE - NOISETTE - BALLET ET ORCHESTRE",
+      "summary": "FRANCECONCERT présente Casse - Noisette - Ballet Et Orchestre.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "family"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -27214,12 +27236,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/GERRA510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611252000.html",
       "url": "https://www.leforum.be/spectacle_202611252000.html",
-      "summary": "OD LIVE en accord avec GCP présente LAURENT GERRA \" SE MET à TABLE ! \"",
+      "summary": "OD LIVE en accord avec GCP présente Laurent Gerra \"Se Met à Table !\".",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -27530,12 +27550,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/MACHIAVEL 510X630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611262000.html",
       "url": "https://www.leforum.be/spectacle_202611262000.html",
-      "summary": "STAGE MAGIC présente MACHIAVEL",
+      "summary": "STAGE MAGIC présente Machiavel au Forum de Liège.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -27779,16 +27797,17 @@
       "image": "https://cdn.prod.website-files.com/6368c5291a6c8b8e4deae634/6368c5291a6c8b5cb2eae6d6_Marche%CC%81%20de%20Noe%CC%88l%20305.jpeg",
       "page_url": "https://www.villagedenoel.be/programme",
       "url": "https://www.villagedenoel.be/programme",
-      "summary": "Plus de 200 chalets d'artisanat, cadeaux, gastronomie et folklore. Le plus ancien marché de Noël de Belgique.",
+      "summary": "Le plus ancien marché de Noël de Belgique avec plus de 200 chalets d'artisanat, gastronomie et divertissements au cœur de Liège.",
       "price_from": null,
-      "free": null,
+      "free": true,
       "audience": [
         "family"
       ],
       "tags": [
+        "gratuit",
         "gourmand",
-        "découverte",
-        "créatif"
+        "créatif",
+        "découverte"
       ],
       "source": "Village de Noël (Liège)"
     },
@@ -27805,7 +27824,7 @@
       "image": "https://cdn.prod.website-files.com/6368c5291a6c8b8e4deae634/6368c5291a6c8b0e16eae755_FooterPatinoireIllu.png",
       "page_url": "https://www.villagedenoel.be/activite/la-patinoire",
       "url": "https://www.villagedenoel.be/activite/la-patinoire",
-      "summary": "Patinoire de Noël au cœur de Liège. Un moment inoubliable en famille ou entre amis.",
+      "summary": "Une patinoire pour patiner en famille au cœur du Village de Noël de Liège.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -27813,7 +27832,7 @@
       ],
       "tags": [
         "en plein air",
-        "découverte"
+        "sportif"
       ],
       "source": "Village de Noël (Liège)"
     },
@@ -27873,7 +27892,7 @@
       "lon": 5.8124122,
       "start": "2026-11-27T14:00:00",
       "end": "2026-11-27T17:00:00",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Barnett_Family_Park_in_Lakeland%2C_Florida_entrance.jpg/1280px-Barnett_Family_Park_in_Lakeland%2C_Florida_entrance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Arlon_Place_Lepold_Parking.jpg/1280px-Arlon_Place_Lepold_Parking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1440905458168444/",
       "url": "https://www.facebook.com/events/1440905458168444/",
       "summary": "La patinoire de fin d'année s'installe sur la place Léopold, ouverte sur de nombreuses dates jusqu'aux fêtes.",
@@ -27882,7 +27901,7 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)",
-      "image_credit": "Illustration : Kiran891 / Wikimedia Commons, CC BY-SA 4.0"
+      "image_credit": "KaiBorgeest / Wikimedia Commons, CC BY 4.0"
     },
     {
       "id": "fbx-2201938580670662",
@@ -28403,12 +28422,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/TYPH-BARROW-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611272000.html",
       "url": "https://www.leforum.be/spectacle_202611272000.html",
-      "summary": "OD LIVE PRODUCTIONS et VISIONS RECORDS présentent TYPH BARROW - DREAMA TOUR 2026",
+      "summary": "OD LIVE PRODUCTIONS et VISIONS RECORDS présentent Typh Barrow - Dreama Tour 2026.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -29698,12 +29715,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/connasse_510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611282000.html",
       "url": "https://www.leforum.be/spectacle_202611282000.html",
-      "summary": "CŒUR DE SCENE PRODUCTIONS présente C'EST DÉCIDÉ JE DEVIENS UNE CONNASSE",
+      "summary": "CŒUR DE SCENE PRODUCTIONS présente C'Est Décidé Je Deviens Une Connasse.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -30239,7 +30254,7 @@
       "image": "https://www.operaliege.be/app/uploads/2026/03/2026-03-18_ORW-26-27_Hero_Musica_V3-scaled.jpg",
       "page_url": "https://www.operaliege.be/evenement/musica-da-camera-2026-2027/",
       "url": "https://www.operaliege.be/evenement/musica-da-camera-2026-2027/?opened",
-      "summary": "Série de concerts de musique de chambre",
+      "summary": "Cycle de concerts de musique de chambre.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -30482,7 +30497,7 @@
     {
       "id": "web-le-forum-li-ge-elvis-the-concert-2026-11-29",
       "title": "ELVIS - THE CONCERT",
-      "category": "theatre",
+      "category": "concert",
       "venue": "Le Forum",
       "city": "Liège",
       "lat": 50.6715318,
@@ -30492,12 +30507,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/Elvis_TheConcert2026_510.png",
       "page_url": "https://www.leforum.be/spectacle_202611292000.html",
       "url": "https://www.leforum.be/spectacle_202611292000.html",
-      "summary": "SHOW-TIME.BE presents ELVIS - THE CONCERT",
+      "summary": "SHOW-TIME.BE presents Elvis - The Concert.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -30714,12 +30727,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/VeronicDicaire_NouveauSpectacle_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612012000.html",
       "url": "https://www.leforum.be/spectacle_202612012000.html",
-      "summary": "DIAGONALE PRODUCTIONS présente VÉRONIC DICAIRE - NOUVEAU SPECTACLE",
+      "summary": "DIAGONALE PRODUCTIONS présente Véronic Dicaire - Nouveau Spectacle.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -30904,12 +30915,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/VeronicDicaire_NouveauSpectacle_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612022000.html",
       "url": "https://www.leforum.be/spectacle_202612022000.html",
-      "summary": "DIAGONALE PRODUCTIONS présente VÉRONIC DICAIRE - NOUVEAU SPECTACLE",
+      "summary": "DIAGONALE PRODUCTIONS présente Véronic Dicaire - Nouveau Spectacle.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -31070,12 +31079,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/HOMMAGE A FRANCE GALL 510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612032000.html",
       "url": "https://www.leforum.be/spectacle_202612032000.html",
-      "summary": "EVENTSIDE présente HOMMAGE À FRANCE GALL",
+      "summary": "EVENTSIDE présente Hommage À France Gall.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -31320,12 +31327,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/nino-arial510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612042000.html",
       "url": "https://www.leforum.be/spectacle_202612042000.html",
-      "summary": "KISS KISS PROD en accord avec JUICY PRODUCTION présente NINO ARIAL : PAS COMME EUX",
+      "summary": "KISS KISS PROD en accord avec JUICY PRODUCTION présente Nino Arial : Pas Comme Eux.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -31552,7 +31557,7 @@
     {
       "id": "web-op-ra-royal-de-wallonie-vente-de-costumes-2026-12-05",
       "title": "Vente de costumes",
-      "category": "fair",
+      "category": "culture",
       "venue": "Opéra Royal de Wallonie",
       "city": "Liège",
       "lat": 50.6432887,
@@ -31562,7 +31567,7 @@
       "image": "https://www.operaliege.be/app/uploads/2026/03/2026-03-12_ORW-26-27_Hero_Vente_V2-1-scaled.jpg",
       "page_url": "https://www.operaliege.be/evenement/vente-de-costumes-2026/",
       "url": "https://www.operaliege.be/evenement/vente-de-costumes-2026/?opened",
-      "summary": "Vente de costumes de l'Opéra Royal de Wallonie",
+      "summary": "Vente de costumes de l'Opéra Royal de Wallonie.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -31887,12 +31892,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/ODB-510.png",
       "page_url": "https://www.leforum.be/spectacle_202612052000.html",
       "url": "https://www.leforum.be/spectacle_202612052000.html",
-      "summary": "OD LIVE en accord avec KIMAIMEMESUIVE présente OLIVIER DE BENOIST \"LE DROIT AU BONHEUR\"",
+      "summary": "OD LIVE en accord avec KIMAIMEMESUIVE présente Olivier De Benoist \"Le Droit Au Bonheur\".",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -31996,6 +31999,25 @@
       "image": "https://s1.ticketm.net/dam/a/cf0/a59db0dc-928f-4bf1-823b-86a94921bcf0_RETINA_PORTRAIT_16_9.jpg",
       "url": "https://www.ticketmaster.be/event/natalia-the-christmas-experience-tickets/1470905399",
       "summary": "With Christmas Experience, Natalia focuses entirely on the festive season for the first time. Her own repertoire is given a new winter interpretation, complemented by traditional holiday songs and contemporary favourites. A strong live band delivers fresh arrangements that allow her voice to take ce",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ticketmaster"
+    },
+    {
+      "id": "tm-Z698xZG2Z1k8SfKf_",
+      "title": "Frédéric François",
+      "category": "concert",
+      "venue": "Théâtre Royal",
+      "city": "Namur",
+      "lat": 50.46455,
+      "lon": 4.868,
+      "start": "2026-12-05T20:00:00",
+      "end": "2026-12-05T20:00:00",
+      "image": "https://s1.ticketm.net/dam/a/827/c5f2f5c9-55c0-4380-99c5-473145e5d827_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.ticketmaster.be/event/frederic-francois-tickets/433513519",
+      "summary": "Après 50 ans de carrière, Frédéric François reste un des plus célèbres chanteurs de variétés en Belgique et en France. Toutes ses tournées affichent complet. Ses ventes de disques avoisinent les 35 millions d'exemplaires. Il a déjà obtenu 85 disques d'or, singles et albums confondus, 15 videos et DV",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -32173,7 +32195,7 @@
       "end": "2026-12-06T10:00:00",
       "image": "https://reflektor.be/wp-content/uploads/2026/10/Photo-credit-Daniel-Quesada-5-scaled-1.png",
       "page_url": "https://reflektor.be/concert/babyshambles/",
-      "url": "https://shop.paylogic.com/af63775221ff4291841b76504e026b9c",
+      "url": "https://reflektor.be/concert/babyshambles/",
       "summary": "",
       "price_from": null,
       "free": null,
@@ -32294,12 +32316,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/LEMAY-LALANNE 510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612061800.html",
       "url": "https://www.leforum.be/spectacle_202612061800.html",
-      "summary": "MEDIASCENE présente LYNDA LEMAY & JEAN-FÉLIX LALANNE",
+      "summary": "MEDIASCENE présente Lynda Lemay & Jean-Félix Lalanne.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -32498,12 +32518,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/A2-Jerome-de-Warzee-510.png",
       "page_url": "https://www.leforum.be/spectacle_202612082000.html",
       "url": "https://www.leforum.be/spectacle_202612082000.html",
-      "summary": "MEDIASCENE présente JÉRÔME DE WARZÉE \"VA AU DIABLE\"",
+      "summary": "MEDIASCENE présente Jérôme De Warzée \"Va Au Diable\".",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -32721,12 +32739,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/GIPSY-KINGS-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612092000.html",
       "url": "https://www.leforum.be/spectacle_202612092000.html",
-      "summary": "EVENTSIDE présente PABLO REYES - FORMER MEMBER OF GIPSY KING",
+      "summary": "EVENTSIDE présente Pablo Reyes - Former Member Of Gipsy King.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -32864,12 +32880,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/love510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612102000.html",
       "url": "https://www.leforum.be/spectacle_202612102000.html",
-      "summary": "THE CULTURE COLLECTIVE présente LOVE ACTUALLY CINÉ-CONCERT",
+      "summary": "THE CULTURE COLLECTIVE présente Love Actually Ciné-Concert (VF).",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -33402,12 +33416,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/pink_floyd_format_510X630.png",
       "page_url": "https://www.leforum.be/spectacle_202612112000.html",
       "url": "https://www.leforum.be/spectacle_202612112000.html",
-      "summary": "SHOW-TIME.BE présente \" 60 YEARS OF PINK FLOYD \"",
+      "summary": "SHOW-TIME.BE présente \"60 Years Of Pink Floyd\".",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -33962,12 +33974,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/BREL-lespectacle510.png",
       "page_url": "https://www.leforum.be/spectacle_202612122000.html",
       "url": "https://www.leforum.be/spectacle_202612122000.html",
-      "summary": "DIRECTO PROD & GIL MARSALLA présentent BREL ! LE SPECTACLE",
+      "summary": "DIRECTO PROD & GIL MARSALLA présentent Brel ! Le Spectacle.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -34359,12 +34369,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/cochons-d-inde-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612131700.html",
       "url": "https://www.leforum.be/spectacle_202612131700.html",
-      "summary": "LE FORUM présente \" COCHONS D'INDE \"",
+      "summary": "LE FORUM présente \"Cochons D'Inde\".",
       "price_from": null,
       "free": null,
-      "audience": [
-        "family"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -34478,12 +34486,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/CARMEN 510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612142000.html",
       "url": "https://www.leforum.be/spectacle_202612142000.html",
-      "summary": "STAGE MAGIC présente CARMEN BY THE ANTONIO GADES COMPANY",
+      "summary": "STAGE MAGIC présente Carmen By The Antonio Gades Company.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -34559,12 +34565,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/les-quatres-saisons-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612152000.html",
       "url": "https://www.leforum.be/spectacle_202612152000.html",
-      "summary": "FRANCECONCERT présente LES 4 SAISONS - BALLET",
+      "summary": "FRANCECONCERT présente Les 4 Saisons - Ballet.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "family"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -34718,12 +34722,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/2CALOGERO_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612162000.html",
       "url": "https://www.leforum.be/spectacle_202612162000.html",
-      "summary": "OD LIVE en accord avec TS3 - FIMALAC présente CALOGERO",
+      "summary": "OD LIVE en accord avec TS3 - FIMALAC présente Calogero.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -34819,7 +34821,7 @@
       "image": "https://www.operaliege.be/app/uploads/2026/03/2026-03-12_ORW-26-27_Hero_Thais_V2-1-scaled.jpg",
       "page_url": "https://www.operaliege.be/evenement/opera-thais-2026/",
       "url": "https://www.operaliege.be/evenement/opera-thais-2026/?opened",
-      "summary": "Opéra de Jules Massenet",
+      "summary": "Opéra de Jules Massenet.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -34881,12 +34883,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/dcl510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612172000.html",
       "url": "https://www.leforum.be/spectacle_202612172000.html",
-      "summary": "NEXT-STEP.BE en accord avec CORPUS PROD présente DAVID CASTELLO-LOPES - \"DELICIEUX\"",
+      "summary": "NEXT-STEP.BE en accord avec CORPUS PROD présente David Castello-Lopes - \"Delicieux\".",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -34999,8 +34999,8 @@
       "image_credit": "Illustration : Tore Sætre / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
-      "id": "web-reflektor-li-ge-the-jazz-room-un-hommage-frank-sinatra-et-louis-armstrong-2026-1",
-      "title": "The Jazz Room : un hommage à Frank Sinatra et à Louis Armstrong",
+      "id": "web-reflektor-li-ge-the-jazz-room-un-hommage-frank-sinatra-et-louis-armstrong-12-202",
+      "title": "The Jazz Room : un hommage à Frank Sinatra et à Louis Armstrong (12/2026)",
       "category": "concert",
       "venue": "Reflektor",
       "city": "Liège",
@@ -35474,7 +35474,7 @@
     {
       "id": "web-reflektor-li-ge-cookie-festival-2026-12-19",
       "title": "COOKIE FESTIVAL",
-      "category": "concert",
+      "category": "festival",
       "venue": "Reflektor",
       "city": "Liège",
       "lat": 50.6432641,
@@ -35708,12 +35708,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/Goldmanmania-510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612192000.html",
       "url": "https://www.leforum.be/spectacle_202612192000.html",
-      "summary": "ÉTOILE PRODUCTIONS présente GOLDMANMANIA - ON N'A PAS CHANGÉ",
+      "summary": "ÉTOILE PRODUCTIONS présente Goldmanmania - On N'A Pas Changé.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -36022,12 +36020,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/les-gauff-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612202000.html",
       "url": "https://www.leforum.be/spectacle_202612202000.html",
-      "summary": "G.A.S ASBL présente LE TOUT DERNIER CONCERT DU MON DENTIER",
+      "summary": "G.A.S ASBL présente Le Tout Dernier Concert Du Mon Dentier.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -36130,12 +36126,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/NACIM-HADDAD510.png",
       "page_url": "https://www.leforum.be/spectacle_202612262000.html",
       "url": "https://www.leforum.be/spectacle_202612262000.html",
-      "summary": "KISS KISS PROD en accord avec WORK EVENT présente NACIM HADDAD - AYTA WORLD TOUR",
+      "summary": "KISS KISS PROD en accord avec WORK EVENT présente Nacim Haddad - Ayta World Tour.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -36274,12 +36268,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/la-belle-au-bois-dormant-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612271400.html",
       "url": "https://www.leforum.be/spectacle_202612271400.html",
-      "summary": "GRAND OPERA présente LA BELLE AU BOIS DORMANT",
+      "summary": "GRAND OPERA présente La Belle Au Bois Dormant.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "family"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -36315,12 +36307,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/lac-des-cygnes-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612271800.html",
       "url": "https://www.leforum.be/spectacle_202612271800.html",
-      "summary": "GRAND OPERA présente LE LAC DES CYGNES",
+      "summary": "GRAND OPERA présente Le Lac Des Cygnes.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "family"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -36463,12 +36453,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/un-courrier-de-noel-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612291400.html",
       "url": "https://www.leforum.be/spectacle_202612291400.html",
-      "summary": "ENCHANTÉ - ARTS DE LA SCÈNE présente UN COURRIER POUR NOËL",
+      "summary": "ENCHANTÉ - ARTS DE LA SCÈNE présente Un Courrier Pour Noël.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "family"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -36513,7 +36501,7 @@
     {
       "id": "web-reflektor-li-ge-nouvel-an-2027-la-boum-des-boomers-g-n-ration-90-s-2026-12-31",
       "title": "NOUVEL AN 2027: LA BOUM DES BOOMERS – GÉNÉRATION 90's",
-      "category": "concert",
+      "category": "party",
       "venue": "OM",
       "city": "Liège",
       "lat": 50.6073612,
@@ -36577,8 +36565,8 @@
       "classified": true
     },
     {
-      "id": "web-le-forum-li-ge-chers-parents-de-emmanuel-patron-et-armelle-patron-2026-12-31",
-      "title": "\"CHERS PARENTS\" DE EMMANUEL PATRON ET ARMELLE PATRON",
+      "id": "web-le-forum-li-ge-chers-parents-le-r-veillon-au-champagne-2026-12-31",
+      "title": "\"CHERS PARENTS\" - LE RÉVEILLON AU CHAMPAGNE",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -36589,12 +36577,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/CHERS-PARENTS_510-ok.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612312000.html",
       "url": "https://www.leforum.be/spectacle_202612312000.html",
-      "summary": "LE FORUM & LE THEATRE ARLEQUIN présentent LE RÉVEILLON AU CHAMPAGNE avec \"CHERS PARENTS\"",
+      "summary": "LE FORUM & LE THEATRE ARLEQUIN présentent le réveillon au champagne avec \"Chers Parents\".",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -36731,12 +36717,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/GUIHOME_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701052000.html",
       "url": "https://www.leforum.be/spectacle_202701052000.html",
-      "summary": "COMME DES GOSSES COMPANY présente GUIHOME VOUS DETEND",
+      "summary": "COMME DES GOSSES COMPANY présente Guihome Vous Detend.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -36753,12 +36737,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/thierry-lhermitte-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701062000.html",
       "url": "https://www.leforum.be/spectacle_202701062000.html",
-      "summary": "EVENTSIDE présente LA RENCONTRE - THIERRY LHERMITTE",
+      "summary": "EVENTSIDE présente La Rencontre - Thierry Lhermitte.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -36794,12 +36776,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/fabrice-eboue-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701072000.html",
       "url": "https://www.leforum.be/spectacle_202701072000.html",
-      "summary": "OD LIVE en accord avec CHEYENNE et CHEZ FELIX présente FABRICE EBOUE - SOLITUDES",
+      "summary": "OD LIVE en accord avec CHEYENNE et CHEZ FELIX présente Fabrice Eboue - Solitudes.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -36835,12 +36815,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/u2-510x630px.png",
       "page_url": "https://www.leforum.be/spectacle_202701082000.html",
       "url": "https://www.leforum.be/spectacle_202701082000.html",
-      "summary": "GINGER présente WITH U2 DAY - A U2 TRIBUTE",
+      "summary": "GINGER présente With U2 Day - A U2 Tribute.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -36939,12 +36917,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/ODB-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701092000.html",
       "url": "https://www.leforum.be/spectacle_202701092000.html",
-      "summary": "OD LIVE en accord avec KIMAIMEMESUIVE présente OLIVIER DE BENOIST \"LE DROIT AU BONHEUR\"",
+      "summary": "OD LIVE en accord avec KIMAIMEMESUIVE présente Olivier De Benoist \"Le Droit Au Bonheur\".",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -37018,12 +36994,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/CREDEVILLE 510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701101700.html",
       "url": "https://www.leforum.be/spectacle_202701101700.html",
-      "summary": "KISS KISS PROD en accord avec SURMESURES PROD présente GEREMY CREDEVILLE DANS ENCHANTEUR",
+      "summary": "KISS KISS PROD en accord avec SURMESURES PROD présente Geremy Credeville Dans Enchanteur.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -37078,12 +37052,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/COUVEVENT-ARNAUD-TSAMERE-TOUS-CONTRAINTS-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701142000.html",
       "url": "https://www.leforum.be/spectacle_202701142000.html",
-      "summary": "OD LIVE en accord avec DSP présente ARNAUD TSAMERE - \"TOUS CONTRAINTS\"",
+      "summary": "OD LIVE en accord avec DSP présente Arnaud Tsamere - \"Tous Contraints\".",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -37100,12 +37072,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/COUVEVENT-ARNAUD-TSAMERE-TOUS-CONTRAINTS-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701152000.html",
       "url": "https://www.leforum.be/spectacle_202701152000.html",
-      "summary": "OD LIVE en accord avec DSP présente ARNAUD TSAMERE - \"TOUS CONTRAINTS\"",
+      "summary": "OD LIVE en accord avec DSP présente Arnaud Tsamere - \"Tous Contraints\".",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -37221,12 +37191,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/sarah-schwab-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701162000.html",
       "url": "https://www.leforum.be/spectacle_202701162000.html",
-      "summary": "MEDIASCENE en accord avec MAGIC TV présente SARAH SCHWAB - \"ELLES ET MOI\"",
+      "summary": "MEDIASCENE en accord avec MAGIC TV présente Sarah Schwab - \"Elles Et Moi\".",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -37319,12 +37287,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/Lalou 510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701202000.html",
       "url": "https://www.leforum.be/spectacle_202701202000.html",
-      "summary": "FURAX, BLACK BIRD PROD et BACK IN THE DAYZ présentent LALOU BRT",
+      "summary": "FURAX, BLACK BIRD PROD et BACK IN THE DAYZ présentent Lalou Brt.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -37380,12 +37346,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/mathieur-stepson-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701212000.html",
       "url": "https://www.leforum.be/spectacle_202701212000.html",
-      "summary": "OD LIVE en accord avec AMTP présente MATHIEU STEPSON",
+      "summary": "OD LIVE en accord avec AMTP présente Mathieu Stepson.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -37467,12 +37431,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/Damien-Gillard-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701222000.html",
       "url": "https://www.leforum.be/spectacle_202701222000.html",
-      "summary": "CORNIAUD AND CO présente DAMIEN GILLARD - \" RUDE \"",
+      "summary": "CORNIAUD AND CO présente Damien Gillard - \" RUDE \".",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -37546,12 +37508,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/depeche-mode-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701232000.html",
       "url": "https://www.leforum.be/spectacle_202701232000.html",
-      "summary": "MÉDIASCÈNE et PALLADIUM PROD présentent THE DEPECHE MODE EXPERIENCE",
+      "summary": "MÉDIASCÈNE et PALLADIUM PROD présentent The Depeche Mode Experience.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -37644,12 +37604,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/MANON-BRIL-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701272000.html",
       "url": "https://www.leforum.be/spectacle_202701272000.html",
-      "summary": "FOURCHETTE SUISSE PRODUCTIONS et BACK IN THE DAYZ présentent MANON BRIL - 300 000 ANS",
+      "summary": "FOURCHETTE SUISSE PRODUCTIONS et BACK IN THE DAYZ présentent Manon Bril - 300 000 Ans.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -37685,12 +37643,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/COLDPLAY-FORUM510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701282000.html",
       "url": "https://www.leforum.be/spectacle_202701282000.html",
-      "summary": "EVENTSIDE présente COLDPLAY BY COVERPLAY",
+      "summary": "EVENTSIDE présente Coldplay By Coverplay.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -37746,12 +37702,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/Garou 510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701292000.html",
       "url": "https://www.leforum.be/spectacle_202701292000.html",
-      "summary": "DIAGONALE PRODUCTIONS présente GAROU \"SOLO\"",
+      "summary": "DIAGONALE PRODUCTIONS présente Garou \"Solo\".",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -37886,12 +37840,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/casse-noisette-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701302000.html",
       "url": "https://www.leforum.be/spectacle_202701302000.html",
-      "summary": "FRANCECONCERT présente CASSE-NOISETTE — BALLET ET ORCHESTRE",
+      "summary": "FRANCECONCERT présente Casse-Noisette — Ballet Et Orchestre.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "family"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -37946,12 +37898,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/KPOP510.png",
       "page_url": "https://www.leforum.be/spectacle_202701311400.html",
       "url": "https://www.leforum.be/spectacle_202701311400.html",
-      "summary": "GRAND OPERA présente K-POP SUPERSTARS",
+      "summary": "GRAND OPERA présente K-Pop Superstars.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "family"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -37994,25 +37944,6 @@
       "source": "Ticketmaster"
     },
     {
-      "id": "tm-Z698xZG2Z16v4w_s4e",
-      "title": "Two Door Cinema Club – Tourist History 15th Anniversary",
-      "category": "concert",
-      "venue": "Cirque Royal - Koninklijk Circus",
-      "city": "Brussels",
-      "lat": 50.84906,
-      "lon": 4.36565,
-      "start": "2027-02-01T19:00:00",
-      "end": "2027-02-01T19:00:00",
-      "image": "https://s1.ticketm.net/dam/a/267/e13017d0-1a9d-48bf-be9f-b05b4ced2267_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/two-door-cinema-club--tourist-history-15th-anniversary-tickets/1572671542",
-      "summary": "Event information & timings: www.livenation.be",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
-    },
-    {
       "id": "web-le-forum-li-ge-hommage-pierre-rapsat-brasero-2027-02-02",
       "title": "HOMMAGE À PIERRE RAPSAT : BRASERO",
       "category": "concert",
@@ -38025,12 +37956,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/rapsat-510.png",
       "page_url": "https://www.leforum.be/spectacle_202702022000.html",
       "url": "https://www.leforum.be/spectacle_202702022000.html",
-      "summary": "EVENTSIDE présente HOMMAGE À PIERRE RAPSAT : BRASERO",
+      "summary": "EVENTSIDE présente Hommage À Pierre Rapsat : Brasero.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -38068,12 +37997,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/menopause-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202702032000.html",
       "url": "https://www.leforum.be/spectacle_202702032000.html",
-      "summary": "MEDIASCENE présente \" MENOPAUSE \"",
+      "summary": "MEDIASCENE présente \"Menopause\".",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -38227,6 +38154,26 @@
       "source": "Reflektor (Liège)"
     },
     {
+      "id": "web-province-de-li-ge-jeudi-sant-2027-02-05",
+      "title": "Jeudi Santé",
+      "category": "talks",
+      "venue": "Liège",
+      "city": "Liège",
+      "lat": 50.6450944,
+      "lon": 5.5736112,
+      "start": "2027-02-05T10:00:00",
+      "end": "2026-12-03T20:00:00",
+      "image": "https://www.provincedeliege.be/sites/default/files/styles/plg_medias_h_600/public/media/19776/2026%20cyclCONF%20mod.jpg?itok=ObufYoJ2",
+      "page_url": "https://www.provincedeliege.be/fr/evenement/223/19776",
+      "url": "https://www.provincedeliege.be/fr/evenement/223/19776",
+      "summary": "Cycle de conférences 2026 proposé par le Pôle Promotion et Animations de la Province de Liège.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Province de Liège"
+    },
+    {
       "id": "web-het-depot-louvain-dub-unit-17-2027-02-05",
       "title": "Dub Unit #17",
       "category": "party",
@@ -38306,12 +38253,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/VISU_POELVOORDE-510.png",
       "page_url": "https://www.leforum.be/spectacle_202702052000.html",
       "url": "https://www.leforum.be/spectacle_202702052000.html",
-      "summary": "CORNIAUD AND CO présente BENOÎT POELVOORDE et BÉRÉNICE BOURGUEIL dans \" TU AIMES TELLEMENT LA VIE \"",
+      "summary": "CORNIAUD AND CO présente Benoît Poelvoorde et Bérénice Bourgueil dans \"Tu Aimes Tellement La Vie\".",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -38367,12 +38312,10 @@
       "image": "https://www.leforum.be/visuel/SlideFront/verino-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202702062000.html",
       "url": "https://www.leforum.be/spectacle_202702062000.html",
-      "summary": "OD LIVE en accord avec INGLORIOUS PROD présente VERINO - RODÉO",
+      "summary": "OD LIVE en accord avec INGLORIOUS PROD présente Verino - Rodéo.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -38575,6 +38518,25 @@
       "tags": [],
       "source": "Facebook (événement public)",
       "classified": true
+    },
+    {
+      "id": "tm-Z698xZG2Z1kOFZy_d",
+      "title": "Beverly Jo Scott & Band (USA/B) Americana",
+      "category": "concert",
+      "venue": "Spirit of 66",
+      "city": "Verviers",
+      "lat": 50.59353,
+      "lon": 5.86109,
+      "start": "2027-02-12T20:00:00",
+      "end": "2027-02-12T20:00:00",
+      "image": "https://s1.ticketm.net/dam/a/b9c/4dba5e14-b62a-48f1-903f-474263765b9c_1442561_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.ticketmaster.be/event/beverly-jo-scott--band-usa-b-americana-tickets/808039643",
+      "summary": "Maximum R&B Tour",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ticketmaster"
     },
     {
       "id": "tm-Z698xZG2Z1k40vE7z",
@@ -39162,26 +39124,6 @@
       "audience": [],
       "tags": [],
       "source": "Ticketmaster"
-    },
-    {
-      "id": "web-reflektor-li-ge-kula-shaker-2027-02-28",
-      "title": "Kula Shaker",
-      "category": "concert",
-      "venue": "OM",
-      "city": "Liège",
-      "lat": 50.6073612,
-      "lon": 5.5364634,
-      "start": "2027-02-28T10:00:00",
-      "end": "2027-02-28T10:00:00",
-      "image": "https://reflektor.be/wp-content/uploads/2026/05/c-Reno-Gilsoul-scaled-1.jpg",
-      "page_url": null,
-      "url": "https://www.reflektor.be",
-      "summary": "",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Reflektor (Liège)"
     },
     {
       "id": "tm-Z698xZG2Z16vZZj9OO",
@@ -39861,25 +39803,6 @@
       "source": "Ticketmaster"
     },
     {
-      "id": "tm-Z698xZG2Z1kfVONQ9",
-      "title": "B.B. & The Blues Shacks (B)",
-      "category": "concert",
-      "venue": "Spirit of 66",
-      "city": "Verviers",
-      "lat": 50.59353,
-      "lon": 5.86109,
-      "start": "2027-03-17T20:00:00",
-      "end": "2027-03-17T20:00:00",
-      "image": "https://s1.ticketm.net/dam/a/7b1/6fe468b5-8681-4543-a531-11b63aa1d7b1_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/-bb--the-blues-shacks-b--tickets/534823697",
-      "summary": "",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
-    },
-    {
       "id": "fb-1227087022946139",
       "title": "L2B · ING Arena, Bruxelles",
       "category": "concert",
@@ -40010,25 +39933,6 @@
       "image": "https://s1.ticketm.net/dam/a/0f6/aee35bfb-1592-439a-b982-2d7567b1d0f6_RETINA_PORTRAIT_16_9.jpg",
       "url": "https://www.ticketmaster.be/event/cinderella-de-musical-tickets/1174665072",
       "summary": "The complete timing can be found a few days before the concert on www.stadsschouwburg-antwerpen.be.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
-    },
-    {
-      "id": "tm-Z698xZG2Z1kFP_08P",
-      "title": "Het Schlagerfestival 2027",
-      "category": "concert",
-      "venue": "Trixxo Arena",
-      "city": "Hasselt",
-      "lat": 50.93326,
-      "lon": 5.36273,
-      "start": "2027-03-20T20:30:00",
-      "end": "2027-03-20T20:30:00",
-      "image": "https://s1.ticketm.net/dam/a/1b6/aed372f5-30c0-40a1-9c72-912da5a491b6_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/het-schlagerfestival-2027-tickets/225664425",
-      "summary": "The complete timing can be found a few days before the concert on www.trixxo-arena.be.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -40211,6 +40115,26 @@
       "audience": [],
       "tags": [],
       "source": "Ticketmaster"
+    },
+    {
+      "id": "web-reflektor-li-ge-django-2027-04-08",
+      "title": "Django",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2027-04-08T10:00:00",
+      "end": "2027-04-08T10:00:00",
+      "image": "https://reflektor.be/wp-content/uploads/2026/10/@Jeremy-Barniaud-1-e1793264319164.jpeg",
+      "page_url": "https://reflektor.be/concert/django-2/",
+      "url": "https://shop.paylogic.com/7fed501833054ccf86d75b58df4f359a",
+      "summary": "",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "fb-1032801196107604",
@@ -41150,7 +41074,7 @@
       "end": "2027-09-24T10:00:00",
       "image": "https://reflektor.be/wp-content/uploads/2026/09/Bear-Pit_mono-DSC5764-1-scaled-e1788248605295.jpg",
       "page_url": "https://reflektor.be/concert/the-mission/",
-      "url": "https://shop.paylogic.com/7fed501833054ccf86d75b58df4f359a",
+      "url": "https://reflektor.be/concert/the-mission/",
       "summary": "",
       "price_from": null,
       "free": null,
