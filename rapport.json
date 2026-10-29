@@ -1,5 +1,5 @@
 {
-  "genere": "2026-10-29T16:49:06",
+  "genere": "2026-10-29T21:18:23",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -39,21 +39,17 @@
     },
     {
       "source": "Les Grignoux – cinéma (Liège)",
-      "ok": true,
-      "page_caracteres": 55359,
-      "ia_a_trouve": 3,
+      "ok": false,
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
       "gardes": 3,
-      "ecartes": 0,
-      "extrait_reponse_ia": ""
+      "ecartes": 0
     },
     {
       "source": "Le Forum (Liège)",
-      "ok": true,
-      "page_caracteres": 46090,
-      "ia_a_trouve": 71,
+      "ok": false,
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
       "gardes": 71,
-      "ecartes": 0,
-      "extrait_reponse_ia": ""
+      "ecartes": 0
     },
     {
       "source": "Standard de Liège",
@@ -197,21 +193,17 @@
     },
     {
       "source": "Het Depot (Louvain)",
-      "ok": true,
-      "page_caracteres": 8746,
-      "ia_a_trouve": 15,
+      "ok": false,
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
       "gardes": 15,
-      "ecartes": 0,
-      "extrait_reponse_ia": ""
+      "ecartes": 0
     },
     {
       "source": "Mars – Mons arts de la scène",
-      "ok": true,
-      "page_caracteres": 11816,
-      "ia_a_trouve": 9,
+      "ok": false,
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
       "gardes": 9,
-      "ecartes": 0,
-      "extrait_reponse_ia": ""
+      "ecartes": 0
     },
     {
       "source": "Propositions de l'app",
@@ -226,6 +218,6 @@
       "gardes": 214
     }
   ],
-  "avec_image": 1991,
-  "total": 1991
+  "avec_image": 870,
+  "total": 1994
 }
