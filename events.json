@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T21:18:23",
+  "generated": "2026-10-29T22:35:10",
   "events": [
     {
       "id": "web-visithuy-l-invention-cach-e-2026-05-25",
@@ -1719,7 +1719,7 @@
       "lon": 5.6906619,
       "start": "2026-10-30T18:00:00",
       "end": "2026-10-30T21:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Blegny_-_Casa_de_la_Vila.jpg/1280px-Blegny_-_Casa_de_la_Vila.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1653612539810739/",
       "url": "https://www.facebook.com/events/1653612539810739/",
       "summary": "Balade nocturne d'Halloween en forêt avec son chien, encadrée par des coachs canins, sur réservation.",
@@ -1727,7 +1727,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "flamenc / Wikimedia Commons, CC BY-SA 3.0"
     },
     {
       "id": "fbx-1104908872020926",
@@ -1799,7 +1800,7 @@
       "lon": 3.8088401,
       "start": "2026-10-30T18:00:00",
       "end": "2026-10-31T23:55:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Chi%C3%A8vres_JPG01.jpg/1280px-Chi%C3%A8vres_JPG01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1804325510574203/",
       "url": "https://www.facebook.com/events/1804325510574203/",
       "summary": "Marche nocturne d'Halloween au parcours effrayant, organisée par le Comité Chièvres en Fête sur deux soirs.",
@@ -1807,7 +1808,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Jean-Pol GRANDMONT / Wikimedia Commons, CC BY 2.5"
     },
     {
       "id": "fbx-2115717729047342",
@@ -1819,7 +1821,7 @@
       "lon": 3.9064436,
       "start": "2026-10-30T18:00:00",
       "end": "2026-10-30T21:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Frameries_-_Grand_Prix_Pino_Cerami%2C_22_juillet_2015%2C_arriv%C3%A9e_%28A34%29.JPG/1280px-Frameries_-_Grand_Prix_Pino_Cerami%2C_22_juillet_2015%2C_arriv%C3%A9e_%28A34%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/2115717729047342/",
       "url": "https://www.facebook.com/events/2115717729047342/",
       "summary": "Festival d'Halloween autour des arts de l'étrange, avec animations, spectacles et lectures.",
@@ -1827,7 +1829,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Jérémy-Günther-Heinz Jähnick / Wikimedia Commons, CC BY-SA 3.0"
     },
     {
       "id": "fbx-2212343135990605",
@@ -2186,7 +2189,7 @@
       "lon": 4.3460118,
       "start": "2026-10-30T19:00:00",
       "end": "2026-10-30T22:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Maison_de_Bellone_-_Expo_1935.jpg/1280px-Maison_de_Bellone_-_Expo_1935.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/3461321960706040/",
       "url": "https://www.facebook.com/events/3461321960706040/",
       "summary": "Soirée de spoken word avec plusieurs auteurs, proposée par Genres d'à Côté / Pink Screens Film Festival.",
@@ -2194,7 +2197,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "AnonymousUnknown author / Wikimedia Commons, Public domain"
     },
     {
       "id": "fbx-1064282939864356",
