@@ -492,29 +492,6 @@
    "classified": true
   },
   {
-   "id": "fb-1255461413391675",
-   "title": "The Cavern Beatles - Forum de Liège",
-   "category": "concert",
-   "venue": "Forum de Liège",
-   "city": "Liège",
-   "lat": 50.641269760009,
-   "lon": 5.5699306768604,
-   "start": "2026-10-28T20:00:00",
-   "end": "2026-10-28T23:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1255461413391675.jpg",
-   "page_url": "https://www.facebook.com/events/1255461413391675/",
-   "url": "https://www.leforum.be/spectacle_202610282000.html",
-   "summary": "🎸 THE CAVERN BEATLES en concert exceptionnel à Liège ! 🇬🇧 Prêts à revivre la magie de John, Paul, George et Ringo ? Plongez dans l'univers du groupe mythique avec The Cavern Beatles, salués par de nombreux fans comme « Les meilleurs Beatles depuis les Beatles » ! 📅 Date : 28 octobre 2026 📍 Lieu : Le",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1606889160810852",
    "title": "L’Heure H : l’expérience Live . Liège",
    "category": "theatre",
@@ -844,29 +821,6 @@
    "classified": true
   },
   {
-   "id": "fb-2114140925846884",
-   "title": "SLOW-DATING à Namur (+-40/55 ans - Hétéro)",
-   "category": "party",
-   "venue": "Naninne, Namur, Belgium",
-   "city": "Namur",
-   "lat": 50.415199224744,
-   "lon": 4.926484113989,
-   "start": "2026-10-28T16:00:00",
-   "end": "2026-10-28T19:00:00",
-   "image": null,
-   "page_url": "https://www.facebook.com/events/2114140925846884/",
-   "url": "https://www.facebook.com/events/2114140925846884/",
-   "summary": "Hey toi ! Laisse ton swiping de côté et rencontre de vraies personnes en direct. Fini les discussions en ligne surfaites – ici, tu peux établir une véritable connexion et qui sait, trouvez peut-être quelqu'un de spécial. Alors pourquoi attendre ? Inscris-toi dès maintenant à ce SLOW-DATING à Namur a",
-   "price_from": null,
-   "free": true,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1436823617660529",
    "title": "Salon du Mariage de Namur",
    "category": "fair",
@@ -1079,27 +1033,6 @@
    "page_url": "https://www.facebook.com/events/1424362869749334/",
    "url": "https://www.facebook.com/events/1424362869749334/",
    "summary": "🏃‍♂️ GRAND TRAIL DE NAMUR – ÉDITION 2027 🏃‍♀️ 📅 23 mai 2027 - Ouverture des inscriptions le 5 octobre à 10h ! 📍 Arrivées à la Citadelle de Namur Après son grand retour en 2026, le Grand Trail de Namur revient en 2027 pour une deuxième édition encore plus riche ! 🌲⛰️ Au programme, 5 distances pour to",
-   "price_from": null,
-   "free": null,
-   "audience": [],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-2197002157918894",
-   "title": "Conférence Aves Namur: A la découverte du Cap-Vert par Bart Vercruysse",
-   "category": "talks",
-   "venue": "Namur",
-   "city": "Namur",
-   "lat": 50.4665284,
-   "lon": 4.8661892,
-   "start": "2026-10-28T19:45:00",
-   "end": "2026-10-28T22:45:00",
-   "image": null,
-   "page_url": "https://www.facebook.com/events/2197002157918894/",
-   "url": "https://www.facebook.com/events/2197002157918894/",
-   "summary": "A la découverte du Cap-Vert Ilhas do Sotavento - Les îles du sud Lieu : Université de Namur, auditoire BN03. Rue rempart de la Vierge (bâtiment 63, à l’angle avec la rue de Bruxelles), 5000 Namur. PAF: 2 EUR Inscription souhaitée via aves.namur@natagora.be Attention changement de local ! Résumé: Si ",
    "price_from": null,
    "free": null,
    "audience": [],
@@ -3041,29 +2974,6 @@
    "classified": true
   },
   {
-   "id": "fb-1652389792905911",
-   "title": "Soirée Jeux: Spécial Halloween - Ludotrotter Namur",
-   "category": "party",
-   "venue": "64 avenue du bourgmestre jean materne, 5100",
-   "city": "Namur",
-   "lat": 50.45756,
-   "lon": 4.86936,
-   "start": "2026-10-28T19:00:00",
-   "end": "2026-10-28T22:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1652389792905911.jpg",
-   "page_url": "https://www.facebook.com/events/1652389792905911/",
-   "url": "https://www.facebook.com/events/1652389792905911/",
-   "summary": "Envie d'une soirée jeux un peu spéciale..? Dans ce cas, venez donc vous amuser dans notre humble demeure! Mhouaha! Nous vous proposerons des jeux terrifiants et amusants! Au programme: - Du Terrorscape, du Loup-Garou, de la Murder Party ect... (et des petits classiques également) - Des boissons et d",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1090889276678970",
    "title": "Soirée dansante entre filles @Namur",
    "category": "party",
@@ -4670,50 +4580,6 @@
    "audience": [
     "young"
    ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-4720887964900901",
-   "title": "🎃 LE CHÂTEAU HANTÉ DES CRAZY’S 👻 | SOIRÉE HALLOWEEN",
-   "category": "party",
-   "venue": "Salle Jules Ginion",
-   "city": "Ottignies-Louvain-la-Neuve",
-   "lat": 50.66102,
-   "lon": 4.51308,
-   "start": "2026-10-28T18:00:00",
-   "end": "2026-10-28T23:00:00",
-   "image": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/836475193_1127127500239409_812981673914569692_n.jpg?stp=dst-jpg_tt6&cstp=mx1414x2000&ctp=s960x960&_nc_cat=111&ccb=1-7&_nc_sid=75d36f&_nc_ohc=947EM1dukZUQ7kNvwGr0sMh&_nc_oc=AdrfFp94wic15_Hh0qcgMGhKXmSvZv3ButhYs44AnW1bqT_9DJ3cUFCCeMMz_BqDGpt0AMDrIm0FyFx_hOc1Ui_K&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=TSk5aAwOLwwVvWhGLfERfg&_nc_ss=70289&oh=00_AQN7Nimtd5q91hOBDpvCclp_YOUZGd8aKeHaoHDlE2oruA&oe=6ADDCC2C",
-   "page_url": "https://www.facebook.com/events/4720887964900901/",
-   "url": "https://www.facebook.com/events/4720887964900901/",
-   "summary": "Les Crazy Skaters vous donnent rendez-vous pour une soirée d’Halloween complètement déjantée… et peut-être légèrement terrifiante ! 🦇🎃 Le 28 octobre, le château ouvre ses portes… Prépare ton déguisement, chausse tes patins et viens vivre une soirée Halloween pas comme les autres avec les Crazy Skate",
-   "price_from": null,
-   "free": true,
-   "audience": [
-    "family"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1909292683600529",
-   "title": "Soirée \"Wave after wave\" avec Anne-Mieke",
-   "category": "wellness",
-   "venue": "Rue du Collège 2, 1348 Ottignies-Louvain-la-Neuve, Belgique",
-   "city": "Louvain-la-Neuve",
-   "lat": 50.66657,
-   "lon": 4.6167,
-   "start": "2026-10-28T19:30:00",
-   "end": "2026-10-28T22:00:00",
-   "image": "https://scontent-ber1-1.xx.fbcdn.net/v/t39.30808-6/853758898_1819585202997639_1308261546858565556_n.jpg?stp=dst-jpg_tt6&cstp=mx500x333&ctp=s500x333&_nc_cat=109&ccb=1-7&_nc_sid=75d36f&_nc_ohc=zFSNd90Q5zUQ7kNvwFWdsv-&_nc_oc=AdrG34isqT12VFO2bfLmvSbiJRr5mA0yr8WAFyPmQGOveMiaEpsSYVgdE_7J2n5UFXs&_nc_zt=23&_nc_ht=scontent-ber1-1.xx&_nc_gid=ZfR73YKtCbryxQUA4RZwdg&_nc_ss=70289&oh=00_AQPlVfTaMpyrNSSJv4-82bX-YpbGsm_KcHQzrKuF8xt_0Q&oe=6ADDC70F",
-   "page_url": "https://www.facebook.com/events/1909292683600529/",
-   "url": "https://www.dancetribe.be/votre-premier-cours/",
-   "summary": "« You can’t stop the waves, but you can learn to surf. » J. Kabat-Zinn Qu’est-ce que c’est? Lors de cette soirée ouverte à tou(te)s, Anne-Mieke nous fera traverser deux « vagues », çàd deux séquences de 5 rythmes. La première sera guidée, en explorant un thème spécifique (par exemple le lâcher-prise",
-   "price_from": null,
-   "free": null,
-   "audience": [],
    "tags": [],
    "source": "Facebook (événement public)",
    "classified": true
