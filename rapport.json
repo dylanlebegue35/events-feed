@@ -1,5 +1,5 @@
 {
-  "genere": "2026-10-29T04:37:34",
+  "genere": "2026-10-29T10:41:24",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -50,15 +50,15 @@
       "source": "Le Forum (Liège)",
       "ok": true,
       "page_caracteres": 45741,
-      "ia_a_trouve": 72,
-      "gardes": 72,
+      "ia_a_trouve": 71,
+      "gardes": 71,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Standard de Liège",
       "ok": true,
-      "page_caracteres": 7713,
+      "page_caracteres": 7696,
       "ia_a_trouve": 3,
       "gardes": 3,
       "ecartes": 0,
@@ -67,7 +67,7 @@
     {
       "source": "Province de Liège",
       "ok": true,
-      "page_caracteres": 19453,
+      "page_caracteres": 19570,
       "ia_a_trouve": 3,
       "gardes": 3,
       "ecartes": 0,
@@ -85,7 +85,7 @@
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 13712,
+      "page_caracteres": 13716,
       "ia_a_trouve": 2,
       "gardes": 0,
       "ecartes": 2,
@@ -103,10 +103,10 @@
     {
       "source": "Grand Curtius (Liège)",
       "ok": true,
-      "page_caracteres": 9474,
-      "ia_a_trouve": 4,
-      "gardes": 4,
-      "ecartes": 0,
+      "page_caracteres": 9946,
+      "ia_a_trouve": 8,
+      "gardes": 7,
+      "ecartes": 1,
       "extrait_reponse_ia": ""
     },
     {
@@ -166,7 +166,7 @@
     {
       "source": "Recyclart (Bruxelles)",
       "ok": true,
-      "page_caracteres": 4987,
+      "page_caracteres": 5002,
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
@@ -175,7 +175,7 @@
     {
       "source": "Ancienne Belgique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 6644,
+      "page_caracteres": 6635,
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
@@ -184,7 +184,7 @@
     {
       "source": "Botanique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 4982,
+      "page_caracteres": 4869,
       "ia_a_trouve": 3,
       "gardes": 3,
       "ecartes": 0,
@@ -193,7 +193,7 @@
     {
       "source": "Trix (Anvers)",
       "ok": true,
-      "page_caracteres": 10832,
+      "page_caracteres": 10827,
       "ia_a_trouve": 17,
       "gardes": 17,
       "ecartes": 0,
@@ -211,7 +211,7 @@
     {
       "source": "Mars – Mons arts de la scène",
       "ok": true,
-      "page_caracteres": 11789,
+      "page_caracteres": 11816,
       "ia_a_trouve": 9,
       "gardes": 9,
       "ecartes": 0,
@@ -230,6 +230,6 @@
       "gardes": 214
     }
   ],
-  "avec_image": 1986,
-  "total": 1986
+  "avec_image": 1988,
+  "total": 1988
 }
