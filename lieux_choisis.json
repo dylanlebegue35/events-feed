@@ -861,6 +861,42 @@
    "pitch": "Bistrot au décor industriel avec un grand choix de bières de microbrasseries, rue Rabelais.",
    "offer": null,
    "partner": false
+  },
+  {
+   "id": "vivyo-bar-sugoi-liege",
+   "name": "Sugoï",
+   "kind": "bar",
+   "kind_label": "Bar",
+   "city": "Liège",
+   "address": "Rue Pont d'Avroy 3, 4000 Liège",
+   "website": null,
+   "instagram": null,
+   "hours": "Mo-Su 16:00-24:00",
+   "image": null,
+   "image_credit": null,
+   "pitch": "Izakaya liégeois : cocktails d'inspiration japonaise et petites assiettes à partager. Sans réservation.",
+   "offer": null,
+   "partner": false,
+   "lat": 50.6407926,
+   "lon": 5.5706824
+  },
+  {
+   "id": "vivyo-bar-chez-moi-liege",
+   "name": "Chez Moi",
+   "kind": "bar",
+   "kind_label": "Bar",
+   "city": "Liège",
+   "address": "Rue de la Casquette 45, 4000 Liège",
+   "website": null,
+   "instagram": "https://www.instagram.com/chezmoi_liege/",
+   "hours": null,
+   "image": null,
+   "image_credit": null,
+   "pitch": "Café le jour, cocktails le soir, dans un décor de speakeasy vintage. Par l'équipe du Lou's Bar.",
+   "offer": null,
+   "partner": false,
+   "lat": 50.6417927,
+   "lon": 5.5675851
   }
  ]
 }

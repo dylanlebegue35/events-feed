@@ -37,6 +37,7 @@ jobs:
           INBOX_TOKEN: ${{ secrets.INBOX_TOKEN }}
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
           TICKETMASTER_KEY: ${{ secrets.TICKETMASTER_KEY }}
+          GOOGLE_PLACES_KEY: ${{ secrets.GOOGLE_PLACES_KEY }}
         run: python3 build_events.py
       - name: Enregistrer si quelque chose a changé
         run: |

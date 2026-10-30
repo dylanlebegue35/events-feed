@@ -1,0 +1,51 @@
+{
+ "_aide": "Bars les mieux notés sur Google Maps, ville par ville, et photos Google pour les lieux qui n'en ont pas. Il faut le secret GitHub GOOGLE_PLACES_KEY (et le même dans le Worker Cloudflare vivyo-inbox pour les photos). top = nombre de bars gardés par ville ; min_reviews / min_rating = seuils de qualité. Une lecture par semaine (~250 appels par mois, dans le gratuit de Google).",
+ "enabled": true,
+ "min_days_between_runs": 7,
+ "photo_proxy": "https://vivyo-inbox.dylanlebegue35.workers.dev/photo",
+ "types": [
+  "bar",
+  "pub",
+  "wine_bar"
+ ],
+ "min_reviews": 100,
+ "min_rating": 4.3,
+ "max_photo_lookups": 120,
+ "cities": [
+  {
+   "name": "Liège",
+   "lat": 50.6412,
+   "lon": 5.5718,
+   "radius_m": 2500,
+   "top": 25
+  },
+  {
+   "name": "Bruxelles",
+   "lat": 50.8467,
+   "lon": 4.3525,
+   "radius_m": 3000,
+   "top": 15
+  },
+  {
+   "name": "Namur",
+   "lat": 50.4652,
+   "lon": 4.8651,
+   "radius_m": 1800,
+   "top": 10
+  },
+  {
+   "name": "Mons",
+   "lat": 50.4542,
+   "lon": 3.9523,
+   "radius_m": 1500,
+   "top": 10
+  },
+  {
+   "name": "Louvain-la-Neuve",
+   "lat": 50.6683,
+   "lon": 4.6118,
+   "radius_m": 1500,
+   "top": 10
+  }
+ ]
+}

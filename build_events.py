@@ -407,6 +407,115 @@ def in_belgium(lat, lon):
             return True             # dans le doute on garde, et on redemandera au prochain passage
     return _geo[key] == "be"
 
+# ============================================================ Google Maps (Places API, clé GOOGLE_PLACES_KEY)
+# Une fois par semaine : 1) les bars les mieux notés de chaque ville de google_places.json ;
+# 2) une photo Google pour les lieux qui n'en ont pas, et on écarte ceux que Google dit fermés définitivement.
+# Les photos passent par le Worker vivyo-inbox (la clé n'est jamais dans l'app), avec un plafond par jour.
+# Google interdit de garder ses données : on ne garde que l'identifiant Google, le reste est relu chaque semaine.
+GOOGLE_CONFIG = HERE / "google_places.json"
+GOOGLE_STORE = HERE / "google_store.json"
+GOOGLE_API = "https://places.googleapis.com/v1/places:searchText"
+
+
+def _google_search(key, body, fields):
+    r = subprocess.run(["curl", "-s", "--max-time", "30", "-X", "POST", GOOGLE_API, "-H", "Content-Type: application/json",
+                        "-H", f"X-Goog-Api-Key: {key}", "-H", f"X-Goog-FieldMask: {fields}", "-d", json.dumps(body)],
+                       capture_output=True)
+    data = json.loads(r.stdout.decode("utf-8", errors="ignore") or "{}")
+    if "error" in data:
+        raise RuntimeError(data["error"].get("message", "erreur Google")[:200])
+    return data
+
+
+def _google_photo(place, proxy):
+    """Première photo du lieu (adresse du Worker) et son auteur, à afficher avec « Google Maps »."""
+    ph = (place.get("photos") or [None])[0]
+    if not ph:
+        return None, None
+    author = ", ".join(a.get("displayName", "") for a in ph.get("authorAttributions", []) if a.get("displayName"))
+    return f"{proxy}?ref={quote(ph['name'], safe='/')}", (f"{author} · Google Maps" if author else "Google Maps")
+
+
+def google_places(lieux):
+    key = os.environ.get("GOOGLE_PLACES_KEY")
+    cfg = json.loads(GOOGLE_CONFIG.read_text()) if GOOGLE_CONFIG.exists() else {}
+    store = json.loads(GOOGLE_STORE.read_text()) if GOOGLE_STORE.exists() else {"last_run": None, "bars": [], "photos": {}}
+    last = store.get("last_run")
+    due = not last or (datetime.now() - datetime.fromisoformat(last)) >= timedelta(days=cfg.get("min_days_between_runs", 7))
+    if cfg.get("enabled") and key and due:
+        proxy = cfg["photo_proxy"]
+        try:
+            # 1) les bars les mieux notés, ville par ville
+            bars = []
+            fields = ("places.id,places.displayName,places.formattedAddress,places.location,places.rating,places.userRatingCount,"
+                      "places.businessStatus,places.primaryTypeDisplayName,places.websiteUri,places.photos,nextPageToken")
+            for c in cfg["cities"]:
+                dlat, dlon = c["radius_m"] / 111000, c["radius_m"] / (111000 * 0.64)
+                found, seen = [], set()
+                for kind in cfg.get("types", ["bar"]):
+                    body = {"textQuery": f"{kind.replace('_', ' ')} {c['name']}", "includedType": kind, "languageCode": "fr",
+                            "regionCode": "BE", "pageSize": 20,
+                            "locationRestriction": {"rectangle": {"low": {"latitude": c["lat"] - dlat, "longitude": c["lon"] - dlon},
+                                                                  "high": {"latitude": c["lat"] + dlat, "longitude": c["lon"] + dlon}}}}
+                    for _ in range(3):                      # 3 pages de 20 au plus
+                        data = _google_search(key, body, fields)
+                        for g in data.get("places", []):
+                            if g["id"] not in seen:
+                                seen.add(g["id"])
+                                found.append(g)
+                        if not data.get("nextPageToken"):
+                            break
+                        body["pageToken"] = data["nextPageToken"]
+                        time.sleep(2)
+                m, prior = cfg.get("min_reviews", 100), 4.2
+                good = [g for g in found if g.get("businessStatus") == "OPERATIONAL" and g.get("photos")
+                        and g.get("userRatingCount", 0) >= m and g.get("rating", 0) >= cfg.get("min_rating", 4.3)]
+                # note « juste » : un 4,9 sur 30 avis ne passe pas devant un 4,6 sur 2 000
+                good.sort(key=lambda g: -(g["userRatingCount"] * g["rating"] + 2 * m * prior) / (g["userRatingCount"] + 2 * m))
+                for g in good[:c["top"]]:
+                    img, credit = _google_photo(g, proxy)
+                    bars.append({"id": "g-" + g["id"], "google_id": g["id"], "name": g["displayName"]["text"], "kind": "bar",
+                                 "kind_label": (g.get("primaryTypeDisplayName") or {}).get("text") or "Bar", "city": c["name"],
+                                 "address": g.get("formattedAddress"), "lat": g["location"]["latitude"], "lon": g["location"]["longitude"],
+                                 "website": g.get("websiteUri"), "hours": None, "image": img, "image_credit": credit, "pitch": None})
+                REPORT.append({"source": f"Google : bars de {c['name']}", "ok": True, "trouves": len(found), "gardes": min(len(good), c["top"])})
+            store["bars"] = bars
+            # 2) une photo pour les lieux qui n'en ont pas (et les lieux fermés pour de bon)
+            photos, fields = {}, "places.id,places.location,places.businessStatus,places.photos"
+            for p in [p for p in lieux if not p.get("image")][:cfg.get("max_photo_lookups", 120)]:
+                data = _google_search(key, {"textQuery": f"{p['name']}, {p.get('address') or p.get('city') or ''}", "languageCode": "fr",
+                                            "regionCode": "BE", "pageSize": 1,
+                                            "locationBias": {"circle": {"center": {"latitude": p["lat"], "longitude": p["lon"]}, "radius": 300}}},
+                                      fields)
+                g = (data.get("places") or [None])[0]
+                if not g or _km([p["lat"], p["lon"]], [g["location"]["latitude"], g["location"]["longitude"]]) > 0.15:
+                    continue                                # pas sûr que ce soit le même lieu : on ne prend rien
+                img, credit = _google_photo(g, proxy)
+                photos[p["id"]] = {"image": img, "image_credit": credit, "closed": g.get("businessStatus") == "CLOSED_PERMANENTLY"}
+            store["photos"] = photos
+            store["last_run"] = datetime.now().isoformat(timespec="seconds")
+            REPORT.append({"source": "Google : photos des lieux", "ok": True, "trouvees": sum(1 for x in photos.values() if x["image"])})
+            GOOGLE_STORE.write_text(json.dumps(store, ensure_ascii=False, indent=1), encoding="utf-8")
+        except Exception as ex:
+            REPORT.append({"source": "Google Maps", "ok": False, "erreur": str(ex).replace(key, "***")[:300]})
+    # appliquer la dernière lecture de Google (même entre deux passages)
+    out = []
+    for p in lieux:
+        g = store.get("photos", {}).get(p["id"])
+        if g and g["closed"]:
+            continue                                        # fermé définitivement selon Google
+        if g and g["image"] and not p.get("image"):
+            p["image"], p["image_credit"] = g["image"], g["image_credit"]
+        out.append(p)
+    for b in store.get("bars", []):                         # un bar déjà choisi à la main garde sa fiche (et prend la photo s'il n'en a pas)
+        twin = next((p for p in out if p["kind"] == "bar" and _km([p["lat"], p["lon"]], [b["lat"], b["lon"]]) < 0.08), None)
+        if twin:
+            if not twin.get("image"):
+                twin["image"], twin["image_credit"] = b["image"], b["image_credit"]
+        else:
+            out.append(dict(b))
+    return out
+
 
 def build_places():
     """Lieux sans date (« Quand tu veux » dans l'app) : ceux choisis à la main d'abord (bars, partenaires),
@@ -425,8 +534,9 @@ def build_places():
     # un lieu choisi remplace le même lieu trouvé sur OpenStreetMap (même type, à moins de 300 m)
     lieux = chosen + [p for p in osm if not any(p["kind"] == c["kind"] and _km([p["lat"], p["lon"]], [c["lat"], c["lon"]]) < 0.3
                                                 for c in chosen)]
-    # photo du site officiel déjà trouvée : on la reprend (les photos libres, elles, sont revérifiées)
-    old = {p["id"]: p for p in prev if p.get("image") and "wikimedia.org" not in p["image"]}
+    lieux = google_places(lieux)        # bars les mieux notés et photos Google (si la clé est là)
+    # photo du site officiel déjà trouvée : on la reprend (les photos libres et Google, elles, sont revérifiées)
+    old = {p["id"]: p for p in prev if p.get("image") and "wikimedia.org" not in p["image"] and "/photo?ref=" not in p["image"]}
     for p in lieux:          # photo du site officiel, sinon photo libre du lieu précis, sinon rien (l'app montre une icône)
         if p.get("image"):
             continue
