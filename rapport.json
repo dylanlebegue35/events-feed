@@ -1,5 +1,5 @@
 {
-  "genere": "2026-10-30T10:40:53",
+  "genere": "2026-10-30T16:39:59",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -81,12 +81,10 @@
     },
     {
       "source": "Ville de Huy",
-      "ok": true,
-      "page_caracteres": 5426,
-      "ia_a_trouve": 4,
+      "ok": false,
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
       "gardes": 4,
-      "ecartes": 0,
-      "extrait_reponse_ia": ""
+      "ecartes": 0
     },
     {
       "source": "Grand Curtius (Liège)",
@@ -117,12 +115,10 @@
     },
     {
       "source": "Opéra Royal de Wallonie",
-      "ok": true,
-      "page_caracteres": 14839,
-      "ia_a_trouve": 6,
+      "ok": false,
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
       "gardes": 6,
-      "ecartes": 0,
-      "extrait_reponse_ia": ""
+      "ecartes": 0
     },
     {
       "source": "Rockerill (Charleroi)",
@@ -133,12 +129,10 @@
     },
     {
       "source": "Fuse (Bruxelles)",
-      "ok": true,
-      "page_caracteres": 5115,
-      "ia_a_trouve": 6,
+      "ok": false,
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
       "gardes": 6,
-      "ecartes": 0,
-      "extrait_reponse_ia": ""
+      "ecartes": 0
     },
     {
       "source": "Madame Moustache (Bruxelles)",
@@ -213,6 +207,6 @@
       "gardes": 217
     }
   ],
-  "avec_image": 888,
+  "avec_image": 890,
   "total": 1973
 }
