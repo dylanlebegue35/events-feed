@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T00:38:12",
+  "generated": "2026-10-30T04:39:03",
   "events": [
     {
       "id": "web-visithuy-l-invention-cach-e-2026-05-25",
@@ -4111,7 +4111,7 @@
       "lon": 5.9713469,
       "start": "2026-10-31T18:00:00",
       "end": "2026-10-31T21:00:00",
-      "image": null,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Baelen_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "page_url": "https://www.facebook.com/events/1122888923636106/",
       "url": "https://www.facebook.com/events/1122888923636106/",
       "summary": "Soirée Halloween organisée par le Patro Saint-Paul pour les enfants et les familles de Baelen-Membach.",
@@ -4119,7 +4119,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Frinck51 / Wikimedia Commons, CC BY 2.0"
     },
     {
       "id": "fbx-915129784802119",
@@ -4151,7 +4152,7 @@
       "lon": 5.7243044,
       "start": "2026-10-31T18:00:00",
       "end": "2026-10-31T22:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Kohlebergwerk%2C_Blegny_%28Blegny-Mine%29_I%2C_Belgique.jpg/1280px-Kohlebergwerk%2C_Blegny_%28Blegny-Mine%29_I%2C_Belgique.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/2249173862311073/",
       "url": "https://www.facebook.com/events/2249173862311073/",
       "summary": "Soirée Halloween frissonnante sur le site minier de Blegny-Mine, sur réservation.",
@@ -4159,7 +4160,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Horst J. Meuter / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "fbx-1165694292539889",
@@ -4311,7 +4313,7 @@
       "lon": 4.2347126,
       "start": "2026-10-31T18:00:00",
       "end": "2026-11-01T02:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Business-game-management-AH.png/1280px-Business-game-management-AH.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1076166998644643/",
       "url": "https://www.facebook.com/events/1076166998644643/",
       "summary": "Soirée électro festive pour Halloween organisée par Elle Aime Prod.",
@@ -4319,7 +4321,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Գայանե Պետրոսյաաան / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "fbx-1593572832149620",
@@ -4331,7 +4334,7 @@
       "lon": 4.2537911,
       "start": "2026-10-31T18:00:00",
       "end": "2026-10-31T23:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Carni%C3%A8res._La_Grand%27Place%2C_GP023436.jpg/1280px-Carni%C3%A8res._La_Grand%27Place%2C_GP023436.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1593572832149620/",
       "url": "https://www.facebook.com/events/1593572832149620/",
       "summary": "Soirée Halloween organisée par la commune de Morlanwelz sur la place de Carnières.",
@@ -4339,7 +4342,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Unknown authorUnknown author / Wikimedia Commons, Public domain"
     },
     {
       "id": "fbx-1113002561066547",
@@ -4671,7 +4675,7 @@
       "lon": 4.18563,
       "start": "2026-10-31T18:30:00",
       "end": "2026-10-31T21:30:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Jean-Pierre_JOLY_-_La_Louvi%C3%A8re-Sud.jpg/1280px-Jean-Pierre_JOLY_-_La_Louvi%C3%A8re-Sud.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1398025385846017/",
       "url": "https://www.facebook.com/events/1398025385846017/",
       "summary": "Souper annuel de l'école IMRG pour soutenir ses projets, ouvert aux familles et amis.",
@@ -4679,7 +4683,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Le Sharkoïste / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "fbx-1309996161287486",
@@ -24770,7 +24775,7 @@
       "lon": 5.7243044,
       "start": "2026-11-22T09:30:00",
       "end": "2026-11-22T12:30:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Kohlebergwerk%2C_Blegny_%28Blegny-Mine%29_I%2C_Belgique.jpg/1280px-Kohlebergwerk%2C_Blegny_%28Blegny-Mine%29_I%2C_Belgique.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1893562685144248/",
       "url": "https://www.facebook.com/events/1893562685144248/",
       "summary": "Jogging communal au départ du site de Blegny-Mine, ouvert à tous les niveaux de coureurs.",
@@ -24778,7 +24783,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Horst J. Meuter / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "fbx-1893510905143022",
