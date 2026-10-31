@@ -1,12 +1,12 @@
 {
-  "genere": "2026-10-30T22:30:57",
+  "genere": "2026-10-31T04:33:55",
   "sources": [
     {
       "source": "Reflektor (Liège)",
       "ok": false,
       "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
-      "gardes": 44,
-      "ecartes": 2
+      "gardes": 43,
+      "ecartes": 3
     },
     {
       "source": "Les Ardentes (Liège)",
@@ -28,26 +28,24 @@
     },
     {
       "source": "VisitHuy",
-      "ok": true,
-      "page_caracteres": 5881,
-      "ia_a_trouve": 9,
-      "gardes": 9,
-      "ecartes": 0,
-      "extrait_reponse_ia": ""
+      "ok": false,
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
+      "gardes": 8,
+      "ecartes": 1
     },
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": false,
       "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
-      "gardes": 3,
-      "ecartes": 0
+      "gardes": 2,
+      "ecartes": 1
     },
     {
       "source": "Le Forum (Liège)",
       "ok": false,
       "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
-      "gardes": 71,
-      "ecartes": 0
+      "gardes": 70,
+      "ecartes": 1
     },
     {
       "source": "Standard de Liège",
@@ -60,10 +58,12 @@
     },
     {
       "source": "Province de Liège",
-      "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
+      "ok": true,
+      "page_caracteres": 19935,
+      "ia_a_trouve": 7,
       "gardes": 7,
-      "ecartes": 0
+      "ecartes": 0,
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Stavelot",
@@ -81,8 +81,8 @@
       "source": "Ville de Huy",
       "ok": false,
       "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
-      "gardes": 4,
-      "ecartes": 0
+      "gardes": 3,
+      "ecartes": 1
     },
     {
       "source": "Grand Curtius (Liège)",
@@ -136,8 +136,8 @@
       "source": "Madame Moustache (Bruxelles)",
       "ok": false,
       "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
-      "gardes": 20,
-      "ecartes": 0
+      "gardes": 19,
+      "ecartes": 1
     },
     {
       "source": "Recyclart (Bruxelles)",
@@ -152,31 +152,29 @@
       "source": "Ancienne Belgique (Bruxelles)",
       "ok": false,
       "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
-      "gardes": 6,
-      "ecartes": 4
+      "gardes": 4,
+      "ecartes": 6
     },
     {
       "source": "Botanique (Bruxelles)",
-      "ok": true,
-      "page_caracteres": 4869,
-      "ia_a_trouve": 3,
-      "gardes": 3,
-      "ecartes": 0,
-      "extrait_reponse_ia": ""
+      "ok": false,
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
+      "gardes": 2,
+      "ecartes": 1
     },
     {
       "source": "Trix (Anvers)",
       "ok": false,
       "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
-      "gardes": 14,
-      "ecartes": 3
+      "gardes": 12,
+      "ecartes": 5
     },
     {
       "source": "Het Depot (Louvain)",
       "ok": false,
       "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
-      "gardes": 14,
-      "ecartes": 1
+      "gardes": 13,
+      "ecartes": 2
     },
     {
       "source": "Mars – Mons arts de la scène",
@@ -200,9 +198,9 @@
       "source": "Facebook (service tiers)",
       "ok": true,
       "etat": "pas encore l'heure",
-      "gardes": 217
+      "gardes": 207
     }
   ],
-  "avec_image": 893,
-  "total": 1972
+  "avec_image": 870,
+  "total": 1891
 }

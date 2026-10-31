@@ -71,29 +71,6 @@
    "classified": true
   },
   {
-   "id": "fb-4386514284997172",
-   "title": "Liège (BE) - Trocadéro",
-   "category": "theatre",
-   "venue": "Trocadéro de Liège",
-   "city": "Liège",
-   "lat": 50.64233,
-   "lon": 5.57194,
-   "start": "2026-10-30T20:30:00",
-   "end": "2026-10-30T23:30:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-4386514284997172.jpg",
-   "page_url": "https://www.facebook.com/events/4386514284997172/",
-   "url": "https://www.facebook.com/events/4386514284997172/",
-   "summary": "Dans ce spectacle, Rosa poursuit son récit sur la quête amoureuse et creuse ses contradictions de mauvaise féministe, de mauvaise écologiste, de mauvaise gauchiste. Elle retrace l’histoire de sa famille et se questionne sur notre époque : Serions-nous restés des enfants qui jouons au bras de fer dan",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1392485689143389",
    "title": "Liège, ville insolite !",
    "category": "culture",
@@ -154,50 +131,6 @@
    "price_from": null,
    "free": null,
    "audience": [],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-4141520206098706",
-   "title": "Masse Critique Liège",
-   "category": "outdoor",
-   "venue": "Esplanade Saint-Léonard, 4000 Liège, Belgique",
-   "city": "Liège",
-   "lat": 50.64797405946,
-   "lon": 5.5852258859641,
-   "start": "2026-10-30T18:30:00",
-   "end": "2026-10-30T21:30:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-4141520206098706.jpg",
-   "page_url": "https://www.facebook.com/events/4141520206098706/",
-   "url": "https://www.facebook.com/events/4141520206098706/",
-   "summary": "La masse critique de Liège est un mouvement autogéré de cyclistes qui défendent leur place et leur intégrité physique sur la route ... Chacun agit de sa propre responsabilité civile, mais notre objectif est pacifique et n'a rien de politique ... La Masse Critique, évènement qui se produit dans toute",
-   "price_from": null,
-   "free": null,
-   "audience": [],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-867803059333451",
-   "title": "Rosa Bursztein · \"Dédoublée\" · Le Trocadéro de Liège",
-   "category": "theatre",
-   "venue": "Trocadéro de Liège",
-   "city": "Liège",
-   "lat": 50.64233,
-   "lon": 5.57194,
-   "start": "2026-10-30T20:00:00",
-   "end": "2026-10-30T23:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-867803059333451.jpg",
-   "page_url": "https://www.facebook.com/events/867803059333451/",
-   "url": "https://www.facebook.com/events/867803059333451/",
-   "summary": "Back in the Dayz, Rosa B Productions et L Productions présentent Rosa Bursztein en spectacle le 30 octobre 2026 au Trocadéro de Liège ! 🎟️ Tickets : bit.ly/rosa-trocadéro Dans ce spectacle, Rosa poursuit son récit sur la quête amoureuse et creuse ses contradictions de mauvaise féministe, de mauvaise",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
    "tags": [],
    "source": "Facebook (événement public)",
    "classified": true
@@ -951,29 +884,6 @@
    "classified": true
   },
   {
-   "id": "fb-1110058331446408",
-   "title": "Voyage Sonore Live - Relaxation profonde - Namur (Erpent) 10 places max",
-   "category": "wellness",
-   "venue": "Erpent, Namur, Belgium",
-   "city": "Namur",
-   "lat": 50.45,
-   "lon": 4.9,
-   "start": "2026-10-30T18:30:00",
-   "end": "2026-10-30T20:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1110058331446408.jpg",
-   "page_url": "https://www.facebook.com/events/1110058331446408/",
-   "url": "https://www.facebook.com/events/1110058331446408/",
-   "summary": "✨ Voyage sonore – une parenthèse pour se (re)centrer ✨ avec Mona Yoga & Christophe – Quinte et Sens - 10 PLACES MAX Et si, le temps d’une soirée, tu mettais le monde sur pause… Si tu t’autorisais à ne rien faire, juste ressentir. Je t’invite à vivre une expérience sonore immersive, une véritable plo",
-   "price_from": null,
-   "free": true,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1681190926513048",
    "title": "Gala 50 ans Alumni EMCP",
    "category": "party",
@@ -1538,29 +1448,6 @@
    "page_url": "https://www.facebook.com/events/572304675931129/",
    "url": "https://www.facebook.com/events/572304675931129/",
    "summary": "🚀 Digital Nomad Meetup – Connection, Inspiration & Caffeine ☕🌍 Tired of working remotely all by yourself? Come meet other digital nomads in a warm, relaxed atmosphere! No rigid schedule — just real conversations, useful tips, good vibes, and maybe even future coworking or travel buddies. 📅 Frequency",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "young"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1549595769429624",
-   "title": "“CAROLO HALLOWEEN : Le Live — HOTEL DU GLOBE + 6Bill + NIMBUS CART\"",
-   "category": "concert",
-   "venue": "Culture rock Charleroi",
-   "city": "Charleroi",
-   "lat": 50.41345,
-   "lon": 4.44219,
-   "start": "2026-10-30T20:30:00",
-   "end": "2026-10-30T23:30:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1549595769429624.jpg",
-   "page_url": "https://www.facebook.com/events/1549595769429624/",
-   "url": "https://youtu.be/_PKE59K64h0?si=y7KiQBC34YbRwulk",
-   "summary": "🎬 “CAROLO HALLOWEEN : Le Live — Hotel du Globe + 6Bill + Nimbus Cart 📌HOTEL DU GLOBE Leur rock élégant séduit partout où il se produit. Les catégoriser Post Punk, New Wave, Indé est réducteur : leur musique est éclectique, ce qui en fait leur charme. Ils sont à la fois authentiques et dans l'air du ",
    "price_from": null,
    "free": null,
    "audience": [
@@ -2421,29 +2308,6 @@
    "classified": true
   },
   {
-   "id": "fb-2050739202502896",
-   "title": "3rd MethodsNET Conference 2026",
-   "category": "talks",
-   "venue": "Louvain-la-Neuve",
-   "city": "Louvain-la-Neuve",
-   "lat": 50.6833,
-   "lon": 4.61667,
-   "start": "2026-10-28T08:00:00",
-   "end": "2026-10-30T18:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-2050739202502896.jpg",
-   "page_url": "https://www.facebook.com/events/2050739202502896/",
-   "url": "https://methodsnet.org/conference/3rd-methodsnet-conference-2026/",
-   "summary": "Join the global pluralist community at the 3rd MethodsNET Conference 2026 in Louvain-la-Neuve, Belgium! MethodsNET is a global, non-profit network dedicated to excellence and pluralism in research methods, and this conference is the absolute \"place to be\" for methods experts, developers, and practit",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1104459265878894",
    "title": "Impro Comedy Show — Louvain-la-Neuve | 12 novembre 2026",
    "category": "theatre",
@@ -2633,29 +2497,6 @@
    "summary": "🇧🇪 SOIRÉE LIÉGEOISE [4e ÉDITION] 🇧🇪 Nous sommes de retour !!! Après une fête mémorable, il est temps de reprendre l’année comme il se doit. Et comme chaque année, on vous a préparé du lourd, digne de la Cité Ardente ! SAMEDI 14 NOVEMBRE – dès 21h 🍋 REGGIO (pour les vrais) 🥭 BLANC PASSION (ça glisse ",
    "price_from": null,
    "free": true,
-   "audience": [
-    "young"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1416614023295558",
-   "title": "Soirée Halloween à la RJS chênee",
-   "category": "party",
-   "venue": "Rjs Chênée",
-   "city": "Liège",
-   "lat": 50.617230339446,
-   "lon": 5.6267543307861,
-   "start": "2026-10-30T19:00:00",
-   "end": "2026-10-30T22:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1416614023295558.jpg",
-   "page_url": "https://www.facebook.com/events/1416614023295558/",
-   "url": "https://www.facebook.com/events/1416614023295558/",
-   "summary": "🎃👻 GRANDE SOIRÉE HALLOWEEN AU RJS CHÊNÉE ! 👻🎃 🕸️ Préparez vos plus beaux déguisements et venez frissonner avec nous lors d’une soirée Halloween pleine de musique, de surprises et de bonne humeur ! 🧙‍♀️🦇 📅 Vendredi 30 octobre 2026 🕖 À partir de 19h 📍 Au club de football du RJS Chênée 🎉 AU PROGRAMME :",
-   "price_from": null,
-   "free": null,
    "audience": [
     "young"
    ],
@@ -2951,29 +2792,6 @@
    "classified": true
   },
   {
-   "id": "fb-1824138335610309",
-   "title": "SOIRÉE RACLETTE HALLOWEEN",
-   "category": "party",
-   "venue": "Rue d' Enhaive, 142, 5100 Jambes, Belgium",
-   "city": "Namur",
-   "lat": 50.45888,
-   "lon": 4.8786,
-   "start": "2026-10-30T18:00:00",
-   "end": "2026-10-30T21:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1824138335610309.jpg",
-   "page_url": "https://www.facebook.com/events/1824138335610309/",
-   "url": "https://www.facebook.com/events/1824138335610309/",
-   "summary": "🎃👻 HALLOWEEN À ROC EVASION ! 👻🎃 Les affreux, les sorcières, les monstres et autres créatures en tout genre sont officiellement conviés à notre soirée Halloween ! 🧙‍♀️💀🕷️ 📅 Quand ? Le vendredi 30 octobre – de 18h à 00h 📍 Où ? À Roc Evasion 🕸️ AU PROGRAMME : 🥂 Un verre de bienvenue Offert à ton arrivé",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1090889276678970",
    "title": "Soirée dansante entre filles @Namur",
    "category": "party",
@@ -3194,29 +3012,6 @@
    "free": null,
    "audience": [
     "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1645263207146492",
-   "title": "Soirée Halloween Fluo",
-   "category": "party",
-   "venue": "Chemin Du Chêne Aux Haies 2, 7000 Mons, Belgium",
-   "city": "Mons",
-   "lat": 50.45895,
-   "lon": 3.97679,
-   "start": "2026-10-30T19:30:00",
-   "end": "2026-10-30T22:30:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1645263207146492.jpg",
-   "page_url": "https://www.facebook.com/events/1645263207146492/",
-   "url": "https://www.facebook.com/events/1645263207146492/",
-   "summary": "Halloween s’invite chez Face Nord 🎃 Le vendredi 30 octobre, prépare ton meilleur déguisement et viens passer une soirée pleine de surprises et de défis 👻 Pour l’occasion, on te prépare quelques activités spéciales et une ambiance Halloween comme il se doit ! Et pour la soirée, viens déguisé et profi",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "young"
    ],
    "tags": [],
    "source": "Facebook (événement public)",
@@ -3769,29 +3564,6 @@
    "price_from": null,
    "free": null,
    "audience": [],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-2257080374879612",
-   "title": "Concert des Violons de Bruxelles",
-   "category": "concert",
-   "venue": "Place Saint-Vincent, 1457 Nil-Saint-Vincent-Saint-Martin, Belgium",
-   "city": "Walhain",
-   "lat": 50.64058,
-   "lon": 4.6737,
-   "start": "2026-10-30T20:30:00",
-   "end": "2026-10-30T23:30:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-2257080374879612.jpg",
-   "page_url": "https://www.facebook.com/events/2257080374879612/",
-   "url": "https://youtu.be/_d502a8ueoA",
-   "summary": "Non, Les Violons de Bruxelles ne sont pas un orchestre de musique classique. Emmenés par Tcha Limberger, ils regroupent la fine fleur des violonistes de jazz belges. Ce quintette à cordes à trois violons, une guitare et une contrebasse bouleverse les codes de la formule traditionnelle du swing et re",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
    "tags": [],
    "source": "Facebook (événement public)",
    "classified": true
