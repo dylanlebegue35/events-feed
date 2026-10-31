@@ -1,5 +1,5 @@
 {
-  "genere": "2026-10-31T10:28:36",
+  "genere": "2026-10-31T16:27:52",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -86,12 +86,10 @@
     },
     {
       "source": "Grand Curtius (Liège)",
-      "ok": true,
-      "page_caracteres": 9946,
-      "ia_a_trouve": 8,
+      "ok": false,
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
       "gardes": 7,
-      "ecartes": 1,
-      "extrait_reponse_ia": ""
+      "ecartes": 1
     },
     {
       "source": "Village de Noël (Liège)",
@@ -201,6 +199,6 @@
       "gardes": 207
     }
   ],
-  "avec_image": 875,
+  "avec_image": 882,
   "total": 1891
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T10:28:36",
+  "generated": "2026-10-31T16:27:52",
   "events": [
     {
       "id": "web-visithuy-l-invention-cach-e-2026-05-25",
@@ -3360,7 +3360,7 @@
     {
       "id": "tm-Z698xZG2Z16vZ3Psk8",
       "title": "Petero Nzukira – UTABUSYA ABWITA UBUMERA",
-      "category": "concert",
+      "category": "theatre",
       "venue": "Cirque Royal - Koninklijk Circus",
       "city": "Brussels",
       "lat": 50.84906,
@@ -9556,7 +9556,7 @@
       "lon": 4.5243511,
       "start": "2026-11-07T19:00:00",
       "end": "2026-11-07T22:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Ch%C3%A2telet_metro_station_01.jpg/1280px-Ch%C3%A2telet_metro_station_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/28232011766469377/",
       "url": "https://www.facebook.com/events/28232011766469377/",
       "summary": "Première édition de la soirée à l'italienne Dolce Night organisée par Pimento Events.",
@@ -9564,7 +9564,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "HJ Mitchell / Wikimedia Commons, CC BY 4.0"
     },
     {
       "id": "fbx-1657445735802429",
@@ -9656,7 +9657,7 @@
       "lon": 5.4740926,
       "start": "2026-11-07T19:00:00",
       "end": "2026-11-07T22:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Limes_%28Meix-devant-Virton%29.JPG/1280px-Limes_%28Meix-devant-Virton%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/4667566823475115/",
       "url": "https://www.facebook.com/events/4667566823475115/",
       "summary": "Souper annuel organisé par les Princes, figures du carnaval local.",
@@ -9664,7 +9665,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Émile Beguin / Wikimedia Commons, CC BY 3.0"
     },
     {
       "id": "fbx-2878330869200595",
@@ -9696,7 +9698,7 @@
       "lon": 5.5297763,
       "start": "2026-11-07T19:00:00",
       "end": "2026-11-07T22:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Magerotte_%28Hameau_de_Tillet%29.JPG/1280px-Magerotte_%28Hameau_de_Tillet%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1405342451575076/",
       "url": "https://www.facebook.com/events/1405342451575076/",
       "summary": "Blind test musical organisé par les Gayets à Tillet.",
@@ -9704,7 +9706,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Jean-Pol GRANDMONT / Wikimedia Commons, CC BY 2.0"
     },
     {
       "id": "fbx-25249648021369137",
@@ -9856,7 +9859,7 @@
       "lon": 4.3235854,
       "start": "2026-11-07T19:30:00",
       "end": "2026-11-07T22:30:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Coll%C3%A9giale_Sainte-Gertrude_de_Nivelles_et_la_fontaine_du_perron.jpg/1280px-Coll%C3%A9giale_Sainte-Gertrude_de_Nivelles_et_la_fontaine_du_perron.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1518237533472036/",
       "url": "https://www.facebook.com/events/1518237533472036/",
       "summary": "Parcours de concerts jazz dans les bars et lieux du centre-ville.",
@@ -9864,7 +9867,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Cochon d'inde noir / Wikimedia Commons, CC0"
     },
     {
       "id": "fbx-1414314864100914",
@@ -9916,7 +9920,7 @@
       "lon": 5.5234946,
       "start": "2026-11-07T20:00:00",
       "end": "2026-11-07T23:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Avouerie_Anthisnes_2018.jpg/1280px-Avouerie_Anthisnes_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/860161387064990/",
       "url": "https://www.facebook.com/events/860161387064990/",
       "summary": "Neuvième édition des Nuits de l'Avouerie, soirée musicale dans le cadre médiéval de l'Avouerie.",
@@ -9924,7 +9928,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "SchenkyourFred / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "fbx-1399615698870315",
@@ -21083,7 +21088,7 @@
       "lon": 4.3235854,
       "start": "2026-11-21T10:00:00",
       "end": "2026-11-22T18:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Coll%C3%A9giale_Sainte-Gertrude_de_Nivelles_et_la_fontaine_du_perron.jpg/1280px-Coll%C3%A9giale_Sainte-Gertrude_de_Nivelles_et_la_fontaine_du_perron.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1733504161062601/",
       "url": "https://www.facebook.com/events/1733504161062601/",
       "summary": "Deux jours d'ateliers, stands et conseils pour réduire ses déchets.",
@@ -21091,7 +21096,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Cochon d'inde noir / Wikimedia Commons, CC0"
     },
     {
       "id": "fbx-1458245299585442",
@@ -22957,7 +22963,7 @@
       "lon": 5.5297763,
       "start": "2026-11-22T08:00:00",
       "end": "2026-11-22T11:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Magerotte_%28Hameau_de_Tillet%29.JPG/1280px-Magerotte_%28Hameau_de_Tillet%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1458451086344537/",
       "url": "https://www.facebook.com/events/1458451086344537/",
       "summary": "Petit-déjeuner solidaire aux produits équitables au profit d'Oxfam.",
@@ -22965,7 +22971,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Jean-Pol GRANDMONT / Wikimedia Commons, CC BY 2.0"
     },
     {
       "id": "fbx-1043483642049344",
