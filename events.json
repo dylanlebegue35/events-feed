@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T04:33:55",
+  "generated": "2026-10-31T10:28:36",
   "events": [
     {
       "id": "web-visithuy-l-invention-cach-e-2026-05-25",
@@ -8452,7 +8452,7 @@
       "lon": 5.8130931,
       "start": "2026-11-07T09:00:00",
       "end": "2026-11-07T19:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Lanternes_chinoises_de_la_Place_du_Perron_de_Theux_lors_de_la_Biennale_d%27art_Theux_-_Chine.JPG/1280px-Lanternes_chinoises_de_la_Place_du_Perron_de_Theux_lors_de_la_Biennale_d%27art_Theux_-_Chine.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1125926827033575/",
       "url": "https://www.facebook.com/events/1125926827033575/",
       "summary": "158e édition de la traditionnelle foire Saint-Hubert au cœur de Theux, avec marchands et animations.",
@@ -8460,7 +8460,8 @@
       "free": true,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Amaury Duhameau / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "fbx-1959543768299549",
@@ -8512,7 +8513,7 @@
       "lon": 5.6279098,
       "start": "2026-11-07T09:00:00",
       "end": "2026-11-08T17:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Souvenir_de_Laroche._Vue_prise_de_la_route_de_Maboge%2C_GP042409.jpg/1280px-Souvenir_de_Laroche._Vue_prise_de_la_route_de_Maboge%2C_GP042409.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/881637397612832/",
       "url": "https://www.facebook.com/events/881637397612832/",
       "summary": "Initiation au packraft, bateau gonflable léger, sur l'Ourthe.",
@@ -8520,7 +8521,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Unknown authorUnknown author / Wikimedia Commons, Public domain"
     },
     {
       "id": "fbx-1635575621296808",
@@ -9055,7 +9057,7 @@
       "lon": 4.7843076,
       "start": "2026-11-07T13:00:00",
       "end": "2026-11-07T16:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/La_Bruy%C3%A8re%2C_Mairie.jpg/1280px-La_Bruy%C3%A8re%2C_Mairie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/992463877199543/",
       "url": "https://www.facebook.com/events/992463877199543/",
       "summary": "2e édition du tournoi de belote convivial de Dada et Gio à La Bruyère.",
@@ -9063,7 +9065,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Rauenstein / Wikimedia Commons, Public domain"
     },
     {
       "id": "fbx-1389226946712428",
@@ -9393,7 +9396,7 @@
       "lon": 4.266841,
       "start": "2026-11-07T18:00:00",
       "end": "2026-11-07T21:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Seneffe_JPG01.jpg/1280px-Seneffe_JPG01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1769348624384083/",
       "url": "https://www.facebook.com/events/1769348624384083/",
       "summary": "Soirée blind test en équipes organisée par l'Association des parents de l'école Saints Cyr & Julitte, sur inscription.",
@@ -9401,7 +9404,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Jean-Pol GRANDMONT / Wikimedia Commons, CC BY 2.5"
     },
     {
       "id": "fbx-1088161753860685",
@@ -11073,7 +11077,7 @@
       "lon": 4.266841,
       "start": "2026-11-08T10:30:00",
       "end": "2026-11-08T12:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Seneffe_JPG01.jpg/1280px-Seneffe_JPG01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1086615860652885/",
       "url": "https://www.facebook.com/events/1086615860652885/",
       "summary": "Séance de jeux d'olfaction pour stimuler le flair de son chien, avec Bien dans ses pattes.",
@@ -11081,7 +11085,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Jean-Pol GRANDMONT / Wikimedia Commons, CC BY 2.5"
     },
     {
       "id": "fbx-1129689026292373",
