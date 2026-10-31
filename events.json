@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T16:27:52",
+  "generated": "2026-10-31T22:26:59",
   "events": [
     {
       "id": "web-visithuy-l-invention-cach-e-2026-05-25",
@@ -2992,44 +2992,6 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "tm-Z698xZG2Z1k8AAzGZ",
-      "title": "Jungle",
-      "category": "concert",
-      "venue": "Vorst Nationaal/Forest National",
-      "city": "Forest (Brussels)",
-      "lat": 50.80999,
-      "lon": 4.32601,
-      "start": "2026-10-31T18:30:00",
-      "end": "2026-10-31T18:30:00",
-      "image": "https://s1.ticketm.net/dam/a/0d3/3e7303ae-fcbd-4d6b-9cba-cafe250300d3_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/jungle-tickets/405178300",
-      "summary": "The complete timing can be found a few days before the concert on www.beat-tickets.be.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
-    },
-    {
-      "id": "tm-Z698xZG2Z1kfsj00N",
-      "title": "Jungle | be•at Premium Bistronomy Experience",
-      "category": "concert",
-      "venue": "Forest National - Legacy Lounge",
-      "city": "Forest (Brussels)",
-      "lat": 50.80999,
-      "lon": 4.32601,
-      "start": "2026-10-31T18:30:00",
-      "end": "2026-10-31T18:30:00",
-      "image": "https://s1.ticketm.net/dam/a/0d3/3e7303ae-fcbd-4d6b-9cba-cafe250300d3_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/jungle-%7C-beat-premium-bistronomy-experience-tickets/531724923",
-      "summary": "Start your visit with a culinary experience in the premium lounge before the show. The Bistronomy Experience also includes your ticket to the show. What can you expect? • A ticket to the show • Access to the premium lounge • Delicious food before the show • An open bar with a selected range of drink",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
-    },
-    {
       "id": "fbx-4012524582381383",
       "title": "Soirée jeux de société",
       "category": "geek",
@@ -3356,25 +3318,6 @@
       "tags": [],
       "source": "Facebook (événement public)",
       "classified": true
-    },
-    {
-      "id": "tm-Z698xZG2Z16vZ3Psk8",
-      "title": "Petero Nzukira – UTABUSYA ABWITA UBUMERA",
-      "category": "theatre",
-      "venue": "Cirque Royal - Koninklijk Circus",
-      "city": "Brussels",
-      "lat": 50.84906,
-      "lon": 4.36565,
-      "start": "2026-10-31T19:00:00",
-      "end": "2026-10-31T19:00:00",
-      "image": "https://s1.ticketm.net/dam/a/f23/c69f9ec0-3955-4bde-a6cb-03a3a5f51f23_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/petero-nzukira--utabusya-abwita-ubumera-tickets/1012971190",
-      "summary": "Those who have never had to grind hard grain think it is an easy task. This proverb in Kinyarwanda reminds us of a simple and universal truth: you never truly understand the value of work until you have done it yourself. Through these words, we are invited to recognize the hidden effort behind every",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
     },
     {
       "id": "fbx-1293175769561729",
@@ -3758,25 +3701,6 @@
       "source": "Ticketmaster"
     },
     {
-      "id": "tm-Z698xZG2Z1kOVxZ7P",
-      "title": "Michael Jackson Celebration",
-      "category": "concert",
-      "venue": "Trixxo Theater Hasselt",
-      "city": "Hasselt",
-      "lat": 50.93311,
-      "lon": 5.36207,
-      "start": "2026-10-31T20:00:00",
-      "end": "2026-10-31T20:00:00",
-      "image": "https://s1.ticketm.net/dam/a/1ac/a3ce13d7-3a95-4234-9b6b-c3749f4281ac_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/michael-jackson-celebration-tickets/834880125",
-      "summary": "Sergio Cortés is internationally regarded as the leading reference in Michael Jackson tribute productions. In the 1990s, Michael Jackson personally selected him as his official look-alike for public appearances and promotional campaigns. That recognition laid the foundation for a career that is now ",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
-    },
-    {
       "id": "tm-Z698xZG2Z16vfdC_a-",
       "title": "Windrose Giants Antwerp",
       "category": "concert",
@@ -3789,25 +3713,6 @@
       "image": "https://s1.ticketm.net/dam/a/0f8/693e61f7-5be8-4c22-ad94-2f94b43160f8_RETINA_PORTRAIT_16_9.jpg",
       "url": "https://www.ticketmaster.be/event/windrose-giants-antwerp-hubo-limburg-united-tickets/1503399261",
       "summary": "",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
-    },
-    {
-      "id": "tm-Z698xZG2Z1k8tb6_E",
-      "title": "Secret(s) Medical",
-      "category": "theatre",
-      "venue": "Théâtre Royal",
-      "city": "Mons",
-      "lat": 50.45429,
-      "lon": 3.95193,
-      "start": "2026-10-31T20:00:00",
-      "end": "2026-10-31T20:00:00",
-      "image": "https://s1.ticketm.net/dam/a/e16/1b4f388d-95b7-4137-b6d8-371e8b427e16_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/secret-s-medical-tickets/429607667",
-      "summary": "SECRET(S)-MEDICAL Pour la toute première fois au théâtre, Michel Cymes monte sur les planches dans une comédie inédite et féroce sur le milieu médical ... Quatre amis, anciens de la fac de médecine, se retrouvent comme à leur habitude chez André, leur resto favori. Mais la soirée tourne court quand ",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -4051,7 +3956,7 @@
       "lat": 50.45576,
       "lon": 3.95232,
       "start": "2026-10-31T21:00:00",
-      "end": "2026-12-19T21:00:00",
+      "end": "2026-12-20T21:00:00",
       "image": "https://s1.ticketm.net/dam/a/5e9/91eed00a-d67b-47df-b207-cca4b405a5e9_RETINA_PORTRAIT_16_9.jpg",
       "url": "https://www.ticketmaster.be/event/marc-chagall-matieres-tickets/2021969170",
       "summary": "Original and unclassifiable, Marc Chagall's work (1887--1985) draws on a wealth of references, shaped by his cultural roots and by the experiences that marked his long career as a painter, between Russia, France and the United States. In each of these places, the artist proved deeply receptive to cr",
@@ -10378,7 +10283,7 @@
       "lon": 6.0697651,
       "start": "2026-11-07T20:30:00",
       "end": "2026-11-07T23:30:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/D%C3%BCrler-Kirche_St._Matthias_%282%29.jpg/1280px-D%C3%BCrler-Kirche_St._Matthias_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1572802934596278/",
       "url": "https://www.facebook.com/events/1572802934596278/",
       "summary": "Concert annuel de la société royale de musique Dürlandia dans le village de Dürler.",
@@ -10386,7 +10291,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Romaine / Wikimedia Commons, CC0"
     },
     {
       "id": "tm-Z698xZG2Z16vZPCebK",
@@ -10562,7 +10468,7 @@
       "lon": 5.6229797,
       "start": "2026-11-08T08:00:00",
       "end": "2026-11-08T11:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Herstal_-_Entr%C3%A9e_FN.jpg/1280px-Herstal_-_Entr%C3%A9e_FN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/2136121190452761/",
       "url": "https://www.facebook.com/events/2136121190452761/",
       "summary": "Championnat de Belgique de karaté WKF, épreuves de kata et kumite à partir des U10.",
@@ -10570,7 +10476,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Flamenc / Wikimedia Commons, CC BY-SA 3.0"
     },
     {
       "id": "fbx-1531956964999495",
@@ -10582,7 +10489,7 @@
       "lon": 5.2504911,
       "start": "2026-11-08T08:00:00",
       "end": "2026-11-08T11:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Interieur_van_de_%C3%89glise_Notre-Dame_de_la_Sarte_te_Hoei%2C_RP-F-2005-155-6.jpg/1280px-Interieur_van_de_%C3%89glise_Notre-Dame_de_la_Sarte_te_Hoei%2C_RP-F-2005-155-6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1531956964999495/",
       "url": "https://www.facebook.com/events/1531956964999495/",
       "summary": "Marche Adeps de 5 à 20 km organisée par le Lions Club, avec petite restauration et bar toute la journée.",
@@ -10590,7 +10497,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Rijksmuseum / Wikimedia Commons, CC0"
     },
     {
       "id": "fbx-1745223196693350",
@@ -10642,7 +10550,7 @@
       "lon": 4.4065703,
       "start": "2026-11-08T09:00:00",
       "end": "2026-11-08T18:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Beign%C3%A9e_-_Voies_de_chemin_de_fer_-_Pr%C3%A9_al_Rocq_-_Direction_Ham-sur-Heure_%28Tunnel%29.JPG/1280px-Beign%C3%A9e_-_Voies_de_chemin_de_fer_-_Pr%C3%A9_al_Rocq_-_Direction_Ham-sur-Heure_%28Tunnel%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/2328457764571645/",
       "url": "https://www.facebook.com/events/2328457764571645/",
       "summary": "Marche avec trois parcours à travers les sentiers et bois de Beignée, organisée par la Jeune Marche Saint-Roch.",
@@ -10650,7 +10558,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Mini1300 / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "fbx-2651501821986626",
@@ -10942,7 +10851,7 @@
       "lon": 5.5935016,
       "start": "2026-11-08T10:00:00",
       "end": "2026-11-08T13:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/La_Roche-en-Ardenne_-_Le_ch%C3%A2teau_f%C3%A9odal_et_l%27%C3%A9glise_Saint-Nicolas.jpg/1280px-La_Roche-en-Ardenne_-_Le_ch%C3%A2teau_f%C3%A9odal_et_l%27%C3%A9glise_Saint-Nicolas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/2252115665646061/",
       "url": "https://www.facebook.com/events/2252115665646061/",
       "summary": "Balade automnale en voitures de prestige et de collection sur les routes ardennaises.",
@@ -10950,7 +10859,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "JackyM59 / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "fbx-2442786876249119",
@@ -10982,7 +10892,7 @@
       "lon": 4.6721904,
       "start": "2026-11-08T10:00:00",
       "end": "2026-11-08T13:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Grez-Doiceau_church_A.jpg/1280px-Grez-Doiceau_church_A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1599032231957165/",
       "url": "https://www.facebook.com/events/1599032231957165/",
       "summary": "Vide-dressing de vêtements et accessoires de seconde main.",
@@ -10990,7 +10900,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Wouter Hagens / Wikimedia Commons, CC BY-SA 3.0"
     },
     {
       "id": "fbx-1836343837518986",
@@ -11002,7 +10913,7 @@
       "lon": 4.5342675,
       "start": "2026-11-08T10:00:00",
       "end": "2026-11-08T13:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Belgique_-_Villers-la-Ville_-_Moulin_abbatial_-_29.jpg/1280px-Belgique_-_Villers-la-Ville_-_Moulin_abbatial_-_29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1836343837518986/",
       "url": "https://www.facebook.com/events/1836343837518986/",
       "summary": "Marché de producteurs et d'artisans de bouche au moulin de l'abbaye.",
@@ -11010,7 +10921,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "EmDee / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "fbx-2027207821442051",
@@ -11243,7 +11155,7 @@
       "lon": 3.7882895,
       "start": "2026-11-08T12:00:00",
       "end": "2026-11-08T15:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Environs_de_Mons._Ch%C3%A2teau_de_la_Pr%C3%A9v%C3%B4t%C3%A9_%C3%A0_Sirault%2C_GP065526_%282%29.jpg/1280px-Environs_de_Mons._Ch%C3%A2teau_de_la_Pr%C3%A9v%C3%B4t%C3%A9_%C3%A0_Sirault%2C_GP065526_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/3303159189879199/",
       "url": "https://www.facebook.com/events/3303159189879199/",
       "summary": "Fête de la Saint-Hubert avec bénédiction des chevaux et animations à Sirault.",
@@ -11251,7 +11163,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Unknown authorUnknown author / Wikimedia Commons, Public domain"
     },
     {
       "id": "fbx-4566898183456897",
@@ -17618,7 +17531,7 @@
       "lon": 4.6721904,
       "start": "2026-11-15T10:00:00",
       "end": "2026-11-15T13:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Grez-Doiceau_church_A.jpg/1280px-Grez-Doiceau_church_A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1101284905973100/",
       "url": "https://www.facebook.com/events/1101284905973100/",
       "summary": "Randonnée guidée dans les paysages automnaux de la vallée de la Dyle.",
@@ -17626,7 +17539,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Wouter Hagens / Wikimedia Commons, CC BY-SA 3.0"
     },
     {
       "id": "fbx-1490611886233602",
@@ -17880,7 +17794,7 @@
       "lon": 4.6721904,
       "start": "2026-11-15T14:30:00",
       "end": "2026-11-15T17:30:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Grez-Doiceau_church_A.jpg/1280px-Grez-Doiceau_church_A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1778268906549674/",
       "url": "https://www.facebook.com/events/1778268906549674/",
       "summary": "Arrivée festive de Saint-Nicolas pour les enfants de Grez-Doiceau.",
@@ -17888,7 +17802,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Wouter Hagens / Wikimedia Commons, CC BY-SA 3.0"
     },
     {
       "id": "fbx-1806132120404408",
@@ -25398,7 +25313,7 @@
       "lon": 5.5935016,
       "start": "2026-11-28T09:00:00",
       "end": "2026-11-29T17:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/La_Roche-en-Ardenne_-_Le_ch%C3%A2teau_f%C3%A9odal_et_l%27%C3%A9glise_Saint-Nicolas.jpg/1280px-La_Roche-en-Ardenne_-_Le_ch%C3%A2teau_f%C3%A9odal_et_l%27%C3%A9glise_Saint-Nicolas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1003446842340774/",
       "url": "https://www.facebook.com/events/1003446842340774/",
       "summary": "Trail automnal dans les collines de La Roche, ponctué d'une soupe à l'arrivée.",
@@ -25406,7 +25321,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "JackyM59 / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "fbx-1064515569548237",
@@ -27770,7 +27686,7 @@
       "lat": 51.23024,
       "lon": 4.44176,
       "start": "2026-12-03T20:00:00",
-      "end": "2026-12-04T20:00:00",
+      "end": "2026-12-05T20:00:00",
       "image": "https://s1.ticketm.net/dam/a/9fc/6a580ae0-c642-4717-b145-88733a7ad9fc_RETINA_PORTRAIT_16_9.jpg",
       "url": "https://www.ticketmaster.be/event/studio-100-singalong-in-symphony-tickets/513672343",
       "summary": "The complete timing can be found a few days before the concert on www.afasdome.be",
@@ -27828,7 +27744,7 @@
       "lon": 4.6721904,
       "start": "2026-12-04T10:00:00",
       "end": "2026-12-05T18:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Grez-Doiceau_church_A.jpg/1280px-Grez-Doiceau_church_A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1668838531291571/",
       "url": "https://www.facebook.com/events/1668838531291571/",
       "summary": "Exposition sur l'histoire et le patrimoine des villages de Grez-Doiceau.",
@@ -27836,7 +27752,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Wouter Hagens / Wikimedia Commons, CC BY-SA 3.0"
     },
     {
       "id": "web-recyclart-bruxelles-encore-dub-2026-12-04",
@@ -28755,6 +28672,25 @@
       "source": "Ticketmaster"
     },
     {
+      "id": "tm-Z698xZG2Z1k1f-PfM",
+      "title": "Channel Zero",
+      "category": "concert",
+      "venue": "Lotto Arena Antwerpen",
+      "city": "Merksem (Antwerpen)",
+      "lat": 51.23024,
+      "lon": 4.44176,
+      "start": "2026-12-05T20:00:00",
+      "end": "2026-12-05T20:00:00",
+      "image": "https://s1.ticketm.net/dam/a/de0/939bb6ac-e645-48eb-a860-c45d225eade0_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.ticketmaster.be/event/channel-zero-tickets/294865537",
+      "summary": "Great news for all Channel Zero fans: on December 5th, the legendary Belgian metal band will take the stage at Lotto Arena in Antwerp with a spectacular final arena show. With this concert, the band brings more than three decades of music history to a definitive close. Their three intimate AB shows ",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ticketmaster"
+    },
+    {
       "id": "fb-1845116666866647",
       "title": "Ngondo Bruxelles 2026",
       "category": "festival",
@@ -29003,7 +28939,7 @@
       "lat": 50.45429,
       "lon": 3.95193,
       "start": "2026-12-06T18:00:00",
-      "end": "2026-12-06T18:00:00",
+      "end": "2026-12-07T20:00:00",
       "image": "https://s1.ticketm.net/dam/a/63e/b0e76747-26c3-4078-887c-36e04803863e_RETINA_PORTRAIT_16_9.jpg",
       "url": "https://www.ticketmaster.be/event/olivier-de-benoist-tickets/1759742622",
       "summary": "",
@@ -35251,6 +35187,25 @@
       "source": "Ticketmaster"
     },
     {
+      "id": "tm-Z698xZG2Z1kFkv_0g",
+      "title": "JOHN SUMMIT – EUROPE CTRL ESCAPE ARENA TOUR",
+      "category": "concert",
+      "venue": "Vorst Nationaal/Forest National",
+      "city": "Forest (Brussels)",
+      "lat": 50.80999,
+      "lon": 4.32601,
+      "start": "2027-02-12T18:30:00",
+      "end": "2027-02-12T18:30:00",
+      "image": "https://s1.ticketm.net/dam/a/b99/44736a1a-46cb-41c3-8c65-d735b5a45b99_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.ticketmaster.be/event/john-summit--europe-ctrl-escape-arena-tour-tickets/206059935",
+      "summary": "The complete timing can be found a few days before the concert on www.forest-national.be.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ticketmaster"
+    },
+    {
       "id": "fb-2673962906395104",
       "title": "Aucklane · Cirque Royal · Bruxelles",
       "category": "concert",
@@ -35286,6 +35241,25 @@
       "image": "https://s1.ticketm.net/dam/a/b9c/4dba5e14-b62a-48f1-903f-474263765b9c_1442561_RETINA_PORTRAIT_16_9.jpg",
       "url": "https://www.ticketmaster.be/event/beverly-jo-scott--band-usa-b-americana-tickets/808039643",
       "summary": "Maximum R&B Tour",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ticketmaster"
+    },
+    {
+      "id": "tm-Z698xZG2Z16vj7bKZd",
+      "title": "Skip The Use",
+      "category": "concert",
+      "venue": "Cirque Royal - Koninklijk Circus",
+      "city": "Brussels",
+      "lat": 50.84906,
+      "lon": 4.36565,
+      "start": "2027-02-12T20:00:00",
+      "end": "2027-02-12T20:00:00",
+      "image": "https://s1.ticketm.net/dam/a/0c0/789c3ed9-9ece-4f6f-8fc8-2d80ac2920c0_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.ticketmaster.be/event/skip-the-use-tickets/1704613003",
+      "summary": "Skip The Use est de retour sur scène, plus déterminé que jamais ! Après plusieurs années à repousser les limites en studio et en tournée, le quatuor lillois revient avec un nouveau projet ambitieux et une seule idée en tête : remettre le live au centre de tout. Portés par l'énergie inépuisable de Ma",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -35428,6 +35402,25 @@
       "tags": [],
       "source": "Facebook (événement public)",
       "classified": true
+    },
+    {
+      "id": "tm-Z698xZG2Z1k4FAZ40",
+      "title": "FEU ! Chatterton",
+      "category": "theatre",
+      "venue": "Vorst Nationaal/Forest National",
+      "city": "Forest (Brussels)",
+      "lat": 50.80999,
+      "lon": 4.32601,
+      "start": "2027-02-14T20:00:00",
+      "end": "2027-02-14T20:00:00",
+      "image": "https://s1.ticketm.net/dam/a/387/d4485d1f-f4c0-4134-a09f-4550e378d387_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.ticketmaster.be/event/feu--chatterton-tickets/548140564",
+      "summary": "The complete timing can be found a few days before the concert on www.forest-national.be",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ticketmaster"
     },
     {
       "id": "tm-Z698xZG2Z1k0V0eZk",
@@ -36760,7 +36753,7 @@
       "lat": 50.93326,
       "lon": 5.36273,
       "start": "2027-03-20T20:30:00",
-      "end": "2027-03-20T20:30:00",
+      "end": "2027-03-21T15:00:00",
       "image": "https://s1.ticketm.net/dam/a/1b6/aed372f5-30c0-40a1-9c72-912da5a491b6_RETINA_PORTRAIT_16_9.jpg",
       "url": "https://www.ticketmaster.be/event/het-schlagerfestival-2027-tickets/225664425",
       "summary": "The complete timing can be found a few days before the concert on www.trixxo-arena.be.",
@@ -36830,6 +36823,25 @@
       "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
+    },
+    {
+      "id": "tm-Z698xZG2Z1kboZzC4",
+      "title": "Layla Zoe (Can)",
+      "category": "concert",
+      "venue": "Spirit of 66",
+      "city": "Verviers",
+      "lat": 50.59353,
+      "lon": 5.86109,
+      "start": "2027-03-23T20:00:00",
+      "end": "2027-03-23T20:00:00",
+      "image": "https://s1.ticketm.net/dam/a/b37/8eb9cf0e-151a-4582-bf3b-740eb8f47b37_1289681_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.ticketmaster.be/event/layla-zoe-can--tickets/611038395",
+      "summary": "",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ticketmaster"
     },
     {
       "id": "tm-Z698xZG2Z16eZMuZvv",
