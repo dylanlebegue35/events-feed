@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01T04:42:14",
+  "generated": "2026-11-01T10:31:08",
   "events": [
     {
       "id": "web-visithuy-l-invention-cach-e-2026-05-25",
@@ -11065,7 +11065,7 @@
       "lon": 5.9754899,
       "start": "2026-11-13T19:00:00",
       "end": "2026-11-13T20:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Welkenraedt-Place_des_combattants_%281%29.jpg/1280px-Welkenraedt-Place_des_combattants_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1852129732454741/",
       "url": "https://www.facebook.com/events/1852129732454741/",
       "summary": "Séance de méditation guidée d'une heure pour retrouver calme et lumière à l'approche de l'hiver.",
@@ -11073,7 +11073,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Romaine / Wikimedia Commons, CC0"
     },
     {
       "id": "fbx-1740692680675118",
@@ -11285,7 +11286,7 @@
       "lon": 5.5728356,
       "start": "2026-11-13T20:00:00",
       "end": "2026-11-13T22:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Esneux_-_River_Ourthe_-_Commercial_buildings_-_Avenue_de_la_Station_%28left_side%29.jpg/1280px-Esneux_-_River_Ourthe_-_Commercial_buildings_-_Avenue_de_la_Station_%28left_side%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1146911474953636/",
       "url": "https://www.facebook.com/events/1146911474953636/",
       "summary": "Cercle de chants du monde pour chanter ensemble et partager un moment de connexion.",
@@ -11293,7 +11294,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Horst J. Meuter / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "fbx-2661173980981275",
@@ -11908,7 +11910,7 @@
       "lon": 5.5240928,
       "start": "2026-11-14T09:45:00",
       "end": "2026-11-14T12:45:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Vending_machine_for_the_pharmacy_-_Tenneville_%28Belgium%29.jpg/1280px-Vending_machine_for_the_pharmacy_-_Tenneville_%28Belgium%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1087447884042524/",
       "url": "https://www.facebook.com/events/1087447884042524/",
       "summary": "Balade sensorielle guidée en forêt pour se ressourcer.",
@@ -11916,7 +11918,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Wilrooij / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "fbx-2186472538884429",
@@ -21875,7 +21878,7 @@
       "lon": 5.5240928,
       "start": "2026-11-28T10:00:00",
       "end": "2026-11-28T13:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Vending_machine_for_the_pharmacy_-_Tenneville_%28Belgium%29.jpg/1280px-Vending_machine_for_the_pharmacy_-_Tenneville_%28Belgium%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1390563546469619/",
       "url": "https://www.facebook.com/events/1390563546469619/",
       "summary": "Atelier de vannerie pour réaliser son propre objet tressé.",
@@ -21883,7 +21886,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Wilrooij / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "fbx-1409193927224364",
