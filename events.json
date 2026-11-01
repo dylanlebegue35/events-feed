@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01T00:38:59",
+  "generated": "2026-11-01T04:42:14",
   "events": [
     {
       "id": "web-visithuy-l-invention-cach-e-2026-05-25",
@@ -9403,7 +9403,7 @@
       "lon": 4.2319001,
       "start": "2026-11-11T08:00:00",
       "end": "2026-11-12T18:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/St-Pieters-Leeuw_Vlezenbeeklaan_Begraafplaats_%285%29_-_312022_-_onroerenderfgoed.jpg/1280px-St-Pieters-Leeuw_Vlezenbeeklaan_Begraafplaats_%285%29_-_312022_-_onroerenderfgoed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/28293918430274938/",
       "url": "https://www.facebook.com/events/28293918430274938/",
       "summary": "Foire annuelle de Vlezenbeek avec stands et animations.",
@@ -9411,7 +9411,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Mertens, Joeri / Wikimedia Commons, CC BY 4.0"
     },
     {
       "id": "fbx-1641135747687398",
@@ -9503,7 +9504,7 @@
       "lon": 5.6752485,
       "start": "2026-11-11T10:00:00",
       "end": "2026-11-15T18:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Place_Joseph_Thiry%2C_Aywaille-1980.jpg/1280px-Place_Joseph_Thiry%2C_Aywaille-1980.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1626382792308312/",
       "url": "https://www.facebook.com/events/1626382792308312/",
       "summary": "Cinq jours de fête au centre d'Aywaille organisés par les commerçants, avec animations et festivités.",
@@ -9511,7 +9512,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Raimond Spekking / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "fbx-1657878425961833",
@@ -9583,7 +9585,7 @@
       "lon": 5.2696926,
       "start": "2026-11-11T10:00:00",
       "end": "2026-11-12T18:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Herbeumont_JPG01.jpg/1280px-Herbeumont_JPG01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/744450588685140/",
       "url": "https://www.facebook.com/events/744450588685140/",
       "summary": "Quatrième chapitre d'un événement racontant l'histoire et le patrimoine d'Herbeumont.",
@@ -9591,7 +9593,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Jean-Pol GRANDMONT / Wikimedia Commons, CC BY-SA 3.0"
     },
     {
       "id": "fbx-1612115363751027",
@@ -10286,7 +10289,7 @@
       "lon": 4.444528,
       "start": "2026-11-12T20:00:00",
       "end": "2026-11-12T21:30:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Charleroi_-_H%C3%B4tel_de_ville_vu_de_la_place_Charles_II_-_2019-06-01.jpg/1280px-Charleroi_-_H%C3%B4tel_de_ville_vu_de_la_place_Charles_II_-_2019-06-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/659108766821977/",
       "url": "https://www.facebook.com/events/659108766821977/",
       "summary": "Dîner convivial entre inconnus pour rencontrer de nouvelles personnes autour d'une bonne table.",
@@ -10294,7 +10297,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Jmh2o / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "tm-Z698xZG2Z16v8e_doJ",
@@ -10958,7 +10962,7 @@
       "lon": 5.4220614,
       "start": "2026-11-13T18:30:00",
       "end": "2026-11-13T21:30:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Fl%C3%A9malle_%28petite%29_-_Castle_-_Town_Hall.jpg/1280px-Fl%C3%A9malle_%28petite%29_-_Castle_-_Town_Hall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/3260743294113772/",
       "url": "https://www.facebook.com/events/3260743294113772/",
       "summary": "Grand bal communal organisé par Flémalle Événements, sur inscription, pour une soirée dansante et festive.",
@@ -10966,7 +10970,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Flamenc / Wikimedia Commons, CC BY-SA 3.0"
     },
     {
       "id": "fbx-28918030144489330",
@@ -16214,7 +16219,7 @@
       "lon": 4.4424,
       "start": "2026-11-20T12:00:00",
       "end": "2026-11-20T15:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Charleroi_-_H%C3%B4tel_de_ville_vu_de_la_place_Charles_II_-_2019-06-01.jpg/1280px-Charleroi_-_H%C3%B4tel_de_ville_vu_de_la_place_Charles_II_-_2019-06-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/2097720697774563/",
       "url": "https://www.facebook.com/events/2097720697774563/",
       "summary": "Bonjour à tous =) 🐕Je vous propose une balade éducative en milieu urbain 🐕‍🦺Nous travaillerons la découverte de nouvel environnement. La gare des trains Passage de bus Passage de metro Regroupement de personnes Désensibilisation visuels et auditives (train, bus, tram, voix des annonces micro, pont, ",
@@ -16223,7 +16228,8 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (événement public)",
-      "classified": true
+      "classified": true,
+      "image_credit": "Jmh2o / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "fbx-2149517069294148",
@@ -24661,7 +24667,7 @@
       "lon": 5.2696926,
       "start": "2026-12-05T15:00:00",
       "end": "2026-12-05T18:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Herbeumont_JPG01.jpg/1280px-Herbeumont_JPG01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1739011727386412/",
       "url": "https://www.facebook.com/events/1739011727386412/",
       "summary": "Marché de Noël du village avec chalets et produits artisanaux.",
@@ -24669,7 +24675,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Jean-Pol GRANDMONT / Wikimedia Commons, CC BY-SA 3.0"
     },
     {
       "id": "fbx-1083873700670310",

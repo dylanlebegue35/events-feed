@@ -1,5 +1,5 @@
 {
-  "genere": "2026-11-01T00:38:59",
+  "genere": "2026-11-01T04:42:14",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -188,10 +188,10 @@
     {
       "source": "Pages des billetteries",
       "ok": true,
-      "pages_lues": 145,
+      "pages_lues": 1,
       "pages_lues_par_ia": 25
     }
   ],
-  "avec_image": 843,
+  "avec_image": 850,
   "total": 1709
 }
