@@ -1203,22 +1203,179 @@ def is_image(url):
     return code in ("200", "206") and ctype.startswith("image/")
 
 
-def fill_images(events, limit=150):
-    done = 0
-    for e in events:
-        link = e.get("page_url") or e.get("url")
-        if e.get("image") or not link or done >= limit:
-            continue
-        if re.match(r"https?://([a-z0-9-]+\.)?(facebook\.com|fb\.me)/", link, re.I):
-            continue            # une page Facebook ne donne qu'une fausse image (voir FB_FAKE_IMG)
+# ============================================================ fiches plus complètes (pages des billetteries)
+# Beaucoup de billetteries (Paylogic, Utick, Ticketmatic, sites des salles…) décrivent l'événement en données
+# structurées (JSON-LD schema.org) : prix, description, photo, heure. On les lit, sans IA et sans frais.
+# Pas Facebook (il faut un compte) ni Ticketmaster (protégé contre les robots : on ne force pas).
+PAGES_INFO = HERE / "pages_info.json"
+_pages_info = json.loads(PAGES_INFO.read_text()) if PAGES_INFO.exists() else {}
+SKIP_PAGES = re.compile(r"https?://([a-z0-9-]+\.)*(facebook\.com|fb\.me|ticketmaster\.[a-z.]+)/", re.I)
+
+
+def _plain_tokens(t):
+    words = re.findall(r"[a-z0-9]+", unicodedata.normalize("NFKD", t or "").encode("ascii", "ignore").decode().lower())
+    stop = {"de", "du", "la", "le", "les", "des", "et", "a", "au", "aux", "en", "l", "d", "the", "of", "and", "un", "une"}
+    return {w[:-1] if len(w) > 3 and w.endswith("s") else w for w in words if w not in stop}
+
+
+def _jsonld_events(page):
+    found = []
+    for block in re.findall(r"<script[^>]+application/ld\+json[^>]*>(.*?)</script>", page, re.S | re.I):
         try:
-            page = fetch(link, timeout=15)
+            stack = [json.loads(html.unescape(block.strip()))]
         except Exception:
             continue
-        done += 1
-        img = best_image(page, link)
-        if img and is_image(img):
-            e["image"] = img
+        while stack:
+            d = stack.pop()
+            if isinstance(d, list):
+                stack.extend(d)
+            elif isinstance(d, dict):
+                if "@graph" in d:
+                    stack.extend(d["@graph"] if isinstance(d["@graph"], list) else [d["@graph"]])
+                types = d.get("@type") if isinstance(d.get("@type"), list) else [d.get("@type")]
+                if any(isinstance(t, str) and t.endswith("Event") for t in types):
+                    offers = d.get("offers") if isinstance(d.get("offers"), list) else [d.get("offers")]
+                    prices = []
+                    for o in offers:
+                        for k in ("lowPrice", "price"):
+                            try:
+                                prices.append(float(str((o or {}).get(k)).replace(",", ".")))
+                                break
+                            except (TypeError, ValueError, AttributeError):
+                                pass
+                    img = d.get("image")
+                    img = (img[0] if isinstance(img, list) and img else img)
+                    img = img.get("url") if isinstance(img, dict) else img
+                    paid = [x for x in prices if x > 0]
+                    found.append({"name": html.unescape(str(d.get("name") or "")), "start": str(d.get("startDate") or ""),
+                                  "price": min(paid) if paid else None,
+                                  "free": (not paid) and (d.get("isAccessibleForFree") in (True, "true", "True") or (prices and max(prices) == 0)),
+                                  "description": re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", str(d.get("description") or "")))).strip()[:500],
+                                  "image": img if isinstance(img, str) and img.startswith("http") else None})
+    return found
+
+
+AI_PAGE_PROMPT = """Voici le texte d'une page web (billetterie ou site d'une salle). Pour l'événement « {title} » du {day},
+réponds UNIQUEMENT par un objet JSON :
+{{"price_from": le prix le moins cher en euros (nombre, prévente comprise) ou null,
+  "free": true si l'entrée est gratuite, sinon false, ou null si la page ne le dit pas,
+  "summary": 2 phrases factuelles en français (280 caractères maximum) qui disent ce qu'on va voir ou faire, ou null,
+  "time": l'heure de début "HH:MM" ou null}}
+Ne devine rien : mets null si l'information n'est pas sur la page.
+
+PAGE :
+{text}"""
+
+
+def enrich_from_pages(events, limit=300, ai_limit=25):
+    """Complète prix, description, photo et heure à partir de la page de l'événement (gardée 14 jours).
+    D'abord les données structurées (gratuit) ; sinon l'IA lit la page, au plus ai_limit pages par passage, Liège d'abord."""
+    fetched = asked = 0
+    use_ai = bool(os.environ.get("ANTHROPIC_API_KEY"))
+    for e in sorted(events, key=lambda x: _km([x["lat"], x["lon"]], CENTER)):
+        link = e.get("url") or e.get("page_url")
+        known_price = e.get("price_from") is not None or e.get("free")
+        if not link or SKIP_PAGES.match(link) or (known_price and e.get("image") and len(e.get("summary") or "") >= 120):
+            continue
+        info, page = _pages_info.get(link), None
+        if not info or (date.today() - date.fromisoformat(info["t"])).days > 14:
+            if fetched >= limit:
+                continue
+            fetched += 1
+            try:
+                page = fetch(link, timeout=15)
+            except Exception:
+                continue
+            og = best_image(page, link)
+            info = {"t": date.today().isoformat(), "ld": _jsonld_events(page), "og": og if og and is_image(og) else None, "ai": {}}
+            _pages_info[link] = info
+        # l'événement de la page qui correspond (même jour, ou titre proche) ; s'il n'y en a qu'un, c'est lui
+        mine, cands = _plain_tokens(e["title"]), info["ld"]
+        match = next((c for c in cands if c["start"][:10] == e["start"][:10] and (mine & _plain_tokens(c["name"]) or len(cands) == 1)), None)
+        if match is None and len(cands) == 1 and mine & _plain_tokens(cands[0]["name"]):
+            match = cands[0]
+        if match:
+            if not known_price and match["price"] is not None:
+                e["price_from"], e["free"] = match["price"], False
+            elif not known_price and match["free"]:
+                e["free"], e["price_from"] = True, None
+            if len(match["description"]) > len(e.get("summary") or "") and len(match["description"]) >= 60:
+                e["summary"] = match["description"][:300]
+            if not e.get("image") and match["image"]:
+                e["image"] = match["image"].replace("http://", "https://", 1)
+            t = re.match(r"(\d{4}-\d{2}-\d{2})T(\d{2}:\d{2})", match["start"])
+            if t and t[1] == e["start"][:10] and e["start"][11:16] == "00:00" and t[2] != "00:00":
+                e["start"] = f"{t[1]}T{t[2]}:00"          # l'heure, quand on ne l'avait pas
+        # toujours pas de prix : l'IA lit la page (une seule fois par événement)
+        key = f"{e['title']}|{e['start'][:10]}"
+        ai = info.setdefault("ai", {})
+        if use_ai and key not in ai and asked < ai_limit and e.get("price_from") is None and not e.get("free"):
+            try:
+                page = page or fetch(link, timeout=15)
+                asked += 1
+                answer = call_claude(AI_PAGE_PROMPT.format(title=e["title"], day=e["start"][:10], text=to_text(page, link, limit=12000)))
+                got = json.loads(answer[answer.index("{"):answer.rindex("}") + 1])
+                ai[key] = {k: got.get(k) for k in ("price_from", "free", "summary", "time")}
+            except Exception:
+                ai[key] = {}
+        got = ai.get(key) or {}
+        if e.get("price_from") is None and not e.get("free"):
+            if isinstance(got.get("price_from"), (int, float)) and got["price_from"] > 0:
+                e["price_from"], e["free"] = float(got["price_from"]), False
+            elif got.get("free") is True:
+                e["free"], e["price_from"] = True, None
+        if isinstance(got.get("summary"), str) and len(got["summary"]) > len(e.get("summary") or "") and len(got["summary"]) >= 60:
+            e["summary"] = got["summary"][:300]
+        if isinstance(got.get("time"), str) and re.fullmatch(r"\d{2}:\d{2}", got["time"]) and e["start"][11:16] == "00:00":
+            e["start"] = f"{e['start'][:10]}T{got['time']}:00"
+        if not e.get("image") and info.get("og"):
+            e["image"] = info["og"]
+    PAGES_INFO.write_text(json.dumps(_pages_info, ensure_ascii=False), encoding="utf-8")
+    REPORT.append({"source": "Pages des billetteries", "ok": True, "pages_lues": fetched, "pages_lues_par_ia": asked})
+
+
+def _richness(e):
+    """Pour choisir la meilleure fiche entre deux doublons."""
+    return (e.get("source") == "manuel", bool(e.get("image")), e.get("price_from") is not None or bool(e.get("free")),
+            len(e.get("summary") or ""), bool(e.get("url")))
+
+
+def _same_event(a, b):
+    ta, tb = _plain_tokens(a["title"]), _plain_tokens(b["title"])
+    if not ta or not tb:
+        return False
+    km = _km([a["lat"], a["lon"]], [b["lat"], b["lon"]])
+    if ta == tb:
+        return km < 2
+    if (ta <= tb or tb <= ta) and min(len(ta), len(tb)) >= 2:
+        return km < 1                     # « Brocanterie Brabanthal » et « Brocanterie Brabanthal Leuven »
+    return len(ta & tb) / len(ta | tb) >= 0.7 and km < 0.5
+
+
+def merge_duplicates(events):
+    """Même jour, même endroit, titre presque identique : une seule fiche, la plus complète, enrichie de l'autre."""
+    out, by_day, merged = [], {}, 0
+    for e in events:
+        day = by_day.setdefault(e["start"][:10], [])
+        twin = next((o for o in day if _same_event(o, e)), None)
+        if twin is None:
+            day.append(e)
+            out.append(e)
+            continue
+        merged += 1
+        best, other = (e, twin) if _richness(e) > _richness(twin) else (twin, e)
+        for k in ("image", "image_credit", "url", "page_url", "end"):
+            if not best.get(k) and other.get(k):
+                best[k] = other[k]
+        if best.get("price_from") is None and not best.get("free"):
+            best["price_from"], best["free"] = other.get("price_from"), other.get("free")
+        if len(other.get("summary") or "") > len(best.get("summary") or ""):
+            best["summary"] = other["summary"]
+        if best is e:                     # la nouvelle fiche remplace l'ancienne, à la même place
+            out[out.index(twin)] = e
+            day[day.index(twin)] = e
+    REPORT.append({"source": "Doublons fusionnés", "ok": True, "fusionnes": merged})
+    return out
 
 
 # ============================================================ assemblage
@@ -1353,6 +1510,7 @@ def main():
         if k not in seen:
             seen.add(k)
             uniq.append(e)
+    uniq = merge_duplicates(uniq)
     try:
         old = {e["id"]: e for e in json.loads(OUT.read_text())["events"]
                if e.get("image") and not FB_FAKE_IMG.search(e["image"]) and "wikimedia.org" not in e["image"]}
@@ -1372,7 +1530,7 @@ def main():
             if (POSTERS / name).exists():
                 e["image"] = RAW_BASE + name
                 break
-    fill_images(uniq, limit=400)                    # ~0,5 s par page (les pages Facebook sont sautées)
+    enrich_from_pages(uniq, limit=300)              # prix, description, photo, heure ; ~0,5 s par page, gardé 14 jours
     for e in uniq:              # sinon : photo libre du lieu précis, ou rien (l'app montre la photo vérifiée de la catégorie)
         if not e.get("image"):
             got = venue_photo(e.get("venue"), e.get("city", ""))
