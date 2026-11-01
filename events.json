@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01T10:31:08",
+  "generated": "2026-11-01T16:31:01",
   "events": [
     {
       "id": "web-visithuy-l-invention-cach-e-2026-05-25",
@@ -1671,25 +1671,6 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
-    },
-    {
-      "id": "tm-Z698xZG2Z1kF3Fo-K",
-      "title": "Roodkapje",
-      "category": "theatre",
-      "venue": "Trixxo Theater Hasselt",
-      "city": "Hasselt",
-      "lat": 50.93311,
-      "lon": 5.36207,
-      "start": "2026-11-01T14:00:00",
-      "end": "2026-11-01T14:00:00",
-      "image": "https://s1.ticketm.net/dam/a/773/30a8b5ef-9146-4e75-bc39-6037812ad773_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/roodkapje-tickets/212211853",
-      "summary": "The complete timing can be found a few days before the concert on www.trixxo-theater.be.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
     },
     {
       "id": "tm-Z698xZG2Z1kQ37bb0",
@@ -12818,7 +12799,7 @@
       "lon": 5.4653273,
       "start": "2026-11-14T18:30:00",
       "end": "2026-11-14T21:30:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Ouffet_JPG01.jpg/1280px-Ouffet_JPG01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/2250104552608746/",
       "url": "https://www.facebook.com/events/2250104552608746/",
       "summary": "Souper et projection des photos du camp d'été du Patro d'Ouffet, ouvert à tous.",
@@ -12826,7 +12807,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Jean-Pol GRANDMONT / Wikimedia Commons, CC BY-SA 3.0"
     },
     {
       "id": "fbx-2540306306438858",
@@ -13098,7 +13080,7 @@
       "lon": 4.7324039,
       "start": "2026-11-14T19:00:00",
       "end": "2026-11-14T22:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/WalhainWisconsinDowntownWIS54.jpg/1280px-WalhainWisconsinDowntownWIS54.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/29121452020801114/",
       "url": "https://www.facebook.com/events/29121452020801114/",
       "summary": "Souper et soirée à l'italienne.",
@@ -13106,7 +13088,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Royalbroil / Wikimedia Commons, CC BY-SA 3.0"
     },
     {
       "id": "fbx-836374736199926",
@@ -13246,7 +13229,7 @@
       "lon": 5.9697292,
       "start": "2026-11-14T19:45:00",
       "end": "2026-11-14T22:45:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Plombieres_les_bains_vueOuest.jpg/1280px-Plombieres_les_bains_vueOuest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1278162934382192/",
       "url": "https://www.facebook.com/events/1278162934382192/",
       "summary": "Soirée de proclamation du nouveau Prince Carnaval de l'entité, avec les sociétés carnavalesques locales.",
@@ -13254,7 +13237,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Mstorn / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "fbx-932894426259712",
@@ -13286,7 +13270,7 @@
       "lon": 5.8167711,
       "start": "2026-11-14T20:00:00",
       "end": "2026-11-14T23:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Arlon_-_%C3%A9glise_du_Sacr%C3%A9-C%C5%93ur_22.jpg/1280px-Arlon_-_%C3%A9glise_du_Sacr%C3%A9-C%C5%93ur_22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1704747557255460/",
       "url": "https://www.facebook.com/events/1704747557255460/",
       "summary": "Concert de gala pour les 125 ans de la Royale Philharmonie l'Union Sterpenich-Barnich.",
@@ -13294,7 +13278,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Bjung / Wikimedia Commons, CC BY-SA 3.0"
     },
     {
       "id": "fbx-27715972351328022",
@@ -26281,7 +26266,7 @@
       "lon": 4.7324039,
       "start": "2026-12-11T17:00:00",
       "end": "2026-12-11T20:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/WalhainWisconsinDowntownWIS54.jpg/1280px-WalhainWisconsinDowntownWIS54.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1633849355033135/",
       "url": "https://www.facebook.com/events/1633849355033135/",
       "summary": "Marché de Noël préparé par les écoles communales.",
@@ -26289,7 +26274,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Royalbroil / Wikimedia Commons, CC BY-SA 3.0"
     },
     {
       "id": "fbx-1331812526677892",
