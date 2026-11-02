@@ -1,5 +1,5 @@
 {
-  "genere": "2026-11-02T16:54:05",
+  "genere": "2026-11-02T22:33:45",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -61,7 +61,7 @@
     {
       "source": "Pays de Herve",
       "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
+      "erreur": "lecture indisponible, dernière lecture réutilisée : curl 28 pour https://www.paysdeherve.be",
       "gardes": 0,
       "ecartes": 2
     },
@@ -192,6 +192,6 @@
       "pages_lues_par_ia": 25
     }
   ],
-  "avec_image": 848,
-  "total": 1635
+  "avec_image": 851,
+  "total": 1632
 }

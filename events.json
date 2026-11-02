@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02T16:54:05",
+  "generated": "2026-11-02T22:33:45",
   "events": [
     {
       "id": "web-visithuy-l-invention-cach-e-2026-05-25",
@@ -326,44 +326,6 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
-    },
-    {
-      "id": "tm-Z698xZG2Z1kaof00P",
-      "title": "Tokio Hotel",
-      "category": "concert",
-      "venue": "Vorst Nationaal/Forest National",
-      "city": "Forest (Brussels)",
-      "lat": 50.80999,
-      "lon": 4.32601,
-      "start": "2026-11-02T20:00:00",
-      "end": "2026-11-02T20:00:00",
-      "image": "https://s1.ticketm.net/dam/a/3da/260db6b7-0bd5-4e9a-98df-157533b373da_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/tokio-hotel-arena-tour-2026-tickets/251524925",
-      "summary": "The complete timing can be found a few days before the concert on www.forest-national.be",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
-    },
-    {
-      "id": "tm-Z698xZG2Z1ku7kA0t",
-      "title": "Panayotis Pascot",
-      "category": "theatre",
-      "venue": "Cirque Royal - Koninklijk Circus",
-      "city": "Brussels",
-      "lat": 50.84906,
-      "lon": 4.36565,
-      "start": "2026-11-02T20:00:00",
-      "end": "2026-11-02T20:00:00",
-      "image": "https://s1.ticketm.net/dam/a/74e/9cb18e35-4076-4dc9-b2e3-69697f56074e_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/panayotis-pascot-tickets/344185929",
-      "summary": "Entre es deux << Ca y est, je crois que je suis officiellement un adulte et c'est beaucoup moins excitant que ce qu'on m'avait vendu... L'humour étant la meilleure arme face à la désillusion, j'ai eu envie de faire ce spectacle ! Et si on rigolait ensemble du fait que la vie n'a aucun sens ? Enfin, ",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
     },
     {
       "id": "web-trix-anvers-goldie-boutilier-2026-11-03",
@@ -4721,25 +4683,6 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "tm-Z698xZG2Z16vPK04f3",
-      "title": "KNEECAP: FENIAN TOUR",
-      "category": "concert",
-      "venue": "Vorst Nationaal/Forest National",
-      "city": "Forest (Brussels)",
-      "lat": 50.80999,
-      "lon": 4.32601,
-      "start": "2026-11-07T18:30:00",
-      "end": "2026-11-07T18:30:00",
-      "image": "https://s1.ticketm.net/dam/a/988/c872f7f0-57ab-45a9-a1ad-c4b968de5988_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/kneecap-fenian-tour-tickets/1953915512",
-      "summary": "Special guests: Fawzi x SMOKAHOLIC The complete timing can be found a few days before the concert on www.forest-national.be.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
-    },
-    {
       "id": "fbx-28232011766469377",
       "title": "Dolce Night | Première édition",
       "category": "party",
@@ -5600,6 +5543,25 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
+    },
+    {
+      "id": "tm-Z698xZG2Z16vPK04f3",
+      "title": "KNEECAP: FENIAN TOUR",
+      "category": "concert",
+      "venue": "Vorst Nationaal/Forest National",
+      "city": "Forest (Brussels)",
+      "lat": 50.80999,
+      "lon": 4.32601,
+      "start": "2026-11-07T21:00:00",
+      "end": "2026-11-07T21:00:00",
+      "image": "https://s1.ticketm.net/dam/a/988/c872f7f0-57ab-45a9-a1ad-c4b968de5988_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.ticketmaster.be/event/kneecap-fenian-tour-tickets/1953915512",
+      "summary": "Special guests: Fawzi x SMOKAHOLIC The complete timing can be found a few days before the concert on www.forest-national.be.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ticketmaster"
     },
     {
       "id": "fbx-2007809946616158",
@@ -17700,7 +17662,7 @@
       "lon": 5.788446,
       "start": "2026-11-21T21:00:00",
       "end": "2026-11-22T00:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Houffalize_JPG01.jpg/1280px-Houffalize_JPG01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/3402454326594181/",
       "url": "https://www.facebook.com/events/3402454326594181/",
       "summary": "Soirée festive clôturant la foire de la Sainte-Catherine.",
@@ -17708,7 +17670,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Jean-Pol GRANDMONT / Wikimedia Commons, CC BY 2.0"
     },
     {
       "id": "fbx-2287140888801783",
@@ -18262,7 +18225,7 @@
       "lon": 5.1187906,
       "start": "2026-11-22T13:00:00",
       "end": "2026-11-22T16:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Paliseul_JPG001.jpg/1280px-Paliseul_JPG001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/2610475892712396/",
       "url": "https://www.facebook.com/events/2610475892712396/",
       "summary": "Après-midi bingo convivial avec de nombreux lots.",
@@ -18270,7 +18233,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Jean-Pol GRANDMONT / Wikimedia Commons, CC BY 2.5"
     },
     {
       "id": "fbx-1310778604336700",
@@ -18466,7 +18430,7 @@
       "lon": 4.6170755,
       "start": "2026-11-22T17:00:00",
       "end": "2026-11-22T20:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Ferme_du_Bi%C3%A9reau_02.JPG/1280px-Ferme_du_Bi%C3%A9reau_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1425335012409894/",
       "url": "https://www.facebook.com/events/1425335012409894/",
       "summary": "Récital lyrique intimiste pour voix et guitare.",
@@ -18474,7 +18438,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "EmDee / Wikimedia Commons, CC BY-SA 3.0"
     },
     {
       "id": "fb-1449329067229487",
@@ -19264,7 +19229,7 @@
       "lon": 5.3720378,
       "start": "2026-11-26T20:15:00",
       "end": "2026-11-26T23:15:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Nassogne_JPG02.jpg/1280px-Nassogne_JPG02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/3231639410368532/",
       "url": "https://www.facebook.com/events/3231639410368532/",
       "summary": "Spectacle « Authentique » présenté à Nassogne.",
@@ -19272,7 +19237,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Jean-Pol GRANDMONT / Wikimedia Commons, CC BY 2.0"
     },
     {
       "id": "fbx-1831943364476171",
@@ -20192,7 +20158,7 @@
       "lon": 5.1187906,
       "start": "2026-11-28T07:30:00",
       "end": "2026-11-28T10:30:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Paliseul_JPG001.jpg/1280px-Paliseul_JPG001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1730858061531474/",
       "url": "https://www.facebook.com/events/1730858061531474/",
       "summary": "Traditionnelle foire de la Sainte-Catherine avec marchands et animations dans le centre.",
@@ -20200,7 +20166,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Jean-Pol GRANDMONT / Wikimedia Commons, CC BY 2.5"
     },
     {
       "id": "fbx-1823620651974627",
@@ -25121,7 +25088,7 @@
       "lat": 50.82787,
       "lon": 4.3721,
       "start": "2026-12-12T11:00:00",
-      "end": "2026-12-18T20:00:00",
+      "end": "2026-12-19T14:30:00",
       "image": "https://s1.ticketm.net/dam/a/0d5/6b5ee965-b6bf-4759-b92d-ee22bc6370d5_RETINA_PORTRAIT_16_9.jpg",
       "url": "https://www.ticketmaster.be/event/grand-brussels-christmas-circus-tickets/1577081526",
       "summary": "Welcome to the 15th edition of the Grand Brussels Christmas Circus at the Flagey Square in Ixelles, featuring a brand-new show created by Alexandre Bouglione! For this anniversary edition, no effort or expense has been spared to deliver an even more spectacular and unforgettable experience. Join us ",
@@ -26242,6 +26209,25 @@
       "source": "Ticketmaster"
     },
     {
+      "id": "tm-Z698xZG2Z1kff1e7J",
+      "title": "Kamal Kharmach",
+      "category": "theatre",
+      "venue": "Stadsschouwburg Antwerpen",
+      "city": "Antwerp",
+      "lat": 51.21579,
+      "lon": 4.40989,
+      "start": "2026-12-16T20:00:00",
+      "end": "2026-12-16T20:00:00",
+      "image": "https://s1.ticketm.net/dam/a/dd4/eec4f9fd-e635-4e54-bdf8-ffe5f426add4_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.ticketmaster.be/event/kamal-kharmach-mag-ik-even-2026-tickets/514282126",
+      "summary": "2026 has been a turbulent year, and Kamal Kharmach guides you through it in \"Mag Ik Even?\". With sharp jokes and spot-on observations, he looks back at everything that happened, near and far. From international tensions to Belgian political jabs, hard-hitting current events get a hilarious twist.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ticketmaster"
+    },
+    {
       "id": "fbx-1131423582747233",
       "title": "Les premiers oiseaux d'eau hivernants aux BEH",
       "category": "outdoor",
@@ -26896,7 +26882,7 @@
       "lon": 5.3720378,
       "start": "2026-12-19T10:00:00",
       "end": "2026-12-20T20:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Nassogne_JPG02.jpg/1280px-Nassogne_JPG02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/2119031792154813/",
       "url": "https://www.facebook.com/events/2119031792154813/",
       "summary": "Marché de Noël du village avec artisans, produits locaux et animations.",
@@ -26904,7 +26890,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Jean-Pol GRANDMONT / Wikimedia Commons, CC BY 2.0"
     },
     {
       "id": "fbx-2135945987006562",
@@ -30318,6 +30305,25 @@
       "source": "Ticketmaster"
     },
     {
+      "id": "tm-Z698xZG2Z1k8Kjzbp",
+      "title": "Role Model Presents: Chuck On Tour",
+      "category": "concert",
+      "venue": "Vorst Nationaal/Forest National",
+      "city": "Forest (Brussels)",
+      "lat": 50.80999,
+      "lon": 4.32601,
+      "start": "2027-02-15T18:30:00",
+      "end": "2027-02-15T18:30:00",
+      "image": "https://s1.ticketm.net/dam/a/8de/6b3940bd-1ef6-4a59-934a-fdce0d4768de_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.ticketmaster.be/event/role-model-presents-chuck-on-tour-tickets/413738616",
+      "summary": "ROLE MODEL, born Tucker Pillsbury, has had a remarkable journey. The single 'Sally, When The Wine Runs Out' became a global phenomenon, earning hundreds of millions of streams and going viral on social media. He is currently playing major festivals like Primavera Sound Barcelona, Bonnaroo, and Leeds",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ticketmaster"
+    },
+    {
       "id": "tm-Z698xZG2Z1k0V0eZk",
       "title": "ROSALIE CUNNINGHAM (uk)",
       "category": "concert",
@@ -32284,21 +32290,6 @@
       "classified": true
     },
     {
-      "id": "spa-759-2027-05-13",
-      "title": "FIA WEC - TOTALENERGIES 6 HOURS OF SPA-FRANCORCHAMPS",
-      "category": "motorsport",
-      "venue": "Circuit de Spa-Francorchamps",
-      "city": "Stavelot",
-      "lat": 50.4372,
-      "lon": 5.9714,
-      "start": "2027-05-13T10:00:00",
-      "end": "2027-05-15T18:00:00",
-      "image": "https://www.spa-francorchamps.be/assets/cache/568278f6-1b22-49af-abef-200c54f81832/wec26-launch-j-7-1920x970-clean.jpg",
-      "url": "https://www.ticketmaster.be/artist/totalenergies-6-hours-of-spafrancorchamps-tickets/965907?language=en-us&amp;j=3992185&amp;l=20473_HTML&amp;u=222351401&amp;mid=1362444&amp;jb=1&amp;et_cid=3992185&amp;et_rid=963974102&amp;sfmc_sub=963974102&amp;utm_source=eml-tm_so05_25-11-17_wec_fr&amp;utm_medium=email&amp;utm_campaign=1362444_3992185_11%2F14%2F2025",
-      "summary": "Hypercar and LMGT3, two categories, two distinct battles unfolding simultaneously on the same circuit. The greatest manufacturers and teams of the FIA World Endurance Championship gather here for one of the most anticipated rounds of the season. Enjoy the spectacle, explore the venue, and find all the practical information to make the most of this weekend.",
-      "source": "spa-francorchamps.be"
-    },
-    {
       "id": "tm-Z698xZG2Z16v7K4pGa",
       "title": "2027 TotalEnergies 6h of Spa | Thursday/Friday",
       "category": "motorsport",
@@ -32687,21 +32678,6 @@
       "classified": true
     },
     {
-      "id": "spa-761-2027-06-24",
-      "title": "CROWDSTRIKE 24 HOURS OF SPA",
-      "category": "motorsport",
-      "venue": "Circuit de Spa-Francorchamps",
-      "city": "Stavelot",
-      "lat": 50.4372,
-      "lon": 5.9714,
-      "start": "2027-06-24T10:00:00",
-      "end": "2027-06-27T18:00:00",
-      "image": "https://www.spa-francorchamps.be/assets/cache/343e8b78-db05-47e3-8e94-78efbdb98687/1920x970.jpg",
-      "url": "https://www.crowdstrike24hoursofspa.com/tickets",
-      "summary": "70 cars, 10 manufacturers, and 24 hours of non-stop racing in the heart of the Ardennes. One question: will you be in the grandstands?",
-      "source": "spa-francorchamps.be"
-    },
-    {
       "id": "tm-Z698xZG2Z16vAUaAOw",
       "title": "CrowdStrike 24 Hours of Spa",
       "category": "motorsport",
@@ -32761,21 +32737,6 @@
       "tags": [],
       "source": "Facebook (événement public)",
       "classified": true
-    },
-    {
-      "id": "spa-757-2027-07-23",
-      "title": "Formula 1 MSC Cruise Belgian Grand Prix 2027",
-      "category": "motorsport",
-      "venue": "Circuit de Spa-Francorchamps",
-      "city": "Stavelot",
-      "lat": 50.4372,
-      "lon": 5.9714,
-      "start": "2027-07-23T10:00:00",
-      "end": "2027-07-25T18:00:00",
-      "image": "https://www.spa-francorchamps.be/assets/cache/34f79629-409d-4586-95a9-36967a06a9a1/visu-entete-newsletter.jpg",
-      "url": "https://www.spagrandprix.com/fr/ticketing",
-      "summary": "Every year, the Formula 1 Belgian Grand Prix draws thousands of fans to one of the most iconic circuits in the championship. Spa-Francorchamps, with legendary corners like Eau Rouge - Raidillon, long straights and lush green surroundings, offers a unique blend of speed, technique and emotion.",
-      "source": "spa-francorchamps.be"
     },
     {
       "id": "web-reflektor-li-ge-the-mission-2027-09-24",
