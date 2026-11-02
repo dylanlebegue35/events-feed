@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02T04:50:50",
+  "generated": "2026-11-02T10:51:09",
   "events": [
     {
       "id": "web-visithuy-l-invention-cach-e-2026-05-25",
@@ -15264,7 +15264,7 @@
       "lon": 3.3846816,
       "start": "2026-11-20T20:00:00",
       "end": "2026-11-20T23:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Tournai_%C3%89glise_Saint-Jacques_ceiling_2.jpg/1280px-Tournai_%C3%89glise_Saint-Jacques_ceiling_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1566376558264377/",
       "url": "https://www.facebook.com/events/1566376558264377/",
       "summary": "Concert du duo Ikigai dans l'église Saint-Jacques, au profit du Rotary Tournai Trois Lys.",
@@ -15272,7 +15272,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Ymblanter / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "fbx-812696595227339",
@@ -15284,7 +15285,7 @@
       "lon": 4.3998997,
       "start": "2026-11-20T20:00:00",
       "end": "2026-11-20T23:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Cerfontaine_%28Nord%2C_Fr%29_salle_conmmunale.JPG/1280px-Cerfontaine_%28Nord%2C_Fr%29_salle_conmmunale.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/812696595227339/",
       "url": "https://www.facebook.com/events/812696595227339/",
       "summary": "Course nocturne festive dans les rues de Cerfontaine.",
@@ -15292,7 +15293,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Havang(nl) / Wikimedia Commons, CC0"
     },
     {
       "id": "fbx-2061165514534169",
@@ -15424,7 +15426,7 @@
       "lon": 4.9485321,
       "start": "2026-11-20T20:00:00",
       "end": "2026-11-20T23:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Tienen_KVK_Performance_Chart.png/1280px-Tienen_KVK_Performance_Chart.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1371695125121844/",
       "url": "https://www.facebook.com/events/1371695125121844/",
       "summary": "Quiz au profit du club de football KVK Tienen.",
@@ -15432,7 +15434,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Sviraman / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "web-le-forum-li-ge-the-music-of-hans-zimmer-alan-silvestri-2026-11-20",
@@ -16018,7 +16021,7 @@
       "lon": 5.7892192,
       "start": "2026-11-21T10:00:00",
       "end": "2026-11-21T13:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Square_Place_%C3%89glise_-_Houffalize_%28BE34%29_-_2026-09-27_-_2.jpg/1280px-Square_Place_%C3%89glise_-_Houffalize_%28BE34%29_-_2026-09-27_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1465906335406229/",
       "url": "https://www.facebook.com/events/1465906335406229/",
       "summary": "Traditionnelle foire de la Sainte-Catherine avec marchands et animations.",
@@ -16026,7 +16029,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Chabe01 / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "fbx-1733504161062601",
@@ -28724,6 +28728,25 @@
       "source": "Ticketmaster"
     },
     {
+      "id": "tm-Z698xZG2Z1kbx0FGb",
+      "title": "Mon Laferte",
+      "category": "concert",
+      "venue": "Cirque Royal - Koninklijk Circus",
+      "city": "Brussels",
+      "lat": 50.84906,
+      "lon": 4.36565,
+      "start": "2027-01-18T20:00:00",
+      "end": "2027-01-18T20:00:00",
+      "image": "https://s1.ticketm.net/dam/a/9e4/89085339-c7ad-4e7d-8505-36f90590c9e4_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.ticketmaster.be/event/mon-laferte-tickets/622908318",
+      "summary": "LATIN GRAMMY AWARD WINNER MON LAFERTE BRINGS ACCLAIMED FEMME FATALE TOUR TO BELGIUM: FIRST-EVER HEADLINE SHOW ON JAN 18, 2027, AT CIRQUE ROYAL BRUSSELS Five-time Latin GRAMMY® Award winner Mon Laferte is bringing her acclaimed Femme Fatale Tour to Brussels' iconic Cirque Royal on January 18, 2027, m",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ticketmaster"
+    },
+    {
       "id": "web-le-forum-li-ge-lalou-brt-2027-01-20",
       "title": "LALOU BRT",
       "category": "theatre",
@@ -30287,25 +30310,6 @@
       "image": "https://s1.ticketm.net/dam/a/387/d4485d1f-f4c0-4134-a09f-4550e378d387_RETINA_PORTRAIT_16_9.jpg",
       "url": "https://www.ticketmaster.be/event/feu--chatterton-tickets/548140564",
       "summary": "The complete timing can be found a few days before the concert on www.forest-national.be",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
-    },
-    {
-      "id": "tm-Z698xZG2Z1k8Kjzbp",
-      "title": "Role Model Presents: Chuck On Tour",
-      "category": "concert",
-      "venue": "Vorst Nationaal/Forest National",
-      "city": "Forest (Brussels)",
-      "lat": 50.80999,
-      "lon": 4.32601,
-      "start": "2027-02-15T18:30:00",
-      "end": "2027-02-15T18:30:00",
-      "image": "https://s1.ticketm.net/dam/a/8de/6b3940bd-1ef6-4a59-934a-fdce0d4768de_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/role-model-presents-chuck-on-tour-tickets/413738616",
-      "summary": "ROLE MODEL, born Tucker Pillsbury, has had a remarkable journey. The single 'Sally, When The Wine Runs Out' became a global phenomenon, earning hundreds of millions of streams and going viral on social media. He is currently playing major festivals like Primavera Sound Barcelona, Bonnaroo, and Leeds",
       "price_from": null,
       "free": null,
       "audience": [],
