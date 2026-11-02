@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02T10:51:09",
+  "generated": "2026-11-02T16:54:05",
   "events": [
     {
       "id": "web-visithuy-l-invention-cach-e-2026-05-25",
@@ -326,25 +326,6 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
-    },
-    {
-      "id": "tm-Z698xZG2Z16evv0Z-E",
-      "title": "De Kleine Prins",
-      "category": "theatre",
-      "venue": "Stadsschouwburg Antwerpen",
-      "city": "Antwerp",
-      "lat": 51.21579,
-      "lon": 4.40989,
-      "start": "2026-11-02T15:30:00",
-      "end": "2026-11-02T15:30:00",
-      "image": "https://s1.ticketm.net/dam/a/e27/2d2ff874-7b4c-4bcc-8bc8-73c2dd736e27_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/de-kleine-prins-de-musical-tickets/2041900867",
-      "summary": "This family musical brings Antoine de Saint-Exupéry's world-famous story to the stage. Alongside The Pilot, you meet a Rose, a Fox and other characters who show the meaning of love and friendship. A poetic production with magical projections and live music. The complete timing can be found a few day",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
     },
     {
       "id": "tm-Z698xZG2Z1kaof00P",
@@ -17364,7 +17345,7 @@
       "lon": 4.0705789,
       "start": "2026-11-21T20:00:00",
       "end": "2026-11-21T22:30:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Coll%C3%A9giale_Saint-Vincent_de_Soignies_08.jpg/1280px-Coll%C3%A9giale_Saint-Vincent_de_Soignies_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1656288982131174/",
       "url": "https://www.facebook.com/events/1656288982131174/",
       "summary": "Concert de la chorale Gospel For Life dans la collégiale Saint-Vincent de Soignies.",
@@ -17372,7 +17353,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "FrDr / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "fbx-4207317582898968",
@@ -29788,6 +29770,25 @@
       "source": "Le Forum (Liège)"
     },
     {
+      "id": "tm-Z698xZG2Z1kCAuAJe",
+      "title": "BLACK CAT BISCUIT (B)",
+      "category": "concert",
+      "venue": "Spirit of 66",
+      "city": "Verviers",
+      "lat": 50.59353,
+      "lon": 5.86109,
+      "start": "2027-02-05T20:00:00",
+      "end": "2027-02-05T20:00:00",
+      "image": "https://s1.ticketm.net/dam/a/35e/1f22cef3-78e9-427b-a0d6-c32cb39b935e_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.ticketmaster.be/event/black-cat-biscuit-b--tickets/385345982",
+      "summary": "Avec un fantastique nouveau guitariste ANTON LEE .... 15 ans !",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ticketmaster"
+    },
+    {
       "id": "tm-Z698xZG2Z16vpvuIO-",
       "title": "Arnout Van den Bossche \"De Relatiefluisteraar\"",
       "category": "theatre",
@@ -31769,25 +31770,6 @@
       "image": "https://s1.ticketm.net/dam/a/37b/7cf458ca-6be9-44ae-be46-303c4d85437b_RETINA_PORTRAIT_16_9.jpg",
       "url": "https://www.ticketmaster.be/event/the-haunted-youth-%7C-beat-premium-comfort-experience-tickets/1412797760",
       "summary": "Make your visit to the Lotto Arena truly special with the be•at Premium Comfort Experience. What can you expect? • Separate entrance to the Lotto Lounge starting 60 minutes before the Lotto Arena doors open. • An exclusive space with comfortable seating. • A cosy bar offering a wide selection of dri",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
-    },
-    {
-      "id": "tm-Z698xZG2Z16v8z7gpd",
-      "title": "EASY LOVER Tribute to PHIL COLLINS & GENESIS",
-      "category": "concert",
-      "venue": "Spirit of 66",
-      "city": "Verviers",
-      "lat": 50.59353,
-      "lon": 5.86109,
-      "start": "2027-03-27T20:00:00",
-      "end": "2027-03-27T20:00:00",
-      "image": "https://s1.ticketm.net/dam/a/434/3b514eb6-51e6-458c-9f5b-fa1495f25434_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/easy-lover-tribute-to-phil-collins--genesis-tickets/1438135583",
-      "summary": "",
       "price_from": null,
       "free": null,
       "audience": [],

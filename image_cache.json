@@ -5167,5 +5167,59 @@
  "L|\"Auberge de Jeunesse du Beffroi\" Mons|auberge,jeunesse,beffroi": [],
  "L|\"Le Fagotin, route de l'Amblève 56\" Stoumont|fagotin,route,amblève": [],
  "L|\"Rue Augustin Mathy 16\" La Louvière|rue,augustin,mathy": [],
- "L|\"De Schakel\" Tienen|schakel": []
+ "L|\"De Schakel\" Tienen|schakel": [],
+ "L|\"Rue des Clercs 34\" Mons|rue,clercs": [],
+ "L|\"Marché Couvert\" Hannut|marché,couvert": [],
+ "L|\"Place 1, 7890 Ellezelles\" Ellezelles|place,ellezelles": [],
+ "L|\"Rue Saint-Barthélemy 13, Buissonville, 5580 Rochefort\" Rochefort|rue,saint,barthélemy,buissonville,rochefort": [],
+ "L|\"Imbroekstraat 80\" Zaventem|imbroekstraat": [],
+ "L|\"École communale de Moranfayt\" Dour|école,communale,moranfayt": [],
+ "L|\"Rue de la Rouge Croix 1, 7180 Seneffe\" Seneffe|rue,rouge,croix,seneffe": [],
+ "L|\"Hôtel Charleroi Airport Van der Valk\" Charleroi|hôtel,charleroi,airport,van,der,valk": [],
+ "L|\"Salle du tennis de table (Cour Marchal 7)\" Virton|tennis,table,cour,marchal": [],
+ "L|\"Rue Louis Germeaux 12\" Awans|rue,louis,germeaux": [],
+ "L|\"Salle du Vieux Haneffe\" Donceel|vieux,haneffe": [],
+ "L|\"65 Rue de l'Abattoir\" Herstal|rue,abattoir": [],
+ "L|\"Barbençon\" Beaumont|barbençon": [],
+ "L|\"École fondamentale Saint-Henri\" Comines-Warneton|école,fondamentale,saint,henri": [],
+ "L|\"Maison du Peuple, Grand'Route 396\" Flémalle|maison,peuple,grand,route": [],
+ "L|\"Collège Cardinal Mercier\" Braine-l'Alleud|collège,cardinal,mercier": [],
+ "L|\"Pentagon Gent\" Gand|pentagon,gent": [],
+ "L|\"De Speurneus\" Gand|speurneus": [],
+ "L|\"Wereldcafé\" Louvain|wereldcafé": [
+  [
+   "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Westkant_Joris_Helleputteplein_Leuven.jpg/1280px-Westkant_Joris_Helleputteplein_Leuven.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "LDZde / Wikimedia Commons, CC BY-SA 4.0",
+   "file:westkant joris helleputteplein leuven.jpg\nwestkant joris helleputteplein leuven westkant helleputteplein met wereldcafé"
+  ]
+ ],
+ "L|\"Monke Temple\" Hasselt|monke,temple": [],
+ "L|\"Worriken\" Butgenbach|worriken": [],
+ "L|\"Espace culturel de Trois-Ponts\" Trois-Ponts|espace,culturel,trois,ponts": [],
+ "L|\"Salle de l'Alliance\" Visé|alliance": [],
+ "L|\"Le Saulchoir, Rue de Becquereau 6, 7760 Celles\" Celles|saulchoir,rue,becquereau,celles": [],
+ "L|\"Elysée\" La Louvière|elysée": [],
+ "L|\"Collégiale Saint-Vincent\" Soignies|collégiale,saint,vincent": [
+  [
+   "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Soignies_Place_Verte.jpg/1280px-Soignies_Place_Verte.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "Jean-Pol GRANDMONT / Wikimedia Commons, CC BY 2.5",
+   "file:soignies place verte.jpg\nsoignies place verte soignies (belgique), la collégiale saint-vincent (xe siècle) et l'espace fleuri de la place verte"
+  ],
+  [
+   "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Coll%C3%A9giale_Saint-Vincent_de_Soignies_08.jpg/1280px-Coll%C3%A9giale_Saint-Vincent_de_Soignies_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "FrDr / Wikimedia Commons, CC BY-SA 4.0",
+   "file:collégiale saint-vincent de soignies 08.jpg\ncollégiale saint-vincent de soignies 08 collégiale saint-vincent de soignies"
+  ]
+ ],
+ "L|\"Centre culturel d'Aubange\" Aubange|culturel,aubange": [],
+ "L|\"PAMexpo\" Court-Saint-Étienne|pamexpo": [],
+ "L|\"Zevensterre 9\" Grimbergen|zevensterre": [
+  [
+   "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Pastorie_Onze-Lieve-Vrouwparochie%2C_Zevensterre_9%2C_Beigem.jpg/1280px-Pastorie_Onze-Lieve-Vrouwparochie%2C_Zevensterre_9%2C_Beigem.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "Funkyxian / Wikimedia Commons, CC BY-SA 4.0",
+   "file:pastorie onze-lieve-vrouwparochie, zevensterre 9, beigem.jpg\npastorie onze-lieve-vrouwparochie, zevensterre 9, beigem pastorie onze-lieve-vrouwparochie, zevensterre 9, beigem"
+  ]
+ ],
+ "L|\"Excelsiorlaan 16\" Zaventem|excelsiorlaan": [],
+ "L|\"Salle Grandfils\" Engis|grandfils": []
 }

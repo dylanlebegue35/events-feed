@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T10:51:09",
+ "generated": "2026-11-02T16:54:05",
  "places": [
   {
    "id": "vivyo-space-malmedy",
@@ -897,6 +897,24 @@
    "partner": false,
    "lat": 50.6417927,
    "lon": 5.5675851
+  },
+  {
+   "id": "vivyo-bar-joie-social-club-liege",
+   "name": "Joie Social Club",
+   "kind": "bar",
+   "kind_label": "Bar",
+   "city": "Liège",
+   "address": "Rue du Méry 27, 4000 Liège",
+   "lat": 50.6394103,
+   "lon": 5.5745548,
+   "website": "https://joiesocialclub.com",
+   "instagram": "https://www.instagram.com/joiesocialclub/",
+   "hours": "Mo-Su 08:00+",
+   "image": null,
+   "image_credit": null,
+   "pitch": "Nouveau lieu du matin au soir : café, cuisine, cocktails et DJ, 7 jours sur 7 dès 8 h.",
+   "offer": null,
+   "partner": false
   },
   {
    "id": "osm-node-1776488952",
