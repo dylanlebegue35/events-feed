@@ -1,5 +1,5 @@
 {
-  "genere": "2026-11-03T04:45:02",
+  "genere": "2026-11-03T10:51:06",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -16,7 +16,7 @@
     {
       "source": "Tourisme Spa",
       "ok": false,
-      "erreur": "curl 28 pour https://www.visitspa.be"
+      "erreur": "réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 're"
     },
     {
       "source": "VisitHuy",
@@ -61,7 +61,7 @@
     {
       "source": "Pays de Herve",
       "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : curl 28 pour https://www.paysdeherve.be",
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
       "gardes": 0,
       "ecartes": 2
     },
@@ -96,7 +96,7 @@
     {
       "source": "Opéra Royal de Wallonie",
       "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : curl 28 pour https://www.operaliege.be",
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or",
       "gardes": 6,
       "ecartes": 0
     },
@@ -189,9 +189,9 @@
       "source": "Pages des billetteries",
       "ok": true,
       "pages_lues": 1,
-      "pages_lues_par_ia": 1
+      "pages_lues_par_ia": 0
     }
   ],
-  "avec_image": 855,
-  "total": 1631
+  "avec_image": 858,
+  "total": 1632
 }

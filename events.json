@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-03T04:45:02",
+  "generated": "2026-11-03T10:51:06",
   "events": [
     {
       "id": "web-visithuy-l-invention-cach-e-2026-05-25",
@@ -7031,7 +7031,7 @@
       "end": "2026-11-09T19:00:00",
       "image": "https://s1.ticketm.net/dam/a/5b8/4aacc801-70a9-46ad-8fa3-d4f67ddc65b8_RETINA_PORTRAIT_16_9.jpg",
       "url": "https://www.ticketmaster.be/event/fink-tickets/515597594",
-      "summary": "Support: Angela Autumn Event information & timings: www.livenation.be",
+      "summary": "Support: Angela Autumn Event information & timings: www.livenation.be 19:00 Doors 20:00 - 20:40 Angela Autumn 21:00 - 22:30 Fink",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -22185,7 +22185,7 @@
       "lon": 4.3510915,
       "start": "2026-12-01T20:12:00",
       "end": "2026-12-01T23:12:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Bruxelles_Manitoba_Canada_Skyline_2012.jpg/1280px-Bruxelles_Manitoba_Canada_Skyline_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/4497923747159062/",
       "url": "https://www.facebook.com/events/4497923747159062/",
       "summary": "#Musique : Aigle � Fally Ipupa à Bruxelles, #ING #ARENA . Deux dates : 11 et 12 décembre 2026 (la billetterie est déjà ouverte).",
@@ -22196,7 +22196,8 @@
       ],
       "tags": [],
       "source": "Facebook (événement public)",
-      "classified": true
+      "classified": true,
+      "image_credit": "Bussche / Wikimedia Commons, CC BY-SA 3.0"
     },
     {
       "id": "web-mars-mons-arts-de-la-sc-ne-chwallow-2026-12-02",
@@ -22251,7 +22252,7 @@
       "lon": 4.3236787,
       "start": "2026-12-02T20:00:00",
       "end": "2026-12-02T23:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Coll%C3%A9giale_Sainte-Gertrude_de_Nivelles_et_la_fontaine_du_perron.jpg/1280px-Coll%C3%A9giale_Sainte-Gertrude_de_Nivelles_et_la_fontaine_du_perron.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1583897129819521/",
       "url": "https://www.facebook.com/events/1583897129819521/",
       "summary": "Concert gospel dans la collégiale Sainte-Gertrude.",
@@ -22259,7 +22260,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Cochon d'inde noir / Wikimedia Commons, CC0"
     },
     {
       "id": "web-le-forum-li-ge-v-ronic-dicaire-nouveau-spectacle-2026-12-02",
@@ -26698,7 +26700,7 @@
     {
       "id": "tm-Z698xZG2Z16vGNPMjb",
       "title": "Home Alone in Concert",
-      "category": "concert",
+      "category": "theatre",
       "venue": "Vorst Nationaal/Forest National",
       "city": "Forest (Brussels)",
       "lat": 50.80999,
@@ -26974,7 +26976,7 @@
     {
       "id": "tm-Z698xZG2Z16vGf_db8",
       "title": "The Lord of the Rings: The Fellowship of the Ring in Concert",
-      "category": "concert",
+      "category": "theatre",
       "venue": "Vorst Nationaal/Forest National",
       "city": "Forest (Brussels)",
       "lat": 50.80999,
@@ -32078,6 +32080,25 @@
       "image": "https://s1.ticketm.net/dam/a/25b/d2676452-9054-43b9-8853-d4e3e884b25b_RETINA_PORTRAIT_16_9.jpg",
       "url": "https://www.ticketmaster.be/event/nachtwacht-show-het-duistere-elixir-tickets/244943917",
       "summary": "The complete timing can be found a few days before the show on www.trixxo-theater.be.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ticketmaster"
+    },
+    {
+      "id": "tm-Z698xZG2Z16vQ7q8ot",
+      "title": "Masters of Dirt",
+      "category": "theatre",
+      "venue": "AFAS Dome",
+      "city": "Merksem (Antwerpen)",
+      "lat": 51.23024,
+      "lon": 4.44176,
+      "start": "2027-05-02T14:00:00",
+      "end": "2027-05-02T14:00:00",
+      "image": "https://s1.ticketm.net/dam/a/ba9/637863d3-cbf4-4602-a147-f11a785faba9_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.ticketmaster.be/event/masters-of-dirt-freestyle-100-tickets/1684750469",
+      "summary": "The world's biggest freestyle show is coming to Belgium for the very first time! This is no ordinary stunt show. This is Masters of Dirt: an explosive mix of freestyle motocross (FMX), mountain biking (MTB), BMX, Harley-Davidson stunts, inline skating and even snowmobiles. Add The Fuel Girls, beats ",
       "price_from": null,
       "free": null,
       "audience": [],
