@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-03T10:51:06",
+  "generated": "2026-11-03T16:46:36",
   "events": [
     {
       "id": "web-visithuy-l-invention-cach-e-2026-05-25",
@@ -24685,7 +24685,7 @@
       "lon": 4.3717863,
       "start": "2026-12-11T17:00:00",
       "end": "2026-12-13T20:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Grimbergen_-_Lagesteenweg_x_Bakkerstraat_-_2025-11-08.jpg/1280px-Grimbergen_-_Lagesteenweg_x_Bakkerstraat_-_2025-11-08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/4487698291541162/",
       "url": "https://www.facebook.com/events/4487698291541162/",
       "summary": "Marché de Noël de Grimbergen avec chalets et animations musicales.",
@@ -24693,7 +24693,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Sjenghai / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "tm-Z698xZG2Z1kxfJfF-",
@@ -25049,7 +25050,7 @@
       "lon": 4.4084276,
       "start": "2026-12-12T14:00:00",
       "end": "2026-12-12T17:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Windows_of_former_Seagram_Distillers_Building_%28Seagram_Lofts%2C_Waterloo%2C_Ontario%2C_Canada%29.jpg/1280px-Windows_of_former_Seagram_Distillers_Building_%28Seagram_Lofts%2C_Waterloo%2C_Ontario%2C_Canada%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1747225076397630/",
       "url": "https://www.facebook.com/events/1747225076397630/",
       "summary": "Marché de Noël avec chalets, artisans et animations au centre de Waterloo.",
@@ -25057,7 +25058,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Maksim Sokolov (maxergon.com) / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "fb-1633721874815584",
@@ -25571,7 +25573,7 @@
       "lon": 5.6225107,
       "start": "2026-12-13T09:00:00",
       "end": "2026-12-13T12:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/20211001T151216_habay-la-vieille_chapelle_saint-hubert.jpg/1280px-20211001T151216_habay-la-vieille_chapelle_saint-hubert.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1080949997756396/",
       "url": "https://www.facebook.com/events/1080949997756396/",
       "summary": "Atelier d'initiation à l'horlogerie et au fonctionnement des montres mécaniques.",
@@ -25579,7 +25581,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Foxandpotatoes / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "fbx-2151619879058818",
@@ -25652,7 +25655,7 @@
       "lon": 5.3738203,
       "start": "2026-12-13T15:30:00",
       "end": "2026-12-13T18:30:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Place_de_l%27Abbaye%2C_Saint-Hubert_%28Belgium%29_01.jpg/1280px-Place_de_l%27Abbaye%2C_Saint-Hubert_%28Belgium%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1737483258381841/",
       "url": "https://www.facebook.com/events/1737483258381841/",
       "summary": "Course relais festive organisée en marge du marché de Noël.",
@@ -25660,7 +25663,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Abxbay / Wikimedia Commons, CC0"
     },
     {
       "id": "tm-Z698xZG2Z1kQoZ-jZ",
@@ -26158,7 +26162,7 @@
       "lon": 4.4675181,
       "start": "2026-12-17T09:15:00",
       "end": "2026-12-17T15:30:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/%C3%89glise_de_Cerfontaine_%28Nord%29_367.JPG/1280px-%C3%89glise_de_Cerfontaine_%28Nord%29_367.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1131423582747233/",
       "url": "https://www.facebook.com/events/1131423582747233/",
       "summary": "Sortie nature d'observation des oiseaux d'eau hivernants aux Barrages de l'Eau d'Heure, avec Natagora.",
@@ -26166,7 +26170,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Chatsam / Wikimedia Commons, CC BY-SA 3.0"
     },
     {
       "id": "web-reflektor-li-ge-kid-sophie-fanny-2026-12-17",
@@ -26465,7 +26470,7 @@
       "lon": 4.447946,
       "start": "2026-12-18T17:00:00",
       "end": "2026-12-20T20:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Grand_Place_Genappe.jpg/1280px-Grand_Place_Genappe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1074881495173847/",
       "url": "https://www.facebook.com/events/1074881495173847/",
       "summary": "Marché de Noël de Genappe avec chalets, artisans et animations.",
@@ -26473,7 +26478,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "LLN / Wikimedia Commons, CC BY-SA 3.0"
     },
     {
       "id": "fbx-1713013329783321",
@@ -26783,7 +26789,7 @@
       "lon": 5.8199093,
       "start": "2026-12-19T10:00:00",
       "end": "2026-12-20T20:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Messancy_-_Le_Parc_Mathelin_en_2013.JPG/1280px-Messancy_-_Le_Parc_Mathelin_en_2013.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1845790759928475/",
       "url": "https://www.facebook.com/events/1845790759928475/",
       "summary": "Marché de Noël dans le parc communal avec chalets et animations.",
@@ -26791,7 +26797,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Hombre del rio / Wikimedia Commons, CC BY-SA 3.0"
     },
     {
       "id": "fbx-2119031792154813",
@@ -28326,6 +28333,25 @@
       "source": "Le Forum (Liège)"
     },
     {
+      "id": "tm-Z698xZG2Z1kF6adAA",
+      "title": "LANCE LOPEZ",
+      "category": "concert",
+      "venue": "Spirit of 66",
+      "city": "Verviers",
+      "lat": 50.59353,
+      "lon": 5.86109,
+      "start": "2027-01-11T20:00:00",
+      "end": "2027-01-11T20:00:00",
+      "image": "https://s1.ticketm.net/dam/a/f17/1b8c785b-d5e2-4e8f-b7ce-fc61ddc28f17_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.ticketmaster.be/event/-lance-lopez-tickets/207243145",
+      "summary": "",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ticketmaster"
+    },
+    {
       "id": "tm-Z698xZG2Z1kx8jwxe",
       "title": "DOOGIE WHITE",
       "category": "concert",
@@ -28906,7 +28932,7 @@
       "lon": 4.36565,
       "start": "2027-01-23T20:00:00",
       "end": "2027-01-23T20:00:00",
-      "image": "https://s1.ticketm.net/dam/a/c5a/07b76143-5a5a-4f43-9810-ccdb2a463c5a_RETINA_PORTRAIT_16_9.jpg",
+      "image": "https://s1.ticketm.net/dam/a/b8b/f0998a4b-6bd7-49ec-b0ed-8911489f6b8b_RETINA_PORTRAIT_16_9.jpg",
       "url": "https://www.ticketmaster.be/event/bernard-werber-vie-tickets/925411194",
       "summary": "Le spectacle V.I.E pour VOYAGE INTERIEUR EXPERIMENTAL, est une expérience d'un nouveau genre. Dans ce mélange de rêvé éveillé, de méditation guidée, d'humour et de musique relaxante, l'écrivain Bernard Werber vous invite à pratiquer du << TOURISME SPIRITUEL >>. Guidés par sa voix et par la musique p",
       "price_from": null,
@@ -31626,25 +31652,6 @@
       "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
-    },
-    {
-      "id": "tm-Z698xZG2Z1kboZzC4",
-      "title": "Layla Zoe (Can)",
-      "category": "concert",
-      "venue": "Spirit of 66",
-      "city": "Verviers",
-      "lat": 50.59353,
-      "lon": 5.86109,
-      "start": "2027-03-23T20:00:00",
-      "end": "2027-03-23T20:00:00",
-      "image": "https://s1.ticketm.net/dam/a/b37/8eb9cf0e-151a-4582-bf3b-740eb8f47b37_1289681_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/layla-zoe-can--tickets/611038395",
-      "summary": "",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
     },
     {
       "id": "tm-Z698xZG2Z16eZMuZvv",
