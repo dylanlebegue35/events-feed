@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02T22:33:45",
+  "generated": "2026-11-03T04:45:02",
   "events": [
     {
       "id": "web-visithuy-l-invention-cach-e-2026-05-25",
@@ -164,26 +164,6 @@
       "source": "Opéra Royal de Wallonie"
     },
     {
-      "id": "fbx-4693892690842711",
-      "title": "Week-end Moules - Le Bon Plan",
-      "category": "food",
-      "venue": "Le Bon Plan, Promenade des Ours 30-32, 5300 Andenne",
-      "city": "Andenne",
-      "lat": 50.4893981,
-      "lon": 5.0965468,
-      "start": "2026-10-30T18:00:00",
-      "end": "2026-11-02T22:00:00",
-      "image": null,
-      "page_url": "https://www.facebook.com/events/4693892690842711/",
-      "url": "https://www.facebook.com/events/4693892690842711/",
-      "summary": "Week-end spécial moules au restaurant Le Bon Plan d'Andenne.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Facebook (extension)"
-    },
-    {
       "id": "web-th-tre-de-li-ge-forum-impact-2026-2026-10-31",
       "title": "Forum IMPACT 2026",
       "category": "festival",
@@ -257,70 +237,6 @@
       "page_url": "https://www.facebook.com/events/1423525559981968/",
       "url": "https://www.facebook.com/events/1423525559981968/",
       "summary": "Exposition de créations artisanales et artistiques du collectif Kreativa Amel au Hof von Bütgenbach.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Facebook (extension)"
-    },
-    {
-      "id": "fb-2128688154408390",
-      "title": "soiree commémorative",
-      "category": "party",
-      "venue": "Salle Calva",
-      "city": "Mons",
-      "lat": 50.433516460052,
-      "lon": 3.8883129674081,
-      "start": "2026-11-01T01:45:00",
-      "end": "2026-11-02T07:45:00",
-      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-2128688154408390.jpg",
-      "page_url": "https://www.facebook.com/events/2128688154408390/",
-      "url": "https://www.facebook.com/events/2128688154408390/",
-      "summary": "Nous arrivons aux dernières réservations pour notre grande soirée de commémoration du 31 octobre 2026. � Date limite des réservations : 15 octobre 2026 Pour les personnes ayant déjà effectué leur règlement mais qui n’auraient pas encore reçu leur carte d’entrée, merci de bien vouloir recontacter l’u",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
-      ],
-      "tags": [],
-      "source": "Facebook (événement public)",
-      "classified": true
-    },
-    {
-      "id": "fbx-1716211436143631",
-      "title": "Balade contée - une journée hors du temps",
-      "category": "outdoor",
-      "venue": "Doische",
-      "city": "Doische",
-      "lat": 50.1416819,
-      "lon": 4.7576654,
-      "start": "2026-11-02T08:00:00",
-      "end": "2026-11-02T17:00:00",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Doische_JPG01.jpg/1280px-Doische_JPG01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "page_url": "https://www.facebook.com/events/1716211436143631/",
-      "url": "https://www.facebook.com/events/1716211436143631/",
-      "summary": "Journée de balade contée en nature dans la région de Doische, proposée par Souffle d'Âme.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Facebook (extension)",
-      "image_credit": "Jean-Pol GRANDMONT / Wikimedia Commons, CC BY 2.5"
-    },
-    {
-      "id": "fbx-2540562233084418",
-      "title": "Familiefilm : Moppervis (5+)",
-      "category": "cinema",
-      "venue": "CC Het Bolwerk",
-      "city": "Vilvoorde",
-      "lat": 50.9294546,
-      "lon": 4.4326736,
-      "start": "2026-11-02T15:00:00",
-      "end": "2026-11-02T18:00:00",
-      "image": null,
-      "page_url": "https://www.facebook.com/events/2540562233084418/",
-      "url": "https://www.facebook.com/events/2540562233084418/",
-      "summary": "Film d'animation pour les enfants dès 5 ans.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -20588,7 +20504,7 @@
       "lon": 4.9401602,
       "start": "2026-11-28T14:00:00",
       "end": "2026-11-28T17:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/St-Germanuskerk_%28Tienen%29_-_Devotiekapel_kant_Veemarkt.JPG/1280px-St-Germanuskerk_%28Tienen%29_-_Devotiekapel_kant_Veemarkt.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/3022582164786256/",
       "url": "https://www.facebook.com/events/3022582164786256/",
       "summary": "Arrivée de Saint-Nicolas à Tienen.",
@@ -20596,7 +20512,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "IDD5000 / Wikimedia Commons, CC BY-SA 3.0"
     },
     {
       "id": "tm-Z698xZG2Z16vrfrpf4",
@@ -20827,7 +20744,7 @@
       "lon": 4.9567776,
       "start": "2026-11-28T19:00:00",
       "end": "2026-11-28T22:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Beauraing_050422_%288%29.JPG/1280px-Beauraing_050422_%288%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/2235124174558110/",
       "url": "https://www.facebook.com/events/2235124174558110/",
       "summary": "Souper annuel convivial organisé par le comité du CAP Beauraing.",
@@ -20835,7 +20752,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Jean-Pol GRANDMONT / Wikimedia Commons, CC BY 3.0"
     },
     {
       "id": "fbx-1353444480084192",
@@ -21329,7 +21247,7 @@
       "lon": 5.1275215,
       "start": "2026-11-28T20:30:00",
       "end": "2026-11-28T23:30:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Bouillon_-_Ch%C3%A2teau-fort_et_cit%C3%A9_%281%29.jpg/1280px-Bouillon_-_Ch%C3%A2teau-fort_et_cit%C3%A9_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1198235032314163/",
       "url": "https://www.facebook.com/events/1198235032314163/",
       "summary": "Concert en soirée au cœur de Bouillon.",
@@ -21337,7 +21255,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Jean-Pol GRANDMONT / Wikimedia Commons, CC BY 3.0"
     },
     {
       "id": "fb-4481871402075609",
@@ -32290,6 +32209,21 @@
       "classified": true
     },
     {
+      "id": "spa-759-2027-05-13",
+      "title": "FIA WEC - TOTALENERGIES 6 HOURS OF SPA-FRANCORCHAMPS",
+      "category": "motorsport",
+      "venue": "Circuit de Spa-Francorchamps",
+      "city": "Stavelot",
+      "lat": 50.4372,
+      "lon": 5.9714,
+      "start": "2027-05-13T10:00:00",
+      "end": "2027-05-15T18:00:00",
+      "image": "https://www.spa-francorchamps.be/assets/cache/568278f6-1b22-49af-abef-200c54f81832/wec26-launch-j-7-1920x970-clean.jpg",
+      "url": "https://www.ticketmaster.be/artist/totalenergies-6-hours-of-spafrancorchamps-tickets/965907?language=en-us&amp;j=3992185&amp;l=20473_HTML&amp;u=222351401&amp;mid=1362444&amp;jb=1&amp;et_cid=3992185&amp;et_rid=963974102&amp;sfmc_sub=963974102&amp;utm_source=eml-tm_so05_25-11-17_wec_fr&amp;utm_medium=email&amp;utm_campaign=1362444_3992185_11%2F14%2F2025",
+      "summary": "Hypercar and LMGT3, two categories, two distinct battles unfolding simultaneously on the same circuit. The greatest manufacturers and teams of the FIA World Endurance Championship gather here for one of the most anticipated rounds of the season. Enjoy the spectacle, explore the venue, and find all the practical information to make the most of this weekend.",
+      "source": "spa-francorchamps.be"
+    },
+    {
       "id": "tm-Z698xZG2Z16v7K4pGa",
       "title": "2027 TotalEnergies 6h of Spa | Thursday/Friday",
       "category": "motorsport",
@@ -32678,6 +32612,21 @@
       "classified": true
     },
     {
+      "id": "spa-761-2027-06-24",
+      "title": "CROWDSTRIKE 24 HOURS OF SPA",
+      "category": "motorsport",
+      "venue": "Circuit de Spa-Francorchamps",
+      "city": "Stavelot",
+      "lat": 50.4372,
+      "lon": 5.9714,
+      "start": "2027-06-24T10:00:00",
+      "end": "2027-06-27T18:00:00",
+      "image": "https://www.spa-francorchamps.be/assets/cache/343e8b78-db05-47e3-8e94-78efbdb98687/1920x970.jpg",
+      "url": "https://www.crowdstrike24hoursofspa.com/tickets",
+      "summary": "70 cars, 10 manufacturers, and 24 hours of non-stop racing in the heart of the Ardennes. One question: will you be in the grandstands?",
+      "source": "spa-francorchamps.be"
+    },
+    {
       "id": "tm-Z698xZG2Z16vAUaAOw",
       "title": "CrowdStrike 24 Hours of Spa",
       "category": "motorsport",
@@ -32737,6 +32686,21 @@
       "tags": [],
       "source": "Facebook (événement public)",
       "classified": true
+    },
+    {
+      "id": "spa-757-2027-07-23",
+      "title": "Formula 1 MSC Cruise Belgian Grand Prix 2027",
+      "category": "motorsport",
+      "venue": "Circuit de Spa-Francorchamps",
+      "city": "Stavelot",
+      "lat": 50.4372,
+      "lon": 5.9714,
+      "start": "2027-07-23T10:00:00",
+      "end": "2027-07-25T18:00:00",
+      "image": "https://www.spa-francorchamps.be/assets/cache/34f79629-409d-4586-95a9-36967a06a9a1/visu-entete-newsletter.jpg",
+      "url": "https://www.spagrandprix.com/fr/ticketing",
+      "summary": "Every year, the Formula 1 Belgian Grand Prix draws thousands of fans to one of the most iconic circuits in the championship. Spa-Francorchamps, with legendary corners like Eau Rouge - Raidillon, long straights and lush green surroundings, offers a unique blend of speed, technique and emotion.",
+      "source": "spa-francorchamps.be"
     },
     {
       "id": "web-reflektor-li-ge-the-mission-2027-09-24",
