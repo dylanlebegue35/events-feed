@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-03T16:46:36",
+  "generated": "2026-11-03T22:31:18",
   "events": [
     {
       "id": "web-visithuy-l-invention-cach-e-2026-05-25",
@@ -406,25 +406,6 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "tm-Z698xZG2Z1kbNve8z",
-      "title": "Matthew Mole",
-      "category": "concert",
-      "venue": "Cirque Royal - The Club",
-      "city": "Brussels",
-      "lat": 50.84906,
-      "lon": 4.36565,
-      "start": "2026-11-03T18:30:00",
-      "end": "2026-11-03T18:30:00",
-      "image": "https://s1.ticketm.net/dam/a/70f/dbb2c889-1736-465e-b97d-22068239070f_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/matthew-mole-tickets/623042438",
-      "summary": "SOUTH AFRICAN POP-FOLK SINGER-SONGWRITER MATTHEW MOLE BRINGS HIS UK & EUROPEAN TOUR TO BELGIUM: ON NOVEMBER 3, 2026 AT THE CIRQUE ROYAL CLUB IN BRUSSELS After four years, Matthew Mole returns to Belgium for a special performance at the Cirque Royal Club in Brussels on Tuesday, November 3rd, 2026, as",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
-    },
-    {
       "id": "fbx-2154230668820310",
       "title": "Sound Bath - Hasselt",
       "category": "wellness",
@@ -443,25 +424,6 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
-    },
-    {
-      "id": "tm-Z698xZG2Z16v-SukjY",
-      "title": "ARLO PARKS",
-      "category": "concert",
-      "venue": "Cirque Royal - Koninklijk Circus",
-      "city": "Brussels",
-      "lat": 50.84906,
-      "lon": 4.36565,
-      "start": "2026-11-03T19:00:00",
-      "end": "2026-11-03T19:00:00",
-      "image": "https://s1.ticketm.net/dam/a/550/f80aedb0-8b54-4ced-81ce-39f322301550_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/arlo-parks-desire-tour-tickets/1873346730",
-      "summary": "19:00 Doors 20:00 Baird 21:00 Arlo Parks Event information & timings: www.livenation.be",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
     },
     {
       "id": "fb-1400285915600970",
@@ -603,25 +565,6 @@
       "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "tm-Z698xZG2Z1kq8vE0J",
-      "title": "De 4 Jaargetijden",
-      "category": "theatre",
-      "venue": "Concertgebouw",
-      "city": "Brugge",
-      "lat": 51.20426,
-      "lon": 3.21902,
-      "start": "2026-11-03T20:00:00",
-      "end": "2026-11-03T20:00:00",
-      "image": "https://s1.ticketm.net/dam/a/71f/eac33d63-ec52-4ccc-8946-4af63facd71f_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/de-4-jaargetijden-ballet-tickets/750067926",
-      "summary": "The 4 Seasons - BALLET Embark on a choreographic journey set to Antonio Vivaldi's Four Seasons. A brilliant show for the whole family--- not to be missed!",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
     },
     {
       "id": "fbx-1044025558466585",
@@ -26950,7 +26893,7 @@
       "lon": 4.2452186,
       "start": "2026-12-19T18:00:00",
       "end": "2026-12-19T21:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Sint-Pieters-Leeuw_Vlag_-_25306_-_onroerenderfgoed.jpg/1280px-Sint-Pieters-Leeuw_Vlag_-_25306_-_onroerenderfgoed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/885748904606022/",
       "url": "https://www.facebook.com/events/885748904606022/",
       "summary": "Course de Noël nocturne dans les rues de Sint-Pieters-Leeuw.",
@@ -26958,7 +26901,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Vlaamse Gemeenschap / Wikimedia Commons, CC BY 4.0"
     },
     {
       "id": "fbx-2830372907333111",
@@ -27192,7 +27136,7 @@
       "lon": 4.5338539,
       "start": "2026-12-20T07:30:00",
       "end": "2026-12-20T10:30:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Villers-la-Ville%2C_l%27%C3%A9glise_Notre-Dame_de_la_Visitation_foto6_2015-06-06_12.50.jpg/1280px-Villers-la-Ville%2C_l%27%C3%A9glise_Notre-Dame_de_la_Visitation_foto6_2015-06-06_12.50.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/948382464299046/",
       "url": "https://www.facebook.com/events/948382464299046/",
       "summary": "Dixième édition de la randonnée VTT La Sartoise à travers bois et campagnes.",
@@ -27200,7 +27144,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "Michielverbeek / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "fbx-4446183392298893",
@@ -27252,7 +27197,7 @@
       "lon": 4.259139,
       "start": "2026-12-20T13:00:00",
       "end": "2026-12-20T16:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Dilbeek_Neerhofstraat_2_-_377177_-_onroerenderfgoed.jpg/1280px-Dilbeek_Neerhofstraat_2_-_377177_-_onroerenderfgoed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/1280543784535408/",
       "url": "https://www.facebook.com/events/1280543784535408/",
       "summary": "Célébration du solstice d'hiver.",
@@ -27260,7 +27205,8 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (extension)",
+      "image_credit": "auteur inconnu / Wikimedia Commons, CC BY 4.0"
     },
     {
       "id": "tm-Z698xZG2Z1kbY_E-6",
@@ -27350,7 +27296,7 @@
       "lon": 4.61667,
       "start": "2026-12-20T16:00:00",
       "end": "2026-12-20T19:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Auditoires_Sainte-Barbe_photographed_from_the_Vinci_building_on_a_drizzly_evening_in_December_%28Ecole_Polytechnique_de_Louvain%2C_Ottignies-Louvain-la-Neuve%2C_Belgium%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/4545226592409274/",
       "url": "https://www.facebook.com/events/4545226592409274/",
       "summary": "A la découverte de Louvain-La-Neuve, de ses bois en terminant par le marché de Noël 🚋 Dimanche 20 décembre Après le succès de l’année passée, je remets la rando de Louvain-La-Neuve avec cette fois-ci le marché de Noël. Nous parcourons de nombreux quartiers historiques de la cité universitaire et éga",
@@ -27359,7 +27305,8 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (événement public)",
-      "classified": true
+      "classified": true,
+      "image_credit": "Trougnouf / Wikimedia Commons, CC BY 4.0"
     },
     {
       "id": "tm-Z698xZG2Z16voNx7ap",
@@ -30290,6 +30237,25 @@
       "source": "Ticketmaster"
     },
     {
+      "id": "tm-Z698xZG2Z1kxpvPvv",
+      "title": "Electric Callboy",
+      "category": "concert",
+      "venue": "Vorst Nationaal/Forest National",
+      "city": "Forest (Brussels)",
+      "lat": 50.80999,
+      "lon": 4.32601,
+      "start": "2027-02-16T20:00:00",
+      "end": "2027-02-16T20:00:00",
+      "image": "https://s1.ticketm.net/dam/a/080/54b2a2b4-cbff-418e-802d-33e0644ed080_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.ticketmaster.be/event/electric-callboy-tickets/896065041",
+      "summary": "Electric Callboy continue to confirm their status as one of Europe's biggest heavy acts of the moment. Following the release of their new album 'TANZNEID', out on 7 August, the German band announce TANZNEID WORLD TOUR 2027. On Tuesday 16 February 2027, Electric Callboy will stop at Forest National i",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ticketmaster"
+    },
+    {
       "id": "tm-Z698xZG2Z1kAO8eZA",
       "title": "Georgian National Ballet Sukhishvili",
       "category": "theatre",
@@ -32844,7 +32810,7 @@
       "lon": 4.326287604,
       "start": "2027-12-04T20:00:00",
       "end": "2027-12-04T23:00:00",
-      "image": null,
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/024_Red-chested_cuckoo_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg/1280px-024_Red-chested_cuckoo_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "page_url": "https://www.facebook.com/events/2839656436387172/",
       "url": "https://www.facebook.com/events/2839656436387172/",
       "summary": "Portée par le succès fulgurant du Cœur Parapluie Tour, avec près de 100 concerts et plus d’un demi-million de spectateurs, Hoshi revient en 2027 avec Bonjour Docteur Tour, une tournée évènement qui ouvre les portes d’un nouveau chapitre de son univers. Dès février 2027, elle parcourra les Zéniths et",
@@ -32855,7 +32821,8 @@
       ],
       "tags": [],
       "source": "Facebook (événement public)",
-      "classified": true
+      "classified": true,
+      "image_credit": "Giles Laurent / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "fb-1869657027332218",

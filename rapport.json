@@ -1,5 +1,5 @@
 {
-  "genere": "2026-11-03T16:46:36",
+  "genere": "2026-11-03T22:31:18",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -183,7 +183,7 @@
     {
       "source": "Doublons fusionnés",
       "ok": true,
-      "fusionnes": 36
+      "fusionnes": 37
     },
     {
       "source": "Pages des billetteries",
@@ -192,6 +192,6 @@
       "pages_lues_par_ia": 0
     }
   ],
-  "avec_image": 865,
-  "total": 1632
+  "avec_image": 868,
+  "total": 1630
 }

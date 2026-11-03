@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T16:46:36",
+ "generated": "2026-11-03T22:31:18",
  "places": [
   {
    "id": "vivyo-space-malmedy",
@@ -2066,7 +2066,8 @@
    "lon": 5.0803019,
    "website": "https://www.plopsaquahannutlanden.be",
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Avernas-le-Bauduin_%28Hannut%29_-_Plopsaqua_Hannut-Landen_%28A01%29.JPG/1280px-Avernas-le-Bauduin_%28Hannut%29_-_Plopsaqua_Hannut-Landen_%28A01%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Jérémy-Günther-Heinz Jähnick / Wikimedia Commons, CC BY-SA 3.0"
   },
   {
    "id": "osm-way-922817317",
@@ -2114,7 +2115,8 @@
    "lon": 5.3154196,
    "website": null,
    "hours": null,
-   "image": null
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Heidestrand_04.jpg/1280px-Heidestrand_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "image_credit": "Ø11 / Wikimedia Commons, CC0"
   },
   {
    "id": "osm-way-974815765",
