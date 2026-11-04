@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-04T10:59:42",
+  "generated": "2026-11-04T16:42:39",
   "events": [
     {
       "id": "web-visithuy-l-invention-cach-e-2026-05-25",
@@ -20376,7 +20376,7 @@
     {
       "id": "tm-Z698xZG2Z16vOKeA_M",
       "title": "De Grote Sinterklaasshow 2026",
-      "category": "family",
+      "category": "concert",
       "venue": "AFAS Dome",
       "city": "Merksem (Antwerpen)",
       "lat": 51.23024,
@@ -27084,7 +27084,7 @@
     {
       "id": "tm-Z698xZG2Z16vGNPMjb",
       "title": "Home Alone in Concert",
-      "category": "theatre",
+      "category": "concert",
       "venue": "Vorst Nationaal/Forest National",
       "city": "Forest (Brussels)",
       "lat": 50.80999,
@@ -27242,7 +27242,7 @@
     {
       "id": "tm-Z698xZG2Z1kjdvYbZ",
       "title": "WINTER CIRCUS CAMILLE",
-      "category": "theatre",
+      "category": "concert",
       "venue": "Trixxo Arena",
       "city": "Hasselt",
       "lat": 50.93326,
@@ -30575,7 +30575,7 @@
     {
       "id": "tm-Z698xZG2Z16vZA4KGs",
       "title": "Bankzitters 2027",
-      "category": "concert",
+      "category": "theatre",
       "venue": "AFAS Dome",
       "city": "Merksem (Antwerpen)",
       "lat": 51.23024,
@@ -30674,7 +30674,7 @@
     {
       "id": "tm-Z698xZG2Z1kxpvPvv",
       "title": "Electric Callboy",
-      "category": "concert",
+      "category": "party",
       "venue": "Vorst Nationaal/Forest National",
       "city": "Forest (Brussels)",
       "lat": 50.80999,
@@ -31650,7 +31650,7 @@
     {
       "id": "tm-Z698xZG2Z16vGo77JF",
       "title": "CAVALLUNA",
-      "category": "sport",
+      "category": "theatre",
       "venue": "AFAS Dome",
       "city": "Merksem (Antwerpen)",
       "lat": 51.23024,
@@ -32541,7 +32541,7 @@
     {
       "id": "tm-Z698xZG2Z16vQ7q8ot",
       "title": "Masters of Dirt",
-      "category": "theatre",
+      "category": "motorsport",
       "venue": "AFAS Dome",
       "city": "Merksem (Antwerpen)",
       "lat": 51.23024,
@@ -32773,8 +32773,8 @@
       "source": "Ticketmaster"
     },
     {
-      "id": "tm-Z698xZG2Z16v-afdC9",
-      "title": "2027 TotalEnergies 6h of Spa | Weekend",
+      "id": "tm-Z698xZG2Z16vOKfxO6",
+      "title": "2027 TotalEnergies 6h of Spa | Weekend Pack",
       "category": "motorsport",
       "venue": "Circuit de Spa-Francorchamps",
       "city": "Francorchamps",
@@ -32783,8 +32783,8 @@
       "start": "2027-05-15T22:00:00",
       "end": "2027-05-15T22:00:00",
       "image": "https://s1.ticketm.net/dam/a/bdd/3eaab1fe-6a99-492f-86a1-c8e45182abdd_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/2027-totalenergies-6h-of-spa-%7C-weekend-yellow-camping-area-tickets/1849503397",
-      "summary": "",
+      "url": "https://www.ticketmaster.be/event/2027-totalenergies-6h-of-spa-%7C-weekend-pack-tickets/1813522807",
+      "summary": "PRM access: Access to the General Entrance and Paddocks is free for people with disabilities (and chargeable for the person(s) accompanying them). However, to access the Pitwalks on Friday and/or Saturday, a special ticket must be purchased. Children's access: Children younger than 12 have free acce",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -33198,7 +33198,7 @@
     {
       "id": "tm-Z698xZG2Z16v4bjECf",
       "title": "Intouchables in Concert",
-      "category": "theatre",
+      "category": "concert",
       "venue": "Trixxo Theater Hasselt",
       "city": "Hasselt",
       "lat": 50.93311,
