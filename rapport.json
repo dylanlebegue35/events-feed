@@ -1,5 +1,5 @@
 {
-  "genere": "2026-11-04T04:47:48",
+  "genere": "2026-11-04T10:59:42",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -175,196 +175,10 @@
       "nouvelles": 0
     },
     {
-      "source": "Facebook : soirée Liège",
+      "source": "Facebook (service tiers)",
       "ok": true,
-      "recus": 20,
-      "nouveaux": 4
-    },
-    {
-      "source": "Facebook : étudiants TD Liège",
-      "ok": true,
-      "recus": 0,
-      "nouveaux": 0
-    },
-    {
-      "source": "Facebook : soirée Verviers",
-      "ok": true,
-      "recus": 8,
-      "nouveaux": 1
-    },
-    {
-      "source": "Facebook : étudiants TD Verviers",
-      "ok": true,
-      "recus": 0,
-      "nouveaux": 0
-    },
-    {
-      "source": "Facebook : soirée Namur",
-      "ok": true,
-      "recus": 20,
-      "nouveaux": 2
-    },
-    {
-      "source": "Facebook : étudiants TD Namur",
-      "ok": true,
-      "recus": 0,
-      "nouveaux": 0
-    },
-    {
-      "source": "Facebook : soirée Mons",
-      "ok": true,
-      "recus": 20,
-      "nouveaux": 4
-    },
-    {
-      "source": "Facebook : étudiants TD Mons",
-      "ok": true,
-      "recus": 0,
-      "nouveaux": 0
-    },
-    {
-      "source": "Facebook : soirée Charleroi",
-      "ok": true,
-      "recus": 20,
-      "nouveaux": 3
-    },
-    {
-      "source": "Facebook : étudiants TD Charleroi",
-      "ok": true,
-      "recus": 0,
-      "nouveaux": 0
-    },
-    {
-      "source": "Facebook : soirée Bruxelles",
-      "ok": true,
-      "recus": 9,
-      "nouveaux": 4
-    },
-    {
-      "source": "Facebook : étudiants TD Bruxelles",
-      "ok": true,
-      "recus": 0,
-      "nouveaux": 0
-    },
-    {
-      "source": "Facebook : soirée Louvain-la-Neuve",
-      "ok": true,
-      "recus": 20,
-      "nouveaux": 12
-    },
-    {
-      "source": "Facebook : étudiants TD Louvain-la-Neuve",
-      "ok": true,
-      "recus": 0,
-      "nouveaux": 0
-    },
-    {
-      "source": "Facebook : soirée Vielsalm",
-      "ok": true,
-      "recus": 3,
-      "nouveaux": 1
-    },
-    {
-      "source": "Facebook : étudiants TD Vielsalm",
-      "ok": true,
-      "recus": 0,
-      "nouveaux": 0
-    },
-    {
-      "source": "Facebook : soirée Anvers",
-      "ok": true,
-      "recus": 7,
-      "nouveaux": 4
-    },
-    {
-      "source": "Facebook : étudiants TD Anvers",
-      "ok": true,
-      "recus": 0,
-      "nouveaux": 0
-    },
-    {
-      "source": "Facebook : soirée Gand",
-      "ok": true,
-      "recus": 0,
-      "nouveaux": 0
-    },
-    {
-      "source": "Facebook : étudiants TD Gand",
-      "ok": true,
-      "recus": 0,
-      "nouveaux": 0
-    },
-    {
-      "source": "Facebook : soirée Louvain",
-      "ok": true,
-      "recus": 9,
-      "nouveaux": 1
-    },
-    {
-      "source": "Facebook : étudiants TD Louvain",
-      "ok": true,
-      "recus": 0,
-      "nouveaux": 0
-    },
-    {
-      "source": "Facebook : soirée Bruges",
-      "ok": true,
-      "recus": 0,
-      "nouveaux": 0
-    },
-    {
-      "source": "Facebook : étudiants TD Bruges",
-      "ok": true,
-      "recus": 0,
-      "nouveaux": 0
-    },
-    {
-      "source": "Facebook : soirée Hasselt",
-      "ok": true,
-      "recus": 0,
-      "nouveaux": 0
-    },
-    {
-      "source": "Facebook : étudiants TD Hasselt",
-      "ok": true,
-      "recus": 0,
-      "nouveaux": 0
-    },
-    {
-      "source": "Facebook : soirée Tournai",
-      "ok": true,
-      "recus": 19,
-      "nouveaux": 6
-    },
-    {
-      "source": "Facebook : étudiants TD Tournai",
-      "ok": true,
-      "recus": 0,
-      "nouveaux": 0
-    },
-    {
-      "source": "Facebook : soirée Arlon",
-      "ok": true,
-      "recus": 4,
-      "nouveaux": 1
-    },
-    {
-      "source": "Facebook : étudiants TD Arlon",
-      "ok": true,
-      "recus": 0,
-      "nouveaux": 0
-    },
-    {
-      "source": "Facebook : Le Hangar Liège",
-      "ok": true,
-      "recus": 4,
-      "nouveaux": 0
-    },
-    {
-      "source": "Facebook : techno Liège",
-      "ok": true,
-      "recus": 0,
-      "nouveaux": 0
+      "etat": "pas encore l'heure",
+      "gardes": 227
     },
     {
       "source": "Doublons fusionnés",
@@ -374,8 +188,8 @@
     {
       "source": "Pages des billetteries",
       "ok": true,
-      "pages_lues": 10,
-      "pages_lues_par_ia": 7
+      "pages_lues": 1,
+      "pages_lues_par_ia": 0
     }
   ],
   "avec_image": 896,
