@@ -289,29 +289,6 @@
    "classified": true
   },
   {
-   "id": "fb-1643205320231489",
-   "title": "Hommage orchestral sous le clair de lune à Tim Burton et à la dark fantasy: Le Forum, Liège!",
-   "category": "concert",
-   "venue": "Le Forum de Liège",
-   "city": "Liège",
-   "lat": 50.640743000056,
-   "lon": 5.5703499913216,
-   "start": "2026-11-04T19:00:00",
-   "end": "2026-11-04T22:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1643205320231489.jpg",
-   "page_url": "https://www.facebook.com/events/1643205320231489/",
-   "url": "https://shop.utick.net/?module=QUANTITY&q=1F745C37-8D88-7C51-0353-69B4183A5654&pos=LEFORUM",
-   "summary": "🚨 ACTUELLEMENT EN VENTE ! 🚨 👉 https://shop.utick.net/?module=QUANTITY&q=1F745C37-8D88-7C51-0353-69B4183A5654&pos=LEFORUM 👈 Hommage orchestral sous le clair de lune à Tim Burton et à la dark fantasy (An Orchestral Tribute to Tim Burton & Dark Fantasy by Moonlight). Un concert envoûtant mettant à l’ho",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1869657027332218",
    "title": "Tania Dutel « 𝐵𝑟𝑜𝑢𝑖𝑙𝑙𝑎𝑔𝑒 » . Trocadéro . Liège",
    "category": "theatre",
@@ -1651,29 +1628,6 @@
    "page_url": "https://www.facebook.com/events/689067957196251/",
    "url": "https://www.facebook.com/events/689067957196251/",
    "summary": "🚀 Digital Nomad Meetup – Connection, Inspiration & Caffeine ☕🌍 Tired of working remotely all by yourself? Come meet other digital nomads in a warm, relaxed atmosphere! No rigid schedule — just real conversations, useful tips, good vibes, and maybe even future coworking or travel buddies. 📅 Frequency",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "young"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1673885063837659",
-   "title": "Ung i Bruxelles",
-   "category": "talks",
-   "venue": "Rue Washington, 27, 1050 Ixelles, Belgium",
-   "city": "Ixelles",
-   "lat": 50.82506,
-   "lon": 4.36262,
-   "start": "2026-11-04T19:00:00",
-   "end": "2026-11-04T22:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1673885063837659.jpg",
-   "page_url": "https://www.facebook.com/events/1673885063837659/",
-   "url": "https://www.facebook.com/events/1673885063837659/",
-   "summary": "Ung i Bruxelles er for unge danskere i alderen ca. 20-30 år, der vil lære hinanden at kende og have glæde af hinandens selskab på tværs af arbejds-, praktik- og studiesteder. Vi mødes i kirkens kælderlokaler til mad, snak og spil over en øl eller sodavand. Det koster 5€ at spise med og drikkevarer k",
    "price_from": null,
    "free": null,
    "audience": [
@@ -3284,27 +3238,6 @@
    "classified": true
   },
   {
-   "id": "fb-1788259465651379",
-   "title": "Soirée jeux de société",
-   "category": "party",
-   "venue": "Scavée du biéreau 2, 1348 Louvain-la-Neuve, Belgium",
-   "city": "Louvain-la-Neuve",
-   "lat": 50.6653,
-   "lon": 4.61707,
-   "start": "2026-11-04T19:00:00",
-   "end": "2026-11-04T22:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1788259465651379.jpg",
-   "page_url": "https://www.facebook.com/events/1788259465651379/",
-   "url": "https://www.betch-lln.be/event/soiree-jeux-de-societe-660/register",
-   "summary": "Soirée Jeux de Société chez Betch🎲 Mange, joue, rigole… et passe une soirée pleine de fun ! 😄 Que tu sois expert·e ou débutant·e, viens découvrir des jeux de plateau, de cartes ou d’ambiance avec tes amis. Ambiance conviviale garantie♟️ 🕗 19h – 22h 💰 Entrée - 5€ 💺 Réservation recommandée : https://w",
-   "price_from": null,
-   "free": null,
-   "audience": [],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1236184632018586",
    "title": "Concert de Solidarité",
    "category": "concert",
@@ -4095,7 +4028,7 @@
   {
    "id": "fb-1770541508409502",
    "title": "OSMAN LE VRAI - \"JOKING DAY\" | Liège - Le Hangar",
-   "category": "culture",
+   "category": "theatre",
    "venue": "Quai Saint-Léonard 43B, 4000 Liège, Belgique",
    "city": "Liège",
    "lat": 50.64864,
@@ -4108,14 +4041,17 @@
    "summary": "Osman le Vrai - Joking Day S’il savait chanter, Osman serait probablement devenu chanteur de R&B. Heureusement pour nous, il s’est tourné vers l’humour... comprenant qu’il était bien meilleur pour faire des vannes. Cet humoriste turco-carolo s’est rapidement imposé comme l’un des grands espoirs du p",
    "price_from": null,
    "free": null,
-   "audience": [],
+   "audience": [
+    "adult"
+   ],
    "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-996498739866387",
    "title": "Robby 26/11 \"JEU, SEPT & MOTS\" | Liège - Le Hangar",
-   "category": "culture",
+   "category": "theatre",
    "venue": "Quai Saint-Léonard 43B, 4000 Liège, Belgique",
    "city": "Liège",
    "lat": 50.64864,
@@ -4128,14 +4064,17 @@
    "summary": "ROBBY – Jeu, Sept & Mots Des jeux de mots, de l’absurde, du décalage… et un gendre idéal qui n’est peut-être pas aussi idéal qu’il en a l’air. 😏 Robby transforme les petites absurdités du quotidien en un véritable terrain de jeu, où les mots dérapent, les situations partent en vrille et où rien ne s",
    "price_from": null,
    "free": null,
-   "audience": [],
+   "audience": [
+    "adult"
+   ],
    "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-2959442471075746",
    "title": "Oriane Garcia - \"TROUBLES\" | Liège - Le Hangar",
-   "category": "culture",
+   "category": "theatre",
    "venue": "Le Hangar ASBL",
    "city": "Liège",
    "lat": 50.64864,
@@ -4148,14 +4087,17 @@
    "summary": "Oriane Garcia présente son spectacle “TROUBLES” au Hangar. 📅 17 février 📍 Le Hangar – Liège 🕘 À partir de 21h00 🎟️ 14 € Une soirée spéciale puisqu’il est également possible d’assister juste avant au spectacle “PARDON” de Marine Sergent. Les deux spectacles : 24 € au lieu de 28 €. Deux spectacles dif",
    "price_from": null,
    "free": null,
-   "audience": [],
+   "audience": [
+    "adult"
+   ],
    "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-2429612544546916",
    "title": "Marine Sergent - \"PARDON\" | Liège - Le Hangar",
-   "category": "culture",
+   "category": "theatre",
    "venue": "Le Hangar ASBL",
    "city": "Liège",
    "lat": 50.64864,
@@ -4168,14 +4110,17 @@
    "summary": "Marine Sergent présente son spectacle “PARDON” au Hangar. 📅 17 février 📍 Le Hangar – Liège 🕖 19h00 à 20h30 🎟️ 14 € Une soirée spéciale puisqu’il est également possible d’enchaîner ensuite avec le spectacle d’Oriane Garcia. Les deux spectacles : 24 € au lieu de 28 €. Deux spectacles différents, deux ",
    "price_from": null,
    "free": null,
-   "audience": [],
+   "audience": [
+    "adult"
+   ],
    "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-1832096421574150",
    "title": "Soirée Yin Yoga & voyage sonore, bûche de l'avent et gourmandises",
-   "category": "party",
+   "category": "wellness",
    "venue": "Clermont, Liege, Belgium",
    "city": "Engis",
    "lat": 50.5667,
@@ -4189,15 +4134,16 @@
    "price_from": null,
    "free": null,
    "audience": [
-    "young"
+    "adult"
    ],
    "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-1382971761565996",
    "title": "Soirée câlins-Cuddle evening",
-   "category": "party",
+   "category": "wellness",
    "venue": "Chênée, Liege, Belgium",
    "city": "Liège",
    "lat": 50.611683466649,
@@ -4211,10 +4157,11 @@
    "price_from": null,
    "free": true,
    "audience": [
-    "young"
+    "adult"
    ],
    "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-1775190153785332",
@@ -4232,11 +4179,10 @@
    "summary": "🎅🔥 GEMMENICH, PRÉPAREZ-VOUS… ON LANCE QUELQUE CHOSE DE NOUVEAU ! 🔥🎅 À toi qui aimes faire la fête, à toi qui attends une bonne occasion de retrouver tes potes… cette annonce est pour toi ! 👀 🥳 Cette année, le Patro de Gemmenich lance la toute PREMIÈRE ÉDITION de sa SOIRÉE SAINT-NICOLAS !🎁 Pour cette",
    "price_from": null,
    "free": null,
-   "audience": [
-    "young"
-   ],
+   "audience": [],
    "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-1134037686035813",
@@ -4258,12 +4204,13 @@
     "young"
    ],
    "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-1089261407459311",
    "title": "Soirée Jeux – Découvertes",
-   "category": "party",
+   "category": "geek",
    "venue": "Chaussée de Theux 76, 4802 Verviers, Belgium",
    "city": "Verviers",
    "lat": 50.57749,
@@ -4276,11 +4223,10 @@
    "summary": "🎲✨ Soirée Jeux – Découvertes ✨🎲 Envie de découvrir des jeux que vous ne connaissez pas encore ? Rejoignez-nous pour une soirée conviviale autour du jeu de société : 👉 Des nouveautés à l’essai 👉 Des rencontres avec d’autres passionnés de la région 👉 De la bonne humeur garantie ! 💸 PAF : 7 € ⚠️ Places",
    "price_from": null,
    "free": null,
-   "audience": [
-    "young"
-   ],
+   "audience": [],
    "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-1745954946476170",
@@ -4299,37 +4245,16 @@
    "price_from": null,
    "free": null,
    "audience": [
-    "young"
+    "adult"
    ],
    "tags": [],
-   "source": "Facebook (événement public)"
-  },
-  {
-   "id": "fb-1131191002634788",
-   "title": "Soirée Caudalie",
-   "category": "party",
-   "venue": "Avenue Materne 136, 5100 Jambes, Belgium",
-   "city": "Namur",
-   "lat": 50.45629,
-   "lon": 4.87166,
-   "start": "2026-12-10T19:00:00",
-   "end": "2026-12-10T22:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1131191002634788.jpg",
-   "page_url": "https://www.facebook.com/events/1131191002634788/",
-   "url": "https://www.facebook.com/events/1131191002634788/",
-   "summary": "Soirée plaisir et partage beauté autour de la gamme Caudalie. Conseils personnels et pause bien-être Promotion ce jour-là et d'autres cadeaux Venez découvrir ou redécouvrir cette gamme merveilleuse. Les coffrets de Noël seront disponibles 🎁 N'hésitez pas à venir accompagné(e)s Réservez votre moment ",
-   "price_from": null,
-   "free": true,
-   "audience": [
-    "young"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-1154576463804441",
    "title": "SOIRÉE CINÉVORES : DUNE 3",
-   "category": "party",
+   "category": "cinema",
    "venue": "Cinema Imagix Mons",
    "city": "Mons",
    "lat": 50.461561291999,
@@ -4342,11 +4267,10 @@
    "summary": "🗓️ Bloquez votre agenda : le vendredi 18 décembre, c’est LA soirée Cinévores dédiée à Dune 3 ! 🏜️🚀 Que vous soyez passionné de 7e art 🎬, fan de la saga 🪐 ou juste amateur de bons moments 🥳, c’est LE rendez-vous cinéma à ne pas manquer ! La communauté des Cinévores se réunit pour une soirée qui s'ann",
    "price_from": null,
    "free": null,
-   "audience": [
-    "young"
-   ],
+   "audience": [],
    "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-1432404118247939",
@@ -4365,10 +4289,11 @@
    "price_from": null,
    "free": null,
    "audience": [
-    "young"
+    "adult"
    ],
    "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-1468508551869829",
@@ -4386,11 +4311,10 @@
    "summary": "🎤🦸 SOIRÉE KARAOKÉ ! 🦸‍♀️🎤 Enfilez votre cape, sortez votre masque et venez chauffer le micro avec nous ! 📅 Vendredi 13 novembre 🕖 À partir de 19h00 🎭 Dress code : déguisement de super-héros (les plus beaux costumes seront à l’honneur 😉) 🎟️ Entrée gratuite 🍕 Petite restauration à partager sur place 🎁",
    "price_from": null,
    "free": true,
-   "audience": [
-    "young"
-   ],
+   "audience": [],
    "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-933452902857954",
@@ -4408,11 +4332,10 @@
    "summary": "venez déguiser et profiter d'un moment convivial au café le métro avenue de Waterloo 36 à Charleroi",
    "price_from": null,
    "free": null,
-   "audience": [
-    "young"
-   ],
+   "audience": [],
    "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-1874866193552679",
@@ -4431,81 +4354,16 @@
    "price_from": null,
    "free": null,
    "audience": [
-    "young"
+    "adult"
    ],
    "tags": [],
-   "source": "Facebook (événement public)"
-  },
-  {
-   "id": "fb-1664130941897006",
-   "title": "Soirée du Bni Bruxelles Alliance",
-   "category": "party",
-   "venue": "Cimetière Du Dieweg",
-   "city": "Uccle",
-   "lat": 50.79565,
-   "lon": 4.34682,
-   "start": "2026-11-19T18:00:00",
-   "end": "2026-11-19T18:15:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1664130941897006.jpg",
-   "page_url": "https://www.facebook.com/events/1664130941897006/",
-   "url": "https://www.eventbrite.be/e/soiree-de-lancement-du-bni-bruxelles-alliance-tickets-2003797991734?dsrp_sid=e256f021-c436-412a-897d-5cf4730beabf&aff=ebdssbdestsearch",
-   "summary": "🎉 Le Bni Bruxelles Alliance fête son activation ! Le Bni Bruxelles Alliance est un groupe d’échange de business entre entrepreneurs locaux, fortement ancré à Uccle 📍. Il réunit des professionnels de l’immobilier, de la construction, de l’IT et des services aux entreprises et aux particuliers, entre ",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "young"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)"
-  },
-  {
-   "id": "fb-1110718258566932",
-   "title": "Soirée de présentation Bruxelles - Trek Rose Trip",
-   "category": "party",
-   "venue": "Institut Jules Bordet Instituut",
-   "city": "Anderlecht",
-   "lat": 50.812046566851,
-   "lon": 4.2616438865662,
-   "start": "2026-11-16T18:30:00",
-   "end": "2026-11-16T21:30:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1110718258566932.jpg",
-   "page_url": "https://www.facebook.com/events/1110718258566932/",
-   "url": "https://www.facebook.com/events/1110718258566932/",
-   "summary": "Venez retrouver l'équipe de Désertours pour une soirée de présentation. Vous saurez tout sur les treks Rose Trip ! De la préparation à la collecte de fonds, en passant par les volets sportif et solidaire, nous vous donnerons toutes les informations utiles pour vous lancer dans l’aventure de votre vi",
-   "price_from": null,
-   "free": true,
-   "audience": [
-    "young"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)"
-  },
-  {
-   "id": "fb-1815087399642728",
-   "title": "Camp de base Bruxelles - Soirée films d'aventure",
-   "category": "party",
-   "venue": "Cinéma Aventure",
-   "city": "Brussels",
-   "lat": 50.84844840912,
-   "lon": 4.3526323610399,
-   "start": "2026-11-17T19:30:00",
-   "end": "2026-11-17T21:30:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1815087399642728.jpg",
-   "page_url": "https://www.facebook.com/events/1815087399642728/",
-   "url": "https://www.facebook.com/events/1815087399642728/",
-   "summary": "Nous avons le plaisir de vous présenter notre nouvelle tournée de films d'aventure ! Pour cette soirée, nous vous présentons deux films coup de coeur ! Invitation au dépaysement et à la solidarité... Direction le Népal ! Lumdo Kolola A la recherche d'une cabane isolée dans la jungle népalaise, Nico ",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "young"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-1431602592518070",
    "title": "Soirée Tantra \"avancé\"🔸 Bruxelles",
-   "category": "party",
+   "category": "wellness",
    "venue": "Les Béguinettes. 26, rue des Béguinettes. 1170 Watermael-Boitsfort",
    "city": "Watermael-Boitsfort",
    "lat": 50.80032,
@@ -4519,52 +4377,11 @@
    "price_from": null,
    "free": null,
    "audience": [
-    "young"
+    "adult"
    ],
    "tags": [],
-   "source": "Facebook (événement public)"
-  },
-  {
-   "id": "fb-1418706640467288",
-   "title": "Odoo Academy Marketing - Louvain-la-Neuve",
-   "category": "culture",
-   "venue": "Rue du Laid Burniat, 1325 Chaumont-Gistoux, Belgique",
-   "city": "Chaumont-Gistoux",
-   "lat": 50.66671,
-   "lon": 4.64773,
-   "start": "2026-12-10T09:00:00",
-   "end": "2026-12-10T17:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1418706640467288.jpg",
-   "page_url": "https://www.facebook.com/events/1418706640467288/",
-   "url": "https://www.odoo.com/r/Uv3",
-   "summary": "Êtes-vous un adepte des logiciels de marketing et souhaitez-vous gérer vos campagnes e-mail et vos indicateurs clés de performance (KPI) en toute simplicité ? Marre de jongler entre plusieurs logiciels pour envoyer des newsletters et piloter vos campagnes marketing ? Cette journée de formation 100 %",
-   "price_from": null,
-   "free": true,
-   "audience": [],
-   "tags": [],
-   "source": "Facebook (événement public)"
-  },
-  {
-   "id": "fb-2589017128262937",
-   "title": "soirée jeux de société spécial Halloween au Betch !",
-   "category": "party",
-   "venue": "Louvain-la-Neuve",
-   "city": "Louvain-la-Neuve",
-   "lat": 50.6833,
-   "lon": 4.61667,
-   "start": "2026-11-04T19:00:00",
-   "end": "2026-11-04T22:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-2589017128262937.jpg",
-   "page_url": "https://www.facebook.com/events/2589017128262937/",
-   "url": "https://www.facebook.com/events/2589017128262937/",
-   "summary": "Envie de prolonger Halloween ? De jouer à des jeux de société dans une super ambiance ? Ou les deux ?! Bienvenue à notre soirée jeux spéciale Halloween ! Mais pourquoi spéciale ? Parce qu'on vous prépare une vingtaine de jeux de société, comme d'habitude, auxquels on ajoute une dizaine de jeux sur l",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "young"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-2251538445745969",
@@ -4586,12 +4403,13 @@
     "student"
    ],
    "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-3257230794487641",
    "title": "Soirée jeux de société - Kap Signes",
-   "category": "party",
+   "category": "geek",
    "venue": "Auditoires Agora",
    "city": "Louvain-la-Neuve",
    "lat": 50.66902472849,
@@ -4605,10 +4423,11 @@
    "price_from": null,
    "free": null,
    "audience": [
-    "young"
+    "student"
    ],
    "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-1084434074510098",
@@ -4630,12 +4449,13 @@
     "young"
    ],
    "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-1165797112635409",
    "title": "Marché de Noël de Louvain-La-Neuve",
-   "category": "culture",
+   "category": "fair",
    "venue": "Ottignies-Louvain-la-Neuve",
    "city": "Ottignies-Louvain-la-Neuve",
    "lat": 50.66639,
@@ -4648,74 +4468,17 @@
    "summary": "Marché de Noël ou AmourEssenCiel vous proposera son artisanat, des idées cadeaux à offrir ou à s'offrir 😊",
    "price_from": null,
    "free": null,
-   "audience": [],
+   "audience": [
+    "family"
+   ],
    "tags": [],
-   "source": "Facebook (événement public)"
-  },
-  {
-   "id": "fb-1145175741272195",
-   "title": "Odoo Academy CRM/Ventes - Louvain-la-Neuve",
-   "category": "culture",
-   "venue": "Rue du Laid Burniat, 1325 Chaumont-Gistoux, Belgique",
-   "city": "Chaumont-Gistoux",
-   "lat": 50.66671,
-   "lon": 4.64773,
-   "start": "2026-12-08T09:00:00",
-   "end": "2026-12-08T17:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1145175741272195.jpg",
-   "page_url": "https://www.facebook.com/events/1145175741272195/",
-   "url": "https://www.odoo.com/r/2PYn",
-   "summary": "Rejoignez-nous pour notre prochaine session de l’Odoo Academy dédiée au CRM, le 8 décembre 2026 à Louvain-la-Neuve! 🚀 Les Odoo Academy sont des séries de formations gratuites d'une journée où les participants peuvent apprendre directement de nos experts expérimentés. Vous passez des heures à gérer e",
-   "price_from": null,
-   "free": true,
-   "audience": [],
-   "tags": [],
-   "source": "Facebook (événement public)"
-  },
-  {
-   "id": "fb-4680016322232853",
-   "title": "Cours de Yoga à Louvain-la-Neuve",
-   "category": "culture",
-   "venue": "Porte de Lauzelle, rue des Mespelliers, 2 à Louvain-La-Neuve",
-   "city": "Louvain-la-Neuve",
-   "lat": 50.67397,
-   "lon": 4.61771,
-   "start": "2026-11-10T11:00:00",
-   "end": "2026-11-10T14:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-4680016322232853.jpg",
-   "page_url": "https://www.facebook.com/events/4680016322232853/",
-   "url": "https://www.facebook.com/events/4680016322232853/",
-   "summary": "Des cours de yoga (viniyoga) ajustés à vos possibilités du moment. Chaque mardi de 11h00 à 12h00 à Louvain-la-Neuve Vivre les postures à son rythme, à l'écoute de son corps. Laisser libre cours à la respiration, aux mouvements. Nourrir ancrage et fluidité, tonicité et détente., équilibre. Poser le m",
-   "price_from": null,
-   "free": null,
-   "audience": [],
-   "tags": [],
-   "source": "Facebook (événement public)"
-  },
-  {
-   "id": "fb-1400120978965483",
-   "title": "Odoo Academy eCommerce & Site Web - Louvain-la-Neuve",
-   "category": "culture",
-   "venue": "Rue du Laid Burniat, 1325 Chaumont-Gistoux, Belgique",
-   "city": "Chaumont-Gistoux",
-   "lat": 50.66671,
-   "lon": 4.64773,
-   "start": "2026-12-09T09:00:00",
-   "end": "2026-12-09T17:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1400120978965483.jpg",
-   "page_url": "https://www.facebook.com/events/1400120978965483/",
-   "url": "https://www.odoo.com/r/wIfg",
-   "summary": "Rejoignez-nous pour notre prochaine session de l’Odoo Academy dédiée à l'eCommerce, le 9 décembre 2026 à Louvain-la-Neuve! Les Odoo Academy sont des séries de formations gratuites d'une journée où les participants peuvent apprendre directement de nos experts expérimentés. Si vous êtes intéressé par ",
-   "price_from": null,
-   "free": true,
-   "audience": [],
-   "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-2545184729325145",
    "title": "Ladies Night « Changer l’eau des fleurs »",
-   "category": "culture",
+   "category": "party",
    "venue": "Louvain-la-Neuve",
    "city": "Louvain-la-Neuve",
    "lat": 50.6833,
@@ -4728,14 +4491,17 @@
    "summary": "Hello les filles 👋🏻 Qui est partante pour une Ladies Night le 8 décembre Prix : 17,90 ttc Lieu : LLN Heure : 19:30 mais on peut entrer un peu avant Je propose qu’on se retrouve devant l’entrée du restaurant Grand Place vers 18:15 pour faire connaissance avant. Sinon juste en haut des escaliers pour ",
    "price_from": null,
    "free": null,
-   "audience": [],
+   "audience": [
+    "young"
+   ],
    "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-1624920639331216",
    "title": "Soirée Initiation Arbitrage ⚽",
-   "category": "party",
+   "category": "sport",
    "venue": "US Halthier",
    "city": "Vielsalm",
    "lat": 50.32539,
@@ -4748,16 +4514,15 @@
    "summary": "Soirée Initiation Arbitrage Organisée par la FFA A l'attention des joueurs, des parents, des coachs, des supporters, ... \"Cette initiation permet de discuter de certaines lois du jeu importantes, de confronter les avis et les représentations des participants concernant le sujet de l’arbitrage et d’a",
    "price_from": null,
    "free": true,
-   "audience": [
-    "young"
-   ],
+   "audience": [],
    "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-955711207585703",
    "title": "SOIRÉE VIN & FROMAGE",
-   "category": "party",
+   "category": "food",
    "venue": "Isabellalei 131, 2018 Antwerp, Belgium",
    "city": "Antwerp",
    "lat": 51.20297,
@@ -4771,15 +4536,16 @@
    "price_from": null,
    "free": null,
    "audience": [
-    "student"
+    "adult"
    ],
    "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-1050231627631195",
    "title": "Soirée spaghetti | Spaghettiavond",
-   "category": "party",
+   "category": "food",
    "venue": "Antwerpen Central Station",
    "city": "Antwerp",
    "lat": 51.216624857033,
@@ -4792,16 +4558,15 @@
    "summary": "We zijn bijzonder verheugd om jullie dit jaar opnieuw te kunnen uitnodigen voor deze nieuwe editie van de Trainbow Belgium spaghettiavond. Deze gaat door op zaterdag 28 november 2026 vanaf 17:00 (eten kan van 18:00 – 21:00, we sluiten af om 22:00). We hopen je dan ook te mogen verwelkomen om met ons",
    "price_from": null,
    "free": null,
-   "audience": [
-    "young"
-   ],
+   "audience": [],
    "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-28434201732907213",
    "title": "Soirée Belge",
-   "category": "party",
+   "category": "food",
    "venue": "Scouts Impeesa",
    "city": "Antwerp",
    "lat": 51.210054989,
@@ -4814,16 +4579,15 @@
    "summary": "Het is weer zover! Onze jaarlijkse Soirée belge vindt plaats in de Impeesa. Er zijn twee shiften om 17u en om 20u. MENU: Stoofvlees of vegetarische vol-au-veggie, frietjes à volonté, witloofsalade of salade met tomaat en komkommer, soep en chocomousse als dessert inschrijven kan via deze link: https",
    "price_from": null,
    "free": null,
-   "audience": [
-    "young"
-   ],
+   "audience": [],
    "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-28910429858563741",
    "title": "Soirée belge",
-   "category": "party",
+   "category": "food",
    "venue": "Peter Benoitlaan 31, 2100 Antwerpen, België",
    "city": "Antwerp",
    "lat": 51.21019,
@@ -4836,16 +4600,15 @@
    "summary": "Het is weer zover! Onze jaarlijkse Soirée belge vindt plaats in de Impeesa. Er zijn twee shiften om 17u en om 20u. MENU: Stoofvlees of vegetarische vol-au-veggie, frietjes à volonté, witloofsalade of salade met tomaat en komkommer, soep en chocomousse als dessert inschrijven kan via deze link: https",
    "price_from": null,
    "free": null,
-   "audience": [
-    "young"
-   ],
+   "audience": [],
    "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-1085464034253821",
    "title": "CINÉMA | SOIRÉE MODERNISME",
-   "category": "party",
+   "category": "cinema",
    "venue": "avenue des Frères Rimbaut 2, 7500 Tournai, Belgique",
    "city": "Tournai",
    "lat": 50.60432,
@@ -4858,11 +4621,10 @@
    "summary": "CINÉMA-PATRIMOINE | SOIRÉE MODERNISME À l’occasion de la sortie du livre Tournai Modernismes #3 : Le Faubourg-de-Lille de Robin Legge, la maison propose une soirée pour célébrer le patrimoine moderniste et redonner la place aux femmes architectes. Au programme : → Introduction dédiée à Simone Guilli",
    "price_from": null,
    "free": true,
-   "audience": [
-    "young"
-   ],
+   "audience": [],
    "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-1646083083578424",
@@ -4881,10 +4643,11 @@
    "price_from": null,
    "free": null,
    "audience": [
-    "young"
+    "adult"
    ],
    "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-4651413511754273",
@@ -4903,15 +4666,16 @@
    "price_from": null,
    "free": null,
    "audience": [
-    "young"
+    "adult"
    ],
    "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-1570576895114578",
    "title": "🎤 SOIRÉE COMEDY CLUB 🎤",
-   "category": "party",
+   "category": "theatre",
    "venue": "The fox's hole",
    "city": "Tournai",
    "lat": 50.60642,
@@ -4925,15 +4689,16 @@
    "price_from": null,
    "free": null,
    "audience": [
-    "young"
+    "adult"
    ],
    "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-1107600435507463",
    "title": "🎭 SOIRÉE DIVERS TALENTS🎭",
-   "category": "party",
+   "category": "theatre",
    "venue": "L'almanach by Tonton & Tantine",
    "city": "Tournai",
    "lat": 50.58712,
@@ -4947,10 +4712,11 @@
    "price_from": null,
    "free": true,
    "audience": [
-    "young"
+    "adult"
    ],
    "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   },
   {
    "id": "fb-1143848011542269",
@@ -4969,32 +4735,11 @@
    "price_from": null,
    "free": null,
    "audience": [
-    "young"
+    "adult"
    ],
    "tags": [],
-   "source": "Facebook (événement public)"
-  },
-  {
-   "id": "fb-26451592791098901",
-   "title": "Soirée jeux de société - Arlon",
-   "category": "party",
-   "venue": "ibis Styles Arlon Porte du Luxembourg",
-   "city": "Arlon",
-   "lat": 49.67646,
-   "lon": 5.78428,
-   "start": "2026-11-03T20:00:00",
-   "end": "2026-11-04T20:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-26451592791098901.jpg",
-   "page_url": "https://www.facebook.com/events/26451592791098901/",
-   "url": "https://www.facebook.com/events/26451592791098901/",
-   "summary": "Soirées jeux de société conviviales à Arlon (débutants bienvenus) 🎲 Jeux variés : ambiance, moyens et experts 👉 Explications sur place. INSCRIPTION SOUHAITEE ! Contactez l'organisateur",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "young"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)"
+   "source": "Facebook (événement public)",
+   "classified": true
   }
  ],
  "extra_done": [
