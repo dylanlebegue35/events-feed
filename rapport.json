@@ -1,13 +1,15 @@
 {
-  "genere": "2026-11-06T17:42:10",
+  "genere": "2026-11-06T19:02:17",
   "sources": [
     {
       "source": "Reflektor (Liège)",
       "ok": true,
       "page_caracteres": 16431,
-      "ia_a_trouve": 41,
-      "gardes": 41,
+      "ia_a_trouve": 39,
+      "gardes": 39,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -40,7 +42,7 @@
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 49148,
+      "page_caracteres": 47985,
       "ia_a_trouve": 6,
       "gardes": 6,
       "ecartes": 0,
@@ -51,7 +53,7 @@
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 43487,
+      "page_caracteres": 43484,
       "ia_a_trouve": 129,
       "gardes": 129,
       "ecartes": 0,
@@ -98,8 +100,8 @@
       "ok": true,
       "page_caracteres": 5212,
       "ia_a_trouve": 4,
-      "gardes": 4,
-      "ecartes": 0,
+      "gardes": 3,
+      "ecartes": 1,
       "extrait_reponse_ia": ""
     },
     {
@@ -199,15 +201,19 @@
       "ia_a_trouve": 20,
       "gardes": 20,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Het Depot (Louvain)",
       "ok": true,
       "page_caracteres": 8177,
-      "ia_a_trouve": 14,
-      "gardes": 14,
+      "ia_a_trouve": 16,
+      "gardes": 16,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -217,6 +223,8 @@
       "ia_a_trouve": 7,
       "gardes": 7,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -234,9 +242,9 @@
       "source": "Facebook : affiches de l'extension",
       "ok": true,
       "demandes": 40,
-      "recus": 38,
-      "copiees": 32,
-      "plafond_cumule_usd": 0.48
+      "recus": 36,
+      "copiees": 35,
+      "plafond_cumule_usd": 0.64
     },
     {
       "source": "Facebook (service tiers)",
@@ -247,15 +255,15 @@
     {
       "source": "Doublons fusionnés",
       "ok": true,
-      "fusionnes": 40
+      "fusionnes": 53
     },
     {
       "source": "Pages des billetteries",
       "ok": true,
-      "pages_lues": 2,
+      "pages_lues": 3,
       "pages_lues_par_ia": 25
     }
   ],
-  "avec_image": 1096,
-  "total": 1938
+  "avec_image": 1111,
+  "total": 1924
 }
