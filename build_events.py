@@ -270,6 +270,45 @@ def read_page(s, text):
     return raw, "\n".join(answers), {"morceaux": len(parts), "reponses_coupees": cut}
 
 
+def forum_blocks(text):
+    """Le Forum : chaque spectacle de la page = titre, date, puis le lien « Réservation », qui contient la date et l'heure exactes."""
+    lines, out, prev = text.splitlines(), [], 0
+    for i, line in enumerate(lines):
+        m = re.search(r"\[Réservation\]\((https://www\.leforum\.be/spectacle_(\d{4})(\d\d)(\d\d)(\d\d)(\d\d)\.html)\)", line)
+        if not m or i < 2:
+            continue
+        img = next((re.search(r"\((https?://[^)]+)\)", x) for x in lines[prev:i] if "SlideFront" in x), None)
+        out.append({"title": lines[i - 2].strip(), "start": "{}-{}-{}T{}:{}".format(*m.groups()[1:]),
+                    "page_url": m.group(1), "image": img.group(1).replace(" ", "%20") if img else None})
+        prev = i
+    return out
+
+
+def align_forum(raw, text):
+    """Sur une longue liste, l'IA peut décaler titres et dates d'un cran : date, heure, lien et image viennent de la page ;
+    l'IA n'apporte que le reste (catégorie, résumé, public), retrouvé par le titre. Un spectacle retiré de la page disparaît aussitôt."""
+    def words(t):
+        t = unicodedata.normalize("NFKD", str(t or "")).encode("ascii", "ignore").decode().lower()
+        return re.findall(r"[a-z0-9]+", t)
+    known = [(words(r.get("title")), r) for r in raw]
+    exact = {"".join(w): r for w, r in reversed(known)}
+    out, seen = [], set()
+    for b in forum_blocks(text):
+        w = words(b["title"])
+        ai = exact.get("".join(w))
+        if ai is None:                    # titre reformulé par l'IA : le plus proche, s'il partage l'essentiel des mots
+            score, best = max(((len(set(w) & set(k)) / max(1, min(len(set(w)), len(set(k)))), r) for k, r in known),
+                              key=lambda x: x[0], default=(0, None))
+            ai = best if score >= 0.6 and len(set(w)) >= 2 else None
+        title = (ai or b)["title"]
+        k = ("".join(words(title)), b["start"][:10])
+        if k in seen:                     # deux séances le même jour : une seule fiche
+            continue
+        seen.add(k)
+        out.append({**(ai or {}), **b, "title": title, "end": None, "ticket_url": None})
+    return out
+
+
 def pages():
     cfg = json.loads((HERE / "sources.json").read_text())["pages"]
     cache = json.loads(PAGE_CACHE_FILE.read_text()) if PAGE_CACHE_FILE.exists() else {}
@@ -293,8 +332,12 @@ def pages():
                 or (lines and hit.get("lines") and set(lines) <= set(hit["lines"])))   # seules des lignes ont disparu (spectacle passé) : rien à relire
             if unchanged:
                 raw, answer = hit["raw"], ""      # page inchangée ce mois-ci : pas d'appel à l'IA
+                if s.get("align") == "forum":
+                    raw = hit["raw"] = align_forum(raw, text)
             else:
                 raw, answer, read_info = read_page(s, text)
+                if s.get("align") == "forum":
+                    raw = align_forum(raw, text)
                 cache[s["url"]] = {"hash": digest, "day": month, "raw": raw}
                 if lines:
                     cache[s["url"]]["lines"] = lines

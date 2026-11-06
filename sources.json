@@ -51,6 +51,7 @@
       "category_hint": "concert",
       "ignore_lines": "^\\[Réserver\\]",
       "chunk_chars": 14000,
+      "align": "forum",
       "enabled": true
     },
     {
