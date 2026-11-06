@@ -178,8 +178,12 @@ PAGE :
 {page}"""
 
 
+LAST_STOP = None      # pourquoi l'IA s'est arrêtée à son dernier appel ("max_tokens" = réponse coupée)
+
+
 def call_claude(prompt, images=None):
     """images : liste de (type_mime, octets) à joindre au message (affiches, captures d'écran)."""
+    global LAST_STOP
     key = os.environ.get("ANTHROPIC_API_KEY")
     if not key:
         raise RuntimeError("ANTHROPIC_API_KEY absente")
@@ -197,6 +201,7 @@ def call_claude(prompt, images=None):
     data = json.loads(r.stdout)
     if "content" not in data:
         raise RuntimeError(f"réponse API inattendue : {str(data)[:200]}")
+    LAST_STOP = data.get("stop_reason")
     return "".join(b.get("text", "") for b in data["content"])
 
 
@@ -226,6 +231,45 @@ def parse_json_array(text):
 PAGE_CACHE_FILE = HERE / "pages_cache.json"
 
 
+def split_page(text, size, overlap=500):
+    """Page trop longue : des morceaux coupés entre deux lignes, qui se chevauchent pour qu'aucun événement ne soit coupé en deux."""
+    parts, cur, n = [], [], 0
+    for line in text.splitlines():
+        if cur and n + len(line) > size:
+            parts.append("\n".join(cur))
+            tail, t = [], 0
+            for old in reversed(cur):
+                if t + len(old) > overlap:
+                    break
+                tail.insert(0, old)
+                t += len(old) + 1
+            cur, n = tail, t
+        cur.append(line)
+        n += len(line) + 1
+    if cur:
+        parts.append("\n".join(cur))
+    return parts
+
+
+def read_page(s, text):
+    """Fait lire la page par l'IA, en plusieurs morceaux si "chunk_chars" le demande : sa réponse a une longueur limitée,
+    la fin d'une longue liste serait perdue. Si un morceau échoue, l'erreur remonte et la dernière lecture complète reste valable."""
+    parts = split_page(text, s["chunk_chars"]) if s.get("chunk_chars") else [text]
+    raw, answers, seen, cut = [], [], set(), 0
+    for part in parts:
+        answer = call_claude(PROMPT.format(
+            today=TODAY.isoformat(), name=s["name"], url=s["url"], city=s.get("city", ""),
+            cats=", ".join(CATEGORIES), cat_help=CATEGORY_HELP, page=part))
+        cut += LAST_STOP == "max_tokens"
+        answers.append(answer)
+        for r in parse_json_array(answer):
+            k = (re.sub(r"\W+", "", str(r.get("title") or "").lower()), str(r.get("start"))[:10])
+            if k not in seen:
+                seen.add(k)
+                raw.append(r)
+    return raw, "\n".join(answers), {"morceaux": len(parts), "reponses_coupees": cut}
+
+
 def pages():
     cfg = json.loads((HERE / "sources.json").read_text())["pages"]
     cache = json.loads(PAGE_CACHE_FILE.read_text()) if PAGE_CACHE_FILE.exists() else {}
@@ -235,16 +279,25 @@ def pages():
             continue
         try:
             text = to_text(fetch(s["url"]), s["url"])
-            digest = hashlib.sha256((PROMPT + text + MODEL + s.get("category_hint", "")).encode()).hexdigest()
+            basis, lines, read_info = text, None, {}
+            if s.get("ignore_lines"):             # bandeau tiré au hasard à chaque ouverture : ce n'est pas un changement de la page
+                kept = [l for l in text.splitlines() if not re.match(s["ignore_lines"], l.strip())]
+                text = "\n".join(kept)
+                lines = sorted({l.strip() for l in kept if l.strip()})
+                basis = "\n".join(lines)
+            digest = hashlib.sha256((PROMPT + basis + MODEL + s.get("category_hint", "")).encode()).hexdigest()
             hit = cache.get(s["url"])
-            if hit and hit.get("hash") == digest and hit.get("day") == TODAY.isoformat()[:7]:
+            month = TODAY.isoformat()[:7]
+            unchanged = hit and hit.get("day") == month and (
+                hit.get("hash") == digest
+                or (lines and hit.get("lines") and set(lines) <= set(hit["lines"])))   # seules des lignes ont disparu (spectacle passé) : rien à relire
+            if unchanged:
                 raw, answer = hit["raw"], ""      # page inchangée ce mois-ci : pas d'appel à l'IA
             else:
-                answer = call_claude(PROMPT.format(
-                    today=TODAY.isoformat(), name=s["name"], url=s["url"], city=s.get("city", ""),
-                    cats=", ".join(CATEGORIES), cat_help=CATEGORY_HELP, page=text))
-                raw = parse_json_array(answer)
-                cache[s["url"]] = {"hash": digest, "day": TODAY.isoformat()[:7], "raw": raw}
+                raw, answer, read_info = read_page(s, text)
+                cache[s["url"]] = {"hash": digest, "day": month, "raw": raw}
+                if lines:
+                    cache[s["url"]]["lines"] = lines
         except Exception as ex:
             print(f"  ! {s['name']} : {ex}", file=sys.stderr)
             old = cache.get(s["url"])
@@ -296,7 +349,7 @@ def pages():
             REPORT[-1].update({"gardes": n, "ecartes": skipped})       # repli : on complète la ligne déjà écrite
         else:
             REPORT.append({"source": s["name"], "ok": True, "page_caracteres": len(text), "ia_a_trouve": len(raw),
-                           "gardes": n, "ecartes": skipped,
+                           "gardes": n, "ecartes": skipped, **read_info,
                            "extrait_reponse_ia": answer[:200] if not raw else ""})
     return out
 
