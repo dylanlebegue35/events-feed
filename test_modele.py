@@ -47,8 +47,26 @@ def lire(s, texte, reglage):
             "entree": entree, "sortie": sortie, "cout_usd": round(cout, 5), "secondes": round(time.time() - debut, 1)}
 
 
+def sonde(modele):
+    """Un mot demandé à ce modèle : la clé et le modèle sont-ils acceptés ? N'écrit jamais la clé."""
+    body = {"model": modele, "max_tokens": 5, "messages": [{"role": "user", "content": "OK"}]}
+    r = subprocess.run(["curl", "-s", "--max-time", "60", "https://api.anthropic.com/v1/messages",
+                        "-H", f"x-api-key: {os.environ['ANTHROPIC_API_KEY']}", "-H", "anthropic-version: 2023-06-01",
+                        "-H", "content-type: application/json", "-d", json.dumps(body)], capture_output=True)
+    d = json.loads(r.stdout)
+    return {"modele": modele, "ok": "content" in d, "erreur": (d.get("error") or {}).get("message", "")[:160]}
+
+
 def main():
     cfg = json.loads((b.HERE / "sources.json").read_text())["pages"]
+    cle = os.environ.get("ANTHROPIC_API_KEY", "")
+    resultat["cle"] = {"longueur": len(cle), "espaces_autour": cle != cle.strip()}
+    resultat["sonde"] = [sonde("claude-haiku-4-5-20251001"), sonde(MODELE)]
+    (b.HERE / "test_modele_resultat.json").write_text(json.dumps(resultat, ensure_ascii=False, indent=1), encoding="utf-8")
+    if not resultat["sonde"][1]["ok"]:
+        resultat["arret"] = "sonde refusée, essai non lancé"
+        (b.HERE / "test_modele_resultat.json").write_text(json.dumps(resultat, ensure_ascii=False, indent=1), encoding="utf-8")
+        return
     try:
         for s in cfg:
             if not s.get("enabled", True):
