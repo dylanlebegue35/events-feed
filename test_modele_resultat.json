@@ -1,0 +1,6 @@
+{
+ "modele": "claude-haiku-5-5",
+ "sources": [],
+ "depense_usd": 0.0,
+ "arret": "{'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgnKHLSbG5SbGM1Anii39'}"
+}
