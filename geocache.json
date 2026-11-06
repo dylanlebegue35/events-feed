@@ -6329,5 +6329,509 @@
  "ciné stuart|la louvière": [
   50.4751235,
   4.1861835
+ ],
+ "le quiproquo|tournai": [
+  50.6056458,
+  3.3878179
+ ],
+ "grand-place de tournai|tournai": [
+  50.6064337,
+  3.3862574
+ ],
+ "église saint-jacques de tournai|tournai": [
+  50.608851,
+  3.3846816
+ ],
+ "maison de la culture de tournai|tournai": [
+  50.6051881,
+  3.3792652
+ ],
+ "imagix tournai|tournai": [
+  50.6150482,
+  3.3862082
+ ],
+ "rue du follet 30, tournai|tournai": [
+  50.6293204,
+  3.4101071
+ ],
+ "hall jacky rousseau|mouscron": [
+  50.7436672,
+  3.2142729
+ ],
+ "la faune|mouscron": [
+  50.7436672,
+  3.2142729
+ ],
+ "la grange|mouscron": [
+  50.6126775,
+  3.3877661
+ ],
+ "icet mouscron|mouscron": [
+  50.7436672,
+  3.2142729
+ ],
+ "centre culturel de mouscron|mouscron": [
+  50.7451636,
+  3.2097003
+ ],
+ "cinéma l'écran (site burbant)|ath": [
+  50.6311349,
+  3.7769485
+ ],
+ "cinéma l'écran|ath": [
+  50.6311224,
+  3.7750069
+ ],
+ "warlord ath|ath": [
+  50.6274916,
+  3.7778337
+ ],
+ "hall ceva|ath": [
+  50.637368,
+  3.7793803
+ ],
+ "quai de l'entrepôt|ath": [
+  50.6251844,
+  3.7813923
+ ],
+ "le scaubecq|soignies": [
+  50.6053113,
+  4.0742595
+ ],
+ "l'engrenage|soignies": [
+  50.579203,
+  4.0685604
+ ],
+ "collège saint-vincent|soignies": [
+  50.5825278,
+  4.0754585
+ ],
+ "rue grégoire wincqz 245|soignies": [
+  50.5709084,
+  4.077656
+ ],
+ "la source asbl|soignies": [
+  50.579203,
+  4.0685604
+ ],
+ "place van zeeland|soignies": [
+  50.578474,
+  4.0688045
+ ],
+ "parc derbaix|binche": [
+  50.4127676,
+  4.1744523
+ ],
+ "parc communal de binche|binche": [
+  50.4092531,
+  4.1638049
+ ],
+ "binche tourisme|binche": [
+  50.4109365,
+  4.1656748
+ ],
+ "hockey namur, montagne d'hastedon 49|namur": [
+  50.4665284,
+  4.8661892
+ ],
+ "plateau de la citadelle|dinant": [
+  50.2618442,
+  4.915498
+ ],
+ "gare de dinant|dinant": [
+  50.32081,
+  4.8785617
+ ],
+ "rue du palais de justice|dinant": [
+  50.258531,
+  4.9133656
+ ],
+ "collège notre-dame de dinant|dinant": [
+  50.25952,
+  4.9077766
+ ],
+ "centre culturel de dinant|dinant": [
+  50.2574104,
+  4.9161357
+ ],
+ "cecoco ciney|ciney": [
+  50.2990668,
+  5.0999617
+ ],
+ "place du roi baudouin|ciney": [
+  50.2841225,
+  5.0943307
+ ],
+ "rue courtejoie 49|ciney": [
+  50.2934896,
+  5.1024125
+ ],
+ "centre culturel de ciney|ciney": [
+  50.2987143,
+  5.1004952
+ ],
+ "centre sportif de l'orneau|gembloux": [
+  50.5670612,
+  4.7010487
+ ],
+ "avenue des combattants 70|gembloux": [
+  50.5572433,
+  4.7016554
+ ],
+ "couagga chocolat, rue de moha 3|gembloux": [
+  50.5597273,
+  4.6943126
+ ],
+ "itgs, rue entrée jacques 31a|gembloux": [
+  50.5597273,
+  4.6943126
+ ],
+ "la zy'coop (mazy)|gembloux": [
+  50.5597273,
+  4.6943126
+ ],
+ "la zy'coop|gembloux": [
+  50.5597273,
+  4.6943126
+ ],
+ "parking de l'hôtel des 3 clés|gembloux": [
+  50.5597273,
+  4.6943126
+ ],
+ "espace orneau|gembloux": [
+  50.5661722,
+  4.6998797
+ ],
+ "place des tilleuls|andenne": [
+  50.489419,
+  5.0963892
+ ],
+ "rue sous meuse|andenne": [
+  50.4694323,
+  4.995702
+ ],
+ "centre culturel d'andenne|andenne": [
+  50.4921799,
+  5.0934035
+ ],
+ "hall omnisports de jemelle|rochefort": [
+  50.160372,
+  5.2465412
+ ],
+ "centre culturel de rochefort|rochefort": [
+  50.1600843,
+  5.2238843
+ ],
+ "église notre-dame de la visitation|rochefort": [
+  50.1614319,
+  5.2229316
+ ],
+ "wavre et alentours|wavre": [
+  50.7169694,
+  4.610416
+ ],
+ "none|louvain-la-neuve": [
+  50.6740673,
+  4.6138095
+ ],
+ "rue des wallons 65|louvain-la-neuve": [
+  50.6689547,
+  4.6166382
+ ],
+ "cours michel woitrin 1|louvain-la-neuve": [
+  50.6740673,
+  4.6138095
+ ],
+ "boulevard baudouin ier 23|louvain-la-neuve": [
+  50.6740673,
+  4.6138095
+ ],
+ "centre culturel de nivelles - waux-hall|nivelles": [
+  50.5976885,
+  4.3235854
+ ],
+ "maurice & gaston|nivelles": [
+  50.5987852,
+  4.3250101
+ ],
+ "place émile de lalieux|nivelles": [
+  50.5985213,
+  4.3279262
+ ],
+ "collège sainte-gertrude|nivelles": [
+  50.5936052,
+  4.3197505
+ ],
+ "le fry, chaussée de bruxelles 485|waterloo": [
+  50.7175395,
+  4.3977588
+ ],
+ "ferme de mont-saint-jean|waterloo": [
+  50.6861311,
+  4.4097755
+ ],
+ "la popote, rue de la station 113|waterloo": [
+  50.714757,
+  4.3853945
+ ],
+ "st. john's international school|waterloo": [
+  50.7048925,
+  4.414298
+ ],
+ "le pop - centre culturel de braine-l'alleud|braine-l'alleud": [
+  50.6828722,
+  4.3692706
+ ],
+ "terre de nature, rue du marais 43|tubize": [
+  50.69302,
+  4.204696
+ ],
+ "rue de tubize 1, saintes|tubize": [
+  50.6986012,
+  4.155778
+ ],
+ "grand-place de jodoigne|jodoigne": [
+  50.7255579,
+  4.8666362
+ ],
+ "centre sportif de bastogne|bastogne": [
+  50.006022,
+  5.7233833
+ ],
+ "espace 23|bastogne": [
+  50.0059122,
+  5.7228266
+ ],
+ "école de hollogne, route de bastogne 90|marche-en-famenne": [
+  50.2270943,
+  5.3419568
+ ],
+ "avenue bouvier et place nestor outer|virton": [
+  49.5677263,
+  5.5329559
+ ],
+ "salle du tennis de table de virton|virton": [
+  49.5677263,
+  5.5329559
+ ],
+ "centre culturel et sportif de virton|virton": [
+  49.5657971,
+  5.5372987
+ ],
+ "la madeleine|bruxelles": [
+  50.8448184,
+  4.3545717
+ ],
+ "none|ixelles": [
+  50.8331141,
+  4.3668279
+ ],
+ "rue volta 18|ixelles": [
+  50.8138165,
+  4.3952702
+ ],
+ "ixelles|ixelles": [
+  50.8206334,
+  4.3880549
+ ],
+ "place flagey|ixelles": [
+  50.8271069,
+  4.3720121
+ ],
+ "none|saint-gilles": [
+  50.8249958,
+  4.3454841
+ ],
+ "l'amère à boire|saint-gilles": [
+  50.826136,
+  4.3450925
+ ],
+ "centre librex|saint-gilles": [
+  50.8318535,
+  4.3381566
+ ],
+ "centre culturel jacques franck|saint-gilles": [
+  50.8293447,
+  4.3445657
+ ],
+ "none|schaerbeek": [
+  50.8622023,
+  4.379986
+ ],
+ "schaerbeek|schaerbeek": [
+  50.8622023,
+  4.379986
+ ],
+ "les halles de schaerbeek|schaerbeek": [
+  50.8600606,
+  4.3699578
+ ],
+ "la maison des arts, chaussée de haecht 147|schaerbeek": [
+  50.8622023,
+  4.379986
+ ],
+ "la scène, avenue dailly 179|schaerbeek": [
+  50.8622023,
+  4.379986
+ ],
+ "none|uccle": [
+  50.8035441,
+  4.3338445
+ ],
+ "centre culturel d'uccle|uccle": [
+  50.8011343,
+  4.3424019
+ ],
+ "collège saint-pierre uccle|uccle": [
+  50.8054083,
+  4.3402443
+ ],
+ "kameo bikes, rue de la mutualité 79|uccle": [
+  50.8035441,
+  4.3338445
+ ],
+ "dieweg 69|uccle": [
+  50.7937817,
+  4.343334
+ ],
+ "église saint-pierre d'uccle|uccle": [
+  50.8035441,
+  4.3338445
+ ],
+ "stallestraat 140|uccle": [
+  50.7963269,
+  4.3303707
+ ],
+ "bernaerts, verlatstraat 20|anvers": [
+  51.2211097,
+  4.3997081
+ ],
+ "frankrijklei 85-87|anvers": [
+  51.2157071,
+  4.4136983
+ ],
+ "zaal athena, franklin rooseveltplaats 11|anvers": [
+  51.2211097,
+  4.3997081
+ ],
+ "miriam makebaplein (de krook)|gand": [
+  51.0491497,
+  3.729085
+ ],
+ "kunstencentrum viernulvier|gand": [
+  51.0538286,
+  3.7250121
+ ],
+ "flanders expo|gand": [
+  51.0268207,
+  3.6920246
+ ],
+ "de vooruit|gand": [
+  51.0538286,
+  3.7250121
+ ],
+ "stade de la gantoise, ottergemsesteenweg zuid|gand": [
+  51.0538286,
+  3.7250121
+ ],
+ "magdalenastraat 27|bruges": [
+  51.2013055,
+  3.2083937
+ ],
+ "cinema lumière|bruges": [
+  51.2103713,
+  3.22141
+ ],
+ "het entrepot|bruges": [
+  51.2261077,
+  3.2257925
+ ],
+ "libertad, muntstraat 28-30|louvain": [
+  50.879202,
+  4.7011675
+ ],
+ "baron august de becker-remyplein 27|louvain": [
+  50.8856692,
+  4.7183114
+ ],
+ "kolonel dusartplein|hasselt": [
+  50.9314794,
+  5.343571
+ ],
+ "frame belgium|hasselt": [
+  50.9303735,
+  5.3378043
+ ],
+ "de serre, bootstraat 9|hasselt": [
+  50.9399753,
+  5.3523764
+ ],
+ "none|malines": [
+  51.0281381,
+  4.4803453
+ ],
+ "nekkerhal|malines": [
+  51.0277835,
+  4.4998513
+ ],
+ "stadsschouwburg mechelen|malines": [
+  51.0291095,
+  4.4857274
+ ],
+ "podiumzaal, tessestraat 4|malines": [
+  51.0281381,
+  4.4803453
+ ],
+ "mechelen|malines": [
+  51.0281381,
+  4.4803453
+ ],
+ "none|courtrai": [
+  50.8276429,
+  3.2659884
+ ],
+ "kortrijk xpo|courtrai": [
+  50.8073784,
+  3.2772092
+ ],
+ "evenementenhal depart|courtrai": [
+  50.8276429,
+  3.2659884
+ ],
+ "bellegem|courtrai": [
+  50.7736409,
+  3.2948511
+ ],
+ "none|ostende": [
+  51.2258565,
+  2.919496
+ ],
+ "centre-ville d'ostende|ostende": [
+  51.2258565,
+  2.919496
+ ],
+ "monacoplein 2|ostende": [
+  51.2315115,
+  2.9131894
+ ],
+ "ostende|ostende": [
+  51.2258565,
+  2.919496
+ ],
+ "vayamundo oostende|ostende": [
+  51.2126864,
+  2.8722685
+ ],
+ "oc schaperye|ostende": [
+  51.2258565,
+  2.919496
+ ],
+ "kursaal oostende|ostende": [
+  51.2317717,
+  2.9120579
+ ],
+ "kinepolis oostende|ostende": [
+  51.2230315,
+  2.8968986
  ]
 }
