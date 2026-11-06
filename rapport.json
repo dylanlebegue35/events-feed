@@ -1,5 +1,5 @@
 {
-  "genere": "2026-11-06T15:55:52",
+  "genere": "2026-11-06T16:35:54",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -40,7 +40,7 @@
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 47919,
+      "page_caracteres": 49148,
       "ia_a_trouve": 6,
       "gardes": 6,
       "ecartes": 0,
@@ -49,9 +49,9 @@
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 44300,
-      "ia_a_trouve": 99,
-      "gardes": 99,
+      "page_caracteres": 44302,
+      "ia_a_trouve": 74,
+      "gardes": 74,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -85,10 +85,10 @@
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 12614,
+      "page_caracteres": 12611,
       "ia_a_trouve": 2,
-      "gardes": 1,
-      "ecartes": 1,
+      "gardes": 2,
+      "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -130,7 +130,7 @@
     {
       "source": "Opéra Royal de Wallonie",
       "ok": true,
-      "page_caracteres": 14694,
+      "page_caracteres": 14791,
       "ia_a_trouve": 7,
       "gardes": 7,
       "ecartes": 0,
@@ -229,6 +229,14 @@
       "nouvelles": 0
     },
     {
+      "source": "Facebook : affiches de l'extension",
+      "ok": true,
+      "demandes": 40,
+      "recus": 39,
+      "copiees": 35,
+      "plafond_cumule_usd": 0.16
+    },
+    {
       "source": "Facebook (service tiers)",
       "ok": true,
       "etat": "pas encore l'heure",
@@ -242,10 +250,10 @@
     {
       "source": "Pages des billetteries",
       "ok": true,
-      "pages_lues": 26,
+      "pages_lues": 1,
       "pages_lues_par_ia": 25
     }
   ],
-  "avec_image": 965,
-  "total": 1906
+  "avec_image": 980,
+  "total": 1882
 }
