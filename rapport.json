@@ -1,12 +1,12 @@
 {
-  "genere": "2026-11-06T02:03:15",
+  "genere": "2026-11-06T11:06:58",
   "sources": [
     {
       "source": "Reflektor (Liège)",
       "ok": true,
-      "page_caracteres": 16245,
-      "ia_a_trouve": 39,
-      "gardes": 39,
+      "page_caracteres": 16423,
+      "ia_a_trouve": 43,
+      "gardes": 43,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -31,7 +31,7 @@
     {
       "source": "VisitHuy",
       "ok": true,
-      "page_caracteres": 5754,
+      "page_caracteres": 5792,
       "ia_a_trouve": 8,
       "gardes": 8,
       "ecartes": 0,
@@ -49,7 +49,7 @@
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 44598,
+      "page_caracteres": 44292,
       "ia_a_trouve": 71,
       "gardes": 71,
       "ecartes": 0,
@@ -59,8 +59,8 @@
       "source": "Standard de Liège",
       "ok": true,
       "page_caracteres": 7643,
-      "ia_a_trouve": 3,
-      "gardes": 3,
+      "ia_a_trouve": 2,
+      "gardes": 2,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -87,8 +87,8 @@
       "ok": true,
       "page_caracteres": 12614,
       "ia_a_trouve": 2,
-      "gardes": 2,
-      "ecartes": 0,
+      "gardes": 1,
+      "ecartes": 1,
       "extrait_reponse_ia": ""
     },
     {
@@ -103,7 +103,7 @@
     {
       "source": "Grand Curtius (Liège)",
       "ok": true,
-      "page_caracteres": 8528,
+      "page_caracteres": 8556,
       "ia_a_trouve": 4,
       "gardes": 4,
       "ecartes": 0,
@@ -166,10 +166,10 @@
     {
       "source": "Recyclart (Bruxelles)",
       "ok": true,
-      "page_caracteres": 4585,
-      "ia_a_trouve": 15,
+      "page_caracteres": 4319,
+      "ia_a_trouve": 14,
       "gardes": 14,
-      "ecartes": 1,
+      "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -193,7 +193,7 @@
     {
       "source": "Trix (Anvers)",
       "ok": true,
-      "page_caracteres": 10675,
+      "page_caracteres": 10603,
       "ia_a_trouve": 20,
       "gardes": 20,
       "ecartes": 0,
@@ -202,19 +202,19 @@
     {
       "source": "Het Depot (Louvain)",
       "ok": true,
-      "page_caracteres": 8287,
-      "ia_a_trouve": 9,
-      "gardes": 9,
+      "page_caracteres": 8177,
+      "ia_a_trouve": 14,
+      "gardes": 14,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Mars – Mons arts de la scène",
       "ok": true,
-      "page_caracteres": 12551,
-      "ia_a_trouve": 15,
-      "gardes": 13,
-      "ecartes": 2,
+      "page_caracteres": 12300,
+      "ia_a_trouve": 7,
+      "gardes": 7,
+      "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -237,15 +237,15 @@
     {
       "source": "Doublons fusionnés",
       "ok": true,
-      "fusionnes": 41
+      "fusionnes": 39
     },
     {
       "source": "Pages des billetteries",
       "ok": true,
-      "pages_lues": 10,
+      "pages_lues": 12,
       "pages_lues_par_ia": 25
     }
   ],
-  "avec_image": 906,
-  "total": 1628
+  "avec_image": 921,
+  "total": 1707
 }
