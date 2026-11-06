@@ -852,19 +852,26 @@ def fb_classify(events):
 
 def fb_extension_posters(cfg, store, token):
     """Les événements relevés avec l'extension n'ont pas d'affiche : on demande au service tiers ces événements précis
-    (par leur lien) et on copie l'affiche tout de suite. Payant (~0,003 $ par événement) : "posters_per_run" à 0 = arrêté."""
+    (par leur lien) et on copie l'affiche tout de suite. Payant (~0,003 $ par événement) : "posters_per_run" à 0 = arrêté.
+    "posters_file" : seuls les événements de cette liste sont demandés. "posters_budget_usd" : plafond total, jamais dépassé."""
     tried = set(store.get("posters_tried") or [])
+    only = set(json.loads((HERE / cfg["posters_file"]).read_text())) if cfg.get("posters_file") else None
     todo = []
     for e in json.loads((HERE / "manual_events.json").read_text())["events"]:
         fid = e["id"][4:] if e["id"].startswith("fbx-") else None
-        if (fid and not e.get("image") and e["id"] not in tried and datetime.fromisoformat(e["end"]).date() >= TODAY
+        if (fid and (only is None or e["id"] in only) and not e.get("image") and e["id"] not in tried and datetime.fromisoformat(e["end"]).date() >= TODAY
                 and not (POSTERS / f"fb-{fid}.jpg").exists() and not (POSTERS / f"{e['id']}.jpg").exists()):
             todo.append(e)
     todo = todo[:cfg["posters_per_run"]]
+    per_event = cfg.get("cost_usd_per_event", 0.004)
+    spent = store.get("posters_usd", 0)
+    if cfg.get("posters_budget_usd") is not None:       # on compte le maximum possible avant l'appel : même en cas de panne, le plafond tient
+        todo = todo[:max(0, int((cfg["posters_budget_usd"] - spent + 1e-9) / per_event))]
     if not todo:
         return
+    store["posters_usd"] = round(spent + len(todo) * per_event, 3)
     payload = {"startUrls": [{"url": f"https://www.facebook.com/events/{e['id'][4:]}/"} for e in todo], "maxEvents": len(todo)}
-    cap = round(len(todo) * cfg.get("cost_usd_per_event", 0.004), 2)
+    cap = round(len(todo) * per_event, 2)
     r = subprocess.run(
         ["curl", "-s", "--max-time", "290", "-X", "POST", "-H", "Content-Type: application/json", "-d", json.dumps(payload),
          f"https://api.apify.com/v2/acts/{cfg.get('actor', 'alfalfa~facebook-events-scraper')}/run-sync-get-dataset-items"
@@ -872,6 +879,9 @@ def fb_extension_posters(cfg, store, token):
     items = json.loads(r.stdout.decode("utf-8", errors="ignore") or "[]")
     if not isinstance(items, list):
         raise RuntimeError(str(items)[:200])
+    if not items:                                       # rien reçu (délai dépassé…) : ces événements restent à faire
+        REPORT.append({"source": "Facebook : affiches de l'extension", "ok": False, "demandes": len(todo), "recus": 0, "plafond_cumule_usd": store["posters_usd"]})
+        return
     by_id = {str(it.get("id")): it for it in items if isinstance(it, dict)}
     ok = 0
     for e in todo:
@@ -882,7 +892,7 @@ def fb_extension_posters(cfg, store, token):
             ok += bool(ev["image"])
         tried.add(e["id"])
     store["posters_tried"] = sorted(tried)
-    REPORT.append({"source": "Facebook : affiches de l'extension", "ok": True, "demandes": len(todo), "recus": len(items), "copiees": ok})
+    REPORT.append({"source": "Facebook : affiches de l'extension", "ok": True, "demandes": len(todo), "recus": len(items), "copiees": ok, "plafond_cumule_usd": store["posters_usd"]})
 
 
 def facebook():
