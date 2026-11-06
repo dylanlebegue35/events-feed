@@ -6531,5 +6531,35 @@
   ]
  ],
  "L|\"Rue du Follet 30, Tournai\" Tournai|rue,follet,tournai": [],
- "L|\"Le POP - Centre culturel de Braine-l'Alleud\" Braine-l'Alleud|pop,culturel,braine,alleud": []
+ "L|\"Le POP - Centre culturel de Braine-l'Alleud\" Braine-l'Alleud|pop,culturel,braine,alleud": [],
+ "L|\"Centre culturel de Ciney\" Ciney|culturel,ciney": [],
+ "L|\"Espace Orneau\" Gembloux|espace,orneau": [],
+ "L|\"Collège Sainte-Gertrude\" Nivelles|collège,sainte,gertrude": [],
+ "L|\"Centre culturel de Dinant\" Dinant|culturel,dinant": [
+  [
+   "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Dinant_Centre_Culturel_R01.jpg/1280px-Dinant_Centre_Culturel_R01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "Marc Ryckaert (MJJR) / Wikimedia Commons, CC BY 3.0",
+   "file:dinant centre culturel r01.jpg\ndinant centre culturel r01 dinant (belgium): the  centre culturel régional "
+  ]
+ ],
+ "L|\"St. John's International School\" Waterloo|john,international,school": [
+  [
+   "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/St._John%27s_International_School%2C_Belgium.jpg/1280px-St._John%27s_International_School%2C_Belgium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "Mx. Granger / Wikimedia Commons, CC0",
+   "file:st. john's international school, belgium.jpg\nst. john's international school, belgium  st. john's international school (belgium) ."
+  ]
+ ],
+ "L|\"Place aux Foires\" Durbuy|place,foires": [
+  [
+   "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Durbuy_-_Place_aux_Foires.jpg/1280px-Durbuy_-_Place_aux_Foires.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "JackyM59 / Wikimedia Commons, CC BY-SA 4.0",
+   "file:durbuy - place aux foires.jpg\ndurbuy - place aux foires durbuy - place aux foires"
+  ],
+  [
+   "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/20130323_durbuy09.JPG/1280px-20130323_durbuy09.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "Jean Housen / Wikimedia Commons, CC BY-SA 3.0",
+   "file:20130323 durbuy09.jpg\n20130323 durbuy09 vue de la place aux foires, à durbuy."
+  ]
+ ],
+ "L|\"Espace 23\" Bastogne|espace": []
 }
