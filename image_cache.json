@@ -6018,5 +6018,33 @@
   ]
  ],
  "L|\"A la Courte Echelle, rue de Rotterdam 29, Liège\" Liège|courte,echelle,rue,rotterdam": [],
- "L|\"Casino de Spa, Rue Royale 4\" Spa|casino,spa,rue,royale": []
+ "L|\"Casino de Spa, Rue Royale 4\" Spa|casino,spa,rue,royale": [],
+ "L|\"Grand Palais de Charleroi\" Charleroi|grand,palais,charleroi": [
+  [
+   "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Grand_Palais_2024_IMG_2005.jpg/1280px-Grand_Palais_2024_IMG_2005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "Bangiomorpha / Wikimedia Commons, CC0",
+   "file:grand palais 2024 img 2005.jpg\ngrand palais 2024 img 2005 statue de le maître d'œuvre, alphonse darville. grand palais de charleroi. vue d'ensemble de l'angle sud-est ."
+  ]
+ ],
+ "L|\"Hall Omnisport La Préalle, Rue Emile Muraille 158\" Herstal|hall,omnisport,préalle,rue,emile,muraille": [],
+ "L|\"Avenue Amédée Hesse, Spa\" Spa|avenue,amédée,hesse,spa": [],
+ "L|\"Rue du Beau Site 46, 4800 Verviers\" Verviers|rue,beau,site,verviers": [],
+ "L|\"Centre culturel de Visé, Rue de la Chinstrée\" Visé|culturel,visé,rue,chinstrée": [],
+ "L|\"Théâtre Royal de Mons\" Mons|théâtre,royal,mons": [
+  [
+   "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Th%C3%A9%C3%A2tre_Royal_Mons.jpg/1280px-Th%C3%A9%C3%A2tre_Royal_Mons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "FrDr / Wikimedia Commons, CC BY-SA 4.0",
+   "file:théâtre royal mons.jpg\nthéâtre royal mons théâtre royal mons"
+  ],
+  [
+   "https://upload.wikimedia.org/wikipedia/commons/5/53/Th%C3%A9%C3%A2tre_Royal_de_Mons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "Fred LEPOINT / Wikimedia Commons, CC BY-SA 4.0",
+   "file:théâtre royal de mons.jpg\nthéâtre royal de mons vue intérieur"
+  ],
+  [
+   "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Le_Theatre_Royal.jpg/1280px-Le_Theatre_Royal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "The original uploader was Fabrice duplaquet at French Wikipe / Wikimedia Commons, CC BY-SA 3.0",
+   "file:le theatre royal.jpg\nle theatre royal fabrice duplaquet : lbre de droit"
+  ]
+ ]
 }
