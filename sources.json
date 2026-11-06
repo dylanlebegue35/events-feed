@@ -85,6 +85,7 @@
     },
     {
       "name": "Ville de Huy",
+      "ignore_titles": "^Agenda\\b",
       "url": "https://www.huy.be",
       "city": "Huy",
       "enabled": true
@@ -106,6 +107,7 @@
     },
     {
       "name": "Théâtre de Liège",
+      "venue_halls": "^Salle ",
       "url": "https://www.theatredeliege.be",
       "city": "Liège",
       "venue": "Théâtre de Liège",
@@ -154,6 +156,7 @@
     },
     {
       "name": "Ancienne Belgique (Bruxelles)",
+      "venue_halls": "^AB\\b",
       "url": "https://www.abconcerts.be/fr/agenda",
       "city": "Bruxelles",
       "venue": "Ancienne Belgique",
@@ -162,6 +165,7 @@
     },
     {
       "name": "Botanique (Bruxelles)",
+      "venue_halls": "^(Museum|Rotonde|Witloof|Orangerie|Grand Salon|Chapiteau|Botanique)",
       "url": "https://botanique.be/fr/agenda",
       "city": "Bruxelles",
       "venue": "Botanique",

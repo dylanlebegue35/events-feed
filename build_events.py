@@ -363,9 +363,17 @@ def pages():
                 if ed.date() < TODAY:
                     skipped += 1
                     continue
+                if s.get("ignore_titles") and re.search(s["ignore_titles"], title):
+                    skipped += 1              # publication du site, pas un événement (« Agenda 2026 »)
+                    continue
                 venue = r.get("venue") or s.get("venue")
+                if s.get("venue_halls") and re.match(s["venue_halls"], venue or ""):
+                    venue = s["venue"]        # une salle du lieu (« Rotonde », « AB Club ») n'est pas une adresse
                 city = r.get("city") or s.get("city") or ""
                 pos = geocode(venue, city)
+                center = geocode(None, city) if city else None
+                if pos and center and _km(pos, center) > 15:
+                    pos = center              # homonyme ailleurs : mieux vaut le centre de la ville qu'un lieu à 35 km
                 if not pos:
                     skipped += 1
                     continue
@@ -1451,6 +1459,8 @@ def _same_event(a, b):
     if not ta or not tb:
         return False
     km = _km([a["lat"], a["lon"]], [b["lat"], b["lon"]])
+    if a["start"] == b["start"] and km < 1 and all("forum" in (x.get("venue") or "").lower() for x in (a, b)):
+        return True                       # le Forum n'a qu'une grande salle : même heure = même spectacle, même si le titre diffère
     if ta == tb:
         return km < 2
     if (ta <= tb or tb <= ta) and min(len(ta), len(tb)) >= 2:
@@ -1470,6 +1480,8 @@ def merge_duplicates(events):
             continue
         merged += 1
         best, other = (e, twin) if _richness(e) > _richness(twin) else (twin, e)
+        if other["id"].startswith("web-le-forum"):      # le titre français du site, pas celui de la billetterie (« Swan Lake »)
+            best["title"] = other["title"]
         for k in ("image", "image_credit", "url", "page_url", "end"):
             if not best.get(k) and other.get(k):
                 best[k] = other[k]

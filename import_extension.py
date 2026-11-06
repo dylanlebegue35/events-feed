@@ -4,7 +4,7 @@
     python3 import_extension.py liste.json --write    # enregistre
 
 Vérifie les champs, écarte le passé et les doublons (même événement Facebook ou même titre et même date, déjà dans events.json ou manual_events.json),
-cherche les coordonnées du lieu et refuse un lieu à plus de 40 km de la ville annoncée.
+cherche les coordonnées du lieu et refuse un lieu à plus de 15 km de la ville annoncée.
 """
 import json, re, sys
 from datetime import datetime, timedelta
@@ -63,7 +63,7 @@ def main():
         pos = b.geocode(venue, city) if venue else None
         if venue and (not pos or pos == city_pos) and "(" in venue:      # « Centre Culturel (Salle X) » : on cherche sans la parenthèse
             pos = b.geocode(re.sub(r"\s*\(.*?\)", "", venue).strip(), city)
-        if pos and city_pos and b._km(pos, city_pos) > 40:
+        if pos and city_pos and b._km(pos, city_pos) > 15:      # homonyme ailleurs : on garde le centre de la ville
             pos = None
         pos = pos or city_pos
         if not pos:
