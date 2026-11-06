@@ -1,5 +1,5 @@
 {
-  "genere": "2026-11-06T16:35:54",
+  "genere": "2026-11-06T17:28:53",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -8,6 +8,8 @@
       "ia_a_trouve": 41,
       "gardes": 41,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -44,15 +46,19 @@
       "ia_a_trouve": 6,
       "gardes": 6,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 44302,
-      "ia_a_trouve": 74,
-      "gardes": 74,
+      "page_caracteres": 43482,
+      "ia_a_trouve": 131,
+      "gardes": 131,
       "ecartes": 0,
+      "morceaux": 4,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -232,9 +238,9 @@
       "source": "Facebook : affiches de l'extension",
       "ok": true,
       "demandes": 40,
-      "recus": 39,
-      "copiees": 35,
-      "plafond_cumule_usd": 0.16
+      "recus": 35,
+      "copiees": 34,
+      "plafond_cumule_usd": 0.32
     },
     {
       "source": "Facebook (service tiers)",
@@ -250,10 +256,10 @@
     {
       "source": "Pages des billetteries",
       "ok": true,
-      "pages_lues": 1,
+      "pages_lues": 40,
       "pages_lues_par_ia": 25
     }
   ],
-  "avec_image": 980,
-  "total": 1882
+  "avec_image": 1071,
+  "total": 1941
 }
