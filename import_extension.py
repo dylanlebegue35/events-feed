@@ -3,7 +3,7 @@
     python3 import_extension.py liste.json            # simulation : rien n'est écrit
     python3 import_extension.py liste.json --write    # enregistre
 
-Vérifie les champs, écarte le passé et les doublons (déjà dans events.json ou manual_events.json),
+Vérifie les champs, écarte le passé et les doublons (même événement Facebook ou même titre et même date, déjà dans events.json ou manual_events.json),
 cherche les coordonnées du lieu et refuse un lieu à plus de 40 km de la ville annoncée.
 """
 import json, re, sys
@@ -20,12 +20,21 @@ def norm(t):
     return re.sub(r"\W+", "", (t or "").lower())
 
 
+def fb_id(e):
+    """Identifiant Facebook d'une fiche (fb-…, fbx-… ou dans son lien) : le même événement peut avoir un titre un peu différent."""
+    m = re.match(r"fbx?-(\d+)", str(e.get("id") or "")) or re.search(r"facebook\.com/events/(\d+)", e.get("url") or e.get("page_url") or "")
+    return m.group(1) if m else None
+
+
 def main():
     items = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
     manual = json.loads(MANUAL.read_text(encoding="utf-8"))
     known = {(norm(e["title"]), e["start"][:10]) for e in manual["events"]}
+    known_ids = {fb_id(e) for e in manual["events"]}
     if (HERE / "events.json").exists():
-        known |= {(norm(e["title"]), e["start"][:10]) for e in json.loads((HERE / "events.json").read_text())["events"]}
+        feed = json.loads((HERE / "events.json").read_text())["events"]
+        known |= {(norm(e["title"]), e["start"][:10]) for e in feed}
+        known_ids |= {fb_id(e) for e in feed}
     kept, skipped = [], []
     for it in items:
         why = None
@@ -42,7 +51,7 @@ def main():
                 why = "lien Facebook invalide"
             elif ed.date() < b.TODAY:
                 why = "déjà passé"
-            elif (norm(title), sd.date().isoformat()) in known:
+            elif fid.group(1) in known_ids or (norm(title), sd.date().isoformat()) in known:
                 why = "déjà présent"
         except Exception as ex:
             why = f"format invalide ({ex})"
