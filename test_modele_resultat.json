@@ -2,5 +2,21 @@
  "modele": "claude-haiku-5-5",
  "sources": [],
  "depense_usd": 0.0,
- "arret": "{'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgnKHLSbG5SbGM1Anii39'}"
+ "arret": "sonde refusée, essai non lancé",
+ "cle": {
+  "longueur": 106,
+  "espaces_autour": false
+ },
+ "sonde": [
+  {
+   "modele": "claude-haiku-4-5-20251001",
+   "ok": false,
+   "erreur": "invalid x-api-key"
+  },
+  {
+   "modele": "claude-haiku-5-5",
+   "ok": false,
+   "erreur": "invalid x-api-key"
+  }
+ ]
 }
