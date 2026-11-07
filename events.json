@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-07T01:27:42",
+  "generated": "2026-11-07T10:48:32",
   "events": [
     {
       "id": "web-province-de-li-ge-exposition-gustave-marissiaux-la-mine-en-lumi-re-2026-06-05",
@@ -1333,25 +1333,6 @@
       "classified": true
     },
     {
-      "id": "tm-Z698xZG2Z16vOtq3uF",
-      "title": "De Mega Sint Show 2026",
-      "category": "theatre",
-      "venue": "Trixxo Theater Hasselt",
-      "city": "Hasselt",
-      "lat": 50.93311,
-      "lon": 5.36207,
-      "start": "2026-11-07T11:00:00",
-      "end": "2026-11-07T14:00:00",
-      "image": "https://s1.ticketm.net/dam/a/505/75818c93-e283-4b74-820a-ea31eca06505_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/de-mega-sint-show-2026-chaos-in-de-cadeaufabriek-tickets/1829752348",
-      "summary": "The complete timing can be found a few days before the concert on www.trixxo-theater.be.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
-    },
-    {
       "id": "tm-Z698xZG2Z16vJouM_J",
       "title": "Job & Friends | be•at Premium Comfort Experience",
       "category": "concert",
@@ -1530,6 +1511,25 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
+    },
+    {
+      "id": "tm-Z698xZG2Z16v443o_A",
+      "title": "De Mega Sint Show 2026",
+      "category": "theatre",
+      "venue": "Trixxo Theater Hasselt",
+      "city": "Hasselt",
+      "lat": 50.93311,
+      "lon": 5.36207,
+      "start": "2026-11-07T14:00:00",
+      "end": "2026-11-07T14:00:00",
+      "image": "https://s1.ticketm.net/dam/a/505/75818c93-e283-4b74-820a-ea31eca06505_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.ticketmaster.be/event/de-mega-sint-show-2026-chaos-in-de-cadeaufabriek-tickets/1555491645",
+      "summary": "The complete timing can be found a few days before the concert on www.trixxo-theater.be.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ticketmaster"
     },
     {
       "id": "tm-Z698xZG2Z1kfEO3AE",
@@ -23246,7 +23246,7 @@
       "lon": 2.919496,
       "start": "2026-12-04T18:30:00",
       "end": "2026-12-04T22:30:00",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Biarritz_y_cairo_ostende.jpg/1280px-Biarritz_y_cairo_ostende.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fbx-2358222501250977.jpg",
       "page_url": "https://www.facebook.com/events/2358222501250977/",
       "url": "https://www.facebook.com/events/2358222501250977/",
       "summary": "Balade gourmande de soirée d'adresse en adresse à travers Ostende.",
@@ -23254,8 +23254,7 @@
       "free": null,
       "audience": [],
       "tags": [],
-      "source": "Facebook (extension)",
-      "image_credit": "Fernando Martello / Wikimedia Commons, CC BY-SA 4.0"
+      "source": "Facebook (extension)"
     },
     {
       "id": "tm-Z698xZG2Z16vOVadfJ",
@@ -27086,7 +27085,7 @@
       "lon": 2.8722685,
       "start": "2026-12-12T20:00:00",
       "end": "2026-12-12T23:00:00",
-      "image": null,
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fbx-1742315286731402.jpg",
       "page_url": "https://www.facebook.com/events/1742315286731402/",
       "url": "https://www.facebook.com/events/1742315286731402/",
       "summary": "Try-out du nouveau spectacle de l'humoriste Thomas Smith (en néerlandais).",
@@ -27432,7 +27431,7 @@
       "lon": 2.919496,
       "start": "2026-12-13T11:00:00",
       "end": "2026-12-13T18:00:00",
-      "image": null,
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fbx-1456299736419895.jpg",
       "page_url": "https://www.facebook.com/events/1456299736419895/",
       "url": "https://www.facebook.com/events/1456299736419895/",
       "summary": "Fête de Noël au profit du refuge pour animaux Het Blauwe Kruis van de Kust.",
@@ -31039,7 +31038,7 @@
       "lon": 2.8968986,
       "start": "2027-01-15T17:00:00",
       "end": "2027-01-23T23:59:00",
-      "image": null,
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fbx-1153813210882269.jpg",
       "page_url": "https://www.facebook.com/events/1153813210882269/",
       "url": "https://www.facebook.com/events/1153813210882269/",
       "summary": "Festival du film d'Ostende : une semaine de projections, d'avant-premières et de rencontres.",
