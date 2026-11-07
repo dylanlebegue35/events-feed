@@ -1,10 +1,10 @@
 {
-  "genere": "2026-11-07T10:48:32",
+  "genere": "2026-11-07T19:44:03",
   "sources": [
     {
       "source": "Reflektor (Liège)",
       "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgoRxgTAJQHX9At4ZnT9g'}",
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cgp8wjrYn5UyunzmvJxLE'}",
       "gardes": 38,
       "ecartes": 1
     },
@@ -38,23 +38,21 @@
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgoRyJ1KPBooX4c17RQuW'}",
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cgp8xCbNxpZvZYHuRCxZj'}",
       "gardes": 6,
       "ecartes": 0
     },
     {
       "source": "Le Forum (Liège)",
-      "ok": true,
-      "page_caracteres": 43122,
-      "ia_a_trouve": 128,
+      "ok": false,
+      "erreur": "lecture indisponible, dernière lecture réutilisée : curl 60 pour https://www.leforum.be",
       "gardes": 128,
-      "ecartes": 0,
-      "extrait_reponse_ia": ""
+      "ecartes": 0
     },
     {
       "source": "Standard de Liège",
       "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgoRyYvkSqy1EDJYE7GQN'}",
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cgp8xLTQmdRHQEpcgo5C9'}",
       "gardes": 1,
       "ecartes": 1
     },
@@ -79,7 +77,7 @@
     {
       "source": "Pays de Herve",
       "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgoRynzqSoJ2KHDwgf5oC'}",
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cgp8xXbcyx7MMPZJvrh7f'}",
       "gardes": 1,
       "ecartes": 1
     },
@@ -95,7 +93,7 @@
     {
       "source": "Grand Curtius (Liège)",
       "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgoRyx8X5UhN1a8KZKNuG'}",
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cgp8xf46FTCi9NSd9kJh2'}",
       "gardes": 4,
       "ecartes": 0
     },
@@ -120,32 +118,30 @@
     {
       "source": "Opéra Royal de Wallonie",
       "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgoRzLvxtJGrVgWrbKQfP'}",
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cgp8xxYJoU7RVhbaY9BJK'}",
       "gardes": 7,
       "ecartes": 0
     },
     {
       "source": "Rockerill (Charleroi)",
       "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgoRzQbicqcWgfoRL4oWm'}",
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cgp8y1h5K2agp1REWYRRL'}",
       "gardes": 11,
       "ecartes": 1
     },
     {
       "source": "Fuse (Bruxelles)",
       "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgoRzYPHL5xHbPdyfyCpA'}",
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cgp8y7vNk1CsuhqHYWJ6w'}",
       "gardes": 5,
       "ecartes": 1
     },
     {
       "source": "Madame Moustache (Bruxelles)",
-      "ok": true,
-      "page_caracteres": 41526,
-      "ia_a_trouve": 17,
+      "ok": false,
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cgp8yA56Zc3zR346Ui9xe'}",
       "gardes": 16,
-      "ecartes": 1,
-      "extrait_reponse_ia": ""
+      "ecartes": 1
     },
     {
       "source": "Recyclart (Bruxelles)",
@@ -159,21 +155,21 @@
     {
       "source": "Ancienne Belgique (Bruxelles)",
       "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgoRzpH1orbzmA3M416PK'}",
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cgp8yLHGLVysTEvgNi8NG'}",
       "gardes": 7,
       "ecartes": 3
     },
     {
       "source": "Botanique (Bruxelles)",
       "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgoRztLqmnbetB5izsSB1'}",
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cgp8yPfurH9yVQgyndKNr'}",
       "gardes": 0,
       "ecartes": 3
     },
     {
       "source": "Trix (Anvers)",
       "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgoRzyc5tkvavaToHTHov'}",
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cgp8yUTeGteThig1y1xnK'}",
       "gardes": 17,
       "ecartes": 3
     },
@@ -189,7 +185,7 @@
     {
       "source": "Mars – Mons arts de la scène",
       "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgoS1BELmPLk1V3Vajz8f'}",
+      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cgp8ydT8cmpP7GK16Twv6'}",
       "gardes": 7,
       "ecartes": 0
     },
@@ -205,14 +201,6 @@
       "nouvelles": 0
     },
     {
-      "source": "Facebook : affiches de l'extension",
-      "ok": true,
-      "demandes": 5,
-      "recus": 5,
-      "copiees": 4,
-      "plafond_cumule_usd": 0.98
-    },
-    {
       "source": "Facebook (service tiers)",
       "ok": true,
       "etat": "pas encore l'heure",
@@ -221,7 +209,7 @@
     {
       "source": "Doublons fusionnés",
       "ok": true,
-      "fusionnes": 52
+      "fusionnes": 51
     },
     {
       "source": "Pages des billetteries",
@@ -230,6 +218,6 @@
       "pages_lues_par_ia": 0
     }
   ],
-  "avec_image": 1144,
-  "total": 1865
+  "avec_image": 1140,
+  "total": 1861
 }
