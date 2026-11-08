@@ -22,7 +22,7 @@ from page_text import fetch, to_text
 HERE = Path(__file__).resolve().parent
 OUT = HERE / "events.json"
 GEOCACHE = HERE / "geocache.json"
-MODEL = os.environ.get("EXTRACTION_MODEL", "claude-haiku-4-5-20251001")
+MODEL = os.environ.get("EXTRACTION_MODEL", "claude-haiku-5-5")     # 8/11/2026 : dix fois moins cher que Haiku 4.5, réflexion activée par défaut
 CATEGORIES = ["concert", "festival", "party", "theatre", "expo", "cinema", "culture", "sport", "motorsport",
               "outdoor", "food", "flea", "fair", "family", "wellness", "workshop", "talks", "geek"]
 CATEGORY_HELP = ("concert=concerts · festival=festivals de musique ou d'arts · party=soirées, clubs, bals · "
@@ -194,7 +194,7 @@ def call_claude(prompt, images=None):
     with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False) as f:
         json.dump(body, f)
         path = f.name
-    r = subprocess.run(["curl", "-s", "--max-time", "120", "https://api.anthropic.com/v1/messages",
+    r = subprocess.run(["curl", "-s", "--max-time", "240", "https://api.anthropic.com/v1/messages",
                         "-H", f"x-api-key: {key}", "-H", "anthropic-version: 2023-06-01",
                         "-H", "content-type: application/json", "-d", f"@{path}"], capture_output=True)
     os.unlink(path)
@@ -202,6 +202,8 @@ def call_claude(prompt, images=None):
     if "content" not in data:
         raise RuntimeError(f"réponse API inattendue : {str(data)[:200]}")
     LAST_STOP = data.get("stop_reason")
+    if LAST_STOP == "refusal":            # le modèle décline : on garde la dernière lecture plutôt qu'une réponse vide
+        raise RuntimeError("le modèle a refusé de lire cette page")
     return "".join(b.get("text", "") for b in data["content"])
 
 
