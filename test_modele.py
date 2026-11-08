@@ -1,5 +1,6 @@
 """Essai ponctuel : Haiku 5.5 lit les mêmes pages que le robot. Ne change rien à l'app : écrit seulement test_modele_resultat.json.
-À supprimer après l'essai, avec .github/workflows/test-modele.yml."""
+À supprimer après l'essai, avec .github/workflows/test-modele.yml.
+Relancé le 8/11/2026 avec la nouvelle clé."""
 import json, os, re, subprocess, sys, tempfile, time
 import build_events as b
 
