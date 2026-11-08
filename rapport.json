@@ -1,5 +1,5 @@
 {
-  "genere": "2026-11-08T01:39:01",
+  "genere": "2026-11-08T10:57:26",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -8,8 +8,6 @@
       "ia_a_trouve": 41,
       "gardes": 41,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -19,9 +17,7 @@
       "ia_a_trouve": 0,
       "gardes": 0,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
-      "extrait_reponse_ia": "[]"
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Tourisme Spa",
@@ -30,9 +26,7 @@
       "ia_a_trouve": 0,
       "gardes": 0,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
-      "extrait_reponse_ia": "[]"
+      "extrait_reponse_ia": ""
     },
     {
       "source": "VisitHuy",
@@ -41,8 +35,6 @@
       "ia_a_trouve": 9,
       "gardes": 9,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -58,15 +50,19 @@
     },
     {
       "source": "Le Forum (Liège)",
-      "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : curl 60 pour https://www.leforum.be",
-      "gardes": 127,
-      "ecartes": 1
+      "ok": true,
+      "page_caracteres": 1225,
+      "ia_a_trouve": 0,
+      "gardes": 0,
+      "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
+      "extrait_reponse_ia": "[]"
     },
     {
       "source": "Standard de Liège",
       "ok": true,
-      "page_caracteres": 7573,
+      "page_caracteres": 7571,
       "ia_a_trouve": 2,
       "gardes": 2,
       "ecartes": 0,
@@ -81,8 +77,6 @@
       "ia_a_trouve": 4,
       "gardes": 4,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -92,14 +86,12 @@
       "ia_a_trouve": 1,
       "gardes": 1,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 12702,
+      "page_caracteres": 12699,
       "ia_a_trouve": 2,
       "gardes": 0,
       "ecartes": 2,
@@ -114,14 +106,12 @@
       "ia_a_trouve": 3,
       "gardes": 3,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Grand Curtius (Liège)",
       "ok": true,
-      "page_caracteres": 9028,
+      "page_caracteres": 8556,
       "ia_a_trouve": 6,
       "gardes": 6,
       "ecartes": 0,
@@ -136,8 +126,6 @@
       "ia_a_trouve": 2,
       "gardes": 2,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -147,8 +135,6 @@
       "ia_a_trouve": 2,
       "gardes": 2,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -158,8 +144,6 @@
       "ia_a_trouve": 7,
       "gardes": 7,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -169,16 +153,14 @@
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Fuse (Bruxelles)",
       "ok": true,
-      "page_caracteres": 5295,
-      "ia_a_trouve": 5,
-      "gardes": 5,
+      "page_caracteres": 5215,
+      "ia_a_trouve": 6,
+      "gardes": 6,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -191,8 +173,6 @@
       "ia_a_trouve": 15,
       "gardes": 15,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -202,14 +182,12 @@
       "ia_a_trouve": 12,
       "gardes": 12,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Ancienne Belgique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 6810,
+      "page_caracteres": 6837,
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
@@ -224,8 +202,6 @@
       "ia_a_trouve": 3,
       "gardes": 3,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -235,8 +211,6 @@
       "ia_a_trouve": 29,
       "gardes": 29,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -246,8 +220,6 @@
       "ia_a_trouve": 15,
       "gardes": 15,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -257,8 +229,6 @@
       "ia_a_trouve": 12,
       "gardes": 12,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -281,15 +251,15 @@
     {
       "source": "Doublons fusionnés",
       "ok": true,
-      "fusionnes": 49
+      "fusionnes": 36
     },
     {
       "source": "Pages des billetteries",
       "ok": true,
-      "pages_lues": 34,
+      "pages_lues": 2,
       "pages_lues_par_ia": 25
     }
   ],
-  "avec_image": 1158,
-  "total": 1847
+  "avec_image": 1048,
+  "total": 1738
 }
