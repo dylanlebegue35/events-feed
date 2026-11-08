@@ -1,12 +1,16 @@
 {
-  "genere": "2026-11-08T00:59:33",
+  "genere": "2026-11-08T01:39:01",
   "sources": [
     {
       "source": "Reflektor (Liège)",
-      "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgpYyMiPGACEANJsJHczF'}",
-      "gardes": 37,
-      "ecartes": 2
+      "ok": true,
+      "page_caracteres": 16363,
+      "ia_a_trouve": 41,
+      "gardes": 41,
+      "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Les Ardentes (Liège)",
@@ -15,7 +19,9 @@
       "ia_a_trouve": 0,
       "gardes": 0,
       "ecartes": 0,
-      "extrait_reponse_ia": ""
+      "morceaux": 1,
+      "reponses_coupees": 0,
+      "extrait_reponse_ia": "[]"
     },
     {
       "source": "Tourisme Spa",
@@ -24,23 +30,31 @@
       "ia_a_trouve": 0,
       "gardes": 0,
       "ecartes": 0,
-      "extrait_reponse_ia": ""
+      "morceaux": 1,
+      "reponses_coupees": 0,
+      "extrait_reponse_ia": "[]"
     },
     {
       "source": "VisitHuy",
       "ok": true,
       "page_caracteres": 5792,
-      "ia_a_trouve": 8,
-      "gardes": 8,
+      "ia_a_trouve": 9,
+      "gardes": 9,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Les Grignoux – cinéma (Liège)",
-      "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgpYz5bnZPs58teofPs4W'}",
-      "gardes": 4,
-      "ecartes": 2
+      "ok": true,
+      "page_caracteres": 54691,
+      "ia_a_trouve": 38,
+      "gardes": 38,
+      "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Le Forum (Liège)",
@@ -51,51 +65,69 @@
     },
     {
       "source": "Standard de Liège",
-      "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgpYzHLVA77LVsFQD4o4F'}",
-      "gardes": 1,
-      "ecartes": 1
+      "ok": true,
+      "page_caracteres": 7573,
+      "ia_a_trouve": 2,
+      "gardes": 2,
+      "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Province de Liège",
       "ok": true,
       "page_caracteres": 19296,
-      "ia_a_trouve": 3,
-      "gardes": 3,
+      "ia_a_trouve": 4,
+      "gardes": 4,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Stavelot",
       "ok": true,
       "page_caracteres": 37355,
-      "ia_a_trouve": 0,
-      "gardes": 0,
+      "ia_a_trouve": 1,
+      "gardes": 1,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Pays de Herve",
-      "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgpYzZV5tZ7xP8u55PJrM'}",
-      "gardes": 1,
-      "ecartes": 1
+      "ok": true,
+      "page_caracteres": 12702,
+      "ia_a_trouve": 2,
+      "gardes": 0,
+      "ecartes": 2,
+      "morceaux": 1,
+      "reponses_coupees": 0,
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Ville de Huy",
       "ok": true,
       "page_caracteres": 5212,
-      "ia_a_trouve": 4,
+      "ia_a_trouve": 3,
       "gardes": 3,
-      "ecartes": 1,
+      "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Grand Curtius (Liège)",
-      "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgpYzkQf2uZSY5CAUPHGV'}",
-      "gardes": 4,
-      "ecartes": 0
+      "ok": true,
+      "page_caracteres": 9028,
+      "ia_a_trouve": 6,
+      "gardes": 6,
+      "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Village de Noël (Liège)",
@@ -104,88 +136,130 @@
       "ia_a_trouve": 2,
       "gardes": 2,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Théâtre de Liège",
       "ok": true,
       "page_caracteres": 6120,
-      "ia_a_trouve": 3,
-      "gardes": 1,
-      "ecartes": 2,
+      "ia_a_trouve": 2,
+      "gardes": 2,
+      "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Opéra Royal de Wallonie",
-      "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgpZ18DpkMR2E82rFMujT'}",
+      "ok": true,
+      "page_caracteres": 41898,
+      "ia_a_trouve": 7,
       "gardes": 7,
-      "ecartes": 0
+      "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Rockerill (Charleroi)",
-      "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgpZ1DhjNDJyyk43UFX51'}",
+      "ok": true,
+      "page_caracteres": 11701,
+      "ia_a_trouve": 10,
       "gardes": 10,
-      "ecartes": 2
+      "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Fuse (Bruxelles)",
-      "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgpZ1N3XpP6igqz9bs7SV'}",
-      "gardes": 4,
-      "ecartes": 2
+      "ok": true,
+      "page_caracteres": 5295,
+      "ia_a_trouve": 5,
+      "gardes": 5,
+      "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Madame Moustache (Bruxelles)",
-      "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgpZ1RuxGmsEjXLAEiR7p'}",
+      "ok": true,
+      "page_caracteres": 39714,
+      "ia_a_trouve": 15,
       "gardes": 15,
-      "ecartes": 2
+      "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Recyclart (Bruxelles)",
       "ok": true,
       "page_caracteres": 4319,
-      "ia_a_trouve": 14,
-      "gardes": 13,
-      "ecartes": 1,
+      "ia_a_trouve": 12,
+      "gardes": 12,
+      "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Ancienne Belgique (Bruxelles)",
-      "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgpZ1epaY2Rsofkg6a9s8'}",
-      "gardes": 4,
-      "ecartes": 6
+      "ok": true,
+      "page_caracteres": 6810,
+      "ia_a_trouve": 10,
+      "gardes": 10,
+      "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Botanique (Bruxelles)",
-      "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgpZ1k6L9VSAo3TgPL2do'}",
-      "gardes": 0,
-      "ecartes": 3
+      "ok": true,
+      "page_caracteres": 4065,
+      "ia_a_trouve": 3,
+      "gardes": 3,
+      "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Trix (Anvers)",
-      "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgpZ1qjAUEYjiXkAq66H4'}",
-      "gardes": 15,
-      "ecartes": 5
+      "ok": true,
+      "page_caracteres": 10578,
+      "ia_a_trouve": 29,
+      "gardes": 29,
+      "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Het Depot (Louvain)",
-      "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgpZ1w2AVUENqyVj3TDnn'}",
+      "ok": true,
+      "page_caracteres": 8269,
+      "ia_a_trouve": 15,
       "gardes": 15,
-      "ecartes": 1
+      "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Mars – Mons arts de la scène",
-      "ok": false,
-      "erreur": "lecture indisponible, dernière lecture réutilisée : réponse API inattendue : {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CgpZ26CZrik87X22ZJnDJ'}",
-      "gardes": 7,
-      "ecartes": 0
+      "ok": true,
+      "page_caracteres": 12127,
+      "ia_a_trouve": 12,
+      "gardes": 12,
+      "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Le Hangar (Liège)",
@@ -207,15 +281,15 @@
     {
       "source": "Doublons fusionnés",
       "ok": true,
-      "fusionnes": 48
+      "fusionnes": 49
     },
     {
       "source": "Pages des billetteries",
       "ok": true,
-      "pages_lues": 1,
-      "pages_lues_par_ia": 0
+      "pages_lues": 34,
+      "pages_lues_par_ia": 25
     }
   ],
-  "avec_image": 1113,
-  "total": 1776
+  "avec_image": 1158,
+  "total": 1847
 }
