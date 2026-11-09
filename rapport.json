@@ -1,12 +1,12 @@
 {
-  "genere": "2026-11-09T01:23:35",
+  "genere": "2026-11-09T12:22:01",
   "sources": [
     {
       "source": "Reflektor (Liège)",
       "ok": true,
-      "page_caracteres": 16363,
-      "ia_a_trouve": 41,
-      "gardes": 41,
+      "page_caracteres": 16273,
+      "ia_a_trouve": 42,
+      "gardes": 42,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -37,16 +37,14 @@
       "ia_a_trouve": 9,
       "gardes": 9,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 52416,
-      "ia_a_trouve": 37,
-      "gardes": 37,
+      "page_caracteres": 52797,
+      "ia_a_trouve": 40,
+      "gardes": 40,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -55,7 +53,7 @@
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 42506,
+      "page_caracteres": 42504,
       "ia_a_trouve": 126,
       "gardes": 126,
       "ecartes": 0,
@@ -77,8 +75,6 @@
       "ia_a_trouve": 4,
       "gardes": 4,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -93,30 +89,34 @@
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 12521,
-      "ia_a_trouve": 0,
+      "page_caracteres": 12518,
+      "ia_a_trouve": 3,
       "gardes": 0,
-      "ecartes": 0,
+      "ecartes": 3,
       "morceaux": 1,
       "reponses_coupees": 0,
-      "extrait_reponse_ia": "[]"
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Ville de Huy",
       "ok": true,
-      "page_caracteres": 5212,
-      "ia_a_trouve": 3,
-      "gardes": 3,
+      "page_caracteres": 5218,
+      "ia_a_trouve": 4,
+      "gardes": 4,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Grand Curtius (Liège)",
       "ok": true,
-      "page_caracteres": 8556,
-      "ia_a_trouve": 6,
-      "gardes": 5,
-      "ecartes": 1,
+      "page_caracteres": 8173,
+      "ia_a_trouve": 7,
+      "gardes": 4,
+      "ecartes": 3,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -140,9 +140,9 @@
     {
       "source": "Opéra Royal de Wallonie",
       "ok": true,
-      "page_caracteres": 41886,
-      "ia_a_trouve": 5,
-      "gardes": 5,
+      "page_caracteres": 41913,
+      "ia_a_trouve": 6,
+      "gardes": 6,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -191,8 +191,6 @@
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -202,16 +200,14 @@
       "ia_a_trouve": 3,
       "gardes": 3,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Trix (Anvers)",
       "ok": true,
-      "page_caracteres": 10568,
-      "ia_a_trouve": 28,
-      "gardes": 28,
+      "page_caracteres": 10551,
+      "ia_a_trouve": 29,
+      "gardes": 29,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -220,7 +216,7 @@
     {
       "source": "Het Depot (Louvain)",
       "ok": true,
-      "page_caracteres": 7871,
+      "page_caracteres": 7890,
       "ia_a_trouve": 15,
       "gardes": 15,
       "ecartes": 0,
@@ -231,7 +227,7 @@
     {
       "source": "Mars – Mons arts de la scène",
       "ok": true,
-      "page_caracteres": 11853,
+      "page_caracteres": 11858,
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
@@ -259,15 +255,15 @@
     {
       "source": "Doublons fusionnés",
       "ok": true,
-      "fusionnes": 47
+      "fusionnes": 48
     },
     {
       "source": "Pages des billetteries",
       "ok": true,
-      "pages_lues": 7,
-      "pages_lues_par_ia": 25
+      "pages_lues": 10,
+      "pages_lues_par_ia": 23
     }
   ],
-  "avec_image": 1124,
-  "total": 1744
+  "avec_image": 1129,
+  "total": 1749
 }

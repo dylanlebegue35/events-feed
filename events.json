@@ -1,28 +1,6 @@
 {
-  "generated": "2026-11-09T01:23:35",
+  "generated": "2026-11-09T12:22:01",
   "events": [
-    {
-      "id": "web-grand-curtius-li-ge-un-espace-c-sar-franck-au-grand-curtius-2022-01-12",
-      "title": "Un espace César Franck au Grand Curtius",
-      "category": "expo",
-      "venue": "Grand Curtius",
-      "city": "Liège",
-      "lat": 50.6471353,
-      "lon": 5.5835333,
-      "start": "2022-01-12T10:00:00",
-      "end": "2027-03-07T20:00:00",
-      "image": "https://www.grandcurtius.be/sites/default/files/styles/teaser_wide/public/2023-12/bandeau%20cesar%20franck%202024.jpg?itok=6bSWQTqJ",
-      "page_url": "https://www.grandcurtius.be/fr/actualites/exposition/un-espace-cesar-franck-au-grand-curtius",
-      "url": "https://www.grandcurtius.be/fr/actualites/exposition/un-espace-cesar-franck-au-grand-curtius",
-      "summary": "L'Espace César Franck, au sein du parcours permanent du Grand Curtius à Liège, présente la console de l'orgue Cavaillé-Coll de César Franck, le manuscrit des Variations symphoniques et le piano Serrurier-Bovy. Depuis 2023, il expose aussi un piano Erard ayant appartenu au compositeur.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [
-        "découverte"
-      ],
-      "source": "Grand Curtius (Liège)"
-    },
     {
       "id": "web-visithuy-l-invention-cach-e-2026-05-25",
       "title": "L'invention cachée",
@@ -220,7 +198,7 @@
       "image": "https://www.grandcurtius.be/sites/default/files/styles/teaser_wide/public/2026-07/bandeau%20VIOLON%20DESSIN%20CHARTE.jpg?itok=lUJe3GHH",
       "page_url": "https://www.grandcurtius.be/fr/actualites/exposition/quand-paganini-rencontre-ysaye-les-violons-des-diables",
       "url": "https://www.grandcurtius.be/fr/actualites/exposition/quand-paganini-rencontre-ysaye-les-violons-des-diables",
-      "summary": "Exposition retraçant l'héritage de Niccolò Paganini et son rayonnement sur l'École liégeoise du violon, avec manuscrits, instruments et archives inédites.",
+      "summary": "Exposition retraçant l'héritage de Niccolò Paganini et son rayonnement au cœur de l'École liégeoise du violon, à travers manuscrits, instruments et archives.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -481,12 +459,12 @@
       "lon": 3.9554029,
       "start": "2026-11-09T09:15:00",
       "end": "2026-11-09T09:15:00",
-      "image": null,
+      "image": "https://surmars.be/sites/default/files/2026-06/CHROMATIQUE-c-Constance-Proux.jpg",
       "page_url": "https://www.surmars.be/agenda/2026-11/danse/chromatique",
-      "url": "https://shop.infinitix.be/SURMARSBE_INF/S/88638D7E-57AD-C1AF-0435-FD7D8D2F089E/?d=E1B15778-7B26-D4D9-3A2A-C1B7584368AF",
-      "summary": "Spectacle de danse jeune public.",
-      "price_from": null,
-      "free": null,
+      "url": "https://www.surmars.be/agenda/2026-11/danse/chromatique",
+      "summary": "Spectacle de danse pop-électro dès 3 ans (40 min), qui revisite le Carnaval des animaux de Saint-Saëns. Couleurs fluo, lumières mouvantes et objets du quotidien devenus instruments accompagnent Louise Baduel.",
+      "price_from": 3.0,
+      "free": false,
       "audience": [
         "family"
       ],
@@ -824,28 +802,6 @@
       "classified": true
     },
     {
-      "id": "web-mars-mons-arts-de-la-sc-ne-chromatique-2026-11-10",
-      "title": "Chromatique",
-      "category": "theatre",
-      "venue": "Mars",
-      "city": "Mons",
-      "lat": 50.4650237,
-      "lon": 3.9554029,
-      "start": "2026-11-10T09:15:00",
-      "end": "2026-11-10T09:15:00",
-      "image": null,
-      "page_url": "https://www.surmars.be/agenda/2026-11/danse/chromatique",
-      "url": "https://shop.infinitix.be/SURMARSBE_INF/S/88638D7E-57AD-C1AF-0435-FD7D8D2F089E/?d=5A504092-5513-0305-F267-56217982168F",
-      "summary": "Spectacle de danse jeune public.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "family"
-      ],
-      "tags": [],
-      "source": "Mars – Mons arts de la scène"
-    },
-    {
       "id": "fbx-2847598355612063",
       "title": "Table de conversation - Enseignement : quelle école pour demain ?",
       "category": "talks",
@@ -1004,7 +960,7 @@
       "lon": 4.4483726,
       "start": "2026-11-10T10:00:00",
       "end": "2026-11-10T10:00:00",
-      "image": "https://www.trixonline.be/media/cache/default_highlight/uploads/media/default/23ef/7b/528abafa37280c629cd8419aca32b4250a1b9d49.webp",
+      "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/23ef/7b/528abafa37280c629cd8419aca32b4250a1b9d49.webp",
       "page_url": "https://www.trixonline.be/nl/event/psychedelic-porn-crumpets-2",
       "url": "https://www.trixonline.be/nl/event/psychedelic-porn-crumpets-2",
       "summary": "De Australische psych-rockkoningen van Psychedelic Porn Crumpets brengen een hyperactieve mix van gitaargeweld en garagepunk die live uitmondt in een zwetende moshpit en dwars door je trommelvliezen boort.",
@@ -1066,10 +1022,10 @@
       "lon": 4.7137996,
       "start": "2026-11-10T10:00:00",
       "end": "2026-11-10T10:00:00",
-      "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0aQF0000138CjKYAU_1800x810_1800.jpg?itok=-ZLn4RM8",
+      "image": "https://www.hetdepot.be/sites/default/files/styles/concert_suggestion_small/public/a0aQF0000138CjKYAU_1800x810_1800.jpg?itok=WD2WYGgA",
       "page_url": "https://www.hetdepot.be/newwavenight",
       "url": "https://apps.ticketmatic.com/widgets/hetdepot/flow/ticketsdepot?event=266127709890&l=nl#!/addtickets",
-      "summary": "Het Depot et De Tijdloze invitent un des pionniers de la scène electroclash, avec afterparty.",
+      "summary": "Soirée New Wave avec Crash Course in Science, The Whatevers et DJ Malcolm Nix, plus afterparty.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -2122,10 +2078,12 @@
       "image": null,
       "page_url": null,
       "url": "https://shop.paylogic.com/0eec0df6ed774bb88e93e679214ec1e1",
-      "summary": "Concert de MIKI + Lovelace à OM.",
+      "summary": "Concert de MIKI + Lovelace à l'OM.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Reflektor (Liège)"
     },
@@ -2202,7 +2160,7 @@
       "image": "https://agenda.enwallonie.be/huy/homepage/1e494ce33bc642e88d986e9a45dd338b/@@images/image-430-0e812e6456a5250649401b4bf96f664c.png",
       "page_url": "https://www.huy.be/agenda/sainte-catherine-cross-marche-benediction-des?u=1e494ce33bc642e88d986e9a45dd338b",
       "url": "https://www.huy.be/agenda/sainte-catherine-cross-marche-benediction-des?u=1e494ce33bc642e88d986e9a45dd338b",
-      "summary": "Sainte-Catherine : cross, marché, bénédiction des animaux, semaine de l'arbre...",
+      "summary": "Programme de la Sainte-Catherine : cross, marché, bénédiction des animaux, semaine de l'arbre.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -2346,10 +2304,12 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0aQF00000unBIFYA2_1800x810_1800.jpg?itok=Rs9nL0fB",
       "page_url": "https://www.hetdepot.be/concert/2026/iskander-moon",
       "url": "https://apps.ticketmatic.com/widgets/hetdepot/flow/newwebskin?event=718829249555&l=nl#!/addtickets",
-      "summary": "Iskander Moon revient avec son nouvel album 'Salt Moon City' : stratifié, brut et personnel.",
+      "summary": "Iskander Moon présente son premier album « Salt Moon City » : rauque, stratifié et personnel.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Het Depot (Louvain)"
     },
@@ -2685,10 +2645,12 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/09/MOMOKO-GILL-Photo-by-MANUEL-VASQUEZ.jpg",
       "page_url": "https://reflektor.be/concert/momoko-gill/",
       "url": "https://shop.paylogic.com/9816d02f6f52408f80a542071212f15e",
-      "summary": "Concert de Momoko Gill + Condore au Reflektor (sold out).",
+      "summary": "Concert de Momoko Gill + Condore au Reflektor.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Reflektor (Liège)"
     },
@@ -2751,6 +2713,26 @@
       "audience": [],
       "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
+    },
+    {
+      "id": "web-ville-de-huy-lspi-conseil-d-administration-ouvert-au-public-2026-11-12",
+      "title": "LSPI - Conseil d'Administration ouvert au public",
+      "category": "talks",
+      "venue": "Huy",
+      "city": "Huy",
+      "lat": 50.5180856,
+      "lon": 5.2408138,
+      "start": "2026-11-12T10:00:00",
+      "end": "2026-11-12T10:00:00",
+      "image": "https://actualites.enwallonie.be/huy/administration-communale/f61a3dd6694644569c58b45e8cd539cd/@@images/image-430-a64a91c38f5073cf08536c51c9f78033.jpeg",
+      "page_url": "https://www.huy.be/actualites/lspi-conseil-dadministration-ouvert-au-public-le?u=f61a3dd6694644569c58b45e8cd539cd",
+      "url": "https://www.huy.be/actualites/lspi-conseil-dadministration-ouvert-au-public-le?u=f61a3dd6694644569c58b45e8cd539cd",
+      "summary": "Conseil d'Administration de la LSPI ouvert au public le 12 novembre.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ville de Huy"
     },
     {
       "id": "web-th-tre-de-li-ge-mylittleemi-2026-11-12",
@@ -2847,7 +2829,7 @@
       "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/9bde/85/be7597bc56163fd2e4234f42a78fce8ce72bc246.webp",
       "page_url": "https://www.trixonline.be/nl/event/cafe-kelder-away-away-hecla-valerie-and-the-rain",
       "url": "https://www.trixonline.be/nl/event/cafe-kelder-away-away-hecla-valerie-and-the-rain",
-      "summary": "Tijdens Café Kelder krijgen repeteerders uit Trix vrij spel op ons podium in het Café!",
+      "summary": "Soirée Café Kelder avec away! away!, Hecla et Valerie and the rain au Trix, le 12 novembre 2026.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -2855,8 +2837,8 @@
       "source": "Trix (Anvers)"
     },
     {
-      "id": "web-het-depot-louvain-rauw-2026-11-12",
-      "title": "RAUW!",
+      "id": "web-het-depot-louvain-rauw-open-stage-for-hiphop-creatives-2026-11-12",
+      "title": "RAUW! Open stage for hiphop creatives",
       "category": "concert",
       "venue": "Het Depot",
       "city": "Louvain",
@@ -2867,14 +2849,15 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0ac100000dQSIQAA4_1800x810_1800.jpg?itok=aMB8DRzT",
       "page_url": "https://www.hetdepot.be/concert/2026/rauw-5",
       "url": "https://www.hetdepot.be/concert/2026/rauw-5",
-      "summary": "Open stage pour les créatifs du hip-hop.",
+      "summary": "RAUW!, une scène ouverte pour les créatifs du hip-hop.",
       "price_from": null,
       "free": true,
       "audience": [
         "young"
       ],
       "tags": [
-        "gratuit"
+        "gratuit",
+        "créatif"
       ],
       "source": "Het Depot (Louvain)"
     },
@@ -3501,10 +3484,12 @@
       "image": null,
       "page_url": null,
       "url": "https://shop.paylogic.com/f181d69b55c4457f8fd82272df255310/offsale",
-      "summary": "Concert de L.E.J. à OM.",
+      "summary": "Concert de L.E.J. à l'OM.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Reflektor (Liège)"
     },
@@ -3639,8 +3624,8 @@
       "source": "Trix (Anvers)"
     },
     {
-      "id": "web-het-depot-louvain-frank-boeijen-2026-11-13",
-      "title": "Frank Boeijen",
+      "id": "web-het-depot-louvain-frank-boeijen-sold-out-2026-11-13",
+      "title": "Frank Boeijen (sold out)",
       "category": "concert",
       "venue": "Het Depot",
       "city": "Louvain",
@@ -3651,7 +3636,7 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0aQF000010s1eYYAQ_1800x810_1800.jpg?itok=UtTM84Gz",
       "page_url": "https://www.hetdepot.be/concert/2026/frank-boeijen",
       "url": "https://apps.ticketmatic.com/widgets/hetdepot/flow/newwebskin?event=335287916672&l=nl#!/addtickets",
-      "summary": "Figure de la musique néerlandaise revient avec de vieilles perles et de nouveaux titres. Complet, liste d'attente disponible.",
+      "summary": "Concert au Het Depot, dans la grande salle, la foyer ou l'espace VIP selon la configuration choisie. Certaines formules sont entièrement assises, d'autres mêlent places assises et debout, et l'espace VIP offre une boisson gratuite.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -4622,9 +4607,9 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Emmanuel-Strosser-c-Jean-Baptiste-Millot.jpg.webp?itok=C2sliKih",
       "page_url": "https://www.surmars.be/agenda/2026-11/musique/sonates-de-schubert",
       "url": "https://shop.infinitix.be/SURMARSBE_INF/S/29DC3295-53A7-4B4B-58BD-3DB9116E1A4F/?d=86F0CE17-5D0C-27D3-6EF0-2D661B4AA29D",
-      "summary": "Le pianiste Emmanuel Strosser interprète Schubert, avec une clarté et une poésie sonore qui font sa réputation.",
-      "price_from": null,
-      "free": null,
+      "summary": "Le pianiste Emmanuel Strosser, reconnu pour son art du chant intérieur, interprète les sonates de Schubert.",
+      "price_from": 3.0,
+      "free": false,
       "audience": [],
       "tags": [],
       "source": "Mars – Mons arts de la scène"
@@ -5225,7 +5210,7 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/03/EBONY_WNG0081-1-e1774872295102-scaled.jpg",
       "page_url": "https://reflektor.be/concert/ebony/",
       "url": "https://shop.paylogic.com/8a610502c1a04ff28e721be46fae5355",
-      "summary": "Concert de Ebony + Kynato au Reflektor (sold out).",
+      "summary": "Concert de Ebony + Kynato au Reflektor.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -5455,7 +5440,7 @@
       "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/42a3/88/88af7d5975c309e94f831c8ebb7226378dc1963c.webp",
       "page_url": "https://www.trixonline.be/nl/event/swae-lee",
       "url": "https://www.trixonline.be/nl/event/swae-lee",
-      "summary": "Concert de Swae Lee au Trix.",
+      "summary": "Concert de Swae Lee au Trix, le 14 novembre 2026.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -5486,7 +5471,7 @@
     },
     {
       "id": "web-het-depot-louvain-utopia-felix-da-housecat-greppeldisco-soundsystem-goldfox-b2b-",
-      "title": "Utopia : Felix Da Housecat, Greppeldisco Soundsystem & Goldfox b2b Prinz",
+      "title": "Utopia (Felix Da Housecat, Greppeldisco Soundsystem & Goldfox b2b Prinz) - reporté",
       "category": "party",
       "venue": "Het Depot",
       "city": "Louvain",
@@ -5497,7 +5482,7 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0ac100000c34sRAAQ_1800x810_1800.jpg?itok=GAUVLXJR",
       "page_url": "https://www.hetdepot.be/utopia",
       "url": "https://apps.ticketmatic.com/widgets/hetdepot/flow/feest?event=587369949735&l=en",
-      "summary": "Soirée Utopia avec Felix Da Housecat, Greppeldisco Soundsystem et Goldfox b2b Prinz. Le show de Felix Da Housecat est reporté.",
+      "summary": "Soirée Utopia : le concert de Felix Da Housecat est reporté.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -8651,7 +8636,7 @@
       "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/70c4/c0/2df96dc6d63f5661c8d9744689b3817be51c6259.webp",
       "page_url": "https://www.trixonline.be/nl/event/freya-skye-1",
       "url": "https://www.trixonline.be/nl/event/freya-skye-1",
-      "summary": "Concert de Freya Skye au Trix.",
+      "summary": "Concert de Freya Skye au Trix, le 16 novembre 2026.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -8795,9 +8780,7 @@
       "summary": "Alles over hoe een PA, mengtafel en microfoons werken.Altijd al willen weten waarom sommige concerten zo ongelofelijk goed klinken? Benieuwd naar wat die persoon achter de mengtafel nu eigenlijk allemaal aan het doen is? Tijdens deze cursus leer je op drie intensieve lesavonden hoe een PA, mengtafel",
       "price_from": 16.0,
       "free": false,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -8814,7 +8797,7 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Oedipus-c-Alexandre-Fytrakis.jpeg.webp?itok=AXAvT6yv",
       "page_url": "https://www.surmars.be/agenda/2026-11/theatre/oedipus",
       "url": "https://www.surmars.be/agenda/2026-11/theatre/oedipus",
-      "summary": "Oedipus transpose le mythe de Sophocle dans notre siècle, avec une villa de vacances en Grèce, sur le thème du pouvoir.",
+      "summary": "Oedipus inscrit le mythe antique de Sophocle dans notre siècle et traite du pouvoir et des façons de gouverner.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -8996,7 +8979,7 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Catch-litteraire-c-David-Bormans.png.webp?itok=FhAYCLvl",
       "page_url": "https://www.surmars.be/agenda/2026-11/litterature/catch-litteraire",
       "url": "https://www.surmars.be/agenda/2026-11/litterature/catch-litteraire",
-      "summary": "Quatre lutteurs·ses amoureux·ses des mots s'affrontent deux par deux sur le ring, clavier en main, dans une ambiance conviviale et déjantée.",
+      "summary": "Quatre lutteurs·ses amoureux·ses des mots s'affrontent deux par deux sur le ring, clavier en main, dans une ambiance conviviale.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -9113,7 +9096,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/nayte-18-11/",
       "url": "https://shop.paylogic.com/172bc7d26911453a869d81b999a6245b",
-      "summary": "Concert de NAYTE au Reflektor le 18 novembre (sold out).",
+      "summary": "Concert de NAYTE au Reflektor.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -9200,7 +9183,9 @@
       "summary": "Blu Samu, urban samurai bruxelloise, présente son premier album « (K)NOT » sur la scène de Trix à Anvers. Mêlant hip-hop, soul et ce qu'elle appelle « porseleinen punk », elle aborde l'acceptation, la nostalgie, l'amour de soi et la résilience.",
       "price_from": 3.9,
       "free": false,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -9217,7 +9202,7 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0aQF00000zHFnVYAW_1800x810_1800.jpg?itok=1DtS-50b",
       "page_url": "https://www.hetdepot.be/concert/2026/the-scene-x-syb-van-der-ploeg",
       "url": "https://apps.ticketmatic.com/widgets/hetdepot/flow/newwebskin?event=340506736470&l=nl#!/addtickets",
-      "summary": "Jan Douwe Kroeske présente The Scene In Beeld, avec la nouvelle voix Syb van der Ploeg (De Kast) en première ligne.",
+      "summary": "The Scene revient avec la nouvelle voix Syb van der Ploeg (De Kast), présenté par Jan Douwe Kroeske.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -9241,7 +9226,9 @@
       "price_from": 3.0,
       "free": false,
       "audience": [],
-      "tags": [],
+      "tags": [
+        "découverte"
+      ],
       "source": "Grand Curtius (Liège)"
     },
     {
@@ -9736,7 +9723,7 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/09/Nayte2-1-e1789458304779.jpeg",
       "page_url": "https://reflektor.be/concert/3467/",
       "url": "https://shop.paylogic.com/476d083e126a450fbef1887f68a7d4ce",
-      "summary": "Concert de NAYTE au Reflektor le 19 novembre.",
+      "summary": "Concert de NAYTE au Reflektor.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -9827,7 +9814,7 @@
     },
     {
       "id": "web-het-depot-louvain-andries-beckers-de-zwaarste-theatershow-premi-re-2026-11-19",
-      "title": "Andries Beckers – De Zwaarste Theatershow (première)",
+      "title": "Andries Beckers - De Zwaarste Theatershow (première)",
       "category": "theatre",
       "venue": "Het Depot",
       "city": "Louvain",
@@ -9838,7 +9825,7 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0ac100000f8FVKAA2_1800x810_1800.jpg?itok=EvvYCOhX",
       "page_url": "https://www.hetdepot.be/concert/2026/andries-beckers",
       "url": "https://apps.ticketmatic.com/widgets/hetdepot/flow/newwebskin?event=463453884384&l=nl#!/addtickets",
-      "summary": "Première de De Zwaarste Theatershow : trois accords, mille histoires.",
+      "summary": "Première de De Zwaarste Theatershow d'Andries Beckers : trois accords, mille histoires.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -10424,7 +10411,7 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/02/628533-The-Jazz-Room-Paris-1-82e29e-original-1763724982-scaled-1.jpg",
       "page_url": "https://reflektor.be/concert/the-jazz-room-un-voyage-au-coeur-de-la-nouvelle-orleans-2/",
       "url": "https://shop.paylogic.com/a625f7a9d0b0464ab78c04dace462f65/",
-      "summary": "Concert jazz « Un voyage au cœur de La Nouvelle-Orléans » au Reflektor (sold out).",
+      "summary": "Concert The Jazz Room : un voyage au cœur de La Nouvelle-Orléans au Reflektor.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -10464,7 +10451,7 @@
       "image": "https://agenda.enwallonie.be/huy/homepage/f2b2d635d82e426f8d69da3318713c32/@@images/image-430-5780f223f1b9ecfa07ef715abb2618e2.jpeg",
       "page_url": "https://www.huy.be/agenda/plaisirs-de-noel-tout-le-programme-du-20-nov-au-3?u=f2b2d635d82e426f8d69da3318713c32",
       "url": "https://www.huy.be/agenda/plaisirs-de-noel-tout-le-programme-du-20-nov-au-3?u=f2b2d635d82e426f8d69da3318713c32",
-      "summary": "Plaisirs de Noël - Tout le programme du 20 NOV au 3 JAN",
+      "summary": "Tout le programme des Plaisirs de Noël, du 20 novembre au 3 janvier.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -10496,8 +10483,8 @@
       "source": "Fuse (Bruxelles)"
     },
     {
-      "id": "web-het-depot-louvain-psychonaut-the-guru-guru-2026-11-20",
-      "title": "Psychonaut + The Guru Guru",
+      "id": "web-het-depot-louvain-psychonaut-special-guest-the-guru-guru-2026-11-20",
+      "title": "Psychonaut + special guest The Guru Guru",
       "category": "concert",
       "venue": "Het Depot",
       "city": "Louvain",
@@ -10508,7 +10495,7 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0aQF000014JP4kYAG_1800x810_1800.jpg?itok=UstlrCGn",
       "page_url": "https://www.hetdepot.be/concert/2026/psychonaut",
       "url": "https://apps.ticketmatic.com/widgets/hetdepot/flow/newwebskin?event=778520615967&l=nl#!/addtickets",
-      "summary": "Psychonaut avec special guest The Guru Guru : le travail le plus musclé de la scène belge.",
+      "summary": "Psychonaut avec The Guru Guru : le son plus musclé de la scène belge.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -12114,8 +12101,8 @@
       "source": "Province de Liège"
     },
     {
-      "id": "web-grand-curtius-li-ge-ap-ro-litt-raire-prix-marcel-thiry-2026-roman-2026-11-21",
-      "title": "Apéro littéraire : Prix Marcel Thiry 2026 (roman)",
+      "id": "web-grand-curtius-li-ge-ap-ro-litt-raire-enlivrez-vous-prix-marcel-thiry-2026-roman-",
+      "title": "Apéro littéraire : Enlivrez-vous ! Prix Marcel Thiry 2026 (roman)",
       "category": "talks",
       "venue": "Grand Curtius",
       "city": "Liège",
@@ -12126,11 +12113,13 @@
       "image": "https://www.grandcurtius.be/sites/default/files/styles/teaser_wide/public/2026-10/bandeau%20thiry%20txt_0.jpg?itok=0dQlJVUx",
       "page_url": "https://www.grandcurtius.be/fr/actualites/agenda/apero-litteraire-enlivrez-vous-prix-marcel-thiry-2026-roman",
       "url": "https://www.grandcurtius.be/fr/actualites/agenda/apero-litteraire-enlivrez-vous-prix-marcel-thiry-2026-roman",
-      "summary": "Remise du Prix Marcel Thiry 2026, consacré cette année au roman (ou aux nouvelles), en présence du lauréat ou de la lauréate et des finalistes. Au programme : discussions avec les finalistes, animées par Guy Delhasse.",
+      "summary": "Remise du Prix Marcel Thiry 2026 (catégorie roman ou nouvelles) par l'échevine de la Culture de la Ville de Liège, en présence du lauréat ou de la lauréate et des finalistes. Discussions avec les finalistes, animées par Guy Delhasse, à l'Auditorium du Grand Curtius.",
       "price_from": null,
       "free": true,
       "audience": [],
-      "tags": [],
+      "tags": [
+        "découverte"
+      ],
       "source": "Grand Curtius (Liège)"
     },
     {
@@ -12146,7 +12135,7 @@
       "image": "https://www.operaliege.be/app/uploads/2026/03/2026-03-12_ORW-26-27_Hero_ZombieOpera_V2-1-scaled.jpg",
       "page_url": "https://www.operaliege.be/evenement/zombie-opera-2026/",
       "url": "https://www.operaliege.be/evenement/zombie-opera-2026/?opened",
-      "summary": "Création à l'Opéra Royal de Wallonie, avec Andrea Battistoni à la direction musicale.",
+      "summary": "Zombie Opera, avec Andrea Battistoni.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -12166,7 +12155,7 @@
       "image": "https://www.operaliege.be/app/uploads/2026/04/Zombie-Co-v1-1600x900px-2026-2027.png",
       "page_url": "https://www.operaliege.be/evenement/animation-zombie-co-2026/",
       "url": "https://www.operaliege.be/evenement/animation-zombie-co-2026/?opened",
-      "summary": "Animation autour de Zombie Opera à l'Opéra Royal de Wallonie, du 21 au 26 novembre 2026.",
+      "summary": "Animation autour de Zombie Opera à l'Opéra Royal de Wallonie.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -12207,7 +12196,7 @@
       "lon": 4.7137996,
       "start": "2026-11-21T10:00:00",
       "end": "2026-11-21T10:00:00",
-      "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0aQF000017e0klYAA_1800x810_1800.jpg?itok=Wdlw0M8M",
+      "image": "https://www.hetdepot.be/sites/default/files/styles/concert_suggestion_small/public/a0aQF000017e0klYAA_1800x810_1800.jpg?itok=_XaLTPJ-",
       "page_url": "https://www.hetdepot.be/concert/2026/breaking-barriers-presents-the-kids-50",
       "url": "https://apps.ticketmatic.com/widgets/hetdepot/flow/newwebskin?event=492254516339&l=nl#!/addtickets",
       "summary": "Concert au Het Depot, dans la grande salle, dans la foyer ou dans l'espace VIP selon la configuration choisie (assise, flex, box ou foyer). La page ne précise ni le programme détaillé ni les horaires.",
@@ -12216,7 +12205,9 @@
       "audience": [
         "young"
       ],
-      "tags": [],
+      "tags": [
+        "soirée"
+      ],
       "source": "Het Depot (Louvain)"
     },
     {
@@ -15020,7 +15011,7 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Cassandre.jpeg.webp?itok=nlGvnAdo",
       "page_url": "https://www.surmars.be/agenda/2026-11/theatre/cassandre",
       "url": "https://www.surmars.be/agenda/2026-11/theatre/cassandre",
-      "summary": "Une femme prélève l'eau, découvre un problème et se heurte à une ville qui reste sourde.",
+      "summary": "Une femme prélève l'eau, découvre un problème et insiste pour être entendue, face à une ville qui reste sourde.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -15458,7 +15449,7 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/06/RR-Admat-W13-TBM-1-scaled-e1780473427282.png",
       "page_url": "https://reflektor.be/concert/wednesday-13-the-birthday-massacre-killus/",
       "url": "https://shop.paylogic.com/1ec952da2efd444ca4a852a1a3544f5c/offsale",
-      "summary": "Concert de Wednesday 13 + THE BIRTHDAY MASSACRE + Killus au Reflektor.",
+      "summary": "Concert de Wednesday 13, THE BIRTHDAY MASSACRE et Killus au Reflektor.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -16095,7 +16086,9 @@
       "summary": "Stan, d'origine modeste, découvre la famille de sa petite amie Cléo, qui organise un Trivial Pursuit à chaque anniversaire de France. Projection adaptée aux jeunes parents et bébés de 0 à 10 mois, suivie d'un verre offert à la brasserie Sauvenière.",
       "price_from": 3.0,
       "free": false,
-      "audience": [],
+      "audience": [
+        "senior"
+      ],
       "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
@@ -18901,7 +18894,7 @@
       "image": "https://www.operaliege.be/app/uploads/2026/03/2026-03-18_ORW-26-27_Hero_Musica_V3-scaled.jpg",
       "page_url": "https://www.operaliege.be/evenement/musica-da-camera-2026-2027/",
       "url": "https://www.operaliege.be/evenement/musica-da-camera-2026-2027/?opened",
-      "summary": "Cycle de concerts Musica da camera à l'Opéra Royal de Wallonie, saison 2026-2027.",
+      "summary": "Saison de concerts de musique de chambre à l'Opéra Royal de Wallonie, de novembre 2026 à juin 2027.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -19675,7 +19668,7 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Chwallow-c-Alice-Piemme.jpg.webp?itok=fMeYfNsA",
       "page_url": "https://www.surmars.be/agenda/2026-12/cirque/chwallow",
       "url": "https://www.surmars.be/agenda/2026-12/cirque/chwallow",
-      "summary": "Spectacle de cirque hybride, à la croisée des arts plastiques, de la scénographie et du voyage sensoriel.",
+      "summary": "Spectacle de cirque hybride de Julien Fournier, à la croisée des arts plastiques, de la scénographie et du voyage sensoriel.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -21621,10 +21614,12 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/10/ANDRE-BORBE-1-e1791447116377.jpeg",
       "page_url": "https://reflektor.be/concert/la-saint-nicolas-du-regina-club-andre-borbe-presente-borbestof/",
       "url": "https://shop.paylogic.com/2a4a6d38ec4143789b1350935d75ba63",
-      "summary": "Soirée Saint-Nicolas au Regina Club avec André Borbé présente Borbest'Of.",
+      "summary": "La Saint-Nicolas du Regina Club avec André Borbe présente Borbest'of.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Reflektor (Liège)"
     },
@@ -21664,7 +21659,7 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Bandits-les-cowboys-de-l-espace.jpeg.webp?itok=-QRgRxt9",
       "page_url": "https://www.surmars.be/agenda/2026-12/musique/bandits-les-cowboys-de-lespace",
       "url": "https://www.surmars.be/agenda/2026-12/musique/bandits-les-cowboys-de-lespace",
-      "summary": "Des cowboys de l'espace en santiags à paillettes slaloment entre cactus imaginaires et refrains qui font danser et rire.",
+      "summary": "Les cowboys de l'espace débarquent en santiags à paillettes dans un Far West intersidéral, entre cactus imaginaires et refrains qui font danser.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -22303,7 +22298,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/emel/",
       "url": "https://shop.paylogic.com/ff0a55215fdb41c1a822a4b119df2f25",
-      "summary": "Concert d'Emel au Reflektor.",
+      "summary": "Concert de Emel au Reflektor.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -22329,6 +22324,26 @@
       "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
+    },
+    {
+      "id": "web-les-grignoux-cin-ma-li-ge-marcinelle-le-56-minutes-2026-12-09",
+      "title": "Marcinelle, le 56 minutes",
+      "category": "cinema",
+      "venue": "Liège",
+      "city": "Liège",
+      "lat": 50.6450944,
+      "lon": 5.5736112,
+      "start": "2026-12-09T10:00:00",
+      "end": "2026-12-09T10:00:00",
+      "image": "https://www.grignoux.be//upload/grignoux/event/3211/marcinelle_le_56_minutes_vignette.jpg",
+      "page_url": "https://www.grignoux.be/fr/evenement/3211/marcinelle-le-56-minutes",
+      "url": "https://www.grignoux.be/fr/evenement/3211/marcinelle-le-56-minutes",
+      "summary": "Projection unique du film « Marcinelle, le 56 minutes » (SONUMA et Bois du Cazier), qui relie l'émigration vers les charbonnages belges à la catastrophe de Marcinelle. Elle est précédée d'une présentation par les directrices de la SONUMA et du Bois du Cazier.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Les Grignoux – cinéma (Liège)"
     },
     {
       "id": "web-les-grignoux-cin-ma-li-ge-les-mes-bossales-2026-12-09",
@@ -22545,7 +22560,7 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/FMS-Perichorese.jpg.webp?itok=pTyPP51F",
       "page_url": "https://www.surmars.be/agenda/2026-12/musique/perichorese",
       "url": "https://www.surmars.be/agenda/2026-12/musique/perichorese",
-      "summary": "Un concert de musique du monde évoquant le temps où Musulmans, Juifs et Chrétiens dansaient ensemble sur les rives de la Méditerranée.",
+      "summary": "Il fut un temps où Musulmans, Juifs et Chrétiens dansaient ensemble sur les rives de la Méditerranée.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -22631,6 +22646,26 @@
       "source": "Facebook (extension)"
     },
     {
+      "id": "web-les-grignoux-cin-ma-li-ge-out-of-the-picture-2026-12-10",
+      "title": "Out of the Picture",
+      "category": "cinema",
+      "venue": "Liège",
+      "city": "Liège",
+      "lat": 50.6450944,
+      "lon": 5.5736112,
+      "start": "2026-12-10T10:00:00",
+      "end": "2026-12-10T10:00:00",
+      "image": "https://www.grignoux.be//upload/grignoux/event/3212/out_of_the_picture_vignette.jpg",
+      "page_url": "https://www.grignoux.be/fr/evenement/3212/out-of-the-picture",
+      "url": "https://www.grignoux.be/fr/evenement/3212/out-of-the-picture",
+      "summary": "Projection unique du film Out of the Picture sur les femmes architectes effacées de l'histoire. Présentée en présence de la réalisatrice et de l'équipe de l'ICA, elle ouvre l'exposition « Quand l'architecture s'engage » au Delta, à Namur.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Les Grignoux – cinéma (Liège)"
+    },
+    {
       "id": "web-les-grignoux-cin-ma-li-ge-tahiti-80-carla-biber-2026-12-10",
       "title": "Tahiti 80 + Carla Biber",
       "category": "concert",
@@ -22646,9 +22681,7 @@
       "summary": "Concert de Tahiti 80, groupe de pop indépendante internationale depuis 25 ans, avec Carla Biber en première partie. Une soirée aux allures d'étés nostalgiques à la Brasserie Sauvenière.",
       "price_from": 20.0,
       "free": false,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
@@ -24581,21 +24614,41 @@
       "source": "Facebook (extension)"
     },
     {
+      "id": "web-les-grignoux-cin-ma-li-ge-la-bola-negra-2026-12-13",
+      "title": "La bola negra",
+      "category": "cinema",
+      "venue": "Liège",
+      "city": "Liège",
+      "lat": 50.6450944,
+      "lon": 5.5736112,
+      "start": "2026-12-13T10:00:00",
+      "end": "2026-12-13T10:00:00",
+      "image": "https://www.grignoux.be//upload/grignoux/event/3209/la_bola_negra_vignette2.jpg",
+      "page_url": "https://www.grignoux.be/fr/evenement/3209/la-bola-negra",
+      "url": "https://www.grignoux.be/fr/evenement/3209/la-bola-negra",
+      "summary": "Film des réalisateurs Javier Ambrossi et Javier Calvo, qui suit trois hommes à trois époques (1932, 1937, 2017) marqués par le rejet social, la guerre et la douleur héritée. Inspiré d'une pièce d'Alberto Conejero et d'une œuvre inachevée de Federico García Lorca.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Les Grignoux – cinéma (Liège)"
+    },
+    {
       "id": "web-op-ra-royal-de-wallonie-no-l-en-famille-l-op-ra-2026-12-13",
       "title": "Noël en famille à l'Opéra",
-      "category": "concert",
+      "category": "family",
       "venue": "Opéra Royal de Wallonie",
       "city": "Liège",
       "lat": 50.6432887,
       "lon": 5.5702932,
       "start": "2026-12-13T10:00:00",
       "end": "2026-12-13T10:00:00",
-      "image": "https://www.operaliege.be/app/uploads/2026/04/Noel-en-famille-v1-1600x900px-2026-2027-1000x563.png",
-      "page_url": "https://www.operaliege.be/evenement/noel-en-famille-a-lopera-2026/",
-      "url": "https://www.operaliege.be/evenement/noel-en-famille-a-lopera-2026/?opened",
-      "summary": "Une journée festive en famille à l'Opéra avec ateliers créatifs, jeux et découvertes musicales dès 10h. Concert du Chœur Jeunes à 15h dans la Grande Salle pour terminer cette journée de Noël en musique.",
-      "price_from": 6.0,
-      "free": false,
+      "image": "https://www.operaliege.be/app/uploads/2026/04/Noel-en-famille-v1-1600x900px-2026-2027.png",
+      "page_url": "https://www.operaliege.be/evenement/noel-en-famille-a-lopera-activites/",
+      "url": "https://www.operaliege.be/evenement/noel-en-famille-a-lopera-activites/?opened",
+      "summary": "Matinée de 10h à 13h : ateliers sur inscription (visite guidée de Noël, contes, magie, musique, animation bébés) à 2 € chacun, et activités libres gratuites (bricolage, maquillage, concours, Père Noël). Un concert du Chœur Jeunes suit à 15h.",
+      "price_from": null,
+      "free": null,
       "audience": [
         "family"
       ],
@@ -25278,6 +25331,26 @@
       "source": "Facebook (extension)"
     },
     {
+      "id": "web-mars-mons-arts-de-la-sc-ne-le-p-tit-march-de-no-l-des-cr-ateur-rices-2026-12-16",
+      "title": "Le P'tit Marché de Noël des créateur·rices",
+      "category": "fair",
+      "venue": "La P'tite Maison Folie",
+      "city": "Mons",
+      "lat": 50.4549568,
+      "lon": 3.951958,
+      "start": "2026-12-16T14:00:00",
+      "end": "2026-12-16T21:00:00",
+      "image": "https://www.surmars.be/sites/default/files/styles/w960/public/2026-11/Marche%CC%81%20de%20Noel%20-%201%20%C2%A9%20David%20Bormans%202.jpg?itok=Liv4P-L3",
+      "page_url": "https://www.surmars.be/actualites/appel-aux-createurrices-le-ptit-marche-de-noel-0",
+      "url": "https://www.surmars.be/actualites/appel-aux-createurrices-le-ptit-marche-de-noel-0",
+      "summary": "Le P'tit Marché de Noël des créateur·rices revient à la P'tite Maison Folie : créateur·rices, entrepreneur·ses et artisan·nes y vendent leurs créations et présentent leurs projets pour un Noël plus durable. Une vingtaine de stands sont proposés, sur sélection.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Mars – Mons arts de la scène"
+    },
+    {
       "id": "fbx-1061820813370564",
       "title": "CinéGesves : Un simple accident",
       "category": "cinema",
@@ -25427,7 +25500,7 @@
       "end": "2026-12-17T10:00:00",
       "image": "https://reflektor.be/wp-content/uploads/2026/09/Design-sans-titre-12.png",
       "page_url": "https://reflektor.be/concert/kid-sophie-fanny/",
-      "url": "https://feverup.com/m/650639?srsltid=AfmBOopFNWbf75ZR_zcQxaoJ4WyCG2vMSVWrYadWhqoW9f-i3SKHlZ0H",
+      "url": "https://feverup.com/m/650639",
       "summary": "Concert de KID SOPHIE + FANNY au Regina Club.",
       "price_from": null,
       "free": null,
@@ -25490,7 +25563,7 @@
       "image": "https://www.operaliege.be/app/uploads/2026/03/2026-03-12_ORW-26-27_Hero_Thais_V2-1-scaled.jpg",
       "page_url": "https://www.operaliege.be/evenement/opera-thais-2026/",
       "url": "https://www.operaliege.be/evenement/opera-thais-2026/?opened",
-      "summary": "Opéra Thaïs de Jules Massenet à l'Opéra Royal de Wallonie, du 17 au 31 décembre 2026.",
+      "summary": "Opéra de Jules Massenet, présenté à l'Opéra Royal de Wallonie.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -25697,8 +25770,8 @@
       "end": "2026-12-18T10:00:00",
       "image": "https://reflektor.be/wp-content/uploads/2026/02/628533-The-Jazz-Room-Paris-1-82e29e-original-1763724982-scaled-1.jpg",
       "page_url": "https://reflektor.be/concert/the-jazz-room-un-hommage-a-frank-sinatra-et-a-louis-armstrong-12-2026/",
-      "url": "https://feverup.com/m/521008/fr",
-      "summary": "Concert jazz hommage à Frank Sinatra et Louis Armstrong au Reflektor.",
+      "url": "https://www.livecafe.be/billetterie/cookie-collectif",
+      "summary": "Concert The Jazz Room : hommage à Frank Sinatra et à Louis Armstrong au Reflektor.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -26268,6 +26341,28 @@
       "source": "Facebook (extension)"
     },
     {
+      "id": "web-reflektor-li-ge-cookie-festival-2026-12-19",
+      "title": "COOKIE FESTIVAL",
+      "category": "festival",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2026-12-19T10:00:00",
+      "end": "2026-12-19T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/cookie-festival/",
+      "url": "https://feverup.com/m/521008/fr",
+      "summary": "COOKIE FESTIVAL au Reflektor.",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "young"
+      ],
+      "tags": [],
+      "source": "Reflektor (Liège)"
+    },
+    {
       "id": "tm-Z698xZG2Z1kjdvYbZ",
       "title": "WINTER CIRCUS CAMILLE",
       "category": "theatre",
@@ -26829,8 +26924,8 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-het-depot-louvain-de-mens-xmas-show-matinee-avec-bart-peeters-stijn-meuris-kaat-",
-      "title": "De Mens: XMAS-show matinee (avec Bart Peeters, Stijn Meuris & Kaat Van Stralen)",
+      "id": "web-het-depot-louvain-de-mens-xmas-show-matinee-2026-12-20",
+      "title": "De Mens: XMAS-show matinee",
       "category": "concert",
       "venue": "Het Depot",
       "city": "Louvain",
@@ -26841,7 +26936,7 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/hero/public/a0ac100000hZBXiAAO_1800x810_1800.jpg?itok=4mgJ4Crc",
       "page_url": "https://www.hetdepot.be/concert/2026/de-mens-xmas-show-matinee",
       "url": "https://www.hetdepot.be/concert/2026/de-mens-xmas-show-matinee",
-      "summary": "De Mens clôture son année de concerts au Het Depot de Louvain avec un XMAS-show en matinée, avec Bart Peeters, Stijn Meuris et Kaat Van Stralen en invités spéciaux. Le groupe y joue un concert de type greatest hits, dans un décor de Noël et avec bonnets de Noël.",
+      "summary": "De Mens clôture son année de concerts avec un XMAS-show matinée festif en compagnie de Bart Peeters, Stijn Meuris et Kaat Van Stralen. Un concert de plus grands succès agrémenté de décor de Noël et de surprises musicales spéciales.",
       "price_from": 6.4,
       "free": false,
       "audience": [],
@@ -28098,7 +28193,7 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/02/628533-The-Jazz-Room-Paris-1-82e29e-original-1763724982-scaled-1.jpg",
       "page_url": "https://reflektor.be/concert/the-jazz-room-un-voyage-au-coeur-de-la-nouvelle-orleans/",
       "url": "https://shop.paylogic.com/e528734395f748d29122d4fd79f121c5",
-      "summary": "Concert jazz « Un voyage au cœur de La Nouvelle-Orléans » au Reflektor.",
+      "summary": "Concert The Jazz Room : un voyage au cœur de La Nouvelle-Orléans au Reflektor.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -28394,7 +28489,9 @@
       "summary": "Los Callejeros célèbre ses 20 ans avec un concert de cumbia, son cubain et grooves afro-latin. Une soirée festive mêlant classiques et nouveau matériel, avec des musiciens aux racines belges, péruviennes et mexicaines.",
       "price_from": 3.6,
       "free": false,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Het Depot (Louvain)"
     },
@@ -30514,9 +30611,7 @@
       "summary": "Le groupe new-yorkais Show Me The Body présente son quatrième album « Alone Together », un hardcore puissant sur le deuil, l'amour et le soutien mutuel. Le concert au Trix d'Anvers alterne passages très lourds et moments plus intimes, avec des cuivres jazz.",
       "price_from": 5.8,
       "free": false,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -30727,7 +30822,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/the-jazz-room-un-hommage-a-frank-sinatra-et-a-louis-armstrong-02-2027/",
       "url": "https://shop.paylogic.com/e0deb9ae04c249548ce36e21b994f794",
-      "summary": "Concert jazz hommage à Frank Sinatra et Louis Armstrong au Reflektor (derniers tickets).",
+      "summary": "Concert The Jazz Room : hommage à Frank Sinatra et à Louis Armstrong au Reflektor.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -30973,8 +31068,8 @@
       "classified": true
     },
     {
-      "id": "web-reflektor-li-ge-campaign-for-musical-destruction-2027-napalm-death-misery-index-",
-      "title": "Campaign for Musical Destruction 2027: NAPALM DEATH + MISERY INDEX + AUTHOR&PUNISHER + HABAK + PIECE",
+      "id": "web-reflektor-li-ge-campaign-for-musical-destruction-2027-napalm-death-misery-indeax",
+      "title": "Campaign for Musical Destruction 2027: NAPALM DEATH + MISERY INDEAX + AUTHOR&PUNISHER + HABAK + PIECE",
       "category": "concert",
       "venue": "Reflektor",
       "city": "Liège",
@@ -30985,7 +31080,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/napalm-death/",
       "url": "https://shop.paylogic.com/40d397ab199c4f7c98f4bbefd58f3b91",
-      "summary": "Concert metal Campaign for Musical Destruction 2027 avec Napalm Death et plusieurs groupes.",
+      "summary": "Concert Campaign for Musical Destruction 2027 avec NAPALM DEATH, MISERY INDEAX, AUTHOR&PUNISHER, HABAK et PIECE.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -31617,7 +31712,7 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/concert_suggestion_small/public/backgrounds/Coolfestival_Webheader_BG_1.jpg?itok=8pDsgWg-",
       "page_url": "https://www.hetdepot.be/coolfestival",
       "url": "https://www.hetdepot.be/coolfestival",
-      "summary": "Festival de jazz, funk et soul avec des concerts et DJs audacieux.",
+      "summary": "Festival de jazz, funk et soul, avec des concerts et DJ aux propositions audacieuses.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -31827,6 +31922,26 @@
       "source": "Reflektor (Liège)"
     },
     {
+      "id": "web-trix-anvers-basht-2027-03-04",
+      "title": "Basht.",
+      "category": "concert",
+      "venue": "Trix",
+      "city": "Anvers",
+      "lat": 51.2195776,
+      "lon": 4.4483726,
+      "start": "2027-03-04T10:00:00",
+      "end": "2027-03-04T10:00:00",
+      "image": "https://www.trixonline.be/media/cache/default_highlight/uploads/media/default/0d13/bb/36e9276d273aec533d67d6e90fb52fca81d5a711.webp",
+      "page_url": "https://www.trixonline.be/nl/event/basht",
+      "url": "https://www.trixonline.be/nl/event/basht",
+      "summary": "Le groupe rock dublinois Basht. joue du post-punk et du gitare rock, avec une émotion forte, et est connu pour ses concerts percutants. Il présente son premier album « Poor Advice », sorti en octobre 2026.",
+      "price_from": 3.5,
+      "free": false,
+      "audience": [],
+      "tags": [],
+      "source": "Trix (Anvers)"
+    },
+    {
       "id": "tm-Z698xZG2Z1kaU8tZw",
       "title": "The Magical Music of Harry Potter",
       "category": "concert",
@@ -31896,7 +32011,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/exsonvaldes/",
       "url": "https://shop.paylogic.com/a82b7df1f3194e9f8e1566977161e4ec",
-      "summary": "Concert d'EXSONVALDES au Reflektor.",
+      "summary": "Concert de EXSONVALDES au Reflektor.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -31916,9 +32031,9 @@
       "image": "https://www.trixonline.be/media/cache/default_highlight/uploads/media/default/888e/7c/6944a83767be585b2abb4e87c7065e845a1b8581.webp",
       "page_url": "https://www.trixonline.be/nl/event/trixie-whitley-2",
       "url": "https://www.trixonline.be/nl/event/trixie-whitley-2",
-      "summary": "Trixie Whitley keert terug naar Trix met nieuwe muziek! Met Folded Time krijgen we weer rauwe emotie, doordringende drums en haar ijzersterke stem voorgeschoteld.",
-      "price_from": null,
-      "free": null,
+      "summary": "Trixie Whitley présente son nouvel album Folded Time (Unday Records), entre batterie, guitare, piano et basse, avec des chansons sur la perte, le renouveau et la maternité. Le concert offre un moment intime et émotionnel, porté par sa voix.",
+      "price_from": 6.5,
+      "free": false,
       "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
@@ -32015,7 +32130,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/the-jazz-room-un-hommage-a-frank-sinatra-et-a-louis-armstrong-03-2027/",
       "url": "https://feverup.com/m/650639",
-      "summary": "Concert jazz hommage à Frank Sinatra et Louis Armstrong au Reflektor.",
+      "summary": "Concert The Jazz Room : hommage à Frank Sinatra et à Louis Armstrong au Reflektor.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -32036,8 +32151,8 @@
       "page_url": "https://www.trixonline.be/nl/event/jonah-kagen",
       "url": "https://www.trixonline.be/nl/event/jonah-kagen",
       "summary": "Jonah Kagen mixt technisch gitaarwerk met herkenbare teksten en haalt inspiratie bij artiesten als Townes Van Zandt, Jason Isbell en gitaarvirtuoos Andy McKee. Op zijn tweede album, Eternity of Anything neemt hij het volledige creatieve proces in eigen handen. Van het schrijven tot produceren, opnem",
-      "price_from": null,
-      "free": null,
+      "price_from": 4.6,
+      "free": false,
       "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
@@ -32113,32 +32228,12 @@
       "image": "https://www.trixonline.be/media/cache/default_highlight/uploads/media/default/6454/5f/ea3eb30323cc94784ffd9681186e436d88cebfc7.webp",
       "page_url": "https://www.trixonline.be/nl/event/cleopatrick",
       "url": "https://www.trixonline.be/nl/event/cleopatrick",
-      "summary": "Concert de Cleopatrick au Trix.",
-      "price_from": null,
-      "free": null,
+      "summary": "Le duo canadien cleopatrick, formé par Luke Gruntz et Ian Fraser, mêle rock lourd, hip-hop et son « LAPTOP ROCK » sur son second album FAKE MOON. Le concert a lieu à Trix à Anvers, un rendez-vous pour les fans de rock.",
+      "price_from": 5.6,
+      "free": false,
       "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
-    },
-    {
-      "id": "web-het-depot-louvain-trixie-whitley-2027-03-10",
-      "title": "Trixie Whitley",
-      "category": "concert",
-      "venue": "Het Depot",
-      "city": "Louvain",
-      "lat": 50.881515,
-      "lon": 4.7137996,
-      "start": "2027-03-10T10:00:00",
-      "end": "2027-03-10T10:00:00",
-      "image": "https://www.hetdepot.be/sites/default/files/styles/hero/public/a0ac100000gKtGJAA0_1800x810_1800.jpg?itok=uUrqREb7",
-      "page_url": "https://www.hetdepot.be/concert/2027/trixie-whitley",
-      "url": "https://www.hetdepot.be/concert/2027/trixie-whitley",
-      "summary": "Trixie Whitley relie perte, maternité et découverte de soi dans un voyage musical autour de 'Folded Time'.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Het Depot (Louvain)"
     },
     {
       "id": "tm-Z698xZG2Z1k3ffUuV",
@@ -32180,26 +32275,6 @@
       ],
       "tags": [],
       "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-reflektor-li-ge-eat-folk-iamwill-2027-03-11",
-      "title": "EAT & FOLK : IAMWILL",
-      "category": "concert",
-      "venue": "OM",
-      "city": "Liège",
-      "lat": 50.6073612,
-      "lon": 5.5364634,
-      "start": "2027-03-11T10:00:00",
-      "end": "2027-03-11T10:00:00",
-      "image": "https://reflektor.be/wp-content/uploads/2026/10/PROMO-HOR-c-G.-Gerstmans-scaled-1.jpg",
-      "page_url": "https://reflektor.be/concert/eat-folk-iamwill/",
-      "url": "https://reflektor.be/concert/eat-folk-iamwill/",
-      "summary": "EAT & FOLK propose l'alliance entre un dîner savoureux et un concert folk intimiste. Découvrez IAMWILL, projet musical de Guillaume Vierset mêlant mélodies fortes et guitare intimiste.",
-      "price_from": 20.0,
-      "free": false,
-      "audience": [],
-      "tags": [],
-      "source": "Reflektor (Liège)"
     },
     {
       "id": "web-le-forum-li-ge-agn-s-botty-release-party-2027-03-11",
@@ -32272,7 +32347,7 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/10/EOSINE-PRESS-PICS-26-c-Tone-Verswijvel-25-scaled-1-e1791191311935.jpg",
       "page_url": "https://reflektor.be/concert/eosine-2/",
       "url": "https://shop.paylogic.com/03f041539bfe460ba7be3f64aebb9b96",
-      "summary": "Concert d'Eosine au Reflektor.",
+      "summary": "Concert de Eosine au Reflektor.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -33157,9 +33232,9 @@
       "image": "https://www.trixonline.be/media/cache/default_highlight/uploads/media/default/2f5f/20/a4af47c09f1668b9ef29bcf775719c4a66088de8.webp",
       "page_url": "https://www.trixonline.be/nl/event/sofie-birch",
       "url": "https://www.trixonline.be/nl/event/sofie-birch",
-      "summary": "De Deense geluidskunstenaar Sofie Birch maakt ambient en elektro-akoestische muziek met synths en field recordings en nodigt je uit voor een ervaring van 'deep listening'.",
-      "price_from": null,
-      "free": null,
+      "summary": "La Danoise Sofie Birch propose de la musique ambient et électro-acoustique, faite de synthés, de field recordings, de voix et d'instruments trance, pour une expérience d'écoute profonde (« deep listening »). Le concert a lieu à Trix, à Anvers.",
+      "price_from": 4.3,
+      "free": false,
       "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
@@ -33863,9 +33938,9 @@
       "image": "https://www.trixonline.be/media/cache/default_highlight/uploads/media/default/4767/57/aeefb0d8bdaeab7fc9be7e6a89d45346ee2a9901.webp",
       "page_url": "https://www.trixonline.be/nl/event/booshle-g",
       "url": "https://www.trixonline.be/nl/event/booshle-g",
-      "summary": "De Zuid-Afrikaanse zanger en multi-instrumentalist Booshle G. brengt grootse, hoopvolle nummers vol pop, folk en soul.",
-      "price_from": null,
-      "free": null,
+      "summary": "Le chanteur et multi-instrumentaliste sud-africain Booshle G. présente des titres pop, folk, rock et soul pleins d'espoir, extraits de son premier album « I Was Never Alone » et de son succès « Take Me Home ». En première partie, le duo Neon Dreams se produit.",
+      "price_from": 3.7,
+      "free": false,
       "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
@@ -34050,6 +34125,26 @@
       "source": "Ticketmaster"
     },
     {
+      "id": "web-reflektor-li-ge-melissa-2027-05-14",
+      "title": "Melissa",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2027-05-14T10:00:00",
+      "end": "2027-05-14T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/melissa/",
+      "url": "https://shop.paylogic.com/d65b380368744ec9a5f38f20f67a20f6/",
+      "summary": "Concert de Melissa au Reflektor.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
+    },
+    {
       "id": "tm-Z698xZG2Z16v8VG--I",
       "title": "MARS & VENUS - MISE A JOUR 2.0",
       "category": "theatre",
@@ -34120,7 +34215,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/anouk/",
       "url": "https://shop.paylogic.com/a07886f7e6c04b74bfe3410242c4abaa",
-      "summary": "Concert d'Anouk à OM.",
+      "summary": "Concert de Anouk à l'OM.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -34221,7 +34316,7 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/hero/public/a0ac100000haz4EAAQ_1800x810_1800.jpg?itok=EEiFwROE",
       "page_url": "https://www.hetdepot.be/concert/2027/zoe-livay",
       "url": "https://www.hetdepot.be/concert/2027/zoe-livay",
-      "summary": "Zoë Livay, nouvelle voix puissante de la pop néerlandaise.",
+      "summary": "Zoë Livay, une nouvelle voix puissante de la pop néerlandaise.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -34717,6 +34812,28 @@
       "source": "Ticketmaster"
     },
     {
+      "id": "web-het-depot-louvain-robert-jon-the-wreck-2027-10-12",
+      "title": "Robert Jon & The Wreck",
+      "category": "concert",
+      "venue": "Het Depot",
+      "city": "Louvain",
+      "lat": 50.881515,
+      "lon": 4.7137996,
+      "start": "2027-10-12T10:00:00",
+      "end": "2027-10-12T10:00:00",
+      "image": "https://www.hetdepot.be/sites/default/files/styles/hero/public/a0ac100000iewyUAAQ_1800x810_1800.jpg?itok=VbBbNItL",
+      "page_url": "https://www.hetdepot.be/concert/2027/robert-jon-the-wreck",
+      "url": "https://www.hetdepot.be/concert/2027/robert-jon-the-wreck",
+      "summary": "Concert du groupe américain Robert Jon & The Wreck, qui mêle southern rock, blues, soul et classic rock, à l'occasion de leurs 15 ans de carrière. Il a lieu dans la grande salle du Het Depot à Louvain, en configuration flex avec places assises non numérotées et places debout.",
+      "price_from": 7.0,
+      "free": false,
+      "audience": [
+        "young"
+      ],
+      "tags": [],
+      "source": "Het Depot (Louvain)"
+    },
+    {
       "id": "web-le-forum-li-ge-the-voice-of-george-michael-volume-two-2027-10-23",
       "title": "THE VOICE OF GEORGE MICHAEL - VOLUME TWO",
       "category": "concert",
@@ -34975,8 +35092,8 @@
       "page_url": "https://www.trixonline.be/nl/event/mula",
       "url": "https://www.trixonline.be/nl/event/mula",
       "summary": "Van trap-pionier met ‘D&G’ tot de release van zijn nieuwste album ‘DOMUS’. Mula (voorheen Mula B) blijft een van de meest bepalende stemmen in de Nederlandse hiphop en brengt binnenkort zijn nieuwe album live in Trix.",
-      "price_from": null,
-      "free": null,
+      "price_from": 5.6,
+      "free": false,
       "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
