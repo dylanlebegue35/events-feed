@@ -1,12 +1,12 @@
 {
-  "genere": "2026-11-08T20:09:05",
+  "genere": "2026-11-09T01:23:35",
   "sources": [
     {
       "source": "Reflektor (Liège)",
       "ok": true,
       "page_caracteres": 16363,
-      "ia_a_trouve": 39,
-      "gardes": 39,
+      "ia_a_trouve": 41,
+      "gardes": 41,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -33,7 +33,7 @@
     {
       "source": "VisitHuy",
       "ok": true,
-      "page_caracteres": 5792,
+      "page_caracteres": 5809,
       "ia_a_trouve": 9,
       "gardes": 9,
       "ecartes": 0,
@@ -44,9 +44,9 @@
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 51229,
-      "ia_a_trouve": 38,
-      "gardes": 38,
+      "page_caracteres": 52416,
+      "ia_a_trouve": 37,
+      "gardes": 37,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -55,12 +55,10 @@
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 42509,
+      "page_caracteres": 42506,
       "ia_a_trouve": 126,
       "gardes": 126,
       "ecartes": 0,
-      "morceaux": 4,
-      "reponses_coupees": 1,
       "extrait_reponse_ia": ""
     },
     {
@@ -75,10 +73,12 @@
     {
       "source": "Province de Liège",
       "ok": true,
-      "page_caracteres": 19296,
+      "page_caracteres": 18223,
       "ia_a_trouve": 4,
       "gardes": 4,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -93,13 +93,13 @@
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 12508,
-      "ia_a_trouve": 2,
+      "page_caracteres": 12521,
+      "ia_a_trouve": 0,
       "gardes": 0,
-      "ecartes": 2,
+      "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
-      "extrait_reponse_ia": ""
+      "extrait_reponse_ia": "[]"
     },
     {
       "source": "Ville de Huy",
@@ -115,8 +115,8 @@
       "ok": true,
       "page_caracteres": 8556,
       "ia_a_trouve": 6,
-      "gardes": 6,
-      "ecartes": 0,
+      "gardes": 5,
+      "ecartes": 1,
       "extrait_reponse_ia": ""
     },
     {
@@ -135,16 +135,14 @@
       "ia_a_trouve": 4,
       "gardes": 4,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Opéra Royal de Wallonie",
       "ok": true,
-      "page_caracteres": 41997,
-      "ia_a_trouve": 6,
-      "gardes": 6,
+      "page_caracteres": 41886,
+      "ia_a_trouve": 5,
+      "gardes": 5,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -189,7 +187,7 @@
     {
       "source": "Ancienne Belgique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 6810,
+      "page_caracteres": 6764,
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
@@ -200,7 +198,7 @@
     {
       "source": "Botanique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 4057,
+      "page_caracteres": 3859,
       "ia_a_trouve": 3,
       "gardes": 3,
       "ecartes": 0,
@@ -211,16 +209,18 @@
     {
       "source": "Trix (Anvers)",
       "ok": true,
-      "page_caracteres": 10578,
-      "ia_a_trouve": 29,
-      "gardes": 29,
+      "page_caracteres": 10568,
+      "ia_a_trouve": 28,
+      "gardes": 28,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Het Depot (Louvain)",
       "ok": true,
-      "page_caracteres": 7913,
+      "page_caracteres": 7871,
       "ia_a_trouve": 15,
       "gardes": 15,
       "ecartes": 0,
@@ -231,10 +231,12 @@
     {
       "source": "Mars – Mons arts de la scène",
       "ok": true,
-      "page_caracteres": 12127,
-      "ia_a_trouve": 12,
-      "gardes": 12,
+      "page_caracteres": 11853,
+      "ia_a_trouve": 10,
+      "gardes": 10,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -252,20 +254,20 @@
       "source": "Facebook (service tiers)",
       "ok": true,
       "etat": "pas encore l'heure",
-      "gardes": 193
+      "gardes": 188
     },
     {
       "source": "Doublons fusionnés",
       "ok": true,
-      "fusionnes": 48
+      "fusionnes": 47
     },
     {
       "source": "Pages des billetteries",
       "ok": true,
-      "pages_lues": 4,
+      "pages_lues": 7,
       "pages_lues_par_ia": 25
     }
   ],
-  "avec_image": 1157,
-  "total": 1845
+  "avec_image": 1124,
+  "total": 1744
 }
