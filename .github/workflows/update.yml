@@ -7,6 +7,7 @@ on:
   push:                     # se relance tout seul quand le code du robot change
     paths:
       - "build_events.py"
+      - "build_sorties.py"
       - "page_text.py"
       - "sources.json"
       - "facebook_searches.json"
@@ -39,6 +40,9 @@ jobs:
           TICKETMASTER_KEY: ${{ secrets.TICKETMASTER_KEY }}
           GOOGLE_PLACES_KEY: ${{ secrets.GOOGLE_PLACES_KEY }}
         run: python3 build_events.py
+      - name: Fabriquer les pages « Que faire à … ce week-end ? » de vivyo.app/sorties
+        continue-on-error: true   # une erreur ici ne doit jamais bloquer la mise à jour des événements
+        run: python3 build_sorties.py
       - name: Enregistrer si quelque chose a changé
         run: |
           git config user.name "events-bot"
