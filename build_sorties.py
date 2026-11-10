@@ -11,14 +11,17 @@ Tout ce qui vient des événements (titres, lieux, liens) est échappé : ces te
 web lues par l'IA et ne doivent jamais pouvoir injecter du HTML dans vivyo.app.
 """
 import argparse
+import concurrent.futures
 import html
 import json
 import math
 import re
+import ssl
 import sys
 import unicodedata
 from datetime import datetime, timedelta
 from pathlib import Path
+from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 
 ICI = Path(__file__).resolve().parent
@@ -46,6 +49,9 @@ CATEGORIES = {
 JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
 MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre",
         "octobre", "novembre", "décembre"]
+SECOURS = ICI / "fallback_images.json"          # photos libres de droit par catégorie (les mêmes que l'app)
+CACHE_IMAGES = ICI / "sorties_images.json"      # photos déjà vérifiées : on ne les revérifie que tous les 2 jours
+NAVIGATEUR = "Mozilla/5.0 (compatible; VivyoBot/1.0; +https://vivyo.app)"
 HEURE_INCONNUE = "T10:00:00"   # le robot met 10 h quand la page ne donne pas l'heure
 MAX_PAR_PAGE = 60
 MAX_EN_CE_MOMENT = 6
@@ -99,7 +105,8 @@ def nettoyer(brut):
         "url": brut.get("url") if isinstance(brut.get("url"), str) else None,
         "page_url": brut.get("page_url") if isinstance(brut.get("page_url"), str) else None,
         "image": brut.get("image") if isinstance(brut.get("image"), str) else None,
-        "image_credit": bool(brut.get("image_credit")),
+        "id": brut.get("id") if isinstance(brut.get("id"), str) else "",
+        "image_credit": texte(brut.get("image_credit"), 160),
         "summary": COURRIEL.sub("", texte(brut.get("summary"), 300)).strip(),
         "free": brut.get("free") is True,
         "price_from": nombre(brut.get("price_from"), 0.01, 10000),
@@ -188,7 +195,7 @@ def _choisir_un(brut, lat, lon, rayon, debut, fin, maintenant, vus):
             "jour": max(s.date(), max(debut, maintenant).date())}
 
 
-def carte(item, ville_nom):
+def carte(item, ville_nom, photo):
     ev = item["ev"]
     titre = e(ev["title"].strip())
     cat = CATEGORIES.get(ev.get("category"), "Sortie")
@@ -204,15 +211,105 @@ def carte(item, ville_nom):
     infos.append(lieu)
     p = prix(ev)
     lien = lien_sur(ev.get("url") or ev.get("page_url"))
-    image = lien_sur(ev.get("image"), https_seulement=True) if not ev.get("image_credit") else None
+    image, credit = photo
     vignette = (f'<img class="vi" src="{e(image)}" alt="" width="88" height="88" loading="lazy" '
                 f'referrerpolicy="no-referrer">') if image else f'<span class="vi vide">{e(cat[:1])}</span>'
     corps = (f'<p class="cat">{e(cat)}{" · " + e(p) if p else ""}</p>'
-             f'<h3>{titre}</h3><p class="infos">{" · ".join(e(i) for i in infos)}</p>')
+             f'<h3>{titre}</h3><p class="infos">{" · ".join(e(i) for i in infos)}</p>'
+             + (f'<p class="credit">Photo : {e(credit)}</p>' if credit else ""))
     if lien:
         return (f'<li><a class="ev" href="{e(lien)}" target="_blank" rel="nofollow noopener">'
                 f'{vignette}<div>{corps}<span class="voir">Voir l\'événement ↗</span></div></a></li>')
     return f'<li><div class="ev">{vignette}<div>{corps}</div></div></li>'
+
+
+def charger_secours():
+    try:
+        donnees = json.loads(SECOURS.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+    secours = {}
+    for cat, photos in (donnees.items() if isinstance(donnees, dict) else []):
+        bonnes = [(lien_sur(ph.get("url"), https_seulement=True), texte(ph.get("credit"), 160))
+                  for ph in photos if isinstance(ph, dict)]
+        secours[cat] = [(u, c) for u, c in bonnes if u]
+    return secours
+
+
+def empreinte(texte_id):
+    """La même que l'app (djb2) : un événement garde la même photo de secours partout."""
+    h = 5381
+    for octet in texte_id.encode("utf-8"):
+        h = (h * 33 + octet) & 0xFFFFFFFFFFFFFFFF
+    return h
+
+
+def choisir_photos(items, secours, valides):
+    """Une photo pour chaque sortie : la sienne si elle s'affiche, sinon une photo libre de droit de sa
+    catégorie, avec son crédit, en évitant de montrer deux fois la même photo sur la page."""
+    utilisees, photos = set(), []
+    for item in items:
+        ev = item["ev"]
+        image = lien_sur(ev.get("image"), https_seulement=True)
+        if image and image in valides and image not in utilisees:
+            utilisees.add(image)
+            photos.append((image, ev.get("image_credit") or ""))
+            continue
+        liste = secours.get(ev.get("category")) or [p for ps in secours.values() for p in ps]
+        if not liste:
+            photos.append((None, ""))
+            continue
+        depart = empreinte(ev.get("id") or ev["title"]) % len(liste)
+        ordre = liste[depart:] + liste[:depart]
+        choix = next((ph for ph in ordre if ph[0] not in utilisees), None)
+        if not choix:   # toutes les photos de la catégorie sont déjà sur la page : on pioche ailleurs
+            autres = [p for ps in secours.values() for p in ps]
+            choix = next((ph for ph in autres if ph[0] not in utilisees), ordre[0])
+        utilisees.add(choix[0])
+        photos.append(choix)
+    return photos
+
+
+def _contexte_ssl():
+    try:
+        import certifi   # sur certains Mac, Python n'a pas les certificats du système
+        return ssl.create_default_context(cafile=certifi.where())
+    except ImportError:
+        return ssl.create_default_context()
+
+
+SSL = _contexte_ssl()
+
+
+def _image_repond(url):
+    try:
+        with urlopen(Request(url, headers={"User-Agent": NAVIGATEUR, "Accept": "image/*"}), timeout=8, context=SSL) as r:
+            return r.status == 200 and r.headers.get("Content-Type", "").startswith("image/") and len(r.read(64)) > 0
+    except Exception:
+        return False
+
+
+def images_valides(urls, verifier, maintenant):
+    """Les photos qui s'affichent vraiment. Une photo cassée ferait « pas fini » : on la remplace."""
+    if not verifier:
+        return set(urls)
+    try:
+        cache = json.loads(CACHE_IMAGES.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        cache = {}
+    limite = (maintenant - timedelta(days=2)).isoformat()
+    a_verifier = [u for u in urls if not (u in cache and cache[u].get("vu", "") >= limite)]
+    with concurrent.futures.ThreadPoolExecutor(max_workers=16) as pool:
+        for url, ok in zip(a_verifier, pool.map(_image_repond, a_verifier)):
+            cache[url] = {"ok": ok, "vu": maintenant.isoformat(timespec="minutes")}
+    cache = {u: v for u, v in cache.items() if v.get("vu", "") >= (maintenant - timedelta(days=14)).isoformat()}
+    valides = {u for u in urls if cache.get(u, {}).get("ok")}
+    if len(urls) >= 10 and len(valides) < 0.3 * len(urls):
+        # presque tout « cassé » d'un coup : c'est la vérification qui est en panne, pas les photos
+        print("Vérification des photos en panne : on garde les photos d'origine.", file=sys.stderr)
+        return set(urls)
+    CACHE_IMAGES.write_text(json.dumps(cache, ensure_ascii=False, indent=0, sort_keys=True), encoding="utf-8")
+    return valides
 
 
 def date_ld(item, cle):
@@ -238,7 +335,7 @@ def evenement_ld(item, ville_nom):
     if lien:
         d["url"] = lien
     image = lien_sur(ev.get("image"), https_seulement=True)
-    if image and not ev.get("image_credit"):
+    if image:
         d["image"] = [image]
     if ev.get("summary"):
         d["description"] = str(ev["summary"])[:300]
@@ -281,6 +378,7 @@ a.ev:hover h3{color:var(--green)}
 .cat{font-size:13px;font-weight:600;color:var(--green);text-transform:uppercase;letter-spacing:.04em}
 h3{font-size:19px;line-height:1.25;margin-top:3px;letter-spacing:-.01em}
 .infos{color:var(--muted);font-size:15px;margin-top:4px}
+.credit{color:#86868B;font-size:12px;margin-top:3px}
 .voir{display:inline-block;font-size:14px;font-weight:600;color:var(--green);margin-top:6px}
 .vide-msg{color:var(--muted);font-size:18px;padding:16px 0}
 .app-cta{background:#000;color:#F5F5F7;border-radius:28px;padding:36px 28px;margin:48px 0 0;text-align:center}
@@ -340,9 +438,10 @@ def autres_villes(sauf=None):
     return liens
 
 
-def page_ville(ville, evenements, maintenant):
+def page_ville(ville, choix, secours, valides, maintenant):
     nom = VILLES[ville][0]
-    weekend, en_ce_moment, debut, fin = choisir(evenements, ville, maintenant)
+    weekend, en_ce_moment, debut, fin = choix
+    photos = dict(zip(map(id, weekend + en_ce_moment), choisir_photos(weekend + en_ce_moment, secours, valides)))
     dates = f"du {debut.day} au {fin.day} {MOIS[fin.month - 1]}" if debut.month == fin.month else \
         f"du {debut.day} {MOIS[debut.month - 1]} au {fin.day} {MOIS[fin.month - 1]}"
     n = len(weekend)
@@ -353,14 +452,14 @@ def page_ville(ville, evenements, maintenant):
     for item in weekend:
         jours.setdefault(item["jour"], []).append(item)
     sections = "".join(f'<h2>{e(jour_long(datetime.combine(j, datetime.min.time())).capitalize())}</h2>'
-                       f'<ul class="liste">{"".join(carte(i, nom) for i in items)}</ul>'
+                       f'<ul class="liste">{"".join(carte(i, nom, photos[id(i)]) for i in items)}</ul>'
                        for j, items in jours.items())
     if not sections:
         sections = (f'<p class="vide-msg">Le programme de ce week-end à {e(nom)} arrive bientôt. '
                     f'Reviens jeudi : la page se met à jour toute seule.</p>')
     if en_ce_moment:
         sections += ('<h2>À voir en ce moment</h2><ul class="liste">'
-                     + "".join(carte(i, nom) for i in en_ce_moment) + "</ul>")
+                     + "".join(carte(i, nom, photos[id(i)]) for i in en_ce_moment) + "</ul>")
     maj = f"{jour_long(maintenant)} à {heure(maintenant)}"
     corps = f"""<header class="top">
 <p class="kicker">Sorties à {e(nom)}</p>
@@ -410,19 +509,31 @@ def main():
     p.add_argument("--maintenant", help="date et heure à simuler, ex. 2026-11-13T18:00")
     p.add_argument("--events", default=str(ICI / "events.json"))
     p.add_argument("--sortie", default=str(SORTIE))
+    p.add_argument("--sans-verification", action="store_true", help="ne pas vérifier que les photos s'affichent (tests)")
     a = p.parse_args()
     maintenant = lire_date(a.maintenant) if a.maintenant else datetime.now(BRUXELLES)
     evenements = json.loads(Path(a.events).read_text(encoding="utf-8")).get("events", [])
     dossier = Path(a.sortie)
     dossier.mkdir(exist_ok=True)
-    comptes, ratees = {}, []
+    comptes, ratees, choix = {}, [], {}
     for ville in VILLES:
         try:
-            contenu, comptes[ville] = page_ville(ville, evenements, maintenant)
+            choix[ville] = choisir(evenements, ville, maintenant)
+        except Exception as erreur:
+            ratees.append(f"{ville} ({type(erreur).__name__}: {erreur})")
+    urls = {lien_sur(i["ev"].get("image"), https_seulement=True) for w, m, _, _ in choix.values() for i in w + m}
+    urls.discard(None)
+    valides = images_valides(sorted(urls), not a.sans_verification, maintenant)
+    secours = charger_secours()
+    for ville in choix:
+        try:
+            contenu, comptes[ville] = page_ville(ville, choix[ville], secours, valides, maintenant)
             (dossier / f"{ville}.html").write_text(contenu, encoding="utf-8")
         except Exception as erreur:
-            comptes[ville] = 0
             ratees.append(f"{ville} ({type(erreur).__name__}: {erreur})")
+    for ville in VILLES:
+        comptes.setdefault(ville, 0)
+    print(f"Photos : {len(valides)} sur {len(urls)} s'affichent, les autres sont remplacées par une photo de secours.")
     (dossier / "index.html").write_text(page_index(comptes, maintenant), encoding="utf-8")
     print("Pages sorties :", ", ".join(f"{VILLES[v][0]} {n}" for v, n in comptes.items()))
     if ratees:
