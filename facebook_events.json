@@ -1393,29 +1393,6 @@
    "classified": true
   },
   {
-   "id": "fb-5040830002809955",
-   "title": "JUSTE LA FIN DU MONDE (Xavier Dolan) > Ciné-débats | CAL Charleroi",
-   "category": "cinema",
-   "venue": "Charleroi",
-   "city": "Charleroi",
-   "lat": 50.4116233,
-   "lon": 4.444528,
-   "start": "2026-11-09T19:30:00",
-   "end": "2026-11-09T22:30:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-5040830002809955.jpg",
-   "page_url": "https://www.facebook.com/events/5040830002809955/",
-   "url": "https://www.facebook.com/events/5040830002809955/",
-   "summary": "𝗝𝗨𝗦𝗧𝗘 𝗟𝗔 𝗙𝗜𝗡 𝗗𝗨 𝗠𝗢𝗡𝗗𝗘 || Ciné-débats 🎬 Vous aimez le cinéma pour ses histoires, mais aussi pour les questions qu’il soulève ? Les Ciné-débats vous invitent à aller plus loin. À chaque séance, nous vous proposons de croiser les regards, d’alimenter la discussion et de nourrir votre esprit autour d’un",
-   "price_from": null,
-   "free": true,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1108651848344802",
    "title": "Bruxelles Chaos - Spectacle",
    "category": "theatre",
@@ -1879,29 +1856,6 @@
    "free": null,
    "audience": [
     "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-904261232768677",
-   "title": "Café-débat : Espaces partagés en FIAL - Repenser la place du vivant",
-   "category": "talks",
-   "venue": "Place Cardinal Mercier, 31, 1348 Louvain-la-Neuve, Belgium",
-   "city": "Louvain-la-Neuve",
-   "lat": 50.67013,
-   "lon": 4.611,
-   "start": "2026-11-09T16:30:00",
-   "end": "2026-11-09T19:30:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-904261232768677.jpg",
-   "page_url": "https://www.facebook.com/events/904261232768677/",
-   "url": "https://forms.gle/PUorPbKq9NLbbHap6",
-   "summary": "Vous utilisez chaque jour les espaces partagés de la Faculté : la galerie du centre C. de Pisan, ses halls, ses lieux de passage et de pause, etc. Ces lieux vous appartiennent aussi — et ils pourraient être plus accueillants au vivant (végétation, biodiversité, lumière, convivialité) et plus habitab",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "student"
    ],
    "tags": [],
    "source": "Facebook (événement public)",
@@ -3851,29 +3805,6 @@
    "price_from": null,
    "free": null,
    "audience": [],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1432404118247939",
-   "title": "GRANDE SOIREE OU ON ARRACHE MON PAPIER PEINT",
-   "category": "party",
-   "venue": "Mons",
-   "city": "Mons",
-   "lat": 50.4549568,
-   "lon": 3.951958,
-   "start": "2026-11-09T18:00:00",
-   "end": "2026-11-09T21:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1432404118247939.jpg",
-   "page_url": "https://www.facebook.com/events/1432404118247939/",
-   "url": "https://www.facebook.com/events/1432404118247939/",
-   "summary": "",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
    "tags": [],
    "source": "Facebook (événement public)",
    "classified": true
