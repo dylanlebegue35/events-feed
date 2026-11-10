@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-10T20:51:31",
+  "generated": "2026-11-10T21:33:51",
   "events": [
     {
       "id": "web-visithuy-l-invention-cach-e-2026-05-25",
@@ -764,48 +764,6 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
-    },
-    {
-      "id": "web-botanique-bruxelles-infinity-song-uwase-2026-11-10",
-      "title": "Infinity Song - Uwase",
-      "category": "concert",
-      "venue": "Botanique",
-      "city": "Bruxelles",
-      "lat": 50.8535292,
-      "lon": 4.3659372,
-      "start": "2026-11-10T18:30:00",
-      "end": "2026-11-10T18:30:00",
-      "image": "https://botanique.be/sites/default/files/styles/event_overview/public/2025-07/is_london_foxes_cover_art.png?itok=Cm3AMZFG",
-      "page_url": "https://botanique.be/fr/concert/infinity-song-uwase-2026",
-      "url": "https://botanique.be/fr/concert/infinity-song-uwase-2026#tickets-widget",
-      "summary": "Concert de Infinity Song, groupe de soft rock new-yorkais formé de quatre frères et sœurs, avec des harmonies vocales serrées et des riffs de guitare. En première partie, Uwase, chanteuse et productrice belge de indie pop, présente son univers sonore.",
-      "price_from": 22.5,
-      "free": false,
-      "audience": [],
-      "tags": [],
-      "source": "Botanique (Bruxelles)"
-    },
-    {
-      "id": "web-botanique-bruxelles-adult-dvd-miss-tetanos-2026-11-10",
-      "title": "Adult DVD - Miss Tetanos",
-      "category": "concert",
-      "venue": "Botanique",
-      "city": "Bruxelles",
-      "lat": 50.8535292,
-      "lon": 4.3659372,
-      "start": "2026-11-10T18:30:00",
-      "end": "2026-11-10T18:30:00",
-      "image": "https://botanique.be/sites/default/files/styles/event_overview/public/2026-04/dvd.jpg?itok=riJOCLHT",
-      "page_url": "https://botanique.be/fr/concert/adult-dvd-miss-tetanos-2026",
-      "url": "https://botanique.be/fr/concert/adult-dvd-miss-tetanos-2026",
-      "summary": "Le groupe britannique Adult DVD, originaire de Leeds et signé sur le label Fat Possum, propose un dance-(post-)punk énergique mêlant humour acide, refrains accrocheurs et influences acid house. Le concert a lieu à la Rotonde du Botanique, avec Miss Tetanos en première partie à 19h30.",
-      "price_from": 13.5,
-      "free": false,
-      "audience": [
-        "young"
-      ],
-      "tags": [],
-      "source": "Botanique (Bruxelles)"
     },
     {
       "id": "fbx-1463577415630779",
@@ -1750,11 +1708,51 @@
       "summary": "Montell Fish, chanteur, producteur et compositeur originaire de Pittsburgh, présente un concert mêlant R&B, gospel new age, soul et paysages sonores électroniques. Le concert a lieu à l'AB Grande salle, avec ouverture des portes à 19:00.",
       "price_from": 1.25,
       "free": false,
+      "audience": [],
+      "tags": [],
+      "source": "Ancienne Belgique (Bruxelles)"
+    },
+    {
+      "id": "web-botanique-bruxelles-kelsey-lu-2026-11-11",
+      "title": "Kelsey Lu",
+      "category": "concert",
+      "venue": "Botanique",
+      "city": "Bruxelles",
+      "lat": 50.8535292,
+      "lon": 4.3659372,
+      "start": "2026-11-11T10:00:00",
+      "end": "2026-11-11T10:00:00",
+      "image": "https://botanique.be/sites/default/files/styles/event_overview/public/2026-06/Capture_2.JPG?itok=TxAIgnA8",
+      "page_url": "https://botanique.be/fr/concert/kelsey-lu-2026",
+      "url": "https://botanique.be/fr/concert/kelsey-lu-2026",
+      "summary": "Kelsey Lu présente So Help Me God, son premier album depuis Blood (2019), et mêle violoncelle, pop expérimentale, soul et électro. Le concert a lieu à la Rotonde du Botanique, avec ouverture des portes à 18:30 et une première partie encore à confirmer.",
+      "price_from": 24.5,
+      "free": false,
+      "audience": [],
+      "tags": [],
+      "source": "Botanique (Bruxelles)"
+    },
+    {
+      "id": "web-botanique-bruxelles-radio-free-alice-humane-the-moon-2026-11-11",
+      "title": "Radio Free Alice - Humane The Moon",
+      "category": "concert",
+      "venue": "Botanique",
+      "city": "Bruxelles",
+      "lat": 50.8535292,
+      "lon": 4.3659372,
+      "start": "2026-11-11T10:00:00",
+      "end": "2026-11-11T10:00:00",
+      "image": "https://botanique.be/sites/default/files/styles/event_overview/public/2026-08/260812000000190006.jpg?itok=RqOOAo_x",
+      "page_url": "https://botanique.be/fr/concert/radio-free-alice-humane-moon-2026",
+      "url": "https://botanique.be/fr/concert/radio-free-alice-humane-moon-2026",
+      "summary": "Concert du groupe australien de Melbourne Radio Free Alice, qui mêle post-punk, indie rock et mélodies accrocheuses, avec une première partie encore à confirmer. Le concert affiche complet, une liste d'attente est proposée.",
+      "price_from": 17.65,
+      "free": false,
       "audience": [
         "young"
       ],
       "tags": [],
-      "source": "Ancienne Belgique (Bruxelles)"
+      "source": "Botanique (Bruxelles)"
     },
     {
       "id": "web-trix-anvers-the-veils-2026-11-11",
@@ -1999,26 +1997,6 @@
       "audience": [],
       "tags": [],
       "source": "Ticketmaster"
-    },
-    {
-      "id": "web-botanique-bruxelles-kelsey-lu-2026-11-11",
-      "title": "Kelsey Lu",
-      "category": "concert",
-      "venue": "Botanique",
-      "city": "Bruxelles",
-      "lat": 50.8535292,
-      "lon": 4.3659372,
-      "start": "2026-11-11T18:30:00",
-      "end": "2026-11-11T18:30:00",
-      "image": "https://botanique.be/sites/default/files/styles/event_overview/public/2026-06/Capture_2.JPG?itok=TxAIgnA8",
-      "page_url": "https://botanique.be/fr/concert/kelsey-lu-2026",
-      "url": "https://botanique.be/fr/concert/kelsey-lu-2026#tickets-widget",
-      "summary": "Kelsey Lu présente So Help Me God, son premier album depuis Blood (2019), mêlant violoncelle, pop expérimentale, soul et électro. Le concert explore les tensions entre désir, foi, deuil et transformation.",
-      "price_from": 24.5,
-      "free": false,
-      "audience": [],
-      "tags": [],
-      "source": "Botanique (Bruxelles)"
     },
     {
       "id": "fbx-28588644820800902",
@@ -2341,6 +2319,28 @@
         "découverte"
       ],
       "source": "Ancienne Belgique (Bruxelles)"
+    },
+    {
+      "id": "web-botanique-bruxelles-westside-cowboy-wyatt-2026-11-12",
+      "title": "Westside Cowboy - Wyatt",
+      "category": "concert",
+      "venue": "Botanique",
+      "city": "Bruxelles",
+      "lat": 50.8535292,
+      "lon": 4.3659372,
+      "start": "2026-11-12T10:00:00",
+      "end": "2026-11-12T10:00:00",
+      "image": "https://botanique.be/sites/default/files/styles/event_overview/public/2026-03/Capture%20d%E2%80%99%C3%A9cran%202026-03-26%20142722.png?itok=UkjmO2Qx",
+      "page_url": "https://botanique.be/fr/concert/westside-cowboy-wyatt-2026",
+      "url": "https://botanique.be/fr/concert/westside-cowboy-wyatt-2026",
+      "summary": "Concert de rock indé au Museum du Botanique avec Westside Cowboy, groupe originaire de Manchester qui mêle songwriting britannique et alt-rock américain, et Wyatt, quartet alt-country rock en première partie. L'événement est complet, une liste d'attente est proposée.",
+      "price_from": 19.5,
+      "free": false,
+      "audience": [
+        "young"
+      ],
+      "tags": [],
+      "source": "Botanique (Bruxelles)"
     },
     {
       "id": "web-trix-anvers-cassia-2026-11-12",

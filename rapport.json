@@ -1,5 +1,5 @@
 {
-  "genere": "2026-11-10T20:51:31",
+  "genere": "2026-11-10T21:33:51",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -8,8 +8,6 @@
       "ia_a_trouve": 43,
       "gardes": 43,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -46,14 +44,12 @@
       "ia_a_trouve": 44,
       "gardes": 44,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 42776,
+      "page_caracteres": 42774,
       "ia_a_trouve": 127,
       "gardes": 127,
       "ecartes": 0,
@@ -66,8 +62,6 @@
       "ia_a_trouve": 3,
       "gardes": 3,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -92,9 +86,9 @@
       "source": "Pays de Herve",
       "ok": true,
       "page_caracteres": 12218,
-      "ia_a_trouve": 2,
+      "ia_a_trouve": 1,
       "gardes": 0,
-      "ecartes": 2,
+      "ecartes": 1,
       "morceaux": 1,
       "reponses_coupees": 0,
       "extrait_reponse_ia": ""
@@ -106,8 +100,6 @@
       "ia_a_trouve": 5,
       "gardes": 5,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -126,8 +118,6 @@
       "ia_a_trouve": 3,
       "gardes": 3,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -146,8 +136,6 @@
       "ia_a_trouve": 7,
       "gardes": 7,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -184,14 +172,12 @@
       "ia_a_trouve": 12,
       "gardes": 12,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Ancienne Belgique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 6814,
+      "page_caracteres": 6787,
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
@@ -202,10 +188,12 @@
     {
       "source": "Botanique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 3849,
+      "page_caracteres": 3765,
       "ia_a_trouve": 3,
       "gardes": 3,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -215,8 +203,6 @@
       "ia_a_trouve": 30,
       "gardes": 30,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -226,8 +212,6 @@
       "ia_a_trouve": 15,
       "gardes": 15,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -237,8 +221,6 @@
       "ia_a_trouve": 13,
       "gardes": 13,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -266,8 +248,8 @@
     {
       "source": "Pages des billetteries",
       "ok": true,
-      "pages_lues": 11,
-      "pages_lues_par_ia": 24
+      "pages_lues": 4,
+      "pages_lues_par_ia": 3
     }
   ],
   "avec_image": 1119,
