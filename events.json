@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11T21:38:49",
+  "generated": "2026-11-11T22:25:19",
   "events": [
     {
       "id": "web-province-de-li-ge-jeudi-sant-cycle-de-conf-rences-2026-2026-02-05",
@@ -788,12 +788,30 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/dry-cleaning/",
       "url": "https://shop.paylogic.com/369ad509f0a2406fb4998ac9190acb60",
-      "summary": "Concert de Dry Cleaning + Teenage Exorcists au Reflektor.",
+      "summary": "Concert Dry Cleaning + Teenage Exorcists au Reflektor, Liège.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
+    },
+    {
+      "id": "web-reflektor-li-ge-miki-lovelace-2026-11-11",
+      "title": "MIKI + Lovelace",
+      "category": "concert",
+      "venue": "OM",
+      "city": "Liège",
+      "lat": 50.6073612,
+      "lon": 5.5364634,
+      "start": "2026-11-11T10:00:00",
+      "end": "2026-11-11T10:00:00",
+      "image": null,
+      "page_url": null,
+      "url": "https://shop.paylogic.com/0eec0df6ed774bb88e93e679214ec1e1",
+      "summary": "Concert MIKI + Lovelace à l'OM, Liège.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
     },
@@ -918,50 +936,6 @@
       ],
       "tags": [],
       "source": "Botanique (Bruxelles)"
-    },
-    {
-      "id": "web-trix-anvers-the-veils-2026-11-11",
-      "title": "The Veils",
-      "category": "concert",
-      "venue": "Trix",
-      "city": "Anvers",
-      "lat": 51.2195776,
-      "lon": 4.4483726,
-      "start": "2026-11-11T10:00:00",
-      "end": "2026-11-11T10:00:00",
-      "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/fe21/5f/91d65eadeb7029f3294ea2847a6421cab2b370a2.webp",
-      "page_url": "https://www.trixonline.be/nl/event/the-veils-2",
-      "url": "https://www.trixonline.be/nl/event/the-veils-2",
-      "summary": "The Veils combineren rauwe intensiteit, filmische geluiden en onbevreesd songschrijven, nu samengebald in hun nieuwste album Fragile World",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "young"
-      ],
-      "tags": [],
-      "source": "Trix (Anvers)"
-    },
-    {
-      "id": "web-trix-anvers-lily-seabird-2026-11-11",
-      "title": "Lily Seabird",
-      "category": "concert",
-      "venue": "Trix",
-      "city": "Anvers",
-      "lat": 51.2195776,
-      "lon": 4.4483726,
-      "start": "2026-11-11T10:00:00",
-      "end": "2026-11-11T10:00:00",
-      "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/9812/fa/47e33577b74100f575e7700930e7c3443d720cd8.webp",
-      "page_url": "https://www.trixonline.be/nl/event/lily-seabird",
-      "url": "https://www.trixonline.be/nl/event/lily-seabird",
-      "summary": "Lily Seabird laat breekbare folk keihard botsen met rammelende, overstuurde gitaren. Een heldere blik op folk voor grungeliefhebbers, vol zware, menselijke thema's.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "young"
-      ],
-      "tags": [],
-      "source": "Trix (Anvers)"
     },
     {
       "id": "web-het-depot-louvain-iskander-moon-morpheus-2026-11-11",
@@ -1314,34 +1288,10 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/momoko-gill/",
       "url": "https://shop.paylogic.com/18378c1e77584458ade4ce6015651b6c",
-      "summary": "Concert de Momoko Gill + Condore au Reflektor.",
+      "summary": "Concert Momoko Gill + Condore au Reflektor, Liège.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
-      "tags": [],
-      "source": "Reflektor (Liège)"
-    },
-    {
-      "id": "web-reflektor-li-ge-miki-lovelace-2026-11-12",
-      "title": "MIKI + Lovelace",
-      "category": "concert",
-      "venue": "OM",
-      "city": "Liège",
-      "lat": 50.6073612,
-      "lon": 5.5364634,
-      "start": "2026-11-12T10:00:00",
-      "end": "2026-11-12T10:00:00",
-      "image": null,
-      "page_url": null,
-      "url": "https://shop.paylogic.com/0eec0df6ed774bb88e93e679214ec1e1",
-      "summary": "Concert de MIKI + Lovelace à l'OM.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
     },
@@ -1441,9 +1391,7 @@
       "summary": "Festival de découverte au AB Club à Bruxelles, le 12 novembre 2026, avec LinLin, waterbaby, Teyma et H.LLS. Le public y découvrira des artistes R&B, pop urbaine, rap électronique et alt-R&B, en concerts et sets de DJ.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Ancienne Belgique (Bruxelles)"
     },
@@ -1480,11 +1428,12 @@
       "image": "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000TIgw9MAD_1240x720.jpg",
       "page_url": "https://www.abconcerts.be/fr/agenda/klassiek-met-de-keere-sound-design-in-klassieke-muziek/a10Qw00000PP989IAD",
       "url": "https://www.abconcerts.be/fr/agenda/klassiek-met-de-keere-sound-design-in-klassieke-muziek/a10Qw00000PP989IAD",
-      "summary": "Découvrez comment les compositeurs ont repoussé les limites de l'audition.",
+      "summary": "Découvrez comment les compositeurs ont repoussé les limites de l'audition",
       "price_from": null,
       "free": true,
       "audience": [],
       "tags": [
+        "gratuit",
         "découverte"
       ],
       "source": "Ancienne Belgique (Bruxelles)"
@@ -1527,9 +1476,7 @@
       "summary": "Na een jaar van touren kroop Cassia de studio in voor een frisse start: hun vertrouwde zonnige sound krijgt in 2026 gezelschap van diepere grooves en een flinke dosis eigenzinnigheid.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -1549,9 +1496,7 @@
       "summary": "Tijdens Café Kelder krijgen repeteerders uit Trix vrij spel op ons podium in het Café!",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -2180,12 +2125,10 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/hollywood-porn-stars/",
       "url": "https://shop.paylogic.com/9816d02f6f52408f80a542071212f15e",
-      "summary": "Concert de Hollywood Porn Stars + Satchel Hart + After au Reflektor (sold out).",
+      "summary": "Concert Hollywood Porn Stars + Satchel Hart + After au Reflektor, Liège (sold out).",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
     },
@@ -2202,12 +2145,10 @@
       "image": null,
       "page_url": null,
       "url": "https://shop.paylogic.com/f181d69b55c4457f8fd82272df255310/offsale",
-      "summary": "Concert de L.E.J. + Marù à l'OM.",
+      "summary": "Concert L.E.J. + Marù à l'OM, Liège.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
     },
@@ -2335,9 +2276,7 @@
       "summary": "Festival de découvertes musicales à l'AB Club (Bruxelles) avec Fred Gata, Alewya, namesbliss et Bombay Mami : hip-hop, soul, jazz rap, afro-électro et R&B mêlé de musique classique indienne. Portes à 18h30, dernier set prévu à 22h20.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Ancienne Belgique (Bruxelles)"
     },
@@ -2397,9 +2336,7 @@
       "summary": "Na een succesvolle editie vorig jaar, waar we meer dan 500 bezoekers mochten verwelkomen, willen we met Inside The Circle Antwerpen het Vlaamse en Brusselse elektronische muzieklandschap opnieuw samenbrengen dit najaar. Op vrijdag 13 november 2026 komt Inside The Circle, het conferentiegedeelte van ",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -3988,7 +3925,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/ebony/",
       "url": "https://shop.paylogic.com/8a610502c1a04ff28e721be46fae5355",
-      "summary": "Concert de Ebony + Kynato au Reflektor (sold out).",
+      "summary": "Concert Ebony + Kynato au Reflektor, Liège (sold out).",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -4181,9 +4118,7 @@
       "summary": "Le groupe bruxellois de newcore Ice Sealed Eyes présente en tête d'affiche un nouveau chapitre de son histoire, lors d'un concert de sortie d'album. En première partie, EIGA (metalcore, hardcore, nu metal) et Affenpinshers (metal hardcore) joueront.",
       "price_from": 1.25,
       "free": false,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Ancienne Belgique (Bruxelles)"
     },
@@ -4203,9 +4138,7 @@
       "summary": "JeanJass, icône du rap belge, se produit à l'AB Grande salle à Bruxelles, avec Mathias en première partie. Le concert est en format debout avec places assises limitées, et il est actuellement complet.",
       "price_from": 1.25,
       "free": false,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Ancienne Belgique (Bruxelles)"
     },
@@ -4225,9 +4158,7 @@
       "summary": "Nick Hakim is terug met zijn gloednieuwe dubbelsingle 'Real Here Now' & 'Water', dromerige lo-fi neo-soul die zich direct in je hoofd nestelt.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -4247,9 +4178,7 @@
       "summary": "Trix-resident Lowye viert op 14 november de release show van zijn album OSIRIS, waarin hij met zware beats, rap en de support van het Antwerpse VHS de zaal omtovert tot een kerkhof.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -4266,12 +4195,10 @@
       "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/42a3/88/88af7d5975c309e94f831c8ebb7226378dc1963c.webp",
       "page_url": "https://www.trixonline.be/nl/event/swae-lee",
       "url": "https://www.trixonline.be/nl/event/swae-lee",
-      "summary": "Concert de Swae Lee, annoncé sur la programmation de Trix.",
+      "summary": "Concert de Swae Lee annoncé sur Trix Antwerpen.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -7524,12 +7451,10 @@
       "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/70c4/c0/2df96dc6d63f5661c8d9744689b3817be51c6259.webp",
       "page_url": "https://www.trixonline.be/nl/event/freya-skye-1",
       "url": "https://www.trixonline.be/nl/event/freya-skye-1",
-      "summary": "Concert de Freya Skye, annoncé sur la programmation de Trix.",
+      "summary": "Concert de Freya Skye annoncé sur Trix Antwerpen.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -7670,9 +7595,7 @@
       "summary": "Alles over hoe een PA, mengtafel en microfoons werken.Altijd al willen weten waarom sommige concerten zo ongelofelijk goed klinken? Benieuwd naar wat die persoon achter de mengtafel nu eigenlijk allemaal aan het doen is? Tijdens deze cursus leer je op drie intensieve lesavonden hoe een PA, mengtafel",
       "price_from": 16.0,
       "free": false,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -8028,12 +7951,10 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/nayte-18-11/",
       "url": "https://shop.paylogic.com/172bc7d26911453a869d81b999a6245b",
-      "summary": "Concert de NAYTE au Reflektor le 18 novembre (sold out).",
+      "summary": "Concert de NAYTE au Reflektor, Liège (sold out).",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
     },
@@ -8093,9 +8014,7 @@
       "summary": "Concert du groupe de power metal intergalactique Gloryhammer au Trix d'Anvers, avec les premières parties Arion et Majestica. Le groupe y présente son cinquième album, avec de nouveaux titres et des hymnes épiques.",
       "price_from": 7.5,
       "free": false,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -8115,9 +8034,7 @@
       "summary": "Blu Samu, urban samurai bruxelloise, présente son premier album « (K)NOT » sur la scène de Trix à Anvers. Mêlant hip-hop, soul et ce qu'elle appelle « porseleinen punk », elle aborde l'acceptation, la nostalgie, l'amour de soi et la résilience.",
       "price_from": 3.9,
       "free": false,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -8655,12 +8572,10 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/3467/",
       "url": "https://shop.paylogic.com/476d083e126a450fbef1887f68a7d4ce",
-      "summary": "Concert de NAYTE au Reflektor le 19 novembre (sold out).",
+      "summary": "Concert de NAYTE au Reflektor, Liège.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
     },
@@ -8707,7 +8622,7 @@
     {
       "id": "web-trix-anvers-expo-workshop-muziekfotografie-2026-11-19",
       "title": "Expo: Workshop Muziekfotografie",
-      "category": "expo",
+      "category": "workshop",
       "venue": "Trix",
       "city": "Anvers",
       "lat": 51.2195776,
@@ -8720,6 +8635,26 @@
       "summary": "Dix participants de l'atelier Muziekfotografie, encadrés par la photographe Daria Miasoedova, présentent leurs photos lors du vernissage de l'exposition le jeudi 19 novembre. Ils y montrent des images de groupes et du public prises pendant des concerts au Trix, après une formation en photographie de",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Trix (Anvers)"
+    },
+    {
+      "id": "web-trix-anvers-noor-2026-11-19",
+      "title": "Noor",
+      "category": "concert",
+      "venue": "Trix",
+      "city": "Anvers",
+      "lat": 51.2195776,
+      "lon": 4.4483726,
+      "start": "2026-11-19T10:00:00",
+      "end": "2026-11-19T10:00:00",
+      "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/8a9b/8d/b2255fe69659e6018586e4c1cc27a275e0a32772.webp",
+      "page_url": "https://www.trixonline.be/nl/event/noor-1",
+      "url": "https://www.trixonline.be/nl/event/noor-1",
+      "summary": "Noor, figure de la pop néerlandophone, y interprète ses chansons personnelles, dont « De Wereld Sterft », « Ik Zwaai Het Uit » et le single récent « HOE? ». Le concert s'inscrit dans une nouvelle phase artistique, annoncée par une EP à paraître à l'automne.",
+      "price_from": 3.5,
+      "free": false,
       "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
@@ -8740,31 +8675,7 @@
       "summary": "Nemzzz, jeune rappeur de South Manchester à la flow posée, aborde dans ses textes la pression mentale, l'amitié et l'indépendance. Il se produit au Trix d'Anvers, avec des samples soul et des beats minimalistes, dans la lignée de ses projets Do Not Disturb et Rent's Due.",
       "price_from": 5.3,
       "free": false,
-      "audience": [
-        "young"
-      ],
-      "tags": [],
-      "source": "Trix (Anvers)"
-    },
-    {
-      "id": "web-trix-anvers-noor-2026-11-19",
-      "title": "Noor",
-      "category": "concert",
-      "venue": "Trix",
-      "city": "Anvers",
-      "lat": 51.2195776,
-      "lon": 4.4483726,
-      "start": "2026-11-19T10:00:00",
-      "end": "2026-11-19T10:00:00",
-      "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/8a9b/8d/b2255fe69659e6018586e4c1cc27a275e0a32772.webp",
-      "page_url": "https://www.trixonline.be/nl/event/noor-1",
-      "url": "https://www.trixonline.be/nl/event/noor-1",
-      "summary": "Noor, figure de la pop néerlandophone, y interprète ses chansons personnelles, dont « De Wereld Sterft », « Ik Zwaai Het Uit » et le single récent « HOE? ». Le concert s'inscrit dans une nouvelle phase artistique, annoncée par une EP à paraître à l'automne.",
-      "price_from": 3.5,
-      "free": false,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -9386,8 +9297,8 @@
       "end": "2026-11-20T10:00:00",
       "image": null,
       "page_url": "https://reflektor.be/concert/the-jazz-room-un-voyage-au-coeur-de-la-nouvelle-orleans-2/",
-      "url": "https://feverup.com/m/563650",
-      "summary": "Un voyage au cœur de La Nouvelle-Orléans avec The Jazz Room au Reflektor.",
+      "url": "https://shop.paylogic.com/a625f7a9d0b0464ab78c04dace462f65/",
+      "summary": "Concert The Jazz Room : un voyage au cœur de La Nouvelle-Orléans au Reflektor, Liège (sold out).",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -9516,9 +9427,7 @@
       "summary": "Le groupe Rosemary joue du « Synthekpunk », un mélange de punk électronique poétique et de musique dansante à 160 bpm. Leur musique évoque la pression de devoir toujours aller plus vite tout en restant fragile à l'intérieur.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -11108,8 +11017,8 @@
       "end": "2026-11-21T10:00:00",
       "image": null,
       "page_url": "https://reflektor.be/concert/ao-2/",
-      "url": "https://shop.paylogic.com/a625f7a9d0b0464ab78c04dace462f65/",
-      "summary": "Concert de Ão + Brice Ninck au Reflektor.",
+      "url": "https://feverup.com/m/563650",
+      "summary": "Concert Ão + Brice Ninck au Reflektor, Liège.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -11221,6 +11130,46 @@
         "soirée"
       ],
       "source": "Fuse (Bruxelles)"
+    },
+    {
+      "id": "web-trix-anvers-workshop-de-basics-van-artiesten-management-2026-11-21",
+      "title": "Workshop: De basics van Artiesten Management",
+      "category": "workshop",
+      "venue": "Trix",
+      "city": "Anvers",
+      "lat": 51.2195776,
+      "lon": 4.4483726,
+      "start": "2026-11-21T10:00:00",
+      "end": "2026-11-21T10:00:00",
+      "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/044c/26/edade890e89dbb9a9a203bdeee81ad09721989d4.webp",
+      "page_url": "https://www.trixonline.be/nl/event/workshop-de-basics-van-artiesten-management-1",
+      "url": "https://www.trixonline.be/nl/event/workshop-de-basics-van-artiesten-management-1",
+      "summary": "Wil je leren hoe je jezelf of anderen als artiest professioneel op de kaart zet? Tijdens deze workshop neemt een ervaren professional uit de muziekindustrie je mee in de basis van artiestenmanagement. Van promo en bookings tot releaseplanning en het bouwen van een eigen netwerk: je krijgt alle prakt",
+      "price_from": 3.5,
+      "free": false,
+      "audience": [],
+      "tags": [],
+      "source": "Trix (Anvers)"
+    },
+    {
+      "id": "web-trix-anvers-flemming-2026-11-21",
+      "title": "Flemming",
+      "category": "concert",
+      "venue": "Trix",
+      "city": "Anvers",
+      "lat": 51.2195776,
+      "lon": 4.4483726,
+      "start": "2026-11-21T10:00:00",
+      "end": "2026-11-21T10:00:00",
+      "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/a8bf/07/e4a1e3194993ffaf99535c849f142e5bcb429dfe.webp",
+      "page_url": "https://www.trixonline.be/nl/event/flemming",
+      "url": "https://www.trixonline.be/nl/event/flemming",
+      "summary": "Concert solo de Flemming, artiste néerlandais connu pour « Amsterdam », « Zij wil mij » et « Automatisch », accompagné de son groupe live. Il y interprétera aussi « Niet nodig », son single avec Metejoor, à Trix Antwerpen.",
+      "price_from": 7.5,
+      "free": false,
+      "audience": [],
+      "tags": [],
+      "source": "Trix (Anvers)"
     },
     {
       "id": "web-het-depot-louvain-breaking-barriers-presents-the-kids-50-2026-11-21",
@@ -14146,12 +14095,10 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/zelie/",
       "url": "https://shop.paylogic.com/90c9c7bcf5f24858904d6800adc49738",
-      "summary": "Concert de Zélie au Reflektor (sold out).",
+      "summary": "Concert de Zélie au Reflektor, Liège.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
     },
@@ -14527,12 +14474,10 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/wednesday-13-the-birthday-massacre-killus/",
       "url": "https://shop.paylogic.com/1ec952da2efd444ca4a852a1a3544f5c/offsale",
-      "summary": "Concert de Wednesday 13 + THE BIRTHDAY MASSACRE + Killus au Reflektor.",
+      "summary": "Concert Wednesday 13 + THE BIRTHDAY MASSACRE + Killus au Reflektor, Liège.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
     },
@@ -18083,9 +18028,7 @@
       "summary": "Journée pour artistes, bands et producteurs de 16 à 30 ans à la Trix Werkplaats d'Anvers, pour s'informer et progresser. Au programme : feedback individuel, artist talks, workshops (branding, scène, planning de sortie) et discussions sur les droits et la promotion.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -19037,12 +18980,10 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/naft/",
       "url": "https://shop.paylogic.com/d66e729cb25046838dec1f3e5834fcf1",
-      "summary": "Concert de Naft au Reflektor.",
+      "summary": "Concert de Naft au Reflektor, Liège.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
     },
@@ -20040,7 +19981,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/syd-matters/",
       "url": "https://shop.paylogic.com/a17b4af8083a4f12993bffc7e7d94283",
-      "summary": "Concert de Syd Matters au Reflektor.",
+      "summary": "Concert de Syd Matters au Reflektor, Liège.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -20861,7 +20802,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/la-saint-nicolas-du-regina-club-andre-borbe-presente-borbestof/",
       "url": "https://shop.paylogic.com/2a4a6d38ec4143789b1350935d75ba63",
-      "summary": "La Saint-Nicolas du Regina Club avec André Borbé présente Borbest'of.",
+      "summary": "La Saint-Nicolas du Regina Club : André Borbe présente Borbest'of.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -21590,7 +21531,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/emel/",
       "url": "https://shop.paylogic.com/ff0a55215fdb41c1a822a4b119df2f25",
-      "summary": "Concert d'Emel au Reflektor.",
+      "summary": "Concert d'Emel au Reflektor, Liège.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -21610,7 +21551,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/kahil-elzabar-isaiah-collier-duo/",
       "url": "https://shop.paylogic.com/a1174aa8c6cc43fd9283a8722b3054b1",
-      "summary": "Concert du duo Kahil El'Zabar & Isaiah Collier au Regina Club.",
+      "summary": "Concert du duo Kahil El'Zabar & Isaiah Collier au Regina Club, Liège.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -22332,7 +22273,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/didier-super-et-son-groupe-discount/",
       "url": "https://shop.paylogic.com/b5c5cda405104373806df413ce341b59",
-      "summary": "Concert de Didier Super et son groupe Discount au Reflektor.",
+      "summary": "Concert de Didier Super et son groupe Discount au Reflektor, Liège.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -24836,13 +24777,11 @@
       "end": "2026-12-17T10:00:00",
       "image": null,
       "page_url": "https://reflektor.be/concert/kid-sophie-fanny/",
-      "url": "https://feverup.com/m/650639",
-      "summary": "Concert de KID SOPHIE + FANNY au Regina Club.",
+      "url": "https://feverup.com/m/650639?srsltid=AfmBOopFNWbf75ZR_zcQxaoJ4WyCG2vMSVWrYadWhqoW9f-i3SKHlZ0H",
+      "summary": "Concert KID SOPHIE + FANNY au Regina Club, Liège.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
     },
@@ -25125,8 +25064,8 @@
       "end": "2026-12-18T10:00:00",
       "image": "https://www.livecafe.be/assets/frontend/images/facebook.jpg?v=104",
       "page_url": "https://reflektor.be/concert/the-jazz-room-un-hommage-a-frank-sinatra-et-a-louis-armstrong-12-2026/",
-      "url": "https://www.livecafe.be/billetterie/cookie-collectif",
-      "summary": "Hommage à Frank Sinatra et Louis Armstrong avec The Jazz Room au Reflektor.",
+      "url": "https://www.livecafe.be/billetterie/cookie-collectif?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=IwY2xjawVG-B1leHRuA2FlbQIxMABwZG9mAWJyaWQRMWNDVTNWZTJwajd3TDRCVDhzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEemeG1mmRUc5KVTw84Xppq0htijKTDX3pvMlu1ir0jrSTjRuUP3-ZxBI_XjmE_aem_V0hjqwWZysIzCUfokW5kpw",
+      "summary": "Concert The Jazz Room : hommage à Frank Sinatra et Louis Armstrong au Reflektor, Liège.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -25727,7 +25666,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/cookie-festival/",
       "url": "https://feverup.com/m/521008/fr",
-      "summary": "Cookie Festival au Reflektor.",
+      "summary": "Cookie Festival au Reflektor, Liège.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -27452,7 +27391,7 @@
     {
       "id": "web-reflektor-li-ge-blind-test-de-l-om-sp-cial-90s-2027-01-08",
       "title": "Blind-test de l'OM: spécial 90s",
-      "category": "culture",
+      "category": "party",
       "venue": "OM",
       "city": "Liège",
       "lat": 50.6073612,
@@ -27462,7 +27401,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/blind-test-de-lom-special-90s-2/",
       "url": "https://shop.paylogic.com/a63a8326e7de445faae0ef8a30fd458f/",
-      "summary": "Blind-test de l'OM, spécial années 90.",
+      "summary": "Blind-test de l'OM, spécial 90s.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -27623,7 +27562,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/the-jazz-room-un-voyage-au-coeur-de-la-nouvelle-orleans/",
       "url": "https://shop.paylogic.com/e528734395f748d29122d4fd79f121c5",
-      "summary": "Un voyage au cœur de La Nouvelle-Orléans avec The Jazz Room au Reflektor.",
+      "summary": "Concert The Jazz Room : un voyage au cœur de La Nouvelle-Orléans au Reflektor, Liège.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -28495,7 +28434,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/charles-dore/",
       "url": "https://shop.paylogic.com/d47b72fedfb249f88dd158e7287f0263",
-      "summary": "Concert de Charles Doré au Reflektor.",
+      "summary": "Concert de Charles Doré au Reflektor, Liège.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -29170,7 +29109,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/piche/",
       "url": "https://shop.paylogic.com/f918054df7a245e18d137c19a35b84f0",
-      "summary": "Concert de Piche au Reflektor.",
+      "summary": "Concert de Piche au Reflektor, Liège.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -29830,7 +29769,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/bardix-le-gaulois/",
       "url": "https://shop.paylogic.com/21b05858747541138e3db4afc5d1efbf",
-      "summary": "Concert de Bardix le Gaulois au Reflektor.",
+      "summary": "Concert de Bardix le Gaulois au Reflektor, Liège.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -29950,12 +29889,10 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/black-box-revelation-2/",
       "url": "https://shop.paylogic.com/339752fbb7534d6ab2858c66698909c5",
-      "summary": "Concert de Black Box Revelation au Reflektor.",
+      "summary": "Concert de Black Box Revelation au Reflektor, Liège.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
     },
@@ -30056,9 +29993,7 @@
       "summary": "Le groupe new-yorkais Show Me The Body présente son quatrième album « Alone Together », un hardcore puissant sur le deuil, l'amour et le soutien mutuel. Le concert au Trix d'Anvers alterne passages très lourds et moments plus intimes, avec des cuivres jazz.",
       "price_from": 5.8,
       "free": false,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -30269,7 +30204,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/the-jazz-room-un-hommage-a-frank-sinatra-et-a-louis-armstrong-02-2027/",
       "url": "https://shop.paylogic.com/e0deb9ae04c249548ce36e21b994f794",
-      "summary": "Hommage à Frank Sinatra et Louis Armstrong avec The Jazz Room au Reflektor (sold out).",
+      "summary": "Concert The Jazz Room : hommage à Frank Sinatra et Louis Armstrong au Reflektor, Liège (sold out).",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -30292,9 +30227,7 @@
       "summary": "Le festival We Are Open 2027 se déroule les 12 et 13 février 2027 à Trix, à Anvers, et présente environ 70 artistes belges émergents sur six ou sept scènes. Il permet de découvrir la nouvelle scène musicale belge, avec des concerts et des pop-up shows.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -30552,9 +30485,7 @@
       "summary": "Soirée de concert présentée par Sonic Excess le 14 février 2027, avec les groupes Napalm Death, Misery Indeax, Author & Punisher, HaBak et Piece. La page ne donne pas d'autre détail sur le déroulement de la soirée.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
     },
@@ -30751,7 +30682,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/sam-bettens/",
       "url": "https://shop.paylogic.com/20de10831e7b4cbabfcf7d7b62ea4fe8/",
-      "summary": "Concert de Sam Bettens au Reflektor.",
+      "summary": "Concert de Sam Bettens au Reflektor, Liège.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -30948,7 +30879,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/noe-preszow-2/",
       "url": "https://shop.paylogic.com/5863b3f1655d4655936b60522551e31c",
-      "summary": "Concert de Noé Preszow au Reflektor.",
+      "summary": "Concert de Noé Preszow au Reflektor, Liège.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -31419,12 +31350,10 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/pony-pony-run-run/",
       "url": "https://shop.paylogic.com/351bd441de3b42be96c54a25410a21a6/",
-      "summary": "Concert de Pony Pony Run Run au Reflektor.",
+      "summary": "Concert de Pony Pony Run Run au Reflektor, Liège.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
     },
@@ -31498,7 +31427,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/exsonvaldes/",
       "url": "https://shop.paylogic.com/a82b7df1f3194e9f8e1566977161e4ec",
-      "summary": "Concert d'EXSONVALDES au Reflektor.",
+      "summary": "Concert d'EXSONVALDES au Reflektor, Liège.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -31507,7 +31436,7 @@
     },
     {
       "id": "web-trix-anvers-basht-2027-03-05",
-      "title": "Basht",
+      "title": "Basht.",
       "category": "concert",
       "venue": "Trix",
       "city": "Anvers",
@@ -31518,12 +31447,10 @@
       "image": "https://www.trixonline.be/media/cache/default_highlight/uploads/media/default/0d13/bb/36e9276d273aec533d67d6e90fb52fca81d5a711.webp",
       "page_url": "https://www.trixonline.be/nl/event/basht",
       "url": "https://www.trixonline.be/nl/event/basht",
-      "summary": "Concert du groupe rock dublinois Basht au Trix à Anvers, pour présenter son premier album Poor Advice (octobre 2026), entre post-punk, rock de guitare et émotion. Le groupe est réputé pour ses shows intenses.",
+      "summary": "Basht., groupe rock de Dublin salué par HotPress, joue un mélange de post-punk, de rock guitare et d'émotion pesante. Son premier album « Poor Advice » est sorti en octobre 2026, et le groupe est réputé pour ses concerts percutants.",
       "price_from": 3.5,
       "free": false,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -31543,9 +31470,7 @@
       "summary": "Trixie Whitley présente son nouvel album Folded Time (Unday Records), entre batterie, guitare, piano et basse, avec des chansons sur la perte, le renouveau et la maternité. Le concert offre un moment intime et émotionnel, porté par sa voix.",
       "price_from": 6.5,
       "free": false,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -31639,7 +31564,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/the-jazz-room-un-hommage-a-frank-sinatra-et-a-louis-armstrong-03-2027/",
       "url": "https://feverup.com/m/650639",
-      "summary": "Hommage à Frank Sinatra et Louis Armstrong avec The Jazz Room au Reflektor.",
+      "summary": "Concert The Jazz Room : hommage à Frank Sinatra et Louis Armstrong au Reflektor, Liège.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -31662,9 +31587,7 @@
       "summary": "Jonah Kagen mixt technisch gitaarwerk met herkenbare teksten en haalt inspiratie bij artiesten als Townes Van Zandt, Jason Isbell en gitaarvirtuoos Andy McKee. Op zijn tweede album, Eternity of Anything neemt hij het volledige creatieve proces in eigen handen. Van het schrijven tot produceren, opnem",
       "price_from": 4.6,
       "free": false,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -31742,9 +31665,7 @@
       "summary": "Le duo canadien cleopatrick, formé par Luke Gruntz et Ian Fraser, mêle rock lourd, hip-hop et son « LAPTOP ROCK » sur son second album FAKE MOON. Le concert a lieu à Trix à Anvers, un rendez-vous pour les fans de rock.",
       "price_from": 5.6,
       "free": false,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -31858,12 +31779,10 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/eosine-2/",
       "url": "https://shop.paylogic.com/03f041539bfe460ba7be3f64aebb9b96",
-      "summary": "Concert d'Eosine au Reflektor.",
+      "summary": "Concert d'Eosine au Reflektor, Liège.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
     },
@@ -32188,7 +32107,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/gwendoline/",
       "url": "https://shop.paylogic.com/351bd441de3b42be96c54a25410a21a6/",
-      "summary": "Concert de Gwendoline au Reflektor.",
+      "summary": "Concert de Gwendoline au Reflektor, Liège.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -32465,12 +32384,10 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/the-chameleons/",
       "url": "https://shop.paylogic.com/3c859bbfa60b40a69566b9a4144a45f8",
-      "summary": "Concert de The Chameleons au Reflektor.",
+      "summary": "Concert de The Chameleons au Reflektor, Liège.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
     },
@@ -32507,7 +32424,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/other-lives/",
       "url": "https://shop.paylogic.com/40d397ab199c4f7c98f4bbefd58f3b91",
-      "summary": "Concert de Other Lives au Reflektor.",
+      "summary": "Concert de Other Lives au Reflektor, Liège.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -32742,9 +32659,7 @@
       "summary": "La Danoise Sofie Birch propose de la musique ambient et électro-acoustique, faite de synthés, de field recordings, de voix et d'instruments trance, pour une expérience d'écoute profonde (« deep listening »). Le concert a lieu à Trix, à Anvers.",
       "price_from": 4.3,
       "free": false,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -32903,7 +32818,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/django-2/",
       "url": "https://shop.paylogic.com/23aab40727664cd9a172d19b64de7350/",
-      "summary": "Concert de Django au Reflektor.",
+      "summary": "Concert de Django au Reflektor, Liège.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -33350,7 +33265,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/bilal-hassani/",
       "url": "https://shop.paylogic.com/96bb79d9b0974510a9d7bf25d0010bc0/",
-      "summary": "Concert de Bilal Hassani au Reflektor.",
+      "summary": "Concert de Bilal Hassani au Reflektor, Liège.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -33450,9 +33365,7 @@
       "summary": "Le chanteur et multi-instrumentaliste sud-africain Booshle G. présente des titres pop, folk, rock et soul pleins d'espoir, extraits de son premier album « I Was Never Alone » et de son succès « Take Me Home ». En première partie, le duo Neon Dreams se produit.",
       "price_from": 3.7,
       "free": false,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -33667,7 +33580,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/melissa/",
       "url": "https://shop.paylogic.com/d65b380368744ec9a5f38f20f67a20f6/",
-      "summary": "Concert de Melissa au Reflektor.",
+      "summary": "Concert de Melissa au Reflektor, Liège.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -33745,7 +33658,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/anouk/",
       "url": "https://shop.paylogic.com/a07886f7e6c04b74bfe3410242c4abaa",
-      "summary": "Concert d'Anouk à l'OM.",
+      "summary": "Concert d'Anouk à l'OM, Liège.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -34331,12 +34244,10 @@
       "image": "https://reflektor.be/wp-content/uploads/2026/09/Bear-Pit_mono-DSC5764-1-scaled-e1788248605295.jpg",
       "page_url": "https://reflektor.be/concert/the-mission/",
       "url": "https://reflektor.be/concert/the-mission/",
-      "summary": "Concert de The Mission au Reflektor.",
+      "summary": "Concert de The Mission au Reflektor, Liège.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
     },
@@ -34661,9 +34572,7 @@
       "summary": "Van trap-pionier met ‘D&G’ tot de release van zijn nieuwste album ‘DOMUS’. Mula (voorheen Mula B) blijft een van de meest bepalende stemmen in de Nederlandse hiphop en brengt binnenkort zijn nieuwe album live in Trix.",
       "price_from": 5.6,
       "free": false,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
