@@ -1,5 +1,5 @@
 {
-  "genere": "2026-11-10T22:21:19",
+  "genere": "2026-11-11T01:37:02",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -8,8 +8,6 @@
       "ia_a_trouve": 5,
       "gardes": 5,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 1,
       "extrait_reponse_ia": ""
     },
     {
@@ -42,16 +40,18 @@
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 52331,
+      "page_caracteres": 50736,
       "ia_a_trouve": 44,
       "gardes": 44,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 42780,
+      "page_caracteres": 42778,
       "ia_a_trouve": 127,
       "gardes": 127,
       "ecartes": 0,
@@ -69,10 +69,12 @@
     {
       "source": "Province de Liège",
       "ok": true,
-      "page_caracteres": 18223,
-      "ia_a_trouve": 4,
-      "gardes": 4,
+      "page_caracteres": 17994,
+      "ia_a_trouve": 5,
+      "gardes": 5,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -87,10 +89,10 @@
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 11916,
-      "ia_a_trouve": 2,
+      "page_caracteres": 12218,
+      "ia_a_trouve": 1,
       "gardes": 0,
-      "ecartes": 2,
+      "ecartes": 1,
       "morceaux": 1,
       "reponses_coupees": 0,
       "extrait_reponse_ia": ""
@@ -154,8 +156,8 @@
       "ok": true,
       "page_caracteres": 5215,
       "ia_a_trouve": 6,
-      "gardes": 6,
-      "ecartes": 0,
+      "gardes": 5,
+      "ecartes": 1,
       "extrait_reponse_ia": ""
     },
     {
@@ -179,7 +181,7 @@
     {
       "source": "Ancienne Belgique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 6836,
+      "page_caracteres": 6848,
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
@@ -201,28 +203,30 @@
       "ok": true,
       "page_caracteres": 10509,
       "ia_a_trouve": 29,
-      "gardes": 29,
+      "gardes": 28,
+      "ecartes": 1,
+      "extrait_reponse_ia": ""
+    },
+    {
+      "source": "Het Depot (Louvain)",
+      "ok": true,
+      "page_caracteres": 7396,
+      "ia_a_trouve": 15,
+      "gardes": 15,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
-      "source": "Het Depot (Louvain)",
-      "ok": true,
-      "page_caracteres": 7502,
-      "ia_a_trouve": 15,
-      "gardes": 15,
-      "ecartes": 0,
-      "extrait_reponse_ia": ""
-    },
-    {
       "source": "Mars – Mons arts de la scène",
       "ok": true,
-      "page_caracteres": 11736,
-      "ia_a_trouve": 13,
-      "gardes": 13,
+      "page_caracteres": 11591,
+      "ia_a_trouve": 11,
+      "gardes": 11,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -240,20 +244,20 @@
       "source": "Facebook (service tiers)",
       "ok": true,
       "etat": "pas encore l'heure",
-      "gardes": 185
+      "gardes": 184
     },
     {
       "source": "Doublons fusionnés",
       "ok": true,
-      "fusionnes": 47
+      "fusionnes": 46
     },
     {
       "source": "Pages des billetteries",
       "ok": true,
-      "pages_lues": 4,
-      "pages_lues_par_ia": 5
+      "pages_lues": 3,
+      "pages_lues_par_ia": 8
     }
   ],
-  "avec_image": 1115,
-  "total": 1717
+  "avec_image": 1108,
+  "total": 1687
 }
