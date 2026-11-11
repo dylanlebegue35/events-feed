@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11T01:37:02",
+  "generated": "2026-11-11T11:37:28",
   "events": [
     {
       "id": "web-province-de-li-ge-jeudi-sant-cycle-de-conf-rences-2026-2026-02-05",
@@ -818,48 +818,6 @@
       "source": "VisitHuy"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-un-grand-raccourci-2026-11-11",
-      "title": "Un grand raccourci",
-      "category": "cinema",
-      "venue": "Sauvenière",
-      "city": "Liège",
-      "lat": 50.6432641,
-      "lon": 5.5679468,
-      "start": "2026-11-11T10:00:00",
-      "end": "2026-11-11T10:00:00",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/2014_Li%C3%A8ge%2C_boulevard_de_la_Sauveni%C3%A8re_%2803%29.jpg/1280px-2014_Li%C3%A8ge%2C_boulevard_de_la_Sauveni%C3%A8re_%2803%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "page_url": "https://www.grignoux.be/fr/evenement/3178/un-grand-raccourci",
-      "url": "https://www.grignoux.be/fr/evenement/3178/un-grand-raccourci",
-      "summary": "Deux cousins bretons relâchent des rats pour s'improviser dératiseurs tandis que deux jeunes femmes trafiquent un concours de beauté. Ces quatre débrouillards en quête d'avenir finissent par se percuter dans leurs stratagèmes chaotiques.",
-      "price_from": 12.0,
-      "free": false,
-      "audience": [],
-      "tags": [],
-      "source": "Les Grignoux – cinéma (Liège)",
-      "image_credit": "Kleon3 / Wikimedia Commons, CC BY-SA 4.0"
-    },
-    {
-      "id": "web-les-grignoux-cin-ma-li-ge-camembert-avant-premi-re-2026-11-11",
-      "title": "Camembert (avant-première)",
-      "category": "cinema",
-      "venue": "Sauvenière",
-      "city": "Liège",
-      "lat": 50.6432641,
-      "lon": 5.5679468,
-      "start": "2026-11-11T10:00:00",
-      "end": "2026-11-11T10:00:00",
-      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/2014_Li%C3%A8ge%2C_boulevard_de_la_Sauveni%C3%A8re_%2803%29.jpg/1280px-2014_Li%C3%A8ge%2C_boulevard_de_la_Sauveni%C3%A8re_%2803%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "page_url": "https://www.grignoux.be/fr/evenement/3164/camembert",
-      "url": "https://www.grignoux.be/fr/evenement/3164/camembert",
-      "summary": "Stan, trentenaire d'origine modeste, découvre la famille de sa petite amie Cléo, où une partie de Trivial Pursuit est lancée à chaque anniversaire de France, à laquelle tout le monde doit participer. Une comédie sur la lutte des classes, en avant-première dans le cadre du FIFCL.",
-      "price_from": 12.0,
-      "free": false,
-      "audience": [],
-      "tags": [],
-      "source": "Les Grignoux – cinéma (Liège)",
-      "image_credit": "Kleon3 / Wikimedia Commons, CC BY-SA 4.0"
-    },
-    {
       "id": "web-ville-de-huy-sainte-catherine-cross-march-b-n-diction-des-animaux-semaine-de-l-a",
       "title": "Sainte-Catherine : cross, marché, bénédiction des animaux, semaine de l'arbre",
       "category": "fair",
@@ -1019,7 +977,9 @@
       "summary": "The Veils combineren rauwe intensiteit, filmische geluiden en onbevreesd songschrijven, nu samengebald in hun nieuwste album Fragile World",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -1039,7 +999,9 @@
       "summary": "Lily Seabird laat breekbare folk keihard botsen met rammelende, overstuurde gitaren. Een heldere blik op folk voor grungeliefhebbers, vol zware, menselijke thema's.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -1144,6 +1106,27 @@
       "source": "Facebook (extension)"
     },
     {
+      "id": "web-les-grignoux-cin-ma-li-ge-un-grand-raccourci-2026-11-11",
+      "title": "Un grand raccourci",
+      "category": "cinema",
+      "venue": "Sauvenière",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2026-11-11T14:30:00",
+      "end": "2026-11-11T14:30:00",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/2014_Li%C3%A8ge%2C_boulevard_de_la_Sauveni%C3%A8re_%2803%29.jpg/1280px-2014_Li%C3%A8ge%2C_boulevard_de_la_Sauveni%C3%A8re_%2803%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page_url": "https://www.grignoux.be/fr/evenement/3178/un-grand-raccourci",
+      "url": "https://www.grignoux.be/fr/evenement/3178/un-grand-raccourci",
+      "summary": "Deux cousins bretons relâchent des rats pour s'improviser dératiseurs tandis que deux jeunes femmes trafiquent un concours de beauté. Ces quatre débrouillards en quête d'avenir finissent par se percuter dans leurs stratagèmes chaotiques.",
+      "price_from": 12.0,
+      "free": false,
+      "audience": [],
+      "tags": [],
+      "source": "Les Grignoux – cinéma (Liège)",
+      "image_credit": "Kleon3 / Wikimedia Commons, CC BY-SA 4.0"
+    },
+    {
       "id": "fbx-2348149879258035",
       "title": "Küschespektakel 2026 - ouverture du carnaval",
       "category": "party",
@@ -1223,6 +1206,27 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
+    },
+    {
+      "id": "web-les-grignoux-cin-ma-li-ge-camembert-avant-premi-re-2026-11-11",
+      "title": "Camembert (avant-première)",
+      "category": "cinema",
+      "venue": "Sauvenière",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2026-11-11T18:00:00",
+      "end": "2026-11-11T18:00:00",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/2014_Li%C3%A8ge%2C_boulevard_de_la_Sauveni%C3%A8re_%2803%29.jpg/1280px-2014_Li%C3%A8ge%2C_boulevard_de_la_Sauveni%C3%A8re_%2803%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page_url": "https://www.grignoux.be/fr/evenement/3164/camembert",
+      "url": "https://www.grignoux.be/fr/evenement/3164/camembert",
+      "summary": "Stan, trentenaire d'origine modeste, découvre la famille de sa petite amie Cléo, où une partie de Trivial Pursuit est lancée à chaque anniversaire de France, à laquelle tout le monde doit participer. Une comédie sur la lutte des classes, en avant-première dans le cadre du FIFCL.",
+      "price_from": 12.0,
+      "free": false,
+      "audience": [],
+      "tags": [],
+      "source": "Les Grignoux – cinéma (Liège)",
+      "image_credit": "Kleon3 / Wikimedia Commons, CC BY-SA 4.0"
     },
     {
       "id": "tm-Z698xZG2Z1k_EFAGw",
@@ -1462,6 +1466,26 @@
       "source": "Reflektor (Liège)"
     },
     {
+      "id": "web-les-grignoux-cin-ma-li-ge-blaise-avant-premi-re-2026-11-12",
+      "title": "Blaise (avant-première)",
+      "category": "cinema",
+      "venue": "Liège",
+      "city": "Liège",
+      "lat": 50.6450944,
+      "lon": 5.5736112,
+      "start": "2026-11-12T10:00:00",
+      "end": "2026-11-12T10:00:00",
+      "image": null,
+      "page_url": "https://www.grignoux.be/fr/evenement/3179/blaise",
+      "url": "https://www.grignoux.be/fr/evenement/3179/blaise",
+      "summary": "Le film « Blaise » suit la famille Sauvage : Carole tente d’améliorer sa mauvaise réputation auprès de ses employés, et Jacques celle auprès de ses amis. Leur fils Blaise, entraîné par une jeune fille, se lance dans une croisade révolutionnaire.",
+      "price_from": 12.0,
+      "free": false,
+      "audience": [],
+      "tags": [],
+      "source": "Les Grignoux – cinéma (Liège)"
+    },
+    {
       "id": "web-les-grignoux-cin-ma-li-ge-fatna-une-femme-nomm-e-rachid-2026-11-12",
       "title": "Fatna, une femme nommée Rachid",
       "category": "cinema",
@@ -1495,26 +1519,6 @@
       "page_url": "https://www.grignoux.be/fr/evenement/3181/rencontre-avec-agnes-jaoui",
       "url": "https://www.grignoux.be/fr/evenement/3181/rencontre-avec-agnes-jaoui",
       "summary": "Rencontre avec Agnès Jaoui animée par Philippe Reynaert, suivie de la projection du film Ma vie ma gueule de Sophie Fillières. Événement organisé dans le cadre du FIFCL.",
-      "price_from": 12.0,
-      "free": false,
-      "audience": [],
-      "tags": [],
-      "source": "Les Grignoux – cinéma (Liège)"
-    },
-    {
-      "id": "web-les-grignoux-cin-ma-li-ge-blaise-avant-premi-re-2026-11-12",
-      "title": "Blaise (avant-première)",
-      "category": "cinema",
-      "venue": "Liège",
-      "city": "Liège",
-      "lat": 50.6450944,
-      "lon": 5.5736112,
-      "start": "2026-11-12T10:00:00",
-      "end": "2026-11-12T10:00:00",
-      "image": null,
-      "page_url": "https://www.grignoux.be/fr/evenement/3179/blaise",
-      "url": "https://www.grignoux.be/fr/evenement/3179/blaise",
-      "summary": "Le film « Blaise » suit la famille Sauvage : Carole tente d’améliorer sa mauvaise réputation auprès de ses employés, et Jacques celle auprès de ses amis. Leur fils Blaise, entraîné par une jeune fille, se lance dans une croisade révolutionnaire.",
       "price_from": 12.0,
       "free": false,
       "audience": [],
@@ -1601,7 +1605,7 @@
       "free": true,
       "audience": [],
       "tags": [
-        "gratuit"
+        "découverte"
       ],
       "source": "Ancienne Belgique (Bruxelles)"
     },
@@ -1643,7 +1647,9 @@
       "summary": "Na een jaar van touren kroop Cassia de studio in voor een frisse start: hun vertrouwde zonnige sound krijgt in 2026 gezelschap van diepere grooves en een flinke dosis eigenzinnigheid.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -1663,7 +1669,9 @@
       "summary": "Tijdens Café Kelder krijgen repeteerders uit Trix vrij spel op ons podium in het Café!",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -2317,9 +2325,7 @@
       "summary": "Table ronde sur les centres fermés pour personnes migrantes, avec Lucie Defays (coalition Move), Valter Iurlaro (collectif « Ni Jumet, ni ailleurs ») et Andrew Crosby (chercheur FNRS, UCLouvain). Entrée libre sur inscription à inscriptions@cainamur.be.",
       "price_from": null,
       "free": true,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
@@ -2376,7 +2382,7 @@
       "image": "https://www.fuse.be/uploads/events/_1200x630_crop_center-center_82_none/13_11.png?v=1791294204",
       "page_url": "https://www.fuse.be/events/fuse-presents-polyamor-w-davyboi-cara-elizabeth",
       "url": "https://tickets.fuse.be/ae1fa71642bf4a5f846aad04cce2dd3d",
-      "summary": "Soirée Fuse presents Polyamor avec davyboi, Cara Elizabeth, Cleopard2000 et JEKKAMAÏ en Room 01.",
+      "summary": "Soirée Fuse avec davyboi, Cara Elizabeth, Cleopard2000 et JEKKAMAÏ en Room 01.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -2412,6 +2418,26 @@
       "source": "Recyclart (Bruxelles)"
     },
     {
+      "id": "web-ancienne-belgique-bruxelles-new-date-swing-2026-11-13",
+      "title": "New date: Swing",
+      "category": "concert",
+      "venue": "Ancienne Belgique",
+      "city": "Bruxelles",
+      "lat": 50.8470454,
+      "lon": 4.3492674,
+      "start": "2026-11-13T10:00:00",
+      "end": "2026-11-13T10:00:00",
+      "image": "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000HkSE2MAN_1240x720.jpg",
+      "page_url": "https://www.abconcerts.be/fr/agenda/new-date-swing/a10Qw0000059ryJIAQ",
+      "url": "https://www.abconcerts.be/fr/agenda/new-date-swing/a10Qw0000059ryJIAQ",
+      "summary": "Le rappeur bruxellois Swing présente F5, son nouvel album mêlant rap, R&B, soul et jazz, avec guitares, claviers, violons et chœurs. C'est sa seule date belge, en concert debout à l'AB Grande salle, avec une première partie.",
+      "price_from": 1.25,
+      "free": false,
+      "audience": [],
+      "tags": [],
+      "source": "Ancienne Belgique (Bruxelles)"
+    },
+    {
       "id": "web-ancienne-belgique-bruxelles-fifty-lab-music-festival-alewya-fred-gata-namesbliss",
       "title": "Fifty Lab Music Festival + Alewya, Fred Gata, namesbliss, Bombay Mami",
       "category": "festival",
@@ -2430,26 +2456,6 @@
       "audience": [
         "young"
       ],
-      "tags": [],
-      "source": "Ancienne Belgique (Bruxelles)"
-    },
-    {
-      "id": "web-ancienne-belgique-bruxelles-new-date-swing-2026-11-13",
-      "title": "New date: Swing",
-      "category": "concert",
-      "venue": "Ancienne Belgique",
-      "city": "Bruxelles",
-      "lat": 50.8470454,
-      "lon": 4.3492674,
-      "start": "2026-11-13T10:00:00",
-      "end": "2026-11-13T10:00:00",
-      "image": "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000HkSE2MAN_1240x720.jpg",
-      "page_url": "https://www.abconcerts.be/fr/agenda/new-date-swing/a10Qw0000059ryJIAQ",
-      "url": "https://www.abconcerts.be/fr/agenda/new-date-swing/a10Qw0000059ryJIAQ",
-      "summary": "Le rappeur bruxellois Swing présente F5, son nouvel album mêlant rap, R&B, soul et jazz, avec guitares, claviers, violons et chœurs. C'est sa seule date belge, en concert debout à l'AB Grande salle, avec une première partie.",
-      "price_from": 1.25,
-      "free": false,
-      "audience": [],
       "tags": [],
       "source": "Ancienne Belgique (Bruxelles)"
     },
@@ -2489,7 +2495,9 @@
       "summary": "Na een succesvolle editie vorig jaar, waar we meer dan 500 bezoekers mochten verwelkomen, willen we met Inside The Circle Antwerpen het Vlaamse en Brusselse elektronische muzieklandschap opnieuw samenbrengen dit najaar. Op vrijdag 13 november 2026 komt Inside The Circle, het conferentiegedeelte van ",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -3475,7 +3483,7 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Emmanuel-Strosser-c-Jean-Baptiste-Millot.jpg.webp?itok=C2sliKih",
       "page_url": "https://www.surmars.be/agenda/2026-11/musique/sonates-de-schubert",
       "url": "https://shop.infinitix.be/SURMARSBE_INF/S/29DC3295-53A7-4B4B-58BD-3DB9116E1A4F/?d=86F0CE17-5D0C-27D3-6EF0-2D661B4AA29D",
-      "summary": "Pianiste majeur de sa génération, Emmanuel Strosser est reconnu pour son chant intérieur, sa poésie sonore et sa clarté, particulièrement dans Schubert.",
+      "summary": "Le pianiste Emmanuel Strosser, reconnu pour son art du chant intérieur, interprète les sonates de Schubert.",
       "price_from": 3.0,
       "free": false,
       "audience": [],
@@ -4168,8 +4176,8 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-reprise-dune-dune-deuxi-me-partie-soir-e-sp-ciale-2026",
-      "title": "REPRISE : Dune & Dune : Deuxième Partie (soirée spéciale)",
+      "id": "web-les-grignoux-cin-ma-li-ge-reprise-dune-dune-deuxi-me-partie-2026-11-14",
+      "title": "REPRISE : Dune & Dune : Deuxième Partie",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -4180,7 +4188,7 @@
       "image": null,
       "page_url": "https://www.grignoux.be/fr/evenement/3189/reprise-dune-amp-dune-deuxieme-partie",
       "url": "https://www.grignoux.be/fr/evenement/3189/reprise-dune-amp-dune-deuxieme-partie",
-      "summary": "Reprise en soirée spéciale des deux premiers films de la saga Dune : Dune à 16h (2h35), puis Dune : Deuxième Partie à 20h (2h46), avec un contenu bonus projeté avant et après chaque film. Possibilité de commander des frites au Café du Parc entre les deux séances.",
+      "summary": "Soirée spéciale proposant les deux premiers volets de Dune sur grand écran : Dune (2h35) à 16h et Dune : Deuxième Partie (2h46) à 20h, avec contenu bonus avant et après chaque film.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -4220,7 +4228,7 @@
       "image": "https://www.fuse.be/uploads/events/_1200x630_crop_center-center_82_none/14_11-banner.png?v=1788428292",
       "page_url": "https://www.fuse.be/events/fuse-presents-20yrs-klockwors-w-ben-klock-dvs1",
       "url": "https://tickets.fuse.be/7846f2cb749f4ae8b7cdec61b65916d9",
-      "summary": "Soirée anniversaire 20 ans Klockworks avec Ben Klock, DVS1, Steve Rachmad aka STERAC, Newa, Altinbas et Motion en Room 01.",
+      "summary": "Soirée anniversaire 20 ans Klockworks avec Ben Klock, DVS1, Steve Rachmad aka STERAC, Newa, Altinbas et d'autres en Room 01.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -4271,9 +4279,7 @@
       "summary": "Le groupe bruxellois de newcore Ice Sealed Eyes présente en tête d'affiche un nouveau chapitre de son histoire, lors d'un concert de sortie d'album. En première partie, EIGA (metalcore, hardcore, nu metal) et Affenpinshers (metal hardcore) joueront.",
       "price_from": 1.25,
       "free": false,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Ancienne Belgique (Bruxelles)"
     },
@@ -4293,7 +4299,9 @@
       "summary": "Nick Hakim is terug met zijn gloednieuwe dubbelsingle 'Real Here Now' & 'Water', dromerige lo-fi neo-soul die zich direct in je hoofd nestelt.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -4313,7 +4321,9 @@
       "summary": "Trix-resident Lowye viert op 14 november de release show van zijn album OSIRIS, waarin hij met zware beats, rap en de support van het Antwerpse VHS de zaal omtovert tot een kerkhof.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -4330,7 +4340,7 @@
       "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/42a3/88/88af7d5975c309e94f831c8ebb7226378dc1963c.webp",
       "page_url": "https://www.trixonline.be/nl/event/swae-lee",
       "url": "https://www.trixonline.be/nl/event/swae-lee",
-      "summary": "Concert de Swae Lee au Trix.",
+      "summary": "Concert de Swae Lee, annoncé sur la programmation de Trix.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -6885,8 +6895,8 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-cin-p-tit-dej-sauveni-re-2026-11-15",
-      "title": "Ciné P'tit Dej (Sauvenière)",
+      "id": "web-les-grignoux-cin-ma-li-ge-cin-p-tit-dej-2026-11-15",
+      "title": "Ciné P'tit Dej",
       "category": "cinema",
       "venue": "Sauvenière",
       "city": "Liège",
@@ -6897,36 +6907,10 @@
       "image": "https://www.grignoux.be/upload/grignoux/event/3152/cineptitdej_sauv_nov_headersite.jpg",
       "page_url": "https://www.grignoux.be/fr/evenement/3152/cine-ptit-dej",
       "url": "https://www.grignoux.be/fr/evenement/3152/cine-ptit-dej",
-      "summary": "Rendez-vous familial un dimanche par mois, avec un buffet petit-déjeuner à la brasserie Sauvenière dès 9h. Ensuite, séance de cinéma à 11h au choix parmi Il faut brûler maman, Gruffalo, de père en fils, Mochy et Coyote vs Acme (VF).",
+      "summary": "Rendez-vous familial mensuel combinant un buffet petit déjeuner à la brasserie Sauvenière suivi d'une séance de cinéma au choix parmi quatre films pour tous les âges.",
       "price_from": 10.0,
       "free": false,
-      "audience": [
-        "family"
-      ],
-      "tags": [
-        "gourmand"
-      ],
-      "source": "Les Grignoux – cinéma (Liège)"
-    },
-    {
-      "id": "web-les-grignoux-cin-ma-li-ge-cin-p-tit-dej-cam-o-2026-11-15",
-      "title": "Ciné P'tit Dej (Caméo)",
-      "category": "cinema",
-      "venue": "Caméo",
-      "city": "Liège",
-      "lat": 50.6450944,
-      "lon": 5.5736112,
-      "start": "2026-11-15T10:00:00",
-      "end": "2026-11-15T10:00:00",
-      "image": "https://www.grignoux.be/upload/grignoux/event/3153/cineptitdej_cafeo_nov_headersite.jpg",
-      "page_url": "https://www.grignoux.be/fr/evenement/3153/cine-ptit-dej",
-      "url": "https://www.grignoux.be/fr/evenement/3153/cine-ptit-dej",
-      "summary": "Rendez-vous familial au Caféo : un buffet petit déjeuner à 9h, suivi d'une séance de cinéma à 10h30 au choix parmi Il faut brûler maman, Gruffalo, de père en fils, Mochy, Coyote vs Acme ou Une autre guerre (sauve qui peut ma vie !). La page indique que ce rendez-vous est pour tous les âges.",
-      "price_from": 10.0,
-      "free": false,
-      "audience": [
-        "family"
-      ],
+      "audience": [],
       "tags": [
         "gourmand"
       ],
@@ -7576,10 +7560,12 @@
       "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/70c4/c0/2df96dc6d63f5661c8d9744689b3817be51c6259.webp",
       "page_url": "https://www.trixonline.be/nl/event/freya-skye-1",
       "url": "https://www.trixonline.be/nl/event/freya-skye-1",
-      "summary": "Concert de Freya Skye au Trix.",
+      "summary": "Concert de Freya Skye, annoncé sur la programmation de Trix.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -7685,8 +7671,8 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-heysel-85-2026-11-17",
-      "title": "Heysel 85",
+      "id": "web-les-grignoux-cin-ma-li-ge-heysel-85-avant-premi-re-2026-11-17",
+      "title": "Heysel 85 (avant-première)",
       "category": "cinema",
       "venue": "Sauvenière",
       "city": "Liège",
@@ -7697,7 +7683,7 @@
       "image": "https://www.grignoux.be/upload/grignoux/event/3127/heysel_85_headersite.jpg",
       "page_url": "https://www.grignoux.be/fr/evenement/3127/heysel-85",
       "url": "https://www.grignoux.be/fr/evenement/3127/heysel-85",
-      "summary": "Avant-première du film de Teodora Ana Mihai sur le drame du Heysel de 1985, qui opposa la Juventus à Liverpool. Le film explore les dysfonctionnements et défaillances qui ont conduit à cette catastrophe ayant causé 39 morts.",
+      "summary": "Avant-première du film Heysel 85 de Teodora Ana Mihai, en présence de la réalisatrice, sur la catastrophe du Heysel de 1985. Le film suit une attachée de presse du bourgmestre et retrace la succession de défaillances menant au drame, qui fit 39 morts.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -7779,7 +7765,7 @@
       "image": null,
       "page_url": "https://www.surmars.be/agenda/2026-11/musique/rendez-vous-soins-et-sons",
       "url": "https://shop.infinitix.be/SURMARSBE_INF/S/7971E555-17F3-DB00-0726-613261EAF751/?d=1B340F82-4241-E326-EDCE-B9DEE3CEAF5B",
-      "summary": "Rendez-vous musical proposé par Mars, le mardi 17 novembre à 18h00.",
+      "summary": "Rendez-vous musical « Soins et sons » le mardi 17 novembre à 18h00.",
       "price_from": 15.0,
       "free": false,
       "audience": [],
@@ -7941,7 +7927,7 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Catch-litteraire-c-David-Bormans.png.webp?itok=FhAYCLvl",
       "page_url": "https://www.surmars.be/agenda/2026-11/litterature/catch-litteraire",
       "url": "https://www.surmars.be/agenda/2026-11/litterature/catch-litteraire",
-      "summary": "Dans une ambiance conviviale et déjantée, quatre lutteurs·ses amoureux·ses des mots vont s'affronter deux par deux sur le ring, clavier en main !",
+      "summary": "Dans une ambiance conviviale et déjantée, quatre lutteurs·ses des mots s'affrontent deux par deux sur le ring, clavier en main.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -7961,7 +7947,7 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Oedipus-c-Alexandre-Fytrakis.jpeg.webp?itok=AXAvT6yv",
       "page_url": "https://www.surmars.be/agenda/2026-11/theatre/oedipus",
       "url": "https://shop.infinitix.be/SURMARSBE_INF/S/C8E11A57-2573-EE4B-AB5A-7136D58F97E4/?d=D6544DA9-34E1-AE4E-0680-E03D9EFB007B",
-      "summary": "Oedipus inscrit le mythe antique de Sophocle dans notre siècle et traite du pouvoir et des façons de gouverner.",
+      "summary": "Oedipus transpose le mythe de Sophocle dans notre siècle, dans une villa de vacances en Grèce, et traite du pouvoir.",
       "price_from": 3.0,
       "free": false,
       "audience": [],
@@ -8123,9 +8109,7 @@
       "summary": "Is er een dokter in de zaal? Ja, meerdere zelfs! Zit je met een specifieke vraag rond bijvoorbeeld promo, management, financiën, boekings, speelkansen of heb je nood aan wat feedback? Raadpleeg de strafste deskundigen uit de muzieksector en ga een-op-een in gesprek!Alle sessies gaan door op woensdag",
       "price_from": null,
       "free": true,
-      "audience": [
-        "adult"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -8167,7 +8151,9 @@
       "summary": "Blu Samu, urban samurai bruxelloise, présente son premier album « (K)NOT » sur la scène de Trix à Anvers. Mêlant hip-hop, soul et ce qu'elle appelle « porseleinen punk », elle aborde l'acceptation, la nostalgie, l'amour de soi et la résilience.",
       "price_from": 3.9,
       "free": false,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -8753,26 +8739,6 @@
       "source": "Trix (Anvers)"
     },
     {
-      "id": "web-trix-anvers-noor-2026-11-19",
-      "title": "Noor",
-      "category": "concert",
-      "venue": "Trix",
-      "city": "Anvers",
-      "lat": 51.2195776,
-      "lon": 4.4483726,
-      "start": "2026-11-19T10:00:00",
-      "end": "2026-11-19T10:00:00",
-      "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/8a9b/8d/b2255fe69659e6018586e4c1cc27a275e0a32772.webp",
-      "page_url": "https://www.trixonline.be/nl/event/noor-1",
-      "url": "https://www.trixonline.be/nl/event/noor-1",
-      "summary": "Noor, figure de la pop néerlandophone, y interprète ses chansons personnelles, dont « De Wereld Sterft », « Ik Zwaai Het Uit » et le single récent « HOE? ». Le concert s'inscrit dans une nouvelle phase artistique, annoncée par une EP à paraître à l'automne.",
-      "price_from": 3.5,
-      "free": false,
-      "audience": [],
-      "tags": [],
-      "source": "Trix (Anvers)"
-    },
-    {
       "id": "web-trix-anvers-nemzzz-2026-11-19",
       "title": "Nemzzz",
       "category": "concert",
@@ -8788,7 +8754,31 @@
       "summary": "Nemzzz, jeune rappeur de South Manchester à la flow posée, aborde dans ses textes la pression mentale, l'amitié et l'indépendance. Il se produit au Trix d'Anvers, avec des samples soul et des beats minimalistes, dans la lignée de ses projets Do Not Disturb et Rent's Due.",
       "price_from": 5.3,
       "free": false,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
+      "tags": [],
+      "source": "Trix (Anvers)"
+    },
+    {
+      "id": "web-trix-anvers-noor-2026-11-19",
+      "title": "Noor",
+      "category": "concert",
+      "venue": "Trix",
+      "city": "Anvers",
+      "lat": 51.2195776,
+      "lon": 4.4483726,
+      "start": "2026-11-19T10:00:00",
+      "end": "2026-11-19T10:00:00",
+      "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/8a9b/8d/b2255fe69659e6018586e4c1cc27a275e0a32772.webp",
+      "page_url": "https://www.trixonline.be/nl/event/noor-1",
+      "url": "https://www.trixonline.be/nl/event/noor-1",
+      "summary": "Noor, figure de la pop néerlandophone, y interprète ses chansons personnelles, dont « De Wereld Sterft », « Ik Zwaai Het Uit » et le single récent « HOE? ». Le concert s'inscrit dans une nouvelle phase artistique, annoncée par une EP à paraître à l'automne.",
+      "price_from": 3.5,
+      "free": false,
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -9481,6 +9471,28 @@
       "price_from": 4.3,
       "free": false,
       "audience": [],
+      "tags": [],
+      "source": "Trix (Anvers)"
+    },
+    {
+      "id": "web-trix-anvers-rosemary-2026-11-20",
+      "title": "Rosemary",
+      "category": "concert",
+      "venue": "Trix",
+      "city": "Anvers",
+      "lat": 51.2195776,
+      "lon": 4.4483726,
+      "start": "2026-11-20T10:00:00",
+      "end": "2026-11-20T10:00:00",
+      "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/aac1/60/aab91aab0b992855100b9fb61aa9b29597999cc3.webp",
+      "page_url": "https://www.trixonline.be/nl/event/rosemary-1",
+      "url": "https://www.trixonline.be/nl/event/rosemary-1",
+      "summary": "Le groupe Rosemary joue du « Synthekpunk », un mélange de punk électronique poétique et de musique dansante à 160 bpm. Leur musique évoque la pression de devoir toujours aller plus vite tout en restant fragile à l'intérieur.",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -13935,9 +13947,9 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-jupiter-rencontre-2026-11-24",
-      "title": "Jupiter (rencontre)",
-      "category": "cinema",
+      "id": "web-les-grignoux-cin-ma-li-ge-jupiter-2026-11-24",
+      "title": "Jupiter",
+      "category": "talks",
       "venue": "Liège",
       "city": "Liège",
       "lat": 50.6450944,
@@ -13947,7 +13959,7 @@
       "image": null,
       "page_url": "https://www.grignoux.be/fr/evenement/3128/jupiter",
       "url": "https://www.grignoux.be/fr/evenement/3128/jupiter",
-      "summary": "Rencontre autour du film Jupiter d'Alexandre Smia : un président français doit décider, face à un ultimatum nucléaire russe, dans le bunker de l'Élysée. Le réalisateur est présent, dans le cadre de Politik, les rencontres internationales du film politique de Liège.",
+      "summary": "Un thriller politique tendu où le président français Paul Archambault doit affronter une crise nucléaire sans précédent impliquant son homologue russe. Dans le bunker de l'Élysée, il réunit son état-major pour prendre une décision vertigineuse face au risque d'escalade militaire.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -13989,7 +14001,7 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Cassandre.jpeg.webp?itok=nlGvnAdo",
       "page_url": "https://www.surmars.be/agenda/2026-11/theatre/cassandre",
       "url": "https://www.surmars.be/agenda/2026-11/theatre/cassandre",
-      "summary": "Une femme prélève l'eau d'une rivière, découvre un problème et insiste, face à une ville qui reste sourde.",
+      "summary": "Une femme prélève l'eau, découvre un problème et insiste face à une ville qui reste sourde : une création contemporaine.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -14076,8 +14088,8 @@
       "page_url": "https://www.leforum.be/spectacle_202611242000.html"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-sneak-preview-2026-11-25",
-      "title": "Sneak Preview",
+      "id": "web-les-grignoux-cin-ma-li-ge-sneak-preview-avant-premi-re-2026-11-25",
+      "title": "Sneak Preview (avant-première)",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -15060,9 +15072,7 @@
       "summary": "Stan, d'origine modeste, découvre la famille de sa petite amie Cléo, qui organise un Trivial Pursuit à chaque anniversaire de France. Projection adaptée aux jeunes parents et bébés de 0 à 10 mois, suivie d'un verre offert à la brasserie Sauvenière.",
       "price_from": 3.0,
       "free": false,
-      "audience": [
-        "senior"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
@@ -15079,7 +15089,7 @@
       "image": null,
       "page_url": "https://www.fuse.be/events/fuse-presents-alarico-2",
       "url": "https://tickets.fuse.be/57c38276009b4f0783282eb57a520062",
-      "summary": "Soirée Fuse presents Alarico & Iman Janes en Room 01, avec Hadone et Downside au line-up.",
+      "summary": "Soirée Fuse avec Alarico, Iman Janes, Hadone et Downside en Room 01.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -16308,6 +16318,30 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
+    },
+    {
+      "id": "web-fuse-bruxelles-fuse-presents-onur-zer-all-night-long-2026-11-28",
+      "title": "Fuse presents: Onur Özer (all night long)",
+      "category": "party",
+      "venue": "Fuse (Room 01)",
+      "city": "Bruxelles",
+      "lat": 50.8467372,
+      "lon": 4.352493,
+      "start": "2026-11-28T10:00:00",
+      "end": "2026-11-28T10:00:00",
+      "image": null,
+      "page_url": "https://www.fuse.be/events/fuse-presents-onur-özer-all-night-long",
+      "url": "https://tickets.fuse.be/0032270e0675485dba5bd747e891e626",
+      "summary": "Soirée Fuse avec Onur Özer et Motion, en format all night long.",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "young"
+      ],
+      "tags": [
+        "soirée"
+      ],
+      "source": "Fuse (Bruxelles)"
     },
     {
       "id": "web-recyclart-bruxelles-rise-shine-2026-11-28",
@@ -18676,8 +18710,8 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-le-sapin-a-les-boules-vf-pirate-movie-club-2026-12-02",
-      "title": "Le sapin a les boules VF (Pirate Movie Club)",
+      "id": "web-les-grignoux-cin-ma-li-ge-pirate-movie-club-le-sapin-a-les-boules-vf-2026-12-02",
+      "title": "Pirate Movie Club : Le sapin a les boules VF",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -18688,7 +18722,7 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3195/le_sapin_a_les_boules_vignette.jpg",
       "page_url": "https://www.grignoux.be/fr/evenement/3195/le-sapin-a-les-boules-vf",
       "url": "https://www.grignoux.be/fr/evenement/3195/le-sapin-a-les-boules-vf",
-      "summary": "Projection du film « Le sapin a les boules » en version française, où Clark Griswold voit son rêve de Noël parfait tourner à la catastrophe. Séance du Pirate Movie Club : on commente et réagit ensemble, présentée par Caroline Poisson.",
+      "summary": "Clark Griswold rêve d'un Noël parfait, mais sa famille et les catastrophes s'en mêlent. Le film se regarde en version française, avec commentaires et applaudissements encouragés pendant la projection.",
       "price_from": 7.0,
       "free": false,
       "audience": [],
@@ -18708,7 +18742,7 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Chwallow-c-Alice-Piemme.jpg.webp?itok=fMeYfNsA",
       "page_url": "https://www.surmars.be/agenda/2026-12/cirque/chwallow",
       "url": "https://www.surmars.be/agenda/2026-12/cirque/chwallow",
-      "summary": "Spectacle de cirque hybride, à la croisée des arts plastiques, de l'exploration scénographique et du voyage sensoriel.",
+      "summary": "Spectacle de cirque hybride, à la croisée des arts plastiques, de la scénographie et du voyage sensoriel, par Julien Fournier.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -21153,8 +21187,8 @@
       "source": "Ticketmaster"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-colony-l-trange-s-ance-2026-12-08",
-      "title": "Colony (L'Étrange Séance)",
+      "id": "web-les-grignoux-cin-ma-li-ge-colony-2026-12-08",
+      "title": "Colony",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -21165,7 +21199,7 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3203/colony_vignette.jpg",
       "page_url": "https://www.grignoux.be/fr/evenement/3203/colony",
       "url": "https://www.grignoux.be/fr/evenement/3203/colony",
-      "summary": "Film de zombies coréen du réalisateur de Dernier train pour Busan : un PDG voit son invention de réseau biologique se retourner contre lui, provoquant une épidémie de « zombies connectés » qui menace Séoul. Présentation avant le film et échange en salle après.",
+      "summary": "Film de zombies coréen du réalisateur de Dernier train pour Busan : une technologie de mise en réseau biologique développée par un PDG déclenche une épidémie de zombies connectés menaçant Séoul. La séance comprend une présentation avant le film et un échange en salle après.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -21626,7 +21660,7 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/FMS-Perichorese.jpg.webp?itok=pTyPP51F",
       "page_url": "https://www.surmars.be/agenda/2026-12/musique/perichorese",
       "url": "https://www.surmars.be/agenda/2026-12/musique/perichorese",
-      "summary": "Il fut un temps où Musulmans, Juifs et Chrétiens dansaient ensemble sur les rives de la Méditerranée…",
+      "summary": "Concert de musique du monde évoquant une époque où musulmans, juifs et chrétiens dansaient ensemble sur les rives de la Méditerranée.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -21747,9 +21781,7 @@
       "summary": "Concert de Tahiti 80, groupe de pop indépendante internationale depuis 25 ans, avec Carla Biber en première partie. Une soirée aux allures d'étés nostalgiques à la Brasserie Sauvenière.",
       "price_from": 20.0,
       "free": false,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
@@ -24426,7 +24458,7 @@
       "id": "web-mars-mons-arts-de-la-sc-ne-le-p-tit-march-de-no-l-des-cr-ateur-rices-2026-12-16",
       "title": "Le P'tit Marché de Noël des créateur·rices",
       "category": "fair",
-      "venue": "La P'tite Maison Folie",
+      "venue": "La Maison Folie",
       "city": "Mons",
       "lat": 50.4549568,
       "lon": 3.951958,
@@ -24581,8 +24613,8 @@
       "image_credit": "Chatsam / Wikimedia Commons, CC BY-SA 3.0"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-le-fabuleux-destin-d-am-lie-poulain-cin-jack-2026-12-1",
-      "title": "Le Fabuleux Destin d'Amélie Poulain (Ciné Jack)",
+      "id": "web-les-grignoux-cin-ma-li-ge-cin-jack-le-fabuleux-destin-d-am-lie-poulain-2026-12-1",
+      "title": "Ciné Jack : Le Fabuleux Destin d'Amélie Poulain",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -24593,7 +24625,7 @@
       "image": null,
       "page_url": "https://www.grignoux.be/fr/evenement/3205/le-fabuleux-destin-damelie-poulain",
       "url": "https://www.grignoux.be/fr/evenement/3205/le-fabuleux-destin-damelie-poulain",
-      "summary": "Projection en ciné-club du film Le Fabuleux Destin d'Amélie Poulain, où une jeune serveuse de Montmartre observe les gens et cherche à faire le bien autour d'elle. La séance est suivie d'une animation en salle.",
+      "summary": "Ciné-club avec projection du film Le Fabuleux Destin d'Amélie Poulain : Amélie, serveuse à Montmartre, observe les gens et veut faire le bien autour d'elle. La séance est suivie d'une animation en salle menée avec des étudiants en Relations publiques.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -29609,7 +29641,9 @@
       "summary": "Le groupe new-yorkais Show Me The Body présente son quatrième album « Alone Together », un hardcore puissant sur le deuil, l'amour et le soutien mutuel. Le concert au Trix d'Anvers alterne passages très lourds et moments plus intimes, avec des cuivres jazz.",
       "price_from": 5.8,
       "free": false,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -29806,6 +29840,28 @@
       "audience": [],
       "tags": [],
       "source": "Ticketmaster"
+    },
+    {
+      "id": "web-trix-anvers-we-are-open-2027-2027-02-12",
+      "title": "We Are Open 2027",
+      "category": "festival",
+      "venue": "Trix",
+      "city": "Anvers",
+      "lat": 51.2195776,
+      "lon": 4.4483726,
+      "start": "2027-02-12T10:00:00",
+      "end": "2027-02-12T10:00:00",
+      "image": "https://www.trixonline.be/media/cache/default_highlight/uploads/media/default/2c70/29/2b90224c66bd16c1a24c09be00a401824f0034e2.webp",
+      "page_url": "https://wao.trixonline.be/nl/",
+      "url": "https://wao.trixonline.be/nl/",
+      "summary": "Le festival We Are Open 2027 se déroule les 12 et 13 février 2027 à Trix, à Anvers, et présente environ 70 artistes belges émergents sur six ou sept scènes. Il permet de découvrir la nouvelle scène musicale belge, avec des concerts et des pop-up shows.",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "young"
+      ],
+      "tags": [],
+      "source": "Trix (Anvers)"
     },
     {
       "id": "tm-Z698xZG2Z1kFkv_0g",
@@ -30893,7 +30949,7 @@
     },
     {
       "id": "web-trix-anvers-basht-2027-03-05",
-      "title": "Basht.",
+      "title": "Basht",
       "category": "concert",
       "venue": "Trix",
       "city": "Anvers",
@@ -30904,10 +30960,12 @@
       "image": "https://www.trixonline.be/media/cache/default_highlight/uploads/media/default/0d13/bb/36e9276d273aec533d67d6e90fb52fca81d5a711.webp",
       "page_url": "https://www.trixonline.be/nl/event/basht",
       "url": "https://www.trixonline.be/nl/event/basht",
-      "summary": "Basht., groupe rock de Dublin salué par HotPress, joue un mélange de post-punk, de rock guitare et d'émotion pesante. Son premier album « Poor Advice » est sorti en octobre 2026, et le groupe est réputé pour ses concerts percutants.",
+      "summary": "Concert du groupe rock dublinois Basht au Trix à Anvers, pour présenter son premier album Poor Advice (octobre 2026), entre post-punk, rock de guitare et émotion. Le groupe est réputé pour ses shows intenses.",
       "price_from": 3.5,
       "free": false,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -30927,7 +30985,9 @@
       "summary": "Trixie Whitley présente son nouvel album Folded Time (Unday Records), entre batterie, guitare, piano et basse, avec des chansons sur la perte, le renouveau et la maternité. Le concert offre un moment intime et émotionnel, porté par sa voix.",
       "price_from": 6.5,
       "free": false,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -31024,7 +31084,9 @@
       "summary": "Jonah Kagen mixt technisch gitaarwerk met herkenbare teksten en haalt inspiratie bij artiesten als Townes Van Zandt, Jason Isbell en gitaarvirtuoos Andy McKee. Op zijn tweede album, Eternity of Anything neemt hij het volledige creatieve proces in eigen handen. Van het schrijven tot produceren, opnem",
       "price_from": 4.6,
       "free": false,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -31102,7 +31164,9 @@
       "summary": "Le duo canadien cleopatrick, formé par Luke Gruntz et Ian Fraser, mêle rock lourd, hip-hop et son « LAPTOP ROCK » sur son second album FAKE MOON. Le concert a lieu à Trix à Anvers, un rendez-vous pour les fans de rock.",
       "price_from": 5.6,
       "free": false,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -32016,7 +32080,9 @@
       "summary": "La Danoise Sofie Birch propose de la musique ambient et électro-acoustique, faite de synthés, de field recordings, de voix et d'instruments trance, pour une expérience d'écoute profonde (« deep listening »). Le concert a lieu à Trix, à Anvers.",
       "price_from": 4.3,
       "free": false,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -32682,7 +32748,9 @@
       "summary": "Le chanteur et multi-instrumentaliste sud-africain Booshle G. présente des titres pop, folk, rock et soul pleins d'espoir, extraits de son premier album « I Was Never Alone » et de son succès « Take Me Home ». En première partie, le duo Neon Dreams se produit.",
       "price_from": 3.7,
       "free": false,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -33810,7 +33878,9 @@
       "summary": "Van trap-pionier met ‘D&G’ tot de release van zijn nieuwste album ‘DOMUS’. Mula (voorheen Mula B) blijft een van de meest bepalende stemmen in de Nederlandse hiphop en brengt binnenkort zijn nieuwe album live in Trix.",
       "price_from": 5.6,
       "free": false,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
