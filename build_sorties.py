@@ -421,7 +421,7 @@ def page(titre, description, chemin, corps, ld):
 <body>
 <nav class="nav"><a class="logo" href="{SITE}/">vivyo</a><a class="app" href="{SITE}/#inscription">L'app arrive sur iPhone</a></nav>
 {corps}
-<footer><span>© {datetime.now(BRUXELLES).year} Vivyo · Belgique</span><a href="{SITE}/">Accueil</a><a href="{SITE}/sorties">Toutes les villes</a><a href="{SITE}/pro">Organisateurs</a><a href="{SITE}/conditions">Conditions</a><a href="{SITE}/confidentialite">Confidentialité</a><a href="mailto:contact@vivyo.app">contact@vivyo.app</a><a href="https://www.instagram.com/vivyoapp" rel="me noopener">Instagram @vivyoapp</a><a href="https://www.tiktok.com/@vivyo956" rel="me noopener">TikTok</a><a href="https://www.facebook.com/Vivyo.officiel" rel="me noopener">Facebook</a></footer>
+<footer><span>© {datetime.now(BRUXELLES).year} Vivyo · Belgique</span><a href="{SITE}/">Accueil</a><a href="{SITE}/sorties">Toutes les villes</a><a href="{SITE}/pro">Organisateurs</a><a href="{SITE}/conditions">Conditions</a><a href="{SITE}/confidentialite">Confidentialité</a><a href="mailto:contact@vivyo.app">contact@vivyo.app</a><a href="https://www.instagram.com/vivyoapp" rel="me noopener">Instagram @vivyoapp</a><a href="https://www.tiktok.com/@vivyoapp" rel="me noopener">TikTok @vivyoapp</a><a href="https://www.facebook.com/Vivyo.officiel" rel="me noopener">Facebook</a></footer>
 </body>
 </html>
 """
