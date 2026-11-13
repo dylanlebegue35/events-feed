@@ -642,16 +642,22 @@ def _safe_place(p):
     q = {"id": p.get("id"), "lat": lat, "lon": lon, "partner": p.get("partner") is True}
     for f, n in PLACE_TEXT.items():
         v = p.get(f)
-        q[f] = re.sub(r"[\x00-\x1f\x7f]", " ", v).strip()[:n] or None if isinstance(v, str) else None
+        if isinstance(v, str):      # caractères invisibles ou qui retournent le texte (U+202E…) : retirés
+            v = "".join(" " if unicodedata.category(ch) in ("Cc", "Zl", "Zp") else "" if unicodedata.category(ch) == "Cf" else ch
+                        for ch in v)
+        q[f] = re.sub(r"\s+", " ", v).strip()[:n] or None if isinstance(v, str) else None
     if not isinstance(q["id"], str) or not q["id"] or not q["name"] or not q["kind"] or not q["kind_label"]:
         return None
-    junk = re.compile(r"https?:|www\.|@|\+?\d[\d .\-/]{8,}\d", re.I)
-    if junk.search(q["name"]):
+    if not re.fullmatch(r"[a-z_]{2,30}", q["kind"]):
+        return None
+    junk = re.compile(r"https?:|www\.|@|\[\.\]|\+?\d[\d .\-/]{8,}\d", re.I)
+    wide = lambda s: unicodedata.normalize("NFKC", s)        # « ｈｔｔｐｓ： » pleine largeur = « https: »
+    if junk.search(wide(q["name"])):
         return None
     for f in ("address", "hours", "image_credit", "kind_label", "city"):
-        if q[f] and re.search(r"https?:|www\.", q[f], re.I):
+        if q[f] and re.search(r"https?:|www\.|\[\.\]", wide(q[f]), re.I):
             q[f] = None if f != "kind_label" else "Lieu"
-    if q["hours"] and junk.search(q["hours"]):
+    if q["hours"] and junk.search(wide(q["hours"])):
         q["hours"] = None
     q["city"] = q["city"] or ""
     for f, schemes in (("website", ("https://", "http://")), ("instagram", ("https://",)), ("image", ("https://",))):
@@ -702,6 +708,12 @@ def build_places():
     lieux = google_places(lieux)        # bars les mieux notés et photos Google (si la clé est là)
     # photo du site officiel déjà trouvée : on la reprend (les photos libres et Google, elles, sont revérifiées)
     old = {p["id"]: p for p in prev if p.get("image") and "wikimedia.org" not in p["image"] and "/photo?ref=" not in p["image"]}
+    # site venu d'OpenStreetMap ou de Wikidata (modifiables par n'importe qui) : gardé seulement s'il est bien celui du lieu,
+    # sinon le bouton « Site » de l'app pourrait ouvrir la page de n'importe qui
+    for p in lieux:
+        if str(p.get("id", "")).startswith(("osm-", "wd-")) and p.get("website") and not own_site(p.get("name"), p["website"]):
+            p["website"] = None
+    site_reads = 0
     for p in lieux:          # photo du site officiel, sinon photo libre du lieu précis, sinon rien (l'app montre une icône)
         if p.get("image"):
             continue
@@ -709,7 +721,8 @@ def build_places():
             p["image"] = old[p["id"]]["image"]
             continue
         # "photo_site": false = l'image du site est un logo ou du texte (vu à l'œil) : on ne la reprend pas
-        if p.get("website") and p.get("photo_site") is not False and own_site(p["name"], p["website"]):
+        if p.get("website") and p.get("photo_site") is not False and own_site(p["name"], p["website"]) and site_reads < 80:
+            site_reads += 1          # plafond : des centaines de faux lieux ne doivent pas faire tourner le robot pendant des heures
             try:
                 img = best_image(fetch(p["website"], timeout=15), p["website"])
                 p["image"] = img if img and is_image(img) else None
@@ -719,7 +732,8 @@ def build_places():
             got = venue_photo(p["name"], p.get("city", ""))
             if got:
                 p["image"], p["image_credit"] = got
-    lieux = [q for q in (_safe_place(p) for p in lieux) if q]
+    seen = set()
+    lieux = [q for q in (_safe_place(p) for p in lieux) if q and not (q["id"] in seen or seen.add(q["id"]))]
     out_file.write_text(json.dumps({"generated": datetime.now().isoformat(timespec="seconds"), "places": lieux},
                                    ensure_ascii=False, indent=1), encoding="utf-8")
     n_villes = sum(1 for p in lieux if p["id"] in {v.get("id") for v in villes})
@@ -1388,17 +1402,55 @@ def _best_image(page, base):
     return anywhere[0] if anywhere else None
 
 
+def _site_host(url):
+    """Nom de domaine d'un lien web normal, sinon None (identifiant « x@ », port, schéma bizarre, adresse IP…)."""
+    from urllib.parse import urlsplit
+    try:
+        u = urlsplit(url or "")
+        if u.scheme not in ("http", "https") or u.username or u.password or u.port not in (None, 80, 443) or not u.hostname:
+            return None
+    except ValueError:
+        return None
+    h = u.hostname.lower().rstrip(".")
+    return h if re.fullmatch(r"[a-z0-9-]+(\.[a-z0-9-]+)+", h) and not re.fullmatch(r"[\d.]+", h) else None
+
+
+_SITES_OK = None
+
+
+def _sites_ok():
+    """Domaines relus à la main (lieux_villes_revue.json, « sites_ok ») : sites officiels dont le nom ne ressemble pas
+    à celui du lieu (« mas.be » pour le Museum aan de Stroom, « www.gent.be »…)."""
+    global _SITES_OK
+    if _SITES_OK is None:
+        try:
+            _SITES_OK = {s for s in json.loads((HERE / "lieux_villes_revue.json").read_text()).get("sites_ok", []) if isinstance(s, str)}
+        except Exception:
+            _SITES_OK = set()
+    return _SITES_OK
+
+
 def own_site(name, url):
-    """Le site est-il celui du lieu ? Son adresse doit contenir un mot propre au lieu :
-    « rbcesneux.be » (un club de basket) n'est pas le site du Mini-golf du Panorama."""
-    host = _plain(re.sub(r"^https?://(www\.)?", "", url or "").split("/")[0])
-    return any(_plain(t) in host for t in distinctive_tokens(name))
+    """Le site est-il celui du lieu ? Son domaine (pas un sous-domaine en plus, ni ce qui suit « ? », « # » ou « @ »)
+    doit contenir un mot propre au lieu, ou être un domaine relu à la main : « rbcesneux.be » (un club de basket)
+    n'est pas le site du Mini-golf du Panorama, et « cantillon.site-piege.com » n'est pas celui de Cantillon.
+    Les liens d'OpenStreetMap et de Wikidata sont modifiables par n'importe qui : c'est ce contrôle qui les filtre."""
+    h = _site_host(url)
+    if not h:
+        return False
+    if h in _sites_ok():
+        return True
+    parts = h.split(".")
+    label = parts[-3] if len(parts) >= 3 and parts[-2] in ("co", "com", "org", "net", "ac", "gov", "edu") else parts[-2]
+    label = re.sub(r"[^a-z0-9]", "", _plain(label))
+    return any(_plain(t) in label for t in distinctive_tokens(name))
 
 
 def is_image(url):
     """L'adresse renvoie-t-elle vraiment une image ? (et pas une page d'erreur ou de connexion)"""
     r = subprocess.run(["curl", "-sL", "-o", "/dev/null", "--max-time", "10", "-r", "0-2047", "-w", "%{http_code} %{content_type}",
-                        "--", url], capture_output=True, text=True)
+                        "--proto", "=http,https", "--proto-redir", "=http,https", "--max-redirs", "3", "--", url],
+                       capture_output=True, text=True)
     code, _, ctype = r.stdout.partition(" ")
     return code in ("200", "206") and ctype.startswith("image/")
 
