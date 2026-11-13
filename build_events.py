@@ -692,6 +692,11 @@ def build_places():
     # le même lieu OSM dans le guide d'une ville : on garde la version du guide (ville, adresse, photo relue)
     in_guides = {v.get("id") for v in villes if v.get("image")}
     osm = [p for p in osm if p["id"] not in in_guides]
+    # même nom à moins de 300 m (Planckendael : zoo d'OpenStreetMap et incontournable de Wikidata) : une seule fiche
+    named = [(str(v.get("name", "")).lower(), v["lat"], v["lon"]) for v in villes
+             if v.get("image") and v.get("lat") is not None and v.get("lon") is not None]
+    osm = [p for p in osm if not any(str(p.get("name", "")).lower() == n and _km([p["lat"], p["lon"]], [la, lo]) < 0.3
+                                     for n, la, lo in named)]
     # un lieu choisi remplace le même lieu trouvé sur OpenStreetMap (même type, à moins de 300 m)
     lieux = chosen + [p for p in osm if not any(p["kind"] == c["kind"] and _km([p["lat"], p["lon"]], [c["lat"], c["lon"]]) < 0.3
                                                 for c in chosen)]
@@ -714,7 +719,11 @@ def build_places():
         if str(p.get("id", "")).startswith(("osm-", "wd-")) and p.get("website") and not own_site(p.get("name"), p["website"]):
             p["website"] = None
     site_reads = 0
+    refused = {r for r in _review().get("photo_refusee", []) if isinstance(r, str)}   # relues à l'œil : logo, plan, mauvais lieu…
     for p in lieux:          # photo du site officiel, sinon photo libre du lieu précis, sinon rien (l'app montre une icône)
+        if p.get("id") in refused and not str(p.get("id")).startswith("vivyo-"):
+            p["image"] = None
+            continue
         if p.get("image"):
             continue
         if p["id"] in old and p.get("photo_site") is not False:
@@ -1415,19 +1424,26 @@ def _site_host(url):
     return h if re.fullmatch(r"[a-z0-9-]+(\.[a-z0-9-]+)+", h) and not re.fullmatch(r"[\d.]+", h) else None
 
 
-_SITES_OK = None
+_REVIEW = None
+
+
+def _review():
+    """Relecture à l'œil (lieux_villes_revue.json) : photos refusées, domaines officiels relus…"""
+    global _REVIEW
+    if _REVIEW is None:
+        try:
+            _REVIEW = json.loads((HERE / "lieux_villes_revue.json").read_text())
+            _REVIEW = _REVIEW if isinstance(_REVIEW, dict) else {}
+        except Exception as ex:
+            print(f"! lieux_villes_revue.json illisible ({ex}) : photos refusées et sites relus ignorés", file=sys.stderr)
+            _REVIEW = {}
+    return _REVIEW
 
 
 def _sites_ok():
-    """Domaines relus à la main (lieux_villes_revue.json, « sites_ok ») : sites officiels dont le nom ne ressemble pas
-    à celui du lieu (« mas.be » pour le Museum aan de Stroom, « www.gent.be »…)."""
-    global _SITES_OK
-    if _SITES_OK is None:
-        try:
-            _SITES_OK = {s for s in json.loads((HERE / "lieux_villes_revue.json").read_text()).get("sites_ok", []) if isinstance(s, str)}
-        except Exception:
-            _SITES_OK = set()
-    return _SITES_OK
+    """Domaines relus à la main (« sites_ok ») : sites officiels dont le nom ne ressemble pas à celui du lieu
+    (« mas.be » pour le Museum aan de Stroom, « www.gent.be »…)."""
+    return {s for s in _review().get("sites_ok", []) if isinstance(s, str)}
 
 
 def own_site(name, url):

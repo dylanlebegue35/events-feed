@@ -245,7 +245,8 @@ SIGHT_NO = re.compile(r"municipality|city\b|big city|village|region|province|arr
                       r"organization|company|business|bank|broadcast|newspaper|library|archive|event|attack|treaty|"
                       r"war|battle|conference|festival|team|club|stadium|arena|prison|barracks|military|skyscraper|"
                       r"museum|gallery|hotel|restaurant|brewery|shop\b|street|road|motorway|stream|river\b|"
-                      r"mosque|synagogue|temple|cemetery|administration|tower block|office", re.I)
+                      r"mosque|synagogue|temple|cemetery|administration|tower block|office|water tower|residential|science park|"
+                     r"exhibition|transmitter|business park|industrial|factory", re.I)
 
 
 # Brasseries qu'on peut visiter (visite guidée, salle de dégustation ou taverne sur place), choisies à la main :
@@ -295,7 +296,7 @@ def wikidata_breweries():
 def wikidata_sights():
     out = {}
     for name, lat, lon, town_km in CITIES:
-        minlinks = 8 if name in ("Bruxelles", "Anvers", "Gand", "Bruges", "Liège") else 5
+        minlinks = 8 if name in ("Bruxelles", "Anvers", "Gand", "Bruges", "Liège") else 3    # villes moyennes : moins connues à l'étranger
         q = SIGHTS_Q.replace("%LON%", str(lon)).replace("%LAT%", str(lat)).replace("%R%", str(town_km)).replace("%MIN%", str(minlinks))
         try:
             rows = sparql(q)
@@ -314,6 +315,9 @@ def wikidata_sights():
             if plat is None:
                 continue
             qid = r["item"]["value"].rsplit("/", 1)[-1]
+            if any(x["city"] == name and x["name"].lower() == label.lower() and _km([x["lat"], x["lon"]], [plat, plon]) < 0.3
+                   for x in out.values()):
+                continue          # même lieu deux fois (deux éléments Wikidata pour la même porte)
             out["wd-" + qid] = {"id": "wd-" + qid, "name": label[0].upper() + label[1:], "kind": "sight",
                                 "kind_label": "Incontournable", "city": name, "address": None, "lat": plat, "lon": plon,
                                 "website": r.get("site", {}).get("value"), "hours": None, "image": None,
@@ -490,6 +494,10 @@ def main():
         x.update({"pitch": None, "offer": None, "partner": False, "instagram": None})
         x["_rank"] = -links
         out.append(x)
+    try:
+        before = {x["id"] for x in json.loads(OUT.read_text())["lieux"] if x.get("image")}
+    except Exception:
+        before = set()
     order = {c[0]: i for i, c in enumerate(CITIES)}
     out.sort(key=lambda x: (order.get(x["city"], 99), x["kind"], x["_rank"], x["name"]))
     for x in out:
@@ -500,6 +508,12 @@ def main():
                  "les lieux choisis à la main vont dans lieux_choisis.json.",
         "lieux": out}, ensure_ascii=False, indent=1), encoding="utf-8")
     with_img = sum(1 for x in out if x.get("image"))
+    # Wikidata et OpenStreetMap sont modifiables par n'importe qui : chaque nouveau lieu avec photo se relit à l'œil
+    # (planche) avant d'être poussé ; les refus vont dans lieux_villes_revue.json
+    fresh = [x for x in out if x.get("image") and x["id"] not in before]
+    print(f"{len(fresh)} nouveaux lieux avec photo à relire :")
+    for x in fresh:
+        print(f"  {x['city']} · {x['kind']} · {x['name']} · {x['image']}")
     print(f"{len(out)} lieux, dont {with_img} avec une vraie photo, en {int(time.time() - started)} s → {OUT.name}")
 
 

@@ -99,14 +99,20 @@
   "wd-Q377500",
   "wd-Q775644",
   "wd-Q943581",
-  "wd-Q3095874"
+  "wd-Q3095874",
+  "osm-way-49248946",
+  "osm-way-54514598",
+  "osm-way-374695121",
+  "wd-Q85775074"
  ],
  "exclus": [
   "osm-node-12734006901",
   "osm-node-13479303201",
   "osm-node-1913175194",
   "osm-node-6651589916",
-  "osm-node-6651604913"
+  "osm-node-6651604913",
+  "wd-Q112587280",
+  "wd-Q3390356"
  ],
  "saunas_ok": [
   "osm-node-11556796227",
@@ -122,7 +128,8 @@
  "photo_choisie": {
   "wd-Q2345368": "http://commons.wikimedia.org/wiki/Special:FilePath/Brasserie_Cantillon%E2%80%99s_wooden_casks.jpg",
   "wd-Q1227102": "http://commons.wikimedia.org/wiki/Special:FilePath/Oud_beersel.jpg",
-  "wd-Q2754830": "http://commons.wikimedia.org/wiki/Special:FilePath/Coolingtun.jpg"
+  "wd-Q2754830": "http://commons.wikimedia.org/wiki/Special:FilePath/Coolingtun.jpg",
+  "wd-Q1852670": "http://commons.wikimedia.org/wiki/Special:FilePath/2019-03-29_11-03-37_ILCE-6500_DSC03829_%2833640853288%29.jpg"
  },
  "sites_ok": [
   "aam.be",
