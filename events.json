@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13T15:05:43",
+  "generated": "2026-11-13T21:47:46",
   "events": [
     {
       "id": "web-grand-curtius-li-ge-espace-c-sar-franck-2022-01-12",
@@ -471,30 +471,6 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-madame-moustache-bruxelles-dancefloor-radiomix-2026-11-12",
-      "title": "DANCEFLOOR RADIOMIX",
-      "category": "party",
-      "venue": "Madame Moustache",
-      "city": "Bruxelles",
-      "lat": 50.8514898,
-      "lon": 4.3489335,
-      "start": "2026-11-12T22:00:00",
-      "end": "2026-11-13T04:00:00",
-      "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1792418064493-QCEDP0IBCITLOO8A75RY/854413850_1104098588738340_7063225141678021006_n.jpg",
-      "page_url": "https://www.madamemoustache.be/agenda/w94pfzr4ewx8wzwb7c777lzhhxncyd",
-      "url": "https://www.madamemoustache.be/agenda/w94pfzr4ewx8wzwb7c777lzhhxncyd",
-      "summary": "Soirée dancefloor avec les meilleurs morceaux de rap, R&B et reggaeton mixés toute la nuit.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée"
-      ],
-      "source": "Madame Moustache (Bruxelles)"
-    },
-    {
       "id": "fbx-1024086500169116",
       "title": "Tables Nourrir à Huy",
       "category": "talks",
@@ -530,7 +506,9 @@
       "summary": "Table ronde sur les centres fermés pour migrants, animée par une juriste, un membre de collectif et un chercheur. Événement gratuit organisé par le CAI Namur et le PAC Namur en partenariat avec Les Grignoux.",
       "price_from": null,
       "free": true,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
@@ -745,46 +723,6 @@
       "source": "Botanique (Bruxelles)"
     },
     {
-      "id": "web-trix-anvers-inside-the-circle-antwerp-2026-11-13",
-      "title": "Inside The Circle Antwerp",
-      "category": "concert",
-      "venue": "Trix",
-      "city": "Anvers",
-      "lat": 51.2195776,
-      "lon": 4.4483726,
-      "start": "2026-11-13T10:00:00",
-      "end": "2026-11-13T10:00:00",
-      "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/e8d2/b3/3a49056ac8b70f0452a1c67147a59ec294fdb199.webp",
-      "page_url": "https://www.trixonline.be/nl/event/inside-the-circle-antwerp-3",
-      "url": "https://www.trixonline.be/nl/event/inside-the-circle-antwerp-3",
-      "summary": "Na een succesvolle editie vorig jaar, waar we meer dan 500 bezoekers mochten verwelkomen, willen we met Inside The Circle Antwerpen het Vlaamse en Brusselse elektronische muzieklandschap opnieuw samenbrengen dit najaar. Op vrijdag 13 november 2026 komt Inside The Circle, het conferentiegedeelte van ",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Trix (Anvers)"
-    },
-    {
-      "id": "web-het-depot-louvain-frank-boeijen-2026-11-13",
-      "title": "Frank Boeijen",
-      "category": "concert",
-      "venue": "Het Depot",
-      "city": "Louvain",
-      "lat": 50.881515,
-      "lon": 4.7137996,
-      "start": "2026-11-13T10:00:00",
-      "end": "2026-11-13T10:00:00",
-      "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0aQF000010s1eYYAQ_1800x810_1800.jpg?itok=UtTM84Gz",
-      "page_url": "https://www.hetdepot.be/concert/2026/frank-boeijen",
-      "url": "https://apps.ticketmatic.com/widgets/hetdepot/flow/newwebskin?event=335287916672&l=nl#!/addtickets",
-      "summary": "Dé mede-grondlegger van de Nederlandse muziekgeschiedenis keert terug met oude parels & nieuwe wapenfeiten.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Het Depot (Louvain)"
-    },
-    {
       "id": "fbx-4423383034553247",
       "title": "Opening Winterland Hasselt",
       "category": "fair",
@@ -903,25 +841,6 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
-    },
-    {
-      "id": "tm-Z698xZG2Z1kepqAbM",
-      "title": "Tien Om Te Zien | be•at Premium Comfort Experience",
-      "category": "concert",
-      "venue": "AFAS Dome - Mastercard Lounge",
-      "city": "Merksem (Antwerpen)",
-      "lat": 51.23024,
-      "lon": 4.44176,
-      "start": "2026-11-13T17:30:00",
-      "end": "2026-11-13T17:30:00",
-      "image": "https://s1.ticketm.net/dam/a/3a7/7e23851b-9b2b-47a7-8ae9-11ddcc1813a7_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/tien-om-te-zien-%7C-beat-premium-comfort-experience-tickets/96745637",
-      "summary": "Make your visit to the AFAS Dome a unique experience as a Mastercard cardholder with the be•at Premium Comfort Experience in the Mastercard Lounge. What can you expect? • Separate entrance to the Mastercard Lounge starting 60 minutes before the AFAS Dome doors open. • An exclusive space with comfort",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
     },
     {
       "id": "fbx-1402200395236006",
@@ -1227,25 +1146,6 @@
       "tags": [],
       "source": "Facebook (événement public)",
       "classified": true
-    },
-    {
-      "id": "tm-Z698xZG2Z1ko_k7v6",
-      "title": "Good Charlotte – Motel Du Cap EU/UK Tour",
-      "category": "concert",
-      "venue": "Vorst Nationaal/Forest National",
-      "city": "Forest (Brussels)",
-      "lat": 50.80999,
-      "lon": 4.32601,
-      "start": "2026-11-13T18:30:00",
-      "end": "2026-11-13T18:30:00",
-      "image": "https://s1.ticketm.net/dam/a/ce8/a70188d0-c6ee-4623-9534-2ff7b720ece8_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/good-charlotte--motel-du-cap-eu-uk-tour-tickets/459184047",
-      "summary": "Special guest: Yellowcard Support act: Grave Secrets Since 1995, Good Charlotte has been a staple of pop-punk and alternative rock. Alongside blink-182, Sum 41, and Fall Out Boy, they ruled the rock charts. With hits like 'The Anthem', 'Girls & Boys', and 'I Just Wanna Live', they seemed to churn ou",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
     },
     {
       "id": "fbx-1852129732454741",
@@ -1714,26 +1614,6 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-le-forum-li-ge-grease-is-the-word-2026-11-13",
-      "title": "GREASE IS THE WORD",
-      "category": "theatre",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.64077,
-      "lon": 5.57031,
-      "start": "2026-11-13T20:00:00",
-      "end": "2026-11-13T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/GREASE_510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202611132000.html",
-      "url": "https://www.leforum.be/spectacle_202611132000.html",
-      "summary": "GREASE IS THE WORD est un spectacle musical se déroulant en 1959 à la Rydell High School, racontant l'histoire de Sandy et Danny Zuko. Le spectacle met en scène 14 artistes et 4 musiciens live interprétant les plus grands tubes de Grease depuis 50 ans.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
       "id": "web-mars-mons-arts-de-la-sc-ne-sonates-de-schubert-2026-11-13",
       "title": "Sonates de Schubert",
       "category": "concert",
@@ -1743,14 +1623,16 @@
       "lon": 3.9566332,
       "start": "2026-11-13T20:00:00",
       "end": "2026-11-13T20:00:00",
-      "image": "https://surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Emmanuel-Strosser-c-Jean-Baptiste-Millot.jpg.webp?itok=C2sliKih",
+      "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Emmanuel-Strosser-c-Jean-Baptiste-Millot.jpg.webp?itok=C2sliKih",
       "page_url": "https://www.surmars.be/agenda/2026-11/musique/sonates-de-schubert",
       "url": "https://shop.infinitix.be/SURMARSBE_INF/S/29DC3295-53A7-4B4B-58BD-3DB9116E1A4F/?d=86F0CE17-5D0C-27D3-6EF0-2D661B4AA29D",
-      "summary": "Le pianiste Emmanuel Strosser interprète Schubert avec un chant intérieur, une poésie sonore et une clarté pianistique remarquable.",
+      "summary": "Le pianiste Emmanuel Strosser joue les sonates de Schubert, dans une architecture pianistique d'une souveraine clarté.",
       "price_from": 3.0,
       "free": false,
       "audience": [],
-      "tags": [],
+      "tags": [
+        "découverte"
+      ],
       "source": "Mars – Mons arts de la scène"
     },
     {
@@ -1787,63 +1669,6 @@
       "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_16_9.jpg",
       "url": "https://www.ticketmaster.be/event/the-minds-b-tribute-to-simple-minds-tickets/653036859",
       "summary": "",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
-    },
-    {
-      "id": "tm-Z698xZG2Z1kGZ-g7x",
-      "title": "The World of Hans Zimmer | A New Dimension",
-      "category": "concert",
-      "venue": "ING ARENA",
-      "city": "Brussels",
-      "lat": 50.90095,
-      "lon": 4.34368,
-      "start": "2026-11-13T20:00:00",
-      "end": "2026-11-13T20:00:00",
-      "image": "https://s1.ticketm.net/dam/e/d03/5f6d970d-17f0-4cfb-843a-d1588e178d03_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/the-world-of-hans-zimmer-%7C-a-new-dimension-tickets/300875122",
-      "summary": "ING customers benefit from exclusive advantages here. Specific tickets for the wheelchair platform: People with a disability who wish to use the wheelchair platform need to buy special tickets. You can reserve these tickets by filling in the following form.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
-    },
-    {
-      "id": "tm-Z698xZG2Z16v-YJ8x9",
-      "title": "Tien Om Te Zien, Back to the 90s",
-      "category": "concert",
-      "venue": "AFAS Dome",
-      "city": "Merksem (Antwerpen)",
-      "lat": 51.23024,
-      "lon": 4.44176,
-      "start": "2026-11-13T20:00:00",
-      "end": "2026-11-13T20:00:00",
-      "image": "https://s1.ticketm.net/dam/a/fd8/3c2c9dc0-d4eb-46a1-ae04-f2113de37fd8_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/tien-om-te-zien-back-to-the-90s-tickets/1870990897",
-      "summary": "The iconic music show returns in XXL format. 'Tien Om Te Zien Back To The 90s' brings the golden years back to the AFAS Dome. Anne De Baetzelier and Willy Sommers host an evening with live performances by X-Session, Isabelle A and Leopold 3, in a setting that recalls the legendary TOTZ tent. The com",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
-    },
-    {
-      "id": "tm-Z698xZG2Z16eZdxAPA",
-      "title": "MICHÈLE LAROQUE & KAD MERAD",
-      "category": "theatre",
-      "venue": "Cirque Royal - Koninklijk Circus",
-      "city": "Brussels",
-      "lat": 50.84906,
-      "lon": 4.36565,
-      "start": "2026-11-13T20:00:00",
-      "end": "2026-11-13T20:00:00",
-      "image": "https://s1.ticketm.net/dam/a/e1f/68c70d64-404c-4be7-ab4c-c34ba69d2e1f_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/michele-laroque--kad-merad-tickets/2003885945",
-      "summary": "WAITING LIST. Subscribe to the waiting list HERE. If tickets become available for sale again, you will be notified according to the first come, first served principle. Please note that when the resale tool is activated, tickets may become available that are not offered to the waiting list..",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -2058,7 +1883,7 @@
       "lat": 50.45576,
       "lon": 3.95232,
       "start": "2026-11-13T21:00:00",
-      "end": "2027-01-06T21:00:00",
+      "end": "2027-01-07T21:00:00",
       "image": "https://s1.ticketm.net/dam/a/5e9/91eed00a-d67b-47df-b207-cca4b405a5e9_RETINA_PORTRAIT_16_9.jpg",
       "url": "https://www.ticketmaster.be/event/marc-chagall-matieres-tickets/1589036844",
       "summary": "Original and unclassifiable, Marc Chagall's work (1887--1985) draws on a wealth of references, shaped by his cultural roots and by the experiences that marked his long career as a painter, between Russia, France and the United States. In each of these places, the artist proved deeply receptive to cr",
@@ -2090,7 +1915,7 @@
     },
     {
       "id": "web-madame-moustache-bruxelles-one-more-time-2026-11-13",
-      "title": "ONE MORE TIME",
+      "title": "one more time",
       "category": "party",
       "venue": "Madame Moustache",
       "city": "Bruxelles",
@@ -2101,7 +1926,7 @@
       "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1792418291294-0GXTZ2L4GMMTA3DSPNMF/854481187_1614783800693424_2235987865171384494_n.jpg",
       "page_url": "https://www.madamemoustache.be/agenda/one-more-time-4",
       "url": "https://www.madamemoustache.be/agenda/one-more-time-4",
-      "summary": "Soirée One More Time au Madame Moustache, de 22h à 4h.",
+      "summary": "Soirée One More Time chez Madame Moustache, du vendredi 22h au samedi 4h. Dernière entrée à 4h.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -2609,7 +2434,7 @@
       "id": "web-trix-anvers-nick-hakim-2026-11-14",
       "title": "Nick Hakim",
       "category": "concert",
-      "venue": "Trix",
+      "venue": "Trix Antwerpen",
       "city": "Anvers",
       "lat": 51.2195776,
       "lon": 4.4483726,
@@ -2629,7 +2454,7 @@
       "id": "web-trix-anvers-lowye-2026-11-14",
       "title": "Lowye",
       "category": "concert",
-      "venue": "Trix",
+      "venue": "Trix Antwerpen",
       "city": "Anvers",
       "lat": 51.2195776,
       "lon": 4.4483726,
@@ -2649,7 +2474,7 @@
       "id": "web-trix-anvers-swae-lee-2026-11-14",
       "title": "Swae Lee",
       "category": "concert",
-      "venue": "Trix",
+      "venue": "Trix Antwerpen",
       "city": "Anvers",
       "lat": 51.2195776,
       "lon": 4.4483726,
@@ -2658,10 +2483,12 @@
       "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/42a3/88/88af7d5975c309e94f831c8ebb7226378dc1963c.webp",
       "page_url": "https://www.trixonline.be/nl/event/swae-lee",
       "url": "https://www.trixonline.be/nl/event/swae-lee",
-      "summary": "Concert de Swae Lee le 14 novembre 2026.",
+      "summary": "Concert de Swae Lee à Trix Antwerpen.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -2669,7 +2496,7 @@
       "id": "web-trix-anvers-track-east-open-mic-2026-11-14",
       "title": "Track East: Open Mic",
       "category": "concert",
-      "venue": "Trix",
+      "venue": "Trix Antwerpen",
       "city": "Anvers",
       "lat": 51.2195776,
       "lon": 4.4483726,
@@ -4712,7 +4539,7 @@
       "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1792418758591-P0FA3LB0M465Z1WDF2ZR/856168445_29651034484503437_8439275837235802685_n.jpg",
       "page_url": "https://www.madamemoustache.be/agenda/x1mthjv0gbjazb521dxsbiyqz0u0d4",
       "url": "https://www.madamemoustache.be/agenda/x1mthjv0gbjazb521dxsbiyqz0u0d4",
-      "summary": "Soirée La Grande Boum Old School, 90's, 2000's et New Hits, de 22h à 4h.",
+      "summary": "Soirée La Grande Boum chez Madame Moustache, de 22h à 4h.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -5168,7 +4995,7 @@
     },
     {
       "id": "web-les-grignoux-cin-ma-li-ge-cin-p-tit-dej-2026-11-15",
-      "title": "Ciné P'tit Dej",
+      "title": "Ciné p'tit dej",
       "category": "cinema",
       "venue": "Sauvenière",
       "city": "Liège",
@@ -5179,7 +5006,7 @@
       "image": "https://www.grignoux.be/upload/grignoux/event/3152/cineptitdej_sauv_nov_headersite.jpg",
       "page_url": "https://www.grignoux.be/fr/evenement/3152/cine-ptit-dej",
       "url": "https://www.grignoux.be/fr/evenement/3152/cine-ptit-dej",
-      "summary": "Rendez-vous familial mensuel combinant un buffet petit déjeuner à la brasserie Sauvenière suivi d'une séance de cinéma au choix parmi quatre films pour tous les âges.",
+      "summary": "Un buffet petit-déjeuner convivial est servi à 9h à la brasserie Sauvenière, suivi à 11h d'une séance de cinéma au choix parmi quatre films : Il faut brûler maman, Gruffalo de père en fils, Mochy et Coyote vs Acme (VF). Le rendez-vous familial s'adresse à tous les âges.",
       "price_from": 10.0,
       "free": false,
       "audience": [],
@@ -5899,7 +5726,7 @@
       "id": "web-trix-anvers-freya-skye-2026-11-16",
       "title": "Freya Skye",
       "category": "concert",
-      "venue": "Trix",
+      "venue": "Trix Antwerpen",
       "city": "Anvers",
       "lat": 51.2195776,
       "lon": 4.4483726,
@@ -5908,7 +5735,7 @@
       "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/70c4/c0/2df96dc6d63f5661c8d9744689b3817be51c6259.webp",
       "page_url": "https://www.trixonline.be/nl/event/freya-skye-1",
       "url": "https://www.trixonline.be/nl/event/freya-skye-1",
-      "summary": "Concert de Freya Skye le 16 novembre 2026.",
+      "summary": "Concert de Freya Skye à Trix Antwerpen.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -6040,7 +5867,7 @@
       "id": "web-trix-anvers-workshop-pa-geluidstechniek-2026-11-17",
       "title": "Workshop: PA & Geluidstechniek",
       "category": "workshop",
-      "venue": "Trix",
+      "venue": "Trix Antwerpen",
       "city": "Anvers",
       "lat": 51.2195776,
       "lon": 4.4483726,
@@ -6052,7 +5879,9 @@
       "summary": "Alles over hoe een PA, mengtafel en microfoons werken.Altijd al willen weten waarom sommige concerten zo ongelofelijk goed klinken? Benieuwd naar wat die persoon achter de mengtafel nu eigenlijk allemaal aan het doen is? Tijdens deze cursus leer je op drie intensieve lesavonden hoe een PA, mengtafel",
       "price_from": 16.0,
       "free": false,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -6069,7 +5898,7 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Oedipus-c-Alexandre-Fytrakis.jpeg.webp?itok=AXAvT6yv",
       "page_url": "https://www.surmars.be/agenda/2026-11/theatre/oedipus",
       "url": "https://shop.infinitix.be/SURMARSBE_INF/S/C8E11A57-2573-EE4B-AB5A-7136D58F97E4/?d=D6544DA9-34E1-AE4E-0680-E03D9EFB007B",
-      "summary": "Le mythe antique de Sophocle transposé dans notre siècle, sur le pouvoir et les façons de gouverner, dans une villa de vacances en Grèce.",
+      "summary": "Oedipus transpose le mythe de Sophocle à notre époque, dans une villa de vacances en Grèce, sur le pouvoir et la manière de gouverner.",
       "price_from": 3.0,
       "free": false,
       "audience": [],
@@ -6119,7 +5948,7 @@
     {
       "id": "web-mars-mons-arts-de-la-sc-ne-rendez-vous-soins-et-sons-2026-11-17",
       "title": "Rendez-vous soins et sons",
-      "category": "wellness",
+      "category": "concert",
       "venue": "Mars",
       "city": "Mons",
       "lat": 50.4650237,
@@ -6129,7 +5958,7 @@
       "image": null,
       "page_url": "https://www.surmars.be/agenda/2026-11/musique/rendez-vous-soins-et-sons",
       "url": "https://shop.infinitix.be/SURMARSBE_INF/S/7971E555-17F3-DB00-0726-613261EAF751/?d=1B340F82-4241-E326-EDCE-B9DEE3CEAF5B",
-      "summary": "Rendez-vous musical alliant soins et sons, proposé par Mars – Mons arts de la scène.",
+      "summary": "Rendez-vous musical proposé par Mars, mardi 17 novembre à 18h00.",
       "price_from": 15.0,
       "free": false,
       "audience": [],
@@ -6291,11 +6120,13 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Catch-litteraire-c-David-Bormans.png.webp?itok=FhAYCLvl",
       "page_url": "https://www.surmars.be/agenda/2026-11/litterature/catch-litteraire",
       "url": "https://www.surmars.be/agenda/2026-11/litterature/catch-litteraire",
-      "summary": "Quatre lutteurs·ses amoureux·ses des mots s'affrontent deux par deux sur le ring, clavier en main, dans une ambiance conviviale et déjantée.",
+      "summary": "Quatre lutteurs amoureux des mots s'affrontent deux par deux sur le ring, clavier en main, dans une ambiance conviviale et déjantée.",
       "price_from": null,
       "free": null,
       "audience": [],
-      "tags": [],
+      "tags": [
+        "découverte"
+      ],
       "source": "Mars – Mons arts de la scène"
     },
     {
@@ -6419,7 +6250,7 @@
       "id": "web-trix-anvers-dokter-trix-2026-11-18",
       "title": "Dokter Trix",
       "category": "talks",
-      "venue": "Trix",
+      "venue": "Trix Antwerpen",
       "city": "Anvers",
       "lat": 51.2195776,
       "lon": 4.4483726,
@@ -6431,7 +6262,9 @@
       "summary": "Is er een dokter in de zaal? Ja, meerdere zelfs! Zit je met een specifieke vraag rond bijvoorbeeld promo, management, financiën, boekings, speelkansen of heb je nood aan wat feedback? Raadpleeg de strafste deskundigen uit de muzieksector en ga een-op-een in gesprek!Alle sessies gaan door op woensdag",
       "price_from": null,
       "free": true,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -6439,7 +6272,7 @@
       "id": "web-trix-anvers-gloryhammer-2026-11-18",
       "title": "Gloryhammer",
       "category": "concert",
-      "venue": "Trix",
+      "venue": "Trix Antwerpen",
       "city": "Anvers",
       "lat": 51.2195776,
       "lon": 4.4483726,
@@ -6451,7 +6284,9 @@
       "summary": "Concert du groupe de power metal intergalactique Gloryhammer au Trix d'Anvers, avec les premières parties Arion et Majestica. Le groupe y présente son cinquième album, avec de nouveaux titres et des hymnes épiques.",
       "price_from": 7.5,
       "free": false,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -6459,7 +6294,7 @@
       "id": "web-trix-anvers-blu-samu-2026-11-18",
       "title": "Blu Samu",
       "category": "concert",
-      "venue": "Trix",
+      "venue": "Trix Antwerpen",
       "city": "Anvers",
       "lat": 51.2195776,
       "lon": 4.4483726,
@@ -6488,7 +6323,7 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0aQF00000zHFnVYAW_1800x810_1800.jpg?itok=1DtS-50b",
       "page_url": "https://www.hetdepot.be/concert/2026/the-scene-x-syb-van-der-ploeg",
       "url": "https://apps.ticketmatic.com/widgets/hetdepot/flow/newwebskin?event=340506736470&l=nl#!/addtickets",
-      "summary": "The Scene revient avec une nouvelle voix forte en première ligne : Syb van der Ploeg (De Kast).",
+      "summary": "The Scene is terug mét en nieuwe, krachtige stem in de frontlinie: Syb van der Ploeg (De Kast).",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -7059,8 +6894,8 @@
     {
       "id": "web-trix-anvers-expo-workshop-muziekfotografie-2026-11-19",
       "title": "Expo: Workshop Muziekfotografie",
-      "category": "expo",
-      "venue": "Trix",
+      "category": "workshop",
+      "venue": "Trix Antwerpen",
       "city": "Anvers",
       "lat": 51.2195776,
       "lon": 4.4483726,
@@ -7072,7 +6907,9 @@
       "summary": "Dix participants de l'atelier Muziekfotografie, encadrés par la photographe Daria Miasoedova, présentent leurs photos lors du vernissage de l'exposition le jeudi 19 novembre. Ils y montrent des images de groupes et du public prises pendant des concerts au Trix, après une formation en photographie de",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -7080,7 +6917,7 @@
       "id": "web-trix-anvers-noor-2026-11-19",
       "title": "Noor",
       "category": "concert",
-      "venue": "Trix",
+      "venue": "Trix Antwerpen",
       "city": "Anvers",
       "lat": 51.2195776,
       "lon": 4.4483726,
@@ -7100,7 +6937,7 @@
       "id": "web-trix-anvers-nemzzz-2026-11-19",
       "title": "Nemzzz",
       "category": "concert",
-      "venue": "Trix",
+      "venue": "Trix Antwerpen",
       "city": "Anvers",
       "lat": 51.2195776,
       "lon": 4.4483726,
@@ -7112,7 +6949,9 @@
       "summary": "Nemzzz, jeune rappeur de South Manchester à la flow posée, aborde dans ses textes la pression mentale, l'amitié et l'indépendance. Il se produit au Trix d'Anvers, avec des samples soul et des beats minimalistes, dans la lignée de ses projets Do Not Disturb et Rent's Due.",
       "price_from": 5.3,
       "free": false,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -7120,7 +6959,7 @@
       "id": "web-trix-anvers-full-motion-x-the-tales-of-music-2026-11-19",
       "title": "Full Motion X The Tales of Music",
       "category": "concert",
-      "venue": "Trix",
+      "venue": "Trix Antwerpen",
       "city": "Anvers",
       "lat": 51.2195776,
       "lon": 4.4483726,
@@ -7531,7 +7370,7 @@
       "image": null,
       "page_url": "https://www.surmars.be/agenda/2026-11/musique/aleph-quintet",
       "url": "https://shop.infinitix.be/SURMARSBE_INF/S/5E4E0BD8-BB64-8922-8CDA-99721C1D2CA5/?d=3BC9BC1C-55B3-3633-1FCE-93357F492C3D",
-      "summary": "Concert du quintette Aleph proposé par Mars – Mons arts de la scène.",
+      "summary": "Concert de l'Aleph Quintet proposé par Mars, jeudi 19 novembre à 20h00.",
       "price_from": 3.0,
       "free": false,
       "audience": [],
@@ -7710,7 +7549,7 @@
       "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1792418468516-KYT9UDPRAP082RZWCFW3/856238861_2180318356694976_4620656783581567299_n.jpg",
       "page_url": "https://www.madamemoustache.be/agenda/4pskwfarsn6xa7h4nkalasasprrxwx",
       "url": "https://www.madamemoustache.be/agenda/4pskwfarsn6xa7h4nkalasasprrxwx",
-      "summary": "Soirée dancefloor avec les meilleurs morceaux de rap, R&B et reggaeton mixés toute la nuit.",
+      "summary": "Soirée Dancefloor Radiomix chez Madame Moustache, de 22h à 4h.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -7832,7 +7671,7 @@
       "id": "web-trix-anvers-jembaa-groove-ft-kwame-yeboah-2026-11-20",
       "title": "Jembaa Groove ft. Kwame Yeboah",
       "category": "concert",
-      "venue": "Trix",
+      "venue": "Trix Antwerpen",
       "city": "Anvers",
       "lat": 51.2195776,
       "lon": 4.4483726,
@@ -7852,7 +7691,7 @@
       "id": "web-trix-anvers-rosemary-2026-11-20",
       "title": "Rosemary",
       "category": "concert",
-      "venue": "Trix",
+      "venue": "Trix Antwerpen",
       "city": "Anvers",
       "lat": 51.2195776,
       "lon": 4.4483726,
@@ -7881,7 +7720,7 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0aQF000014JP4kYAG_1800x810_1800.jpg?itok=UstlrCGn",
       "page_url": "https://www.hetdepot.be/concert/2026/psychonaut",
       "url": "https://apps.ticketmatic.com/widgets/hetdepot/flow/newwebskin?event=778520615967&l=nl#!/addtickets",
-      "summary": "Psychonaut avec The Guru Guru en special guest : le travail plus musclé de la scène belge.",
+      "summary": "Psychonaut mét special guest The Guru Guru: het stevigere werk van Belgische bodem.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -8422,7 +8261,7 @@
     {
       "id": "web-madame-moustache-bruxelles-arch-club-2026-11-20",
       "title": "ARCH CLUB",
-      "category": "concert",
+      "category": "party",
       "venue": "Madame Moustache",
       "city": "Bruxelles",
       "lat": 50.8514898,
@@ -8432,7 +8271,7 @@
       "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1792419208918-I0O4T78B0O0WOQG2OAGI/855188280_1458584223136291_5430348580748785520_n.jpg",
       "page_url": "https://www.madamemoustache.be/agenda/zokcgi1ajj4skucrz27gcjodwylnt1",
       "url": "https://www.madamemoustache.be/agenda/zokcgi1ajj4skucrz27gcjodwylnt1",
-      "summary": "Soirée ARCH CLUB mêlant rap contemporain, électronique et culture club, avec xo, duno, mau_v et limak.",
+      "summary": "Soirée ARCH CLUB avec xo, duno, mau_v et limak : rap contemporain, électronique et culture club en live.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -9556,7 +9395,7 @@
       "id": "web-trix-anvers-workshop-de-basics-van-artiesten-management-2026-11-21",
       "title": "Workshop: De basics van Artiesten Management",
       "category": "workshop",
-      "venue": "Trix",
+      "venue": "Trix Antwerpen",
       "city": "Anvers",
       "lat": 51.2195776,
       "lon": 4.4483726,
@@ -9568,7 +9407,9 @@
       "summary": "Wil je leren hoe je jezelf of anderen als artiest professioneel op de kaart zet? Tijdens deze workshop neemt een ervaren professional uit de muziekindustrie je mee in de basis van artiestenmanagement. Van promo en bookings tot releaseplanning en het bouwen van een eigen netwerk: je krijgt alle prakt",
       "price_from": 3.5,
       "free": false,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -9576,7 +9417,7 @@
       "id": "web-trix-anvers-flemming-2026-11-21",
       "title": "Flemming",
       "category": "concert",
-      "venue": "Trix",
+      "venue": "Trix Antwerpen",
       "city": "Anvers",
       "lat": 51.2195776,
       "lon": 4.4483726,
@@ -9596,7 +9437,7 @@
       "id": "web-trix-anvers-oski-2026-11-21",
       "title": "OSKI",
       "category": "concert",
-      "venue": "Trix",
+      "venue": "Trix Antwerpen",
       "city": "Anvers",
       "lat": 51.2195776,
       "lon": 4.4483726,
@@ -9616,7 +9457,7 @@
       "id": "web-trix-anvers-mixed-waste-friends-2026-11-21",
       "title": "Mixed Waste & Friends",
       "category": "concert",
-      "venue": "Trix",
+      "venue": "Trix Antwerpen",
       "city": "Anvers",
       "lat": 51.2195776,
       "lon": 4.4483726,
@@ -9645,15 +9486,13 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0aQF000017e0klYAA_1800x810_1800.jpg?itok=Wdlw0M8M",
       "page_url": "https://www.hetdepot.be/concert/2026/breaking-barriers-presents-the-kids-50",
       "url": "https://apps.ticketmatic.com/widgets/hetdepot/flow/newwebskin?event=492254516339&l=nl#!/addtickets",
-      "summary": "Punk is not dead ! Avec Clitteband, Plastik Bags, Gender Reveal Atomic Bomb et les DJ Kate & Ronny et Malcolm Nix.",
+      "summary": "Punk is not dead!",
       "price_from": null,
       "free": null,
       "audience": [
         "young"
       ],
-      "tags": [
-        "soirée"
-      ],
+      "tags": [],
       "source": "Het Depot (Louvain)"
     },
     {
@@ -11758,6 +11597,28 @@
       "source": "Ville de Huy"
     },
     {
+      "id": "web-trix-anvers-violent-vira-2026-11-22",
+      "title": "Violent Vira",
+      "category": "concert",
+      "venue": "Trix Antwerpen",
+      "city": "Anvers",
+      "lat": 51.2195776,
+      "lon": 4.4483726,
+      "start": "2026-11-22T10:00:00",
+      "end": "2026-11-22T10:00:00",
+      "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/e30f/25/0498a24e1bab0efa03415829499d5f4ad0d3170f.webp",
+      "page_url": "https://www.trixonline.be/nl/event/violent-vira",
+      "url": "https://www.trixonline.be/nl/event/violent-vira",
+      "summary": "Violent Vira, projet hard rock de la chanteuse mexicano-américaine Amy Gonzalez, avec Anthony Brown et Matt Bolling, mêle pop mélodique et chant rock cathartique. Le DJ londonien CL⚡️AUDIO mixe des classiques emo, pop-punk et nu-metal des années 90 et 2000.",
+      "price_from": 4.3,
+      "free": false,
+      "audience": [
+        "young"
+      ],
+      "tags": [],
+      "source": "Trix (Anvers)"
+    },
+    {
       "id": "fb-980852608325107",
       "title": "Salon du Tissu Mons",
       "category": "fair",
@@ -12479,7 +12340,7 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Cassandre.jpeg.webp?itok=nlGvnAdo",
       "page_url": "https://www.surmars.be/agenda/2026-11/theatre/cassandre",
       "url": "https://www.surmars.be/agenda/2026-11/theatre/cassandre",
-      "summary": "Une femme prélève l'eau d'une rivière, découvre un problème industriel et insiste face à une ville qui reste sourde.",
+      "summary": "Une femme prélève l'eau d'une rivière, découvre un problème et insiste face à une ville qui reste sourde. Création contemporaine.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -12586,8 +12447,8 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-het-depot-louvain-o-tje-extra-concert-2026-11-25",
-      "title": "Ão + TJE (extra concert)",
+      "id": "web-het-depot-louvain-o-tje-extra-concert-sold-out-2026-11-25",
+      "title": "Ão + TJE (extra concert, sold out)",
       "category": "concert",
       "venue": "Het Depot",
       "city": "Louvain",
@@ -12598,7 +12459,7 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0aQF00000zikQbYAI_1800x810_1800.jpg?itok=m12E3gHe",
       "page_url": "https://www.hetdepot.be/concert/2026/ao-0",
       "url": "https://apps.ticketmatic.com/widgets/hetdepot/flow/newwebskin?event=434363716308&l=nl#!/waitinglist",
-      "summary": "Ão présente son nouvel album « Malandra » : un mélange fluide de genres. Concert complet, liste d'attente disponible.",
+      "summary": "Ão brengt hun nieuwe worp 'Malandra': een naadloze samensmelting van genres.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -12965,8 +12826,8 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-het-depot-louvain-o-sasja-2026-11-26",
-      "title": "Ão + sasja",
+      "id": "web-het-depot-louvain-o-sasja-sold-out-2026-11-26",
+      "title": "Ão + sasja (sold out)",
       "category": "concert",
       "venue": "Het Depot",
       "city": "Louvain",
@@ -12977,7 +12838,7 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0aQF00000tYXLGYA4_1800x810_1800.jpg?itok=3Yip4PQL",
       "page_url": "https://www.hetdepot.be/concert/2026/ao",
       "url": "https://apps.ticketmatic.com/widgets/hetdepot/flow/newwebskin?event=352349774488&l=nl#!/addtickets",
-      "summary": "La page indique qu'il s'agit d'un concert à Het Depot, dans la grande salle, la salle VIP ou la foyer selon la configuration. Elle ne précise ni le programme ni les artistes.",
+      "summary": "Ão brengt hun nieuwe worp 'Malandra': een naadloze samensmelting van genres.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -13503,7 +13364,7 @@
       "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1792418967311-CRNFLMU53FE63FBHMSLS/856410059_984644854692065_8121549489998399805_n.jpg",
       "page_url": "https://www.madamemoustache.be/agenda/idzyh2drzbqul455q747mojuha45yy",
       "url": "https://www.madamemoustache.be/agenda/idzyh2drzbqul455q747mojuha45yy",
-      "summary": "Soirée dancefloor avec les meilleurs morceaux de rap, R&B et reggaeton mixés toute la nuit.",
+      "summary": "Soirée Dancefloor Radiomix chez Madame Moustache, de 22h à 4h.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -13631,7 +13492,7 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0ac100000fILCvAAO_1800x810_1800.jpg?itok=69Oi4npw",
       "page_url": "https://www.hetdepot.be/concert/2026/monto-space",
       "url": "https://apps.ticketmatic.com/widgets/hetdepot/flow/newwebskin?event=153014661677&l=nl#!/addtickets",
-      "summary": "Het Depot et Montorollo proposent des soirées club avec le gratin de la scène underground hip hop.",
+      "summary": "Het Depot and Montorollo link up to bring you club nights with the crème de la crème of the underground hip hop scene.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -14586,14 +14447,13 @@
       "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1792419376149-LYIPEO3MGJ26ULZ77SVW/856506918_1153641527319814_2719638474523773930_n.jpg",
       "page_url": "https://www.madamemoustache.be/agenda/dance-til-you-drop-free",
       "url": "https://www.madamemoustache.be/agenda/dance-til-you-drop-free",
-      "summary": "Soirée Dance Til You Drop en entrée libre, de 22h à 4h.",
+      "summary": "Soirée intitulée « Dance til you drop free » au Madame Moustache à Bruxelles, du vendredi 27 novembre 2026 à 22h au samedi 28 novembre 2026 à 4h. La page ne détaille ni la programmation ni les artistes.",
       "price_from": null,
       "free": true,
       "audience": [
         "young"
       ],
       "tags": [
-        "gratuit",
         "soirée"
       ],
       "source": "Madame Moustache (Bruxelles)"
@@ -14910,8 +14770,8 @@
       "source": "Recyclart (Bruxelles)"
     },
     {
-      "id": "web-het-depot-louvain-live-nation-presents-merol-ida-2026-11-28",
-      "title": "Live Nation presents Merol + IDA",
+      "id": "web-het-depot-louvain-live-nation-presents-merol-ida-sold-out-2026-11-28",
+      "title": "Live Nation presents Merol + IDA (sold out)",
       "category": "concert",
       "venue": "Het Depot",
       "city": "Louvain",
@@ -14922,7 +14782,7 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0aQF00000w4PeMYAU_1800x810_1800.jpg?itok=y9dEBQju",
       "page_url": "https://www.hetdepot.be/concert/2026/live-nation-presents-merol",
       "url": "https://apps.ticketmatic.com/widgets/hetdepot/flow/newwebskin?event=469411827175&l=nl#!/addtickets",
-      "summary": "MEROL revient : plus ardent, plus vulnérable et plus rugueux que jamais, avec un nouvel album.",
+      "summary": "Het is 2026 en MEROL is terug: vuriger, kwetsbaarder en ruiger dan ooit mét een nieuwe plaat op zak.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -15669,15 +15529,14 @@
       "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1792419582135-P3M6ARLVVU57HIPJ0G2M/855769896_2044291476274535_5013754452754753384_n.jpg",
       "page_url": "https://www.madamemoustache.be/agenda/sombra-doble-tardeo",
       "url": "https://www.madamemoustache.be/agenda/sombra-doble-tardeo",
-      "summary": "Tardeo Party indie, pop et rock espagnol, le samedi 28 novembre de 19h à 23h.",
+      "summary": "Tardeo Party by Sombra Doble : indie, pop et rock espagnol, le samedi 28 novembre (date déplacée depuis le 27).",
       "price_from": null,
       "free": null,
       "audience": [
         "young"
       ],
       "tags": [
-        "soirée",
-        "entre potes"
+        "soirée"
       ],
       "source": "Madame Moustache (Bruxelles)"
     },
@@ -16226,7 +16085,7 @@
       "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1792419848075-B99VVX2VGELY6G3XRJ59/855709735_1753892729179662_1134867253705541432_n.jpg",
       "page_url": "https://www.madamemoustache.be/agenda/g24ejyfwndp4ahc4ejcy98y9nhyd54",
       "url": "https://www.madamemoustache.be/agenda/g24ejyfwndp4ahc4ejcy98y9nhyd54",
-      "summary": "Nuit de global bass, hymnes dancefloor, afrobeats et pépites pop, de 22h à 4h.",
+      "summary": "Soirée POP POP POP : global bass, hymnes dancefloor, afrobeats et pop.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -16545,7 +16404,7 @@
       "id": "web-trix-anvers-inspiratiedag-voor-artiesten-2026-11-29",
       "title": "Inspiratiedag voor artiesten",
       "category": "talks",
-      "venue": "Trix",
+      "venue": "Trix Antwerpen",
       "city": "Anvers",
       "lat": 51.2195776,
       "lon": 4.4483726,
@@ -16557,9 +16416,33 @@
       "summary": "Journée pour artistes, bands et producteurs de 16 à 30 ans à la Trix Werkplaats d'Anvers, pour s'informer et progresser. Au programme : feedback individuel, artist talks, workshops (branding, scène, planning de sortie) et discussions sur les droits et la promotion.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
+    },
+    {
+      "id": "web-het-depot-louvain-live-nation-presents-merol-ida-extra-concert-2026-11-29",
+      "title": "Live Nation presents Merol + IDA (extra concert)",
+      "category": "concert",
+      "venue": "Het Depot",
+      "city": "Louvain",
+      "lat": 50.881515,
+      "lon": 4.7137996,
+      "start": "2026-11-29T10:00:00",
+      "end": "2026-11-29T10:00:00",
+      "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0aQF00000w5SALYA2_1800x810_1800.jpg?itok=Mw_JHH3b",
+      "page_url": "https://www.hetdepot.be/concert/2026/live-nation-presents-merol-0",
+      "url": "https://apps.ticketmatic.com/widgets/hetdepot/flow/newwebskin?event=903606770258&l=nl#!/addtickets",
+      "summary": "Het is 2026 en MEROL is terug: vuriger, kwetsbaarder en ruiger dan ooit mét een nieuwe plaat op zak.",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "young"
+      ],
+      "tags": [],
+      "source": "Het Depot (Louvain)"
     },
     {
       "id": "fb-1565857758516261",
@@ -16850,7 +16733,7 @@
       "id": "web-standard-de-li-ge-standard-de-li-ge-club-brugge-2026-11-29",
       "title": "Standard de Liège - Club Brugge",
       "category": "sport",
-      "venue": "Stade de Sclessin",
+      "venue": "Stade Maurice Dufrasne",
       "city": "Seraing",
       "lat": 50.6152381,
       "lon": 5.5089437,
@@ -16859,7 +16742,7 @@
       "image": "https://static.standard.be/cdn/ff/d-elbWYZc8CD4E1y6I2JIsF46XfoiOisPe8osWSEP3M/1793495856/public/styles/max_0640/public/2026-11/Standard-ClubBrugge-1920x1080.png.webp?itok=e9bDDNjY",
       "page_url": "https://www.standard.be/fr/news/tickets-en-vente-pour-standard-club-brugge",
       "url": "https://www.standard.be/fr/news/tickets-en-vente-pour-standard-club-brugge",
-      "summary": "Les places pour Standard de Liège - Club Brugge, dimanche 29 novembre à 18H30, sont en vente en ligne et à la billetterie du stade.",
+      "summary": "Les places pour la rencontre Standard de Liège - Club Brugge (dimanche 29 novembre à 18H30) sont en vente sur notre plateforme online ou à la billetterie de notre stade.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -17292,8 +17175,8 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-pirate-movie-club-le-sapin-a-les-boules-vf-2026-12-02",
-      "title": "Pirate Movie Club : Le sapin a les boules VF",
+      "id": "web-les-grignoux-cin-ma-li-ge-le-sapin-a-les-boules-vf-2026-12-02",
+      "title": "Le sapin a les boules VF",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -17304,7 +17187,7 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3195/le_sapin_a_les_boules_vignette.jpg",
       "page_url": "https://www.grignoux.be/fr/evenement/3195/le-sapin-a-les-boules-vf",
       "url": "https://www.grignoux.be/fr/evenement/3195/le-sapin-a-les-boules-vf",
-      "summary": "Clark Griswold rêve d'un Noël parfait, mais sa famille et les catastrophes s'en mêlent. Le film se regarde en version française, avec commentaires et applaudissements encouragés pendant la projection.",
+      "summary": "Clark Griswold rêve d'un Noël parfait, mais la famille débarque avec ses catastrophes dans une maison impossible à illuminer. Projection en VF façon Pirate Movie Club : le public est invité à commenter et applaudir les répliques, présentée par Caroline Poisson.",
       "price_from": 7.0,
       "free": false,
       "audience": [],
@@ -17324,11 +17207,13 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Chwallow-c-Alice-Piemme.jpg.webp?itok=fMeYfNsA",
       "page_url": "https://www.surmars.be/agenda/2026-12/cirque/chwallow",
       "url": "https://www.surmars.be/agenda/2026-12/cirque/chwallow",
-      "summary": "Spectacle de cirque hybride de Julien Fournier, à la croisée des arts plastiques, de la scénographie et du voyage sensoriel.",
+      "summary": "Spectacle de cirque hybride de Julien Fournier, à la croisée des arts plastiques, de la scénographie et d'un voyage sensoriel.",
       "price_from": null,
       "free": null,
       "audience": [],
-      "tags": [],
+      "tags": [
+        "découverte"
+      ],
       "source": "Mars – Mons arts de la scène"
     },
     {
@@ -17648,13 +17533,13 @@
       "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1792419979386-ZYHSOB81MM3A7VML53VK/855467037_1686454796376533_6055621753570632867_n.jpg",
       "page_url": "https://www.madamemoustache.be/agenda/le-bal-de-la-sainte-barbe-bal-de-lunion-royale-des-pompiers-professionnels-de-belgique",
       "url": "https://www.madamemoustache.be/agenda/le-bal-de-la-sainte-barbe-bal-de-lunion-royale-des-pompiers-professionnels-de-belgique",
-      "summary": "Bal organisé par l'Union Royale des Pompiers Professionnels de Belgique, ouvert à tous et entièrement gratuit.",
-      "price_from": null,
+      "summary": "Bal de la Sainte-Barbe organisé par l'Union Royale des Pompiers Professionnels de Belgique, ouvert à tous et entièrement gratuit.",
+      "price_from": 0,
       "free": true,
       "audience": [],
       "tags": [
-        "gratuit",
-        "soirée"
+        "soirée",
+        "gratuit"
       ],
       "source": "Madame Moustache (Bruxelles)"
     },
@@ -19419,13 +19304,15 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Bandits-les-cowboys-de-l-espace.jpeg.webp?itok=-QRgRxt9",
       "page_url": "https://www.surmars.be/agenda/2026-12/musique/bandits-les-cowboys-de-lespace",
       "url": "https://www.surmars.be/agenda/2026-12/musique/bandits-les-cowboys-de-lespace",
-      "summary": "Des cowboys de l'espace en santiags à paillettes slaloment entre cactus imaginaires et refrains qui font danser et rire.",
+      "summary": "Des cowboys de l'espace en santiags à paillettes slaloment entre cactus imaginaires et refrains dansants dans un Far West intersidéral.",
       "price_from": null,
       "free": null,
       "audience": [
         "family"
       ],
-      "tags": [],
+      "tags": [
+        "entre potes"
+      ],
       "source": "Mars – Mons arts de la scène"
     },
     {
@@ -19742,7 +19629,9 @@
       "price_from": null,
       "free": null,
       "audience": [],
-      "tags": [],
+      "tags": [
+        "découverte"
+      ],
       "source": "Mars – Mons arts de la scène"
     },
     {
@@ -20136,7 +20025,7 @@
       "lat": 51.21579,
       "lon": 4.40989,
       "start": "2026-12-09T15:00:00",
-      "end": "2026-12-19T14:00:00",
+      "end": "2026-12-19T19:00:00",
       "image": "https://s1.ticketm.net/dam/a/75e/f136946e-037c-49fa-94a8-4aee2e89175e_RETINA_PORTRAIT_16_9.jpg",
       "url": "https://www.ticketmaster.be/event/oliver-twist-tickets/361474684",
       "summary": "The complete timing can be found a few days before the show on www.stadsschouwburg-antwerpen.be.",
@@ -20326,7 +20215,9 @@
       "price_from": null,
       "free": null,
       "audience": [],
-      "tags": [],
+      "tags": [
+        "découverte"
+      ],
       "source": "Mars – Mons arts de la scène"
     },
     {
@@ -20738,7 +20629,7 @@
       "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1792420147908-KMOX9XN6Z40FZIUXIG8L/856220295_2061327731184053_5584630408181886266_n.jpg",
       "page_url": "https://www.madamemoustache.be/agenda/t58ds75nryswjzr25nkj6l7xnxg4px",
       "url": "https://www.madamemoustache.be/agenda/t58ds75nryswjzr25nkj6l7xnxg4px",
-      "summary": "Soirée dancefloor avec les meilleurs morceaux de rap, R&B et reggaeton mixés toute la nuit.",
+      "summary": "Soirée Dancefloor Radiomix chez Madame Moustache, de 22h à 4h.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -21460,6 +21351,25 @@
       "source": "Ticketmaster"
     },
     {
+      "id": "tm-Z698xZG2Z1kxv-wxa",
+      "title": "Natalia, the Christmas Experience",
+      "category": "concert",
+      "venue": "Capitole Gent",
+      "city": "Ghent",
+      "lat": 51.04811,
+      "lon": 3.73222,
+      "start": "2026-12-11T20:00:00",
+      "end": "2026-12-11T20:00:00",
+      "image": "https://s1.ticketm.net/dam/a/cf0/a59db0dc-928f-4bf1-823b-86a94921bcf0_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.ticketmaster.be/event/natalia-the-christmas-experience-tickets/881872889",
+      "summary": "With Christmas Experience, Natalia focuses entirely on the festive season for the first time. Her own repertoire is given a new winter interpretation, complemented by traditional holiday songs and contemporary favourites. A strong live band delivers fresh arrangements that allow her voice to take ce",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ticketmaster"
+    },
+    {
       "id": "tm-Z698xZG2Z16vQ6vMf9",
       "title": "Saïd et Wadie dans Ztek Tau",
       "category": "theatre",
@@ -21491,25 +21401,6 @@
       "image": "https://s1.ticketm.net/dam/a/5e0/769a6b8f-efdd-468d-ae87-d6d3472d35e0_RETINA_PORTRAIT_16_9.jpg",
       "url": "https://www.ticketmaster.be/event/lets-go-tickets/1455526243",
       "summary": "CRÉÉ PAR FAUVE HAUTOT ET ROMAIN GUILLERMIC LE spectacle de la rentrée 2026 : Let's Go ! Neuf danseurs et danseuses, porteurs de leurs histoires et de leurs identités, se retrouvent sur scène pour une traversée à la fois intime et universelle. LET'S GO ! est un carrefour d'énergies, une aventure coll",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
-    },
-    {
-      "id": "tm-Z698xZG2Z1kxv-wxa",
-      "title": "Natalia, the Christmas Experience",
-      "category": "concert",
-      "venue": "Capitole Gent",
-      "city": "Ghent",
-      "lat": 51.04811,
-      "lon": 3.73222,
-      "start": "2026-12-11T20:00:00",
-      "end": "2026-12-11T20:00:00",
-      "image": "https://s1.ticketm.net/dam/a/cf0/a59db0dc-928f-4bf1-823b-86a94921bcf0_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/natalia-the-christmas-experience-tickets/881872889",
-      "summary": "With Christmas Experience, Natalia focuses entirely on the festive season for the first time. Her own repertoire is given a new winter interpretation, complemented by traditional holiday songs and contemporary favourites. A strong live band delivers fresh arrangements that allow her voice to take ce",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -21568,7 +21459,7 @@
       "lat": 50.82787,
       "lon": 4.3721,
       "start": "2026-12-12T11:00:00",
-      "end": "2026-12-24T11:00:00",
+      "end": "2026-12-24T14:30:00",
       "image": "https://s1.ticketm.net/dam/a/0d5/6b5ee965-b6bf-4759-b92d-ee22bc6370d5_RETINA_PORTRAIT_16_9.jpg",
       "url": "https://www.ticketmaster.be/event/grand-brussels-christmas-circus-tickets/1577081526",
       "summary": "Welcome to the 15th edition of the Grand Brussels Christmas Circus at the Flagey Square in Ixelles, featuring a brand-new show created by Alexandre Bouglione! For this anniversary edition, no effort or expense has been spared to deliver an even more spectacular and unforgettable experience. Join us ",
@@ -22776,7 +22667,7 @@
       "lat": 50.45429,
       "lon": 3.95193,
       "start": "2026-12-13T20:00:00",
-      "end": "2026-12-13T20:00:00",
+      "end": "2026-12-14T20:00:00",
       "image": "https://s1.ticketm.net/dam/a/465/b7f70468-690a-475e-8c9e-afdff289f465_RETINA_PORTRAIT_16_9.jpg",
       "url": "https://www.ticketmaster.be/event/damien-gillard-rude-tickets/1215476261",
       "summary": "Comédien phare du Grand Cactus, Damien Gillard remonte enfin sur scène entouré d'instruments de musique pour un one-man-show corrosif. Entre son enfance à Charleroi, ses personnages barrés et Fabrizio qui s'incruste, ça pique, ça chante, ça joue, ça cogne. Préparez-vous : c'est rude.",
@@ -23360,8 +23251,8 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-cin-jack-le-fabuleux-destin-d-am-lie-poulain-2026-12-1",
-      "title": "Ciné Jack : Le Fabuleux Destin d'Amélie Poulain",
+      "id": "web-les-grignoux-cin-ma-li-ge-le-fabuleux-destin-d-am-lie-poulain-2026-12-17",
+      "title": "Le Fabuleux Destin d'Amélie Poulain",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -23372,7 +23263,7 @@
       "image": null,
       "page_url": "https://www.grignoux.be/fr/evenement/3205/le-fabuleux-destin-damelie-poulain",
       "url": "https://www.grignoux.be/fr/evenement/3205/le-fabuleux-destin-damelie-poulain",
-      "summary": "Ciné-club avec projection du film Le Fabuleux Destin d'Amélie Poulain : Amélie, serveuse à Montmartre, observe les gens et veut faire le bien autour d'elle. La séance est suivie d'une animation en salle menée avec des étudiants en Relations publiques.",
+      "summary": "Projection du film « Le Fabuleux Destin d'Amélie Poulain » au Ciné Jack, suivie d'un ciné-club et d'une animation en salle. Le film suit Amélie, serveuse à Montmartre, qui s'est fixé pour but de faire le bien autour d'elle.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -23571,7 +23462,7 @@
       "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1792420238100-IO2AOSOORHLAWRVN5263/855866125_1116397090998833_326941741937972878_n.jpg",
       "page_url": "https://www.madamemoustache.be/agenda/zzg5spgnwy7t5e8bpkmwcaakg4w9ws",
       "url": "https://www.madamemoustache.be/agenda/zzg5spgnwy7t5e8bpkmwcaakg4w9ws",
-      "summary": "Soirée dancefloor avec les meilleurs morceaux de rap, R&B et reggaeton mixés toute la nuit.",
+      "summary": "Soirée Dancefloor Radiomix chez Madame Moustache, de 22h à 4h.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -24808,7 +24699,7 @@
     },
     {
       "id": "web-les-grignoux-cin-ma-li-ge-cin-p-tit-dej-2026-12-20",
-      "title": "Ciné P'tit Dej",
+      "title": "Ciné p'tit dej",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -24819,7 +24710,7 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3222/cineptitdej_vignette.jpg",
       "page_url": "https://www.grignoux.be/fr/evenement/3222/cine-ptit-dej",
       "url": "https://www.grignoux.be/fr/evenement/3222/cine-ptit-dej",
-      "summary": "Ciné P'tit Dej est un rendez-vous familial avec buffet petit-déjeuner à 9h à la brasserie Sauvenière, suivi à 11h d'une séance au choix parmi Changer l'eau des fleurs, Claude, Carmen, l'oiseau rebelle et Le Noël d'Ernest & Célestine. Le programme est proposé pour tous les âges.",
+      "summary": "Petit-déjeuner convivial à la brasserie Sauvenière à 9h, suivi à 11h d'une séance de cinéma au choix parmi Changer l'eau des fleurs, Claude, Carmen, l'oiseau rebelle et Le Noël d'Ernest & Célestine. Le petit-déjeuner peut aussi être pris sans la séance.",
       "price_from": 10.0,
       "free": false,
       "audience": [],
@@ -24950,7 +24841,7 @@
       "id": "web-standard-de-li-ge-standard-anderlecht-2026-12-20",
       "title": "Standard - Anderlecht",
       "category": "sport",
-      "venue": "Stade de Sclessin",
+      "venue": "Stade Maurice Dufrasne",
       "city": "Seraing",
       "lat": 50.6152381,
       "lon": 5.5089437,
@@ -25159,7 +25050,7 @@
       "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1792420307613-88ASPWOF7818HPBSC1KB/854569305_1088586567419033_4365692319217989796_n.jpg",
       "page_url": "https://www.madamemoustache.be/agenda/bmt9a4btb3brpjhx5tsehh96z3xwl9",
       "url": "https://www.madamemoustache.be/agenda/bmt9a4btb3brpjhx5tsehh96z3xwl9",
-      "summary": "Soirée dancefloor avec les meilleurs morceaux de rap, R&B et reggaeton mixés toute la nuit.",
+      "summary": "Soirée Dancefloor Radiomix chez Madame Moustache, de 22h à 4h.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -25812,7 +25703,7 @@
       "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1792420404984-66YHX1F0NTAVS837EAQ3/856186824_1407135074913879_4058551437733643416_n.jpg",
       "page_url": "https://www.madamemoustache.be/agenda/new-years-eve-party-2027",
       "url": "https://www.madamemoustache.be/agenda/new-years-eve-party-2027",
-      "summary": "New Year's Eve Party de 22h à 4h, pour passer le réveillon au Madame Moustache.",
+      "summary": "New Year's Eve Party 2027 chez Madame Moustache, de 22h à 4h.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -27032,7 +26923,7 @@
       "id": "web-trix-anvers-hybrid-minds-2027-01-22",
       "title": "Hybrid Minds",
       "category": "concert",
-      "venue": "Trix",
+      "venue": "Trix Antwerpen",
       "city": "Anvers",
       "lat": 51.2195776,
       "lon": 4.4483726,
@@ -27044,7 +26935,9 @@
       "summary": "Le duo britannique de drum & bass Hybrid Minds se produit au Trix à Anvers, accompagné de Grafix, Idle Days et Maze. Le public peut s'attendre à des sets électroniques mêlant riffs de dancefloor, mélodies mélancoliques et morceaux énergiques.",
       "price_from": 5.8,
       "free": false,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -27690,7 +27583,7 @@
       "id": "web-trix-anvers-big-muffin-2027-01-29",
       "title": "Big Muffin'",
       "category": "concert",
-      "venue": "Trix",
+      "venue": "Trix Antwerpen",
       "city": "Anvers",
       "lat": 51.2195776,
       "lon": 4.4483726,
@@ -28627,7 +28520,7 @@
       "id": "web-trix-anvers-thy-art-is-murder-2027-02-10",
       "title": "Thy Art Is Murder",
       "category": "concert",
-      "venue": "Trix",
+      "venue": "Trix Antwerpen",
       "city": "Anvers",
       "lat": 51.2195776,
       "lon": 4.4483726,
@@ -28639,7 +28532,9 @@
       "summary": "Le groupe deathcore australien Thy Art Is Murder se produit à Trix, à Anvers, avec son nouveau frontman Jerry Grimefeld et son titre « Squeeze ». Le concert mêle riffs techniques, breakdowns puissants et critique sociale.",
       "price_from": 7.4,
       "free": false,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -28798,26 +28693,6 @@
       "audience": [],
       "tags": [],
       "source": "Ticketmaster"
-    },
-    {
-      "id": "web-trix-anvers-we-are-open-2027-2027-02-12",
-      "title": "We Are Open 2027",
-      "category": "talks",
-      "venue": "Trix",
-      "city": "Anvers",
-      "lat": 51.2195776,
-      "lon": 4.4483726,
-      "start": "2027-02-12T10:00:00",
-      "end": "2027-02-12T10:00:00",
-      "image": "https://www.trixonline.be/media/cache/default_highlight/uploads/media/default/2c70/29/2b90224c66bd16c1a24c09be00a401824f0034e2.webp",
-      "page_url": "https://wao.trixonline.be/nl/",
-      "url": "https://wao.trixonline.be/nl/",
-      "summary": "Le festival We Are Open 2027 se déroule les 12 et 13 février 2027 à Trix, à Anvers, et présente environ 70 artistes belges émergents sur six ou sept scènes. Il permet de découvrir la nouvelle scène musicale belge, avec des concerts et des pop-up shows.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Trix (Anvers)"
     },
     {
       "id": "tm-Z698xZG2Z1kPYFbFJ",
@@ -29392,6 +29267,25 @@
       "source": "Ticketmaster"
     },
     {
+      "id": "tm-Z698xZG2Z16voJF7u8",
+      "title": "James Blunt",
+      "category": "concert",
+      "venue": "Vorst Nationaal/Forest National",
+      "city": "Forest (Brussels)",
+      "lat": 50.80999,
+      "lon": 4.32601,
+      "start": "2027-02-19T20:00:00",
+      "end": "2027-02-19T20:00:00",
+      "image": "https://s1.ticketm.net/dam/a/bb5/e9ab15b4-c0be-494a-8567-1424f7213bb5_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.ticketmaster.be/event/james-blunt-tickets/1466204350",
+      "summary": "A new album, a new tour and a date in Belgium: James Blunt will perform at Forest National in Brussels on Friday 19 February 2027. His new album 'Airplane Mode' will be released via Atlantic Records on 6 November and will mark the beginning of a new series of concerts. James Blunt and the Belgian au",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ticketmaster"
+    },
+    {
       "id": "fb-1533197165154748",
       "title": "La Grande Soirée RNB - Bruxelles 90's à 2010's",
       "category": "party",
@@ -29621,7 +29515,7 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/concert_suggestion_small/public/backgrounds/Coolfestival_Webheader_BG_1.jpg?itok=8pDsgWg-",
       "page_url": "https://www.hetdepot.be/coolfestival",
       "url": "https://www.hetdepot.be/coolfestival",
-      "summary": "Festival de jazz, funk et soul organisé par Het Depot, avec des concerts live et des DJ.",
+      "summary": "COOL Festival is a festival by Het Depot, celebrating jazz, funk and soul, with a line-up of boundary-pushing live acts and DJs.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -29869,7 +29763,7 @@
       "id": "web-trix-anvers-kookaburra-2027-03-05",
       "title": "Kookaburra",
       "category": "concert",
-      "venue": "Trix",
+      "venue": "Trix Antwerpen",
       "city": "Anvers",
       "lat": 51.2195776,
       "lon": 4.4483726,
@@ -29889,7 +29783,7 @@
       "id": "web-trix-anvers-basht-2027-03-05",
       "title": "Basht.",
       "category": "concert",
-      "venue": "Trix",
+      "venue": "Trix Antwerpen",
       "city": "Anvers",
       "lat": 51.2195776,
       "lon": 4.4483726,
@@ -30044,7 +29938,7 @@
       "id": "web-trix-anvers-cleopatrick-2027-03-10",
       "title": "Cleopatrick",
       "category": "concert",
-      "venue": "Trix",
+      "venue": "Trix Antwerpen",
       "city": "Anvers",
       "lat": 51.2195776,
       "lon": 4.4483726,
@@ -30609,7 +30503,7 @@
       "id": "web-trix-anvers-olga-2027-03-20",
       "title": "Olga",
       "category": "concert",
-      "venue": "Trix",
+      "venue": "Trix Antwerpen",
       "city": "Anvers",
       "lat": 51.2195776,
       "lon": 4.4483726,
@@ -31014,6 +30908,25 @@
       "tags": [],
       "source": "Facebook (événement public)",
       "classified": true
+    },
+    {
+      "id": "tm-Z698xZG2Z1kvwogOs",
+      "title": "Suzan & Freek | be•at Premium Comfort Experience",
+      "category": "concert",
+      "venue": "AFAS Dome - Mastercard Lounge",
+      "city": "Merksem (Antwerpen)",
+      "lat": 51.23024,
+      "lon": 4.44176,
+      "start": "2027-04-03T17:30:00",
+      "end": "2027-04-04T12:00:00",
+      "image": "https://s1.ticketm.net/dam/a/3a7/7e23851b-9b2b-47a7-8ae9-11ddcc1813a7_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.ticketmaster.be/event/suzan--freek-%7C-beat-premium-comfort-experience-tickets/72475831",
+      "summary": "Make your visit to the AFAS Dome a unique experience as a Mastercard cardholder with the be•at Premium Comfort Experience in the Mastercard Lounge. What can you expect? • Separate entrance to the Mastercard Lounge starting 60 minutes before the AFAS Dome doors open. • An exclusive space with comfort",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ticketmaster"
     },
     {
       "id": "web-le-forum-li-ge-joyeuses-p-ques-avec-daniel-hanssens-2027-04-03",
@@ -31622,7 +31535,7 @@
     },
     {
       "id": "web-het-depot-louvain-roel-steeno-lelijke-rosse-i-s-m-captain-comedy-2027-05-03",
-      "title": "Roel Steeno - 'Lelijke rosse!' (i.s.m. Captain Comedy)",
+      "title": "Roel Steeno 'Lelijke rosse!' (i.s.m. Captain Comedy)",
       "category": "theatre",
       "venue": "Het Depot",
       "city": "Louvain",
@@ -31630,10 +31543,10 @@
       "lon": 4.7137996,
       "start": "2027-05-03T10:00:00",
       "end": "2027-05-03T10:00:00",
-      "image": "https://www.hetdepot.be/sites/default/files/styles/hero/public/a0ac100000jUb9vAAC_1800x810_1800.jpg?itok=VbBbNItL",
+      "image": "https://www.hetdepot.be/sites/default/files/styles/hero/public/a0ac100000jUb9vAAC_1800x810_1800.jpg?itok=w-HithbK",
       "page_url": "https://www.hetdepot.be/concert/2027/roel-steeno-0",
       "url": "https://www.hetdepot.be/concert/2027/roel-steeno-0",
-      "summary": "Roel Steeno brengt zijn comedyshow 'Lelijke rosse!' (i.s.m. Captain Comedy) met een verhaal over mislukken, volhouden en de vraag of hij echt ros is. Hij put uit zijn ervaringen met spot op school en tegenslagen, zoals verloren Humo's Comedy Cup-rondes.",
+      "summary": "Roel Steeno raconte, avec humour, son parcours fait d'échecs et de persévérance, vu sous l'angle des moqueries subies depuis l'école. Il se demande aussi s'il est vraiment roux, en évoquant ses défaites à la Humo's Comedy Cup et à De Slimste Mens.",
       "price_from": 5.0,
       "free": false,
       "audience": [],
@@ -32530,7 +32443,7 @@
       "lon": 4.7137996,
       "start": "2027-10-12T10:00:00",
       "end": "2027-10-12T10:00:00",
-      "image": "https://www.hetdepot.be/sites/default/files/styles/concert_suggestion_small/public/a0ac100000iewyUAAQ_1800x810_1800.jpg?itok=VbBbNItL",
+      "image": "https://www.hetdepot.be/sites/default/files/styles/hero/public/a0ac100000iewyUAAQ_1800x810_1800.jpg?itok=VbBbNItL",
       "page_url": "https://www.hetdepot.be/concert/2027/robert-jon-the-wreck",
       "url": "https://www.hetdepot.be/concert/2027/robert-jon-the-wreck",
       "summary": "Concert du groupe américain Robert Jon & The Wreck, qui mêle southern rock, blues, soul et classic rock, à l'occasion de leurs 15 ans de carrière. Il a lieu dans la grande salle du Het Depot à Louvain, en configuration flex avec places assises non numérotées et places debout.",
