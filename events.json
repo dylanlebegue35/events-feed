@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13T08:39:40",
+  "generated": "2026-11-13T09:41:50",
   "events": [
     {
       "id": "web-grand-curtius-li-ge-espace-c-sar-franck-2022-01-12",
@@ -1790,7 +1790,7 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Emmanuel-Strosser-c-Jean-Baptiste-Millot.jpg.webp?itok=C2sliKih",
       "page_url": "https://www.surmars.be/agenda/2026-11/musique/sonates-de-schubert",
       "url": "https://shop.infinitix.be/SURMARSBE_INF/S/29DC3295-53A7-4B4B-58BD-3DB9116E1A4F/?d=86F0CE17-5D0C-27D3-6EF0-2D661B4AA29D",
-      "summary": "Le pianiste Emmanuel Strosser, reconnu pour son art du chant intérieur, interprète les sonates de Schubert.",
+      "summary": "Le pianiste Emmanuel Strosser interprète les sonates de Schubert, dans une architecture pianistique d'une souveraine clarté.",
       "price_from": 3.0,
       "free": false,
       "audience": [],
@@ -2687,9 +2687,7 @@
       "summary": "Nick Hakim is terug met zijn gloednieuwe dubbelsingle 'Real Here Now' & 'Water', dromerige lo-fi neo-soul die zich direct in je hoofd nestelt.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -2706,12 +2704,10 @@
       "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/42a3/88/88af7d5975c309e94f831c8ebb7226378dc1963c.webp",
       "page_url": "https://www.trixonline.be/nl/event/swae-lee",
       "url": "https://www.trixonline.be/nl/event/swae-lee",
-      "summary": "Concert de Swae Lee à Trix, à Anvers.",
+      "summary": "Concert de Swae Lee à Trix Antwerpen le 14 novembre 2026.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -6002,7 +5998,7 @@
       "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/70c4/c0/2df96dc6d63f5661c8d9744689b3817be51c6259.webp",
       "page_url": "https://www.trixonline.be/nl/event/freya-skye-1",
       "url": "https://www.trixonline.be/nl/event/freya-skye-1",
-      "summary": "Concert de Freya Skye à Trix, à Anvers.",
+      "summary": "Concert de Freya Skye à Trix Antwerpen le 16 novembre 2026.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -6163,7 +6159,7 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Oedipus-c-Alexandre-Fytrakis.jpeg.webp?itok=AXAvT6yv",
       "page_url": "https://www.surmars.be/agenda/2026-11/theatre/oedipus",
       "url": "https://shop.infinitix.be/SURMARSBE_INF/S/C8E11A57-2573-EE4B-AB5A-7136D58F97E4/?d=D6544DA9-34E1-AE4E-0680-E03D9EFB007B",
-      "summary": "Oedipus inscrit le mythe antique de Sophocle dans notre siècle et traite du pouvoir et des façons de gouverner, dans une villa de vacances en Grèce.",
+      "summary": "Oedipus inscrit le mythe antique de Sophocle dans notre siècle et traite du pouvoir et des façons de gouverner.",
       "price_from": 3.0,
       "free": false,
       "audience": [],
@@ -6213,7 +6209,7 @@
     {
       "id": "web-mars-mons-arts-de-la-sc-ne-rendez-vous-soins-et-sons-2026-11-17",
       "title": "Rendez-vous soins et sons",
-      "category": "concert",
+      "category": "wellness",
       "venue": "Mars",
       "city": "Mons",
       "lat": 50.4650237,
@@ -6223,7 +6219,7 @@
       "image": null,
       "page_url": "https://www.surmars.be/agenda/2026-11/musique/rendez-vous-soins-et-sons",
       "url": "https://shop.infinitix.be/SURMARSBE_INF/S/7971E555-17F3-DB00-0726-613261EAF751/?d=1B340F82-4241-E326-EDCE-B9DEE3CEAF5B",
-      "summary": "Rendez-vous musical « Soins et sons » proposé par Mars le mardi 17 novembre à 18h00.",
+      "summary": "Rendez-vous musical « soins et sons » proposé à 18h00 le mardi 17 novembre sur Mars.",
       "price_from": 15.0,
       "free": false,
       "audience": [],
@@ -6385,7 +6381,7 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Catch-litteraire-c-David-Bormans.png.webp?itok=FhAYCLvl",
       "page_url": "https://www.surmars.be/agenda/2026-11/litterature/catch-litteraire",
       "url": "https://www.surmars.be/agenda/2026-11/litterature/catch-litteraire",
-      "summary": "Quatre lutteurs·ses amoureux·ses des mots s'affrontent deux par deux sur le ring, clavier en main, dans une ambiance conviviale et déjantée.",
+      "summary": "Dans une ambiance conviviale et déjantée, quatre lutteurs·ses amoureux·ses des mots s'affrontent deux par deux, clavier en main.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -6587,9 +6583,7 @@
       "summary": "Concert du groupe de power metal intergalactique Gloryhammer au Trix d'Anvers, avec les premières parties Arion et Majestica. Le groupe y présente son cinquième album, avec de nouveaux titres et des hymnes épiques.",
       "price_from": 7.5,
       "free": false,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -7215,8 +7209,8 @@
       "source": "Recyclart (Bruxelles)"
     },
     {
-      "id": "web-trix-anvers-workshop-muziekfotografie-2026-11-19",
-      "title": "Workshop: Muziekfotografie",
+      "id": "web-trix-anvers-expo-workshop-muziekfotografie-2026-11-19",
+      "title": "Expo: Workshop Muziekfotografie",
       "category": "workshop",
       "venue": "Trix",
       "city": "Anvers",
@@ -7227,7 +7221,7 @@
       "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/e6e2/63/0c84a28ef599e31560ac8bc3fb436fb8e2feef60.webp",
       "page_url": "https://www.trixonline.be/nl/event/expo-workshop-muziekfotografie-1",
       "url": "https://www.trixonline.be/nl/event/expo-workshop-muziekfotografie-1",
-      "summary": "De deelnemers van onze workshop Muziekfotografie tonen hun werk. Tijd dus voor een vernissage!Dit najaar krijgen tien deelnemers onder leiding van fotograaf Daria Miasoedova (Trix, Ancienne Belgique) een deepdive in de wereld van Muziekfotografie. Tijdens deze workshop leren ze alles over concertfot",
+      "summary": "Dix participants de l'atelier Muziekfotografie, encadrés par la photographe Daria Miasoedova, présentent leurs photos lors du vernissage de l'exposition le jeudi 19 novembre. Ils y montrent des images de groupes et du public prises pendant des concerts au Trix, après une formation en photographie de",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -7270,9 +7264,7 @@
       "summary": "Nemzzz, jeune rappeur de South Manchester à la flow posée, aborde dans ses textes la pression mentale, l'amitié et l'indépendance. Il se produit au Trix d'Anvers, avec des samples soul et des beats minimalistes, dans la lignée de ses projets Do Not Disturb et Rent's Due.",
       "price_from": 5.3,
       "free": false,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -7691,7 +7683,7 @@
       "image": null,
       "page_url": "https://www.surmars.be/agenda/2026-11/musique/aleph-quintet",
       "url": "https://shop.infinitix.be/SURMARSBE_INF/S/5E4E0BD8-BB64-8922-8CDA-99721C1D2CA5/?d=3BC9BC1C-55B3-3633-1FCE-93357F492C3D",
-      "summary": "Concert de l'Aleph Quintet le jeudi 19 novembre à 20h00.",
+      "summary": "Concert de l'Aleph Quintet proposé à 20h00 le jeudi 19 novembre sur Mars.",
       "price_from": 3.0,
       "free": false,
       "audience": [],
@@ -12679,7 +12671,7 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Cassandre.jpeg.webp?itok=nlGvnAdo",
       "page_url": "https://www.surmars.be/agenda/2026-11/theatre/cassandre",
       "url": "https://www.surmars.be/agenda/2026-11/theatre/cassandre",
-      "summary": "Une femme prélève l'eau, découvre un problème et insiste pour être entendue dans une ville qui reste sourde.",
+      "summary": "Une femme prélève l'eau d'une rivière, découvre un problème et se heurte à une ville qui détourne les yeux.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -17566,11 +17558,13 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Chwallow-c-Alice-Piemme.jpg.webp?itok=fMeYfNsA",
       "page_url": "https://www.surmars.be/agenda/2026-12/cirque/chwallow",
       "url": "https://www.surmars.be/agenda/2026-12/cirque/chwallow",
-      "summary": "Dernière création de Julien Fournier, un spectacle de cirque hybride à la croisée des arts plastiques, de la scénographie et d'un voyage sensoriel.",
+      "summary": "Spectacle de cirque hybride, à la croisée des arts plastiques, de l'exploration scénographique et du voyage sensoriel.",
       "price_from": null,
       "free": null,
       "audience": [],
-      "tags": [],
+      "tags": [
+        "découverte"
+      ],
       "source": "Mars – Mons arts de la scène"
     },
     {
@@ -19713,7 +19707,7 @@
     {
       "id": "web-mars-mons-arts-de-la-sc-ne-bandits-les-cowboys-de-l-espace-2026-12-06",
       "title": "Bandits, les cowboys de l'espace",
-      "category": "concert",
+      "category": "family",
       "venue": "Théâtre le Manège",
       "city": "Mons",
       "lat": 50.4578919,
@@ -19723,7 +19717,7 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Bandits-les-cowboys-de-l-espace.jpeg.webp?itok=-QRgRxt9",
       "page_url": "https://www.surmars.be/agenda/2026-12/musique/bandits-les-cowboys-de-lespace",
       "url": "https://www.surmars.be/agenda/2026-12/musique/bandits-les-cowboys-de-lespace",
-      "summary": "Les cowboys de l'espace débarquent en santiags à paillettes dans un Far West intersidéral, entre cactus imaginaires et refrains qui font danser et rire.",
+      "summary": "Des cowboys de l'espace en santiags à paillettes slaloment entre cactus imaginaires et refrains qui font danser et rire.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -20641,10 +20635,10 @@
       "lon": 3.9566332,
       "start": "2026-12-09T20:00:00",
       "end": "2026-12-09T20:00:00",
-      "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-12/FMS-Perichorese.jpg.webp?itok=pTyPP51F",
+      "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/FMS-Perichorese.jpg.webp?itok=pTyPP51F",
       "page_url": "https://www.surmars.be/agenda/2026-12/musique/perichorese",
       "url": "https://www.surmars.be/agenda/2026-12/musique/perichorese",
-      "summary": "Il fut un temps où Musulmans, Juifs et Chrétiens dansaient ensemble sur les rives de la Méditerranée.",
+      "summary": "Un voyage musical évoquant l'époque où Musulmans, Juifs et Chrétiens dansaient ensemble sur les rives de la Méditerranée.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -27505,9 +27499,7 @@
       "summary": "Le duo britannique de drum & bass Hybrid Minds se produit au Trix à Anvers, accompagné de Grafix, Idle Days et Maze. Le public peut s'attendre à des sets électroniques mêlant riffs de dancefloor, mélodies mélancoliques et morceaux énergiques.",
       "price_from": 5.8,
       "free": false,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -29122,9 +29114,7 @@
       "summary": "Le groupe deathcore australien Thy Art Is Murder se produit à Trix, à Anvers, avec son nouveau frontman Jerry Grimefeld et son titre « Squeeze ». Le concert mêle riffs techniques, breakdowns puissants et critique sociale.",
       "price_from": 7.4,
       "free": false,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -29314,7 +29304,7 @@
       "lon": 4.4483726,
       "start": "2027-02-12T10:00:00",
       "end": "2027-02-12T10:00:00",
-      "image": "https://www.trixonline.be/media/cache/default_highlight/uploads/media/default/6454/5f/ea3eb30323cc94784ffd9681186e436d88cebfc7.webp",
+      "image": "https://www.trixonline.be/media/cache/default_highlight/uploads/media/default/2c70/29/2b90224c66bd16c1a24c09be00a401824f0034e2.webp",
       "page_url": "https://wao.trixonline.be/nl/",
       "url": "https://wao.trixonline.be/nl/",
       "summary": "Le festival We Are Open 2027 se déroule les 12 et 13 février 2027 à Trix, à Anvers, et présente environ 70 artistes belges émergents sur six ou sept scènes. Il permet de découvrir la nouvelle scène musicale belge, avec des concerts et des pop-up shows.",
@@ -33248,6 +33238,25 @@
       "source": "Le Forum (Liège)"
     },
     {
+      "id": "tm-Z698xZG2Z16eZJ8SQo",
+      "title": "De Mega Sint Show 2027",
+      "category": "theatre",
+      "venue": "Trixxo Theater Hasselt",
+      "city": "Hasselt",
+      "lat": 50.93311,
+      "lon": 5.36207,
+      "start": "2027-11-14T13:30:00",
+      "end": "2027-11-14T13:30:00",
+      "image": "https://s1.ticketm.net/dam/a/21b/24c72d67-b65e-4eaf-83cb-a39d81e6221b_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.ticketmaster.be/event/de-mega-sint-show-2027-tickets/2026433691",
+      "summary": "The complete timing can be found a few days before the show on www.trixxo-theater.be.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ticketmaster"
+    },
+    {
       "id": "web-le-forum-li-ge-celentano-tribute-show-world-tour-2027-11-14",
       "title": "CELENTANO TRIBUTE SHOW - WORLD TOUR",
       "category": "concert",
@@ -33477,25 +33486,6 @@
       ],
       "tags": [],
       "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "tm-Z698xZG2Z1kv4ek8M",
-      "title": "GoldmanMania",
-      "category": "concert",
-      "venue": "WEX",
-      "city": "Marche-en-Famenne",
-      "lat": 50.24367,
-      "lon": 5.33696,
-      "start": "2027-12-11T20:00:00",
-      "end": "2027-12-11T20:00:00",
-      "image": "https://s1.ticketm.net/dam/a/36f/48d63447-cdb0-4c30-a0be-26c0f4a5436f_1270281_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/goldmanmania-tickets/55086437",
-      "summary": "ON N'A PAS CHANGE (Nouveau Spectacle) Goldmanmania est bien plus qu'un simple hommage : c'est une véritable célébra7on de l'univers musical de Jean-Jacques Goldman. Reconnu pour la qualité excep7onnelle de ses interpréta7ons, le groupe réussit à capturer l'essence des chansons originales tout en y i",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
     },
     {
       "id": "web-le-forum-li-ge-arnaud-tsamere-tous-contraints-2028-01-07",

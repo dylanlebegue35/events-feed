@@ -1,5 +1,5 @@
 {
-  "genere": "2026-11-13T08:39:40",
+  "genere": "2026-11-13T09:41:50",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -49,7 +49,7 @@
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 42123,
+      "page_caracteres": 42114,
       "ia_a_trouve": 125,
       "gardes": 125,
       "ecartes": 0,
@@ -62,8 +62,6 @@
       "ia_a_trouve": 2,
       "gardes": 2,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -87,7 +85,7 @@
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 12109,
+      "page_caracteres": 12411,
       "ia_a_trouve": 0,
       "gardes": 0,
       "ecartes": 0,
@@ -197,7 +195,7 @@
     {
       "source": "Trix (Anvers)",
       "ok": true,
-      "page_caracteres": 10357,
+      "page_caracteres": 10333,
       "ia_a_trouve": 29,
       "gardes": 29,
       "ecartes": 0,
@@ -221,6 +219,8 @@
       "ia_a_trouve": 12,
       "gardes": 12,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -248,8 +248,8 @@
     {
       "source": "Pages des billetteries",
       "ok": true,
-      "pages_lues": 4,
-      "pages_lues_par_ia": 4
+      "pages_lues": 1,
+      "pages_lues_par_ia": 0
     }
   ],
   "avec_image": 1098,
