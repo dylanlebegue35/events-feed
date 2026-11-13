@@ -1,15 +1,15 @@
 {
-  "genere": "2026-11-12T22:03:07",
+  "genere": "2026-11-13T02:26:24",
   "sources": [
     {
       "source": "Reflektor (Liège)",
       "ok": true,
-      "page_caracteres": 16245,
-      "ia_a_trouve": 42,
-      "gardes": 42,
+      "page_caracteres": 16238,
+      "ia_a_trouve": 16,
+      "gardes": 16,
       "ecartes": 0,
       "morceaux": 1,
-      "reponses_coupees": 0,
+      "reponses_coupees": 1,
       "extrait_reponse_ia": ""
     },
     {
@@ -42,9 +42,9 @@
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 52678,
-      "ia_a_trouve": 48,
-      "gardes": 48,
+      "page_caracteres": 50970,
+      "ia_a_trouve": 45,
+      "gardes": 45,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -53,7 +53,7 @@
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 42114,
+      "page_caracteres": 42121,
       "ia_a_trouve": 125,
       "gardes": 125,
       "ecartes": 0,
@@ -66,8 +66,6 @@
       "ia_a_trouve": 2,
       "gardes": 2,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -84,28 +82,28 @@
       "ok": true,
       "page_caracteres": 36537,
       "ia_a_trouve": 1,
-      "gardes": 1,
-      "ecartes": 0,
+      "gardes": 0,
+      "ecartes": 1,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Pays de Herve",
       "ok": true,
       "page_caracteres": 12411,
-      "ia_a_trouve": 3,
+      "ia_a_trouve": 0,
       "gardes": 0,
-      "ecartes": 3,
+      "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
-      "extrait_reponse_ia": ""
+      "extrait_reponse_ia": "[]"
     },
     {
       "source": "Ville de Huy",
       "ok": true,
       "page_caracteres": 5330,
       "ia_a_trouve": 7,
-      "gardes": 7,
-      "ecartes": 0,
+      "gardes": 6,
+      "ecartes": 1,
       "extrait_reponse_ia": ""
     },
     {
@@ -183,7 +181,7 @@
     {
       "source": "Ancienne Belgique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 6708,
+      "page_caracteres": 6720,
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
@@ -194,10 +192,12 @@
     {
       "source": "Botanique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 3872,
-      "ia_a_trouve": 2,
-      "gardes": 2,
+      "page_caracteres": 3976,
+      "ia_a_trouve": 3,
+      "gardes": 3,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -207,17 +207,17 @@
       "ia_a_trouve": 29,
       "gardes": 29,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Het Depot (Louvain)",
       "ok": true,
-      "page_caracteres": 7463,
+      "page_caracteres": 7642,
       "ia_a_trouve": 15,
       "gardes": 15,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -225,10 +225,8 @@
       "ok": true,
       "page_caracteres": 12603,
       "ia_a_trouve": 13,
-      "gardes": 13,
-      "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
+      "gardes": 12,
+      "ecartes": 1,
       "extrait_reponse_ia": ""
     },
     {
@@ -246,20 +244,20 @@
       "source": "Facebook (service tiers)",
       "ok": true,
       "etat": "pas encore l'heure",
-      "gardes": 181
+      "gardes": 176
     },
     {
       "source": "Doublons fusionnés",
       "ok": true,
-      "fusionnes": 42
+      "fusionnes": 39
     },
     {
       "source": "Pages des billetteries",
       "ok": true,
-      "pages_lues": 7,
-      "pages_lues_par_ia": 6
+      "pages_lues": 5,
+      "pages_lues_par_ia": 10
     }
   ],
-  "avec_image": 1111,
-  "total": 1701
+  "avec_image": 1097,
+  "total": 1653
 }
