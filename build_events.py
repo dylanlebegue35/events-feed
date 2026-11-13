@@ -651,11 +651,13 @@ def _safe_place(p):
     if not re.fullmatch(r"[a-z_]{2,30}", q["kind"]):
         return None
     junk = re.compile(r"https?:|www\.|@|\[\.\]|\+?\d[\d .\-/]{8,}\d", re.I)
+    # adresse web sans « https » (« bit.ly/abc », « promo-bar.com ») glissée dans un nom, une adresse, des horaires
+    bare = re.compile(r"\b[a-z0-9-]{2,}\.(?:com|be|net|org|io|ly|me|gl|eu|fr|nl|de|app|xyz|info|shop|club|site|online|link|gg|to)\b", re.I)
     wide = lambda s: unicodedata.normalize("NFKC", s)        # « ｈｔｔｐｓ： » pleine largeur = « https: »
-    if junk.search(wide(q["name"])):
+    if junk.search(wide(q["name"])) or bare.search(wide(q["name"])):
         return None
     for f in ("address", "hours", "image_credit", "kind_label", "city"):
-        if q[f] and re.search(r"https?:|www\.|\[\.\]", wide(q[f]), re.I):
+        if q[f] and (re.search(r"https?:|www\.|\[\.\]", wide(q[f]), re.I) or (f != "image_credit" and bare.search(wide(q[f])))):
             q[f] = None if f != "kind_label" else "Lieu"
     if q["hours"] and junk.search(wide(q["hours"])):
         q["hours"] = None
@@ -682,19 +684,20 @@ def build_places():
         osm = [p for p in prev if p["id"].startswith("osm-")]
     osm = [p for p in osm if in_belgium(p["lat"], p["lon"])]
     GEOCACHE.write_text(json.dumps(_geo, ensure_ascii=False, indent=1))
-    # guides des grandes villes (build_lieux_villes.py : musées, incontournables, activités), déjà avec leur photo vérifiée.
-    # Seulement ceux qui ont une photo : l'app n'affiche pas les autres, et les chercher à chaque passage coûterait trop.
+    # guides des villes (build_lieux_villes.py : musées, incontournables, bars de Liège, activités), avec leur photo relue.
+    # Ceux sans photo sont aussi publiés (l'app les montre avec une carte Vivyo, après ceux qui ont une photo) ; le robot
+    # ne leur cherche jamais de photo lui-même : elle se choisit à l'œil dans build_lieux_villes.py.
     try:
         villes = json.loads(CITY_PLACES.read_text())["lieux"] if CITY_PLACES.exists() else []
     except Exception as ex:
         print(f"Lieux des villes illisibles ({ex}), ignorés", file=sys.stderr)
         villes = []
     # le même lieu OSM dans le guide d'une ville : on garde la version du guide (ville, adresse, photo relue)
-    in_guides = {v.get("id") for v in villes if v.get("image")}
+    in_guides = {v.get("id") for v in villes}
     osm = [p for p in osm if p["id"] not in in_guides]
     # même nom à moins de 300 m (Planckendael : zoo d'OpenStreetMap et incontournable de Wikidata) : une seule fiche
     named = [(str(v.get("name", "")).lower(), v["lat"], v["lon"]) for v in villes
-             if v.get("image") and v.get("lat") is not None and v.get("lon") is not None]
+             if v.get("lat") is not None and v.get("lon") is not None]
     osm = [p for p in osm if not any(str(p.get("name", "")).lower() == n and _km([p["lat"], p["lon"]], [la, lo]) < 0.3
                                      for n, la, lo in named)]
     # un lieu choisi remplace le même lieu trouvé sur OpenStreetMap (même type, à moins de 300 m)
@@ -702,11 +705,14 @@ def build_places():
                                                 for c in chosen)]
     known = {p["id"] for p in lieux}
     for v in villes:
-        if not v.get("image") or v.get("id") in known or v.get("lat") is None or v.get("lon") is None:
+        if v.get("id") in known or v.get("lat") is None or v.get("lon") is None:
             continue
-        if not str(v["image"]).startswith("https://") or (v.get("website") and not str(v["website"]).startswith(("https://", "http://"))):
+        if (v.get("image") and not str(v["image"]).startswith("https://")) or (v.get("website") and not str(v["website"]).startswith(("https://", "http://"))):
             continue          # liens douteux : on n'affiche pas
-        if any(v["kind"] == p["kind"] and _km([v["lat"], v["lon"]], [p["lat"], p["lon"]]) < 0.3 for p in chosen):
+        # même lieu qu'un lieu choisi à la main : même type à moins de 300 m (bars : même point, 10 m, car ils se suivent dans
+        # une rue ; build_lieux_villes.py a déjà retiré les bars de même nom)
+        if any(v["kind"] == p["kind"] and _km([v["lat"], v["lon"]], [p["lat"], p["lon"]]) < (0.01 if v["kind"] == "bar" else 0.3)
+               for p in chosen):
             continue
         lieux.append(v)
         known.add(v["id"])
@@ -720,12 +726,18 @@ def build_places():
             p["website"] = None
     site_reads = 0
     refused = {r for r in _review().get("photo_refusee", []) if isinstance(r, str)}   # relues à l'œil : logo, plan, mauvais lieu…
+    picked = _review().get("photo_site")       # photo du site choisie à l'œil sur une planche (build_lieux_villes.py)
+    picked = picked if isinstance(picked, dict) else {}
     for p in lieux:          # photo du site officiel, sinon photo libre du lieu précis, sinon rien (l'app montre une icône)
+        if p.get("id") in picked and not str(p.get("id")).startswith("vivyo-"):
+            if p.get("image") != picked[p["id"]]:
+                p["image"] = None      # jamais un autre choix automatique à la place (c'était un logo, une affiche…)
+            continue
         if p.get("id") in refused and not str(p.get("id")).startswith("vivyo-"):
             p["image"] = None
             continue
-        if p.get("image"):
-            continue
+        if p.get("image") or p.get("id") in in_guides:
+            continue          # lieu des guides sans photo : pas de choix automatique (relu à l'œil seulement)
         if p["id"] in old and p.get("photo_site") is not False:
             p["image"] = old[p["id"]]["image"]
             continue
