@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13T05:58:09",
+  "generated": "2026-11-13T08:39:40",
   "events": [
     {
       "id": "web-grand-curtius-li-ge-espace-c-sar-franck-2022-01-12",
@@ -2687,7 +2687,9 @@
       "summary": "Nick Hakim is terug met zijn gloednieuwe dubbelsingle 'Real Here Now' & 'Water', dromerige lo-fi neo-soul die zich direct in je hoofd nestelt.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -2704,7 +2706,7 @@
       "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/42a3/88/88af7d5975c309e94f831c8ebb7226378dc1963c.webp",
       "page_url": "https://www.trixonline.be/nl/event/swae-lee",
       "url": "https://www.trixonline.be/nl/event/swae-lee",
-      "summary": "Concert de Swae Lee au Trix le 14 novembre 2026.",
+      "summary": "Concert de Swae Lee à Trix, à Anvers.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -6000,7 +6002,7 @@
       "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/70c4/c0/2df96dc6d63f5661c8d9744689b3817be51c6259.webp",
       "page_url": "https://www.trixonline.be/nl/event/freya-skye-1",
       "url": "https://www.trixonline.be/nl/event/freya-skye-1",
-      "summary": "Concert de Freya Skye au Trix le 16 novembre 2026.",
+      "summary": "Concert de Freya Skye à Trix, à Anvers.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -7213,9 +7215,9 @@
       "source": "Recyclart (Bruxelles)"
     },
     {
-      "id": "web-trix-anvers-expo-workshop-muziekfotografie-2026-11-19",
-      "title": "Expo: Workshop Muziekfotografie",
-      "category": "expo",
+      "id": "web-trix-anvers-workshop-muziekfotografie-2026-11-19",
+      "title": "Workshop: Muziekfotografie",
+      "category": "workshop",
       "venue": "Trix",
       "city": "Anvers",
       "lat": 51.2195776,
@@ -7225,7 +7227,7 @@
       "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/e6e2/63/0c84a28ef599e31560ac8bc3fb436fb8e2feef60.webp",
       "page_url": "https://www.trixonline.be/nl/event/expo-workshop-muziekfotografie-1",
       "url": "https://www.trixonline.be/nl/event/expo-workshop-muziekfotografie-1",
-      "summary": "Dix participants de l'atelier Muziekfotografie, encadrés par la photographe Daria Miasoedova, présentent leurs photos lors du vernissage de l'exposition le jeudi 19 novembre. Ils y montrent des images de groupes et du public prises pendant des concerts au Trix, après une formation en photographie de",
+      "summary": "De deelnemers van onze workshop Muziekfotografie tonen hun werk. Tijd dus voor een vernissage!Dit najaar krijgen tien deelnemers onder leiding van fotograaf Daria Miasoedova (Trix, Ancienne Belgique) een deepdive in de wereld van Muziekfotografie. Tijdens deze workshop leren ze alles over concertfot",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -7268,7 +7270,9 @@
       "summary": "Nemzzz, jeune rappeur de South Manchester à la flow posée, aborde dans ses textes la pression mentale, l'amitié et l'indépendance. Il se produit au Trix d'Anvers, avec des samples soul et des beats minimalistes, dans la lignée de ses projets Do Not Disturb et Rent's Due.",
       "price_from": 5.3,
       "free": false,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -17097,7 +17101,7 @@
       "image": "https://static.standard.be/cdn/ff/d-elbWYZc8CD4E1y6I2JIsF46XfoiOisPe8osWSEP3M/1793495856/public/styles/max_0640/public/2026-11/Standard-ClubBrugge-1920x1080.png.webp?itok=e9bDDNjY",
       "page_url": "https://www.standard.be/fr/news/tickets-en-vente-pour-standard-club-brugge",
       "url": "https://www.standard.be/fr/news/tickets-en-vente-pour-standard-club-brugge",
-      "summary": "Les places pour Standard de Liège - Club Brugge, dimanche 29 novembre à 18H30, sont en vente en ligne et à la billetterie du stade.",
+      "summary": "Les places pour Standard de Liège - Club Brugge, dimanche 29 novembre à 18H30, sont en vente sur la plateforme online ou à la billetterie du stade.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -25343,8 +25347,8 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-standard-de-li-ge-standard-de-li-ge-anderlecht-clasico-2026-12-20",
-      "title": "Standard de Liège - Anderlecht (Clasico)",
+      "id": "web-standard-de-li-ge-standard-anderlecht-clasico-2026-12-20",
+      "title": "Standard - Anderlecht (Clasico)",
       "category": "sport",
       "venue": "Stade Maurice Dufrasne",
       "city": "Seraing",
@@ -25355,7 +25359,7 @@
       "image": "https://static.standard.be/cdn/ff/5YldjiKxhYF17gUC5sf5yr5jQlMaRyV0CVcjvOS8QhE/1794042408/public/styles/max_0640/public/2026-11/Standard-RSCA-1920x1080_0.png.webp?itok=1CIVB9A_",
       "page_url": "https://www.standard.be/fr/news/tickets-en-vente-pour-standard-anderlecht",
       "url": "https://www.standard.be/fr/news/tickets-en-vente-pour-standard-anderlecht",
-      "summary": "Le Standard de Liège affronte Anderlecht lors du Clasico, le dimanche 20 décembre à 13h30. Les places sont en vente en ligne et à la billetterie du stade, selon le tableau des prix.",
+      "summary": "Match de football entre le Standard de Liège et Anderlecht, appelé le Clasico, programmé le dimanche 20 décembre à 13h30. Les billets sont en vente sur la plateforme en ligne et à la billetterie du stade.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -27501,7 +27505,9 @@
       "summary": "Le duo britannique de drum & bass Hybrid Minds se produit au Trix à Anvers, accompagné de Grafix, Idle Days et Maze. Le public peut s'attendre à des sets électroniques mêlant riffs de dancefloor, mélodies mélancoliques et morceaux énergiques.",
       "price_from": 5.8,
       "free": false,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Trix (Anvers)"
     },
@@ -29101,6 +29107,28 @@
       "source": "Ticketmaster"
     },
     {
+      "id": "web-trix-anvers-thy-art-is-murder-2027-02-10",
+      "title": "Thy Art Is Murder",
+      "category": "concert",
+      "venue": "Trix",
+      "city": "Anvers",
+      "lat": 51.2195776,
+      "lon": 4.4483726,
+      "start": "2027-02-10T10:00:00",
+      "end": "2027-02-10T10:00:00",
+      "image": "https://www.trixonline.be/media/cache/default_highlight/uploads/media/default/122a/6b/5d26e2136b2da384b452f30aa8378a92198f9bd9.webp",
+      "page_url": "https://www.trixonline.be/nl/event/thy-art-is-murder",
+      "url": "https://www.trixonline.be/nl/event/thy-art-is-murder",
+      "summary": "Le groupe deathcore australien Thy Art Is Murder se produit à Trix, à Anvers, avec son nouveau frontman Jerry Grimefeld et son titre « Squeeze ». Le concert mêle riffs techniques, breakdowns puissants et critique sociale.",
+      "price_from": 7.4,
+      "free": false,
+      "audience": [
+        "young"
+      ],
+      "tags": [],
+      "source": "Trix (Anvers)"
+    },
+    {
       "id": "tm-Z698xZG2Z1kuzGdJ9",
       "title": "Dominic Fike | be•at Premium Comfort Experience",
       "category": "concert",
@@ -29275,6 +29303,26 @@
       "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
+    },
+    {
+      "id": "web-trix-anvers-we-are-open-2027-2027-02-12",
+      "title": "We Are Open 2027",
+      "category": "festival",
+      "venue": "Trix",
+      "city": "Anvers",
+      "lat": 51.2195776,
+      "lon": 4.4483726,
+      "start": "2027-02-12T10:00:00",
+      "end": "2027-02-12T10:00:00",
+      "image": "https://www.trixonline.be/media/cache/default_highlight/uploads/media/default/6454/5f/ea3eb30323cc94784ffd9681186e436d88cebfc7.webp",
+      "page_url": "https://wao.trixonline.be/nl/",
+      "url": "https://wao.trixonline.be/nl/",
+      "summary": "Le festival We Are Open 2027 se déroule les 12 et 13 février 2027 à Trix, à Anvers, et présente environ 70 artistes belges émergents sur six ou sept scènes. Il permet de découvrir la nouvelle scène musicale belge, avec des concerts et des pop-up shows.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Trix (Anvers)"
     },
     {
       "id": "tm-Z698xZG2Z1kPYFbFJ",
@@ -30424,6 +30472,26 @@
       "source": "Reflektor (Liège)"
     },
     {
+      "id": "web-trix-anvers-kookaburra-2027-03-05",
+      "title": "Kookaburra",
+      "category": "concert",
+      "venue": "Trix",
+      "city": "Anvers",
+      "lat": 51.2195776,
+      "lon": 4.4483726,
+      "start": "2027-03-05T10:00:00",
+      "end": "2027-03-05T10:00:00",
+      "image": "https://www.trixonline.be/media/cache/default_highlight/uploads/media/default/3ea3/29/5646152f14e7db830d58e61c71649d0ae9564d32.webp",
+      "page_url": "https://www.trixonline.be/nl/event/kookaburra-2",
+      "url": "https://www.trixonline.be/nl/event/kookaburra-2",
+      "summary": "Le groupe anversois Kookaburra présente son deuxième album « BOY GET SMARTER », mêlant jangle-punk, shoegaze et synthés. Le concert est accompagné de Poodle, groupe de garage-pop dansante.",
+      "price_from": 2.7,
+      "free": false,
+      "audience": [],
+      "tags": [],
+      "source": "Trix (Anvers)"
+    },
+    {
       "id": "web-trix-anvers-basht-2027-03-05",
       "title": "Basht.",
       "category": "concert",
@@ -30438,26 +30506,6 @@
       "url": "https://www.trixonline.be/nl/event/basht",
       "summary": "Basht., groupe rock de Dublin salué par HotPress, joue un mélange de post-punk, de rock guitare et d'émotion pesante. Son premier album « Poor Advice » est sorti en octobre 2026, et le groupe est réputé pour ses concerts percutants.",
       "price_from": 3.5,
-      "free": false,
-      "audience": [],
-      "tags": [],
-      "source": "Trix (Anvers)"
-    },
-    {
-      "id": "web-trix-anvers-trixie-whitley-2027-03-05",
-      "title": "Trixie Whitley",
-      "category": "concert",
-      "venue": "Trix",
-      "city": "Anvers",
-      "lat": 51.2195776,
-      "lon": 4.4483726,
-      "start": "2027-03-05T10:00:00",
-      "end": "2027-03-05T10:00:00",
-      "image": "https://www.trixonline.be/media/cache/default_highlight/uploads/media/default/888e/7c/6944a83767be585b2abb4e87c7065e845a1b8581.webp",
-      "page_url": "https://www.trixonline.be/nl/event/trixie-whitley-2",
-      "url": "https://www.trixonline.be/nl/event/trixie-whitley-2",
-      "summary": "Trixie Whitley présente son nouvel album Folded Time (Unday Records), entre batterie, guitare, piano et basse, avec des chansons sur la perte, le renouveau et la maternité. Le concert offre un moment intime et émotionnel, porté par sa voix.",
-      "price_from": 6.5,
       "free": false,
       "audience": [],
       "tags": [],
@@ -31204,6 +31252,26 @@
       "source": "Ticketmaster"
     },
     {
+      "id": "web-trix-anvers-olga-2027-03-20",
+      "title": "Olga",
+      "category": "concert",
+      "venue": "Trix",
+      "city": "Anvers",
+      "lat": 51.2195776,
+      "lon": 4.4483726,
+      "start": "2027-03-20T10:00:00",
+      "end": "2027-03-20T10:00:00",
+      "image": "https://www.trixonline.be/media/cache/default_highlight/uploads/media/default/2513/44/77c78abbd343e2aa87ce8ec04527c6c42e9f96e0.webp",
+      "page_url": "https://www.trixonline.be/nl/event/olga-1",
+      "url": "https://www.trixonline.be/nl/event/olga-1",
+      "summary": "Olga présente son release-show, avec de la nouvelle musique mêlant beats, soundscapes et théâtre. Blauwe plek (électro, synths et kick-drums) et Croptopcore (improvisation inspirée du gabber, hardcore et eurodance) sont également à l'affiche.",
+      "price_from": 2.2,
+      "free": false,
+      "audience": [],
+      "tags": [],
+      "source": "Trix (Anvers)"
+    },
+    {
       "id": "tm-Z698xZG2Z16vjM-0vU",
       "title": "Monster Jam",
       "category": "theatre",
@@ -31551,26 +31619,6 @@
       "audience": [],
       "tags": [],
       "source": "Ticketmaster"
-    },
-    {
-      "id": "web-trix-anvers-sofie-birch-2027-04-01",
-      "title": "Sofie Birch",
-      "category": "concert",
-      "venue": "Trix",
-      "city": "Anvers",
-      "lat": 51.2195776,
-      "lon": 4.4483726,
-      "start": "2027-04-01T10:00:00",
-      "end": "2027-04-01T10:00:00",
-      "image": "https://www.trixonline.be/media/cache/default_highlight/uploads/media/default/2f5f/20/a4af47c09f1668b9ef29bcf775719c4a66088de8.webp",
-      "page_url": "https://www.trixonline.be/nl/event/sofie-birch",
-      "url": "https://www.trixonline.be/nl/event/sofie-birch",
-      "summary": "La Danoise Sofie Birch propose de la musique ambient et électro-acoustique, faite de synthés, de field recordings, de voix et d'instruments trance, pour une expérience d'écoute profonde (« deep listening »). Le concert a lieu à Trix, à Anvers.",
-      "price_from": 4.3,
-      "free": false,
-      "audience": [],
-      "tags": [],
-      "source": "Trix (Anvers)"
     },
     {
       "id": "web-le-forum-li-ge-akim-omiri-contexte-2027-04-02",
@@ -32217,26 +32265,6 @@
       "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-trix-anvers-booshle-g-2027-05-05",
-      "title": "Booshle G.",
-      "category": "concert",
-      "venue": "Trix",
-      "city": "Anvers",
-      "lat": 51.2195776,
-      "lon": 4.4483726,
-      "start": "2027-05-05T10:00:00",
-      "end": "2027-05-05T10:00:00",
-      "image": "https://www.trixonline.be/media/cache/default_highlight/uploads/media/default/4767/57/aeefb0d8bdaeab7fc9be7e6a89d45346ee2a9901.webp",
-      "page_url": "https://www.trixonline.be/nl/event/booshle-g",
-      "url": "https://www.trixonline.be/nl/event/booshle-g",
-      "summary": "Le chanteur et multi-instrumentaliste sud-africain Booshle G. présente des titres pop, folk, rock et soul pleins d'espoir, extraits de son premier album « I Was Never Alone » et de son succès « Take Me Home ». En première partie, le duo Neon Dreams se produit.",
-      "price_from": 3.7,
-      "free": false,
-      "audience": [],
-      "tags": [],
-      "source": "Trix (Anvers)"
     },
     {
       "id": "tm-Z698xZG2Z16v8NeKZ_",
@@ -33383,26 +33411,6 @@
       "audience": [],
       "tags": [],
       "source": "Ticketmaster"
-    },
-    {
-      "id": "web-trix-anvers-mula-2027-12-02",
-      "title": "Mula",
-      "category": "concert",
-      "venue": "Trix",
-      "city": "Anvers",
-      "lat": 51.2195776,
-      "lon": 4.4483726,
-      "start": "2027-12-02T10:00:00",
-      "end": "2027-12-02T10:00:00",
-      "image": "https://www.trixonline.be/media/cache/default_highlight/uploads/media/default/85aa/a1/c8ccb7429293001d1f05042909b7e1587506350a.webp",
-      "page_url": "https://www.trixonline.be/nl/event/mula",
-      "url": "https://www.trixonline.be/nl/event/mula",
-      "summary": "Van trap-pionier met ‘D&G’ tot de release van zijn nieuwste album ‘DOMUS’. Mula (voorheen Mula B) blijft een van de meest bepalende stemmen in de Nederlandse hiphop en brengt binnenkort zijn nieuwe album live in Trix.",
-      "price_from": 5.6,
-      "free": false,
-      "audience": [],
-      "tags": [],
-      "source": "Trix (Anvers)"
     },
     {
       "id": "web-le-forum-li-ge-edouard-deloignon-grandira-plus-tard-2027-12-03",

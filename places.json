@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T05:58:09",
+ "generated": "2026-11-13T08:39:40",
  "places": [
   {
    "id": "vivyo-space-malmedy",
@@ -241,8 +241,8 @@
    "lon": 5.5773075,
    "partner": false,
    "name": "Brasserie {C}",
-   "kind": "bar",
-   "kind_label": "Bar",
+   "kind": "brewery",
+   "kind_label": "Brasserie à visiter",
    "city": "Liège",
    "address": "Impasse des Ursulines 14, 4000 Liège",
    "hours": null,
@@ -609,7 +609,7 @@
    "pitch": "Pub avec terrasse au cœur du quartier festif de la rue de Bruxelles, ouvert jusqu'à 2h.",
    "offer": null,
    "image_credit": null,
-   "website": null,
+   "website": "https://lebouffonduroi.be",
    "instagram": null,
    "image": null
   },
@@ -1061,7 +1061,7 @@
    "image_credit": null,
    "website": "https://cremebrussels.be/",
    "instagram": "https://www.instagram.com/cremebrussels/",
-   "image": null
+   "image": "https://www.cremebrussels.be/wp-content/uploads/2024/05/creme-brussels-brunch-dealer-all-day-eatery-and-coffee-shakshuka-1-768x1024.jpg"
   },
   {
    "id": "vivyo-ono-brunch-coffee-bruxelles",
@@ -1115,7 +1115,7 @@
    "image_credit": null,
    "website": "https://hntrlnd.be/",
    "instagram": null,
-   "image": null
+   "image": "https://v2cdn1.centralappstatic.com/image/clip/750x500_gallery_a06e2f8d0fd74c49ae8a0398a009c8b5.jpeg"
   },
   {
    "id": "vivyo-dogma-anvers",
@@ -1385,7 +1385,7 @@
    "image_credit": null,
    "website": "http://www.foom.be/",
    "instagram": "https://www.instagram.com/foommechelen/",
-   "image": null
+   "image": "https://impro.usercontent.one/appid/oneComWsb/domain/foom.be/media/foom.be/onewebmedia/FOOM_KK_06.26-191.jpg?etag=W%2F%22ad5a04-1a13fdf3860%22&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=972%2B1458&extract=0%2B42%2B972%2B966&quality=85"
   },
   {
    "id": "vivyo-supe-malines",
@@ -1439,7 +1439,7 @@
    "image_credit": null,
    "website": "https://www.de-stek.com",
    "instagram": "https://www.instagram.com/destekmechelen/",
-   "image": null
+   "image": "https://de-stek.com/cdn/shop/files/Kantoorkontent_Destek-16.jpg?v=1717794666&width=1860"
   },
   {
    "id": "vivyo-cocktailbar-professor-louvain",
@@ -1527,9 +1527,9 @@
    "pitch": "Brasserie-café louvaniste réputé pour ses bières maison, bien noté par les guides de bars.",
    "offer": null,
    "image_credit": null,
-   "website": null,
+   "website": "https://www.domusleuven.be/",
    "instagram": null,
-   "image": null
+   "image": "https://domusleuven.be/wp-content/uploads/2019/01/domusleuven_proefbedje-1.jpg"
   },
   {
    "id": "vivyo-koffie-en-staal-louvain",
@@ -1709,7 +1709,7 @@
    "image_credit": null,
    "website": "https://jiggers.be",
    "instagram": "https://www.instagram.com/jiggers_coolersandcocktails/",
-   "image": null
+   "image": "https://freight.cargo.site/t/original/i/c0248cfb8f9db31c17efcc4d3067ed2e99776cabde0fe843c43e5d524a5c0f57/jiggers-webz1.jpg"
   },
   {
    "id": "vivyo-the-cobbler-gand",
@@ -1727,7 +1727,7 @@
    "image_credit": null,
    "website": "https://www.1898thepost.com/nl/the-cobbler/",
    "instagram": null,
-   "image": null
+   "image": "https://www.1898thepost.com/wp-content/uploads/cobbler_01.jpg"
   },
   {
    "id": "vivyo-hey-frankie-gand",
@@ -1745,7 +1745,7 @@
    "image_credit": null,
    "website": "https://heyfrankie.be/",
    "instagram": "https://www.instagram.com/hey_frankiegent",
-   "image": null
+   "image": "https://freight.cargo.site/w/1005/i/a9fb440c17c1d27e3e9f39cd564ad5a644a419ba0136cf68124f03a03dc178b6/56812C27-5697-4456-A990-A75CFBC488ED.JPG"
   },
   {
    "id": "vivyo-missy-sippy-gand",
@@ -1871,7 +1871,7 @@
    "image_credit": null,
    "website": "https://www.etalors-cafe.be",
    "instagram": "https://www.instagram.com/et_alors_gent/",
-   "image": null
+   "image": "https://cdn.prod.website-files.com/64a2c54d575efcffe616354a/64b7eb1c5e9e67ee4fd1cce3_IMG_0624.jpg"
   },
   {
    "id": "vivyo-de-salon-gand",
@@ -1889,7 +1889,7 @@
    "image_credit": null,
    "website": "https://www.desalon-gent.be/",
    "instagram": "https://www.instagram.com/desalon.gent/",
-   "image": null
+   "image": "https://static.wixstatic.com/media/d6543b_37ba5d0c78e54112bb502d20b1082380~mv2.jpg/v1/fill/w_732,h_728,q_90,enc_avif,quality_auto/d6543b_37ba5d0c78e54112bb502d20b1082380~mv2.jpg"
   },
   {
    "id": "vivyo-win-gand",
@@ -1943,7 +1943,7 @@
    "image_credit": null,
    "website": "https://www.jacquelinegent.be/",
    "instagram": "https://www.instagram.com/jacqueline.gent/",
-   "image": null
+   "image": "https://impro.usercontent.one/appid/oneComWsb/domain/jacquelinegent.be/media/jacquelinegent.be/onewebmedia/_MG_0311.jpg?etag=%224499f5-5ec00dea%22&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=2500,3750&quality=85"
   },
   {
    "id": "vivyo-groot-vlaenderen-bruges",
@@ -2123,7 +2123,7 @@
    "image_credit": null,
    "website": "http://www.manuscriptoostende.be/",
    "instagram": null,
-   "image": null
+   "image": "https://www.manuscriptoostende.be/sites/default/files/vivre.jpg"
   },
   {
    "id": "vivyo-cappuccino-rooftop-bar-ostende",
@@ -2141,7 +2141,7 @@
    "image_credit": null,
    "website": "https://tearoom-cappuccino.be",
    "instagram": null,
-   "image": null
+   "image": "https://cdn.prod.website-files.com/6550d14a308e88ddc8893bd5/65e8d1862db811c3f6002c7e_homepage-slider-interior.avif"
   },
   {
    "id": "vivyo-the-wine-gallery-ostende",
@@ -2213,7 +2213,7 @@
    "image_credit": null,
    "website": "https://www.zuskeoostende.be/",
    "instagram": null,
-   "image": null
+   "image": "https://static.wixstatic.com/media/0542a0_2142edd3e1fe440d99d85e14d51603c3~mv2.jpg/v1/fit/w_1952,h_626,q_90,enc_avif,quality_auto/0542a0_2142edd3e1fe440d99d85e14d51603c3~mv2.jpg"
   },
   {
    "id": "vivyo-oode-ostende",
@@ -2267,7 +2267,7 @@
    "image_credit": null,
    "website": "https://www.velvetbrunch.com/",
    "instagram": "https://www.instagram.com/velvet.kortrijk/",
-   "image": null
+   "image": "https://www.velvetbrunch.com/web/image/1904-c9440661/velvet-brunch-tea-room-kortrijk-interieur.webp"
   },
   {
    "id": "vivyo-pepper-courtrai",
@@ -2393,7 +2393,7 @@
    "image_credit": null,
    "website": "https://getyourmugcoffee.wordpress.com/",
    "instagram": null,
-   "image": null
+   "image": "https://getyourmugcoffee.com/wp-content/uploads/2021/10/getyourmug_077.jpg?w=768&h=512"
   },
   {
    "id": "vivyo-chez-mamy-liege",
@@ -2681,7 +2681,7 @@
    "image_credit": null,
    "website": "https://www.yunacoffee.be",
    "instagram": null,
-   "image": null
+   "image": "https://yunacoffee.be/wp-content/uploads/2025/08/img01.webp"
   },
   {
    "id": "vivyo-carolo-cat-charleroi",
@@ -2861,7 +2861,7 @@
    "image_credit": null,
    "website": "https://www.joyt.eu/liege/",
    "instagram": null,
-   "image": null
+   "image": "https://www.joyt.eu/liege/wp-content/uploads/2023/10/IMG_6489-scaled-e1731022897288.jpg"
   },
   {
    "id": "vivyo-the-place-to-play-liege",
@@ -3026,6 +3026,240 @@
    "image": null
   },
   {
+   "id": "vivyo-nude-courtrai",
+   "lat": 50.8258228,
+   "lon": 3.2623003,
+   "partner": false,
+   "name": "Nude",
+   "kind": "bar",
+   "kind_label": "Bar",
+   "city": "Courtrai",
+   "address": "Koning Albertstraat 15, 8500 Kortrijk",
+   "hours": "Tu-Fr 12:00-14:00, Tu-Fr 17:00-24:00, Sa 12:00-24:00",
+   "pitch": "Bar-resto à cocktails et tapas d'inspiration libanaise, ouvert du mardi au samedi dès 17h30.",
+   "offer": null,
+   "image_credit": null,
+   "website": "https://www.nude-kortrijk.be/",
+   "instagram": "https://www.instagram.com/nude_kortrijk.be/",
+   "image": "https://www.kkmm.be/images/general/_468x250_crop_center-center_line/4039/KKMM-Giftvoucher-Announcement.jpeg"
+  },
+  {
+   "id": "vivyo-bottlo-hasselt",
+   "lat": 50.9319625,
+   "lon": 5.336248,
+   "partner": false,
+   "name": "BottlO",
+   "kind": "bar",
+   "kind_label": "Bar",
+   "city": "Hasselt",
+   "address": "Schrijnwerkersstraat 21, 3500 Hasselt",
+   "hours": null,
+   "pitch": "Bar de quartier à vins nature, bières et cidres qui changent chaque semaine, petits plats de saison.",
+   "offer": null,
+   "image_credit": null,
+   "website": "https://www.bottlobar.com/",
+   "instagram": "https://www.instagram.com/bottlobar/",
+   "image": "https://images.squarespace-cdn.com/content/v1/6156fa4d51accc195cd7d24b/02d4d4f2-73f3-454f-84a5-6410acac068a/IMG_7448.JPG?format=2500w"
+  },
+  {
+   "id": "vivyo-westpunt-hasselt",
+   "lat": 50.9437289,
+   "lon": 5.3347004,
+   "partner": false,
+   "name": "Westpunt",
+   "kind": "bar",
+   "kind_label": "Bar",
+   "city": "Hasselt",
+   "address": "Hoogbrugkaai 91, 3500 Hasselt",
+   "hours": null,
+   "pitch": "Lieu au bord du canal Albert : apéro, plats à partager et festival en plein air l'été, ouvert dès 12h.",
+   "offer": null,
+   "image_credit": null,
+   "website": "https://westpunt.be/",
+   "instagram": "https://www.instagram.com/westpunt/",
+   "image": "https://westpunt.be/wp-content/uploads/2026/04/Het-mooiste-terras-in-Hasselt.jpg"
+  },
+  {
+   "id": "vivyo-levures-tannins-mons",
+   "lat": 50.4527173,
+   "lon": 3.9519531,
+   "partner": false,
+   "name": "Levures & Tannins",
+   "kind": "bar",
+   "kind_label": "Bar",
+   "city": "Mons",
+   "address": "Rue de la Coupe 41, 7000 Mons",
+   "hours": "We-Th 13:00-22:00; Fr-Sa 12:00-22:00",
+   "pitch": "Cave et bar à vins nature et bio, bières locales et dégustations, ouvert l'après-midi et en soirée.",
+   "offer": null,
+   "image_credit": null,
+   "website": "https://www.levuresettannins.be/",
+   "instagram": null,
+   "image": null
+  },
+  {
+   "id": "vivyo-vino-vino-namur",
+   "lat": 50.4619856,
+   "lon": 4.8654841,
+   "partner": false,
+   "name": "Vino Vino",
+   "kind": "bar",
+   "kind_label": "Bar",
+   "city": "Namur",
+   "address": "Rue des Brasseurs 61, 5000 Namur",
+   "hours": "Tu-We 17:00-23:00; Th-Fr 12:00-24:00; Sa 12:00-23:00",
+   "pitch": "Bar à vins du centre de Namur pour l'apéro entre amis, devise « Taste and talk ».",
+   "offer": null,
+   "image_credit": null,
+   "website": "http://vinovino.be",
+   "instagram": null,
+   "image": null
+  },
+  {
+   "id": "vivyo-la-cuve-a-biere-namur",
+   "lat": 50.4621887,
+   "lon": 4.8642948,
+   "partner": false,
+   "name": "La Cuve à Bière",
+   "kind": "bar",
+   "kind_label": "Bar",
+   "city": "Namur",
+   "address": "Rue des Brasseurs 108, 5000 Namur",
+   "hours": "Tu-Th 14:00-01:00; Fr-Sa 14:00-02:00; Su 15:00-01:00",
+   "pitch": "Café du vieux Namur spécialisé dans les bières belges, avec une cour privée.",
+   "offer": null,
+   "image_credit": null,
+   "website": null,
+   "instagram": null,
+   "image": null
+  },
+  {
+   "id": "vivyo-vesper-ostende",
+   "lat": 51.2344826,
+   "lon": 2.9331628,
+   "partner": false,
+   "name": "Vesper",
+   "kind": "bar",
+   "kind_label": "Bar",
+   "city": "Ostende",
+   "address": "Hendrik Baelskaai 14, 8400 Oostende",
+   "hours": null,
+   "pitch": "Bar à manger sur le port avec vin maison, cocktails et tapas, vue sur les bateaux de pêche, jeudi à dimanche.",
+   "offer": null,
+   "image_credit": null,
+   "website": "https://www.vesper-ostend.com",
+   "instagram": "https://www.instagram.com/vesper_ostend/",
+   "image": null
+  },
+  {
+   "id": "vivyo-bar-stan-louvain",
+   "lat": 50.8713453,
+   "lon": 4.7025675,
+   "partner": false,
+   "name": "Bar Stan",
+   "kind": "bar",
+   "kind_label": "Bar",
+   "city": "Louvain",
+   "address": "Constantin Meunierstraat 2, 3000 Leuven",
+   "hours": "Mo-Fr 08:00-23:30",
+   "pitch": "Bar de quartier avec terrasse, cuisine toute la journée et brunch un dimanche sur deux, sur réservation.",
+   "offer": null,
+   "image_credit": null,
+   "website": "https://www.barstan.be",
+   "instagram": "https://www.instagram.com/barstan/",
+   "image": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1440,w_720,f_auto,q_auto/152466/910023_527575.jpeg"
+  },
+  {
+   "id": "vivyo-bar-leuv-louvain",
+   "lat": 50.8791128,
+   "lon": 4.6994995,
+   "partner": false,
+   "name": "Bar Leuv",
+   "kind": "brunch",
+   "kind_label": "Brunch",
+   "city": "Louvain",
+   "address": "Parijsstraat 6, 3000 Leuven",
+   "hours": "Mo-Fr 10:00-16:00; Sa,Su 10:00-17:00",
+   "pitch": "Brunch et café toute la journée, gaufres et plats frais, sans réservation, ouvert 10h-16h (17h le week-end).",
+   "offer": null,
+   "image_credit": null,
+   "website": "https://www.barleuv.be",
+   "instagram": "https://www.instagram.com/Barleuv/",
+   "image": "https://barleuv.be/wp-content/uploads/2020/03/bar-leuv-leuven-liefde.jpg"
+  },
+  {
+   "id": "vivyo-leo-pancakes-louvain",
+   "lat": 50.8811266,
+   "lon": 4.699322,
+   "partner": false,
+   "name": "LEO Pancakes",
+   "kind": "brunch",
+   "kind_label": "Brunch",
+   "city": "Louvain",
+   "address": "Mechelsestraat 45, 3000 Leuven",
+   "hours": null,
+   "pitch": "Pancakes sucrés ou salés, bagels et salades, options véganes, sans réservation, 9h-17h (fermé le mardi).",
+   "offer": null,
+   "image_credit": null,
+   "website": "https://www.leopancakes.be",
+   "instagram": "https://www.instagram.com/leo_pancakes/",
+   "image": "https://le-de.cdn-website.com/051861273bdc40959b1ea7bb1e3aabfe/dms3rep/multi/opt/DSC_0019-1920w.jpg"
+  },
+  {
+   "id": "vivyo-brasserie-francois-namur",
+   "lat": 50.463896,
+   "lon": 4.8604704,
+   "partner": false,
+   "name": "Brasserie François",
+   "kind": "brunch",
+   "kind_label": "Brunch",
+   "city": "Namur",
+   "address": "Place Saint-Aubain 3, 5000 Namur",
+   "hours": null,
+   "pitch": "Brasserie avec brunch buffet sucré-salé chaque dimanche de septembre à juin, boissons comprises.",
+   "offer": null,
+   "image_credit": null,
+   "website": "https://www.brasseriefrancois.be",
+   "instagram": null,
+   "image": null
+  },
+  {
+   "id": "vivyo-coffice-malines",
+   "lat": 51.0266189,
+   "lon": 4.4787629,
+   "partner": false,
+   "name": "Coffice",
+   "kind": "brunch",
+   "kind_label": "Brunch",
+   "city": "Malines",
+   "address": "IJzerenleen 33, 2800 Mechelen",
+   "hours": "Mo-Sa 08:00-20:00; Su 09:00-14:00",
+   "pitch": "Petit-déjeuner servi toute la journée, pancakes et brunch, ouvert 7 jours sur 7 (dès 9h le dimanche).",
+   "offer": null,
+   "image_credit": null,
+   "website": "https://www.coffice.be/",
+   "instagram": "https://www.instagram.com/cofficemechelen/",
+   "image": "https://www.coffice.be/wp-content/uploads/2025/01/business-center-3-scaled.jpg"
+  },
+  {
+   "id": "vivyo-wasbar-malines",
+   "lat": 51.0270583,
+   "lon": 4.4791448,
+   "partner": false,
+   "name": "WASBAR",
+   "kind": "brunch",
+   "kind_label": "Brunch",
+   "city": "Malines",
+   "address": "IJzerenleen 13, 2800 Mechelen",
+   "hours": "Mo-Su 09:00-21:00; PH off",
+   "pitch": "Café-laverie avec all-day brunch et bagel burgers, ouvert tous les jours de 9h à 21h.",
+   "offer": null,
+   "image_credit": null,
+   "website": "https://www.wasbar.be/restaurants/wasbar-mechelen",
+   "instagram": "https://www.instagram.com/wasbar/",
+   "image": "https://www.wasbar.be/sites/default/files/styles/_image/public/2020-10/WB-Mechelen-site2.jpg?itok=wGz3Q8Qp"
+  },
+  {
    "id": "osm-node-1776488952",
    "lat": 50.5398431,
    "lon": 5.2887372,
@@ -3111,7 +3345,7 @@
    "pitch": null,
    "offer": null,
    "image_credit": null,
-   "website": "http://rbcesneux.be/mini-golf/",
+   "website": null,
    "instagram": null,
    "image": "https://rbcesneux.be/wp-content/gallery/partenaires/promo3.png"
   },
@@ -3131,7 +3365,7 @@
    "image_credit": null,
    "website": "https://bowling-67.be",
    "instagram": null,
-   "image": null
+   "image": "https://space-lontzen.be/wp-content/uploads/2025/12/A7301326.jpg"
   },
   {
    "id": "osm-node-4795794885",
@@ -3437,7 +3671,7 @@
    "image_credit": null,
    "website": "https://fun-base.be/",
    "instagram": null,
-   "image": null
+   "image": "https://fun-base.be/images/laser.jpg"
   },
   {
    "id": "osm-node-12348475668",
@@ -3489,7 +3723,7 @@
    "pitch": null,
    "offer": null,
    "image_credit": null,
-   "website": "https://www.facebook.com/cafedelaroer/",
+   "website": null,
    "instagram": null,
    "image": null
   },
@@ -3599,7 +3833,7 @@
    "image_credit": null,
    "website": "https://domeinkiewit.hasselt.be/nl/kinderboerderij-en-bijenhal-op-domein-kiewit",
    "instagram": null,
-   "image": null
+   "image": "https://domeinkiewit.hasselt.be/sites/hasselt/files/styles/og_image/public/2023-05/52335901815_6baf50d418_o.jpg.webp?itok=6TCm8gE0"
   },
   {
    "id": "osm-node-14321437982",
@@ -3689,7 +3923,7 @@
    "image_credit": null,
    "website": "http://www.spatourisme.be/fr/loisirs/golf-miniature",
    "instagram": null,
-   "image": null
+   "image": "https://www.visitspa-hautesfagnes.be/wp-content/uploads/2022/05/OLL3027-copie-1024x683.jpg"
   },
   {
    "id": "osm-way-54514598",
@@ -3707,7 +3941,7 @@
    "image_credit": null,
    "website": "https://www.dav-aachen.de/einrichtungen/kletterfels",
    "instagram": null,
-   "image": null
+   "image": "https://api.dav-aachen.de/assets/pages/einrichtungen/kletterfels/kelmis-skizze.png"
   },
   {
    "id": "osm-way-67660672",
@@ -3959,7 +4193,7 @@
    "image_credit": null,
    "website": "https://www.visitbilzenhoeselt.be/zien-doen/kids/dierenparkje",
    "instagram": null,
-   "image": null
+   "image": "https://www.visitbilzenhoeselt.be/file/imagecache/PqzEAxcg0FPiSVYbLUSbf9ivOSbDkBvbOpsze33Tn43d/Carousel/10d492be-5e2c-4972-9e19-5a0a6228ba13/143.jpg?fx=0&fy=0"
   },
   {
    "id": "osm-way-221136296",
@@ -4319,7 +4553,7 @@
    "image_credit": null,
    "website": "https://www.bowlingdehannut.com",
    "instagram": null,
-   "image": null
+   "image": "https://static.wixstatic.com/media/078ca5_736189efeb9c4dc4aaf66337938d44b6.jpg/v1/fit/w_2500,h_1330,al_c/078ca5_736189efeb9c4dc4aaf66337938d44b6.jpg"
   },
   {
    "id": "osm-way-380655764",
@@ -4607,7 +4841,7 @@
    "image_credit": null,
    "website": "https://www.trampolinepark.be/nl/locaties/hasselt",
    "instagram": null,
-   "image": null
+   "image": "https://cms.trampolinepark.nl/assets/brand-fotos/brandphoto---battle-beam.jpg"
   },
   {
    "id": "osm-way-881881200",
@@ -4661,7 +4895,7 @@
    "image_credit": null,
    "website": "https://centresportiflocaldemarchin.wordpress.com/lieux/salle-des-forges/",
    "instagram": null,
-   "image": null
+   "image": "https://centresportiflocaldemarchin.wordpress.com/wp-content/uploads/2019/04/fourneau1.jpg"
   },
   {
    "id": "osm-way-943183147",
@@ -4841,7 +5075,7 @@
    "image_credit": null,
    "website": "https://www.plopsa.com/fr/plopsaland-ardennes",
    "instagram": null,
-   "image": null
+   "image": "https://www.plopsa.com/sites/default/files/styles/io_600/public/images/2025-08/PLA_Schommelhommel_Hero.jpg.webp?itok=5HVlU00R"
   },
   {
    "id": "osm-way-1474363393",
@@ -4932,6 +5166,78 @@
    "website": "https://www.crosly.be/",
    "instagram": null,
    "image": "https://www.crosly.be/wp-content/uploads/2018/06/Bowling_10_1920x1080.jpg"
+  },
+  {
+   "id": "wd-Q2345368",
+   "lat": 50.8418,
+   "lon": 4.3353,
+   "partner": false,
+   "name": "Brasserie Cantillon",
+   "kind": "brewery",
+   "kind_label": "Brasserie à visiter",
+   "city": "Bruxelles",
+   "address": null,
+   "hours": null,
+   "pitch": null,
+   "offer": null,
+   "image_credit": "Ekrem Canli / Wikimedia Commons, CC BY-SA 4.0",
+   "website": "https://www.cantillon.be/",
+   "instagram": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Brasserie_Cantillon%E2%80%99s_wooden_casks.jpg/1280px-Brasserie_Cantillon%E2%80%99s_wooden_casks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "id": "wd-Q2754830",
+   "lat": 50.839875,
+   "lon": 4.246833333,
+   "partner": false,
+   "name": "Brasserie Timmermans",
+   "kind": "brewery",
+   "kind_label": "Brasserie à visiter",
+   "city": "Bruxelles",
+   "address": null,
+   "hours": null,
+   "pitch": null,
+   "offer": null,
+   "image_credit": "Henna / Wikimedia Commons, CC BY-SA 1.0",
+   "website": "https://brtimmermans.be/",
+   "instagram": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Coolingtun.jpg/1280px-Coolingtun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "id": "wd-Q1227102",
+   "lat": 50.758611111,
+   "lon": 4.300833333,
+   "partner": false,
+   "name": "Oud Beersel",
+   "kind": "brewery",
+   "kind_label": "Brasserie à visiter",
+   "city": "Bruxelles",
+   "address": null,
+   "hours": null,
+   "pitch": null,
+   "offer": null,
+   "image_credit": "Tomixdf / Wikimedia Commons, Public domain",
+   "website": "https://www.oudbeersel.com",
+   "instagram": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Oud_beersel.jpg/1280px-Oud_beersel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "id": "wd-Q97275006",
+   "lat": 50.852861,
+   "lon": 4.342028,
+   "partner": false,
+   "name": "Brussels Beer Project",
+   "kind": "brewery",
+   "kind_label": "Brasserie à visiter",
+   "city": "Bruxelles",
+   "address": null,
+   "hours": null,
+   "pitch": null,
+   "offer": null,
+   "image_credit": "Sidney.Cortez / Wikimedia Commons, CC BY-SA 4.0",
+   "website": "https://beerproject.be/",
+   "instagram": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Brussels_Beer_Project_by_night_2024.jpg/1280px-Brussels_Beer_Project_by_night_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   },
   {
    "id": "osm-way-111626895",
@@ -5540,7 +5846,7 @@
    "hours": "Tu off, PH Mo,We,Th,Fr 14:00-17:30, PH Sa 13:00-17:30, PH Su 10:00-17:30, Mo,We,Th,Fr 14:00-17:30, Sa 13:00-17:30, Su 10:00-17:30",
    "pitch": null,
    "offer": null,
-   "image_credit": "Alberto Fernandez Fernandez (talk).  The original uploader w / Wikimedia Commons, CC BY-SA 3.0",
+   "image_credit": "Alberto Fernandez Fernandez (talk). The original uploader w / Wikimedia Commons, CC BY-SA 3.0",
    "website": "https://www.museumvanbuuren.be/",
    "instagram": null,
    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Museum_van_Buuren_Brussels_Belgium.jpg/1280px-Museum_van_Buuren_Brussels_Belgium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
@@ -5613,7 +5919,7 @@
    "pitch": null,
    "offer": null,
    "image_credit": "Michel wal / Wikimedia Commons, CC BY-SA 3.0",
-   "website": "http://users.skynet.be/museedelabiere/",
+   "website": null,
    "instagram": null,
    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Mus%C3%A9e_schaerbeekois_bi%C3%A8re_901.jpg/1280px-Mus%C3%A9e_schaerbeekois_bi%C3%A8re_901.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   },
@@ -6680,11 +6986,11 @@
    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Th%C3%A9%C3%A2tre_de_la_Monnaie_1.JPG/1280px-Th%C3%A9%C3%A2tre_de_la_Monnaie_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   },
   {
-   "id": "wd-Q2671145",
-   "lat": 50.826319,
-   "lon": 4.365278,
+   "id": "wd-Q205064",
+   "lat": 50.848782,
+   "lon": 4.345655,
    "partner": false,
-   "name": "Hôtel Solvay",
+   "name": "Het Zinneke",
    "kind": "sight",
    "kind_label": "Incontournable",
    "city": "Bruxelles",
@@ -6692,10 +6998,10 @@
    "hours": null,
    "pitch": null,
    "offer": null,
-   "image_credit": "Zinneke / Wikimedia Commons, CC BY-SA 3.0",
-   "website": "http://www.hotelsolvay.be",
+   "image_credit": "Trougnouf (Benoit Brummer) / Wikimedia Commons, CC BY 4.0",
+   "website": null,
    "instagram": null,
-   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Avenue_Louise_224_Louizalaan_Brussels_2012-08.jpg/1280px-Avenue_Louise_224_Louizalaan_Brussels_2012-08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Het_Zinneke_%28DSCF5238%29_Brussels%2C_BE.jpg/1280px-Het_Zinneke_%28DSCF5238%29_Brussels%2C_BE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   },
   {
    "id": "osm-node-9642979515",
@@ -6786,6 +7092,24 @@
    "website": "https://www.wima.be/",
    "instagram": null,
    "image": "https://wima.be/wp-content/uploads/2024/05/bowling-b2b.jpg"
+  },
+  {
+   "id": "wd-Q2684279",
+   "lat": 51.199666666,
+   "lon": 4.414933333,
+   "partner": false,
+   "name": "De Koninck, Antwerp City Brewery",
+   "kind": "brewery",
+   "kind_label": "Brasserie à visiter",
+   "city": "Anvers",
+   "address": null,
+   "hours": null,
+   "pitch": null,
+   "offer": null,
+   "image_credit": "DirkVE / Wikimedia Commons, CC BY-SA 3.0",
+   "website": "https://www.dekoninck.be/",
+   "instagram": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Brouwerijdekoninck_1.jpg/1280px-Brouwerijdekoninck_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   },
   {
    "id": "osm-node-11080838318",
@@ -6977,7 +7301,7 @@
    "kind_label": "Musée",
    "city": "Anvers",
    "address": null,
-   "hours": "Mo-Su 10:00-18:00",
+   "hours": null,
    "pitch": null,
    "offer": null,
    "image_credit": "-wuppertaler / Wikimedia Commons, CC BY 4.0",
@@ -7067,7 +7391,7 @@
    "kind_label": "Musée",
    "city": "Anvers",
    "address": "Vleeshouwersstraat 38, 2000 Antwerpen",
-   "hours": "Th-Su,PH 10:00-17:00; Jan 1 off; May 1 off; Nov 1 off; Dec 25 off; easter +39 days off; easter +1 day 10:00-17:00; easter +50 days 10:00-17:00",
+   "hours": "Mo-Su 10:00-18:00",
    "pitch": null,
    "offer": null,
    "image_credit": "Paul Hermans / Wikimedia Commons, CC BY 4.0",
@@ -8246,6 +8570,42 @@
    "image": "https://jumpsky.be/wp-content/themes/jumpsky/assets/img/catch_all.jpg"
   },
   {
+   "id": "wd-Q1179933",
+   "lat": 51.20249,
+   "lon": 3.22465,
+   "partner": false,
+   "name": "Brouwerij De Halve Maan",
+   "kind": "brewery",
+   "kind_label": "Brasserie à visiter",
+   "city": "Bruges",
+   "address": null,
+   "hours": null,
+   "pitch": null,
+   "offer": null,
+   "image_credit": "Spotter2 / Wikimedia Commons, CC BY-SA 3.0",
+   "website": "https://www.halvemaan.be/",
+   "instagram": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Brugge_-_Brouwerij_Halve_Maan_-_Henri_Maes.jpg/1280px-Brugge_-_Brouwerij_Halve_Maan_-_Henri_Maes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "id": "wd-Q101422066",
+   "lat": 51.206769444,
+   "lon": 3.226161111,
+   "partner": false,
+   "name": "Bourgogne des Flandres",
+   "kind": "brewery",
+   "kind_label": "Brasserie à visiter",
+   "city": "Bruges",
+   "address": null,
+   "hours": null,
+   "pitch": null,
+   "offer": null,
+   "image_credit": "Dguendel / Wikimedia Commons, CC BY 4.0",
+   "website": "https://www.bourgognedesflandres.be",
+   "instagram": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Bruges%2C_the_brewery_Bourgogne_des_Flandres.JPG/1280px-Bruges%2C_the_brewery_Bourgogne_des_Flandres.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
    "id": "osm-way-726978207",
    "lat": 51.1334324,
    "lon": 3.3399084,
@@ -8362,7 +8722,7 @@
    "kind": "museum",
    "kind_label": "Musée",
    "city": "Bruges",
-   "address": "Mariastraat 10, 8000 Brugge",
+   "address": null,
    "hours": null,
    "pitch": null,
    "offer": null,
@@ -9380,6 +9740,24 @@
    "image": "https://www.poolfiction.be/images/Banner.jpg"
   },
   {
+   "id": "wd-Q60849584",
+   "lat": 50.43235,
+   "lon": 4.75887,
+   "partner": false,
+   "name": "Moulin-brasserie de l'abbaye de Floreffe",
+   "kind": "brewery",
+   "kind_label": "Brasserie à visiter",
+   "city": "Namur",
+   "address": null,
+   "hours": null,
+   "pitch": null,
+   "offer": null,
+   "image_credit": "EmDee / Wikimedia Commons, CC BY-SA 4.0",
+   "website": null,
+   "instagram": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Abbaye_de_Floreffe_-_Moulin-brasserie_-_08.jpg/1280px-Abbaye_de_Floreffe_-_Moulin-brasserie_-_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
    "id": "osm-node-11123575929",
    "lat": 50.4629447,
    "lon": 4.8846034,
@@ -9702,6 +10080,24 @@
    "website": "https://www.leboisducazier.be/",
    "instagram": null,
    "image": "https://www.leboisducazier.be/wp-content/uploads/2026/09/©-2026-Indra-Laenens-600x400.jpg"
+  },
+  {
+   "id": "wd-Q14622653",
+   "lat": 50.502054,
+   "lon": 4.109782,
+   "partner": false,
+   "name": "Brasserie St-Feuillien",
+   "kind": "brewery",
+   "kind_label": "Brasserie à visiter",
+   "city": "Mons",
+   "address": null,
+   "hours": null,
+   "pitch": null,
+   "offer": null,
+   "image_credit": "Spotter2 / Wikimedia Commons, CC BY-SA 3.0",
+   "website": "https://st-feuillien.com/",
+   "instagram": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Brouwerij_St_Feuillien.jpg/1280px-Brouwerij_St_Feuillien.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   },
   {
    "id": "osm-node-9426822295",
@@ -10442,6 +10838,24 @@
    "image": "https://static.wixstatic.com/media/217adb_9b0134dbe4344c76a5e848ae2ad139fa~mv2.jpg/v1/fill/w_123,h_69,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/217adb_9b0134dbe4344c76a5e848ae2ad139fa~mv2.jpg"
   },
   {
+   "id": "wd-Q2473159",
+   "lat": 51.031944,
+   "lon": 4.473056,
+   "partner": false,
+   "name": "Brouwerij Het Anker",
+   "kind": "brewery",
+   "kind_label": "Brasserie à visiter",
+   "city": "Malines",
+   "address": null,
+   "hours": null,
+   "pitch": null,
+   "offer": null,
+   "image_credit": "DirkVE / Wikimedia Commons, CC BY-SA 3.0",
+   "website": "https://www.hetanker.be/",
+   "instagram": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Brouwzaal_Het_Anker%2C_Mechelen.jpg/1280px-Brouwzaal_Het_Anker%2C_Mechelen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
    "id": "osm-node-11453216945",
    "lat": 50.9412869,
    "lon": 4.4329501,
@@ -10994,7 +11408,7 @@
    "hours": null,
    "pitch": null,
    "offer": null,
-   "image_credit": "No machine-readable author provided. MADe assumed (based on  / Wikimedia Commons, CC BY-SA 2.5",
+   "image_credit": "No machine-readable author provided. MADe assumed (based on / Wikimedia Commons, CC BY-SA 2.5",
    "website": "http://www.earthexplorer.be",
    "instagram": null,
    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Earth_explorer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
@@ -11142,6 +11556,60 @@
    "website": "https://www.bowlingpottelberg.be/",
    "instagram": null,
    "image": "https://www.bowlingpottelberg.be/images/bowling-237905_1920.jpg"
+  },
+  {
+   "id": "wd-Q2164364",
+   "lat": 50.77669,
+   "lon": 3.27932,
+   "partner": false,
+   "name": "Brouwerij Omer Vander Ghinste",
+   "kind": "brewery",
+   "kind_label": "Brasserie à visiter",
+   "city": "Courtrai",
+   "address": null,
+   "hours": null,
+   "pitch": null,
+   "offer": null,
+   "image_credit": "Spotter2 / Wikimedia Commons, CC BY-SA 3.0",
+   "website": "https://www.omervanderghinste.be/",
+   "instagram": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Brouwerij_Bockor_-_Bellegem.jpg/1280px-Brouwerij_Bockor_-_Bellegem.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "id": "wd-Q2320696",
+   "lat": 50.862522,
+   "lon": 3.2985431,
+   "partner": false,
+   "name": "Brouwerij De Brabandere",
+   "kind": "brewery",
+   "kind_label": "Brasserie à visiter",
+   "city": "Courtrai",
+   "address": null,
+   "hours": null,
+   "pitch": null,
+   "offer": null,
+   "image_credit": "Tomaatje12 / Wikimedia Commons, CC BY-SA 4.0",
+   "website": "https://www.brouwerijdebrabandere.be/",
+   "instagram": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Brouwerij_De_Brabandere.jpg/1280px-Brouwerij_De_Brabandere.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "id": "wd-Q105635811",
+   "lat": 50.922322222,
+   "lon": 3.235583333,
+   "partner": false,
+   "name": "Kasteel Brouwerij Vanhonsebrouck",
+   "kind": "brewery",
+   "kind_label": "Brasserie à visiter",
+   "city": "Courtrai",
+   "address": null,
+   "hours": null,
+   "pitch": null,
+   "offer": null,
+   "image_credit": "Spotter2 / Wikimedia Commons, CC BY-SA 4.0",
+   "website": "https://www.vanhonsebrouck.be",
+   "instagram": null,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Bierkasteel_-_Emelgem_%284%29.jpg/1280px-Bierkasteel_-_Emelgem_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   },
   {
    "id": "osm-node-13926617489",
