@@ -496,6 +496,7 @@ def places(radius=50000):
 
 
 CHOSEN_PLACES = HERE / "lieux_choisis.json"
+CITY_PLACES = HERE / "lieux_villes.json"      # généré par build_lieux_villes.py
 
 
 def in_belgium(lat, lon):
@@ -623,6 +624,44 @@ def google_places(lieux):
     return out
 
 
+PLACE_TEXT = {"name": 120, "kind": 30, "kind_label": 40, "city": 60, "address": 200, "hours": 400, "pitch": 300,
+              "offer": 160, "image_credit": 120}
+
+
+def _safe_place(p):
+    """Dernier contrôle avant places.json, que l'app télécharge : un seul lieu mal formé (nom manquant, latitude en
+    texte…) ferait échouer la lecture de tout le fichier dans l'app, et la liste serait vide pour tout le monde.
+    Les données viennent en partie d'OpenStreetMap ou de Wikidata, modifiables par n'importe qui :
+    seulement des liens web normaux, pas de lien ni de numéro glissé dans un nom, des horaires ou une adresse."""
+    try:
+        lat, lon = float(p["lat"]), float(p["lon"])
+    except Exception:
+        return None
+    if not (-90 <= lat <= 90 and -180 <= lon <= 180) or lat != lat or lon != lon:
+        return None
+    q = {"id": p.get("id"), "lat": lat, "lon": lon, "partner": p.get("partner") is True}
+    for f, n in PLACE_TEXT.items():
+        v = p.get(f)
+        q[f] = re.sub(r"[\x00-\x1f\x7f]", " ", v).strip()[:n] or None if isinstance(v, str) else None
+    if not isinstance(q["id"], str) or not q["id"] or not q["name"] or not q["kind"] or not q["kind_label"]:
+        return None
+    junk = re.compile(r"https?:|www\.|@|\+?\d[\d .\-/]{8,}\d", re.I)
+    if junk.search(q["name"]):
+        return None
+    for f in ("address", "hours", "image_credit", "kind_label", "city"):
+        if q[f] and re.search(r"https?:|www\.", q[f], re.I):
+            q[f] = None if f != "kind_label" else "Lieu"
+    if q["hours"] and junk.search(q["hours"]):
+        q["hours"] = None
+    q["city"] = q["city"] or ""
+    for f, schemes in (("website", ("https://", "http://")), ("instagram", ("https://",)), ("image", ("https://",))):
+        v = p.get(f)
+        q[f] = v if isinstance(v, str) and v.startswith(schemes) and not re.search(r'[\s"<>]', v) and len(v) < 2000 else None
+    if q["instagram"] and not re.match(r"https://(www\.)?instagram\.com/", q["instagram"]):
+        q["instagram"] = None
+    return q
+
+
 def build_places():
     """Lieux sans date (« Quand tu veux » dans l'app) : ceux choisis à la main d'abord (bars, partenaires),
     puis ceux trouvés sur OpenStreetMap. Écrit places.json."""
@@ -637,19 +676,40 @@ def build_places():
         osm = [p for p in prev if p["id"].startswith("osm-")]
     osm = [p for p in osm if in_belgium(p["lat"], p["lon"])]
     GEOCACHE.write_text(json.dumps(_geo, ensure_ascii=False, indent=1))
+    # guides des grandes villes (build_lieux_villes.py : musées, incontournables, activités), déjà avec leur photo vérifiée.
+    # Seulement ceux qui ont une photo : l'app n'affiche pas les autres, et les chercher à chaque passage coûterait trop.
+    try:
+        villes = json.loads(CITY_PLACES.read_text())["lieux"] if CITY_PLACES.exists() else []
+    except Exception as ex:
+        print(f"Lieux des villes illisibles ({ex}), ignorés", file=sys.stderr)
+        villes = []
+    # le même lieu OSM dans le guide d'une ville : on garde la version du guide (ville, adresse, photo relue)
+    in_guides = {v.get("id") for v in villes if v.get("image")}
+    osm = [p for p in osm if p["id"] not in in_guides]
     # un lieu choisi remplace le même lieu trouvé sur OpenStreetMap (même type, à moins de 300 m)
     lieux = chosen + [p for p in osm if not any(p["kind"] == c["kind"] and _km([p["lat"], p["lon"]], [c["lat"], c["lon"]]) < 0.3
                                                 for c in chosen)]
+    known = {p["id"] for p in lieux}
+    for v in villes:
+        if not v.get("image") or v.get("id") in known or v.get("lat") is None or v.get("lon") is None:
+            continue
+        if not str(v["image"]).startswith("https://") or (v.get("website") and not str(v["website"]).startswith(("https://", "http://"))):
+            continue          # liens douteux : on n'affiche pas
+        if any(v["kind"] == p["kind"] and _km([v["lat"], v["lon"]], [p["lat"], p["lon"]]) < 0.3 for p in chosen):
+            continue
+        lieux.append(v)
+        known.add(v["id"])
     lieux = google_places(lieux)        # bars les mieux notés et photos Google (si la clé est là)
     # photo du site officiel déjà trouvée : on la reprend (les photos libres et Google, elles, sont revérifiées)
     old = {p["id"]: p for p in prev if p.get("image") and "wikimedia.org" not in p["image"] and "/photo?ref=" not in p["image"]}
     for p in lieux:          # photo du site officiel, sinon photo libre du lieu précis, sinon rien (l'app montre une icône)
         if p.get("image"):
             continue
-        if p["id"] in old:
+        if p["id"] in old and p.get("photo_site") is not False:
             p["image"] = old[p["id"]]["image"]
             continue
-        if p.get("website") and own_site(p["name"], p["website"]):
+        # "photo_site": false = l'image du site est un logo ou du texte (vu à l'œil) : on ne la reprend pas
+        if p.get("website") and p.get("photo_site") is not False and own_site(p["name"], p["website"]):
             try:
                 img = best_image(fetch(p["website"], timeout=15), p["website"])
                 p["image"] = img if img and is_image(img) else None
@@ -659,9 +719,11 @@ def build_places():
             got = venue_photo(p["name"], p.get("city", ""))
             if got:
                 p["image"], p["image_credit"] = got
+    lieux = [q for q in (_safe_place(p) for p in lieux) if q]
     out_file.write_text(json.dumps({"generated": datetime.now().isoformat(timespec="seconds"), "places": lieux},
                                    ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"Lieux : {len(chosen)} choisis à la main, {len(lieux) - len(chosen)} OpenStreetMap")
+    n_villes = sum(1 for p in lieux if p["id"] in {v.get("id") for v in villes})
+    print(f"Lieux : {len(chosen)} choisis à la main, {n_villes} des guides de villes, {len(lieux) - len(chosen) - n_villes} OpenStreetMap")
     return lieux
 
 
@@ -1276,19 +1338,41 @@ def best_image(page, base):
     return img.replace("http://", "https://", 1) if img else img          # l'iPhone refuse les images non sécurisées
 
 
+def _strip_blocks(page, tags=("script", "style", "nav", "footer", "header")):
+    """Retire les blocs <script>…</script> etc. en un seul passage (pas de regex : une page piégée remplie de
+    « <script » jamais fermés ferait tourner une regex pendant des heures et bloquerait le robot)."""
+    low, out, i = page.lower(), [], 0
+    while True:
+        starts = [(low.find("<" + t, i), t) for t in tags]
+        starts = [(k, t) for k, t in starts if k >= 0]
+        if not starts:
+            out.append(page[i:])
+            break
+        k, t = min(starts)
+        out.append(page[i:k])
+        end = low.find("</" + t + ">", k)
+        if end < 0:
+            break                                   # jamais fermé : on ignore le reste de la page
+        i = end + len(t) + 3
+        out.append(" ")
+    return "".join(out)
+
+
 def _best_image(page, base):
     from urllib.parse import urljoin
-    for pat in (r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)',
-                r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']',
-                r'<meta[^>]+name=["\']twitter:image["\'][^>]+content=["\']([^"\']+)'):
-        m = re.search(pat, page, re.I)
+    page = page[:1_500_000]                          # une page de plusieurs Mo n'est pas une page normale
+    head = page[:300_000]
+    for pat in (r'<meta[^>]{1,1500}property=["\']og:image["\'][^>]{0,1500}content=["\']([^"\']{1,1000})',
+                r'<meta[^>]{1,1500}content=["\']([^"\']{1,1000})["\'][^>]{0,1500}property=["\']og:image["\']',
+                r'<meta[^>]{1,1500}name=["\']twitter:image["\'][^>]{0,1500}content=["\']([^"\']{1,1000})'):
+        m = re.search(pat, head, re.I)
         if m:
             img = urljoin(base, html.unescape(m.group(1)))
             if not BAD_IMG.search(img):
                 return img
-    body = re.sub(r"<(script|style|nav|footer|header)\b.*?</\1>", " ", page, flags=re.S | re.I)
-    cands = re.findall(r'(?:src|data-src|data-lazy-src|content)=["\']([^"\']+\.(?:jpe?g|png|webp)(?:\?[^"\']*)?)["\']', body, re.I)
-    for srcset in re.findall(r'srcset=["\']([^"\']+)["\']', body, re.I):  # la plus grande version
+    body = _strip_blocks(page)
+    cands = re.findall(r'(?:src|data-src|data-lazy-src|content)=["\']([^"\'\s]{1,800}\.(?:jpe?g|png|webp)(?:\?[^"\'\s]{0,300})?)["\']', body, re.I)
+    for srcset in re.findall(r'srcset=["\']([^"\']{1,6000})["\']', body, re.I):  # la plus grande version
         parts = [p.strip().split(" ") for p in srcset.split(",") if p.strip()]
         parts = [(p[0], int(p[1][:-1])) for p in parts if len(p) > 1 and p[1].endswith("w") and p[1][:-1].isdigit()]
         if parts:
@@ -1299,7 +1383,7 @@ def _best_image(page, base):
             return img
     # dernier recours : n'importe quelle image de la page (hors logos, miniatures et icônes),
     # en préférant les fichiers « originaux » sans suffixe -300x200
-    anywhere = re.findall(r'https?://[^"\'\s)<>]+\.(?:jpe?g|png|webp)(?:\?[^"\'\s)<>]*)?', page, re.I)
+    anywhere = re.findall(r'https?://[^"\'\s)<>]{1,800}\.(?:jpe?g|png|webp)(?:\?[^"\'\s)<>]{0,300})?', page, re.I)
     anywhere = [u for u in dict.fromkeys(anywhere) if not BAD_IMG.search(u) and not re.search(r"-\d{2,3}x\d{2,3}\.", u)]
     return anywhere[0] if anywhere else None
 
