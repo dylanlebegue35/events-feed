@@ -1,12 +1,12 @@
 {
-  "genere": "2026-11-13T11:46:20",
+  "genere": "2026-11-13T15:05:43",
   "sources": [
     {
       "source": "Reflektor (Liège)",
       "ok": true,
-      "page_caracteres": 16238,
-      "ia_a_trouve": 33,
-      "gardes": 33,
+      "page_caracteres": 15884,
+      "ia_a_trouve": 0,
+      "gardes": 0,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 1,
@@ -42,9 +42,9 @@
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 51853,
-      "ia_a_trouve": 45,
-      "gardes": 45,
+      "page_caracteres": 51933,
+      "ia_a_trouve": 44,
+      "gardes": 44,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -66,8 +66,6 @@
       "ia_a_trouve": 2,
       "gardes": 2,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -86,20 +84,18 @@
       "ia_a_trouve": 0,
       "gardes": 0,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
-      "extrait_reponse_ia": "[]"
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 12411,
-      "ia_a_trouve": 3,
+      "page_caracteres": 12408,
+      "ia_a_trouve": 0,
       "gardes": 0,
-      "ecartes": 3,
+      "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
-      "extrait_reponse_ia": ""
+      "extrait_reponse_ia": "[]"
     },
     {
       "source": "Ville de Huy",
@@ -113,10 +109,12 @@
     {
       "source": "Grand Curtius (Liège)",
       "ok": true,
-      "page_caracteres": 9963,
+      "page_caracteres": 10435,
       "ia_a_trouve": 9,
       "gardes": 9,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -158,7 +156,7 @@
     {
       "source": "Fuse (Bruxelles)",
       "ok": true,
-      "page_caracteres": 5393,
+      "page_caracteres": 5325,
       "ia_a_trouve": 6,
       "gardes": 6,
       "ecartes": 0,
@@ -178,7 +176,7 @@
     {
       "source": "Recyclart (Bruxelles)",
       "ok": true,
-      "page_caracteres": 4120,
+      "page_caracteres": 4164,
       "ia_a_trouve": 12,
       "gardes": 12,
       "ecartes": 0,
@@ -189,10 +187,12 @@
     {
       "source": "Ancienne Belgique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 6720,
+      "page_caracteres": 6728,
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -211,16 +211,14 @@
       "ia_a_trouve": 29,
       "gardes": 29,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Het Depot (Louvain)",
       "ok": true,
-      "page_caracteres": 7641,
-      "ia_a_trouve": 15,
-      "gardes": 15,
+      "page_caracteres": 10113,
+      "ia_a_trouve": 21,
+      "gardes": 21,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -230,9 +228,11 @@
       "source": "Mars – Mons arts de la scène",
       "ok": true,
       "page_caracteres": 12299,
-      "ia_a_trouve": 12,
-      "gardes": 12,
+      "ia_a_trouve": 11,
+      "gardes": 11,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -260,10 +260,10 @@
     {
       "source": "Pages des billetteries",
       "ok": true,
-      "pages_lues": 3,
-      "pages_lues_par_ia": 6
+      "pages_lues": 7,
+      "pages_lues_par_ia": 11
     }
   ],
-  "avec_image": 1098,
-  "total": 1670
+  "avec_image": 1100,
+  "total": 1640
 }
