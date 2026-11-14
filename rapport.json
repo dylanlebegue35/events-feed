@@ -1,13 +1,15 @@
 {
-  "genere": "2026-11-13T21:47:46",
+  "genere": "2026-11-14T01:59:37",
   "sources": [
     {
       "source": "Reflektor (Liège)",
       "ok": true,
-      "page_caracteres": 15884,
-      "ia_a_trouve": 0,
-      "gardes": 0,
+      "page_caracteres": 15882,
+      "ia_a_trouve": 40,
+      "gardes": 40,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -31,18 +33,20 @@
     {
       "source": "VisitHuy",
       "ok": true,
-      "page_caracteres": 5840,
+      "page_caracteres": 5860,
       "ia_a_trouve": 9,
       "gardes": 9,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 49434,
-      "ia_a_trouve": 44,
-      "gardes": 44,
+      "page_caracteres": 55846,
+      "ia_a_trouve": 42,
+      "gardes": 42,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -51,7 +55,7 @@
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 41838,
+      "page_caracteres": 41840,
       "ia_a_trouve": 124,
       "gardes": 124,
       "ecartes": 0,
@@ -64,17 +68,17 @@
       "ia_a_trouve": 2,
       "gardes": 2,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Province de Liège",
       "ok": true,
-      "page_caracteres": 17994,
-      "ia_a_trouve": 5,
-      "gardes": 5,
+      "page_caracteres": 17897,
+      "ia_a_trouve": 4,
+      "gardes": 4,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -84,17 +88,17 @@
       "ia_a_trouve": 0,
       "gardes": 0,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
-      "extrait_reponse_ia": "[]"
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 12408,
-      "ia_a_trouve": 0,
+      "page_caracteres": 12406,
+      "ia_a_trouve": 3,
       "gardes": 0,
-      "ecartes": 0,
+      "ecartes": 3,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -156,8 +160,8 @@
       "ok": true,
       "page_caracteres": 5325,
       "ia_a_trouve": 6,
-      "gardes": 6,
-      "ecartes": 0,
+      "gardes": 5,
+      "ecartes": 1,
       "extrait_reponse_ia": ""
     },
     {
@@ -167,8 +171,6 @@
       "ia_a_trouve": 14,
       "gardes": 14,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -176,26 +178,30 @@
       "ok": true,
       "page_caracteres": 4164,
       "ia_a_trouve": 12,
-      "gardes": 12,
-      "ecartes": 0,
+      "gardes": 11,
+      "ecartes": 1,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Ancienne Belgique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 6728,
+      "page_caracteres": 6614,
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Botanique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 3976,
+      "page_caracteres": 4411,
       "ia_a_trouve": 3,
       "gardes": 3,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -205,8 +211,6 @@
       "ia_a_trouve": 28,
       "gardes": 28,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -216,16 +220,14 @@
       "ia_a_trouve": 21,
       "gardes": 21,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Mars – Mons arts de la scène",
       "ok": true,
-      "page_caracteres": 12299,
-      "ia_a_trouve": 11,
-      "gardes": 11,
+      "page_caracteres": 12543,
+      "ia_a_trouve": 12,
+      "gardes": 12,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -246,7 +248,7 @@
       "source": "Facebook (service tiers)",
       "ok": true,
       "etat": "pas encore l'heure",
-      "gardes": 176
+      "gardes": 170
     },
     {
       "source": "Doublons fusionnés",
@@ -256,10 +258,10 @@
     {
       "source": "Pages des billetteries",
       "ok": true,
-      "pages_lues": 3,
-      "pages_lues_par_ia": 4
+      "pages_lues": 10,
+      "pages_lues_par_ia": 10
     }
   ],
-  "avec_image": 1094,
-  "total": 1634
+  "avec_image": 1078,
+  "total": 1629
 }
