@@ -1,13 +1,15 @@
 {
-  "genere": "2026-11-15T20:57:45",
+  "genere": "2026-11-15T21:31:07",
   "sources": [
     {
       "source": "Reflektor (Liège)",
       "ok": true,
       "page_caracteres": 15876,
-      "ia_a_trouve": 1,
-      "gardes": 0,
-      "ecartes": 1,
+      "ia_a_trouve": 39,
+      "gardes": 39,
+      "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -49,7 +51,7 @@
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 41245,
+      "page_caracteres": 41249,
       "ia_a_trouve": 122,
       "gardes": 122,
       "ecartes": 0,
@@ -85,11 +87,13 @@
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 12708,
-      "ia_a_trouve": 5,
+      "page_caracteres": 12406,
+      "ia_a_trouve": 0,
       "gardes": 0,
-      "ecartes": 5,
-      "extrait_reponse_ia": ""
+      "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
+      "extrait_reponse_ia": "[]"
     },
     {
       "source": "Ville de Huy",
@@ -166,10 +170,12 @@
     {
       "source": "Recyclart (Bruxelles)",
       "ok": true,
-      "page_caracteres": 4164,
-      "ia_a_trouve": 12,
+      "page_caracteres": 3536,
+      "ia_a_trouve": 10,
       "gardes": 10,
-      "ecartes": 2,
+      "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -244,8 +250,43 @@
       "ok": true,
       "pages_lues": 1,
       "pages_lues_par_ia": 0
+    },
+    {
+      "source": "Google : bars de Liège",
+      "ok": true,
+      "trouves": 90,
+      "gardes": 25
+    },
+    {
+      "source": "Google : bars de Bruxelles",
+      "ok": true,
+      "trouves": 142,
+      "gardes": 15
+    },
+    {
+      "source": "Google : bars de Namur",
+      "ok": true,
+      "trouves": 59,
+      "gardes": 10
+    },
+    {
+      "source": "Google : bars de Mons",
+      "ok": true,
+      "trouves": 59,
+      "gardes": 10
+    },
+    {
+      "source": "Google : bars de Louvain-la-Neuve",
+      "ok": true,
+      "trouves": 46,
+      "gardes": 10
+    },
+    {
+      "source": "Google : photos des lieux",
+      "ok": true,
+      "trouvees": 136
     }
   ],
-  "avec_image": 1040,
-  "total": 1490
+  "avec_image": 1043,
+  "total": 1529
 }
