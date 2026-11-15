@@ -535,12 +535,35 @@ def _google_search(key, body, fields):
 
 
 def _google_photo(place, proxy):
-    """Première photo du lieu (adresse du Worker) et son auteur, à afficher avec « Google Maps »."""
-    ph = (place.get("photos") or [None])[0]
-    if not ph:
-        return None, None
-    author = ", ".join(a.get("displayName", "") for a in ph.get("authorAttributions", []) if a.get("displayName"))
-    return f"{proxy}?ref={quote(ph['name'], safe='/')}", (f"{author} · Google Maps" if author else "Google Maps")
+    """Première photo du lieu (adresse du Worker) et son auteur, à afficher avec « Google Maps ».
+    Un auteur dont le nom contient un lien ou un numéro (pub, hameçonnage) : on prend la photo suivante."""
+    for ph in (place.get("photos") or [])[:3]:
+        name = str(ph.get("name") or "")
+        if not re.fullmatch(r"places/[\w-]+/photos/[\w-]+", name):
+            continue
+        author = ", ".join(str(a.get("displayName", "")) for a in ph.get("authorAttributions", []) if a.get("displayName"))
+        author = re.sub(r"\s+", " ", unicodedata.normalize("NFKC", author)).strip()[:60]
+        if re.search(r"https?:|www\.|@|\d[\d .\-/]{6,}\d|\b[a-z0-9-]{2,}\.(com|be|net|org|io|ly|me|fr|nl|eu|app|xyz|shop|link)\b", author, re.I):
+            continue
+        return f"{proxy}?ref={quote(name, safe='/')}", (f"{author} · Google Maps" if author else "Google Maps")
+    return None, None
+
+
+def _google_ok(url):
+    """Photo Google servie par NOTRE Worker (et pas une adresse qui contient seulement « /photo?ref= »)."""
+    try:
+        proxy = json.loads(GOOGLE_CONFIG.read_text()).get("photo_proxy", "")
+    except Exception:
+        return False
+    return bool(proxy) and isinstance(url, str) and url.startswith(proxy + "?ref=places/") and not re.search(r'[\s"<>]', url)
+
+
+def _meme_nom(a, b):
+    """Le résultat Google porte-t-il le nom du lieu ? (un mot propre au lieu en commun, sinon les noms identiques)"""
+    ta, pb = distinctive_tokens(a), _plain(b)
+    if ta:
+        return any(_plain(t) in pb for t in ta)
+    return _plain(a).strip() == pb.strip()
 
 
 def google_places(lieux):
@@ -551,6 +574,9 @@ def google_places(lieux):
     due = not last or (datetime.now() - datetime.fromisoformat(last)) >= timedelta(days=cfg.get("min_days_between_runs", 7))
     if cfg.get("enabled") and key and due:
         proxy = cfg["photo_proxy"]
+        # noté tout de suite : si Google tombe en panne au milieu, on ne recommence pas 4 fois par jour (la facture)
+        store["last_run"] = datetime.now().isoformat(timespec="seconds")
+        GOOGLE_STORE.write_text(json.dumps(store, ensure_ascii=False, indent=1), encoding="utf-8")
         try:
             # 1) les bars les mieux notés, ville par ville
             bars = []
@@ -587,34 +613,71 @@ def google_places(lieux):
                                  "website": g.get("websiteUri"), "hours": None, "image": img, "image_credit": credit, "pitch": None})
                 REPORT.append({"source": f"Google : bars de {c['name']}", "ok": True, "trouves": len(found), "gardes": min(len(good), c["top"])})
             store["bars"] = bars
-            # 2) une photo pour les lieux qui n'en ont pas (et les lieux fermés pour de bon)
-            photos, fields = {}, "places.id,places.location,places.businessStatus,places.photos"
-            for p in [p for p in lieux if not p.get("image")][:cfg.get("max_photo_lookups", 120)]:
+            # 2) une photo pour les lieux qui n'en ont pas (et les lieux fermés pour de bon). D'abord ceux jamais cherchés,
+            #    les bars de Liège en tête ; puis on relit les plus anciens (une référence de photo Google peut expirer).
+            #    Les photos déjà trouvées sont gardées d'une semaine à l'autre.
+            fields = "places.id,places.displayName,places.location,places.businessStatus,places.photos"
+            sans = [p for p in lieux if not p.get("image")]
+            tous = {p["id"] for p in lieux}
+            today = datetime.now().date()
+            # mémoire : gardée pour tout lieu encore publié (ou vu il y a moins de 90 jours : OSM peut répondre à moitié)
+            photos = {k: v for k, v in store.get("photos", {}).items() if isinstance(v, dict)
+                      and (k in tous or str(v.get("seen", "")) >= (today - timedelta(days=90)).isoformat())}
+            rang = {"bar": 0, "club": 1, "brunch": 2, "brewery": 3, "concert": 4, "karaoke": 5}
+            jamais = sorted((p for p in sans if p["id"] not in photos),
+                            key=lambda p: (p.get("city") != "Liège", rang.get(p.get("kind"), 9)))
+            anciens = sorted((p for p in sans if p["id"] in photos), key=lambda p: str(photos[p["id"]].get("seen", "")))
+            budget = cfg.get("max_photo_lookups", 120)
+            relire = [p for p in anciens if str(photos[p["id"]].get("seen", "")) < (today - timedelta(days=21)).isoformat()][:30]
+            lot = jamais[:budget - len(relire)] + relire          # une part réservée à la relecture des plus anciennes
+            lot += [p for p in anciens if p not in lot][:budget - len(lot)]
+            for n, p in enumerate(lot):
+                if n and n % 20 == 0:                               # sauvegarde en route : rien n'est payé deux fois
+                    store["photos"] = photos
+                    GOOGLE_STORE.write_text(json.dumps(store, ensure_ascii=False, indent=1), encoding="utf-8")
                 data = _google_search(key, {"textQuery": f"{p['name']}, {p.get('address') or p.get('city') or ''}", "languageCode": "fr",
                                             "regionCode": "BE", "pageSize": 1,
                                             "locationBias": {"circle": {"center": {"latitude": p["lat"], "longitude": p["lon"]}, "radius": 300}}},
                                       fields)
                 g = (data.get("places") or [None])[0]
-                if not g or _km([p["lat"], p["lon"]], [g["location"]["latitude"], g["location"]["longitude"]]) > 0.15:
-                    continue                                # pas sûr que ce soit le même lieu : on ne prend rien
+                loc = (g or {}).get("location") or {}
+                if (not g or loc.get("latitude") is None or _km([p["lat"], p["lon"]], [loc["latitude"], loc["longitude"]]) > 0.15
+                        or not _meme_nom(p["name"], ((g.get("displayName") or {}).get("text")) or "")):
+                    # pas sûr que ce soit le même lieu (trop loin, autre nom) : on ne prend rien ; une photo déjà trouvée
+                    # n'est pas effacée par une seule réponse ratée
+                    old = photos.get(p["id"]) or {"image": None, "image_credit": None, "closed": False}
+                    photos[p["id"]] = dict(old, seen=today.isoformat())
+                    continue
                 img, credit = _google_photo(g, proxy)
-                photos[p["id"]] = {"image": img, "image_credit": credit, "closed": g.get("businessStatus") == "CLOSED_PERMANENTLY"}
+                photos[p["id"]] = {"image": img, "image_credit": credit, "closed": g.get("businessStatus") == "CLOSED_PERMANENTLY",
+                                   "seen": today.isoformat()}
             store["photos"] = photos
-            store["last_run"] = datetime.now().isoformat(timespec="seconds")
-            REPORT.append({"source": "Google : photos des lieux", "ok": True, "trouvees": sum(1 for x in photos.values() if x["image"])})
+            REPORT.append({"source": "Google : photos des lieux", "ok": True, "trouvees": sum(1 for x in photos.values() if x.get("image"))})
             GOOGLE_STORE.write_text(json.dumps(store, ensure_ascii=False, indent=1), encoding="utf-8")
         except Exception as ex:
             REPORT.append({"source": "Google Maps", "ok": False, "erreur": str(ex).replace(key, "***")[:300]})
+            if "photos" in locals():                       # garder ce qui a déjà été payé
+                store["photos"] = photos
+                GOOGLE_STORE.write_text(json.dumps(store, ensure_ascii=False, indent=1), encoding="utf-8")
     # appliquer la dernière lecture de Google (même entre deux passages)
     out = []
+    try:
+        refus_google = {r for r in _review().get("photo_google_refusee", []) if isinstance(r, str)}   # vues et refusées
+    except Exception:
+        refus_google = set()
+    vieux = (datetime.now().date() - timedelta(days=45)).isoformat()   # référence de photo peut-être expirée
+    stock = store.get("photos") if isinstance(store.get("photos"), dict) else {}
     for p in lieux:
-        g = store.get("photos", {}).get(p["id"])
-        if g and g["closed"]:
+        g = stock.get(p["id"])
+        g = g if isinstance(g, dict) else {}
+        if g.get("closed") is True:
             continue                                        # fermé définitivement selon Google
-        if g and g["image"] and not p.get("image"):
-            p["image"], p["image_credit"] = g["image"], g["image_credit"]
+        if (not p.get("image") and _google_ok(g.get("image")) and p["id"] not in refus_google
+                and str(g.get("seen", "")) >= vieux):
+            p["image"], p["image_credit"] = g["image"], (g.get("image_credit") if isinstance(g.get("image_credit"), str) else "Google Maps")
         out.append(p)
-    for b in store.get("bars", []):                         # un bar déjà choisi à la main garde sa fiche (et prend la photo s'il n'en a pas)
+    for b in [b for b in store.get("bars", []) if isinstance(b, dict) and _google_ok(b.get("image"))]:
+        # un bar déjà choisi à la main garde sa fiche (et prend la photo s'il n'en a pas)
         twin = next((p for p in out if p["kind"] == "bar" and _km([p["lat"], p["lon"]], [b["lat"], b["lon"]]) < 0.08), None)
         if twin:
             if not twin.get("image"):
@@ -681,7 +744,12 @@ def build_places():
         osm = places()
     except Exception as ex:
         print(f"Lieux d'activités: OpenStreetMap en échec ({ex}), on garde la liste précédente", file=sys.stderr)
-        osm = [p for p in prev if p["id"].startswith("osm-")]
+        try:              # la liste précédente contient aussi les lieux des guides : on ne reprend que ceux du robot
+            guides = {v.get("id") for v in json.loads(CITY_PLACES.read_text())["lieux"]}
+        except Exception:
+            guides = set()
+        osm = [dict(p, image=None, image_credit=None) if _google_ok(p.get("image")) else p
+               for p in prev if p["id"].startswith("osm-") and p["id"] not in guides]   # photo Google : relue par google_places
     osm = [p for p in osm if in_belgium(p["lat"], p["lon"])]
     GEOCACHE.write_text(json.dumps(_geo, ensure_ascii=False, indent=1))
     # guides des villes (build_lieux_villes.py : musées, incontournables, bars de Liège, activités), avec leur photo relue.
@@ -729,6 +797,9 @@ def build_places():
     picked = _review().get("photo_site")       # photo du site choisie à l'œil sur une planche (build_lieux_villes.py)
     picked = picked if isinstance(picked, dict) else {}
     for p in lieux:          # photo du site officiel, sinon photo libre du lieu précis, sinon rien (l'app montre une icône)
+        if _google_ok(p.get("image")):
+            continue          # photo Google Maps (par notre serveur) : les refus ci-dessous visaient la photo du site ;
+                              # une photo Google refusée à l'œil va dans « photo_google_refusee » (lieux_villes_revue.json)
         if p.get("id") in picked and not str(p.get("id")).startswith("vivyo-"):
             if p.get("image") != picked[p["id"]]:
                 p["image"] = None      # jamais un autre choix automatique à la place (c'était un logo, une affiche…)

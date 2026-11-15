@@ -1,5 +1,5 @@
 {
- "_aide": "Bars les mieux notés sur Google Maps, ville par ville, et photos Google pour les lieux qui n'en ont pas. Il faut le secret GitHub GOOGLE_PLACES_KEY (et le même dans le Worker Cloudflare vivyo-inbox pour les photos). top = nombre de bars gardés par ville ; min_reviews / min_rating = seuils de qualité. Une lecture par semaine (~250 appels par mois, dans le gratuit de Google).",
+ "_aide": "Bars les mieux notés sur Google Maps, ville par ville, et photos Google pour les lieux qui n'en ont pas. Il faut le secret GitHub GOOGLE_PLACES_KEY (et le même dans le Worker Cloudflare vivyo-inbox pour les photos). top = nombre de bars gardés par ville ; min_reviews / min_rating = seuils de qualité. Une lecture par semaine : au plus 180 lieux sans photo (bars de Liège d'abord, puis on relit les plus anciens) et les bars les mieux notés des villes, soit environ 1 000 recherches par mois, dans le gratuit de Google. Les photos vues dans l'app passent par le Worker, plafonnées par GOOGLE_PHOTOS_PER_DAY (Cloudflare).",
  "enabled": true,
  "min_days_between_runs": 7,
  "photo_proxy": "https://vivyo-inbox.dylanlebegue35.workers.dev/photo",
@@ -10,7 +10,7 @@
  ],
  "min_reviews": 100,
  "min_rating": 4.3,
- "max_photo_lookups": 120,
+ "max_photo_lookups": 180,
  "cities": [
   {
    "name": "Liège",
