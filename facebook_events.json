@@ -599,29 +599,6 @@
    "classified": true
   },
   {
-   "id": "fb-1645661007130475",
-   "title": "Bowling à Namur avec Activ'elles",
-   "category": "party",
-   "venue": "Bowling de Namur",
-   "city": "Namur",
-   "lat": 50.484366246504,
-   "lon": 4.8547973631882,
-   "start": "2026-11-14T14:45:00",
-   "end": "2026-11-14T17:45:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1645661007130475.jpg",
-   "page_url": "https://www.facebook.com/events/1645661007130475/",
-   "url": "https://www.brasserieedgard.be/",
-   "summary": "Le samedi 14 novembre 2026, nous vous attendons nombreuses au Bowling de Namur, pour deux heures de jeu. Pour celles qui viennent en transport en commun, nous pouvons aller vous chercher et vous ramener à la gare de Namur. Le prix sera fixé en fonction du nombre de participantes mais devrait être in",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1798059307794903",
    "title": "La Corrida de Namur",
    "category": "sport",
@@ -745,29 +722,6 @@
    "price_from": null,
    "free": null,
    "audience": [],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1681190926513048",
-   "title": "Gala 50 ans Alumni EMCP",
-   "category": "party",
-   "venue": "Arsenal de Namur",
-   "city": "Namur",
-   "lat": 50.4642,
-   "lon": 4.85742,
-   "start": "2026-11-13T18:30:00",
-   "end": "2026-11-14T02:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1681190926513048.jpg",
-   "page_url": "https://www.facebook.com/events/1681190926513048/",
-   "url": "https://events.unamur.be/event/442/",
-   "summary": "Le comité Alumni EMCP (anciennement ALMEN) a le plaisir de vous convier au Gala des 50 ans de notre association d’ancien.ne.s étudiant.e.s ! 🎓 Ces retrouvailles conviviales se dérouleront le vendredi 13 novembre 2026, dès 18h30, à l’Arsenal de Namur. Au programme : apéritif musical, repas 3 services",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
    "tags": [],
    "source": "Facebook (événement public)",
    "classified": true
@@ -1860,29 +1814,6 @@
    "classified": true
   },
   {
-   "id": "fb-2499377273900497",
-   "title": "Soirée Blind Test 2026",
-   "category": "party",
-   "venue": "Le Bon Sel",
-   "city": "Seraing",
-   "lat": 50.5711,
-   "lon": 5.53597,
-   "start": "2026-11-14T18:00:00",
-   "end": "2026-11-14T21:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-2499377273900497.jpg",
-   "page_url": "https://www.facebook.com/events/2499377273900497/",
-   "url": "https://www.facebook.com/events/2499377273900497/",
-   "summary": "🎤🔴⚪ SOIRÉE BLIND TEST + TOMBOLA – STANDARD INTERNET ⚪🔴🎤 📅 Samedi 14 novembre 2026 🕕 Dès 18h00 📍 Salle Le Bon Sel Avenue du Gerbier 5, 4100 Seraing ⸻ Après plusieurs mois d’attente, Standard Internet vous invite à une soirée placée sous le signe de la convivialité, du rire et de la bonne humeur ! Au ",
-   "price_from": null,
-   "free": true,
-   "audience": [
-    "young"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1744152976823824",
    "title": "Soirée nouvel an",
    "category": "party",
@@ -1996,27 +1927,6 @@
    "classified": true
   },
   {
-   "id": "fb-1611951407293578",
-   "title": "Concert de la Saint Hubert à Liège",
-   "category": "concert",
-   "venue": "Liège, Angleur",
-   "city": "Liège",
-   "lat": 50.5728634,
-   "lon": 5.5675827,
-   "start": "2026-11-14T15:00:00",
-   "end": "2026-11-14T18:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1611951407293578.jpg",
-   "page_url": "https://www.facebook.com/events/1611951407293578/",
-   "url": "https://www.facebook.com/events/1611951407293578/",
-   "summary": "Prévente 18€/per. - 20€/per. sur place réservation (sms) : 0471 26 79 38 BE85 0019 4715 9206 La Chapelle Musicale Saint-Hubert d’Ardenne fêtera la Saint-Hubert à Angleur. À cette occasion, vous découvrirez plusieurs extraits des compositions de Jean-François Jung, qui allient les trompes de chasse a",
-   "price_from": null,
-   "free": null,
-   "audience": [],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1032801196107604",
    "title": "Magali Ripoll en concert",
    "category": "concert",
@@ -2030,29 +1940,6 @@
    "page_url": "https://www.facebook.com/events/1032801196107604/",
    "url": "https://www.facebook.com/events/1032801196107604/",
    "summary": "De « N'oubliez pas les paroles » à la scène d'Aznavour, l'artiste pose ses claviers au Trocadéro de Liège pour une soirée musicale, drôle et généreuse. Vendredi 9 avril 2027 — 20h00 — Trocadéro, Liège",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1081023421383335",
-   "title": "Soirée Touquetoise 🏝️ (Faucon Gontrand)",
-   "category": "party",
-   "venue": "Waillet, Namur, Belgium",
-   "city": "Somme-Leuze",
-   "lat": 50.267719903,
-   "lon": 5.29446779211,
-   "start": "2026-11-14T19:00:00",
-   "end": "2026-11-14T22:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1081023421383335.jpg",
-   "page_url": "https://www.facebook.com/events/1081023421383335/",
-   "url": "https://www.facebook.com/events/1081023421383335/",
-   "summary": "Bonjour à tous Nous organisons une soirée pour soutenir Gontrand à la préparation de son Enduropale du Touquet 2027. 🌴 📅 Samedi 14 novembre dès 18h 📍Salle des Singlets. Rue de Vérenne 2, 5377 Waillet 🎉 Au programme : de la bonne humeur, de la musique, de quoi boire et manger 🍔. Une belle occasion de",
    "price_from": null,
    "free": null,
    "audience": [
@@ -2266,29 +2153,6 @@
    "classified": true
   },
   {
-   "id": "fb-955260816965496",
-   "title": "Beer Festival BHA (BHABF) 2026",
-   "category": "festival",
-   "venue": "Saint-Denis, Namur, Belgium",
-   "city": "Meux, Namur",
-   "lat": 50.5333,
-   "lon": 4.78333,
-   "start": "2026-11-14T11:00:00",
-   "end": "2026-11-14T22:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-955260816965496.jpg",
-   "page_url": "https://www.facebook.com/events/955260816965496/",
-   "url": "https://www.facebook.com/events/955260816965496/",
-   "summary": "Beer Festival BHA 2026 14 novembre 11h-22h (dernières entrées et tickets à 20h30)",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1082684844724769",
    "title": "soirée caritative au profit du Relais pour La Vie de Dour",
    "category": "party",
@@ -2419,29 +2283,6 @@
    "free": null,
    "audience": [
     "young"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1398460932369112",
-   "title": "Soirée Girly",
-   "category": "party",
-   "venue": "On 600 Belle Institut - Académie d’esthétique",
-   "city": "Charleroi",
-   "lat": 50.44036,
-   "lon": 4.38997,
-   "start": "2026-11-14T15:00:00",
-   "end": "2026-11-14T18:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1398460932369112.jpg",
-   "page_url": "https://www.facebook.com/events/1398460932369112/",
-   "url": "https://www.facebook.com/events/1398460932369112/",
-   "summary": "Une soirée entre filles, avec des cadeaux, des artisan, foot truck. De quoi passer une belle soirée et en profiter 😍",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
    ],
    "tags": [],
    "source": "Facebook (événement public)",
@@ -2796,29 +2637,6 @@
    "classified": true
   },
   {
-   "id": "fb-2059809941342371",
-   "title": "Soirée Vins & Fromages",
-   "category": "food",
-   "venue": "Lac des Doyards",
-   "city": "Vielsalm",
-   "lat": 50.284494451889,
-   "lon": 5.9135625535636,
-   "start": "2026-11-14T19:00:00",
-   "end": "2026-11-14T22:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-2059809941342371.jpg",
-   "page_url": "https://www.facebook.com/events/2059809941342371/",
-   "url": "https://my.weezevent.com/soiree-vins-fromages?locale=fr-fr&o=qr-code",
-   "summary": "Le Club 41 Vielsalm vous invite à une soirée placée sous le signe de la découverte, du goût et surtout de la convivialité ! 📅 Samedi 14 novembre 2026 dès 19h 📍 Hall des Doyards – Vielsalm Au programme : 🍾 Un verre d’apéritif offert 🍷 6 vins soigneusement sélectionnés par Le Millésime 🧀 Une assiette ",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1647216860532793",
    "title": "La soirée royale des Fiertés",
    "category": "party",
@@ -2989,29 +2807,6 @@
    "summary": "𝐆𝐑𝐀𝐍𝐃𝐄 𝐒𝐎𝐈𝐑𝐄́𝐄 𝐂𝐄́𝐋𝐈𝐁𝐀𝐓𝐀𝐈𝐑𝐄𝐒 | Van der Valk Hotel Mons 𝐱 𝐂Œ𝐔𝐑 𝐀̀ 𝐂Œ𝐔𝐑 [𝐒𝐀𝐌 14/11] 🎉✨ MONS, prépare-toi… Les Soirées Cœur à Cœur sont enfin de retour chez toi ! ✨🎉 🎉 𝐋𝐀 𝐒𝐎𝐈𝐑𝐄́𝐄 𝐂𝐄́𝐋𝐈𝐁𝐀𝐓𝐀𝐈𝐑𝐄𝐒 𝐍𝐔𝐌𝐄́𝐑𝐎 𝟏 𝐄𝐍 𝐁𝐄𝐋𝐆𝐈𝐐𝐔𝐄 🎉 ________________________________________ Skip the Line: https://www.partyfinder.com/en",
    "price_from": null,
    "free": null,
-   "audience": [
-    "young"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1843254570185500",
-   "title": "🌀 SOIRÉE D'HYPNOSE LUDIQUE AU MONKEY'S 🌀",
-   "category": "wellness",
-   "venue": "Monkey's Café",
-   "city": "Mons",
-   "lat": 50.4533,
-   "lon": 3.95139,
-   "start": "2026-11-14T20:00:00",
-   "end": "2026-11-14T23:00:00",
-   "image": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-6/854670053_1638249938313052_4837436268093243715_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x1024&ctp=s960x960&_nc_cat=102&ccb=1-7&_nc_sid=75d36f&_nc_ohc=4rGXjzf0x4UQ7kNvwEtQBnu&_nc_oc=AdpGseRQBFm76EjdjW6hzVhG62WnWL11UGLVj2Wq66-86fz5cyfPtV2Ss3FREEidkB4SJtmH-5Yi-iK_AVx-aDlg&_nc_zt=23&_nc_ht=scontent-lga3-3.xx&_nc_gid=RsIXDVAmspo3qSskXTozTA&_nc_ss=70289&oh=00_AQPQW28QA4MlXkUHsbAUojqvl_gqFclvaMCA2FUS68WZVw&oe=6ADDC5F4",
-   "page_url": "https://www.facebook.com/events/1843254570185500/",
-   "url": "https://www.facebook.com/events/1843254570185500/",
-   "summary": "Et si vous veniez vivre l'hypnose plutôt que simplement en entendre parler ? Le temps d'une soirée, découvrez des expériences étonnantes, amusantes et interactives dans une ambiance décontractée et conviviale au cœur de Mons. ✨ Démonstrations en direct ✨ Volontaires du public ✨ Expériences hypnotiqu",
-   "price_from": null,
-   "free": true,
    "audience": [
     "young"
    ],
@@ -3296,29 +3091,6 @@
    "price_from": null,
    "free": true,
    "audience": [],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-914214671525121",
-   "title": "Week-end Open Floor à Louvain La Neuve",
-   "category": "workshop",
-   "venue": "Rue de la Malaise 10A, 1340 Ottignies-Louvain-la-Neuve, Belgique",
-   "city": "Ottignies-Louvain-la-Neuve",
-   "lat": 50.65709,
-   "lon": 4.59564,
-   "start": "2026-11-14T10:00:00",
-   "end": "2026-11-14T17:00:00",
-   "image": "https://scontent.fyyz1-2.fna.fbcdn.net/v/t39.30808-6/825329542_1510152661141595_5459273708686268553_n.jpg?stp=dst-jpg_tt6&cstp=mx1181x709&ctp=s960x960&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=-sDUmZ7d3UAQ7kNvwHD2Mkn&_nc_oc=Adq-htd08pN0vjnziwi2gwOiDF5bC5zIzvy9i0EfxbdyHN1QwVzeAGXofK_CMlx-UTaTdemGGAQTw9C10PY_gPE5&_nc_zt=23&_nc_ht=scontent.fyyz1-2.fna&_nc_gid=nzIfTGauD9ekZjPSeuKcag&_nc_ss=70289&oh=00_AQPt5pGrFrhsCbyEIShzelm-pC8c1j0m9Cqo5iUGYdWoow&oe=6ADDD0C5",
-   "page_url": "https://www.facebook.com/events/914214671525121/",
-   "url": "https://www.facebook.com/events/914214671525121/",
-   "summary": "Un stage de danse ouvert à toutes et tous à partir de 18 ans. Ce thème évoque bien sûr le cycle du mouvement Open Floor, mais aussi les cycles des saisons et ceux que nous traversons sans cesse. Danser, c’est aussi laisser mourir certaines formes pour en laisser naître de nouvelles. Faire de la plac",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
    "tags": [],
    "source": "Facebook (événement public)",
    "classified": true
