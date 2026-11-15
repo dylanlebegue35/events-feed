@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T20:43:21",
+ "generated": "2026-11-15T20:57:45",
  "places": [
   {
    "id": "vivyo-space-malmedy",
@@ -1133,7 +1133,7 @@
    "image_credit": null,
    "website": "http://www.dogmacocktails.be/index.html",
    "instagram": "https://www.instagram.com/dogmacocktails/",
-   "image": null
+   "image": "https://www.dogmacocktails.be/img/dogma/bar2.jpg"
   },
   {
    "id": "vivyo-marigold-anvers",
@@ -2285,7 +2285,7 @@
    "image_credit": null,
    "website": "https://www.pepperkortrijk.be/",
    "instagram": "https://instagram.com/pepperkortrijk",
-   "image": null
+   "image": "https://impro.usercontent.one/appid/oneComWsb/domain/pepperkortrijk.be/media/pepperkortrijk.be/onewebmedia/interieur_pepper.webp?etag=W%2F%2248c6e-196e88eaa50%22&sourceContentType=image%2Fwebp"
   },
   {
    "id": "vivyo-tarterie-courtrai",
@@ -4592,6 +4592,24 @@
    "image": null
   },
   {
+   "id": "osm-way-887914802",
+   "lat": 50.8616827,
+   "lon": 4.3938868,
+   "partner": false,
+   "name": "Compagnie les nouveaux disparus",
+   "kind": "theatre",
+   "kind_label": "Théâtre",
+   "city": "Bruxelles",
+   "address": null,
+   "hours": null,
+   "pitch": null,
+   "offer": null,
+   "image_credit": null,
+   "website": "https://www.lesnouveauxdisparus.be/",
+   "instagram": null,
+   "image": null
+  },
+  {
    "id": "osm-node-11393650500",
    "lat": 50.8386982,
    "lon": 4.2879877,
@@ -5453,7 +5471,7 @@
    "image_credit": null,
    "website": "https://www.vaartkapoen.be/",
    "instagram": null,
-   "image": null
+   "image": "https://www.vaartkapoen.be/sites/vaartkapoen/files/2024-07/baraka%20sounds%20al%20fanamenco%202.jpg"
   },
   {
    "id": "osm-node-4039122420",
@@ -6131,7 +6149,7 @@
    "kind_label": "Musée",
    "city": "Bruxelles",
    "address": null,
-   "hours": "Th-Sa 14:00-18:00",
+   "hours": "Tu-Su 10:00-17:00",
    "pitch": null,
    "offer": null,
    "image_credit": "Myrabella / Wikimedia Commons, CC BY-SA 3.0",
@@ -7481,7 +7499,7 @@
    "kind_label": "Musée",
    "city": "Bruxelles",
    "address": null,
-   "hours": null,
+   "hours": "Th-Sa 14:00-18:00",
    "pitch": null,
    "offer": null,
    "image_credit": null,
@@ -8606,11 +8624,11 @@
    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Th%C3%A9%C3%A2tre_de_la_Monnaie_1.JPG/1280px-Th%C3%A9%C3%A2tre_de_la_Monnaie_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   },
   {
-   "id": "wd-Q2671145",
-   "lat": 50.826319,
-   "lon": 4.365278,
+   "id": "wd-Q205064",
+   "lat": 50.848782,
+   "lon": 4.345655,
    "partner": false,
-   "name": "Hôtel Solvay",
+   "name": "Het Zinneke",
    "kind": "sight",
    "kind_label": "Incontournable",
    "city": "Bruxelles",
@@ -8618,10 +8636,10 @@
    "hours": null,
    "pitch": null,
    "offer": null,
-   "image_credit": "Zinneke / Wikimedia Commons, CC BY-SA 3.0",
-   "website": "http://www.hotelsolvay.be",
+   "image_credit": "Trougnouf (Benoit Brummer) / Wikimedia Commons, CC BY 4.0",
+   "website": null,
    "instagram": null,
-   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Avenue_Louise_224_Louizalaan_Brussels_2012-08.jpg/1280px-Avenue_Louise_224_Louizalaan_Brussels_2012-08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Het_Zinneke_%28DSCF5238%29_Brussels%2C_BE.jpg/1280px-Het_Zinneke_%28DSCF5238%29_Brussels%2C_BE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   },
   {
    "id": "osm-node-10938904902",
@@ -8766,24 +8784,6 @@
    "website": null,
    "instagram": null,
    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Cirque_Royal_in_June_2016.jpg/1280px-Cirque_Royal_in_June_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  },
-  {
-   "id": "osm-way-887914802",
-   "lat": 50.8616827,
-   "lon": 4.3938868,
-   "partner": false,
-   "name": "Compagnie les nouveaux disparus",
-   "kind": "theatre",
-   "kind_label": "Théâtre",
-   "city": "Bruxelles",
-   "address": null,
-   "hours": null,
-   "pitch": null,
-   "offer": null,
-   "image_credit": null,
-   "website": "https://www.lesnouveauxdisparus.be/",
-   "instagram": null,
-   "image": null
   },
   {
    "id": "osm-node-418893951",
@@ -8945,7 +8945,7 @@
    "image_credit": null,
    "website": "https://www.osamoelle.be/",
    "instagram": null,
-   "image": null
+   "image": "https://static.wixstatic.com/media/c92ea2_86d3068c79b64f49b01927c341dd5832~mv2.jpg/v1/fill/w_2500,h_1875,al_c/c92ea2_86d3068c79b64f49b01927c341dd5832~mv2.jpg"
   },
   {
    "id": "osm-way-246307748",
@@ -9125,7 +9125,7 @@
    "image_credit": null,
    "website": "https://lepetitchapeaurondrouge.be/",
    "instagram": null,
-   "image": null
+   "image": "https://lepetitchapeaurondrouge.be/wp-content/uploads/2016/10/slider1-1.jpg"
   },
   {
    "id": "osm-node-14366977216",
@@ -9233,7 +9233,7 @@
    "image_credit": null,
    "website": "https://www.theatremarni.com/",
    "instagram": null,
-   "image": null
+   "image": "https://www.theatremarni.com/IMG/jpg/260910-cv-adja-36.jpg"
   },
   {
    "id": "osm-way-256394182",
@@ -9377,7 +9377,7 @@
    "image_credit": null,
    "website": "https://www.ttotheatre.com/",
    "instagram": null,
-   "image": null
+   "image": "https://www.ttotheatre.com/wp-content/themes/tto-2016/assets/video/hall.jpg"
   },
   {
    "id": "osm-node-10128807040",
@@ -10630,7 +10630,7 @@
    "kind": "museum",
    "kind_label": "Musée",
    "city": "Anvers",
-   "address": null,
+   "address": "Suikerrui 21",
    "hours": null,
    "pitch": null,
    "offer": null,
@@ -10648,7 +10648,7 @@
    "kind": "museum",
    "kind_label": "Musée",
    "city": "Anvers",
-   "address": "Suikerrui 21",
+   "address": null,
    "hours": null,
    "pitch": null,
    "offer": null,
@@ -11411,7 +11411,7 @@
    "image_credit": null,
    "website": "https://fakkeltheater.be",
    "instagram": null,
-   "image": null
+   "image": "https://www.fakkeltheater.be/wp-content/uploads/2025/08/IV-20210704-FT-018E-scaled.jpg"
   },
   {
    "id": "osm-node-6387315787",
@@ -11501,7 +11501,7 @@
    "image_credit": null,
    "website": "https://www.oltrivierenhof.be",
    "instagram": null,
-   "image": null
+   "image": "https://www.oltrivierenhof.be/media/cache/default_card/upload/media/default/b354/0b/7f8fc561ace63499fe82bf88851222d83a9f5f76.jpg"
   },
   {
    "id": "osm-way-1390483587",
@@ -11537,7 +11537,7 @@
    "image_credit": null,
    "website": "https://www.rataplanvzw.be",
    "instagram": null,
-   "image": null
+   "image": "https://www.rataplanvzw.be/uploads/cover/01953d5c-58f1-7442-8e7f-1be43000516a.jpg"
   },
   {
    "id": "osm-way-23374043",
@@ -12059,7 +12059,7 @@
    "image_credit": null,
    "website": "https://www.clubsauvage.be/",
    "instagram": null,
-   "image": null
+   "image": "https://static.wixstatic.com/media/64b651_c47195cad36447ddbf945dac2a8dcaaa~mv2.jpg/v1/fit/w_696,h_464,q_90,enc_avif,quality_auto/64b651_c47195cad36447ddbf945dac2a8dcaaa~mv2.jpg"
   },
   {
    "id": "osm-way-346473773",
@@ -12077,7 +12077,7 @@
    "image_credit": null,
    "website": "https://www.kokorico.be/",
    "instagram": null,
-   "image": null
+   "image": "https://kokorico.be/wp-content/uploads/2026/04/486850010_1089366746563095_7456864564093162542_n-1.jpg"
   },
   {
    "id": "osm-node-10049929027",
@@ -12095,7 +12095,7 @@
    "image_credit": null,
    "website": "https://kompassklub.com/",
    "instagram": null,
-   "image": null
+   "image": "https://kompassklub.com/wp-content/uploads/2025/01/KOMPASS-SELECTIONS-OVERVIEWS-NACHTSCHADUW-HIGHRES-032.jpg"
   },
   {
    "id": "osm-node-14053610922",
@@ -18233,7 +18233,7 @@
    "image_credit": null,
    "website": "https://www.labouffonnerie.be",
    "instagram": null,
-   "image": null
+   "image": "https://www.labouffonnerie.be/site/Images/apropos4.jpg"
   },
   {
    "id": "osm-way-176885423",
@@ -18341,7 +18341,7 @@
    "image_credit": null,
    "website": "https://theatredelalena.be/",
    "instagram": null,
-   "image": null
+   "image": "https://theatredelalena.be/wp-content/uploads/2023/08/233-5-1200x900.jpg"
   },
   {
    "id": "osm-node-10864242756",
@@ -18359,7 +18359,7 @@
    "image_credit": null,
    "website": "https://www.theatre-etuve.be/",
    "instagram": null,
-   "image": null
+   "image": "https://www.theatre-etuve.be/assets/sallevoorire-liege-theatre-etuve.webp"
   },
   {
    "id": "osm-node-11681637071",
@@ -18489,8 +18489,8 @@
   },
   {
    "id": "osm-way-164618130",
-   "lat": 50.4588841,
-   "lon": 4.8785245,
+   "lat": 50.4589212,
+   "lon": 4.8785138,
    "partner": false,
    "name": "Roc Evasion Escalade",
    "kind": "climbing",
@@ -18737,7 +18737,7 @@
    "image_credit": null,
    "website": "https://www.nam-ip.be/",
    "instagram": null,
-   "image": "https://www.nam-ip.be/wp-content/uploads/2023/04/muse_52692529070_o.jpg"
+   "image": null
   },
   {
    "id": "wd-Q17347152",
@@ -19691,7 +19691,7 @@
    "image_credit": null,
    "website": "https://www.theatremarignan.be/",
    "instagram": null,
-   "image": null
+   "image": "https://www.theatremarignan.be/wp-content/uploads/2025/01/368053136_2514839155360716_3707762799034163265_n.jpg"
   },
   {
    "id": "osm-node-13006320837",
@@ -19990,8 +19990,8 @@
    "kind": "museum",
    "kind_label": "Musée",
    "city": "Mons",
-   "address": null,
-   "hours": null,
+   "address": "Rue Neuve 8, 7000 Mons",
+   "hours": "We-Fr 10:00-17:00; Sa 12:00-18:00; Su 10:00-15:00; Mo-Tu off",
    "pitch": null,
    "offer": null,
    "image_credit": "Jean-Pol GRANDMONT / Wikimedia Commons, CC BY-SA 3.0",
@@ -20699,7 +20699,7 @@
    "image_credit": null,
    "website": "https://stelplaats.be/",
    "instagram": null,
-   "image": null
+   "image": "https://stelplaats.be/assets/images/_2400x1600_crop_center-center_61_line/horst-x-nachtplan-lab-2022-jw-print-res-62.jpg.webp"
   },
   {
    "id": "osm-node-7612588131",
@@ -22445,7 +22445,7 @@
    "image_credit": null,
    "website": "https://www.chapter4.club",
    "instagram": null,
-   "image": null
+   "image": "https://cdn.prod.website-files.com/66eabefbad1e9ecc1d50d517/6957fbea054f00ff9122ae57_thumbnail_C4_005.jpg"
   },
   {
    "id": "osm-node-12194392950",
@@ -23129,7 +23129,7 @@
    "image_credit": null,
    "website": "https://www.bowlingdekegel.be/",
    "instagram": null,
-   "image": null
+   "image": "https://www.bowlingdekegel.be/img/indexImg/karting.jpg"
   },
   {
    "id": "osm-way-809171049",
@@ -23169,8 +23169,8 @@
   },
   {
    "id": "osm-way-91870086",
-   "lat": 51.2493112,
-   "lon": 2.9646051,
+   "lat": 51.2493152,
+   "lon": 2.9645642,
    "partner": false,
    "name": "Minigolf Bredene",
    "kind": "minigolf",
@@ -24382,8 +24382,8 @@
    "kind": "museum",
    "kind_label": "Musée",
    "city": "Tournai",
-   "address": "Rue Saint-Martin 52, 7500 Tournai",
-   "hours": "Mo,We-Fr 09:00-17:00; Tu 12:00-17:00",
+   "address": "Rue de l'Enclos Saint-Martin 3, 7500 Tournai",
+   "hours": "Tu-Sa 09:30-17:00; Su,PH 11:00-17:00; May 1 off",
    "pitch": null,
    "offer": null,
    "image_credit": "Sailko / Wikimedia Commons, CC BY 3.0",
@@ -24400,8 +24400,8 @@
    "kind": "museum",
    "kind_label": "Musée",
    "city": "Tournai",
-   "address": null,
-   "hours": null,
+   "address": "Rue Saint-Martin 47, 7500 Tournai",
+   "hours": "Tu-Fr 09:00-12:30,14:00-17:00; Sa,Su,PH 14:00-18:00",
    "pitch": null,
    "offer": null,
    "image_credit": "Michel wal / Wikimedia Commons, CC BY-SA 3.0",
@@ -24418,8 +24418,8 @@
    "kind": "museum",
    "kind_label": "Musée",
    "city": "Tournai",
-   "address": "Rue Saint-Martin 47, 7500 Tournai",
-   "hours": "Tu-Fr 09:00-12:30,14:00-17:00; Sa,Su,PH 14:00-18:00",
+   "address": null,
+   "hours": null,
    "pitch": null,
    "offer": null,
    "image_credit": "Phira7540 / Wikimedia Commons, CC BY-SA 4.0",
@@ -24454,8 +24454,8 @@
    "kind": "museum",
    "kind_label": "Musée",
    "city": "Tournai",
-   "address": "Rue Saint-Martin, 7500 Tournai",
-   "hours": null,
+   "address": "Rue Saint-Martin 52, 7500 Tournai",
+   "hours": "Mo,We-Fr 09:00-17:00; Tu 12:00-17:00",
    "pitch": null,
    "offer": null,
    "image_credit": "FrDr / Wikimedia Commons, CC BY-SA 4.0",
@@ -24472,8 +24472,8 @@
    "kind": "museum",
    "kind_label": "Musée",
    "city": "Tournai",
-   "address": "Place Reine Astrid 9, 7500 Tournai",
-   "hours": "Tu-Fr 10:00-17:30; Sa 10:00-18:00; Su,PH 14:00-18:00; Jan 1, May1, Nov 11, Dec 24, Dec 25, Dec 31 off",
+   "address": null,
+   "hours": null,
    "pitch": null,
    "offer": null,
    "image_credit": "Szilas / Wikimedia Commons, CC BY 4.0",
@@ -26261,7 +26261,7 @@
    "image_credit": null,
    "website": "https://www.maison-culture-arlon.be/",
    "instagram": null,
-   "image": null
+   "image": "https://maison-culture-arlon.be/wp-content/uploads/2026/09/pour-site.png"
   },
   {
    "id": "osm-node-389938252",
@@ -26981,7 +26981,7 @@
    "image_credit": null,
    "website": "https://www.fabriekspand.be/",
    "instagram": null,
-   "image": null
+   "image": "https://www.fabriekspand.be/sites/default/files/styles/default/public/2023-01/1-911.jpg?itok=divDXmJd"
   },
   {
    "id": "osm-node-9646871703",
@@ -28547,7 +28547,7 @@
    "image_credit": null,
    "website": "https://www.drjack.be/",
    "instagram": null,
-   "image": null
+   "image": "https://www.drjack.be/wp-content/uploads/2017/04/DoktorJack202312131-147.jpg"
   },
   {
    "id": "osm-node-7612591198",
