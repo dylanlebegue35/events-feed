@@ -1,5 +1,5 @@
 {
-  "genere": "2026-11-15T11:40:02",
+  "genere": "2026-11-15T20:43:22",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -8,8 +8,6 @@
       "ia_a_trouve": 1,
       "gardes": 0,
       "ecartes": 1,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -42,9 +40,9 @@
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 55203,
-      "ia_a_trouve": 39,
-      "gardes": 39,
+      "page_caracteres": 51031,
+      "ia_a_trouve": 38,
+      "gardes": 38,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -53,9 +51,9 @@
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 41550,
-      "ia_a_trouve": 123,
-      "gardes": 123,
+      "page_caracteres": 41246,
+      "ia_a_trouve": 122,
+      "gardes": 122,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -66,6 +64,8 @@
       "ia_a_trouve": 2,
       "gardes": 2,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -89,10 +89,10 @@
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 12406,
-      "ia_a_trouve": 2,
+      "page_caracteres": 12708,
+      "ia_a_trouve": 5,
       "gardes": 0,
-      "ecartes": 2,
+      "ecartes": 5,
       "morceaux": 1,
       "reponses_coupees": 0,
       "extrait_reponse_ia": ""
@@ -113,8 +113,6 @@
       "ia_a_trouve": 9,
       "gardes": 9,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -160,8 +158,6 @@
       "ia_a_trouve": 6,
       "gardes": 6,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -185,19 +181,23 @@
     {
       "source": "Ancienne Belgique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 6745,
+      "page_caracteres": 6358,
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Botanique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 4239,
+      "page_caracteres": 4070,
       "ia_a_trouve": 3,
       "gardes": 3,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -221,9 +221,9 @@
     {
       "source": "Mars – Mons arts de la scène",
       "ok": true,
-      "page_caracteres": 12161,
-      "ia_a_trouve": 12,
-      "gardes": 12,
+      "page_caracteres": 12332,
+      "ia_a_trouve": 14,
+      "gardes": 14,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -249,13 +249,13 @@
     {
       "source": "Doublons fusionnés",
       "ok": true,
-      "fusionnes": 39
+      "fusionnes": 38
     },
     {
       "source": "Pages des billetteries",
       "ok": true,
-      "pages_lues": 2,
-      "pages_lues_par_ia": 2
+      "pages_lues": 5,
+      "pages_lues_par_ia": 7
     }
   ],
   "avec_image": 1040,
