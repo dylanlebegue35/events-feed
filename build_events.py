@@ -494,6 +494,77 @@ def places(radius=50000):
     return out
 
 
+# Restaurants (17/11/2026, demande de Dylan : « la même chose que les bars ») : tous les restaurants de Liège d'OpenStreetMap,
+# plus les mieux notés de chaque ville sur Google (google_places.json, bloc « restaurants »). Ils ne sont publiés que quand
+# « restaurants.publier » vaut true : l'app v1 ne connaît pas encore la rubrique Restos (elle arrive avec la v1.1).
+RESTO_CITIES = {"Liège": (50.6412, 5.5718, 6.5)}       # ville : (lat, lon, rayon en km)
+CUISINES = {
+    "italian": "Restaurant italien", "pizza": "Pizzeria", "pasta": "Restaurant italien", "french": "Restaurant français",
+    "regional": "Cuisine belge", "belgian": "Cuisine belge", "local": "Cuisine belge", "brasserie": "Brasserie",
+    "friture": "Friterie", "chinese": "Restaurant chinois", "asian": "Restaurant asiatique", "japanese": "Restaurant japonais",
+    "sushi": "Sushi", "ramen": "Ramen", "thai": "Restaurant thaï", "vietnamese": "Restaurant vietnamien",
+    "korean": "Restaurant coréen", "indian": "Restaurant indien", "lebanese": "Restaurant libanais",
+    "syrian": "Restaurant syrien", "turkish": "Restaurant turc", "greek": "Restaurant grec", "moroccan": "Restaurant marocain",
+    "couscous": "Restaurant marocain", "african": "Restaurant africain", "mexican": "Restaurant mexicain",
+    "spanish": "Restaurant espagnol", "tapas": "Tapas", "portuguese": "Restaurant portugais", "mediterranean": "Cuisine méditerranéenne",
+    "burger": "Burgers", "steak_house": "Grill", "grill": "Grill", "meat": "Grill", "seafood": "Poissons et fruits de mer",
+    "fish": "Poissons et fruits de mer", "vegan": "Restaurant végétarien", "vegetarian": "Restaurant végétarien",
+    "international": "Cuisine du monde", "fusion": "Cuisine fusion", "afghan": "Restaurant afghan",
+}
+# cantines d'école, d'hôpital ou d'université (pas « Cantine sans patron » ni « Le Réfectoire », de vrais restos de Liège)
+RESTO_SKIP = re.compile(r"\b(poker|school|internat|caf[ée]t[ée]ria|maison de repos|h[ôo]pital|clinique|"
+                        r"restaurant (scolaire|d'entreprise|universitaire)|resto u)\b", re.I)
+
+
+def restos_osm():
+    """Tous les restaurants nommés autour des villes de RESTO_CITIES (amenity=restaurant : pas les fast-foods)."""
+    out, seen = [], set()
+    for city, (lat0, lon0, km) in RESTO_CITIES.items():
+        query = (f'[out:json][timeout:90];(nwr(around:{int(km * 1000)},{lat0},{lon0})["amenity"="restaurant"];);out tags center;')
+        data = None
+        for url in OVERPASS:
+            r = subprocess.run(["curl", "-s", "--max-time", "120", "-A", "StudioAppsBot/1.0 (events-feed)",
+                                "-H", "Accept: application/json", url, "--data-urlencode", "data=" + query], capture_output=True)
+            try:
+                data = json.loads(r.stdout)
+            except Exception:
+                continue
+            # serveur saturé : il répond parfois {"remark": "..."} sans rien d'autre ; une liste vide effacerait tous les restos
+            if isinstance(data, dict) and data.get("elements") and not data.get("remark"):
+                break
+            data = None
+        if data is None:
+            raise RuntimeError("OpenStreetMap indisponible (restaurants)")
+        for el in data.get("elements", []):
+            t = el.get("tags", {})
+            name = (t.get("name") or "").strip()
+            lat = el.get("lat") or el.get("center", {}).get("lat")
+            lon = el.get("lon") or el.get("center", {}).get("lon")
+            if not name or lat is None or lon is None or RESTO_SKIP.search(name) or t.get("access") in ("private", "no"):
+                continue
+            key = (name.lower(), round(lat, 3), round(lon, 3))
+            if key in seen:
+                continue
+            seen.add(key)
+            cuisines = [c.strip() for c in (t.get("cuisine") or "").split(";") if c.strip()]
+            label = next((CUISINES[c] for c in cuisines if c in CUISINES), "Restaurant")
+            site = (t.get("website") or t.get("contact:website") or "").strip() or None
+            if site and not re.match(r"https?://", site, re.I):
+                site = "https://" + site
+            street =" ".join(x for x in (t.get("addr:street"), t.get("addr:housenumber")) if x)
+            out.append({"id": f"osm-{el['type']}-{el['id']}", "name": name[:120], "kind": "restaurant", "kind_label": label,
+                        "city": city, "address": (street + (", " + t["addr:city"] if t.get("addr:city") else "")) or None,
+                        "lat": lat, "lon": lon, "website": site, "hours": t.get("opening_hours"), "image": None})
+    return out
+
+
+def restos_published():
+    try:
+        return (json.loads(GOOGLE_CONFIG.read_text()).get("restaurants") or {}).get("publier") is True
+    except Exception:
+        return False
+
+
 
 CHOSEN_PLACES = HERE / "lieux_choisis.json"
 CITY_PLACES = HERE / "lieux_villes.json"      # généré par build_lieux_villes.py
@@ -566,6 +637,48 @@ def _meme_nom(a, b):
     return _plain(a).strip() == pb.strip()
 
 
+def _google_top(key, proxy, cfg, kind, label, word):
+    """Les lieux les mieux notés de chaque ville de cfg["cities"] (bars, restaurants), avec leur première photo Google."""
+    out = []
+    fields = ("places.id,places.displayName,places.formattedAddress,places.location,places.rating,places.userRatingCount,"
+              "places.businessStatus,places.primaryTypeDisplayName,places.websiteUri,places.photos,nextPageToken")
+    for c in cfg["cities"]:
+        dlat, dlon = c["radius_m"] / 111000, c["radius_m"] / (111000 * 0.64)
+        found, seen = [], set()
+        for gtype in cfg.get("types", [kind]):
+            body = {"textQuery": f"{gtype.replace('_', ' ')} {c['name']}", "includedType": gtype, "languageCode": "fr",
+                    "regionCode": "BE", "pageSize": 20,
+                    "locationRestriction": {"rectangle": {"low": {"latitude": c["lat"] - dlat, "longitude": c["lon"] - dlon},
+                                                          "high": {"latitude": c["lat"] + dlat, "longitude": c["lon"] + dlon}}}}
+            for _ in range(3):                      # 3 pages de 20 au plus
+                data = _google_search(key, body, fields)
+                for g in data.get("places", []):
+                    if g["id"] not in seen:
+                        seen.add(g["id"])
+                        found.append(g)
+                if not data.get("nextPageToken"):
+                    break
+                body["pageToken"] = data["nextPageToken"]
+                time.sleep(2)
+        m, prior = cfg.get("min_reviews", 100), 4.2
+        good = [g for g in found if g.get("businessStatus") == "OPERATIONAL" and g.get("photos")
+                and g.get("userRatingCount", 0) >= m and g.get("rating", 0) >= cfg.get("min_rating", 4.3)]
+        # note « juste » : un 4,9 sur 30 avis ne passe pas devant un 4,6 sur 2 000
+        good.sort(key=lambda g: -(g["userRatingCount"] * g["rating"] + 2 * m * prior) / (g["userRatingCount"] + 2 * m))
+        for g in good[:c["top"]]:
+            try:                                    # un résultat mal formé est sauté, il ne fait pas échouer toute la ville
+                img, credit = _google_photo(g, proxy)
+                out.append({"id": "g-" + str(g["id"]), "google_id": g["id"], "name": g["displayName"]["text"], "kind": kind,
+                            "kind_label": (g.get("primaryTypeDisplayName") or {}).get("text") or label, "city": c["name"],
+                            "address": g.get("formattedAddress"), "lat": float(g["location"]["latitude"]),
+                            "lon": float(g["location"]["longitude"]), "website": g.get("websiteUri"), "hours": None,
+                            "image": img, "image_credit": credit, "pitch": None})
+            except (KeyError, TypeError, ValueError):
+                continue
+        REPORT.append({"source": f"Google : {word} de {c['name']}", "ok": True, "trouves": len(found), "gardes": min(len(good), c["top"])})
+    return out
+
+
 def google_places(lieux):
     key = os.environ.get("GOOGLE_PLACES_KEY")
     cfg = json.loads(GOOGLE_CONFIG.read_text()) if GOOGLE_CONFIG.exists() else {}
@@ -578,41 +691,14 @@ def google_places(lieux):
         store["last_run"] = datetime.now().isoformat(timespec="seconds")
         GOOGLE_STORE.write_text(json.dumps(store, ensure_ascii=False, indent=1), encoding="utf-8")
         try:
-            # 1) les bars les mieux notés, ville par ville
-            bars = []
-            fields = ("places.id,places.displayName,places.formattedAddress,places.location,places.rating,places.userRatingCount,"
-                      "places.businessStatus,places.primaryTypeDisplayName,places.websiteUri,places.photos,nextPageToken")
-            for c in cfg["cities"]:
-                dlat, dlon = c["radius_m"] / 111000, c["radius_m"] / (111000 * 0.64)
-                found, seen = [], set()
-                for kind in cfg.get("types", ["bar"]):
-                    body = {"textQuery": f"{kind.replace('_', ' ')} {c['name']}", "includedType": kind, "languageCode": "fr",
-                            "regionCode": "BE", "pageSize": 20,
-                            "locationRestriction": {"rectangle": {"low": {"latitude": c["lat"] - dlat, "longitude": c["lon"] - dlon},
-                                                                  "high": {"latitude": c["lat"] + dlat, "longitude": c["lon"] + dlon}}}}
-                    for _ in range(3):                      # 3 pages de 20 au plus
-                        data = _google_search(key, body, fields)
-                        for g in data.get("places", []):
-                            if g["id"] not in seen:
-                                seen.add(g["id"])
-                                found.append(g)
-                        if not data.get("nextPageToken"):
-                            break
-                        body["pageToken"] = data["nextPageToken"]
-                        time.sleep(2)
-                m, prior = cfg.get("min_reviews", 100), 4.2
-                good = [g for g in found if g.get("businessStatus") == "OPERATIONAL" and g.get("photos")
-                        and g.get("userRatingCount", 0) >= m and g.get("rating", 0) >= cfg.get("min_rating", 4.3)]
-                # note « juste » : un 4,9 sur 30 avis ne passe pas devant un 4,6 sur 2 000
-                good.sort(key=lambda g: -(g["userRatingCount"] * g["rating"] + 2 * m * prior) / (g["userRatingCount"] + 2 * m))
-                for g in good[:c["top"]]:
-                    img, credit = _google_photo(g, proxy)
-                    bars.append({"id": "g-" + g["id"], "google_id": g["id"], "name": g["displayName"]["text"], "kind": "bar",
-                                 "kind_label": (g.get("primaryTypeDisplayName") or {}).get("text") or "Bar", "city": c["name"],
-                                 "address": g.get("formattedAddress"), "lat": g["location"]["latitude"], "lon": g["location"]["longitude"],
-                                 "website": g.get("websiteUri"), "hours": None, "image": img, "image_credit": credit, "pitch": None})
-                REPORT.append({"source": f"Google : bars de {c['name']}", "ok": True, "trouves": len(found), "gardes": min(len(good), c["top"])})
-            store["bars"] = bars
+            # 1) les bars les mieux notés, ville par ville ; puis les restaurants (bloc « restaurants » de google_places.json)
+            store["bars"] = _google_top(key, proxy, cfg, "bar", "Bar", "bars")
+            rcfg = cfg.get("restaurants") if isinstance(cfg.get("restaurants"), dict) else {}
+            if rcfg.get("enabled") and rcfg.get("cities"):
+                try:                                # un souci côté restos ne doit pas priver les bars de leurs photos
+                    store["restaurants"] = _google_top(key, proxy, rcfg, "restaurant", "Restaurant", "restaurants")
+                except Exception as ex:
+                    REPORT.append({"source": "Google : restaurants", "ok": False, "erreur": str(ex).replace(key, "***")[:300]})
             # 2) une photo pour les lieux qui n'en ont pas (et les lieux fermés pour de bon). D'abord ceux jamais cherchés,
             #    les bars de Liège en tête ; puis on relit les plus anciens (une référence de photo Google peut expirer).
             #    Les photos déjà trouvées sont gardées d'une semaine à l'autre.
@@ -623,9 +709,18 @@ def google_places(lieux):
             # mémoire : gardée pour tout lieu encore publié (ou vu il y a moins de 90 jours : OSM peut répondre à moitié)
             photos = {k: v for k, v in store.get("photos", {}).items() if isinstance(v, dict)
                       and (k in tous or str(v.get("seen", "")) >= (today - timedelta(days=90)).isoformat())}
-            rang = {"bar": 0, "club": 1, "brunch": 2, "brewery": 3, "concert": 4, "karaoke": 5}
+            rang = {"bar": 0, "club": 1, "brunch": 2, "brewery": 3, "concert": 4, "karaoke": 5, "restaurant": 6}
             jamais = sorted((p for p in sans if p["id"] not in photos),
                             key=lambda p: (p.get("city") != "Liège", rang.get(p.get("kind"), 9)))
+            # les restos (445 rien qu'à Liège) : au plus N par passage, pour que les autres lieux avancent aussi
+            cap_r, n_r, garde = int((cfg.get("restaurants") or {}).get("max_photo_lookups") or 60), 0, []
+            for p in jamais:
+                if p.get("kind") == "restaurant":
+                    if n_r >= cap_r:
+                        continue
+                    n_r += 1
+                garde.append(p)
+            jamais = garde
             anciens = sorted((p for p in sans if p["id"] in photos), key=lambda p: str(photos[p["id"]].get("seen", "")))
             budget = cfg.get("max_photo_lookups", 120)
             relire = [p for p in anciens if str(photos[p["id"]].get("seen", "")) < (today - timedelta(days=21)).isoformat()][:30]
@@ -676,14 +771,26 @@ def google_places(lieux):
                 and str(g.get("seen", "")) >= vieux):
             p["image"], p["image_credit"] = g["image"], (g.get("image_credit") if isinstance(g.get("image_credit"), str) else "Google Maps")
         out.append(p)
-    for b in [b for b in store.get("bars", []) if isinstance(b, dict) and _google_ok(b.get("image"))]:
-        # un bar déjà choisi à la main garde sa fiche (et prend la photo s'il n'en a pas)
-        twin = next((p for p in out if p["kind"] == "bar" and _km([p["lat"], p["lon"]], [b["lat"], b["lon"]]) < 0.08), None)
+    top_order = {}
+    tops = [b for b in (store.get("bars") or []) + (store.get("restaurants") or [])
+            if isinstance(b, dict) and b.get("kind") in ("bar", "restaurant") and _google_ok(b.get("image"))]
+    for b in tops:
+        # un bar (ou un restaurant) déjà là garde sa fiche (et prend la photo s'il n'en a pas) ; le mieux noté remonte
+        # restos : dans une rue, ils se suivent tous les 10 m ; le même nom est exigé, sinon la photo irait chez le voisin
+        twin = next((p for p in out if p["kind"] == b["kind"] and _km([p["lat"], p["lon"]], [b["lat"], b["lon"]]) < 0.08
+                     and (b["kind"] != "restaurant" or _meme_nom(p.get("name", ""), b.get("name", ""))
+                          or _meme_nom(b.get("name", ""), p.get("name", "")))), None)
         if twin:
             if not twin.get("image"):
                 twin["image"], twin["image_credit"] = b["image"], b["image_credit"]
+            if b["kind"] == "restaurant":
+                top_order.setdefault(twin["id"], len(top_order))
         else:
             out.append(dict(b))
+            if b["kind"] == "restaurant":
+                top_order.setdefault(b["id"], len(top_order))
+    # restaurants : les mieux notés sur Google d'abord (dans l'ordre du classement), puis tous les autres de la ville
+    out.sort(key=lambda p: top_order.get(p["id"], len(top_order)) if p.get("kind") == "restaurant" else 0)
     return out
 
 
@@ -751,6 +858,17 @@ def build_places():
         osm = [dict(p, image=None, image_credit=None) if _google_ok(p.get("image")) else p
                for p in prev if p["id"].startswith("osm-") and p["id"] not in guides]   # photo Google : relue par google_places
     osm = [p for p in osm if in_belgium(p["lat"], p["lon"])]
+    try:
+        restos = restos_osm()
+    except Exception as ex:
+        print(f"Restaurants : OpenStreetMap en échec ({ex}), on garde la liste précédente", file=sys.stderr)
+        restos = [dict(p, image=None, image_credit=None) if _google_ok(p.get("image")) else p
+                  for p in prev if p.get("kind") == "restaurant" and str(p.get("id", "")).startswith("osm-")]
+    # un restaurant déjà choisi à la main sous un autre type (brunch…) au même endroit : une seule fiche.
+    # Pas de contrôle « en Belgique » (Nominatim, 1 s par lieu) : RESTO_CITIES sont des villes belges, à quelques km du centre.
+    osm += [p for p in restos
+            if not any(str(c.get("name", "")).lower() == p["name"].lower() and _km([p["lat"], p["lon"]], [c["lat"], c["lon"]]) < 0.3
+                        for c in chosen)]
     GEOCACHE.write_text(json.dumps(_geo, ensure_ascii=False, indent=1))
     # guides des villes (build_lieux_villes.py : musées, incontournables, bars de Liège, activités), avec leur photo relue.
     # Ceux sans photo sont aussi publiés (l'app les montre avec une carte Vivyo, après ceux qui ont une photo) ; le robot
@@ -807,8 +925,8 @@ def build_places():
         if p.get("id") in refused and not str(p.get("id")).startswith("vivyo-"):
             p["image"] = None
             continue
-        if p.get("image") or p.get("id") in in_guides:
-            continue          # lieu des guides sans photo : pas de choix automatique (relu à l'œil seulement)
+        if p.get("image") or p.get("id") in in_guides or p.get("kind") == "restaurant":
+            continue          # lieu des guides ou restaurant sans photo : pas de choix automatique (relu à l'œil, ou Google)
         if p["id"] in old and p.get("photo_site") is not False:
             p["image"] = old[p["id"]]["image"]
             continue
@@ -824,6 +942,8 @@ def build_places():
             got = venue_photo(p["name"], p.get("city", ""))
             if got:
                 p["image"], p["image_credit"] = got
+    if not restos_published():          # rubrique Restos : seulement avec l'app v1.1 (google_places.json, restaurants.publier)
+        lieux = [p for p in lieux if p.get("kind") != "restaurant"]
     seen = set()
     lieux = [q for q in (_safe_place(p) for p in lieux) if q and not (q["id"] in seen or seen.add(q["id"]))]
     out_file.write_text(json.dumps({"generated": datetime.now().isoformat(timespec="seconds"), "places": lieux},
