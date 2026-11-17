@@ -1070,9 +1070,13 @@ def _fb_rehost(ev):
     url = ev.get("image")
     if not url or url.startswith(RAW_BASE):
         return
+    # seulement une image du serveur d'images de Facebook, en https (aussi après redirection), et un nom de fichier sûr
+    if not re.match(r"https://[a-z0-9.-]+\.fbcdn\.net/", url) or not re.fullmatch(r"fbx?-\d+", str(ev.get("id") or "")):
+        ev["image"] = None
+        return
     POSTERS.mkdir(exist_ok=True)
     name = f"{ev['id']}.jpg"
-    r = subprocess.run(["curl", "-sL", "--max-time", "30", "--", url], capture_output=True)
+    r = subprocess.run(["curl", "-sL", "--proto", "=https", "--proto-redir", "=https", "--max-time", "30", "--", url], capture_output=True)
     if r.returncode == 0 and 3_000 < len(r.stdout) < 4_000_000 and r.stdout[:3] in (b"\xff\xd8\xff", b"\x89PN", b"RIF"):
         (POSTERS / name).write_bytes(r.stdout)
         ev["image"] = RAW_BASE + name
@@ -1127,12 +1131,21 @@ def fb_classify(events):
 def fb_extension_posters(cfg, store, token):
     """Les événements relevés avec l'extension n'ont pas d'affiche : on demande au service tiers ces événements précis
     (par leur lien) et on copie l'affiche tout de suite. Payant (~0,003 $ par événement) : "posters_per_run" à 0 = arrêté.
-    "posters_file" : seuls les événements de cette liste sont demandés. "posters_budget_usd" : plafond total, jamais dépassé."""
+    "posters_file" : seuls les événements de cette liste sont demandés (vide ou absent : tous ceux sans affiche).
+    "posters_budget_usd" : plafond total, jamais dépassé. "posters_chunks_per_run" : nombre de lots de "posters_per_run"
+    demandés l'un après l'autre à chaque passage (un gros lot unique dépasserait le délai de 290 s)."""
+    for _ in range(max(1, int(cfg.get("posters_chunks_per_run", 1)))):
+        if not _fb_posters_chunk(cfg, store, token):
+            break
+
+
+def _fb_posters_chunk(cfg, store, token):
+    """Un lot d'affiches. Renvoie True si le lot a été reçu (on peut enchaîner), False sinon (rien à faire, plafond, panne)."""
     tried = set(store.get("posters_tried") or [])
     only = set(json.loads((HERE / cfg["posters_file"]).read_text())) if cfg.get("posters_file") else None
     todo = []
     for e in json.loads((HERE / "manual_events.json").read_text())["events"]:
-        fid = e["id"][4:] if e["id"].startswith("fbx-") else None
+        fid = e["id"][4:] if re.fullmatch(r"fbx-\d+", str(e.get("id") or "")) else None   # chiffres seulement : rien d'autre dans l'URL ni le nom du fichier
         if (fid and (only is None or e["id"] in only) and not e.get("image") and e["id"] not in tried and datetime.fromisoformat(e["end"]).date() >= TODAY
                 and not (POSTERS / f"fb-{fid}.jpg").exists() and not (POSTERS / f"{e['id']}.jpg").exists()):
             todo.append(e)
@@ -1142,10 +1155,11 @@ def fb_extension_posters(cfg, store, token):
     if cfg.get("posters_budget_usd") is not None:       # on compte le maximum possible avant l'appel : même en cas de panne, le plafond tient
         todo = todo[:max(0, int((cfg["posters_budget_usd"] - spent + 1e-9) / per_event))]
     if not todo:
-        return
+        return False
     store["posters_usd"] = round(spent + len(todo) * per_event, 3)
+    FB_STORE.write_text(json.dumps(store, ensure_ascii=False, indent=1), encoding="utf-8")   # compteur gardé même si la suite plante
     payload = {"startUrls": [{"url": f"https://www.facebook.com/events/{e['id'][4:]}/"} for e in todo], "maxEvents": len(todo)}
-    cap = round(len(todo) * per_event, 2)
+    cap = max(0.01, int(len(todo) * per_event * 100 + 0.999999) / 100)   # arrondi au centime supérieur, jamais 0 (= sans limite ?)
     r = subprocess.run(
         ["curl", "-s", "--max-time", "290", "-X", "POST", "-H", "Content-Type: application/json", "-d", json.dumps(payload),
          f"https://api.apify.com/v2/acts/{cfg.get('actor', 'alfalfa~facebook-events-scraper')}/run-sync-get-dataset-items"
@@ -1155,7 +1169,7 @@ def fb_extension_posters(cfg, store, token):
         raise RuntimeError(str(items)[:200])
     if not items:                                       # rien reçu (délai dépassé…) : ces événements restent à faire
         REPORT.append({"source": "Facebook : affiches de l'extension", "ok": False, "demandes": len(todo), "recus": 0, "plafond_cumule_usd": store["posters_usd"]})
-        return
+        return False
     by_id = {str(it.get("id")): it for it in items if isinstance(it, dict)}
     ok = 0
     for e in todo:
@@ -1166,7 +1180,9 @@ def fb_extension_posters(cfg, store, token):
             ok += bool(ev["image"])
         tried.add(e["id"])
     store["posters_tried"] = sorted(tried)
+    FB_STORE.write_text(json.dumps(store, ensure_ascii=False, indent=1), encoding="utf-8")
     REPORT.append({"source": "Facebook : affiches de l'extension", "ok": True, "demandes": len(todo), "recus": len(items), "copiees": ok, "plafond_cumule_usd": store["posters_usd"]})
+    return True
 
 
 def facebook():
@@ -1886,11 +1902,10 @@ def main():
                 e["image"] = RAW_BASE + name
                 break
     enrich_from_pages(uniq, limit=300)              # prix, description, photo, heure ; ~0,5 s par page, gardé 14 jours
-    for e in uniq:              # sinon : photo libre du lieu précis, ou rien (l'app montre la photo vérifiée de la catégorie)
-        if not e.get("image"):
-            got = venue_photo(e.get("venue"), e.get("city", ""))
-            if got:
-                e["image"], e["image_credit"] = got
+    # Sans image de l'événement lui-même : rien (l'app montre la photo vérifiée de la catégorie). Plus de photo Wikimedia
+    # « du lieu » pour un événement (17/11/2026, demande de Dylan) : le lieu est souvent une rue ou la ville, et la photo
+    # trouvée n'avait rien à voir (une chapelle pour un souper de foot, Bruxelles… au Canada, un coucou pour Forest National).
+    # Une mauvaise image est pire qu'une image de catégorie. venue_photo reste utilisé pour les lieux (fiches vérifiées).
     try:
         build_places()
     except Exception as ex:
