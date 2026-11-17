@@ -48,7 +48,17 @@ jobs:
           git config user.name "events-bot"
           git config user.email "events-bot@users.noreply.github.com"
           git add -A
-          git diff --staged --quiet || (git commit -m "Mise à jour automatique des événements" && git push)
+          git diff --staged --quiet && exit 0
+          git commit -m "Mise à jour automatique des événements"
+          # quelqu'un a pu envoyer un changement pendant le passage : on reprend la dernière version avant d'enregistrer.
+          # Vrai conflit (le même fichier changé des deux côtés) : on n'écrase rien, on s'arrête ; le passage suivant refait tout.
+          for essai in 1 2 3; do
+            git push && exit 0
+            [ "$essai" = 3 ] && break
+            git pull --rebase origin main || { git rebase --abort; exit 1; }
+            sleep 5
+          done
+          exit 1
       - name: Vider la boîte de réception (propositions déjà enregistrées)
         env:
           INBOX_TOKEN: ${{ secrets.INBOX_TOKEN }}
