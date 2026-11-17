@@ -1,0 +1,14 @@
+{
+  "_aide": "Images d'événements relues à l'œil et refusées : l'app montre alors la photo vérifiée de la catégorie. adresses = adresse exacte ; adresse_contient = morceau d'adresse (8 caractères au moins) ; titre_sans_image = expressions (titres) dont l'image est toujours hors sujet. Relecture complète du 17/11/2026 : 1 093 images vues, 3 problèmes.",
+  "adresses": [
+    "https://www.leforum.be/visuel/SlideFront/GERRA510.jpg"
+  ],
+  "adresse_contient": [
+    "visithuy.be/site/Images/boire-manger"
+  ],
+  "titre_sans_image": [
+    "be•at Premium",
+    "Premium Comfort Experience",
+    "Bistronomy Experience"
+  ]
+}

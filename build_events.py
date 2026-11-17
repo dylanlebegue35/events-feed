@@ -1851,6 +1851,38 @@ def ticketmaster():
 SPONSORS_FILE = HERE / "sponsors.json"
 
 
+REFUSED_IMAGES_FILE = HERE / "images_refusees.json"
+
+
+def drop_refused_images(events):
+    """Images relues à l'œil et refusées (images_refusees.json) : la photo passe-partout d'un site (VisitHuy met la
+    même photo de terrasse sur tous ses événements), une image qui ne s'ouvre plus, ou le salon Mastercard des
+    forfaits « be•at Premium » de Ticketmaster à la place de l'artiste. L'app montre alors la photo de la catégorie."""
+    try:
+        cfg = json.loads(REFUSED_IMAGES_FILE.read_text(encoding="utf-8"))
+    except (OSError, ValueError) as ex:
+        REPORT.append({"source": "Images refusées à la relecture", "ok": False, "erreur": str(ex)[:120]})
+        return
+    urls = {u for u in cfg.get("adresses", []) if isinstance(u, str)}
+    parts = [p for p in cfg.get("adresse_contient", []) if isinstance(p, str) and len(p) >= 12]
+    titles = []
+    for t in cfg.get("titre_sans_image", []):
+        try:
+            titles.append(re.compile(t, re.I))
+        except (re.error, TypeError):           # une expression mal écrite ne doit jamais bloquer la mise à jour
+            pass
+    hits = [e for e in events if (e.get("image") or "") and (e["image"] in urls or any(p in e["image"] for p in parts)
+                                                         or any(t.search(e.get("title") or "") for t in titles))]
+    # garde-fou : une règle trop large (« https:// ») viderait les images de tout le monde ; au-delà de 10 %, on ne touche à rien
+    if len(hits) > 0.10 * max(1, sum(1 for e in events if e.get("image"))):
+        REPORT.append({"source": "Images refusées à la relecture", "ok": False, "erreur": f"{len(hits)} images visées : règle trop large, rien retiré"})
+        return
+    for e in hits:
+        e["image"] = None
+        e.pop("image_credit", None)
+    REPORT.append({"source": "Images refusées à la relecture", "ok": True, "retirees": len(hits)})
+
+
 def apply_sponsors(events):
     """Événements mis en avant par les organisateurs : l'app les affiche en tête avec l'étiquette « Sponsorisé »."""
     try:
@@ -1906,6 +1938,7 @@ def main():
     # « du lieu » pour un événement (17/11/2026, demande de Dylan) : le lieu est souvent une rue ou la ville, et la photo
     # trouvée n'avait rien à voir (une chapelle pour un souper de foot, Bruxelles… au Canada, un coucou pour Forest National).
     # Une mauvaise image est pire qu'une image de catégorie. venue_photo reste utilisé pour les lieux (fiches vérifiées).
+    drop_refused_images(uniq)
     try:
         build_places()
     except Exception as ex:
