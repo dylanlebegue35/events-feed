@@ -1,0 +1,5090 @@
+{
+ "_aide": "Les 565 communes belges (Wikidata, CC0, 17/11/2026), DANS L'ORDRE où le robot les lit (choix de Dylan) : d'abord la province de Liège (de la plus peuplée à la moins peuplée), puis le reste de la Wallonie et Bruxelles (une commune de chaque province à tour de rôle, les plus peuplées d'abord), puis la Flandre (pareil). Ensuite, le robot relit toujours celles vues il y a le plus longtemps.",
+ "communes": [
+  {
+   "qid": "Q3992",
+   "nom": "Liège",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.63972,
+   "lon": 5.57056,
+   "pop": 195278
+  },
+  {
+   "qid": "Q194037",
+   "nom": "Seraing",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.5986,
+   "lon": 5.5122,
+   "pop": 64270
+  },
+  {
+   "qid": "Q202954",
+   "nom": "Verviers",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.58333,
+   "lon": 5.85,
+   "pop": 55198
+  },
+  {
+   "qid": "Q211033",
+   "nom": "Herstal",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.6644,
+   "lon": 5.63,
+   "pop": 39958
+  },
+  {
+   "qid": "Q499594",
+   "nom": "Ans",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.6625,
+   "lon": 5.52,
+   "pop": 28238
+  },
+  {
+   "qid": "Q175322",
+   "nom": "Flémalle",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.6011,
+   "lon": 5.4628,
+   "pop": 26174
+  },
+  {
+   "qid": "Q286215",
+   "nom": "Oupeye",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.7083,
+   "lon": 5.6431,
+   "pop": 25297
+  },
+  {
+   "qid": "Q65062",
+   "nom": "Saint-Nicolas",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.63333,
+   "lon": 5.53333,
+   "pop": 24251
+  },
+  {
+   "qid": "Q683034",
+   "nom": "Grâce-Hollogne",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.6325,
+   "lon": 5.47694,
+   "pop": 22541
+  },
+  {
+   "qid": "Q207095",
+   "nom": "Huy",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.51667,
+   "lon": 5.23333,
+   "pop": 21293
+  },
+  {
+   "qid": "Q503363",
+   "nom": "Chaudfontaine",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.58333,
+   "lon": 5.63333,
+   "pop": 20935
+  },
+  {
+   "qid": "Q151831",
+   "nom": "Eupen",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.63333,
+   "lon": 6.03333,
+   "pop": 19526
+  },
+  {
+   "qid": "Q49743",
+   "nom": "Visé",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.73333,
+   "lon": 5.68333,
+   "pop": 17767
+  },
+  {
+   "qid": "Q683465",
+   "nom": "Herve",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.63333,
+   "lon": 5.8,
+   "pop": 17598
+  },
+  {
+   "qid": "Q696099",
+   "nom": "Soumagne",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.61667,
+   "lon": 5.75,
+   "pop": 16888
+  },
+  {
+   "qid": "Q682811",
+   "nom": "Fléron",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.61667,
+   "lon": 5.68333,
+   "pop": 16495
+  },
+  {
+   "qid": "Q683141",
+   "nom": "Hannut",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.67247,
+   "lon": 5.078,
+   "pop": 16435
+  },
+  {
+   "qid": "Q682105",
+   "nom": "Dison",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.61667,
+   "lon": 5.85,
+   "pop": 15405
+  },
+  {
+   "qid": "Q711474",
+   "nom": "Waremme",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.7,
+   "lon": 5.25,
+   "pop": 15168
+  },
+  {
+   "qid": "Q696110",
+   "nom": "Sprimont",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.5,
+   "lon": 5.66667,
+   "pop": 14645
+  },
+  {
+   "qid": "Q455969",
+   "nom": "Amay",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.5478,
+   "lon": 5.3192,
+   "pop": 14305
+  },
+  {
+   "qid": "Q711443",
+   "nom": "Wanze",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.5353,
+   "lon": 5.2133,
+   "pop": 13576
+  },
+  {
+   "qid": "Q681109",
+   "nom": "Blegny",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.66667,
+   "lon": 5.73333,
+   "pop": 13212
+  },
+  {
+   "qid": "Q682271",
+   "nom": "Esneux",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.53333,
+   "lon": 5.56667,
+   "pop": 12889
+  },
+  {
+   "qid": "Q159838",
+   "nom": "Malmedy",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.42389,
+   "lon": 6.02583,
+   "pop": 12654
+  },
+  {
+   "qid": "Q793396",
+   "nom": "Aywaille",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.4733,
+   "lon": 5.6739,
+   "pop": 12405
+  },
+  {
+   "qid": "Q711079",
+   "nom": "Theux",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.53494,
+   "lon": 5.81342,
+   "pop": 12025
+  },
+  {
+   "qid": "Q681039",
+   "nom": "Beyne-Heusay",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.61667,
+   "lon": 5.65,
+   "pop": 12019
+  },
+  {
+   "qid": "Q159864",
+   "nom": "La Calamine",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.7,
+   "lon": 6.0,
+   "pop": 11061
+  },
+  {
+   "qid": "Q152734",
+   "nom": "Raeren",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.68333,
+   "lon": 6.11667,
+   "pop": 10707
+  },
+  {
+   "qid": "Q710606",
+   "nom": "Plombières",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.73333,
+   "lon": 5.95,
+   "pop": 10401
+  },
+  {
+   "qid": "Q39865",
+   "nom": "Spa",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.49228,
+   "lon": 5.86221,
+   "pop": 10378
+  },
+  {
+   "qid": "Q710316",
+   "nom": "Neupré",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.53333,
+   "lon": 5.48333,
+   "pop": 9934
+  },
+  {
+   "qid": "Q152743",
+   "nom": "Welkenraedt",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.6606,
+   "lon": 5.9714,
+   "pop": 9920
+  },
+  {
+   "qid": "Q710522",
+   "nom": "Pepinster",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.56667,
+   "lon": 5.81667,
+   "pop": 9765
+  },
+  {
+   "qid": "Q152748",
+   "nom": "Saint-Vith",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.28333,
+   "lon": 6.13333,
+   "pop": 9682
+  },
+  {
+   "qid": "Q680564",
+   "nom": "Awans",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.6669,
+   "lon": 5.4633,
+   "pop": 9353
+  },
+  {
+   "qid": "Q914102",
+   "nom": "Juprelle",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.71667,
+   "lon": 5.53333,
+   "pop": 9288
+  },
+  {
+   "qid": "Q680918",
+   "nom": "Bassenge",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.7586,
+   "lon": 5.6086,
+   "pop": 8986
+  },
+  {
+   "qid": "Q683634",
+   "nom": "Jalhay",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.5572,
+   "lon": 5.9642,
+   "pop": 8590
+  },
+  {
+   "qid": "Q711205",
+   "nom": "Trooz",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.57361,
+   "lon": 5.68722,
+   "pop": 8172
+  },
+  {
+   "qid": "Q159961",
+   "nom": "Waimes",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.41667,
+   "lon": 6.11667,
+   "pop": 7429
+  },
+  {
+   "qid": "Q846182",
+   "nom": "Dalhem",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.71667,
+   "lon": 5.71667,
+   "pop": 7331
+  },
+  {
+   "qid": "Q468920",
+   "nom": "Stavelot",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.39444,
+   "lon": 5.93111,
+   "pop": 7145
+  },
+  {
+   "qid": "Q710718",
+   "nom": "Saint-Georges-sur-Meuse",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.6,
+   "lon": 5.35,
+   "pop": 6784
+  },
+  {
+   "qid": "Q711373",
+   "nom": "Villers-le-Bouillet",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.58333,
+   "lon": 5.26667,
+   "pop": 6503
+  },
+  {
+   "qid": "Q681153",
+   "nom": "Braives",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.63333,
+   "lon": 5.15,
+   "pop": 6325
+  },
+  {
+   "qid": "Q682223",
+   "nom": "Engis",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.58333,
+   "lon": 5.41667,
+   "pop": 6122
+  },
+  {
+   "qid": "Q506739",
+   "nom": "Limbourg",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.6122,
+   "lon": 5.9403,
+   "pop": 5939
+  },
+  {
+   "qid": "Q710690",
+   "nom": "Remicourt",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.68333,
+   "lon": 5.33333,
+   "pop": 5904
+  },
+  {
+   "qid": "Q710280",
+   "nom": "Nandrin",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.5,
+   "lon": 5.41667,
+   "pop": 5826
+  },
+  {
+   "qid": "Q711115",
+   "nom": "Thimister-Clermont",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.65,
+   "lon": 5.85,
+   "pop": 5725
+  },
+  {
+   "qid": "Q159958",
+   "nom": "Lontzen",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.68333,
+   "lon": 6.0,
+   "pop": 5695
+  },
+  {
+   "qid": "Q160005",
+   "nom": "Butgenbach",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.4262,
+   "lon": 6.2041,
+   "pop": 5607
+  },
+  {
+   "qid": "Q159868",
+   "nom": "Amblève",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.3539,
+   "lon": 6.1692,
+   "pop": 5480
+  },
+  {
+   "qid": "Q152737",
+   "nom": "Bullange",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.4,
+   "lon": 6.25,
+   "pop": 5473
+  },
+  {
+   "qid": "Q710190",
+   "nom": "Marchin",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.46667,
+   "lon": 5.23333,
+   "pop": 5460
+  },
+  {
+   "qid": "Q681909",
+   "nom": "Comblain-au-Pont",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.46667,
+   "lon": 5.58333,
+   "pop": 5381
+  },
+  {
+   "qid": "Q683321",
+   "nom": "Héron",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.55,
+   "lon": 5.08333,
+   "pop": 5277
+  },
+  {
+   "qid": "Q682570",
+   "nom": "Ferrières",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.40028,
+   "lon": 5.60694,
+   "pop": 4918
+  },
+  {
+   "qid": "Q681854",
+   "nom": "Clavier",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.41667,
+   "lon": 5.36667,
+   "pop": 4617
+  },
+  {
+   "qid": "Q680845",
+   "nom": "Baelen",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.63,
+   "lon": 5.9714,
+   "pop": 4434
+  },
+  {
+   "qid": "Q678920",
+   "nom": "Aubel",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.7019,
+   "lon": 5.8583,
+   "pop": 4221
+  },
+  {
+   "qid": "Q572472",
+   "nom": "Anthisnes",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.4814,
+   "lon": 5.5217,
+   "pop": 4204
+  },
+  {
+   "qid": "Q710237",
+   "nom": "Modave",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.44226,
+   "lon": 5.30058,
+   "pop": 4200
+  },
+  {
+   "qid": "Q711292",
+   "nom": "Verlaine",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.6,
+   "lon": 5.31667,
+   "pop": 4177
+  },
+  {
+   "qid": "Q710358",
+   "nom": "Olne",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.58333,
+   "lon": 5.75,
+   "pop": 4087
+  },
+  {
+   "qid": "Q159981",
+   "nom": "Burg-Reuland",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.1964,
+   "lon": 6.1344,
+   "pop": 3956
+  },
+  {
+   "qid": "Q682441",
+   "nom": "Faimes",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.66667,
+   "lon": 5.26667,
+   "pop": 3947
+  },
+  {
+   "qid": "Q710409",
+   "nom": "Oreye",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.73333,
+   "lon": 5.36667,
+   "pop": 3912
+  },
+  {
+   "qid": "Q683083",
+   "nom": "Hamoir",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.43333,
+   "lon": 5.53333,
+   "pop": 3872
+  },
+  {
+   "qid": "Q710022",
+   "nom": "Lierneux",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.285,
+   "lon": 5.7925,
+   "pop": 3601
+  },
+  {
+   "qid": "Q682982",
+   "nom": "Geer",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.66667,
+   "lon": 5.16667,
+   "pop": 3430
+  },
+  {
+   "qid": "Q929415",
+   "nom": "Crisnée",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.71667,
+   "lon": 5.4,
+   "pop": 3352
+  },
+  {
+   "qid": "Q509457",
+   "nom": "Lincent",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.71667,
+   "lon": 5.03333,
+   "pop": 3292
+  },
+  {
+   "qid": "Q379113",
+   "nom": "Fexhe-le-Haut-Clocher",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.66667,
+   "lon": 5.4,
+   "pop": 3263
+  },
+  {
+   "qid": "Q681368",
+   "nom": "Burdinne",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.58333,
+   "lon": 5.06667,
+   "pop": 3236
+  },
+  {
+   "qid": "Q711046",
+   "nom": "Stoumont",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.4081,
+   "lon": 5.8078,
+   "pop": 3104
+  },
+  {
+   "qid": "Q680978",
+   "nom": "Berloz",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.6978,
+   "lon": 5.2114,
+   "pop": 3080
+  },
+  {
+   "qid": "Q682163",
+   "nom": "Donceel",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.65,
+   "lon": 5.31667,
+   "pop": 3048
+  },
+  {
+   "qid": "Q711502",
+   "nom": "Wasseiges",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.61667,
+   "lon": 5.0,
+   "pop": 2962
+  },
+  {
+   "qid": "Q222233",
+   "nom": "Ouffet",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.43333,
+   "lon": 5.46667,
+   "pop": 2802
+  },
+  {
+   "qid": "Q711152",
+   "nom": "Tinlot",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.48333,
+   "lon": 5.36667,
+   "pop": 2709
+  },
+  {
+   "qid": "Q711183",
+   "nom": "Trois-Ponts",
+   "province": "Liège",
+   "region": "Wallonie",
+   "lat": 50.3717,
+   "lon": 5.8706,
+   "pop": 2570
+  },
+  {
+   "qid": "Q81046",
+   "nom": "Charleroi",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.41667,
+   "lon": 4.44417,
+   "pop": 204322
+  },
+  {
+   "qid": "Q239",
+   "nom": "Bruxelles",
+   "province": "Bruxelles-Capitale",
+   "region": "Bruxelles",
+   "lat": 50.84667,
+   "lon": 4.35167,
+   "pop": 195546
+  },
+  {
+   "qid": "Q134121",
+   "nom": "Namur",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.46667,
+   "lon": 4.86667,
+   "pop": 115330
+  },
+  {
+   "qid": "Q497572",
+   "nom": "Braine-l'Alleud",
+   "province": "Brabant wallon",
+   "region": "Wallonie",
+   "lat": 50.6806,
+   "lon": 4.3717,
+   "pop": 40672
+  },
+  {
+   "qid": "Q675960",
+   "nom": "Arlon",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 49.68361,
+   "lon": 5.81667,
+   "pop": 30818
+  },
+  {
+   "qid": "Q83407",
+   "nom": "Mons",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.45472,
+   "lon": 3.9525,
+   "pop": 95299
+  },
+  {
+   "qid": "Q12887",
+   "nom": "Schaerbeek",
+   "province": "Bruxelles-Capitale",
+   "region": "Bruxelles",
+   "lat": 50.8675,
+   "lon": 4.37361,
+   "pop": 132799
+  },
+  {
+   "qid": "Q650185",
+   "nom": "Sambreville",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.45,
+   "lon": 4.6,
+   "pop": 28211
+  },
+  {
+   "qid": "Q181314",
+   "nom": "Wavre",
+   "province": "Brabant wallon",
+   "region": "Wallonie",
+   "lat": 50.71667,
+   "lon": 4.6,
+   "pop": 34305
+  },
+  {
+   "qid": "Q34021",
+   "nom": "Bastogne",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 50.00417,
+   "lon": 5.72,
+   "pop": 20940
+  },
+  {
+   "qid": "Q211572",
+   "nom": "La Louvière",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.47778,
+   "lon": 4.18806,
+   "pop": 80986
+  },
+  {
+   "qid": "Q12886",
+   "nom": "Anderlecht",
+   "province": "Bruxelles-Capitale",
+   "region": "Bruxelles",
+   "lat": 50.83917,
+   "lon": 4.32972,
+   "pop": 120887
+  },
+  {
+   "qid": "Q333466",
+   "nom": "Andenne",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.48333,
+   "lon": 5.1,
+   "pop": 27573
+  },
+  {
+   "qid": "Q329642",
+   "nom": "Ottignies-Louvain-la-Neuve",
+   "province": "Brabant wallon",
+   "region": "Wallonie",
+   "lat": 50.66696,
+   "lon": 4.58925,
+   "pop": 31385
+  },
+  {
+   "qid": "Q269908",
+   "nom": "Marche-en-Famenne",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 50.2275,
+   "lon": 5.34444,
+   "pop": 17455
+  },
+  {
+   "qid": "Q173219",
+   "nom": "Tournai",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.60556,
+   "lon": 3.38806,
+   "pop": 69554
+  },
+  {
+   "qid": "Q180775",
+   "nom": "Molenbeek-Saint-Jean",
+   "province": "Bruxelles-Capitale",
+   "region": "Bruxelles",
+   "lat": 50.85472,
+   "lon": 4.33861,
+   "pop": 97979
+  },
+  {
+   "qid": "Q223927",
+   "nom": "Gembloux",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.5594,
+   "lon": 4.6922,
+   "pop": 25933
+  },
+  {
+   "qid": "Q179034",
+   "nom": "Waterloo",
+   "province": "Brabant wallon",
+   "region": "Wallonie",
+   "lat": 50.71667,
+   "lon": 4.38333,
+   "pop": 30174
+  },
+  {
+   "qid": "Q713088",
+   "nom": "Aubange",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 49.56667,
+   "lon": 5.805,
+   "pop": 16927
+  },
+  {
+   "qid": "Q220145",
+   "nom": "Mouscron",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.7444,
+   "lon": 3.2156,
+   "pop": 58234
+  },
+  {
+   "qid": "Q208713",
+   "nom": "Ixelles",
+   "province": "Bruxelles-Capitale",
+   "region": "Bruxelles",
+   "lat": 50.83306,
+   "lon": 4.36694,
+   "pop": 87632
+  },
+  {
+   "qid": "Q720791",
+   "nom": "Jemeppe-sur-Sambre",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.46667,
+   "lon": 4.66667,
+   "pop": 19074
+  },
+  {
+   "qid": "Q319463",
+   "nom": "Nivelles",
+   "province": "Brabant wallon",
+   "region": "Wallonie",
+   "lat": 50.5964,
+   "lon": 4.3236,
+   "pop": 28521
+  },
+  {
+   "qid": "Q497697",
+   "nom": "Durbuy",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 50.3522,
+   "lon": 5.4564,
+   "pop": 11637
+  },
+  {
+   "qid": "Q95144",
+   "nom": "Châtelet",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.40389,
+   "lon": 4.52528,
+   "pop": 36101
+  },
+  {
+   "qid": "Q203312",
+   "nom": "Uccle",
+   "province": "Bruxelles-Capitale",
+   "region": "Bruxelles",
+   "lat": 50.80361,
+   "lon": 4.33389,
+   "pop": 83980
+  },
+  {
+   "qid": "Q497565",
+   "nom": "Walcourt",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.2519,
+   "lon": 4.4322,
+   "pop": 18376
+  },
+  {
+   "qid": "Q497549",
+   "nom": "Tubize",
+   "province": "Brabant wallon",
+   "region": "Wallonie",
+   "lat": 50.69283,
+   "lon": 4.205,
+   "pop": 25914
+  },
+  {
+   "qid": "Q456495",
+   "nom": "Virton",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 49.5675,
+   "lon": 5.5325,
+   "pop": 11323
+  },
+  {
+   "qid": "Q95121",
+   "nom": "Binche",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.4103,
+   "lon": 4.16516,
+   "pop": 33841
+  },
+  {
+   "qid": "Q211764",
+   "nom": "Woluwe-Saint-Lambert",
+   "province": "Bruxelles-Capitale",
+   "region": "Bruxelles",
+   "lat": 50.84372,
+   "lon": 4.42601,
+   "pop": 57712
+  },
+  {
+   "qid": "Q456490",
+   "nom": "Ciney",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.2964,
+   "lon": 5.1003,
+   "pop": 16439
+  },
+  {
+   "qid": "Q630478",
+   "nom": "Rixensart",
+   "province": "Brabant wallon",
+   "region": "Wallonie",
+   "lat": 50.71667,
+   "lon": 4.53333,
+   "pop": 22401
+  },
+  {
+   "qid": "Q612267",
+   "nom": "Libramont-Chevigny",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 49.91806,
+   "lon": 5.37611,
+   "pop": 11186
+  },
+  {
+   "qid": "Q665860",
+   "nom": "Courcelles",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.4578,
+   "lon": 4.37562,
+   "pop": 31376
+  },
+  {
+   "qid": "Q72946",
+   "nom": "Forest",
+   "province": "Bruxelles-Capitale",
+   "region": "Bruxelles",
+   "lat": 50.81167,
+   "lon": 4.31806,
+   "pop": 56581
+  },
+  {
+   "qid": "Q274522",
+   "nom": "Éghezée",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.58333,
+   "lon": 4.91667,
+   "pop": 16247
+  },
+  {
+   "qid": "Q517899",
+   "nom": "Genappe",
+   "province": "Brabant wallon",
+   "region": "Wallonie",
+   "lat": 50.6103,
+   "lon": 4.4497,
+   "pop": 15353
+  },
+  {
+   "qid": "Q713135",
+   "nom": "Bertrix",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 49.85417,
+   "lon": 5.25333,
+   "pop": 8763
+  },
+  {
+   "qid": "Q95096",
+   "nom": "Ath",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.63114,
+   "lon": 3.77694,
+   "pop": 29164
+  },
+  {
+   "qid": "Q241918",
+   "nom": "Jette",
+   "province": "Bruxelles-Capitale",
+   "region": "Bruxelles",
+   "lat": 50.87583,
+   "lon": 4.32444,
+   "pop": 52728
+  },
+  {
+   "qid": "Q326771",
+   "nom": "Couvin",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.0519,
+   "lon": 4.4961,
+   "pop": 13782
+  },
+  {
+   "qid": "Q678158",
+   "nom": "Lasne",
+   "province": "Brabant wallon",
+   "region": "Wallonie",
+   "lat": 50.68333,
+   "lon": 4.48333,
+   "pop": 14236
+  },
+  {
+   "qid": "Q713334",
+   "nom": "Habay",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 49.73028,
+   "lon": 5.64639,
+   "pop": 8387
+  },
+  {
+   "qid": "Q462985",
+   "nom": "Soignies",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.56667,
+   "lon": 4.06667,
+   "pop": 27603
+  },
+  {
+   "qid": "Q237674",
+   "nom": "Saint-Gilles",
+   "province": "Bruxelles-Capitale",
+   "region": "Bruxelles",
+   "lat": 50.82667,
+   "lon": 4.34556,
+   "pop": 49678
+  },
+  {
+   "qid": "Q108247",
+   "nom": "Dinant",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.25639,
+   "lon": 4.91361,
+   "pop": 13544
+  },
+  {
+   "qid": "Q670500",
+   "nom": "Jodoigne",
+   "province": "Brabant wallon",
+   "region": "Wallonie",
+   "lat": 50.71667,
+   "lon": 4.86667,
+   "pop": 14079
+  },
+  {
+   "qid": "Q692243",
+   "nom": "Messancy",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 49.595,
+   "lon": 5.81833,
+   "pop": 8185
+  },
+  {
+   "qid": "Q668950",
+   "nom": "Saint-Ghislain",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.45,
+   "lon": 3.81667,
+   "pop": 23335
+  },
+  {
+   "qid": "Q192859",
+   "nom": "Etterbeek",
+   "province": "Bruxelles-Capitale",
+   "region": "Bruxelles",
+   "lat": 50.83611,
+   "lon": 4.38611,
+   "pop": 48473
+  },
+  {
+   "qid": "Q118769",
+   "nom": "Mettet",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.3192,
+   "lon": 4.6569,
+   "pop": 13037
+  },
+  {
+   "qid": "Q670310",
+   "nom": "Grez-Doiceau",
+   "province": "Brabant wallon",
+   "region": "Wallonie",
+   "lat": 50.73333,
+   "lon": 4.7,
+   "pop": 13368
+  },
+  {
+   "qid": "Q650135",
+   "nom": "Neufchâteau",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 49.84111,
+   "lon": 5.43528,
+   "pop": 8029
+  },
+  {
+   "qid": "Q95129",
+   "nom": "Braine-le-Comte",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.60972,
+   "lon": 4.13611,
+   "pop": 23133
+  },
+  {
+   "qid": "Q321718",
+   "nom": "Evere",
+   "province": "Bruxelles-Capitale",
+   "region": "Bruxelles",
+   "lat": 50.87194,
+   "lon": 4.40333,
+   "pop": 45984
+  },
+  {
+   "qid": "Q497764",
+   "nom": "Rochefort",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.15904,
+   "lon": 5.22185,
+   "pop": 12554
+  },
+  {
+   "qid": "Q670141",
+   "nom": "Chaumont-Gistoux",
+   "province": "Brabant wallon",
+   "region": "Wallonie",
+   "lat": 50.68386,
+   "lon": 4.69473,
+   "pop": 11731
+  },
+  {
+   "qid": "Q650172",
+   "nom": "Vielsalm",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 50.28611,
+   "lon": 5.91806,
+   "pop": 7821
+  },
+  {
+   "qid": "Q667987",
+   "nom": "Manage",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.5,
+   "lon": 4.23333,
+   "pop": 23122
+  },
+  {
+   "qid": "Q242393",
+   "nom": "Woluwe-Saint-Pierre",
+   "province": "Bruxelles-Capitale",
+   "region": "Bruxelles",
+   "lat": 50.83694,
+   "lon": 4.4275,
+   "pop": 42119
+  },
+  {
+   "qid": "Q696940",
+   "nom": "Profondeville",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.3769,
+   "lon": 4.87,
+   "pop": 12204
+  },
+  {
+   "qid": "Q374861",
+   "nom": "Rebecq",
+   "province": "Brabant wallon",
+   "region": "Wallonie",
+   "lat": 50.65,
+   "lon": 4.13333,
+   "pop": 11006
+  },
+  {
+   "qid": "Q288872",
+   "nom": "Étalle",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 49.67389,
+   "lon": 5.60194,
+   "pop": 5855
+  },
+  {
+   "qid": "Q314922",
+   "nom": "Fleurus",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.48333,
+   "lon": 4.53333,
+   "pop": 22738
+  },
+  {
+   "qid": "Q272228",
+   "nom": "Auderghem",
+   "province": "Bruxelles-Capitale",
+   "region": "Bruxelles",
+   "lat": 50.81722,
+   "lon": 4.42694,
+   "pop": 34404
+  },
+  {
+   "qid": "Q720429",
+   "nom": "Florennes",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.2514,
+   "lon": 4.6044,
+   "pop": 11410
+  },
+  {
+   "qid": "Q678612",
+   "nom": "Villers-la-Ville",
+   "province": "Brabant wallon",
+   "region": "Wallonie",
+   "lat": 50.58333,
+   "lon": 4.53333,
+   "pop": 10713
+  },
+  {
+   "qid": "Q713864",
+   "nom": "Vaux-sur-Sûre",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 49.91093,
+   "lon": 5.56629,
+   "pop": 5651
+  },
+  {
+   "qid": "Q666751",
+   "nom": "Frameries",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.40876,
+   "lon": 3.89057,
+   "pop": 21878
+  },
+  {
+   "qid": "Q272243",
+   "nom": "Saint-Josse-ten-Noode",
+   "province": "Bruxelles-Capitale",
+   "region": "Bruxelles",
+   "lat": 50.85083,
+   "lon": 4.36917,
+   "pop": 27497
+  },
+  {
+   "qid": "Q720478",
+   "nom": "Fosses-la-Ville",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.4,
+   "lon": 4.7,
+   "pop": 10449
+  },
+  {
+   "qid": "Q670210",
+   "nom": "Court-Saint-Étienne",
+   "province": "Brabant wallon",
+   "region": "Wallonie",
+   "lat": 50.63333,
+   "lon": 4.56667,
+   "pop": 10500
+  },
+  {
+   "qid": "Q713300",
+   "nom": "Florenville",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 49.69833,
+   "lon": 5.31,
+   "pop": 5629
+  },
+  {
+   "qid": "Q665573",
+   "nom": "Colfontaine",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.40566,
+   "lon": 3.8514,
+   "pop": 20762
+  },
+  {
+   "qid": "Q272272",
+   "nom": "Berchem-Sainte-Agathe",
+   "province": "Bruxelles-Capitale",
+   "region": "Bruxelles",
+   "lat": 50.865,
+   "lon": 4.29472,
+   "pop": 25502
+  },
+  {
+   "qid": "Q650239",
+   "nom": "Philippeville",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.1958,
+   "lon": 4.5431,
+   "pop": 9228
+  },
+  {
+   "qid": "Q497558",
+   "nom": "Braine-le-Château",
+   "province": "Brabant wallon",
+   "region": "Wallonie",
+   "lat": 50.68333,
+   "lon": 4.26667,
+   "pop": 10447
+  },
+  {
+   "qid": "Q713740",
+   "nom": "Saint-Hubert",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 50.02556,
+   "lon": 5.37417,
+   "pop": 5571
+  },
+  {
+   "qid": "Q95126",
+   "nom": "Boussu",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.43313,
+   "lon": 3.79609,
+   "pop": 19856
+  },
+  {
+   "qid": "Q272262",
+   "nom": "Watermael-Boitsfort",
+   "province": "Bruxelles-Capitale",
+   "region": "Bruxelles",
+   "lat": 50.79806,
+   "lon": 4.41778,
+   "pop": 25332
+  },
+  {
+   "qid": "Q715422",
+   "nom": "La Bruyère",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.5,
+   "lon": 4.8,
+   "pop": 9226
+  },
+  {
+   "qid": "Q678458",
+   "nom": "Perwez",
+   "province": "Brabant wallon",
+   "region": "Wallonie",
+   "lat": 50.62414,
+   "lon": 4.81496,
+   "pop": 9291
+  },
+  {
+   "qid": "Q690926",
+   "nom": "Attert",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 49.75,
+   "lon": 5.78667,
+   "pop": 5537
+  },
+  {
+   "qid": "Q668493",
+   "nom": "Morlanwelz",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.45,
+   "lon": 4.23333,
+   "pop": 19143
+  },
+  {
+   "qid": "Q366552",
+   "nom": "Ganshoren",
+   "province": "Bruxelles-Capitale",
+   "region": "Bruxelles",
+   "lat": 50.87028,
+   "lon": 4.30778,
+   "pop": 25234
+  },
+  {
+   "qid": "Q650163",
+   "nom": "Yvoir",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.3258,
+   "lon": 4.8779,
+   "pop": 9163
+  },
+  {
+   "qid": "Q678218",
+   "nom": "Orp-Jauche",
+   "province": "Brabant wallon",
+   "region": "Wallonie",
+   "lat": 50.68333,
+   "lon": 4.95,
+   "pop": 8856
+  },
+  {
+   "qid": "Q160709",
+   "nom": "Hotton",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 50.26833,
+   "lon": 5.44667,
+   "pop": 5531
+  },
+  {
+   "qid": "Q538735",
+   "nom": "Quaregnon",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.43333,
+   "lon": 3.86667,
+   "pop": 19006
+  },
+  {
+   "qid": "Q219244",
+   "nom": "Koekelberg",
+   "province": "Bruxelles-Capitale",
+   "region": "Bruxelles",
+   "lat": 50.86056,
+   "lon": 4.33167,
+   "pop": 21959
+  },
+  {
+   "qid": "Q329621",
+   "nom": "Beauraing",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.1089,
+   "lon": 4.9561,
+   "pop": 9160
+  },
+  {
+   "qid": "Q618054",
+   "nom": "Chastre",
+   "province": "Brabant wallon",
+   "region": "Wallonie",
+   "lat": 50.6,
+   "lon": 4.63333,
+   "pop": 7592
+  },
+  {
+   "qid": "Q429794",
+   "nom": "Nassogne",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 50.12861,
+   "lon": 5.34194,
+   "pop": 5474
+  },
+  {
+   "qid": "Q667790",
+   "nom": "Lessines",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.7117,
+   "lon": 3.83,
+   "pop": 18552
+  },
+  {
+   "qid": "Q650226",
+   "nom": "Sombreffe",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.51667,
+   "lon": 4.6,
+   "pop": 8420
+  },
+  {
+   "qid": "Q650152",
+   "nom": "Mont-Saint-Guibert",
+   "province": "Brabant wallon",
+   "region": "Wallonie",
+   "lat": 50.63333,
+   "lon": 4.61667,
+   "pop": 7562
+  },
+  {
+   "qid": "Q696127",
+   "nom": "Paliseul",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 49.90417,
+   "lon": 5.13556,
+   "pop": 5393
+  },
+  {
+   "qid": "Q665761",
+   "nom": "Comines-Warneton",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.76667,
+   "lon": 3.0,
+   "pop": 18063
+  },
+  {
+   "qid": "Q696104",
+   "nom": "Fernelmont",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.5536,
+   "lon": 4.9856,
+   "pop": 8218
+  },
+  {
+   "qid": "Q670407",
+   "nom": "La Hulpe",
+   "province": "Brabant wallon",
+   "region": "Wallonie",
+   "lat": 50.73333,
+   "lon": 4.48333,
+   "pop": 7482
+  },
+  {
+   "qid": "Q713404",
+   "nom": "Léglise",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 49.8,
+   "lon": 5.5375,
+   "pop": 5366
+  },
+  {
+   "qid": "Q666696",
+   "nom": "Fontaine-l'Évêque",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.41667,
+   "lon": 4.31667,
+   "pop": 17801
+  },
+  {
+   "qid": "Q578583",
+   "nom": "Floreffe",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.43667,
+   "lon": 4.76,
+   "pop": 8114
+  },
+  {
+   "qid": "Q276266",
+   "nom": "Beauvechain",
+   "province": "Brabant wallon",
+   "region": "Wallonie",
+   "lat": 50.78333,
+   "lon": 4.76667,
+   "pop": 7222
+  },
+  {
+   "qid": "Q217216",
+   "nom": "Bouillon",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 49.79556,
+   "lon": 5.06806,
+   "pop": 5353
+  },
+  {
+   "qid": "Q607182",
+   "nom": "Pont-à-Celles",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.51,
+   "lon": 4.36333,
+   "pop": 17287
+  },
+  {
+   "qid": "Q696133",
+   "nom": "Hamois",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.33333,
+   "lon": 5.13333,
+   "pop": 7349
+  },
+  {
+   "qid": "Q650216",
+   "nom": "Walhain",
+   "province": "Brabant wallon",
+   "region": "Wallonie",
+   "lat": 50.64111,
+   "lon": 4.66806,
+   "pop": 7167
+  },
+  {
+   "qid": "Q650274",
+   "nom": "Houffalize",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 50.13202,
+   "lon": 5.78936,
+   "pop": 5244
+  },
+  {
+   "qid": "Q668630",
+   "nom": "Péruwelz",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.51175,
+   "lon": 3.58893,
+   "pop": 17113
+  },
+  {
+   "qid": "Q388879",
+   "nom": "Gesves",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.4017,
+   "lon": 5.0767,
+   "pop": 7210
+  },
+  {
+   "qid": "Q281080",
+   "nom": "Ittre",
+   "province": "Brabant wallon",
+   "region": "Wallonie",
+   "lat": 50.65,
+   "lon": 4.26667,
+   "pop": 6865
+  },
+  {
+   "qid": "Q713319",
+   "nom": "Gouvy",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 50.18737,
+   "lon": 5.94489,
+   "pop": 5206
+  },
+  {
+   "qid": "Q665938",
+   "nom": "Dour",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.39788,
+   "lon": 3.78069,
+   "pop": 16716
+  },
+  {
+   "qid": "Q545889",
+   "nom": "Anhée",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.30984,
+   "lon": 4.87715,
+   "pop": 7117
+  },
+  {
+   "qid": "Q531456",
+   "nom": "Ramillies",
+   "province": "Brabant wallon",
+   "region": "Wallonie",
+   "lat": 50.63667,
+   "lon": 4.91472,
+   "pop": 6394
+  },
+  {
+   "qid": "Q713170",
+   "nom": "Chiny",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 49.73833,
+   "lon": 5.34333,
+   "pop": 5175
+  },
+  {
+   "qid": "Q669186",
+   "nom": "Thuin",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.33974,
+   "lon": 4.28705,
+   "pop": 14916
+  },
+  {
+   "qid": "Q715246",
+   "nom": "Assesse",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.3711,
+   "lon": 5.0231,
+   "pop": 6964
+  },
+  {
+   "qid": "Q670455",
+   "nom": "Incourt",
+   "province": "Brabant wallon",
+   "region": "Wallonie",
+   "lat": 50.7,
+   "lon": 4.78333,
+   "pop": 5662
+  },
+  {
+   "qid": "Q713433",
+   "nom": "Libin",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 49.98278,
+   "lon": 5.25778,
+   "pop": 5164
+  },
+  {
+   "qid": "Q95140",
+   "nom": "Chapelle-lez-Herlaimont",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.46667,
+   "lon": 4.28333,
+   "pop": 14900
+  },
+  {
+   "qid": "Q514641",
+   "nom": "Hastière",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.21667,
+   "lon": 4.83333,
+   "pop": 5979
+  },
+  {
+   "qid": "Q670355",
+   "nom": "Hélécine",
+   "province": "Brabant wallon",
+   "region": "Wallonie",
+   "lat": 50.75,
+   "lon": 4.98333,
+   "pop": 3926
+  },
+  {
+   "qid": "Q713538",
+   "nom": "Musson",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 49.55833,
+   "lon": 5.705,
+   "pop": 4508
+  },
+  {
+   "qid": "Q95105",
+   "nom": "Belœil",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.53333,
+   "lon": 3.71667,
+   "pop": 14244
+  },
+  {
+   "qid": "Q650261",
+   "nom": "Viroinval",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.07389,
+   "lon": 4.55389,
+   "pop": 5731
+  },
+  {
+   "qid": "Q713845",
+   "nom": "Tintigny",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 49.68278,
+   "lon": 5.51444,
+   "pop": 4276
+  },
+  {
+   "qid": "Q667862",
+   "nom": "Leuze-en-Hainaut",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.6,
+   "lon": 3.61667,
+   "pop": 14217
+  },
+  {
+   "qid": "Q721342",
+   "nom": "Somme-Leuze",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.33333,
+   "lon": 5.36667,
+   "pop": 5587
+  },
+  {
+   "qid": "Q159974",
+   "nom": "La Roche-en-Ardenne",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 50.18167,
+   "lon": 5.575,
+   "pop": 4194
+  },
+  {
+   "qid": "Q666952",
+   "nom": "Ham-sur-Heure-Nalinnes",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.31716,
+   "lon": 4.38032,
+   "pop": 13856
+  },
+  {
+   "qid": "Q720709",
+   "nom": "Havelange",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.38333,
+   "lon": 5.25,
+   "pop": 5130
+  },
+  {
+   "qid": "Q713786",
+   "nom": "Saint-Léger",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 49.61278,
+   "lon": 5.65722,
+   "pop": 3592
+  },
+  {
+   "qid": "Q666238",
+   "nom": "Enghien",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.69556,
+   "lon": 4.04111,
+   "pop": 13734
+  },
+  {
+   "qid": "Q721090",
+   "nom": "Ohey",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.4353,
+   "lon": 5.1217,
+   "pop": 5090
+  },
+  {
+   "qid": "Q713458",
+   "nom": "Manhay",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 50.29139,
+   "lon": 5.65917,
+   "pop": 3463
+  },
+  {
+   "qid": "Q95005",
+   "nom": "Anderlues",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.408,
+   "lon": 4.26961,
+   "pop": 13107
+  },
+  {
+   "qid": "Q715474",
+   "nom": "Cerfontaine",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.16667,
+   "lon": 4.41667,
+   "pop": 4927
+  },
+  {
+   "qid": "Q287813",
+   "nom": "Érezée",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 50.29167,
+   "lon": 5.55833,
+   "pop": 3228
+  },
+  {
+   "qid": "Q666902",
+   "nom": "Gerpinnes",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.3369,
+   "lon": 4.5283,
+   "pop": 12660
+  },
+  {
+   "qid": "Q695390",
+   "nom": "Houyet",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.1844,
+   "lon": 5.0086,
+   "pop": 4876
+  },
+  {
+   "qid": "Q713911",
+   "nom": "Wellin",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 50.08167,
+   "lon": 5.11333,
+   "pop": 3064
+  },
+  {
+   "qid": "Q95112",
+   "nom": "Bernissart",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.48333,
+   "lon": 3.65,
+   "pop": 11894
+  },
+  {
+   "qid": "Q241069",
+   "nom": "Gedinne",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 49.98056,
+   "lon": 4.93694,
+   "pop": 4563
+  },
+  {
+   "qid": "Q511239",
+   "nom": "Tenneville",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 50.09194,
+   "lon": 5.52444,
+   "pop": 2842
+  },
+  {
+   "qid": "Q666813",
+   "nom": "Frasnes-lez-Anvaing",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.66667,
+   "lon": 3.61667,
+   "pop": 11740
+  },
+  {
+   "qid": "Q715371",
+   "nom": "Bièvre",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 49.94111,
+   "lon": 5.01639,
+   "pop": 3307
+  },
+  {
+   "qid": "Q669134",
+   "nom": "Meix-devant-Virton",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 49.605,
+   "lon": 5.48,
+   "pop": 2831
+  },
+  {
+   "qid": "Q669051",
+   "nom": "Seneffe",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.53333,
+   "lon": 4.25,
+   "pop": 11272
+  },
+  {
+   "qid": "Q695349",
+   "nom": "Onhaye",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.25,
+   "lon": 4.83333,
+   "pop": 3201
+  },
+  {
+   "qid": "Q713615",
+   "nom": "Rendeux",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 50.23417,
+   "lon": 5.50389,
+   "pop": 2582
+  },
+  {
+   "qid": "Q666503",
+   "nom": "Farciennes",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.43139,
+   "lon": 4.5475,
+   "pop": 11247
+  },
+  {
+   "qid": "Q720275",
+   "nom": "Doische",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 50.13333,
+   "lon": 4.75,
+   "pop": 2951
+  },
+  {
+   "qid": "Q713708",
+   "nom": "Sainte-Ode",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 50.02696,
+   "lon": 5.52387,
+   "pop": 2557
+  },
+  {
+   "qid": "Q273316",
+   "nom": "Écaussinnes",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.56667,
+   "lon": 4.18333,
+   "pop": 11135
+  },
+  {
+   "qid": "Q650206",
+   "nom": "Vresse-sur-Semois",
+   "province": "Namur",
+   "region": "Wallonie",
+   "lat": 49.87217,
+   "lon": 4.93167,
+   "pop": 2641
+  },
+  {
+   "qid": "Q713812",
+   "nom": "Tellin",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 50.08167,
+   "lon": 5.21833,
+   "pop": 2468
+  },
+  {
+   "qid": "Q666393",
+   "nom": "Estaimpuis",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.7063,
+   "lon": 3.2639,
+   "pop": 10915
+  },
+  {
+   "qid": "Q713282",
+   "nom": "Fauvillers",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 49.85107,
+   "lon": 5.66564,
+   "pop": 2253
+  },
+  {
+   "qid": "Q95004",
+   "nom": "Aiseau-Presles",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.41667,
+   "lon": 4.56667,
+   "pop": 10788
+  },
+  {
+   "qid": "Q713677",
+   "nom": "Rouvroy",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 49.53833,
+   "lon": 5.49083,
+   "pop": 2082
+  },
+  {
+   "qid": "Q377152",
+   "nom": "Jurbise",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.53333,
+   "lon": 3.93333,
+   "pop": 10417
+  },
+  {
+   "qid": "Q713498",
+   "nom": "Martelange",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 49.83111,
+   "lon": 5.73722,
+   "pop": 1820
+  },
+  {
+   "qid": "Q668437",
+   "nom": "Montigny-le-Tilleul",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.38,
+   "lon": 4.38,
+   "pop": 10136
+  },
+  {
+   "qid": "Q713353",
+   "nom": "Herbeumont",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 49.78083,
+   "lon": 5.2375,
+   "pop": 1627
+  },
+  {
+   "qid": "Q666335",
+   "nom": "Erquelinnes",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.3101,
+   "lon": 4.12187,
+   "pop": 9941
+  },
+  {
+   "qid": "Q713189",
+   "nom": "Daverdisse",
+   "province": "Luxembourg",
+   "region": "Wallonie",
+   "lat": 50.02167,
+   "lon": 5.11806,
+   "pop": 1407
+  },
+  {
+   "qid": "Q95380",
+   "nom": "Chimay",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.04793,
+   "lon": 4.31733,
+   "pop": 9606
+  },
+  {
+   "qid": "Q95123",
+   "nom": "Les Bons Villers",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.53667,
+   "lon": 4.45,
+   "pop": 9457
+  },
+  {
+   "qid": "Q668861",
+   "nom": "Le Rœulx",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.5,
+   "lon": 4.1,
+   "pop": 8617
+  },
+  {
+   "qid": "Q669088",
+   "nom": "Silly",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.65,
+   "lon": 3.91667,
+   "pop": 8407
+  },
+  {
+   "qid": "Q668702",
+   "nom": "Quévy",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.36672,
+   "lon": 3.9439,
+   "pop": 8105
+  },
+  {
+   "qid": "Q95132",
+   "nom": "Brunehaut",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.51667,
+   "lon": 3.41667,
+   "pop": 8094
+  },
+  {
+   "qid": "Q666446",
+   "nom": "Estinnes",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.39767,
+   "lon": 4.09758,
+   "pop": 7715
+  },
+  {
+   "qid": "Q95011",
+   "nom": "Antoing",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.5669,
+   "lon": 3.4494,
+   "pop": 7602
+  },
+  {
+   "qid": "Q95100",
+   "nom": "Beaumont",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.23553,
+   "lon": 4.23831,
+   "pop": 7104
+  },
+  {
+   "qid": "Q95318",
+   "nom": "Chièvres",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.58333,
+   "lon": 3.8,
+   "pop": 6899
+  },
+  {
+   "qid": "Q666983",
+   "nom": "Hensies",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.43284,
+   "lon": 3.68472,
+   "pop": 6828
+  },
+  {
+   "qid": "Q668815",
+   "nom": "Quiévrain",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.40487,
+   "lon": 3.6829,
+   "pop": 6759
+  },
+  {
+   "qid": "Q665992",
+   "nom": "Ellezelles",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.73333,
+   "lon": 3.68333,
+   "pop": 6001
+  },
+  {
+   "qid": "Q668540",
+   "nom": "Pecq",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.68579,
+   "lon": 3.33518,
+   "pop": 5967
+  },
+  {
+   "qid": "Q667936",
+   "nom": "Lobbes",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.34602,
+   "lon": 4.26549,
+   "pop": 5885
+  },
+  {
+   "qid": "Q95136",
+   "nom": "Celles",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.7117,
+   "lon": 3.4569,
+   "pop": 5732
+  },
+  {
+   "qid": "Q668903",
+   "nom": "Rumes",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.5561,
+   "lon": 3.3039,
+   "pop": 5351
+  },
+  {
+   "qid": "Q668187",
+   "nom": "Momignies",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.02944,
+   "lon": 4.16667,
+   "pop": 5309
+  },
+  {
+   "qid": "Q667091",
+   "nom": "Honnelles",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.35209,
+   "lon": 3.73102,
+   "pop": 5139
+  },
+  {
+   "qid": "Q669136",
+   "nom": "Sivry-Rance",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.16778,
+   "lon": 4.18083,
+   "pop": 4828
+  },
+  {
+   "qid": "Q667158",
+   "nom": "Lens",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.55,
+   "lon": 3.9,
+   "pop": 4508
+  },
+  {
+   "qid": "Q668139",
+   "nom": "Merbes-le-Château",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.3234,
+   "lon": 4.16448,
+   "pop": 4193
+  },
+  {
+   "qid": "Q666853",
+   "nom": "Froidchapelle",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.15014,
+   "lon": 4.3283,
+   "pop": 3953
+  },
+  {
+   "qid": "Q668295",
+   "nom": "Mont-de-l'Enclus",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.7369,
+   "lon": 3.5039,
+   "pop": 3839
+  },
+  {
+   "qid": "Q95130",
+   "nom": "Brugelette",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.6,
+   "lon": 3.85,
+   "pop": 3658
+  },
+  {
+   "qid": "Q666559",
+   "nom": "Flobecq",
+   "province": "Hainaut",
+   "region": "Wallonie",
+   "lat": 50.73333,
+   "lon": 3.73333,
+   "pop": 3420
+  },
+  {
+   "qid": "Q12892",
+   "nom": "Anvers",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.22111,
+   "lon": 4.39972,
+   "pop": 529247
+  },
+  {
+   "qid": "Q1296",
+   "nom": "Gand",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 51.05361,
+   "lon": 3.72528,
+   "pop": 272657
+  },
+  {
+   "qid": "Q12994",
+   "nom": "Bruges",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 51.20889,
+   "lon": 3.22417,
+   "pop": 118509
+  },
+  {
+   "qid": "Q118958",
+   "nom": "Louvain",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.8775,
+   "lon": 4.70444,
+   "pop": 101032
+  },
+  {
+   "qid": "Q58780",
+   "nom": "Hasselt",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 50.93048,
+   "lon": 5.3385,
+   "pop": 90249
+  },
+  {
+   "qid": "Q162022",
+   "nom": "Malines",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.02806,
+   "lon": 4.48028,
+   "pop": 86921
+  },
+  {
+   "qid": "Q13121",
+   "nom": "Alost",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 50.93833,
+   "lon": 4.03917,
+   "pop": 88854
+  },
+  {
+   "qid": "Q12995",
+   "nom": "Courtrai",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.8275,
+   "lon": 3.26583,
+   "pop": 77741
+  },
+  {
+   "qid": "Q641134",
+   "nom": "Dilbeek",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.845,
+   "lon": 4.265,
+   "pop": 45180
+  },
+  {
+   "qid": "Q189692",
+   "nom": "Genk",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 50.96625,
+   "lon": 5.5021,
+   "pop": 66110
+  },
+  {
+   "qid": "Q271783",
+   "nom": "Turnhout",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.31667,
+   "lon": 4.93333,
+   "pop": 44136
+  },
+  {
+   "qid": "Q13127",
+   "nom": "Saint-Nicolas",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 51.16444,
+   "lon": 4.13917,
+   "pop": 80167
+  },
+  {
+   "qid": "Q12996",
+   "nom": "Ostende",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 51.22583,
+   "lon": 2.91944,
+   "pop": 71557
+  },
+  {
+   "qid": "Q318418",
+   "nom": "Vilvorde",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.92814,
+   "lon": 4.42449,
+   "pop": 44015
+  },
+  {
+   "qid": "Q242407",
+   "nom": "Béringue",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 51.03333,
+   "lon": 5.21667,
+   "pop": 46065
+  },
+  {
+   "qid": "Q257979",
+   "nom": "Heist-op-den-Berg",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.07583,
+   "lon": 4.72861,
+   "pop": 42950
+  },
+  {
+   "qid": "Q13122",
+   "nom": "Termonde",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 51.03123,
+   "lon": 4.0981,
+   "pop": 45673
+  },
+  {
+   "qid": "Q211037",
+   "nom": "Roulers",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.94472,
+   "lon": 3.12333,
+   "pop": 64495
+  },
+  {
+   "qid": "Q210003",
+   "nom": "Hal",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.73611,
+   "lon": 4.23722,
+   "pop": 39096
+  },
+  {
+   "qid": "Q37792",
+   "nom": "Saint-Trond",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 50.81667,
+   "lon": 5.18333,
+   "pop": 40672
+  },
+  {
+   "qid": "Q464454",
+   "nom": "Geel",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.16111,
+   "lon": 4.99028,
+   "pop": 41146
+  },
+  {
+   "qid": "Q499313",
+   "nom": "Deinze",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 50.98333,
+   "lon": 3.52722,
+   "pop": 44315
+  },
+  {
+   "qid": "Q204547",
+   "nom": "Waregem",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.88108,
+   "lon": 3.4001,
+   "pop": 38347
+  },
+  {
+   "qid": "Q633063",
+   "nom": "Grimbergen",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.93333,
+   "lon": 4.38333,
+   "pop": 37355
+  },
+  {
+   "qid": "Q329633",
+   "nom": "Maasmechelen",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 50.9967,
+   "lon": 5.7025,
+   "pop": 38193
+  },
+  {
+   "qid": "Q693513",
+   "nom": "Brasschaat",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.29306,
+   "lon": 4.48944,
+   "pop": 38223
+  },
+  {
+   "qid": "Q12910",
+   "nom": "Lokeren",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 51.1,
+   "lon": 3.98333,
+   "pop": 42703
+  },
+  {
+   "qid": "Q102728",
+   "nom": "Ypres",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.85083,
+   "lon": 2.885,
+   "pop": 35039
+  },
+  {
+   "qid": "Q456550",
+   "nom": "Tirlemont",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.80748,
+   "lon": 4.93717,
+   "pop": 36581
+  },
+  {
+   "qid": "Q194366",
+   "nom": "Lommel",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 51.23333,
+   "lon": 5.31667,
+   "pop": 34044
+  },
+  {
+   "qid": "Q465710",
+   "nom": "Mol",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.18417,
+   "lon": 5.11556,
+   "pop": 37022
+  },
+  {
+   "qid": "Q385026",
+   "nom": "Ninove",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 50.83333,
+   "lon": 4.01667,
+   "pop": 39626
+  },
+  {
+   "qid": "Q213224",
+   "nom": "Menin",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.79556,
+   "lon": 3.12167,
+   "pop": 33982
+  },
+  {
+   "qid": "Q28898",
+   "nom": "Zaventem",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.88333,
+   "lon": 4.46667,
+   "pop": 35184
+  },
+  {
+   "qid": "Q42878311",
+   "nom": "Pelt",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 51.21667,
+   "lon": 5.41667,
+   "pop": 33601
+  },
+  {
+   "qid": "Q12460",
+   "nom": "Lierre",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.13111,
+   "lon": 4.56972,
+   "pop": 36646
+  },
+  {
+   "qid": "Q124477893",
+   "nom": "Merelbeke-Melle",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 50.98771,
+   "lon": 3.77887,
+   "pop": 37000
+  },
+  {
+   "qid": "Q12988",
+   "nom": "Knocke-Heyst",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 51.34139,
+   "lon": 3.28694,
+   "pop": 33097
+  },
+  {
+   "qid": "Q688790",
+   "nom": "Leeuw-Saint-Pierre",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.78333,
+   "lon": 4.25,
+   "pop": 34038
+  },
+  {
+   "qid": "Q319792",
+   "nom": "Heusden-Zolder",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 51.05,
+   "lon": 5.28333,
+   "pop": 33406
+  },
+  {
+   "qid": "Q655203",
+   "nom": "Schoten",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.25,
+   "lon": 4.5,
+   "pop": 34926
+  },
+  {
+   "qid": "Q12997",
+   "nom": "Everghem",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 51.1086,
+   "lon": 3.7075,
+   "pop": 35239
+  },
+  {
+   "qid": "Q392343",
+   "nom": "Wevelgem",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.8081,
+   "lon": 3.1839,
+   "pop": 31412
+  },
+  {
+   "qid": "Q515710",
+   "nom": "Asse",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.9,
+   "lon": 4.2,
+   "pop": 32958
+  },
+  {
+   "qid": "Q478795",
+   "nom": "Houthalen-Helchteren",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 51.03333,
+   "lon": 5.38333,
+   "pop": 30623
+  },
+  {
+   "qid": "Q724131",
+   "nom": "Brecht",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.34944,
+   "lon": 4.63944,
+   "pop": 29454
+  },
+  {
+   "qid": "Q499532",
+   "nom": "Grammont",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 50.76667,
+   "lon": 3.86667,
+   "pop": 33403
+  },
+  {
+   "qid": "Q392337",
+   "nom": "Iseghem",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.9172,
+   "lon": 3.215,
+   "pop": 28845
+  },
+  {
+   "qid": "Q273442",
+   "nom": "Aerschot",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.9842,
+   "lon": 4.8333,
+   "pop": 29965
+  },
+  {
+   "qid": "Q695315",
+   "nom": "Lanaken",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 50.8925,
+   "lon": 5.6497,
+   "pop": 25818
+  },
+  {
+   "qid": "Q383723",
+   "nom": "Herentals",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.17667,
+   "lon": 4.83639,
+   "pop": 28272
+  },
+  {
+   "qid": "Q12992",
+   "nom": "Audenarde",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 50.85,
+   "lon": 3.6,
+   "pop": 31866
+  },
+  {
+   "qid": "Q478797",
+   "nom": "Harelbeke",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.8567,
+   "lon": 3.3131,
+   "pop": 27886
+  },
+  {
+   "qid": "Q599127",
+   "nom": "Overijse",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.78333,
+   "lon": 4.53333,
+   "pop": 25169
+  },
+  {
+   "qid": "Q110989",
+   "nom": "Maseyk",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 51.10194,
+   "lon": 5.78556,
+   "pop": 25201
+  },
+  {
+   "qid": "Q724942",
+   "nom": "Kapellen",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.315,
+   "lon": 4.42944,
+   "pop": 26981
+  },
+  {
+   "qid": "Q823623",
+   "nom": "Tamise",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 51.12611,
+   "lon": 4.21333,
+   "pop": 29528
+  },
+  {
+   "qid": "Q244513",
+   "nom": "Zwevegem",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.8,
+   "lon": 3.33333,
+   "pop": 24619
+  },
+  {
+   "qid": "Q692168",
+   "nom": "Beersel",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.7631,
+   "lon": 4.3086,
+   "pop": 25069
+  },
+  {
+   "qid": "Q41795471",
+   "nom": "Oudsbergen",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 51.05,
+   "lon": 5.6,
+   "pop": 23611
+  },
+  {
+   "qid": "Q695278",
+   "nom": "Willebroeck",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.0597,
+   "lon": 4.3581,
+   "pop": 26223
+  },
+  {
+   "qid": "Q300970",
+   "nom": "Aalter",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 51.08333,
+   "lon": 3.45,
+   "pop": 29340
+  },
+  {
+   "qid": "Q742892",
+   "nom": "Oostkamp",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 51.1544,
+   "lon": 3.2353,
+   "pop": 23580
+  },
+  {
+   "qid": "Q743236",
+   "nom": "Diest",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.9847,
+   "lon": 5.0514,
+   "pop": 23824
+  },
+  {
+   "qid": "Q133769",
+   "nom": "Zonhoven",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 50.98528,
+   "lon": 5.36472,
+   "pop": 21214
+  },
+  {
+   "qid": "Q45202943",
+   "nom": "Puers-Saint-Amand",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.07613,
+   "lon": 4.27762,
+   "pop": 26208
+  },
+  {
+   "qid": "Q268219",
+   "nom": "Renaix",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 50.75,
+   "lon": 3.6,
+   "pop": 27577
+  },
+  {
+   "qid": "Q184287",
+   "nom": "Zedelghem",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 51.1431,
+   "lon": 3.1361,
+   "pop": 22635
+  },
+  {
+   "qid": "Q179249",
+   "nom": "Zemst",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.9828,
+   "lon": 4.4611,
+   "pop": 23325
+  },
+  {
+   "qid": "Q581246",
+   "nom": "Dilsen-Stockem",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 51.0314,
+   "lon": 5.7178,
+   "pop": 20454
+  },
+  {
+   "qid": "Q688781",
+   "nom": "Mortsel",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.17028,
+   "lon": 4.45667,
+   "pop": 26157
+  },
+  {
+   "qid": "Q643980",
+   "nom": "Wetteren",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 51.0,
+   "lon": 3.88333,
+   "pop": 26983
+  },
+  {
+   "qid": "Q465545",
+   "nom": "Coxyde",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 51.1,
+   "lon": 2.65,
+   "pop": 21957
+  },
+  {
+   "qid": "Q932020",
+   "nom": "Montaigu-Zichem",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.9802,
+   "lon": 4.974,
+   "pop": 22952
+  },
+  {
+   "qid": "Q651826",
+   "nom": "Diepenbeek",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 50.9072,
+   "lon": 5.4175,
+   "pop": 19137
+  },
+  {
+   "qid": "Q475931",
+   "nom": "Westerlo",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.0897,
+   "lon": 4.9153,
+   "pop": 24884
+  },
+  {
+   "qid": "Q46865167",
+   "nom": "Lievegem",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 51.13035,
+   "lon": 3.59325,
+   "pop": 26657
+  },
+  {
+   "qid": "Q270633",
+   "nom": "Thourout",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 51.06612,
+   "lon": 3.10137,
+   "pop": 20530
+  },
+  {
+   "qid": "Q456544",
+   "nom": "Tervuren",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.81667,
+   "lon": 4.5,
+   "pop": 22248
+  },
+  {
+   "qid": "Q736097",
+   "nom": "Riemst",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 50.8089,
+   "lon": 5.6019,
+   "pop": 16665
+  },
+  {
+   "qid": "Q912084",
+   "nom": "Nylen",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.16111,
+   "lon": 4.67028,
+   "pop": 22936
+  },
+  {
+   "qid": "Q226941",
+   "nom": "Zottegem",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 50.86667,
+   "lon": 3.81667,
+   "pop": 26373
+  },
+  {
+   "qid": "Q651811",
+   "nom": "Tielt",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.9989,
+   "lon": 3.3258,
+   "pop": 20500
+  },
+  {
+   "qid": "Q930269",
+   "nom": "Herent",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.9081,
+   "lon": 4.6706,
+   "pop": 21632
+  },
+  {
+   "qid": "Q736085",
+   "nom": "Peer",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 51.1328,
+   "lon": 5.4536,
+   "pop": 16421
+  },
+  {
+   "qid": "Q723651",
+   "nom": "Balen",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.17083,
+   "lon": 5.16972,
+   "pop": 22813
+  },
+  {
+   "qid": "Q391294",
+   "nom": "Hamme",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 51.0919,
+   "lon": 4.1356,
+   "pop": 24829
+  },
+  {
+   "qid": "Q328104",
+   "nom": "Blanckenberghe",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 51.3112,
+   "lon": 3.1324,
+   "pop": 20349
+  },
+  {
+   "qid": "Q929474",
+   "nom": "Cortenbergh",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.88333,
+   "lon": 4.53333,
+   "pop": 20214
+  },
+  {
+   "qid": "Q275863",
+   "nom": "Brée",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 51.13333,
+   "lon": 5.58333,
+   "pop": 16324
+  },
+  {
+   "qid": "Q724238",
+   "nom": "Edegem",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.15472,
+   "lon": 4.44583,
+   "pop": 22261
+  },
+  {
+   "qid": "Q12896",
+   "nom": "Maldeghem",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 51.2089,
+   "lon": 3.4464,
+   "pop": 23689
+  },
+  {
+   "qid": "Q499588",
+   "nom": "Poperinge",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.8547,
+   "lon": 2.7256,
+   "pop": 19782
+  },
+  {
+   "qid": "Q922260",
+   "nom": "Meise",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.93333,
+   "lon": 4.33333,
+   "pop": 19164
+  },
+  {
+   "qid": "Q736120",
+   "nom": "Bourg-Léopold",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 51.1169,
+   "lon": 5.2558,
+   "pop": 15625
+  },
+  {
+   "qid": "Q218253",
+   "nom": "Zoersel",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.2689,
+   "lon": 4.7125,
+   "pop": 21739
+  },
+  {
+   "qid": "Q735827",
+   "nom": "Lochristi",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 51.0953,
+   "lon": 3.8325,
+   "pop": 22300
+  },
+  {
+   "qid": "Q492369",
+   "nom": "Middelkerke",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 51.1847,
+   "lon": 2.8192,
+   "pop": 19371
+  },
+  {
+   "qid": "Q587819",
+   "nom": "Londerzeel",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 51.0,
+   "lon": 4.3,
+   "pop": 18620
+  },
+  {
+   "qid": "Q329628",
+   "nom": "Lummen",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 50.98333,
+   "lon": 5.2,
+   "pop": 14762
+  },
+  {
+   "qid": "Q724638",
+   "nom": "Hogstrate",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.40083,
+   "lon": 4.76111,
+   "pop": 21424
+  },
+  {
+   "qid": "Q388115",
+   "nom": "Zele",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 51.06667,
+   "lon": 4.03333,
+   "pop": 20976
+  },
+  {
+   "qid": "Q318532",
+   "nom": "Wervicq",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.7797,
+   "lon": 3.04,
+   "pop": 19020
+  },
+  {
+   "qid": "Q841597",
+   "nom": "Rhode-Saint-Genèse",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.745,
+   "lon": 4.3464,
+   "pop": 18296
+  },
+  {
+   "qid": "Q499599",
+   "nom": "Hamont-Achel",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 51.25,
+   "lon": 5.53333,
+   "pop": 14299
+  },
+  {
+   "qid": "Q724025",
+   "nom": "Bornem",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.09528,
+   "lon": 4.23417,
+   "pop": 21353
+  },
+  {
+   "qid": "Q12440",
+   "nom": "Eeklo",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 51.1858,
+   "lon": 3.5639,
+   "pop": 20890
+  },
+  {
+   "qid": "Q742920",
+   "nom": "Bredene",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 51.2336,
+   "lon": 2.9756,
+   "pop": 17828
+  },
+  {
+   "qid": "Q913195",
+   "nom": "Wemmel",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.9087,
+   "lon": 4.3029,
+   "pop": 18291
+  },
+  {
+   "qid": "Q889044",
+   "nom": "Bocholt",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 51.1722,
+   "lon": 5.5794,
+   "pop": 13085
+  },
+  {
+   "qid": "Q725074",
+   "nom": "Kontich",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.13444,
+   "lon": 4.44556,
+   "pop": 21203
+  },
+  {
+   "qid": "Q696825",
+   "nom": "Denderleeuw",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 50.88333,
+   "lon": 4.08333,
+   "pop": 20086
+  },
+  {
+   "qid": "Q215244",
+   "nom": "Dixmude",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 51.03333,
+   "lon": 2.865,
+   "pop": 16739
+  },
+  {
+   "qid": "Q926139",
+   "nom": "Rotselaer",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.9511,
+   "lon": 4.7108,
+   "pop": 16678
+  },
+  {
+   "qid": "Q696585",
+   "nom": "Herck-la-Ville",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 50.9406,
+   "lon": 5.1672,
+   "pop": 12817
+  },
+  {
+   "qid": "Q696578",
+   "nom": "Wavre-Sainte-Catherine",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.06667,
+   "lon": 4.53333,
+   "pop": 20870
+  },
+  {
+   "qid": "Q817458",
+   "nom": "Erpe-Mere",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 50.93333,
+   "lon": 3.96667,
+   "pop": 19857
+  },
+  {
+   "qid": "Q687921",
+   "nom": "Beernem",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 51.1428,
+   "lon": 3.3408,
+   "pop": 15687
+  },
+  {
+   "qid": "Q930249",
+   "nom": "Ternat",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.86667,
+   "lon": 4.18333,
+   "pop": 16665
+  },
+  {
+   "qid": "Q819164",
+   "nom": "Hechtel-Eksel",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 51.1411,
+   "lon": 5.3761,
+   "pop": 12290
+  },
+  {
+   "qid": "Q912045",
+   "nom": "Wuustwezel",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.3922,
+   "lon": 4.5942,
+   "pop": 20671
+  },
+  {
+   "qid": "Q430510",
+   "nom": "Saint-Gilles-Waes",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 51.2186,
+   "lon": 4.1236,
+   "pop": 19273
+  },
+  {
+   "qid": "Q614274",
+   "nom": "Anseghem",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.8336,
+   "lon": 3.4783,
+   "pop": 14609
+  },
+  {
+   "qid": "Q912106",
+   "nom": "Merchtem",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.96667,
+   "lon": 4.23333,
+   "pop": 16294
+  },
+  {
+   "qid": "Q819133",
+   "nom": "Kinrooi",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 51.145,
+   "lon": 5.7403,
+   "pop": 12233
+  },
+  {
+   "qid": "Q723972",
+   "nom": "Boom",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.0875,
+   "lon": 4.36667,
+   "pop": 19699
+  },
+  {
+   "qid": "Q504653",
+   "nom": "Lebbeke",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 51.0,
+   "lon": 4.11667,
+   "pop": 19195
+  },
+  {
+   "qid": "Q735797",
+   "nom": "Wingene",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 51.05,
+   "lon": 3.26667,
+   "pop": 14243
+  },
+  {
+   "qid": "Q943502",
+   "nom": "Landen",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.7547,
+   "lon": 5.0814,
+   "pop": 15961
+  },
+  {
+   "qid": "Q499604",
+   "nom": "Alken",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 50.87611,
+   "lon": 5.30778,
+   "pop": 11757
+  },
+  {
+   "qid": "Q263177",
+   "nom": "Schilde",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.2389,
+   "lon": 4.5815,
+   "pop": 19585
+  },
+  {
+   "qid": "Q912113",
+   "nom": "Lede",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 50.9658,
+   "lon": 3.9778,
+   "pop": 18628
+  },
+  {
+   "qid": "Q281181",
+   "nom": "Ichteghem",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 51.1,
+   "lon": 3.0,
+   "pop": 13939
+  },
+  {
+   "qid": "Q950129",
+   "nom": "Haecht",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.9767,
+   "lon": 4.6372,
+   "pop": 15661
+  },
+  {
+   "qid": "Q461436",
+   "nom": "Halen",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 50.94806,
+   "lon": 5.11444,
+   "pop": 9461
+  },
+  {
+   "qid": "Q501748",
+   "nom": "Ranst",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.1896,
+   "lon": 4.5634,
+   "pop": 19187
+  },
+  {
+   "qid": "Q911974",
+   "nom": "Haaltert",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 50.9,
+   "lon": 4.0,
+   "pop": 18443
+  },
+  {
+   "qid": "Q465973",
+   "nom": "Jabbeke",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 51.18333,
+   "lon": 3.1,
+   "pop": 13880
+  },
+  {
+   "qid": "Q752115",
+   "nom": "Machelen",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.9103,
+   "lon": 4.4367,
+   "pop": 15417
+  },
+  {
+   "qid": "Q651837",
+   "nom": "Gingelom",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 50.7492,
+   "lon": 5.1328,
+   "pop": 8391
+  },
+  {
+   "qid": "Q724283",
+   "nom": "Essen",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.46778,
+   "lon": 4.47,
+   "pop": 19162
+  },
+  {
+   "qid": "Q735851",
+   "nom": "Stekene",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 51.2061,
+   "lon": 4.04,
+   "pop": 18352
+  },
+  {
+   "qid": "Q731501",
+   "nom": "Cuerne",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.8519,
+   "lon": 3.2861,
+   "pop": 13318
+  },
+  {
+   "qid": "Q926110",
+   "nom": "Tremelo",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.9911,
+   "lon": 4.7044,
+   "pop": 14842
+  },
+  {
+   "qid": "Q696591",
+   "nom": "As",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 51.0,
+   "lon": 5.58333,
+   "pop": 8190
+  },
+  {
+   "qid": "Q725029",
+   "nom": "Kasterlee",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.24083,
+   "lon": 4.96778,
+   "pop": 18882
+  },
+  {
+   "qid": "Q3177595",
+   "nom": "Destelbergen",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 51.05,
+   "lon": 3.8,
+   "pop": 18026
+  },
+  {
+   "qid": "Q492351",
+   "nom": "Le Coq",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 51.2731,
+   "lon": 3.0336,
+   "pop": 12635
+  },
+  {
+   "qid": "Q929447",
+   "nom": "Lubbeek",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.88167,
+   "lon": 4.84139,
+   "pop": 14393
+  },
+  {
+   "qid": "Q119331",
+   "nom": "Wellen",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 50.8394,
+   "lon": 5.3394,
+   "pop": 7402
+  },
+  {
+   "qid": "Q724777",
+   "nom": "Kalmthout",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.38333,
+   "lon": 4.47639,
+   "pop": 18872
+  },
+  {
+   "qid": "Q587979",
+   "nom": "Herzele",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 50.88333,
+   "lon": 3.88333,
+   "pop": 17723
+  },
+  {
+   "qid": "Q822763",
+   "nom": "Kortemark",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 51.0286,
+   "lon": 3.0444,
+   "pop": 12584
+  },
+  {
+   "qid": "Q930292",
+   "nom": "Opwijk",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.96667,
+   "lon": 4.18333,
+   "pop": 14378
+  },
+  {
+   "qid": "Q819162",
+   "nom": "Heers",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 50.7511,
+   "lon": 5.3014,
+   "pop": 7290
+  },
+  {
+   "qid": "Q595654",
+   "nom": "Stabroek",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.33333,
+   "lon": 4.36667,
+   "pop": 18529
+  },
+  {
+   "qid": "Q46865464",
+   "nom": "Kruisem",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 50.90855,
+   "lon": 3.56489,
+   "pop": 15876
+  },
+  {
+   "qid": "Q214154",
+   "nom": "Zonnebeke",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.86667,
+   "lon": 2.98333,
+   "pop": 12445
+  },
+  {
+   "qid": "Q912091",
+   "nom": "Wezembeek-Oppem",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.83333,
+   "lon": 4.5,
+   "pop": 14021
+  },
+  {
+   "qid": "Q231090",
+   "nom": "Zutendaal",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 50.93333,
+   "lon": 5.56667,
+   "pop": 7234
+  },
+  {
+   "qid": "Q723728",
+   "nom": "Beerse",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.31917,
+   "lon": 4.85639,
+   "pop": 18128
+  },
+  {
+   "qid": "Q228863",
+   "nom": "Zulte",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 50.91444,
+   "lon": 3.4425,
+   "pop": 15720
+  },
+  {
+   "qid": "Q506707",
+   "nom": "Furnes",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 51.0722,
+   "lon": 2.6622,
+   "pop": 12295
+  },
+  {
+   "qid": "Q839023",
+   "nom": "Kraainem",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.84203,
+   "lon": 4.46871,
+   "pop": 13690
+  },
+  {
+   "qid": "Q696740",
+   "nom": "Nieuwerkerken",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 50.86667,
+   "lon": 5.2,
+   "pop": 6960
+  },
+  {
+   "qid": "Q615109",
+   "nom": "Duffel",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.09583,
+   "lon": 4.50611,
+   "pop": 17664
+  },
+  {
+   "qid": "Q793584",
+   "nom": "Berlare",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 51.025,
+   "lon": 4.0025,
+   "pop": 14849
+  },
+  {
+   "qid": "Q815948",
+   "nom": "Ghistelles",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 51.1561,
+   "lon": 2.9672,
+   "pop": 12106
+  },
+  {
+   "qid": "Q382860",
+   "nom": "Afflighem",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.9033,
+   "lon": 4.1176,
+   "pop": 13225
+  },
+  {
+   "qid": "Q460479",
+   "nom": "Fourons",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 50.75,
+   "lon": 5.78333,
+   "pop": 4160
+  },
+  {
+   "qid": "Q929397",
+   "nom": "Putte",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.0542,
+   "lon": 4.6294,
+   "pop": 17584
+  },
+  {
+   "qid": "Q845980",
+   "nom": "Brakel",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 50.7979,
+   "lon": 3.7627,
+   "pop": 14781
+  },
+  {
+   "qid": "Q822771",
+   "nom": "Deerlijk",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.8533,
+   "lon": 3.3533,
+   "pop": 11796
+  },
+  {
+   "qid": "Q818621",
+   "nom": "Liedekerke",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.86667,
+   "lon": 4.08333,
+   "pop": 13188
+  },
+  {
+   "qid": "Q499584",
+   "nom": "Herstappe",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 50.72652,
+   "lon": 5.42614,
+   "pop": 88
+  },
+  {
+   "qid": "Q725235",
+   "nom": "Lille",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.23833,
+   "lon": 4.82417,
+   "pop": 16564
+  },
+  {
+   "qid": "Q202309",
+   "nom": "Buggenhout",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 51.01526,
+   "lon": 4.20226,
+   "pop": 14475
+  },
+  {
+   "qid": "Q623310",
+   "nom": "Nieuport",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 51.12944,
+   "lon": 2.75139,
+   "pop": 11488
+  },
+  {
+   "qid": "Q984894",
+   "nom": "Keerbergen",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 51.0031,
+   "lon": 4.6311,
+   "pop": 12743
+  },
+  {
+   "qid": "Q125378487",
+   "nom": "Tongres-Looz",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 50.79374,
+   "lon": 5.40446,
+   "pop": 0
+  },
+  {
+   "qid": "Q725122",
+   "nom": "Laakdal",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.08056,
+   "lon": 5.02,
+   "pop": 16186
+  },
+  {
+   "qid": "Q12901",
+   "nom": "Assenede",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 51.23333,
+   "lon": 3.75,
+   "pop": 14200
+  },
+  {
+   "qid": "Q742876",
+   "nom": "Staden",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.975,
+   "lon": 3.0147,
+   "pop": 11376
+  },
+  {
+   "qid": "Q984888",
+   "nom": "Steenokkerzeel",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.9189,
+   "lon": 4.5083,
+   "pop": 12725
+  },
+  {
+   "qid": "Q125522830",
+   "nom": "Bilzen-Hoeselt",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 50.86055,
+   "lon": 5.50157,
+   "pop": 0
+  },
+  {
+   "qid": "Q917591",
+   "nom": "Malle",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.29889,
+   "lon": 4.69083,
+   "pop": 15602
+  },
+  {
+   "qid": "Q842477",
+   "nom": "Oosterzele",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 50.9458,
+   "lon": 3.8042,
+   "pop": 13546
+  },
+  {
+   "qid": "Q674954",
+   "nom": "La Panne",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 51.1019,
+   "lon": 2.5917,
+   "pop": 11129
+  },
+  {
+   "qid": "Q746078",
+   "nom": "Boortmeerbeek",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.98333,
+   "lon": 4.56667,
+   "pop": 12379
+  },
+  {
+   "qid": "Q130298677",
+   "nom": "Tessenderlo-Ham",
+   "province": "Limbourg",
+   "region": "Flandre",
+   "lat": 51.07802,
+   "lon": 5.12427,
+   "pop": 0
+  },
+  {
+   "qid": "Q943446",
+   "nom": "Rumst",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.0769,
+   "lon": 4.4233,
+   "pop": 15114
+  },
+  {
+   "qid": "Q690611",
+   "nom": "Gavre",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 50.9283,
+   "lon": 3.6611,
+   "pop": 12769
+  },
+  {
+   "qid": "Q628733",
+   "nom": "Moorslede",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.8906,
+   "lon": 3.0628,
+   "pop": 11080
+  },
+  {
+   "qid": "Q492453",
+   "nom": "Kampenhout",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.94131,
+   "lon": 4.54958,
+   "pop": 11898
+  },
+  {
+   "qid": "Q528222",
+   "nom": "Bonheiden",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.02528,
+   "lon": 4.54833,
+   "pop": 15078
+  },
+  {
+   "qid": "Q14062",
+   "nom": "Zelzate",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 51.1975,
+   "lon": 3.8139,
+   "pop": 12699
+  },
+  {
+   "qid": "Q323408",
+   "nom": "Damme",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 51.25,
+   "lon": 3.28333,
+   "pop": 11008
+  },
+  {
+   "qid": "Q936660",
+   "nom": "Roosdaal",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.8439,
+   "lon": 4.0745,
+   "pop": 11629
+  },
+  {
+   "qid": "Q839119",
+   "nom": "Ravels",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.3703,
+   "lon": 4.9936,
+   "pop": 14871
+  },
+  {
+   "qid": "Q730696",
+   "nom": "Laerne",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 51.0292,
+   "lon": 3.8519,
+   "pop": 12487
+  },
+  {
+   "qid": "Q822748",
+   "nom": "Ingelmunster",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.9208,
+   "lon": 3.2533,
+   "pop": 10928
+  },
+  {
+   "qid": "Q641278",
+   "nom": "Hoeilaert",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.76667,
+   "lon": 4.46667,
+   "pop": 11172
+  },
+  {
+   "qid": "Q280182",
+   "nom": "Herselt",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.05361,
+   "lon": 4.88333,
+   "pop": 14521
+  },
+  {
+   "qid": "Q730801",
+   "nom": "Wichelen",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 51.0042,
+   "lon": 3.9725,
+   "pop": 11578
+  },
+  {
+   "qid": "Q177133",
+   "nom": "Avelghem",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.7753,
+   "lon": 3.4442,
+   "pop": 10065
+  },
+  {
+   "qid": "Q746641",
+   "nom": "Oud-Heverlee",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.83333,
+   "lon": 4.66667,
+   "pop": 11099
+  },
+  {
+   "qid": "Q303246",
+   "nom": "Aartselaar",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.13333,
+   "lon": 4.38694,
+   "pop": 14427
+  },
+  {
+   "qid": "Q587906",
+   "nom": "Waesmunster",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 51.10977,
+   "lon": 4.08436,
+   "pop": 10768
+  },
+  {
+   "qid": "Q696942",
+   "nom": "Houthulst",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.9783,
+   "lon": 2.9506,
+   "pop": 10032
+  },
+  {
+   "qid": "Q984892",
+   "nom": "Tielt-Winge",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.93601,
+   "lon": 4.90955,
+   "pop": 10707
+  },
+  {
+   "qid": "Q943555",
+   "nom": "Vieux-Turnhout",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.31778,
+   "lon": 4.98167,
+   "pop": 13977
+  },
+  {
+   "qid": "Q817372",
+   "nom": "Hautem-Saint-Liévin",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 50.91667,
+   "lon": 3.86667,
+   "pop": 10255
+  },
+  {
+   "qid": "Q696907",
+   "nom": "Hooglede",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.9781,
+   "lon": 3.0817,
+   "pop": 9950
+  },
+  {
+   "qid": "Q432610",
+   "nom": "Begijnendijk",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 51.0186,
+   "lon": 4.785,
+   "pop": 10053
+  },
+  {
+   "qid": "Q723822",
+   "nom": "Boechout",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.16361,
+   "lon": 4.49639,
+   "pop": 13372
+  },
+  {
+   "qid": "Q737538",
+   "nom": "Laethem-Saint-Martin",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 51.01861,
+   "lon": 3.63778,
+   "pop": 8468
+  },
+  {
+   "qid": "Q835128",
+   "nom": "Audembourg",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 51.18333,
+   "lon": 3.0,
+   "pop": 9717
+  },
+  {
+   "qid": "Q729929",
+   "nom": "Bierbeek",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.83333,
+   "lon": 4.76667,
+   "pop": 10025
+  },
+  {
+   "qid": "Q641905",
+   "nom": "Arendonk",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.32028,
+   "lon": 5.08639,
+   "pop": 13290
+  },
+  {
+   "qid": "Q231568",
+   "nom": "Zwalin",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 50.8769,
+   "lon": 3.7256,
+   "pop": 8134
+  },
+  {
+   "qid": "Q735842",
+   "nom": "Ledeghem",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.8531,
+   "lon": 3.1267,
+   "pop": 9716
+  },
+  {
+   "qid": "Q827665",
+   "nom": "Bertem",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.85,
+   "lon": 4.61667,
+   "pop": 9958
+  },
+  {
+   "qid": "Q146656",
+   "nom": "Zandhoven",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.2136,
+   "lon": 4.66,
+   "pop": 12985
+  },
+  {
+   "qid": "Q13126",
+   "nom": "Saint-Laurent",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 51.23333,
+   "lon": 3.53333,
+   "pop": 6684
+  },
+  {
+   "qid": "Q339395",
+   "nom": "Wielsbeke",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.9089,
+   "lon": 3.3697,
+   "pop": 9584
+  },
+  {
+   "qid": "Q676893",
+   "nom": "Holsbeek",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.91667,
+   "lon": 4.76667,
+   "pop": 9905
+  },
+  {
+   "qid": "Q839037",
+   "nom": "Wommelghem",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.2036,
+   "lon": 4.5219,
+   "pop": 12893
+  },
+  {
+   "qid": "Q648509",
+   "nom": "Lierde",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 50.81667,
+   "lon": 3.85,
+   "pop": 6567
+  },
+  {
+   "qid": "Q639974",
+   "nom": "Ardoye",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.96667,
+   "lon": 3.18333,
+   "pop": 8988
+  },
+  {
+   "qid": "Q943472",
+   "nom": "Huldenberg",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.78333,
+   "lon": 4.58333,
+   "pop": 9892
+  },
+  {
+   "qid": "Q839044",
+   "nom": "Olen",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.14389,
+   "lon": 4.85972,
+   "pop": 12560
+  },
+  {
+   "qid": "Q840517",
+   "nom": "Kluisbergen",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 50.78874,
+   "lon": 3.51355,
+   "pop": 6453
+  },
+  {
+   "qid": "Q696871",
+   "nom": "Lichtervelde",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 51.03333,
+   "lon": 3.13333,
+   "pop": 8793
+  },
+  {
+   "qid": "Q911995",
+   "nom": "Capelle-au-Bois",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 51.01667,
+   "lon": 4.36667,
+   "pop": 9396
+  },
+  {
+   "qid": "Q929459",
+   "nom": "Rijkevorsel",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.3489,
+   "lon": 4.7597,
+   "pop": 12560
+  },
+  {
+   "qid": "Q840935",
+   "nom": "Wortegem-Petegem",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 50.8536,
+   "lon": 3.5183,
+   "pop": 6440
+  },
+  {
+   "qid": "Q822795",
+   "nom": "Koekelare",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 51.0906,
+   "lon": 2.9803,
+   "pop": 8784
+  },
+  {
+   "qid": "Q912022",
+   "nom": "Lennik",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.8,
+   "lon": 4.15,
+   "pop": 9024
+  },
+  {
+   "qid": "Q724448",
+   "nom": "Hemiksem",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.14306,
+   "lon": 4.34111,
+   "pop": 12428
+  },
+  {
+   "qid": "Q12437",
+   "nom": "Kaprijke",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 51.21667,
+   "lon": 3.6,
+   "pop": 6429
+  },
+  {
+   "qid": "Q742906",
+   "nom": "Denterghem",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.9636,
+   "lon": 3.4153,
+   "pop": 8484
+  },
+  {
+   "qid": "Q227070",
+   "nom": "Léau",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.8333,
+   "lon": 5.1036,
+   "pop": 8498
+  },
+  {
+   "qid": "Q723774",
+   "nom": "Berlaar",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.11778,
+   "lon": 4.6575,
+   "pop": 11656
+  },
+  {
+   "qid": "Q912099",
+   "nom": "Markedal",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 50.8,
+   "lon": 3.61667,
+   "pop": 6338
+  },
+  {
+   "qid": "Q735865",
+   "nom": "Langemark-Poelkapelle",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.9133,
+   "lon": 2.9181,
+   "pop": 7920
+  },
+  {
+   "qid": "Q895293",
+   "nom": "Boutersem",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.85,
+   "lon": 4.83333,
+   "pop": 8167
+  },
+  {
+   "qid": "Q912062",
+   "nom": "Réthy",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.2658,
+   "lon": 5.0828,
+   "pop": 11240
+  },
+  {
+   "qid": "Q912076",
+   "nom": "Horebeke",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 50.83333,
+   "lon": 3.68333,
+   "pop": 2048
+  },
+  {
+   "qid": "Q822755",
+   "nom": "Heuvelland",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.76667,
+   "lon": 2.81667,
+   "pop": 7862
+  },
+  {
+   "qid": "Q984877",
+   "nom": "Kortenaken",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.9,
+   "lon": 5.06667,
+   "pop": 7875
+  },
+  {
+   "qid": "Q724389",
+   "nom": "Grobbendonk",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.19194,
+   "lon": 4.73861,
+   "pop": 11172
+  },
+  {
+   "qid": "Q125550409",
+   "nom": "Nazareth-La Pinte",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 50.98397,
+   "lon": 3.63218,
+   "pop": 0
+  },
+  {
+   "qid": "Q822777",
+   "nom": "Oostrozebeke",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.91667,
+   "lon": 3.33333,
+   "pop": 7849
+  },
+  {
+   "qid": "Q984881",
+   "nom": "Linter",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.8,
+   "lon": 5.05,
+   "pop": 7255
+  },
+  {
+   "qid": "Q929485",
+   "nom": "Vosselaar",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.3081,
+   "lon": 4.8883,
+   "pop": 11159
+  },
+  {
+   "qid": "Q130298413",
+   "nom": "Beveren-Kruibeke-Zwijndrecht",
+   "province": "Flandre-Orientale",
+   "region": "Flandre",
+   "lat": 51.19745,
+   "lon": 4.28674,
+   "pop": 0
+  },
+  {
+   "qid": "Q651724",
+   "nom": "Pittem",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.98333,
+   "lon": 3.26667,
+   "pop": 6752
+  },
+  {
+   "qid": "Q818787",
+   "nom": "Hoegaarden",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.77415,
+   "lon": 4.88703,
+   "pop": 6873
+  },
+  {
+   "qid": "Q518758",
+   "nom": "Hulshout",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.07528,
+   "lon": 4.78861,
+   "pop": 10634
+  },
+  {
+   "qid": "Q696887",
+   "nom": "Lendelede",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.8858,
+   "lon": 3.2372,
+   "pop": 5747
+  },
+  {
+   "qid": "Q815054",
+   "nom": "Bekkevoort",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.95,
+   "lon": 4.96667,
+   "pop": 6274
+  },
+  {
+   "qid": "Q912054",
+   "nom": "Niel",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.11,
+   "lon": 4.33028,
+   "pop": 10546
+  },
+  {
+   "qid": "Q448840",
+   "nom": "Alveringem",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 51.0111,
+   "lon": 2.7108,
+   "pop": 5089
+  },
+  {
+   "qid": "Q984874",
+   "nom": "Geetbets",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.88333,
+   "lon": 5.11667,
+   "pop": 6035
+  },
+  {
+   "qid": "Q846207",
+   "nom": "Meerhout",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.13167,
+   "lon": 5.07722,
+   "pop": 10324
+  },
+  {
+   "qid": "Q735813",
+   "nom": "Vleteren",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.9139,
+   "lon": 2.7414,
+   "pop": 3659
+  },
+  {
+   "qid": "Q688377",
+   "nom": "Drogenbos",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.78333,
+   "lon": 4.31667,
+   "pop": 5599
+  },
+  {
+   "qid": "Q527808",
+   "nom": "Wijnegem",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.2278,
+   "lon": 4.5156,
+   "pop": 9711
+  },
+  {
+   "qid": "Q822790",
+   "nom": "Lo-Reninge",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.98333,
+   "lon": 2.75,
+   "pop": 3289
+  },
+  {
+   "qid": "Q984868",
+   "nom": "Glabbeek",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.86667,
+   "lon": 4.95,
+   "pop": 5298
+  },
+  {
+   "qid": "Q386732",
+   "nom": "Dessel",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.23944,
+   "lon": 5.11333,
+   "pop": 9605
+  },
+  {
+   "qid": "Q228685",
+   "nom": "Zuyenkerque",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 51.265,
+   "lon": 3.1564,
+   "pop": 2730
+  },
+  {
+   "qid": "Q631639",
+   "nom": "Linkebeek",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.76667,
+   "lon": 4.33333,
+   "pop": 4760
+  },
+  {
+   "qid": "Q724534",
+   "nom": "Herenthout",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.13917,
+   "lon": 4.75444,
+   "pop": 9109
+  },
+  {
+   "qid": "Q846212",
+   "nom": "Espierres-Helchin",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.7269,
+   "lon": 3.3669,
+   "pop": 2087
+  },
+  {
+   "qid": "Q646037",
+   "nom": "Pepingen",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.75,
+   "lon": 4.15,
+   "pop": 4372
+  },
+  {
+   "qid": "Q911968",
+   "nom": "Schelle",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.13333,
+   "lon": 4.33333,
+   "pop": 8682
+  },
+  {
+   "qid": "Q737077",
+   "nom": "Messines",
+   "province": "Flandre-Occidentale",
+   "region": "Flandre",
+   "lat": 50.76667,
+   "lon": 2.9,
+   "pop": 1062
+  },
+  {
+   "qid": "Q839017",
+   "nom": "Biévène",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.71667,
+   "lon": 3.93333,
+   "pop": 2204
+  },
+  {
+   "qid": "Q725268",
+   "nom": "Lint",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.12783,
+   "lon": 4.49434,
+   "pop": 8641
+  },
+  {
+   "qid": "Q123848537",
+   "nom": "Pajottegem",
+   "province": "Brabant flamand",
+   "region": "Flandre",
+   "lat": 50.7355,
+   "lon": 4.0202,
+   "pop": 0
+  },
+  {
+   "qid": "Q532277",
+   "nom": "Merksplas",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.35806,
+   "lon": 4.86278,
+   "pop": 8588
+  },
+  {
+   "qid": "Q649982",
+   "nom": "Hove",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.14861,
+   "lon": 4.4775,
+   "pop": 8366
+  },
+  {
+   "qid": "Q909914",
+   "nom": "Vorselaar",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.2019,
+   "lon": 4.7717,
+   "pop": 7848
+  },
+  {
+   "qid": "Q244959",
+   "nom": "Baerle-Duc",
+   "province": "Anvers",
+   "region": "Flandre",
+   "lat": 51.43833,
+   "lon": 4.93167,
+   "pop": 3083
+  }
+ ]
+}

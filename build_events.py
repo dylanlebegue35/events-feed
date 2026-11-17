@@ -637,7 +637,7 @@ def _meme_nom(a, b):
     return _plain(a).strip() == pb.strip()
 
 
-def _google_top(key, proxy, cfg, kind, label, word):
+def _google_top(key, proxy, cfg, kind, label, word, pages=3, quiet=False):
     """Les lieux les mieux notés de chaque ville de cfg["cities"] (bars, restaurants), avec leur première photo Google."""
     out = []
     fields = ("places.id,places.displayName,places.formattedAddress,places.location,places.rating,places.userRatingCount,"
@@ -650,7 +650,7 @@ def _google_top(key, proxy, cfg, kind, label, word):
                     "regionCode": "BE", "pageSize": 20,
                     "locationRestriction": {"rectangle": {"low": {"latitude": c["lat"] - dlat, "longitude": c["lon"] - dlon},
                                                           "high": {"latitude": c["lat"] + dlat, "longitude": c["lon"] + dlon}}}}
-            for _ in range(3):                      # 3 pages de 20 au plus
+            for _ in range(pages):                  # 3 pages de 20 au plus (1 pour une petite commune)
                 data = _google_search(key, body, fields)
                 for g in data.get("places", []):
                     if g["id"] not in seen:
@@ -675,8 +675,52 @@ def _google_top(key, proxy, cfg, kind, label, word):
                             "image": img, "image_credit": credit, "pitch": None})
             except (KeyError, TypeError, ValueError):
                 continue
-        REPORT.append({"source": f"Google : {word} de {c['name']}", "ok": True, "trouves": len(found), "gardes": min(len(good), c["top"])})
+        if not quiet:
+            REPORT.append({"source": f"Google : {word} de {c['name']}", "ok": True, "trouves": len(found), "gardes": min(len(good), c["top"])})
     return out
+
+
+COMMUNES_FILE = HERE / "communes.json"
+
+
+def _google_communes(key, proxy, cfg, store):
+    """Les meilleurs restos et bars de chaque commune belge (communes.json), quelques communes par passage : celles vues
+    il y a le plus longtemps d'abord. Seulement les bien notés (seuils du bloc « communes »). Les grandes villes déjà
+    réglées dans les blocs bars / restaurants sont sautées."""
+    communes = json.loads(COMMUNES_FILE.read_text(encoding="utf-8")).get("communes", [])
+    deja = {_plain(c["name"]) for c in cfg.get("cities", []) + (cfg.get("restaurants") or {}).get("cities", [])}
+    ccfg = cfg["communes"]
+    memo = store.get("communes") if isinstance(store.get("communes"), dict) else {}
+    a_faire = sorted((c for c in communes if isinstance(c, dict) and c.get("qid") and c.get("nom")
+                      and _plain(c["nom"]) not in deja), key=lambda c: str((memo.get(c["qid"]) or {}).get("seen", "")))
+    a_faire = a_faire[:int(ccfg.get("par_passage", 0))]
+    today = datetime.now().date().isoformat()
+    debut, lues, erreur = time.time(), 0, None
+    for c in a_faire:
+        # temps limité (le robot entier a 40 min) : si Google rame, on s'arrête et on reprend la semaine suivante
+        if time.time() - debut > float(ccfg.get("max_minutes", 8)) * 60:
+            erreur = "temps écoulé, reprise au prochain passage"
+            break
+        city = [{"name": c["nom"], "lat": float(c["lat"]), "lon": float(c["lon"]), "radius_m": int(ccfg.get("rayon_m", 3000))}]
+        lieux = []
+        try:
+            for kind, label, gtypes in (("restaurant", "Restaurant", ["restaurant"]), ("bar", "Bar", ["bar"])):
+                seuils = ccfg.get("restaurants" if kind == "restaurant" else "bars") or {}
+                if not seuils.get("top"):
+                    continue
+                sub = {"cities": [dict(city[0], top=int(seuils["top"]))], "types": gtypes,
+                       "min_reviews": seuils.get("min_reviews", 50), "min_rating": seuils.get("min_rating", 4.4)}
+                lieux += _google_top(key, proxy, sub, kind, label, kind, pages=1, quiet=True)
+        except Exception as ex:                             # quota, clé, réseau : on s'arrête là, ce qui est payé est gardé
+            erreur = str(ex).replace(key, "***")[:200]
+            break
+        memo[c["qid"]] = {"seen": today, "lieux": lieux}
+        lues += 1
+        store["communes"] = memo                            # sauvegarde à chaque commune : rien n'est payé deux fois
+        GOOGLE_STORE.write_text(json.dumps(store, ensure_ascii=False, indent=1), encoding="utf-8")
+    store["communes"] = memo
+    REPORT.append({"source": "Google : restos et bars des communes", "ok": erreur is None, "erreur": erreur, "communes_lues": lues,
+                   "communes_connues": len(memo), "lieux": sum(len(v.get("lieux", [])) for v in memo.values() if isinstance(v, dict))})
 
 
 def google_places(lieux):
@@ -699,6 +743,11 @@ def google_places(lieux):
                     store["restaurants"] = _google_top(key, proxy, rcfg, "restaurant", "Restaurant", "restaurants")
                 except Exception as ex:
                     REPORT.append({"source": "Google : restaurants", "ok": False, "erreur": str(ex).replace(key, "***")[:300]})
+            if isinstance(cfg.get("communes"), dict) and cfg["communes"].get("enabled"):
+                try:                                # toutes les communes, quelques-unes par passage
+                    _google_communes(key, proxy, cfg, store)
+                except Exception as ex:
+                    REPORT.append({"source": "Google : communes", "ok": False, "erreur": str(ex).replace(key, "***")[:300]})
             # 2) une photo pour les lieux qui n'en ont pas (et les lieux fermés pour de bon). D'abord ceux jamais cherchés,
             #    les bars de Liège en tête ; puis on relit les plus anciens (une référence de photo Google peut expirer).
             #    Les photos déjà trouvées sont gardées d'une semaine à l'autre.
@@ -772,7 +821,19 @@ def google_places(lieux):
             p["image"], p["image_credit"] = g["image"], (g.get("image_credit") if isinstance(g.get("image_credit"), str) else "Google Maps")
         out.append(p)
     top_order = {}
-    tops = [b for b in (store.get("bars") or []) + (store.get("restaurants") or [])
+    # communes : seulement quand c'est publié (app v1.1 : elle ne montre que les villes proches) et lu il y a moins de 30 jours
+    # (Google ne permet de garder ses données que 30 jours : tout est relu en 4 semaines)
+    communes = []
+    frais = (datetime.now().date() - timedelta(days=30)).isoformat()
+    if (cfg.get("communes") or {}).get("publier") is True and isinstance(store.get("communes"), dict):
+        vus = set()
+        for v in store["communes"].values():
+            if isinstance(v, dict) and str(v.get("seen", "")) >= frais:
+                for b in v.get("lieux") or []:
+                    if isinstance(b, dict) and b.get("id") not in vus:
+                        vus.add(b.get("id"))
+                        communes.append(b)
+    tops = [b for b in (store.get("bars") or []) + (store.get("restaurants") or []) + communes
             if isinstance(b, dict) and b.get("kind") in ("bar", "restaurant") and _google_ok(b.get("image"))]
     for b in tops:
         # un bar (ou un restaurant) déjà là garde sa fiche (et prend la photo s'il n'en a pas) ; le mieux noté remonte

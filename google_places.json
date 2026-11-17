@@ -130,5 +130,23 @@
    }
   ],
   "max_photo_lookups": 60
+ },
+ "communes": {
+  "_aide": "Toutes les communes belges (communes.json, 565) : les meilleurs restos (top 5) et bars (top 3) de chacune sur Google, seulement s'ils sont bien notés. par_passage communes lues à chaque passage Google (une fois par semaine) : 145 → tout est relu en 4 semaines, soit environ 290 recherches par semaine. Les grandes villes des blocs bars et restaurants sont sautées. publier : false tant que l'app v1.1 (qui ne montre que les villes proches) n'est pas en ligne.",
+  "enabled": true,
+  "publier": false,
+  "par_passage": 145,
+  "rayon_m": 3000,
+  "restaurants": {
+   "top": 5,
+   "min_reviews": 60,
+   "min_rating": 4.4
+  },
+  "bars": {
+   "top": 3,
+   "min_reviews": 40,
+   "min_rating": 4.3
+  },
+  "max_minutes": 8
  }
 }
