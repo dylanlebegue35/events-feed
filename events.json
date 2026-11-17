@@ -1,6 +1,26 @@
 {
-  "generated": "2026-11-17T00:00:17",
+  "generated": "2026-11-17T12:40:35",
   "events": [
+    {
+      "id": "web-grand-curtius-li-ge-espace-c-sar-franck-au-grand-curtius-2022-01-12",
+      "title": "Espace César Franck au Grand Curtius",
+      "category": "expo",
+      "venue": "Grand Curtius",
+      "city": "Liège",
+      "lat": 50.6471353,
+      "lon": 5.5835333,
+      "start": "2022-01-12T10:00:00",
+      "end": "2027-03-07T20:00:00",
+      "image": "https://www.grandcurtius.be/sites/default/files/styles/teaser_wide/public/2023-12/bandeau%20cesar%20franck%202024.jpg?itok=6bSWQTqJ",
+      "page_url": "https://www.grandcurtius.be/fr/actualites/exposition/un-espace-cesar-franck-au-grand-curtius",
+      "url": "https://www.grandcurtius.be/fr/actualites/exposition/un-espace-cesar-franck-au-grand-curtius",
+      "summary": "On y découvre la console d'orgue Cavaillé-Coll de César Franck, le manuscrit original des Variations symphoniques et des documents d'époque. L'espace présente aussi le piano Serrurier-Bovy et, depuis 2023, un piano Erard ayant appartenu à Franck.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Grand Curtius (Liège)"
+    },
     {
       "id": "web-province-de-li-ge-jeudisant-cycle-de-conf-rences-2026-2026-02-05",
       "title": "JeudiSanté : cycle de conférences 2026",
@@ -184,9 +204,7 @@
       "price_from": 1.25,
       "free": false,
       "audience": [],
-      "tags": [
-        "découverte"
-      ],
+      "tags": [],
       "source": "Grand Curtius (Liège)"
     },
     {
@@ -242,7 +260,7 @@
       "image": "https://agenda.enwallonie.be/huy/homepage/1e494ce33bc642e88d986e9a45dd338b/@@images/image-430-0e812e6456a5250649401b4bf96f664c.png",
       "page_url": "https://www.huy.be/agenda/sainte-catherine-cross-marche-benediction-des?u=1e494ce33bc642e88d986e9a45dd338b",
       "url": "https://www.huy.be/agenda/sainte-catherine-cross-marche-benediction-des?u=1e494ce33bc642e88d986e9a45dd338b",
-      "summary": "Programme de la Sainte-Catherine : cross, marché, bénédiction des animaux et semaine de l'arbre, du 11 au 28 novembre.",
+      "summary": "Sainte-Catherine à Huy : cross, marché, bénédiction des animaux, semaine de l'arbre.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -350,157 +368,6 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "fbx-2625083154598616",
-      "title": "Saint-Nicolas des étudiants de Huy 2026",
-      "category": "party",
-      "venue": "Parc Vierset Godin-Parnajon",
-      "city": "Huy",
-      "lat": 50.5180856,
-      "lon": 5.2408138,
-      "start": "2026-11-16T07:00:00",
-      "end": "2026-11-16T17:00:00",
-      "image": null,
-      "page_url": "https://www.facebook.com/events/2625083154598616/",
-      "url": "https://www.facebook.com/events/2625083154598616/",
-      "summary": "La traditionnelle Saint-Nicolas des rhétos et 7e secondaire de Huy et environs, une journée de fête étudiante.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Facebook (extension)"
-    },
-    {
-      "id": "web-ville-de-huy-saint-nicolas-des-r-thos-2026-11-16",
-      "title": "Saint-Nicolas des Réthos",
-      "category": "family",
-      "venue": "Huy",
-      "city": "Huy",
-      "lat": 50.5180856,
-      "lon": 5.2408138,
-      "start": "2026-11-16T10:00:00",
-      "end": "2026-11-16T10:00:00",
-      "image": "https://actualites.enwallonie.be/huy/administration-communale/af33622a439e477d95aafcbd934f39d3/@@images/image-430-117759b702a0ecd2784e012a958115a7.jpeg",
-      "page_url": "https://www.huy.be/actualites/saint-nicolas-des-rethos-ce-16-nov?u=af33622a439e477d95aafcbd934f39d3",
-      "url": "https://www.huy.be/actualites/saint-nicolas-des-rethos-ce-16-nov?u=af33622a439e477d95aafcbd934f39d3",
-      "summary": "Fête de la Saint-Nicolas aux Réthos le 16 novembre.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "family"
-      ],
-      "tags": [],
-      "source": "Ville de Huy"
-    },
-    {
-      "id": "fb-1742681747561607",
-      "title": "Balade Éducative chiot - Parc a Namur",
-      "category": "workshop",
-      "venue": "Namur",
-      "city": "Namur",
-      "lat": 50.4665284,
-      "lon": 4.8661892,
-      "start": "2026-11-16T12:00:00",
-      "end": "2026-11-16T13:00:00",
-      "image": null,
-      "page_url": "https://www.facebook.com/events/1742681747561607/",
-      "url": "https://www.facebook.com/events/1742681747561607/",
-      "summary": "Bonjour à tous =) 🐕Je vous propose une balade éducative pour chiot (de 3mois à 6mois (7 suivant son gabarit)) 🐕‍🦺Nous travaillerons l'apprentissage de la marche en laisse dans un parc animé Quelques commandes, découverte de nouvel environnement. Apprentissage des limites entre le jeu et le harcèleme",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "family"
-      ],
-      "tags": [],
-      "source": "Facebook (événement public)",
-      "classified": true
-    },
-    {
-      "id": "web-botanique-bruxelles-zimmer90-tonique-man-2026-11-16",
-      "title": "Zimmer90 - Tonique & Man",
-      "category": "concert",
-      "venue": "Botanique",
-      "city": "Bruxelles",
-      "lat": 50.8535292,
-      "lon": 4.3659372,
-      "start": "2026-11-16T18:30:00",
-      "end": "2026-11-16T18:30:00",
-      "image": "https://botanique.be/sites/default/files/styles/event_overview/public/2026-01/Zimmer90%20hoorizontal.jpg?itok=7ohNDb53",
-      "page_url": "https://botanique.be/fr/concert/zimmer90-tonique-man-2026",
-      "url": "https://botanique.be/fr/concert/zimmer90-tonique-man-2026#tickets-widget",
-      "summary": "Au Museum du Botanique, le duo Tonique & Man présente un live plus ample avant la sortie de son deuxième album. Zimmer90, duo allemand d'électro-pop alternative, joue ensuite des rythmes doux et dansants.",
-      "price_from": 19.5,
-      "free": false,
-      "audience": [
-        "young"
-      ],
-      "tags": [],
-      "source": "Botanique (Bruxelles)"
-    },
-    {
-      "id": "web-botanique-bruxelles-feeble-little-horse-if-i-was-a-pony-2026-11-16",
-      "title": "feeble little horse - If i was a pony",
-      "category": "concert",
-      "venue": "Botanique",
-      "city": "Bruxelles",
-      "lat": 50.8535292,
-      "lon": 4.3659372,
-      "start": "2026-11-16T18:30:00",
-      "end": "2026-11-16T18:30:00",
-      "image": "https://botanique.be/sites/default/files/styles/event_overview/public/2026-05/feeble%20little%20horse.jpeg?itok=oW7JV0Mc",
-      "page_url": "https://botanique.be/fr/concert/feeble-little-horse-if-i-was-pony-2026",
-      "url": "https://botanique.be/fr/concert/feeble-little-horse-if-i-was-pony-2026#tickets-widget",
-      "summary": "Concert de rock indie à la Rotonde du Botanique, avec les premières parties if i was a pony (duo londonien de laptop-twee) puis feeble little horse, dont les guitares saturées et les synthés se mêlent à la noise pop et au shoegaze. Le groupe y présente son troisième album, bitknot.",
-      "price_from": 15.15,
-      "free": false,
-      "audience": [
-        "young"
-      ],
-      "tags": [],
-      "source": "Botanique (Bruxelles)"
-    },
-    {
-      "id": "web-botanique-bruxelles-faux-real-satchel-hart-2026-11-16",
-      "title": "Faux Real - Satchel Hart",
-      "category": "concert",
-      "venue": "Botanique",
-      "city": "Bruxelles",
-      "lat": 50.8535292,
-      "lon": 4.3659372,
-      "start": "2026-11-16T18:30:00",
-      "end": "2026-11-16T18:30:00",
-      "image": "https://botanique.be/sites/default/files/styles/event_overview/public/2026-06/Photo%20May%2018%202026%2C%204%2005%2023%20PM.jpg?itok=IQkYnI0Q",
-      "page_url": "https://botanique.be/fr/concert/faux-real-satchel-hart-2026",
-      "url": "https://botanique.be/fr/concert/faux-real-satchel-hart-2026#tickets-widget",
-      "summary": "Pop excentrique et électronique, des mélodies entêtantes et rapides mélange de Paris et L.A.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "young"
-      ],
-      "tags": [],
-      "source": "Botanique (Bruxelles)"
-    },
-    {
-      "id": "fbx-896023520010381",
-      "title": "What The Fun chez Baroni - Soumagne",
-      "category": "theatre",
-      "venue": "Baroni - Cicchetti & Vino",
-      "city": "Soumagne",
-      "lat": 50.6330605,
-      "lon": 5.7317942,
-      "start": "2026-11-16T19:00:00",
-      "end": "2026-11-16T22:00:00",
-      "image": null,
-      "page_url": "https://www.facebook.com/events/896023520010381/",
-      "url": "https://www.facebook.com/events/896023520010381/",
-      "summary": "Soirée humour et pasta avec trois humoristes à découvrir sur scène dans un resto italien de Soumagne.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Facebook (extension)"
-    },
-    {
       "id": "fbx-28650481987911983",
       "title": "Salon de l'Emploi Visé 2026",
       "category": "fair",
@@ -553,9 +420,9 @@
       "image": "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000KyawLMAR_1240x720.jpg",
       "page_url": "https://www.abconcerts.be/fr/agenda/eluveitie/a10Qw00000CUGYJIA5",
       "url": "https://www.abconcerts.be/fr/agenda/eluveitie/a10Qw00000CUGYJIA5",
-      "summary": "Mélange explosif de métal et de musique celtique traditionnelle, avec Pain et WOLFHEART en première partie.",
-      "price_from": null,
-      "free": null,
+      "summary": "Le groupe Eluveitie, fondé en 2002, mêle death metal mélodique et musique celtique traditionnelle, et joue en tête d'affiche à l'AB Grande salle de Bruxelles. Pain et WOLFHEART assurent la première partie.",
+      "price_from": 1.25,
+      "free": false,
       "audience": [
         "young"
       ],
@@ -575,9 +442,9 @@
       "image": "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000Pq1mQMAR_1240x720.jpg",
       "page_url": "https://www.abconcerts.be/fr/agenda/au-pairs/a10Qw00000J5WdpIAF",
       "url": "https://www.abconcerts.be/fr/agenda/au-pairs/a10Qw00000J5WdpIAF",
-      "summary": "Grand retour d'un groupe culte légendaire, avec Mek'dr'dr en première partie.",
-      "price_from": null,
-      "free": null,
+      "summary": "Le groupe post-punk culte Au Pairs, formé en 1978, se reforme autour de la chanteuse Lesley Woods pour un concert à l'AB Club. Le set mêle thèmes politiques et féministes, son dansant et influences funk, en première partie de Mek'dr'dr.",
+      "price_from": 1.25,
+      "free": false,
       "audience": [
         "young"
       ],
@@ -603,26 +470,6 @@
       "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
-    },
-    {
-      "id": "web-mars-mons-arts-de-la-sc-ne-dipus-2026-11-17",
-      "title": "Œdipus",
-      "category": "theatre",
-      "venue": "Théâtre le Manège",
-      "city": "Mons",
-      "lat": 50.4578919,
-      "lon": 3.9570338,
-      "start": "2026-11-17T10:00:00",
-      "end": "2026-11-18T20:00:00",
-      "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Oedipus-c-Alexandre-Fytrakis.jpeg.webp?itok=AXAvT6yv",
-      "page_url": "https://www.surmars.be/agenda/2026-11/theatre/oedipus",
-      "url": "https://shop.infinitix.be/SURMARSBE_INF/S/C8E11A57-2573-EE4B-AB5A-7136D58F97E4/?d=D6544DA9-34E1-AE4E-0680-E03D9EFB007B",
-      "summary": "Oedipus inscrit le mythe antique de Sophocle dans notre siècle, le connecte à nos préoccupations et traite du pouvoir et des façons de gouverner.",
-      "price_from": 3.0,
-      "free": false,
-      "audience": [],
-      "tags": [],
-      "source": "Mars – Mons arts de la scène"
     },
     {
       "id": "web-mars-mons-arts-de-la-sc-ne-les-midis-d-arts-2026-11-17",
@@ -677,7 +524,7 @@
       "image": null,
       "page_url": "https://www.surmars.be/agenda/2026-11/musique/rendez-vous-soins-et-sons",
       "url": "https://shop.infinitix.be/SURMARSBE_INF/S/7971E555-17F3-DB00-0726-613261EAF751/?d=1B340F82-4241-E326-EDCE-B9DEE3CEAF5B",
-      "summary": "Rendez-vous musical programmé le mardi 17 novembre à 18h00 sur Mars.",
+      "summary": "Rendez-vous musical intitulé « Soins et sons », programmé à 18h00 à Mars.",
       "price_from": 15.0,
       "free": false,
       "audience": [],
@@ -705,6 +552,26 @@
       "source": "Facebook (extension)"
     },
     {
+      "id": "web-botanique-bruxelles-pearly-drops-tessa-dixson-2026-11-17",
+      "title": "Pearly Drops - Tessa Dixson",
+      "category": "concert",
+      "venue": "Botanique",
+      "city": "Bruxelles",
+      "lat": 50.8535292,
+      "lon": 4.3659372,
+      "start": "2026-11-17T18:30:00",
+      "end": "2026-11-17T18:30:00",
+      "image": "https://botanique.be/sites/default/files/styles/event_overview/public/2026-07/pearly2-.jpg?itok=pqLThufU",
+      "page_url": "https://botanique.be/fr/concert/pearly-drops-tessa-dixson-2026",
+      "url": "https://botanique.be/fr/concert/pearly-drops-tessa-dixson-2026#tickets-widget",
+      "summary": "Concert pop au Botanique (Rotonde) : Pearly Drops, duo finlandais formé par Sandra Tervonen et Juuso Malin, propose une pop atmosphérique aux voix éthérées. En première partie, Tessa Dixson, artiste belgo-américaine, mêle pop alternative et électronique.",
+      "price_from": 17.5,
+      "free": false,
+      "audience": [],
+      "tags": [],
+      "source": "Botanique (Bruxelles)"
+    },
+    {
       "id": "fb-1832096421574150",
       "title": "Soirée Yin Yoga & voyage sonore, bûche de l'avent et gourmandises",
       "category": "wellness",
@@ -726,6 +593,26 @@
       "tags": [],
       "source": "Facebook (événement public)",
       "classified": true
+    },
+    {
+      "id": "web-botanique-bruxelles-master-boot-record-fulci-arottenbit-2026-11-17",
+      "title": "MASTER BOOT RECORD + Fulci - arottenbit",
+      "category": "concert",
+      "venue": "Botanique",
+      "city": "Bruxelles",
+      "lat": 50.8535292,
+      "lon": 4.3659372,
+      "start": "2026-11-17T19:00:00",
+      "end": "2026-11-17T19:00:00",
+      "image": "https://botanique.be/sites/default/files/styles/event_overview/public/2026-04/MBR%20HORIZ.jpg?itok=K_IRcp4y",
+      "page_url": "https://botanique.be/fr/concert/master-boot-record-fulci-arottenbit-2026",
+      "url": "https://botanique.be/fr/concert/master-boot-record-fulci-arottenbit-2026#tickets-widget",
+      "summary": "MASTER BOOT RECORD mêle metal, chiptune et demoscene, avec ordinateurs vintage (Commodore 64, Amiga 500) sur scène. Fulci joue un death metal inspiré du cinéma d'horreur italien, et arottenbit ouvre la soirée au Game Boy.",
+      "price_from": 19.5,
+      "free": false,
+      "audience": [],
+      "tags": [],
+      "source": "Botanique (Bruxelles)"
     },
     {
       "id": "tm-Z698xZG2Z1kFp8VFY",
@@ -843,9 +730,27 @@
       "price_from": null,
       "free": null,
       "audience": [],
-      "tags": [
-        "soirée"
-      ],
+      "tags": [],
+      "source": "Mars – Mons arts de la scène"
+    },
+    {
+      "id": "web-mars-mons-arts-de-la-sc-ne-dipus-2026-11-17",
+      "title": "Œdipus",
+      "category": "theatre",
+      "venue": "Théâtre le Manège",
+      "city": "Mons",
+      "lat": 50.4578919,
+      "lon": 3.9570338,
+      "start": "2026-11-17T20:00:00",
+      "end": "2026-11-18T10:00:00",
+      "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Oedipus-c-Alexandre-Fytrakis.jpeg.webp?itok=AXAvT6yv",
+      "page_url": "https://www.surmars.be/agenda/2026-11/theatre/oedipus",
+      "url": "https://shop.infinitix.be/SURMARSBE_INF/S/C8E11A57-2573-EE4B-AB5A-7136D58F97E4/?d=D6544DA9-34E1-AE4E-0680-E03D9EFB007B",
+      "summary": "Oedipus inscrit le mythe antique de Sophocle dans notre siècle et traite du pouvoir et des façons de gouverner. Une villa de vacances en Grèce.",
+      "price_from": 3.0,
+      "free": false,
+      "audience": [],
+      "tags": [],
       "source": "Mars – Mons arts de la scène"
     },
     {
@@ -1003,8 +908,8 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-s-ance-en-audiodescription-le-voyage-de-chihiro-vf-202",
-      "title": "Séance en audiodescription : Le Voyage de Chihiro VF",
+      "id": "web-les-grignoux-cin-ma-li-ge-audiodescription-le-voyage-de-chihiro-vf-2026-11-18",
+      "title": "Audiodescription : Le Voyage de Chihiro VF",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -1015,7 +920,7 @@
       "image": null,
       "page_url": "https://www.grignoux.be/fr/evenement/3147/seance-en-audiodescription-le-voyage-de-chihiro-vf",
       "url": "https://www.grignoux.be/fr/evenement/3147/seance-en-audiodescription-le-voyage-de-chihiro-vf",
-      "summary": "Séance en audiodescription du film d'animation Le Voyage de Chihiro en version française, ouverte à tous. Présentée comme une fable envoûtante, poétique et attachante, sur le modèle d'Alice au pays des merveilles japonais.",
+      "summary": "Séance en audiodescription du film Le Voyage de Chihiro en version française, ouverte à tous et organisée avec Eqla et l'Œuvre Fédérale Les Amis des Aveugles et Malvoyants. Le film, présenté comme une sorte d'Alice au pays des merveilles japonais, est une fable envoûtante, poétique et attachante.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -1187,9 +1092,7 @@
       "price_from": 3.0,
       "free": false,
       "audience": [],
-      "tags": [
-        "découverte"
-      ],
+      "tags": [],
       "source": "Grand Curtius (Liège)"
     },
     {
@@ -1412,6 +1315,26 @@
       "source": "Facebook (extension)"
     },
     {
+      "id": "web-botanique-bruxelles-maria-arnal-bulie-jordeaux-2026-11-18",
+      "title": "Maria Arnal - Bulie Jordeaux",
+      "category": "concert",
+      "venue": "Botanique",
+      "city": "Bruxelles",
+      "lat": 50.8535292,
+      "lon": 4.3659372,
+      "start": "2026-11-18T18:30:00",
+      "end": "2026-11-18T18:30:00",
+      "image": "https://botanique.be/sites/default/files/styles/event_overview/public/2026-05/FOTO%202X3_0.jpg?itok=yo1EnXRa",
+      "page_url": "https://botanique.be/fr/concert/maria-arnal-bulie-jordeaux-2026",
+      "url": "https://botanique.be/fr/concert/maria-arnal-bulie-jordeaux-2026#tickets-widget",
+      "summary": "Concert à la Rotonde du Botanique : Bulie Jordeaux, pop dubby et downtempo aux synthés hypnotiques, puis Maria Arnal, voix d'avant-pop électronique mêlée de polyphonies traditionnelles. Portes à 18h30 avec boissons et restauration.",
+      "price_from": 18.0,
+      "free": false,
+      "audience": [],
+      "tags": [],
+      "source": "Botanique (Bruxelles)"
+    },
+    {
       "id": "fb-1103135229168325",
       "title": "Soirée jeux de société",
       "category": "party",
@@ -1426,7 +1349,7 @@
       "url": "https://www.betch-lln.be/event/soiree-jeux-de-societe-661/register",
       "summary": "Soirée Jeux de Société chez Betch🎲 Mange, joue, rigole… et passe une soirée pleine de fun ! 😄 Que tu sois expert·e ou débutant·e, viens découvrir des jeux de plateau, de cartes ou d’ambiance avec tes amis. Ambiance conviviale garantie♟️ 🕗 19h – 22h 💰 Entrée - 5€ 💺 Réservation recommandée : https://w",
       "price_from": null,
-      "free": null,
+      "free": true,
       "audience": [
         "student"
       ],
@@ -2255,7 +2178,7 @@
       "image": null,
       "page_url": "https://www.surmars.be/agenda/2026-11/musique/aleph-quintet",
       "url": "https://shop.infinitix.be/SURMARSBE_INF/S/5E4E0BD8-BB64-8922-8CDA-99721C1D2CA5/?d=3BC9BC1C-55B3-3633-1FCE-93357F492C3D",
-      "summary": "Concert de l'Aleph Quintet programmé le jeudi 19 novembre à 20h00 sur Mars.",
+      "summary": "Concert de l'Aleph Quintet à 20h00 à Mars.",
       "price_from": 3.0,
       "free": false,
       "audience": [],
@@ -2434,7 +2357,7 @@
       "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1792418468516-KYT9UDPRAP082RZWCFW3/856238861_2180318356694976_4620656783581567299_n.jpg",
       "page_url": "https://www.madamemoustache.be/agenda/4pskwfarsn6xa7h4nkalasasprrxwx",
       "url": "https://www.madamemoustache.be/agenda/4pskwfarsn6xa7h4nkalasasprrxwx",
-      "summary": "Soirée DANCEFLOOR RADIOMIX chez Madame Moustache, de 22h à 4h du matin.",
+      "summary": "Événement intitulé « Dancefloor Radiomix » chez Madame Moustache à Bruxelles, du jeudi 19 novembre 2026 à 22h au vendredi 20 novembre 2026 à 4h. La page ne décrit pas le programme ni les artistes.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -2567,7 +2490,7 @@
       "image": "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000TA0HNMA1_1240x720.jpg",
       "page_url": "https://www.abconcerts.be/fr/agenda/afroplug-connect/a10Qw00000PsEhBIAV",
       "url": "https://www.abconcerts.be/fr/agenda/afroplug-connect/a10Qw00000PsEhBIAV",
-      "summary": "Lors de l'Afroplug Connect, nous célébrerons le 5e anniversaire de la plateforme avec une conférence, le récit de la fondatrice et un moment de networking convivial !",
+      "summary": "Pour les 5 ans d'Afroplug, sa fondatrice Ms Mavy raconte la création de la plateforme, suivie d'un talk avec Sound'n Souls, ATL Brussels et +TTFB sur la place des scènes bruxelloises en Belgique et à l'international. Le tout se termine par un moment de networking.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -2587,9 +2510,9 @@
       "image": "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000MvYgDMAV_1240x720.jpg",
       "page_url": "https://www.abconcerts.be/fr/agenda/jessie-ware/a10Qw00000BJ9m3IAD",
       "url": "https://www.abconcerts.be/fr/agenda/jessie-ware/a10Qw00000BJ9m3IAD",
-      "summary": "Concert de Jessie Ware, The Superbloom Tour 2026, avec Tsatsamis en première partie ; complet.",
-      "price_from": null,
-      "free": null,
+      "summary": "Concert de Jessie Ware, diva disco britannique, qui présente son nouvel album « Superbloom » ainsi que ses plus grands tubes. Tsatsamis assure la première partie à l'AB Grande salle à Bruxelles, en formule debout avec places assises limitées.",
+      "price_from": 1.25,
+      "free": false,
       "audience": [
         "young"
       ],
@@ -2609,9 +2532,9 @@
       "image": "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000Stqc9MAB_1240x720.jpg",
       "page_url": "https://www.abconcerts.be/fr/agenda/afroplug-night-anniversary/a10Qw00000BclikIAB",
       "url": "https://www.abconcerts.be/fr/agenda/afroplug-night-anniversary/a10Qw00000BclikIAB",
-      "summary": "Afroplug fête ses 5 ans et fait résonner dans notre club les sons des diasporas afro, caribéenne et latino-américaine !",
-      "price_from": null,
-      "free": null,
+      "summary": "Soirée des cinq ans d'Afroplug à l'AB Club de Bruxelles, avec des DJs qui font vivre les musiques afro, caribéennes et latines des diasporas. Au programme : Shaka Lion, Ms Mavy, Ravi Bongo, GoldenYnice et Brownsugvr, pour danser jusqu'au petit matin.",
+      "price_from": 1.25,
+      "free": false,
       "audience": [
         "young"
       ],
@@ -3536,7 +3459,7 @@
       "image": null,
       "page_url": "https://www.surmars.be/agenda/2026-11/danse/un-casse-noisette",
       "url": "https://shop.infinitix.be/SURMARSBE_INF/S/216E861E-2993-32AD-E563-1C12E05A2428/?d=6437AF59-6489-FC69-EF81-63049B0E8A24",
-      "summary": "Spectacle de danse programmé le vendredi 20 novembre à 20h00 sur Mars.",
+      "summary": "Spectacle de danse « Un Casse-Noisette », programmé à 20h00 à Mars.",
       "price_from": 6.0,
       "free": false,
       "audience": [],
@@ -4298,10 +4221,10 @@
       "summary": "Remise du Prix Marcel Thiry 2026 (roman ou nouvelles) au lauréat Pascal Leclercq, pour son roman « La Pharmacie », en présence des finalistes. Les finalistes échangent avec le public, animés par Guy Delhasse.",
       "price_from": null,
       "free": true,
-      "audience": [],
-      "tags": [
-        "découverte"
+      "audience": [
+        "adult"
       ],
+      "tags": [],
       "source": "Grand Curtius (Liège)"
     },
     {
@@ -6634,7 +6557,7 @@
       "image": "https://agenda.enwallonie.be/huy/homepage/fdd7fecb5fd94131aed35690c2d7db0d/@@images/image-430-d9f70f52ed666ce987abd183ef374a19.jpeg",
       "page_url": "https://www.huy.be/agenda/journee-ludique-et-festive-en-avant?u=fdd7fecb5fd94131aed35690c2d7db0d",
       "url": "https://www.huy.be/agenda/journee-ludique-et-festive-en-avant?u=fdd7fecb5fd94131aed35690c2d7db0d",
-      "summary": "Journée ludique et festive \"En avant\" le 22 novembre.",
+      "summary": "Journée ludique et festive \"En avant\" à Huy le 22 novembre 2026.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -7331,26 +7254,6 @@
       "source": "Ticketmaster"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-jupiter-2026-11-24",
-      "title": "Jupiter",
-      "category": "cinema",
-      "venue": "Sauvenière",
-      "city": "Liège",
-      "lat": 50.6432641,
-      "lon": 5.5679468,
-      "start": "2026-11-24T10:00:00",
-      "end": "2026-11-24T10:00:00",
-      "image": "https://www.grignoux.be/upload/grignoux/event/3128/jupiter_headersite.jpg",
-      "page_url": "https://www.grignoux.be/fr/evenement/3128/jupiter",
-      "url": "https://www.grignoux.be/fr/evenement/3128/jupiter",
-      "summary": "Un thriller politique tendu où le président français Paul Archambault doit affronter une crise nucléaire sans précédent impliquant son homologue russe. Dans le bunker de l'Élysée, il réunit son état-major pour prendre une décision vertigineuse face au risque d'escalade militaire.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Les Grignoux – cinéma (Liège)"
-    },
-    {
       "id": "web-les-grignoux-cin-ma-li-ge-cin-sme-tomb-du-ciel-2026-11-24",
       "title": "Ciné-SME : Tombé du ciel",
       "category": "cinema",
@@ -7364,6 +7267,26 @@
       "page_url": "https://www.grignoux.be/fr/evenement/3146/cine-sme-tombe-du-ciel",
       "url": "https://www.grignoux.be/fr/evenement/3146/cine-sme-tombe-du-ciel",
       "summary": "Comédie de Mohamed Hamidi portée par l'humoriste Ilyes Djadel, avec Josiane Balasko et Fred Testot, explorant les chocs culturels. Projection accessible aux personnes sourdes et malentendantes avec sous-titres SME.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Les Grignoux – cinéma (Liège)"
+    },
+    {
+      "id": "web-les-grignoux-cin-ma-li-ge-jupiter-2026-11-24",
+      "title": "Jupiter",
+      "category": "cinema",
+      "venue": "Sauvenière",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2026-11-24T10:00:00",
+      "end": "2026-11-24T10:00:00",
+      "image": "https://www.grignoux.be/upload/grignoux/event/3128/jupiter_headersite.jpg",
+      "page_url": "https://www.grignoux.be/fr/evenement/3128/jupiter",
+      "url": "https://www.grignoux.be/fr/evenement/3128/jupiter",
+      "summary": "Un thriller politique tendu où le président français Paul Archambault doit affronter une crise nucléaire sans précédent impliquant son homologue russe. Dans le bunker de l'Élysée, il réunit son état-major pour prendre une décision vertigineuse face au risque d'escalade militaire.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -7425,7 +7348,7 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0aQF00000yZFMbYAO_1800.jpg?itok=4zE52Xmy",
       "page_url": "https://www.hetdepot.be/concert/2026/baby-lasagna",
       "url": "https://apps.ticketmatic.com/widgets/hetdepot/flow/newwebskin?event=103976690778&l=nl#!/addtickets",
-      "summary": "Sensation croate qui conquiert l'Europe avec un mélange explosif de rock, techno et chaos.",
+      "summary": "Concert au Het Depot, dans la grande salle (placement assis, flex ou debout selon l'option choisie), dans le foyer ou dans l'espace VIP avec vue sur la scène depuis le balcon. La page ne précise ni les artistes ni le programme.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -7447,7 +7370,7 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Cassandre.jpeg.webp?itok=nlGvnAdo",
       "page_url": "https://www.surmars.be/agenda/2026-11/theatre/cassandre",
       "url": "https://www.surmars.be/agenda/2026-11/theatre/cassandre",
-      "summary": "Une femme prélève l'eau d'une rivière, découvre un problème, apporte des preuves, mais la ville reste sourde.",
+      "summary": "Une femme prélève l'eau d'une rivière, découvre un problème et se heurte à une ville qui détourne les yeux. Création contemporaine.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -7538,9 +7461,9 @@
       "title": "Sneak Preview",
       "category": "cinema",
       "venue": "Caméo",
-      "city": "Namur",
-      "lat": 50.4667124,
-      "lon": 4.8637516,
+      "city": "Liège",
+      "lat": 50.6450944,
+      "lon": 5.5736112,
       "start": "2026-11-25T10:00:00",
       "end": "2026-11-25T10:00:00",
       "image": "https://www.grignoux.be/upload/grignoux/event/3219/sneakpreview_headersite.jpg",
@@ -7941,9 +7864,9 @@
       "title": "Le Faux Soir",
       "category": "cinema",
       "venue": "Caméo",
-      "city": "Namur",
-      "lat": 50.4667124,
-      "lon": 4.8637516,
+      "city": "Liège",
+      "lat": 50.6450944,
+      "lon": 5.5736112,
       "start": "2026-11-26T10:00:00",
       "end": "2026-11-26T10:00:00",
       "image": "https://www.grignoux.be/upload/grignoux/event/3183/le_faux_soir_cameo_headersite.jpg",
@@ -8632,7 +8555,7 @@
       "id": "web-les-grignoux-cin-ma-li-ge-orion-2026-11-27",
       "title": "Orion",
       "category": "concert",
-      "venue": "le Caféo",
+      "venue": "Caféo",
       "city": "Liège",
       "lat": 50.6450944,
       "lon": 5.5736112,
@@ -12368,10 +12291,30 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-le-sapin-a-les-boules-vf-2026-12-02",
-      "title": "Le Sapin a les boules VF",
+      "id": "web-les-grignoux-cin-ma-li-ge-le-faux-soir-2026-12-02",
+      "title": "Le Faux Soir",
       "category": "cinema",
-      "venue": "Pirate Movie Club",
+      "venue": "Liège",
+      "city": "Liège",
+      "lat": 50.6450944,
+      "lon": 5.5736112,
+      "start": "2026-12-02T10:00:00",
+      "end": "2026-12-02T10:00:00",
+      "image": "https://www.grignoux.be//upload/grignoux/event/3229/le_faux_soir_og.jpg",
+      "page_url": "https://www.grignoux.be/fr/evenement/3229/le-faux-soir",
+      "url": "https://www.grignoux.be/fr/evenement/3229/le-faux-soir",
+      "summary": "Projection spéciale du film Le Faux Soir : en 1943, des résistants belges impriment une fausse édition du journal Le Soir, confisqué par les nazis. La séance réunit des intervenants, dont un journaliste de Médor.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Les Grignoux – cinéma (Liège)"
+    },
+    {
+      "id": "web-les-grignoux-cin-ma-li-ge-pirate-movie-club-le-sapin-a-les-boules-vf-2026-12-02",
+      "title": "Pirate Movie Club : Le sapin a les boules VF",
+      "category": "cinema",
+      "venue": "Liège",
       "city": "Liège",
       "lat": 50.6450944,
       "lon": 5.5736112,
@@ -12380,7 +12323,7 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3195/le_sapin_a_les_boules_vignette.jpg",
       "page_url": "https://www.grignoux.be/fr/evenement/3195/le-sapin-a-les-boules-vf",
       "url": "https://www.grignoux.be/fr/evenement/3195/le-sapin-a-les-boules-vf",
-      "summary": "Clark Griswold rêve d'un Noël parfait, mais l'arrivée de toute sa famille et les petites catastrophes compliquent tout. Au Pirate Movie Club, on regarde ce classique en français en commentant et en applaudissant les répliques cultes.",
+      "summary": "Clark Griswold rêve d'un Noël parfait, mais sa famille et les catastrophes s'en mêlent. Le film se regarde en version française, avec commentaires et applaudissements encouragés pendant la projection.",
       "price_from": 7.0,
       "free": false,
       "audience": [],
@@ -12400,7 +12343,7 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Chwallow-c-Alice-Piemme.jpg.webp?itok=fMeYfNsA",
       "page_url": "https://www.surmars.be/agenda/2026-12/cirque/chwallow",
       "url": "https://www.surmars.be/agenda/2026-12/cirque/chwallow",
-      "summary": "Spectacle de cirque hybride, à la croisée entre arts plastiques, exploration scénographique et voyage sensoriel.",
+      "summary": "Spectacle de cirque hybride, à la croisée des arts plastiques, de l'exploration scénographique et d'un voyage sensoriel.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -12528,8 +12471,8 @@
       "page_url": "https://www.facebook.com/events/1910374759655313/",
       "url": "https://spott.be/event/la-minute-russe/",
       "summary": "Entre fresque historique, quête identitaire et transmission intergénérationnelle, ce spectacle nous invite à ralentir et à regarder d’où nous venons. Entre fresque historique, quête identitaire et transmission intergénérationnelle, ce spectacle nous invite à ralentir et à regarder d’où nous venons. ",
-      "price_from": null,
-      "free": null,
+      "price_from": 20.0,
+      "free": false,
       "audience": [],
       "tags": [],
       "source": "Facebook (événement public)",
@@ -13652,9 +13595,7 @@
       "price_from": 15.0,
       "free": false,
       "audience": [],
-      "tags": [
-        "découverte"
-      ],
+      "tags": [],
       "source": "Grand Curtius (Liège)"
     },
     {
@@ -14442,33 +14383,8 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-grand-curtius-li-ge-cr-amus-e-des-diablotins-paillettes-en-pr-sence-de-saint-nic",
-      "title": "Créamusée : des diablotins à paillettes en présence de Saint-Nicolas",
-      "category": "family",
-      "venue": "Grand Curtius",
-      "city": "Liège",
-      "lat": 50.6471353,
-      "lon": 5.5835333,
-      "start": "2026-12-06T10:00:00",
-      "end": "2026-12-06T10:00:00",
-      "image": "https://www.grandcurtius.be/sites/default/files/styles/teaser_wide/public/2026-10/bandeau%20creamusee%20dec26%20generique.jpg?itok=cZoZuQ0t",
-      "page_url": "https://www.grandcurtius.be/fr/actualites/agenda/creamusee-des-diablotins-paillettes-en-presence-de-saint-nicolas",
-      "url": "https://www.grandcurtius.be/fr/actualites/agenda/creamusee-des-diablotins-paillettes-en-presence-de-saint-nicolas",
-      "summary": "Atelier créatif pour enfants de 6 à 12 ans accompagnés (30 enfants maximum) : création d'un masque de diablotin en présence de Saint-Nicolas. Le dimanche 6 décembre 2026, de 14h00 à 16h30, à l'Auditorium du Grand Curtius.",
-      "price_from": null,
-      "free": true,
-      "audience": [
-        "family"
-      ],
-      "tags": [
-        "créatif",
-        "gratuit"
-      ],
-      "source": "Grand Curtius (Liège)"
-    },
-    {
-      "id": "web-grand-curtius-li-ge-le-grand-curtius-raconte-par-des-tudiants-de-l-uli-ge-2026-1",
-      "title": "Le Grand Curtius raconte par des étudiants de l'ULiège",
+      "id": "web-grand-curtius-li-ge-le-grand-curtius-racont-par-des-tudiants-de-l-uli-ge-2026-12",
+      "title": "Le Grand Curtius raconté par des étudiants de l'ULiège",
       "category": "culture",
       "venue": "Grand Curtius",
       "city": "Liège",
@@ -14479,13 +14395,36 @@
       "image": "https://www.grandcurtius.be/sites/default/files/styles/teaser_wide/public/2026-10/visite%20commentee%20uliege%20bandeau%2026.jpg?itok=54zvF6HY",
       "page_url": "https://www.grandcurtius.be/fr/actualites/agenda/le-grand-curtius-raconte-par-des-etudiants-de-luliege-2026",
       "url": "https://www.grandcurtius.be/fr/actualites/agenda/le-grand-curtius-raconte-par-des-etudiants-de-luliege-2026",
-      "summary": "Visite commentée par des étudiants de l'Université de Liège des sections du musée, le matin du premier dimanche du mois, en accès gratuit.",
+      "summary": "Découverte commentée des sections du musée par des étudiants de l'Université de Liège, le dimanche matin, gratuitement.",
       "price_from": null,
       "free": true,
       "audience": [],
       "tags": [
-        "gratuit",
-        "découverte"
+        "gratuit"
+      ],
+      "source": "Grand Curtius (Liège)"
+    },
+    {
+      "id": "web-grand-curtius-li-ge-creamus-e-des-diablotins-paillettes-en-pr-sence-de-saint-nic",
+      "title": "Creamusée des diablotins : paillettes en présence de Saint-Nicolas",
+      "category": "family",
+      "venue": "Grand Curtius",
+      "city": "Liège",
+      "lat": 50.6471353,
+      "lon": 5.5835333,
+      "start": "2026-12-06T10:00:00",
+      "end": "2026-12-06T10:00:00",
+      "image": "https://www.grandcurtius.be/sites/default/files/styles/teaser_wide/public/2026-10/bandeau%20creamusee%20dec26%20generique.jpg?itok=cZoZuQ0t",
+      "page_url": "https://www.grandcurtius.be/fr/actualites/agenda/creamusee-des-diablotins-paillettes-en-presence-de-saint-nicolas",
+      "url": "https://www.grandcurtius.be/fr/actualites/agenda/creamusee-des-diablotins-paillettes-en-presence-de-saint-nicolas",
+      "summary": "Les enfants de 6 à 12 ans, accompagnés d'un parent (30 enfants maximum), créent un masque de diablotin à paillettes à l'Auditorium du Grand Curtius. L'atelier se déroule en présence de Saint-Nicolas.",
+      "price_from": null,
+      "free": true,
+      "audience": [
+        "family"
+      ],
+      "tags": [
+        "créatif"
       ],
       "source": "Grand Curtius (Liège)"
     },
@@ -14502,7 +14441,7 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Bandits-les-cowboys-de-l-espace.jpeg.webp?itok=-QRgRxt9",
       "page_url": "https://www.surmars.be/agenda/2026-12/musique/bandits-les-cowboys-de-lespace",
       "url": "https://www.surmars.be/agenda/2026-12/musique/bandits-les-cowboys-de-lespace",
-      "summary": "Les cowboys de l'espace débarquent avec des refrains qui font danser autant que rigoler, dans un Far West intersidéral.",
+      "summary": "Des cowboys de l'espace en santiags à paillettes slaloment entre cactus imaginaires et refrains qui font danser et rire.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -14525,8 +14464,8 @@
       "page_url": "https://www.facebook.com/events/2177228887004634/",
       "url": "https://form.jotform.com/262492289903366",
       "summary": "La Ferme Équestre de Louvain-la-Neuve vous invite à son marché de Noël ! Venez rencontrer des artisans, faire vos achats de Noël, boire un délicieux vin ou chocolat chaud... Nous vous proposerons aussi des animations autour des animaux et des chevaux, ainsi qu'une vente de sapins de Noël ! Activités",
-      "price_from": null,
-      "free": null,
+      "price_from": 3.0,
+      "free": false,
       "audience": [
         "family"
       ],
@@ -15443,7 +15382,7 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/FMS-Perichorese.jpg.webp?itok=pTyPP51F",
       "page_url": "https://www.surmars.be/agenda/2026-12/musique/perichorese",
       "url": "https://www.surmars.be/agenda/2026-12/musique/perichorese",
-      "summary": "Il fut un temps où Musulmans, Juifs et Chrétiens dansaient ensemble sur les rives de la Méditerranée…",
+      "summary": "Il fut un temps où Musulmans, Juifs et Chrétiens dansaient ensemble sur les rives de la Méditerranée.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -17200,7 +17139,7 @@
     },
     {
       "id": "web-grand-curtius-li-ge-conf-rence-l-influence-de-l-cole-fran-aise-sur-paganini-2026",
-      "title": "Conférence : l'influence de l'école française sur Paganini",
+      "title": "Conférence : L'influence de l'école française sur Paganini",
       "category": "culture",
       "venue": "Grand Curtius",
       "city": "Liège",
@@ -17211,13 +17150,13 @@
       "image": "https://www.grandcurtius.be/sites/default/files/styles/teaser_wide/public/2026-09/bandeau%20conferences%20paganini.jpg?itok=DhkRsPBH",
       "page_url": "https://www.grandcurtius.be/fr/actualites/agenda/conference-linfluence-de-lecole-francaise-sur-paganini",
       "url": "https://www.grandcurtius.be/fr/actualites/agenda/conference-linfluence-de-lecole-francaise-sur-paganini",
-      "summary": "Le musicologue italien Danilo Prefumo présente une conférence sur l'héritage technique de Paganini et sur la façon dont son modèle s'est diffusé et transformé en Europe au XIXe siècle. Elle a lieu au Salon Paganini du Palais Curtius à Liège.",
+      "summary": "Le musicologue Danilo Prefumo présente l'héritage technique de Paganini au Salon Paganini du Grand Curtius. Il montre comment le modèle paganinien s'est diffusé et transformé en Europe, influençant le violon du XIXe siècle.",
       "price_from": 10.0,
       "free": false,
-      "audience": [],
-      "tags": [
-        "découverte"
+      "audience": [
+        "adult"
       ],
+      "tags": [],
       "source": "Grand Curtius (Liège)"
     },
     {
@@ -18113,9 +18052,9 @@
       "start": "2026-12-15T10:00:00",
       "end": "2026-12-15T10:00:00",
       "image": "https://www.grignoux.be//upload/grignoux/event/3119/dune_part_three_og.jpg",
-      "page_url": "https://www.grignoux.be/fr/evenement/3119/dune-troisieme-partie",
-      "url": "https://www.grignoux.be/fr/evenement/3119/dune-troisieme-partie",
-      "summary": "Le dernier volet de la trilogie Dune réalisé par Denis Villeneuve. Paul Atréides, désormais empereur, fait face aux conséquences de son règne brutal tandis que d'anciennes menaces refont surface.",
+      "page_url": "https://www.grignoux.be/fr/evenement/3213/dune-troisieme-partie",
+      "url": "https://www.grignoux.be/fr/evenement/3213/dune-troisieme-partie",
+      "summary": "Dernier volet de la trilogie Dune de Denis Villeneuve : Paul Atréides, empereur impitoyable, affronte anciens alliés et trahisons. Hanté par des visions de la chute de l'Empire, il est entraîné dans une conspiration dont Chani pourrait détenir la clé.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -18339,6 +18278,26 @@
       "source": "Facebook (extension)"
     },
     {
+      "id": "web-mars-mons-arts-de-la-sc-ne-le-p-tit-march-de-no-l-des-cr-ateur-rices-2026-12-16",
+      "title": "Le P'tit Marché de Noël des créateur·rices",
+      "category": "fair",
+      "venue": "La P'tite Maison Folie",
+      "city": "Mons",
+      "lat": 50.4549568,
+      "lon": 3.951958,
+      "start": "2026-12-16T14:00:00",
+      "end": "2026-12-16T21:00:00",
+      "image": "https://www.surmars.be/sites/default/files/styles/w960/public/2026-11/Marche%CC%81%20de%20Noel%20-%201%20%C2%A9%20David%20Bormans%202.jpg?itok=Liv4P-L3",
+      "page_url": "https://www.surmars.be/actualites/appel-aux-createurrices-le-ptit-marche-de-noel-0",
+      "url": "https://www.surmars.be/actualites/appel-aux-createurrices-le-ptit-marche-de-noel-0",
+      "summary": "Le P'tit Marché de Noël des créateur·rices revient à la P'tite Maison Folie : créateur·rices, entrepreneur·ses et artisan·nes y vendent leurs créations et présentent leurs projets pour un Noël plus durable. Une vingtaine de stands sont proposés, sur sélection.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Mars – Mons arts de la scène"
+    },
+    {
       "id": "fbx-1061820813370564",
       "title": "CinéGesves : Un simple accident",
       "category": "cinema",
@@ -18377,26 +18336,6 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
-    },
-    {
-      "id": "web-le-forum-li-ge-calogero-2026-12-16",
-      "title": "CALOGERO",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.64077,
-      "lon": 5.57031,
-      "start": "2026-12-16T20:00:00",
-      "end": "2026-12-16T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/2CALOGERO_510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202612162000.html",
-      "url": "https://www.leforum.be/spectacle_202612162000.html",
-      "summary": "Calogero présente un concert qui résume son parcours, avec une sélection de « morceaux choisis » dans des versions inédites. Le concert a lieu dans une salle plus intimiste, après ses passages en Zénith et Arena.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Le Forum (Liège)"
     },
     {
       "id": "tm-Z698xZG2Z16vj6k7b-",
@@ -18497,8 +18436,8 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-le-fabuleux-destin-d-am-lie-poulain-2026-12-17",
-      "title": "Le Fabuleux Destin d'Amélie Poulain",
+      "id": "web-les-grignoux-cin-ma-li-ge-cin-jack-le-fabuleux-destin-d-am-lie-poulain-2026-12-1",
+      "title": "Ciné Jack : Le Fabuleux Destin d'Amélie Poulain",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -18509,7 +18448,7 @@
       "image": null,
       "page_url": "https://www.grignoux.be/fr/evenement/3205/le-fabuleux-destin-damelie-poulain",
       "url": "https://www.grignoux.be/fr/evenement/3205/le-fabuleux-destin-damelie-poulain",
-      "summary": "Projection du film « Le Fabuleux Destin d'Amélie Poulain » au Ciné Jack, suivie d'un ciné-club et d'une animation en salle. Le film suit Amélie, serveuse à Montmartre, qui s'est fixé pour but de faire le bien autour d'elle.",
+      "summary": "Ciné-club avec projection du film Le Fabuleux Destin d'Amélie Poulain : Amélie, serveuse à Montmartre, observe les gens et veut faire le bien autour d'elle. La séance est suivie d'une animation en salle menée avec des étudiants en Relations publiques.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -19244,7 +19183,7 @@
     {
       "id": "tm-Z698xZG2Z1koEbyCv",
       "title": "Propaganda",
-      "category": "party",
+      "category": "concert",
       "venue": "Lotto Arena Antwerpen",
       "city": "Merksem (Antwerpen)",
       "lat": 51.23024,
@@ -19823,7 +19762,7 @@
     {
       "id": "tm-Z698xZG2Z1k4AAtfd",
       "title": "Pat B Birthday Bash XXL 2026",
-      "category": "concert",
+      "category": "party",
       "venue": "Lotto Arena Antwerpen",
       "city": "Merksem (Antwerpen)",
       "lat": 51.23024,
@@ -19944,7 +19883,7 @@
     {
       "id": "web-les-grignoux-cin-ma-li-ge-cin-p-tit-dej-2026-12-20",
       "title": "Ciné P'tit Dej",
-      "category": "family",
+      "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
       "lat": 50.6450944,
@@ -19957,9 +19896,7 @@
       "summary": "Ciné P'tit Dej est un rendez-vous familial avec buffet petit-déjeuner à 9h à la brasserie Sauvenière, suivi à 11h d'une séance au choix parmi Changer l'eau des fleurs, Claude, Carmen, l'oiseau rebelle et Le Noël d'Ernest & Célestine. Le programme est proposé pour tous les âges.",
       "price_from": 10.0,
       "free": false,
-      "audience": [
-        "family"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
@@ -25025,9 +24962,9 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/concert_suggestion_small/public/backgrounds/Coolfestival_Webheader_BG_1.jpg?itok=8pDsgWg-",
       "page_url": "https://www.hetdepot.be/coolfestival",
       "url": "https://www.hetdepot.be/coolfestival",
-      "summary": "Festival de jazz, funk et soul organisé par Het Depot, avec des concerts live et des DJ qui repoussent les limites.",
-      "price_from": null,
-      "free": null,
+      "summary": "Le COOL Festival '27, organisé par Het Depot, réunit trois jours de jazz, funk et soul avec des concerts et des DJ sets. Le vendredi 26 février 2027 se produisent notamment Nubiyan Twist, Hannah Williams & The Affirmations, Latanya Alberto et DJ Ilse Liebens.",
+      "price_from": 23.0,
+      "free": false,
       "audience": [],
       "tags": [],
       "source": "Het Depot (Louvain)"
@@ -26963,6 +26900,25 @@
       "classified": true
     },
     {
+      "id": "tm-LvZ18QiCCVNSexIBLxIuC",
+      "title": "Derek Ogilvie",
+      "category": "family",
+      "venue": "Holiday Inn Hasselt",
+      "city": "Hasselt",
+      "lat": 50.93382,
+      "lon": 5.33741,
+      "start": "2027-04-17T13:30:00",
+      "end": "2027-04-17T19:30:00",
+      "image": "https://s1.ticketm.net/dam/a/a0c/703ff86e-e598-41a7-9106-274d5f947a0c_397071_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.universe.com/events/derek-ogilvie-up-close-and-personal-tickets-SV48FL?ref=ticketmaster",
+      "summary": "",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ticketmaster"
+    },
+    {
       "id": "web-le-forum-li-ge-kim-wilde-the-singles-tour-2027-2027-04-17",
       "title": "KIM WILDE - THE SINGLES TOUR 2027",
       "category": "concert",
@@ -27237,9 +27193,9 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/hero/public/a0ac100000jeu0TAAQ_1800x810_1800.jpg?itok=iw3WeHoG",
       "page_url": "https://www.hetdepot.be/concert/2027/it-it-anita-ronker",
       "url": "https://www.hetdepot.be/concert/2027/it-it-anita-ronker",
-      "summary": "Double affiche pour qui aime le jeu de guitare plus lourd.",
-      "price_from": null,
-      "free": null,
+      "summary": "Double affiche au Het Depot (Louvain) : le noise rock aux riffs 90s de IT IT ANITA et le speednoise hardcore de RONKER, groupe belge passé par Hellfest et Pukkelpop. Le timing du concert sera annoncé la semaine de l'événement.",
+      "price_from": 3.6,
+      "free": false,
       "audience": [
         "young"
       ],
@@ -27426,25 +27382,6 @@
       "source": "Ticketmaster"
     },
     {
-      "id": "tm-Z698xZG2Z16vZfqA-o",
-      "title": "2027 TotalEnergies 6h of Spa | Launch Week",
-      "category": "motorsport",
-      "venue": "Circuit de Spa-Francorchamps",
-      "city": "Francorchamps",
-      "lat": 50.43704,
-      "lon": 5.9681,
-      "start": "2027-05-13T22:00:00",
-      "end": "2027-05-15T22:00:00",
-      "image": "https://s1.ticketm.net/dam/e/e2f/5762ff4d-1c1f-4b0a-8b4c-53e60992ee2f_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/2027-totalenergies-6h-of-spa-%7C-launch-week-thursday-friday-tickets/1014745851",
-      "summary": "PRM access: Access to the General Entrance and Paddocks is free for people with disabilities (and chargeable for the person(s) accompanying them). However, to access the Pitwalks on Friday and/or Saturday, a special ticket must be purchased. Children's access: Children younger than 12 have free acce",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
-    },
-    {
       "id": "tm-Z698xZG2Z16v8VG--I",
       "title": "MARS & VENUS - MISE À JOUR 2.0",
       "category": "theatre",
@@ -27522,7 +27459,7 @@
       "source": "Ticketmaster"
     },
     {
-      "id": "tm-Z698xZG2Z1k7efVqb",
+      "id": "tm-Z698xZG2Z16vfYFx83",
       "title": "2027 TotalEnergies 6h of Spa | Saturday",
       "category": "motorsport",
       "venue": "Circuit de Spa-Francorchamps",
@@ -27532,8 +27469,8 @@
       "start": "2027-05-15T22:00:00",
       "end": "2027-05-15T22:00:00",
       "image": "https://s1.ticketm.net/dam/a/bdd/3eaab1fe-6a99-492f-86a1-c8e45182abdd_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/2027-totalenergies-6h-of-spa-%7C-saturday-endurance-club-tickets/102534758",
-      "summary": "",
+      "url": "https://www.ticketmaster.be/event/2027-totalenergies-6h-of-spa-%7C-saturday-tickets/1530222412",
+      "summary": "PRM access: Access to the General Entrance and Paddocks is free for people with disabilities (and chargeable for the person(s) accompanying them). However, to access the Pitwalks on Friday and/or Saturday, a special ticket must be purchased. Children's access: Children younger than 12 have free acce",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -28099,7 +28036,7 @@
       "end": "2027-09-03T14:00:00",
       "image": "https://s1.ticketm.net/dam/a/c04/0dd1e3e8-c5c0-4999-9118-ccedac18cc04_RETINA_PORTRAIT_16_9.jpg",
       "url": "https://www.ticketmaster.be/event/les-solidarites-2027-%7C-friday-tickets/932543914",
-      "summary": "KID PASS Ticket bought for a child aged maximum 11 years and 364 days at the time of the event. Access not valid without identity document.",
+      "summary": "LES SOLIDARITÉS, UN FESTIVAL PAS COMME LES AUTRES ! Outre une affiche particulièrement qualitative et volontairement hétéroclite, ce ne sont pas moins d'une centaine d'activités diverses et variées qui (re) prendront vie : conférences, concerts, spectacles pour enfants, activités ludiques, découvert",
       "price_from": null,
       "free": null,
       "audience": [],
