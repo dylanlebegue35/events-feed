@@ -51,7 +51,7 @@
  "restaurants": {
   "_aide": "Restaurants (17/11/2026) : les mieux notés de chaque ville sur Google (comme les bars), en plus de tous les restaurants de Liège d'OpenStreetMap (build_events.py, RESTO_CITIES). publier : false tant que l'app v1.1 (bouton Restos) n'est pas en ligne ; ensuite true. Les photos Google des restaurants sans photo passent après les bars (rang 6), dans le même budget max_photo_lookups.",
   "enabled": true,
-  "publier": false,
+  "publier": true,
   "types": [
    "restaurant"
   ],
@@ -134,7 +134,7 @@
  "communes": {
   "_aide": "Toutes les communes belges (communes.json, 565) : les meilleurs restos (top 5) et bars (top 3) de chacune sur Google, seulement s'ils sont bien notés. par_passage communes lues à chaque passage Google (une fois par semaine) : 145 → tout est relu en 4 semaines, soit environ 290 recherches par semaine. Les grandes villes des blocs bars et restaurants sont sautées. publier : false tant que l'app v1.1 (qui ne montre que les villes proches) n'est pas en ligne.",
   "enabled": true,
-  "publier": false,
+  "publier": true,
   "par_passage": 145,
   "rayon_m": 3000,
   "restaurants": {
