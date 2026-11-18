@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-18T12:34:00",
+  "generated": "2026-11-18T19:00:10",
   "events": [
     {
       "id": "web-province-de-li-ge-jeudisant-cycle-de-conf-rences-2026-2026-02-05",
@@ -415,48 +415,6 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-reflektor-li-ge-nayte-golgoth-18-11-2026-11-18",
-      "title": "NAYTE + Golgoth (18/11)",
-      "category": "concert",
-      "venue": "Reflektor",
-      "city": "Liège",
-      "lat": 50.6432641,
-      "lon": 5.5679468,
-      "start": "2026-11-18T10:00:00",
-      "end": "2026-11-18T10:00:00",
-      "image": null,
-      "page_url": "https://reflektor.be/concert/nayte-18-11/",
-      "url": "https://shop.paylogic.com/8a610502c1a04ff28e721be46fae5355",
-      "summary": "Concert de NAYTE + Golgoth au Reflektor (sold out).",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "young"
-      ],
-      "tags": [],
-      "source": "Reflektor (Liège)"
-    },
-    {
-      "id": "web-reflektor-li-ge-eat-folk-jacques-duvall-benjamin-schoos-2026-11-18",
-      "title": "Eat & Folk : JACQUES DUVALL & BENJAMIN SCHOOS",
-      "category": "concert",
-      "venue": "OM",
-      "city": "Liège",
-      "lat": 50.6073612,
-      "lon": 5.5364634,
-      "start": "2026-11-18T10:00:00",
-      "end": "2026-11-18T10:00:00",
-      "image": null,
-      "page_url": null,
-      "url": "https://shop.paylogic.com/35cc694850a74d20a810bf5f4050448a",
-      "summary": "Eat & Folk avec Jacques Duvall et Benjamin Schoos, à l'OM.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Reflektor (Liège)"
-    },
-    {
       "id": "web-les-grignoux-cin-ma-li-ge-s-ance-en-audiodescription-le-voyage-de-chihiro-vf-202",
       "title": "Séance en audiodescription : Le Voyage de Chihiro VF",
       "category": "cinema",
@@ -467,9 +425,9 @@
       "start": "2026-11-18T10:00:00",
       "end": "2026-11-18T10:00:00",
       "image": null,
-      "page_url": "https://www.grignoux.be/fr/evenement/3147/seance-en-audiodescription-le-voyage-de-chihiro-vf",
-      "url": "https://www.grignoux.be/fr/evenement/3147/seance-en-audiodescription-le-voyage-de-chihiro-vf",
-      "summary": "Séance en audiodescription du film d'animation Le Voyage de Chihiro en version française, ouverte à tous. Présentée comme une fable envoûtante, poétique et attachante, sur le modèle d'Alice au pays des merveilles japonais.",
+      "page_url": "https://www.grignoux.be//fr/evenement/3147/seance-en-audiodescription-le-voyage-de-chihiro-vf",
+      "url": "https://www.grignoux.be//fr/evenement/3147/seance-en-audiodescription-le-voyage-de-chihiro-vf",
+      "summary": "Séance en audiodescription : Le Voyage de Chihiro VF.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -489,18 +447,16 @@
       "image": "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000SyByBMAV_1240x720.jpg",
       "page_url": "https://www.abconcerts.be/fr/agenda/nightlab-producing-workshop-w-blck-mamba-beginner/a10Qw00000PtV6TIAV",
       "url": "https://www.abconcerts.be/fr/agenda/nightlab-producing-workshop-w-blck-mamba-beginner/a10Qw00000PtV6TIAV",
-      "summary": "Série d'ateliers organisés avec Blck Mamba pour les producteurs de demain.",
+      "summary": "Série d'ateliers organisés avec Blck Mamba pour les producteurs de demain",
       "price_from": null,
       "free": true,
       "audience": [],
-      "tags": [
-        "gratuit"
-      ],
+      "tags": [],
       "source": "Ancienne Belgique (Bruxelles)"
     },
     {
-      "id": "web-ancienne-belgique-bruxelles-pyo-nemode-2026-11-18",
-      "title": "Pyo + Nemode",
+      "id": "web-ancienne-belgique-bruxelles-pyo-2026-11-18",
+      "title": "Pyo",
       "category": "concert",
       "venue": "Ancienne Belgique",
       "city": "Bruxelles",
@@ -511,9 +467,9 @@
       "image": "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000NowzdMAB_1240x720.jpg",
       "page_url": "https://www.abconcerts.be/fr/agenda/pyo/a10Qw00000HMGdpIAH",
       "url": "https://www.abconcerts.be/fr/agenda/pyo/a10Qw00000HMGdpIAH",
-      "summary": "Pyo, projet de Karel Piot basé à Bruxelles, présente un mélange de post-punk moderne et de new wave des années 80, avec des textes introspectifs, pour célébrer son premier album. Nemode joue en première partie de la soirée à l'AB Club.",
-      "price_from": 1.25,
-      "free": false,
+      "summary": "Un phénomène cyberpunk rétro et onirique célèbre son premier album. Avec Nemode. Complet.",
+      "price_from": null,
+      "free": null,
       "audience": [
         "young"
       ],
@@ -521,8 +477,8 @@
       "source": "Ancienne Belgique (Bruxelles)"
     },
     {
-      "id": "web-ancienne-belgique-bruxelles-luther-sublime-tour-2026-11-18",
-      "title": "Luther - Sublime Tour",
+      "id": "web-ancienne-belgique-bruxelles-luther-2026-11-18",
+      "title": "Luther",
       "category": "concert",
       "venue": "Ancienne Belgique",
       "city": "Bruxelles",
@@ -533,32 +489,12 @@
       "image": "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000N8jh6MAB_1240x720.jpg",
       "page_url": "https://www.abconcerts.be/fr/agenda/luther/a10Qw0000097A8jIAE",
       "url": "https://www.abconcerts.be/fr/agenda/luther/a10Qw0000097A8jIAE",
-      "summary": "Concert hip hop de Luther dans le cadre du Sublime Tour, avec Rounhaa et le Sublime Club, à l'AB (Grande salle, places debout). La page indique que le Sublime Tour compte douze villes, deux jours et deux concerts.",
-      "price_from": 1.25,
-      "free": false,
+      "summary": "Concert Luther dans le cadre du SUBLIME TOUR, derniers tickets disponibles.",
+      "price_from": null,
+      "free": null,
       "audience": [],
       "tags": [],
       "source": "Ancienne Belgique (Bruxelles)"
-    },
-    {
-      "id": "web-trix-anvers-dokter-trix-2026-11-18",
-      "title": "Dokter Trix",
-      "category": "talks",
-      "venue": "Trix",
-      "city": "Anvers",
-      "lat": 51.2195776,
-      "lon": 4.4483726,
-      "start": "2026-11-18T10:00:00",
-      "end": "2026-11-18T10:00:00",
-      "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/2ceb/68/59d748bcefcc1f13c8a7ed3875da0200c27d9677.webp",
-      "page_url": "https://www.trixonline.be/nl/event/dokter-trix-3",
-      "url": "https://www.trixonline.be/nl/event/dokter-trix-3",
-      "summary": "Is er een dokter in de zaal? Ja, meerdere zelfs! Zit je met een specifieke vraag rond bijvoorbeeld promo, management, financiën, boekings, speelkansen of heb je nood aan wat feedback? Raadpleeg de strafste deskundigen uit de muzieksector en ga een-op-een in gesprek!Alle sessies gaan door op woensdag",
-      "price_from": null,
-      "free": true,
-      "audience": [],
-      "tags": [],
-      "source": "Trix (Anvers)"
     },
     {
       "id": "web-trix-anvers-gloryhammer-2026-11-18",
@@ -579,9 +515,7 @@
       "audience": [
         "young"
       ],
-      "tags": [
-        "soirée"
-      ],
+      "tags": [],
       "source": "Trix (Anvers)"
     },
     {
@@ -600,12 +534,8 @@
       "summary": "Blu Samu, urban samurai bruxelloise, présente son premier album « (K)NOT » sur la scène de Trix à Anvers. Mêlant hip-hop, soul et ce qu'elle appelle « porseleinen punk », elle aborde l'acceptation, la nostalgie, l'amour de soi et la résilience.",
       "price_from": 3.9,
       "free": false,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée"
-      ],
+      "audience": [],
+      "tags": [],
       "source": "Trix (Anvers)"
     },
     {
@@ -850,25 +780,6 @@
       "tags": [],
       "source": "Facebook (événement public)",
       "classified": true
-    },
-    {
-      "id": "tm-Z698xZG2Z16v4-0eQa",
-      "title": "Interpol + Bloc Party | be•at Premium Bistronomy Experience",
-      "category": "concert",
-      "venue": "Forest National - Legacy Lounge",
-      "city": "Forest (Brussels)",
-      "lat": 50.80999,
-      "lon": 4.32601,
-      "start": "2026-11-18T18:00:00",
-      "end": "2026-11-18T18:00:00",
-      "image": null,
-      "url": "https://www.ticketmaster.be/event/interpol--bloc-party-%7C-beat-premium-bistronomy-experience-tickets/1561902689",
-      "summary": "Start your visit with a culinary experience in the premium lounge before the show. The Bistronomy Experience also includes your ticket to the show. What can you expect? • A ticket to the show • Access to the premium lounge • Delicious food before the show • An open bar with a selected range of drink",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
     },
     {
       "id": "tm-Z698xZG2Z1k_-v-1e",
@@ -1116,7 +1027,7 @@
     },
     {
       "id": "web-le-forum-li-ge-cl-ment-viktorovitch-l-art-de-ne-pas-dire-2026-11-18",
-      "title": "CLÉMENT VIKTOROVITCH \"L'ART DE NE PAS DIRE\"",
+      "title": "CLÉMENT VIKTOROVITCH « L'ART DE NE PAS DIRE »",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -1127,7 +1038,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/clement_viktorovitch_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202611182000.html",
       "url": "https://www.leforum.be/spectacle_202611182000.html",
-      "summary": "Clément Viktorovitch incarne un conseiller en communication présidentiel évincé, qui se venge en dévoilant les secrets du pouvoir lors d'une conférence. Le spectacle interroge la place du discours en politique et le sens même de la démocratie.",
+      "summary": "Clément Viktorovitch joue son premier seul en scène : le conseiller en communication d'un Président évincé veut se venger en dévoilant, lors d'une conférence, les secrets du pouvoir. Le spectacle interroge la place du discours en politique et le sens de la démocratie.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -1296,28 +1207,6 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-reflektor-li-ge-nayte-golgoth-19-11-2026-11-19",
-      "title": "NAYTE + Golgoth (19/11)",
-      "category": "concert",
-      "venue": "Reflektor",
-      "city": "Liège",
-      "lat": 50.6432641,
-      "lon": 5.5679468,
-      "start": "2026-11-19T10:00:00",
-      "end": "2026-11-19T10:00:00",
-      "image": null,
-      "page_url": "https://reflektor.be/concert/3467/",
-      "url": "https://shop.paylogic.com/172bc7d26911453a869d81b999a6245b",
-      "summary": "Concert de NAYTE + Golgoth au Reflektor (sold out).",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "young"
-      ],
-      "tags": [],
-      "source": "Reflektor (Liège)"
-    },
-    {
       "id": "web-les-grignoux-cin-ma-li-ge-les-recommencements-2026-11-19",
       "title": "Les Recommencements",
       "category": "cinema",
@@ -1336,6 +1225,26 @@
       "audience": [],
       "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
+    },
+    {
+      "id": "web-th-tre-de-li-ge-britney-bitch-2026-11-19",
+      "title": "BRITNEY BITCH",
+      "category": "theatre",
+      "venue": "Théâtre de Liège",
+      "city": "Liège",
+      "lat": 50.6407142,
+      "lon": 5.5748139,
+      "start": "2026-11-19T10:00:00",
+      "end": "2026-11-26T20:00:00",
+      "image": "https://theatredeliege.be/wp-content/uploads/2026/04/britney-bitch_horizontal-379x190.jpg",
+      "page_url": "https://theatredeliege.be/evenement/britney-bitch/",
+      "url": "https://shop.utick.net/?pos=THEATREDELIEGE&module=ACTIVITYSERIEDETAILS&s=84ECAD32-C448-ED5E-18B6-5C274AC388F9",
+      "summary": "Le spectacle revisite le parcours de Britney Spears et le mouvement #FreeBritney, en mêlant récits intimes, chorégraphies et musique live. Il interroge notre rapport aux images et à la fragilité dans une société obsédée par la perfection.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Théâtre de Liège"
     },
     {
       "id": "web-recyclart-bruxelles-voisin-voix-zing-2026-11-19",
@@ -1358,8 +1267,8 @@
       "source": "Recyclart (Bruxelles)"
     },
     {
-      "id": "web-ancienne-belgique-bruxelles-rounhaa-sublime-tour-2026-11-19",
-      "title": "Rounhaa - Sublime Tour",
+      "id": "web-ancienne-belgique-bruxelles-rounhaa-2026-11-19",
+      "title": "Rounhaa",
       "category": "concert",
       "venue": "Ancienne Belgique",
       "city": "Bruxelles",
@@ -1370,9 +1279,9 @@
       "image": "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000N8mJzMAJ_1240x720.jpg",
       "page_url": "https://www.abconcerts.be/fr/agenda/rounhaa/a10Qw0000097A8kIAE",
       "url": "https://www.abconcerts.be/fr/agenda/rounhaa/a10Qw0000097A8kIAE",
-      "summary": "Concert hip-hop de Rounhaa dans la Grande salle de l'AB, en format debout, dans le cadre du Sublime Tour. La page annonce aussi Luther et le Sublime Club.",
-      "price_from": 1.25,
-      "free": false,
+      "summary": "Concert de Rounhaa avec Jo Rwaka, dans le cadre du SUBLIME TOUR.",
+      "price_from": null,
+      "free": null,
       "audience": [],
       "tags": [],
       "source": "Ancienne Belgique (Bruxelles)"
@@ -1395,7 +1304,6 @@
       "free": true,
       "audience": [],
       "tags": [
-        "gratuit",
         "découverte"
       ],
       "source": "Ancienne Belgique (Bruxelles)"
@@ -1403,7 +1311,7 @@
     {
       "id": "web-trix-anvers-expo-workshop-muziekfotografie-2026-11-19",
       "title": "Expo: Workshop Muziekfotografie",
-      "category": "workshop",
+      "category": "expo",
       "venue": "Trix",
       "city": "Anvers",
       "lat": 51.2195776,
@@ -1461,9 +1369,7 @@
       "audience": [
         "young"
       ],
-      "tags": [
-        "soirée"
-      ],
+      "tags": [],
       "source": "Trix (Anvers)"
     },
     {
@@ -1978,7 +1884,7 @@
     {
       "id": "tm-Z698xZG2Z16evM4YP0",
       "title": "Goldmen",
-      "category": "concert",
+      "category": "theatre",
       "venue": "Cirque Royal - Koninklijk Circus",
       "city": "Brussels",
       "lat": 50.84906,
@@ -2135,26 +2041,6 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-reflektor-li-ge-the-jazz-room-un-voyage-au-c-ur-de-la-nouvelle-orl-ans-11-2026-2",
-      "title": "The Jazz Room : un voyage au cœur de La Nouvelle-Orléans (11/2026)",
-      "category": "concert",
-      "venue": "Reflektor",
-      "city": "Liège",
-      "lat": 50.6432641,
-      "lon": 5.5679468,
-      "start": "2026-11-20T10:00:00",
-      "end": "2026-11-20T10:00:00",
-      "image": null,
-      "page_url": "https://reflektor.be/concert/the-jazz-room-un-voyage-au-coeur-de-la-nouvelle-orleans-2/",
-      "url": "https://feverup.com/m/563650",
-      "summary": "Voyage musical au cœur de La Nouvelle-Orléans avec The Jazz Room au Reflektor.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Reflektor (Liège)"
-    },
-    {
       "id": "web-visithuy-la-maison-du-p-re-no-l-2026-11-20",
       "title": "La Maison du Père Noël",
       "category": "family",
@@ -2243,9 +2129,9 @@
       "source": "Fuse (Bruxelles)"
     },
     {
-      "id": "web-ancienne-belgique-bruxelles-afroplug-connect-ttfb-atl-brussels-sound-n-souls-202",
-      "title": "Afroplug Connect + TTFB, ATL BRUSSELS, Sound'n Souls",
-      "category": "talks",
+      "id": "web-ancienne-belgique-bruxelles-afroplug-connect-2026-11-20",
+      "title": "Afroplug Connect",
+      "category": "workshop",
       "venue": "Ancienne Belgique",
       "city": "Bruxelles",
       "lat": 50.8470454,
@@ -2255,18 +2141,16 @@
       "image": "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000TA0HNMA1_1240x720.jpg",
       "page_url": "https://www.abconcerts.be/fr/agenda/afroplug-connect/a10Qw00000PsEhBIAV",
       "url": "https://www.abconcerts.be/fr/agenda/afroplug-connect/a10Qw00000PsEhBIAV",
-      "summary": "Pour les 5 ans d'Afroplug, sa fondatrice Ms Mavy raconte la création de la plateforme, suivie d'un talk avec Sound'n Souls, ATL Brussels et +TTFB sur la place des scènes bruxelloises en Belgique et à l'international. Le tout se termine par un moment de networking.",
+      "summary": "Lors de l'Afroplug Connect, nous célébrerons le 5e anniversaire de la plateforme avec une conférence, le récit de la fondatrice et un moment de networking convivial !",
       "price_from": null,
       "free": null,
       "audience": [],
-      "tags": [
-        "découverte"
-      ],
+      "tags": [],
       "source": "Ancienne Belgique (Bruxelles)"
     },
     {
-      "id": "web-ancienne-belgique-bruxelles-jessie-ware-tsatsamis-the-superbloom-tour-2026-2026-",
-      "title": "Jessie Ware + Tsatsamis - The Superbloom Tour 2026",
+      "id": "web-ancienne-belgique-bruxelles-jessie-ware-2026-11-20",
+      "title": "Jessie Ware",
       "category": "concert",
       "venue": "Ancienne Belgique",
       "city": "Bruxelles",
@@ -2277,18 +2161,16 @@
       "image": "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000MvYgDMAV_1240x720.jpg",
       "page_url": "https://www.abconcerts.be/fr/agenda/jessie-ware/a10Qw00000BJ9m3IAD",
       "url": "https://www.abconcerts.be/fr/agenda/jessie-ware/a10Qw00000BJ9m3IAD",
-      "summary": "Concert de Jessie Ware, diva disco britannique, qui présente son nouvel album « Superbloom » ainsi que ses plus grands tubes. Tsatsamis assure la première partie à l'AB Grande salle à Bruxelles, en formule debout avec places assises limitées.",
-      "price_from": 1.25,
-      "free": false,
-      "audience": [
-        "young"
-      ],
+      "summary": "Concert de Jessie Ware avec Tsatsamis, dans le cadre de The Superbloom Tour 2026. Derniers tickets.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
       "tags": [],
       "source": "Ancienne Belgique (Bruxelles)"
     },
     {
-      "id": "web-ancienne-belgique-bruxelles-afroplug-night-anniversary-brownsugvr-2026-11-20",
-      "title": "Afroplug Night Anniversary + Brownsugvr",
+      "id": "web-ancienne-belgique-bruxelles-afroplug-night-anniversary-2026-11-20",
+      "title": "Afroplug Night Anniversary",
       "category": "party",
       "venue": "Ancienne Belgique",
       "city": "Bruxelles",
@@ -2299,9 +2181,9 @@
       "image": "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000Stqc9MAB_1240x720.jpg",
       "page_url": "https://www.abconcerts.be/fr/agenda/afroplug-night-anniversary/a10Qw00000BclikIAB",
       "url": "https://www.abconcerts.be/fr/agenda/afroplug-night-anniversary/a10Qw00000BclikIAB",
-      "summary": "Soirée des cinq ans d'Afroplug à l'AB Club de Bruxelles, avec des DJs qui font vivre les musiques afro, caribéennes et latines des diasporas. Au programme : Shaka Lion, Ms Mavy, Ravi Bongo, GoldenYnice et Brownsugvr, pour danser jusqu'au petit matin.",
-      "price_from": 1.25,
-      "free": false,
+      "summary": "Afroplug fête ses 5 ans et fait résonner dans notre club les sons des diasporas afro, caribéenne et latino-américaine !",
+      "price_from": null,
+      "free": null,
       "audience": [
         "young"
       ],
@@ -4008,46 +3890,6 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-reflektor-li-ge-o-brice-ninck-2026-11-21",
-      "title": "Ão + Brice Ninck",
-      "category": "concert",
-      "venue": "Reflektor",
-      "city": "Liège",
-      "lat": 50.6432641,
-      "lon": 5.5679468,
-      "start": "2026-11-21T10:00:00",
-      "end": "2026-11-21T10:00:00",
-      "image": null,
-      "page_url": "https://reflektor.be/concert/ao/",
-      "url": "https://shop.paylogic.com/476d083e126a450fbef1887f68a7d4ce",
-      "summary": "Concert de Ão + Brice Ninck au Reflektor.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Reflektor (Liège)"
-    },
-    {
-      "id": "web-reflektor-li-ge-suzane-marie-jay-2026-11-21",
-      "title": "Suzane + Marie Jay",
-      "category": "concert",
-      "venue": "OM",
-      "city": "Liège",
-      "lat": 50.6073612,
-      "lon": 5.5364634,
-      "start": "2026-11-21T10:00:00",
-      "end": "2026-11-21T10:00:00",
-      "image": null,
-      "page_url": null,
-      "url": "https://shop.paylogic.com/bbce5d8b4a614f4eb3effe9572a167a9/offsale",
-      "summary": "Concert de Suzane + Marie Jay à l'OM (sold out).",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Reflektor (Liège)"
-    },
-    {
       "id": "web-province-de-li-ge-3e-salon-des-viticulteurs-de-la-province-de-li-ge-2026-11-21",
       "title": "3e Salon des Viticulteurs de la Province de Liège",
       "category": "fair",
@@ -4156,7 +3998,7 @@
     },
     {
       "id": "web-ancienne-belgique-bruxelles-joe-jackson-hope-and-fury-2026-11-21",
-      "title": "Joe Jackson - 'Hope and Fury'",
+      "title": "Joe Jackson 'Hope and Fury'",
       "category": "concert",
       "venue": "Ancienne Belgique",
       "city": "Bruxelles",
@@ -4167,9 +4009,9 @@
       "image": "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000IhxnFMAR_1240x720.jpg",
       "page_url": "https://www.abconcerts.be/fr/agenda/joe-jackson/a10Qw000009DhGXIA0",
       "url": "https://www.abconcerts.be/fr/agenda/joe-jackson/a10Qw000009DhGXIA0",
-      "summary": "Le musicien britannique Joe Jackson présente en concert son nouvel album 'Hope and Fury', à paraître le 10 avril, avec neuf nouvelles chansons mêlant pop, funk et influences latines. Il est accompagné de ses musiciens réguliers Graham Maby, Teddy Kumpel, Doug Yowell et du percussionniste Paulo Stagn",
-      "price_from": 1.25,
-      "free": false,
+      "summary": "Concert de Joe Jackson, tournée 'Hope and Fury'. Complet.",
+      "price_from": null,
+      "free": null,
       "audience": [],
       "tags": [],
       "source": "Ancienne Belgique (Bruxelles)"
@@ -4192,7 +4034,6 @@
       "free": true,
       "audience": [],
       "tags": [
-        "gratuit",
         "découverte"
       ],
       "source": "Ancienne Belgique (Bruxelles)"
@@ -4216,9 +4057,7 @@
       "audience": [
         "adult"
       ],
-      "tags": [
-        "découverte"
-      ],
+      "tags": [],
       "source": "Trix (Anvers)"
     },
     {
@@ -4277,12 +4116,8 @@
       "summary": "Le groupe anversois de post-punk Mixed Waste présente un set très énergique, avec les premières parties WEBSTEK, boyband K-pop néerlandophone, et ZNUN, dont la performance mêle breaks, groove et visuels de Ziebe Van Mulders. Les portes ouvrent à 19:00 et le tijdschema n'est publié que quelques jours",
       "price_from": 1.8,
       "free": false,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée"
-      ],
+      "audience": [],
+      "tags": [],
       "source": "Trix (Anvers)"
     },
     {
@@ -6594,9 +6429,7 @@
       "audience": [
         "young"
       ],
-      "tags": [
-        "soirée"
-      ],
+      "tags": [],
       "source": "Trix (Anvers)"
     },
     {
@@ -7171,6 +7004,28 @@
       "source": "Facebook (extension)"
     },
     {
+      "id": "web-standard-de-li-ge-lommel-sk-standard-de-li-ge-2026-11-22",
+      "title": "Lommel SK - Standard de Liège",
+      "category": "sport",
+      "venue": "Stade Maurice Dufrasne",
+      "city": "Seraing",
+      "lat": 50.6152381,
+      "lon": 5.5089437,
+      "start": "2026-11-22T19:15:00",
+      "end": "2026-11-22T19:15:00",
+      "image": "https://static.standard.be/cdn/ff/s_cIwEw6WRr8GbjV_t72fDNiRJY0rzUqYEJH-sp_4OI/1748957217/public/styles/max_2600/public/theme/standard_theme/static/images/business_intro_background_image.jpg.webp?itok=brVTH2Ra",
+      "page_url": null,
+      "url": "https://www.standard.be",
+      "summary": "Match de championnat Lommel SK - Standard de Liège, dimanche 22/11/2026 à 19h15.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [
+        "sportif"
+      ],
+      "source": "Standard de Liège"
+    },
+    {
       "id": "fb-1084434067843432",
       "title": "Soirée Latino",
       "category": "party",
@@ -7344,14 +7199,34 @@
       "start": "2026-11-24T10:00:00",
       "end": "2026-11-24T10:00:00",
       "image": null,
-      "page_url": "https://www.grignoux.be/fr/evenement/3146/cine-sme-tombe-du-ciel",
-      "url": "https://www.grignoux.be/fr/evenement/3146/cine-sme-tombe-du-ciel",
-      "summary": "Comédie de Mohamed Hamidi portée par l'humoriste Ilyes Djadel, avec Josiane Balasko et Fred Testot, explorant les chocs culturels. Projection accessible aux personnes sourdes et malentendantes avec sous-titres SME.",
+      "page_url": "https://www.grignoux.be//fr/evenement/3146/cine-sme-tombe-du-ciel",
+      "url": "https://www.grignoux.be//fr/evenement/3146/cine-sme-tombe-du-ciel",
+      "summary": "Séance Ciné-SME : Tombé du ciel.",
       "price_from": null,
       "free": null,
       "audience": [],
       "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
+    },
+    {
+      "id": "web-th-tre-de-li-ge-les-enfants-du-soleil-2026-11-24",
+      "title": "LES ENFANTS DU SOLEIL",
+      "category": "theatre",
+      "venue": "Théâtre de Liège",
+      "city": "Liège",
+      "lat": 50.6407142,
+      "lon": 5.5748139,
+      "start": "2026-11-24T10:00:00",
+      "end": "2026-11-26T20:00:00",
+      "image": "https://theatredeliege.be/wp-content/uploads/2026/04/LesEnfantsduSoleil_H_NEW.jpg",
+      "page_url": "https://theatredeliege.be/evenement/les-enfants-du-soleil/",
+      "url": "https://shop.utick.net/?pos=THEATREDELIEGE&module=ACTIVITYSERIEDETAILS&s=E03F4E8F-6894-3E9A-F694-B3EA183F632A",
+      "summary": "Pièce de Maxime Gorki adaptée par Myriam Muller : des artistes d'une colocation dans une grande ville secouée par une révolte populaire débattent d'art et de politique, déconnectés de la réalité de la rue. Durée : 2 h.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Théâtre de Liège"
     },
     {
       "id": "web-trix-anvers-demo-club-met-youniss-2026-11-24",
@@ -7506,7 +7381,7 @@
     },
     {
       "id": "tm-Z698xZG2Z1k80f9Ae",
-      "title": "CASSE - NOISETTE - BALLET ET ORCHESTRE",
+      "title": "CASSE-NOISETTE - BALLET ET ORCHESTRE",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -7588,28 +7463,8 @@
       "classified": true
     },
     {
-      "id": "web-reflektor-li-ge-z-lie-2026-11-25",
-      "title": "Zélie",
-      "category": "concert",
-      "venue": "Reflektor",
-      "city": "Liège",
-      "lat": 50.6432641,
-      "lon": 5.5679468,
-      "start": "2026-11-25T10:00:00",
-      "end": "2026-11-25T10:00:00",
-      "image": null,
-      "page_url": "https://reflektor.be/concert/zelie/",
-      "url": "https://shop.paylogic.com/a625f7a9d0b0464ab78c04dace462f65/",
-      "summary": "Concert de Zélie au Reflektor (sold out).",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Reflektor (Liège)"
-    },
-    {
-      "id": "web-les-grignoux-cin-ma-li-ge-sneak-preview-2026-11-25",
-      "title": "Sneak Preview",
+      "id": "web-les-grignoux-cin-ma-li-ge-sneak-preview-cam-o-2026-11-25",
+      "title": "Sneak Preview (Caméo)",
       "category": "cinema",
       "venue": "Caméo",
       "city": "Liège",
@@ -7620,7 +7475,27 @@
       "image": "https://www.grignoux.be/upload/grignoux/event/3219/sneakpreview_headersite.jpg",
       "page_url": "https://www.grignoux.be/fr/evenement/3219/sneak-preview",
       "url": "https://www.grignoux.be/fr/evenement/3219/sneak-preview",
-      "summary": "Avant-première mystère d'un film coup de cœur de la nouvelle programmation des Grignoux. La séance est précédée d'une présentation du contenu du nouveau journal par un membre de l'équipe.",
+      "summary": "Avant-première mystère !",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Les Grignoux – cinéma (Liège)"
+    },
+    {
+      "id": "web-les-grignoux-cin-ma-li-ge-sneak-preview-sauveni-re-2026-11-25",
+      "title": "Sneak Preview (Sauvenière)",
+      "category": "cinema",
+      "venue": "Sauvenière",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2026-11-25T10:00:00",
+      "end": "2026-11-25T10:00:00",
+      "image": "https://www.grignoux.be/upload/grignoux/event/3220/sneakpreview_headersite.jpg",
+      "page_url": "https://www.grignoux.be/fr/evenement/3220/sneak-preview",
+      "url": "https://www.grignoux.be/fr/evenement/3220/sneak-preview",
+      "summary": "Avant-première mystère !",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -7643,12 +7518,8 @@
       "summary": "Lisette, projet solo de Simon Van Weereld, et Catbug, alias de Paulien Rondou, partagent l'affiche de ce double concert mêlant indie rock et folk poétique. Lisette présente son nouveau single « Lucy », extrait de son premier album à paraître en 2026, et Catbug dévoile des chansons folk intimes et in",
       "price_from": 3.3,
       "free": false,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée"
-      ],
+      "audience": [],
+      "tags": [],
       "source": "Trix (Anvers)"
     },
     {
@@ -7667,12 +7538,8 @@
       "summary": "Grommet, groupe de metal alternatif suédois, mêle atmosphères éthérées et riffs lourds. Le concert au Trix d'Anvers, le 25 novembre 2026, fait la part belle aux singles « Half In Red » et « Protected Names ».",
       "price_from": 1.0,
       "free": false,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée"
-      ],
+      "audience": [],
+      "tags": [],
       "source": "Trix (Anvers)"
     },
     {
@@ -7919,7 +7786,7 @@
     },
     {
       "id": "web-le-forum-li-ge-laurent-gerra-se-met-table-2026-11-25",
-      "title": "LAURENT GERRA \"SE MET à TABLE !\"",
+      "title": "LAURENT GERRA « SE MET À TABLE ! »",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -7930,7 +7797,7 @@
       "image": null,
       "page_url": "https://www.leforum.be/spectacle_202611252000.html",
       "url": "https://www.leforum.be/spectacle_202611252000.html",
-      "summary": "Laurent Gerra présente « Se met à table ! », un spectacle où il revisite l'actualité en passant en revue la politique, la chanson, la télévision et le cinéma. Il annonce une nouvelle carte et des plats signatures, pour tous les goûts.",
+      "summary": "Laurent Gerra propose un spectacle d'humour qui revisite l'actualité à travers ses imitations de personnalités politiques, de chanteurs, de vedettes de la télévision et du cinéma. Il y présente une nouvelle carte ainsi que ses plats signatures.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -8038,28 +7905,6 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-reflektor-li-ge-wednesday-13-the-birthday-massacre-killus-2026-11-26",
-      "title": "Wednesday 13 + THE BIRTHDAY MASSACRE + Killus",
-      "category": "concert",
-      "venue": "Reflektor",
-      "city": "Liège",
-      "lat": 50.6432641,
-      "lon": 5.5679468,
-      "start": "2026-11-26T10:00:00",
-      "end": "2026-11-26T10:00:00",
-      "image": null,
-      "page_url": "https://reflektor.be/concert/wednesday-13-the-birthday-massacre-killus/",
-      "url": "https://shop.paylogic.com/90c9c7bcf5f24858904d6800adc49738",
-      "summary": "Soirée concert avec Wednesday 13, THE BIRTHDAY MASSACRE et Killus au Reflektor.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "young"
-      ],
-      "tags": [],
-      "source": "Reflektor (Liège)"
-    },
-    {
       "id": "web-les-grignoux-cin-ma-li-ge-le-faux-soir-2026-11-26",
       "title": "Le Faux Soir",
       "category": "cinema",
@@ -8100,6 +7945,26 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
+      "id": "web-th-tre-de-li-ge-odyss-es-2026-11-26",
+      "title": "ODYSSÉES",
+      "category": "expo",
+      "venue": "Théâtre de Liège",
+      "city": "Liège",
+      "lat": 50.6407142,
+      "lon": 5.5748139,
+      "start": "2026-11-26T10:00:00",
+      "end": "2026-12-31T20:00:00",
+      "image": "https://theatredeliege.be/wp-content/uploads/2026/05/Odyssees-H-379x190.jpg",
+      "page_url": "https://theatredeliege.be/evenement/odyssees/",
+      "url": "https://theatredeliege.be/evenement/odyssees/",
+      "summary": "Installation expérimentale de la plasticienne Sophie Legros, qui explore la quête de soi et la construction personnelle à travers un poème visuel, à la Salle des Pieds légers du Théâtre de Liège. Exposition visible du 26/11/2026 au 31/12/2026, du mardi au vendredi de 14 h à 18 h.",
+      "price_from": null,
+      "free": true,
+      "audience": [],
+      "tags": [],
+      "source": "Théâtre de Liège"
+    },
+    {
       "id": "web-trix-anvers-kmska-laat-live-olga-x-trix-2026-11-26",
       "title": "KMSKA LAAT Live - OLGA x TRIX",
       "category": "concert",
@@ -8115,6 +7980,26 @@
       "summary": "In samenwerking met KMSKA zetten we jong muzikaal talent in de cocktailbar van het museum. Maak kennis met OLGA: producer van minimal electronic darkpop die rechtstreeks uit een David Lynch-film lijkt te komen. OLGA creëert haar eigen wereld, waarin meeslepende beats, melancholische soundscapes en e",
       "price_from": null,
       "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Trix (Anvers)"
+    },
+    {
+      "id": "web-trix-anvers-snelle-2026-11-26",
+      "title": "Snelle",
+      "category": "concert",
+      "venue": "Trix",
+      "city": "Anvers",
+      "lat": 51.2195776,
+      "lon": 4.4483726,
+      "start": "2026-11-26T10:00:00",
+      "end": "2026-11-26T10:00:00",
+      "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/ab8b/e5/aa5df9e00a488fb53c5bcb8337cd71b2e73b7fbf.webp",
+      "page_url": "https://www.trixonline.be/nl/event/snelle-2",
+      "url": "https://www.trixonline.be/nl/event/snelle-2",
+      "summary": "Snelle présente au Trix d'Anvers ses textes personnels, sa pop et son hip-hop, accompagné du Lieve Jongens Band. Lors de cette tournée de clubs, il joue ses hits, ses nouveaux titres et des arrangements spéciaux.",
+      "price_from": 9.9,
+      "free": false,
       "audience": [],
       "tags": [],
       "source": "Trix (Anvers)"
@@ -8138,33 +8023,7 @@
       "audience": [
         "young"
       ],
-      "tags": [
-        "soirée"
-      ],
-      "source": "Trix (Anvers)"
-    },
-    {
-      "id": "web-trix-anvers-snelle-2026-11-26",
-      "title": "Snelle",
-      "category": "concert",
-      "venue": "Trix",
-      "city": "Anvers",
-      "lat": 51.2195776,
-      "lon": 4.4483726,
-      "start": "2026-11-26T10:00:00",
-      "end": "2026-11-26T10:00:00",
-      "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/ab8b/e5/aa5df9e00a488fb53c5bcb8337cd71b2e73b7fbf.webp",
-      "page_url": "https://www.trixonline.be/nl/event/snelle-2",
-      "url": "https://www.trixonline.be/nl/event/snelle-2",
-      "summary": "Snelle présente au Trix d'Anvers ses textes personnels, sa pop et son hip-hop, accompagné du Lieve Jongens Band. Lors de cette tournée de clubs, il joue ses hits, ses nouveaux titres et des arrangements spéciaux.",
-      "price_from": 9.9,
-      "free": false,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée"
-      ],
+      "tags": [],
       "source": "Trix (Anvers)"
     },
     {
@@ -8499,7 +8358,7 @@
     {
       "id": "web-le-forum-li-ge-machiavel-2026-11-26",
       "title": "MACHIAVEL",
-      "category": "theatre",
+      "category": "concert",
       "venue": "Le Forum",
       "city": "Liège",
       "lat": 50.64077,
@@ -8512,7 +8371,9 @@
       "summary": "Le groupe de rock belge Machiavel fête ses 50 ans lors d'un concert retraçant cinq décennies de musique, avec ses grands classiques (Fly, Rope Dancer, Over the Hill, Chronic Love) et des surprises. Le spectacle reprend celui donné au Cirque Royal en 2025.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -8806,7 +8667,7 @@
       "id": "web-les-grignoux-cin-ma-li-ge-orion-2026-11-27",
       "title": "Orion",
       "category": "concert",
-      "venue": "Le Caféo",
+      "venue": "Caféo",
       "city": "Liège",
       "lat": 50.6450944,
       "lon": 5.5736112,
@@ -8833,12 +8694,14 @@
       "start": "2026-11-27T10:00:00",
       "end": "2026-11-27T10:00:00",
       "image": null,
-      "page_url": "https://www.grignoux.be/fr/evenement/3199/cinecocoon-camembert",
-      "url": "https://www.grignoux.be/fr/evenement/3199/cinecocoon-camembert",
-      "summary": "Stan, d'origine modeste, découvre la famille de sa petite amie Cléo, qui organise un Trivial Pursuit à chaque anniversaire de France. Projection adaptée aux jeunes parents et bébés de 0 à 10 mois, suivie d'un verre offert à la brasserie Sauvenière.",
-      "price_from": 3.0,
-      "free": false,
-      "audience": [],
+      "page_url": "https://www.grignoux.be//fr/evenement/3199/cinecocoon-camembert",
+      "url": "https://www.grignoux.be//fr/evenement/3199/cinecocoon-camembert",
+      "summary": "Séance CinéCocoon : Camembert.",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "family"
+      ],
       "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
@@ -8865,6 +8728,26 @@
         "soirée"
       ],
       "source": "Fuse (Bruxelles)"
+    },
+    {
+      "id": "web-trix-anvers-benny-sings-2026-11-27",
+      "title": "Benny Sings",
+      "category": "concert",
+      "venue": "Trix",
+      "city": "Anvers",
+      "lat": 51.2195776,
+      "lon": 4.4483726,
+      "start": "2026-11-27T10:00:00",
+      "end": "2026-11-27T10:00:00",
+      "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/2d88/74/7391d223a44014ab4d74243be9a69316e7c1a572.webp",
+      "page_url": "https://www.trixonline.be/nl/event/benny-sings-2",
+      "url": "https://www.trixonline.be/nl/event/benny-sings-2",
+      "summary": "Met 2 miljard streams op de teller brengt Benny Sings in 2026 zijn meest persoonlijke en intieme werk tot nu toe naar het podium met het nieuwe album '22 Durnham Dew'.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Trix (Anvers)"
     },
     {
       "id": "web-het-depot-louvain-monto-space-2-year-anniversary-2026-11-27",
@@ -9399,8 +9282,8 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-village-de-no-l-li-ge-dj-oli-tombeur-soir-e-d-ouverture-de-la-dalle-gourmande-20",
-      "title": "DJ Oli Tombeur - Soirée d'ouverture de la Dalle Gourmande",
+      "id": "web-village-de-no-l-li-ge-soir-e-d-ouverture-de-la-dalle-gourmande-dj-oli-tombeur-20",
+      "title": "Soirée d'ouverture de la Dalle Gourmande (DJ Oli Tombeur)",
       "category": "party",
       "venue": "Dalle St-Lambert",
       "city": "Liège",
@@ -9408,6 +9291,29 @@
       "lon": 5.5736112,
       "start": "2026-11-27T19:00:00",
       "end": "2026-11-27T23:30:00",
+      "image": "https://cdn.prod.website-files.com/60ad0ea20d1179ee317a0838/618106ce81cc4830dee74728_noel-a-liege-village-cover.jpg",
+      "page_url": null,
+      "url": "https://www.villagedenoel.be",
+      "summary": "Marché de Noël au cœur de Liège : chalets d'artisans, gastronomie, grande roue et piste de luge sur la place Saint-Lambert, la place du Marché et l'Espace Tivoli.",
+      "price_from": null,
+      "free": true,
+      "audience": [],
+      "tags": [
+        "soirée",
+        "gourmand"
+      ],
+      "source": "Village de Noël (Liège)"
+    },
+    {
+      "id": "web-village-de-no-l-li-ge-pascal-fumal-dj-podium-2026-11-27",
+      "title": "Pascal Fumal (DJ) - Podium",
+      "category": "party",
+      "venue": "Podium",
+      "city": "Liège",
+      "lat": 50.6450944,
+      "lon": 5.5736112,
+      "start": "2026-11-27T19:00:00",
+      "end": "2026-11-27T23:00:00",
       "image": "https://cdn.prod.website-files.com/60ad0ea20d1179ee317a0838/618106ce81cc4830dee74728_noel-a-liege-village-cover.jpg",
       "page_url": null,
       "url": "https://www.villagedenoel.be",
@@ -9482,8 +9388,8 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-village-de-no-l-li-ge-soir-e-d-inauguration-2026-11-27",
-      "title": "Soirée d'inauguration",
+      "id": "web-village-de-no-l-li-ge-soir-e-d-inauguration-concert-live-sur-la-glace-2026-11-27",
+      "title": "Soirée d'inauguration - Concert live sur la glace",
       "category": "concert",
       "venue": "Place Cathédrale",
       "city": "Liège",
@@ -11213,28 +11119,6 @@
       "source": "Le Forum (Liège)"
     },
     {
-      "id": "web-village-de-no-l-li-ge-playlist-g-n-ration-80-2026-11-28",
-      "title": "Playlist Génération 80",
-      "category": "party",
-      "venue": "Place Cathédrale",
-      "city": "Liège",
-      "lat": 50.6406903,
-      "lon": 5.5715938,
-      "start": "2026-11-28T20:00:00",
-      "end": "2026-11-28T23:00:00",
-      "image": "https://cdn.prod.website-files.com/6368c5291a6c8b8e4deae634/6368c5291a6c8b1295eae6d5_DSC06652.jpg",
-      "page_url": null,
-      "url": "https://www.villagedenoel.be",
-      "summary": "Les sons les plus populaires des années 80 résonnent sur la Place Cathédrale, de 20h à 23h. L'événement fait partie du programme du Village de Noël de Liège, ouvert du 27 novembre 2026 au 2 janvier 2027.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [
-        "soirée"
-      ],
-      "source": "Village de Noël (Liège)"
-    },
-    {
       "id": "fb-2278070619658951",
       "title": "💥CONCERT CASAMEN💥",
       "category": "concert",
@@ -11820,9 +11704,7 @@
       "audience": [
         "adult"
       ],
-      "tags": [
-        "découverte"
-      ],
+      "tags": [],
       "source": "Trix (Anvers)"
     },
     {
@@ -12136,16 +12018,16 @@
       "id": "web-standard-de-li-ge-standard-de-li-ge-club-brugge-2026-11-29",
       "title": "Standard de Liège - Club Brugge",
       "category": "sport",
-      "venue": "Sclessin",
+      "venue": "Stade Maurice Dufrasne",
       "city": "Seraing",
-      "lat": 50.5909826,
-      "lon": 5.5631563,
+      "lat": 50.6152381,
+      "lon": 5.5089437,
       "start": "2026-11-29T18:30:00",
       "end": "2026-11-29T18:30:00",
       "image": "https://static.standard.be/cdn/ff/d-elbWYZc8CD4E1y6I2JIsF46XfoiOisPe8osWSEP3M/1793495856/public/styles/max_0640/public/2026-11/Standard-ClubBrugge-1920x1080.png.webp?itok=e9bDDNjY",
       "page_url": "https://www.standard.be/fr/news/tickets-en-vente-pour-standard-club-brugge",
       "url": "https://www.standard.be/fr/news/tickets-en-vente-pour-standard-club-brugge",
-      "summary": "Les places pour la rencontre Standard de Liège - Club Brugge sont en vente sur la plateforme online ou à la billetterie du stade.",
+      "summary": "Les places pour Standard de Liège - Club Brugge, dimanche 29 novembre à 18h30, sont en vente sur la plateforme online ou à la billetterie du stade.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -12336,8 +12218,8 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-le-faux-soir-2026-12-01",
-      "title": "Le Faux Soir",
+      "id": "web-les-grignoux-cin-ma-li-ge-le-faux-soir-avant-premi-re-2026-12-01",
+      "title": "Le Faux Soir (avant-première)",
       "category": "cinema",
       "venue": "Sauvenière",
       "city": "Liège",
@@ -12348,7 +12230,7 @@
       "image": "https://www.grignoux.be/upload/grignoux/event/3238/le_faux_soir_headersite2.jpg",
       "page_url": "https://www.grignoux.be/fr/evenement/3238/le-faux-soir",
       "url": "https://www.grignoux.be/fr/evenement/3238/le-faux-soir",
-      "summary": "Avant-première du film « Le Faux Soir » de Michaël R. Roskam : en 1943, des résistants belges tentent d'imprimer une fausse édition du journal Le Soir, saturée d'articles ridiculisant l'occupant. Introduction et débat après la projection avec l'équipe du film.",
+      "summary": "Avant-première du film Le Faux Soir, suivie d'une introduction et d'un débat en présence du réalisateur Michaël R. Roskam et de l'équipe. Le film raconte comment des résistants belges impriment en 1943 une fausse édition du Soir pour ridiculiser l'occupant nazi.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -12356,8 +12238,8 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-you-can-see-everything-2026-12-01",
-      "title": "You Can See Everything",
+      "id": "web-les-grignoux-cin-ma-li-ge-you-can-see-everything-s-ance-anticip-e-2026-12-01",
+      "title": "You Can See Everything (séance anticipée)",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -12365,10 +12247,30 @@
       "lon": 5.5736112,
       "start": "2026-12-01T10:00:00",
       "end": "2026-12-01T10:00:00",
-      "image": "https://www.grignoux.be//upload/grignoux/event/3215/you_can_see_everything_vignette.jpg",
-      "page_url": "https://www.grignoux.be/fr/evenement/3215/you-can-see-everything",
-      "url": "https://www.grignoux.be/fr/evenement/3215/you-can-see-everything",
-      "summary": "Documentaire de Nathan Fielder et Lance Oppenheim qui suit Elizabeth Holmes, ancienne star de la Silicon Valley condamnée pour escroquerie, peu avant son entrée en prison. Il interroge la frontière entre réalité et fiction ainsi que le pouvoir des images.",
+      "image": null,
+      "page_url": "https://www.grignoux.be//fr/evenement/3215/you-can-see-everything",
+      "url": "https://www.grignoux.be//fr/evenement/3215/you-can-see-everything",
+      "summary": "Séance anticipée de You Can See Everything.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Les Grignoux – cinéma (Liège)"
+    },
+    {
+      "id": "web-les-grignoux-cin-ma-li-ge-complet-le-faux-soir-2026-12-01",
+      "title": "COMPLET • Le Faux Soir",
+      "category": "cinema",
+      "venue": "Liège",
+      "city": "Liège",
+      "lat": 50.6450944,
+      "lon": 5.5736112,
+      "start": "2026-12-01T10:00:00",
+      "end": "2026-12-01T10:00:00",
+      "image": "https://www.grignoux.be//upload/grignoux/event/3184/le_faux_soir_og.jpg",
+      "page_url": "https://www.grignoux.be//fr/evenement/3184/complet-bull-le-faux-soir",
+      "url": "https://www.grignoux.be//fr/evenement/3184/complet-bull-le-faux-soir",
+      "summary": "Avant-première complète du Faux Soir.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -12601,8 +12503,8 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-le-faux-soir-2026-12-02",
-      "title": "Le Faux Soir",
+      "id": "web-les-grignoux-cin-ma-li-ge-le-faux-soir-projection-sp-ciale-2026-12-02",
+      "title": "Le Faux Soir (projection spéciale)",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -12611,9 +12513,9 @@
       "start": "2026-12-02T10:00:00",
       "end": "2026-12-02T10:00:00",
       "image": "https://www.grignoux.be//upload/grignoux/event/3229/le_faux_soir_og.jpg",
-      "page_url": "https://www.grignoux.be/fr/evenement/3229/le-faux-soir",
-      "url": "https://www.grignoux.be/fr/evenement/3229/le-faux-soir",
-      "summary": "Projection spéciale du film Le Faux Soir : en 1943, des résistants belges impriment une fausse édition du journal Le Soir, confisqué par les nazis. La séance réunit des intervenants, dont un journaliste de Médor.",
+      "page_url": "https://www.grignoux.be//fr/evenement/3229/le-faux-soir",
+      "url": "https://www.grignoux.be//fr/evenement/3229/le-faux-soir",
+      "summary": "Projection spéciale du Faux Soir.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -12631,11 +12533,11 @@
       "start": "2026-12-02T10:00:00",
       "end": "2026-12-02T10:00:00",
       "image": "https://www.grignoux.be//upload/grignoux/event/3195/le_sapin_a_les_boules_vignette.jpg",
-      "page_url": "https://www.grignoux.be/fr/evenement/3195/le-sapin-a-les-boules-vf",
-      "url": "https://www.grignoux.be/fr/evenement/3195/le-sapin-a-les-boules-vf",
-      "summary": "Clark Griswold rêve d'un Noël parfait, mais la famille débarque avec ses catastrophes dans une maison impossible à illuminer. Projection en VF façon Pirate Movie Club : le public est invité à commenter et applaudir les répliques, présentée par Caroline Poisson.",
-      "price_from": 7.0,
-      "free": false,
+      "page_url": "https://www.grignoux.be//fr/evenement/3195/le-sapin-a-les-boules-vf",
+      "url": "https://www.grignoux.be//fr/evenement/3195/le-sapin-a-les-boules-vf",
+      "summary": "Pirate Movie Club : Le sapin a les boules VF.",
+      "price_from": null,
+      "free": null,
       "audience": [],
       "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
@@ -12847,28 +12749,6 @@
       "source": "Ticketmaster"
     },
     {
-      "id": "web-reflektor-li-ge-naft-2026-12-03",
-      "title": "Naft",
-      "category": "concert",
-      "venue": "Reflektor",
-      "city": "Liège",
-      "lat": 50.6432641,
-      "lon": 5.5679468,
-      "start": "2026-12-03T10:00:00",
-      "end": "2026-12-03T10:00:00",
-      "image": null,
-      "page_url": "https://reflektor.be/concert/naft/",
-      "url": "https://shop.paylogic.com/1ec952da2efd444ca4a852a1a3544f5c/offsale",
-      "summary": "Concert de Naft au Reflektor.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "young"
-      ],
-      "tags": [],
-      "source": "Reflektor (Liège)"
-    },
-    {
       "id": "web-les-grignoux-cin-ma-li-ge-marcinelle-le-56-minutes-2026-12-03",
       "title": "Marcinelle, le 56 minutes",
       "category": "cinema",
@@ -12879,9 +12759,9 @@
       "start": "2026-12-03T10:00:00",
       "end": "2026-12-03T10:00:00",
       "image": "https://www.grignoux.be//upload/grignoux/event/3214/marcinelle_le_56_minutes_vignette_2.jpg",
-      "page_url": "https://www.grignoux.be/fr/evenement/3214/marcinelle-le-56-minutes",
-      "url": "https://www.grignoux.be/fr/evenement/3214/marcinelle-le-56-minutes",
-      "summary": "Projection unique du film « Marcinelle, le 56 minutes » de la SONUMA, mêlant archives, actualités et témoignages sur la catastrophe du Bois du Cazier et l'immigration vers les charbonnages belges. Elle est précédée d'une présentation par Virginie Vandeputte et Colette Ista.",
+      "page_url": "https://www.grignoux.be//fr/evenement/3214/marcinelle-le-56-minutes",
+      "url": "https://www.grignoux.be//fr/evenement/3214/marcinelle-le-56-minutes",
+      "summary": "Projection unique de Marcinelle, le 56 minutes.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -12899,9 +12779,9 @@
       "start": "2026-12-03T10:00:00",
       "end": "2026-12-03T10:00:00",
       "image": "https://www.grignoux.be//upload/grignoux/event/3206/le_journal_dune_femme_de_chambre_vignette.jpg",
-      "page_url": "https://www.grignoux.be/fr/evenement/3206/le-journal-dune-femme-de-chambre",
-      "url": "https://www.grignoux.be/fr/evenement/3206/le-journal-dune-femme-de-chambre",
-      "summary": "Le cinéaste roumain Radu Jude revisite librement l'œuvre d'Octave Mirbeau : Gianina, employée de maison roumaine à Bordeaux, répète une adaptation théâtrale tout en étant séparée de sa fille. Avant-première lors de la soirée de clôture de Politik, à Liège.",
+      "page_url": "https://www.grignoux.be//fr/evenement/3206/le-journal-dune-femme-de-chambre",
+      "url": "https://www.grignoux.be//fr/evenement/3206/le-journal-dune-femme-de-chambre",
+      "summary": "Avant-première du Journal d'une femme de chambre.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -12919,11 +12799,11 @@
       "start": "2026-12-03T10:00:00",
       "end": "2026-12-03T10:00:00",
       "image": "https://www.grignoux.be//upload/grignoux/event/3228/mustang_vignette.jpg",
-      "page_url": "https://www.grignoux.be/fr/evenement/3228/mustang",
-      "url": "https://www.grignoux.be/fr/evenement/3228/mustang",
-      "summary": "Projection gratuite de Mustang de Deniz Gamze Ergüven, précédée d'une introduction et suivie d'une rencontre avec la réalisatrice Paloma Sermon-Daï. Le film suit cinq sœurs turques qui, après un scandale, voient leur maison devenir une prison.",
+      "page_url": "https://www.grignoux.be//fr/evenement/3228/mustang",
+      "url": "https://www.grignoux.be//fr/evenement/3228/mustang",
+      "summary": "Séance spéciale de Mustang.",
       "price_from": null,
-      "free": true,
+      "free": null,
       "audience": [],
       "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
@@ -13911,26 +13791,6 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-reflektor-li-ge-syd-matters-2026-12-05",
-      "title": "Syd Matters",
-      "category": "concert",
-      "venue": "Reflektor",
-      "city": "Liège",
-      "lat": 50.6432641,
-      "lon": 5.5679468,
-      "start": "2026-12-05T10:00:00",
-      "end": "2026-12-05T10:00:00",
-      "image": null,
-      "page_url": "https://reflektor.be/concert/syd-matters/",
-      "url": "https://shop.paylogic.com/d66e729cb25046838dec1f3e5834fcf1",
-      "summary": "Concert de Syd Matters au Reflektor.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Reflektor (Liège)"
-    },
-    {
       "id": "web-grand-curtius-li-ge-concert-autour-des-manuscrits-de-paganini-2026-12-05",
       "title": "Concert autour des manuscrits de Paganini",
       "category": "concert",
@@ -14334,7 +14194,7 @@
     },
     {
       "id": "web-le-forum-li-ge-olivier-de-benoist-le-droit-au-bonheur-2026-12-05",
-      "title": "OLIVIER DE BENOIST \"LE DROIT AU BONHEUR\"",
+      "title": "OLIVIER DE BENOIST « LE DROIT AU BONHEUR »",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -14345,7 +14205,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/ODB-510.png",
       "page_url": "https://www.leforum.be/spectacle_202612052000.html",
       "url": "https://www.leforum.be/spectacle_202612052000.html",
-      "summary": "Olivier de Benoist raconte sa quête éperdue du bonheur, un voyage initiatique qui l'a conduit à trouver une famille. Le spectacle est présenté au Forum de Liège par OD Live en accord avec KIMAIMEMESUIVE.",
+      "summary": "Olivier de Benoist raconte sa quête éperdue du bonheur après un revers, un voyage initiatique qui l'a conduit à trouver une famille. Le spectacle a lieu au Forum de Liège, rue Pont d'Avroy, le 5 décembre 2026 à 20h.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -14755,26 +14615,6 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
-    },
-    {
-      "id": "web-reflektor-li-ge-la-saint-nicolas-du-regina-club-andre-borbe-presente-borbest-of-",
-      "title": "LA SAINT-NICOLAS DU REGINA CLUB : ANDRE BORBE PRESENTE BORBEST'OF",
-      "category": "concert",
-      "venue": "Regina Club",
-      "city": "Liège",
-      "lat": 50.6450944,
-      "lon": 5.5736112,
-      "start": "2026-12-06T10:00:00",
-      "end": "2026-12-06T10:00:00",
-      "image": null,
-      "page_url": "https://reflektor.be/concert/la-saint-nicolas-du-regina-club-andre-borbe-presente-borbestof/",
-      "url": "https://shop.paylogic.com/a17b4af8083a4f12993bffc7e7d94283",
-      "summary": "La Saint-Nicolas du Regina Club avec André Borbe présente BORBEST'OF.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Reflektor (Liège)"
     },
     {
       "id": "web-grand-curtius-li-ge-cr-amus-e-des-diablotins-paillettes-en-pr-sence-de-saint-nic",
@@ -15188,9 +15028,9 @@
       "start": "2026-12-07T10:00:00",
       "end": "2026-12-07T10:00:00",
       "image": "https://www.grignoux.be//upload/grignoux/event/3194/le_prive_vignette.jpg",
-      "page_url": "https://www.grignoux.be/fr/evenement/3194/le-prive",
-      "url": "https://www.grignoux.be/fr/evenement/3194/le-prive",
-      "summary": "Projection du film « Le Privé » de Robert Altman, adaptation d'un roman de Raymond Chandler : le détective Philip Marlowe (Elliott Gould) enquête dans le Los Angeles des années 1970. Séance présentée par Dick Tomasovic, professeur en études cinématographiques à l'ULiège.",
+      "page_url": "https://www.grignoux.be//fr/evenement/3194/le-prive",
+      "url": "https://www.grignoux.be//fr/evenement/3194/le-prive",
+      "summary": "Séance classique : Le Privé.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -15301,8 +15141,8 @@
       "source": "Ticketmaster"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-colony-2026-12-08",
-      "title": "Colony",
+      "id": "web-les-grignoux-cin-ma-li-ge-colony-l-trange-s-ance-2026-12-08",
+      "title": "Colony (L'Étrange Séance)",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -15310,10 +15150,10 @@
       "lon": 5.5736112,
       "start": "2026-12-08T10:00:00",
       "end": "2026-12-08T10:00:00",
-      "image": "https://www.grignoux.be//upload/grignoux/event/3203/colony_vignette.jpg",
-      "page_url": "https://www.grignoux.be/fr/evenement/3203/colony",
-      "url": "https://www.grignoux.be/fr/evenement/3203/colony",
-      "summary": "Film de zombies coréen du réalisateur de Dernier train pour Busan : une technologie de mise en réseau biologique développée par un PDG déclenche une épidémie de zombies connectés menaçant Séoul. La séance comprend une présentation avant le film et un échange en salle après.",
+      "image": null,
+      "page_url": "https://www.grignoux.be//fr/evenement/3203/colony",
+      "url": "https://www.grignoux.be//fr/evenement/3203/colony",
+      "summary": "L'Étrange Séance : Colony.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -15471,7 +15311,7 @@
     },
     {
       "id": "web-le-forum-li-ge-j-r-me-de-warz-e-va-au-diable-2026-12-08",
-      "title": "JÉRÔME DE WARZÉE \"VA AU DIABLE\"",
+      "title": "JÉRÔME DE WARZÉE « VA AU DIABLE »",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -15482,7 +15322,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/A2-Jerome-de-Warzee-510.png",
       "page_url": "https://www.leforum.be/spectacle_202612082000.html",
       "url": "https://www.leforum.be/spectacle_202612082000.html",
-      "summary": "Jérôme de Warzée présente son nouveau seul-en-scène « Va au Diable ! », où il retrace l'histoire de Satan, de la Genèse aux réseaux sociaux, entre stand-up, fresque historique et satire politique. Il interroge l'origine du Mal : extérieure ou en nous ?",
+      "summary": "Jérôme de Warzée présente en seul-en-scène « Va au Diable ! », un spectacle satirique qui retrace le parcours de Satan, de la Genèse aux réseaux sociaux. Entre stand-up, fresque historique et satire politique, il interroge l'origine du Mal.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -15585,46 +15425,6 @@
       "source": "Ticketmaster"
     },
     {
-      "id": "web-reflektor-li-ge-emel-2026-12-09",
-      "title": "Emel",
-      "category": "concert",
-      "venue": "Reflektor",
-      "city": "Liège",
-      "lat": 50.6432641,
-      "lon": 5.5679468,
-      "start": "2026-12-09T10:00:00",
-      "end": "2026-12-09T10:00:00",
-      "image": null,
-      "page_url": "https://reflektor.be/concert/emel/",
-      "url": "https://shop.paylogic.com/2a4a6d38ec4143789b1350935d75ba63",
-      "summary": "Concert d'Emel au Reflektor.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Reflektor (Liège)"
-    },
-    {
-      "id": "web-reflektor-li-ge-kahil-el-zabar-isaiah-collier-duo-2026-12-09",
-      "title": "Kahil El'Zabar & Isaiah Collier Duo",
-      "category": "concert",
-      "venue": "Regina Club",
-      "city": "Liège",
-      "lat": 50.6450944,
-      "lon": 5.5736112,
-      "start": "2026-12-09T10:00:00",
-      "end": "2026-12-09T10:00:00",
-      "image": null,
-      "page_url": "https://reflektor.be/concert/kahil-elzabar-isaiah-collier-duo/",
-      "url": "https://shop.paylogic.com/ff0a55215fdb41c1a822a4b119df2f25",
-      "summary": "Concert du duo Kahil El'Zabar & Isaiah Collier au Regina Club.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Reflektor (Liège)"
-    },
-    {
       "id": "web-les-grignoux-cin-ma-li-ge-marcinelle-le-56-minutes-2026-12-09",
       "title": "Marcinelle, le 56 minutes",
       "category": "cinema",
@@ -15635,9 +15435,9 @@
       "start": "2026-12-09T10:00:00",
       "end": "2026-12-09T10:00:00",
       "image": "https://www.grignoux.be//upload/grignoux/event/3211/marcinelle_le_56_minutes_vignette.jpg",
-      "page_url": "https://www.grignoux.be/fr/evenement/3211/marcinelle-le-56-minutes",
-      "url": "https://www.grignoux.be/fr/evenement/3211/marcinelle-le-56-minutes",
-      "summary": "Projection unique du film « Marcinelle, le 56 minutes » (SONUMA et Bois du Cazier), qui relie l'émigration vers les charbonnages belges à la catastrophe de Marcinelle. Elle est précédée d'une présentation par les directrices de la SONUMA et du Bois du Cazier.",
+      "page_url": "https://www.grignoux.be//fr/evenement/3211/marcinelle-le-56-minutes",
+      "url": "https://www.grignoux.be//fr/evenement/3211/marcinelle-le-56-minutes",
+      "summary": "Projection unique de Marcinelle, le 56 minutes.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -15655,9 +15455,9 @@
       "start": "2026-12-09T10:00:00",
       "end": "2026-12-09T10:00:00",
       "image": "https://www.grignoux.be//upload/grignoux/event/3207/les_ames_bossales_vignette.jpg",
-      "page_url": "https://www.grignoux.be/fr/evenement/3207/les-ames-bossales",
-      "url": "https://www.grignoux.be/fr/evenement/3207/les-ames-bossales",
-      "summary": "Projection unique du documentaire « Les Âmes bossales » de François Perlier, qui suit des figures de la culture rebelle haïtienne. Le réalisateur et Ketly Astier, présidente belgo-haïtienne de Liège Aide Haïti, sont présents.",
+      "page_url": "https://www.grignoux.be//fr/evenement/3207/les-ames-bossales",
+      "url": "https://www.grignoux.be//fr/evenement/3207/les-ames-bossales",
+      "summary": "Projection unique : Les Âmes bossales.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -15827,8 +15627,8 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-le-forum-li-ge-pablo-reyes-former-member-of-gipsy-king-2026-12-09",
-      "title": "PABLO REYES - FORMER MEMBER OF GIPSY KING",
+      "id": "web-le-forum-li-ge-pablo-reyes-former-member-of-gipsy-kings-2026-12-09",
+      "title": "PABLO REYES - FORMER MEMBER OF GIPSY KINGS",
       "category": "concert",
       "venue": "Le Forum",
       "city": "Liège",
@@ -15839,7 +15639,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/GIPSY-KINGS-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612092000.html",
       "url": "https://www.leforum.be/spectacle_202612092000.html",
-      "summary": "Le Forum de Liège accueille Pablo Reyes, ancien membre fondateur des Gipsy Kings, pour une soirée de flamenco, rumba et sonorités latines. Il y interprétera en live les grands classiques du groupe, comme Bamboleo, Volare ou Djobi Djoba.",
+      "summary": "Pablo Reyes, ancien membre fondateur des Gipsy Kings, joue en live les classiques du groupe (Bamboleo, Volare, Djobi Djoba). Une soirée flamenco et rumba dans une ambiance festive.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -15957,9 +15757,9 @@
       "start": "2026-12-10T10:00:00",
       "end": "2026-12-10T10:00:00",
       "image": "https://www.grignoux.be//upload/grignoux/event/3212/out_of_the_picture_vignette.jpg",
-      "page_url": "https://www.grignoux.be/fr/evenement/3212/out-of-the-picture",
-      "url": "https://www.grignoux.be/fr/evenement/3212/out-of-the-picture",
-      "summary": "Projection unique du film Out of the Picture sur les femmes architectes effacées de l'histoire. Présentée en présence de la réalisatrice et de l'équipe de l'ICA, elle ouvre l'exposition « Quand l'architecture s'engage » au Delta, à Namur.",
+      "page_url": "https://www.grignoux.be//fr/evenement/3212/out-of-the-picture",
+      "url": "https://www.grignoux.be//fr/evenement/3212/out-of-the-picture",
+      "summary": "Projection unique : Out of the Picture.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -15977,11 +15777,11 @@
       "start": "2026-12-10T10:00:00",
       "end": "2026-12-10T10:00:00",
       "image": "https://www.grignoux.be//upload/grignoux/event/3155/concert_tahiti80_vignette.jpg",
-      "page_url": "https://www.grignoux.be/fr/evenement/3155/tahiti-80-carla-biber",
-      "url": "https://www.grignoux.be/fr/evenement/3155/tahiti-80-carla-biber",
-      "summary": "Concert de Tahiti 80, groupe de pop indépendante internationale depuis 25 ans, avec Carla Biber en première partie. Une soirée aux allures d'étés nostalgiques à la Brasserie Sauvenière.",
-      "price_from": 20.0,
-      "free": false,
+      "page_url": "https://www.grignoux.be//fr/evenement/3155/tahiti-80-carla-biber",
+      "url": "https://www.grignoux.be//fr/evenement/3155/tahiti-80-carla-biber",
+      "summary": "Concert de Tahiti 80 et Carla Biber.",
+      "price_from": null,
+      "free": null,
       "audience": [],
       "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
@@ -16130,8 +15930,8 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-le-forum-li-ge-love-actually-cin-concert-2026-12-10",
-      "title": "LOVE ACTUALLY CINÉ-CONCERT",
+      "id": "web-le-forum-li-ge-love-actually-cin-concert-vf-2026-12-10",
+      "title": "LOVE ACTUALLY CINÉ-CONCERT (VF)",
       "category": "cinema",
       "venue": "Le Forum",
       "city": "Liège",
@@ -16142,7 +15942,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/love510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612102000.html",
       "url": "https://www.leforum.be/spectacle_202612102000.html",
-      "summary": "Projection intégrale du film Love Actually en version française sur écran géant, avec la partition de Craig Armstrong jouée en direct par un orchestre symphonique et un chœur. Une soirée à partager en famille, en couple ou entre amis.",
+      "summary": "Ciné-concert du film culte Love Actually, projeté en intégralité en version française sur grand écran. Un orchestre symphonique et un chœur de 91 musiciens et choristes interprètent en direct la partition de Craig Armstrong, en synchronisation avec l'image.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -16326,26 +16126,6 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
-    },
-    {
-      "id": "web-reflektor-li-ge-didier-super-et-son-groupe-discount-boum-patat-2026-12-11",
-      "title": "Didier Super et son groupe Discount + Boum Patat",
-      "category": "concert",
-      "venue": "Reflektor",
-      "city": "Liège",
-      "lat": 50.6432641,
-      "lon": 5.5679468,
-      "start": "2026-12-11T10:00:00",
-      "end": "2026-12-11T10:00:00",
-      "image": null,
-      "page_url": "https://reflektor.be/concert/didier-super-et-son-groupe-discount/",
-      "url": "https://shop.paylogic.com/a1174aa8c6cc43fd9283a8722b3054b1",
-      "summary": "Concert de Didier Super et son groupe Discount + Boum Patat au Reflektor.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Reflektor (Liège)"
     },
     {
       "id": "web-recyclart-bruxelles-molenlight-2026-12-11",
@@ -16855,7 +16635,7 @@
     },
     {
       "id": "web-le-forum-li-ge-60-years-of-pink-floyd-2026-12-11",
-      "title": "\"60 YEARS OF PINK FLOYD\"",
+      "title": "60 YEARS OF PINK FLOYD",
       "category": "concert",
       "venue": "Le Forum",
       "city": "Liège",
@@ -16866,10 +16646,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/pink_floyd_format_510X630.png",
       "page_url": "https://www.leforum.be/spectacle_202612112000.html",
       "url": "https://www.leforum.be/spectacle_202612112000.html",
-      "summary": "Le groupe belge A Pink Floyd Experience, huit musiciens, interprète les plus grands tubes de Pink Floyd avec un son puissant, un spectacle lumineux et des projections vidéo. Le concert fait partie de la tournée « The greatest hits tour ».",
+      "summary": "Le groupe belge A Pink Floyd Experience interprète les grands tubes de Pink Floyd, comme « Echoes » ou « Money », avec un spectacle lumineux et des projections vidéo. Le concert revient dans les salles de théâtre après plusieurs salles combles en Belgique.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -17982,18 +17764,18 @@
       "start": "2026-12-13T10:00:00",
       "end": "2026-12-13T10:00:00",
       "image": "https://www.grignoux.be//upload/grignoux/event/3226/sam_gerstram_trio_vignette.jpg",
-      "page_url": "https://www.grignoux.be/fr/evenement/3226/sam-gertsmans-trio",
-      "url": "https://www.grignoux.be/fr/evenement/3226/sam-gertsmans-trio",
-      "summary": "Le Sam Gertsmans Trio joue du swing lors de la Sonar Session à la Brasserie Sauvenière, dans un concert à écouter et à danser. Le concert a lieu le 13/12/2026 à 15:30.",
-      "price_from": 10.0,
-      "free": false,
+      "page_url": "https://www.grignoux.be//fr/evenement/3226/sam-gertsmans-trio",
+      "url": "https://www.grignoux.be//fr/evenement/3226/sam-gertsmans-trio",
+      "summary": "Concert du Sam Gertsmans Trio.",
+      "price_from": null,
+      "free": null,
       "audience": [],
       "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-la-bola-negra-2026-12-13",
-      "title": "La bola negra",
+      "id": "web-les-grignoux-cin-ma-li-ge-la-bola-negra-s-ance-anticip-e-2026-12-13",
+      "title": "La bola negra (séance anticipée)",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -18001,10 +17783,10 @@
       "lon": 5.5736112,
       "start": "2026-12-13T10:00:00",
       "end": "2026-12-13T10:00:00",
-      "image": "https://www.grignoux.be//upload/grignoux/event/3209/la_bola_negra_vignette2.jpg",
-      "page_url": "https://www.grignoux.be/fr/evenement/3209/la-bola-negra",
-      "url": "https://www.grignoux.be/fr/evenement/3209/la-bola-negra",
-      "summary": "Film des réalisateurs Javier Ambrossi et Javier Calvo, qui suit trois hommes à trois époques (1932, 1937, 2017) marqués par le rejet social, la guerre et la douleur héritée. Inspiré d'une pièce d'Alberto Conejero et d'une œuvre inachevée de Federico García Lorca.",
+      "image": null,
+      "page_url": "https://www.grignoux.be//fr/evenement/3209/la-bola-negra",
+      "url": "https://www.grignoux.be//fr/evenement/3209/la-bola-negra",
+      "summary": "Séance anticipée de La bola negra.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -18257,7 +18039,7 @@
     },
     {
       "id": "web-le-forum-li-ge-cochons-d-inde-2026-12-13",
-      "title": "\"COCHONS D'INDE\"",
+      "title": "« COCHONS D'INDE »",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -18268,7 +18050,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/cochons-d-inde-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612131700.html",
       "url": "https://www.leforum.be/spectacle_202612131700.html",
-      "summary": "Alain Kraft, venu retirer de l'argent à sa banque, voit son compte bloqué par la nouvelle direction, qui l'accuse d'avoir enfreint la loi et refuse de le laisser partir. Texte de Sébastien Thiéry, avec Arnaud Ducret, Maxime d'Aboville et Emmanuelle Bougerol.",
+      "summary": "Alain Kraft, un bourgeois de cinquante ans d'origine modeste, vient retirer de l'argent à sa banque. La nouvelle direction indienne de l'établissement lui bloque son compte et refuse de le laisser partir, l'accusant d'avoir enfreint la loi.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -18420,9 +18202,9 @@
       "start": "2026-12-14T10:00:00",
       "end": "2026-12-14T10:00:00",
       "image": "https://www.grignoux.be//upload/grignoux/event/3196/the_shop_around_the_corner_vignette.jpg",
-      "page_url": "https://www.grignoux.be/fr/evenement/3196/the-shop-around-the-corner",
-      "url": "https://www.grignoux.be/fr/evenement/3196/the-shop-around-the-corner",
-      "summary": "Projection de la comédie romantique d'Ernst Lubitsch avec James Stewart et Margaret Sullavan, précédée d'une présentation par Dick Tomasovic (ULiège). Dans une grande boutique de maroquinerie, deux employés s'écrivent anonymement via de petites annonces.",
+      "page_url": "https://www.grignoux.be//fr/evenement/3196/the-shop-around-the-corner",
+      "url": "https://www.grignoux.be//fr/evenement/3196/the-shop-around-the-corner",
+      "summary": "Séance classique : The Shop Around the Corner.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -18551,8 +18333,8 @@
       "source": "Ticketmaster"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-dune-troisi-me-partie-2026-12-15",
-      "title": "Dune : Troisième partie",
+      "id": "web-les-grignoux-cin-ma-li-ge-dune-troisi-me-partie-avant-premi-re-2026-12-15",
+      "title": "Dune : Troisième partie (avant-première)",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -18561,9 +18343,9 @@
       "start": "2026-12-15T10:00:00",
       "end": "2026-12-15T10:00:00",
       "image": "https://www.grignoux.be//upload/grignoux/event/3119/dune_part_three_og.jpg",
-      "page_url": "https://www.grignoux.be/fr/evenement/3119/dune-troisieme-partie",
-      "url": "https://www.grignoux.be/fr/evenement/3119/dune-troisieme-partie",
-      "summary": "Le dernier volet de la trilogie Dune réalisé par Denis Villeneuve. Paul Atréides, désormais empereur, fait face aux conséquences de son règne brutal tandis que d'anciennes menaces refont surface.",
+      "page_url": "https://www.grignoux.be//fr/evenement/3119/dune-troisieme-partie",
+      "url": "https://www.grignoux.be//fr/evenement/3119/dune-troisieme-partie",
+      "summary": "Avant-première de Dune : Troisième partie.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -18581,9 +18363,9 @@
       "start": "2026-12-15T10:00:00",
       "end": "2026-12-15T10:00:00",
       "image": "https://www.grignoux.be//upload/grignoux/event/3204/la_grande_barriere_de_corail_vignette.jpg",
-      "page_url": "https://www.grignoux.be/fr/evenement/3204/la-grande-barriere-de-corail",
-      "url": "https://www.grignoux.be/fr/evenement/3204/la-grande-barriere-de-corail",
-      "summary": "Documentaire de Pierre Levie, restauré par la CINEMATEK, qui montre la vie terrestre et sous-marine de la Grande Barrière de corail. Tourné pendant une expédition scientifique de plus de cinq mois menée par l'Université de Liège au large du Queensland (Australie).",
+      "page_url": "https://www.grignoux.be//fr/evenement/3204/la-grande-barriere-de-corail",
+      "url": "https://www.grignoux.be//fr/evenement/3204/la-grande-barriere-de-corail",
+      "summary": "Projection unique : La Grande Barrière de corail.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -18750,18 +18532,18 @@
       "id": "web-les-grignoux-cin-ma-li-ge-mercredi-swing-au-caf-o-2026-12-16",
       "title": "Mercredi Swing au Caféo",
       "category": "concert",
-      "venue": "Le Caféo",
+      "venue": "Caféo",
       "city": "Liège",
       "lat": 50.6450944,
       "lon": 5.5736112,
       "start": "2026-12-16T10:00:00",
       "end": "2026-12-16T10:00:00",
       "image": "https://www.grignoux.be//upload/grignoux/event/3227/lets_swing_concert_vignette.jpg",
-      "page_url": "https://www.grignoux.be/fr/evenement/3227/mercredi-swing-au-cafeo",
-      "url": "https://www.grignoux.be/fr/evenement/3227/mercredi-swing-au-cafeo",
-      "summary": "Soirée swing au Caféo où l'on peut s'entraîner à danser le lindy hop, le shag ou une autre danse swing. On peut aussi simplement profiter de la musique.",
+      "page_url": "https://www.grignoux.be//fr/evenement/3227/mercredi-swing-au-cafeo",
+      "url": "https://www.grignoux.be//fr/evenement/3227/mercredi-swing-au-cafeo",
+      "summary": "Concert Mercredi Swing au Caféo.",
       "price_from": null,
-      "free": true,
+      "free": null,
       "audience": [],
       "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
@@ -18946,30 +18728,8 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-reflektor-li-ge-kid-sophie-fanny-2026-12-17",
-      "title": "KID SOPHIE + FANNY",
-      "category": "concert",
-      "venue": "Regina Club",
-      "city": "Liège",
-      "lat": 50.6450944,
-      "lon": 5.5736112,
-      "start": "2026-12-17T10:00:00",
-      "end": "2026-12-17T10:00:00",
-      "image": null,
-      "page_url": "https://reflektor.be/concert/kid-sophie-fanny/",
-      "url": "https://shop.paylogic.com/b5c5cda405104373806df413ce341b59",
-      "summary": "Concert de KID SOPHIE + FANNY au Regina Club.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "young"
-      ],
-      "tags": [],
-      "source": "Reflektor (Liège)"
-    },
-    {
-      "id": "web-les-grignoux-cin-ma-li-ge-le-faux-soir-2026-12-17",
-      "title": "Le Faux Soir",
+      "id": "web-les-grignoux-cin-ma-li-ge-le-faux-soir-projection-sp-ciale-2026-12-17",
+      "title": "Le Faux Soir (projection spéciale)",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -18978,9 +18738,9 @@
       "start": "2026-12-17T10:00:00",
       "end": "2026-12-17T10:00:00",
       "image": "https://www.grignoux.be//upload/grignoux/event/3230/le_faux_soir_og.jpg",
-      "page_url": "https://www.grignoux.be/fr/evenement/3230/le-faux-soir",
-      "url": "https://www.grignoux.be/fr/evenement/3230/le-faux-soir",
-      "summary": "Projection spéciale du film Le Faux Soir : en 1943, des résistants belges impriment une fausse édition du journal Le Soir, saturée d'articles ridiculisant l'occupant nazi. La séance réunit Maryse Hendrix (Amnesty International) et deux journalistes (Médor, Wilfried mag).",
+      "page_url": "https://www.grignoux.be//fr/evenement/3230/le-faux-soir",
+      "url": "https://www.grignoux.be//fr/evenement/3230/le-faux-soir",
+      "summary": "Projection spéciale du Faux Soir.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -18988,8 +18748,8 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-le-fabuleux-destin-d-am-lie-poulain-2026-12-17",
-      "title": "Le Fabuleux Destin d'Amélie Poulain",
+      "id": "web-les-grignoux-cin-ma-li-ge-le-fabuleux-destin-d-am-lie-poulain-cin-jack-2026-12-1",
+      "title": "Le Fabuleux Destin d'Amélie Poulain (Ciné Jack)",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -18998,9 +18758,9 @@
       "start": "2026-12-17T10:00:00",
       "end": "2026-12-17T10:00:00",
       "image": null,
-      "page_url": "https://www.grignoux.be/fr/evenement/3205/le-fabuleux-destin-damelie-poulain",
-      "url": "https://www.grignoux.be/fr/evenement/3205/le-fabuleux-destin-damelie-poulain",
-      "summary": "Projection du film « Le Fabuleux Destin d'Amélie Poulain » au Ciné Jack, suivie d'un ciné-club et d'une animation en salle. Le film suit Amélie, serveuse à Montmartre, qui s'est fixé pour but de faire le bien autour d'elle.",
+      "page_url": "https://www.grignoux.be//fr/evenement/3205/le-fabuleux-destin-damelie-poulain",
+      "url": "https://www.grignoux.be//fr/evenement/3205/le-fabuleux-destin-damelie-poulain",
+      "summary": "Ciné Jack : Le Fabuleux Destin d'Amélie Poulain.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -19129,7 +18889,7 @@
     },
     {
       "id": "tm-Z698xZG2Z16vbgbfOE",
-      "title": "DAVID CASTELLO-LOPES - \"DELICIEUX\"",
+      "title": "DAVID CASTELLO-LOPES - « DÉLICIEUX »",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -19251,26 +19011,6 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
-    },
-    {
-      "id": "web-reflektor-li-ge-the-jazz-room-un-hommage-frank-sinatra-et-louis-armstrong-12-202",
-      "title": "The Jazz Room : un hommage à Frank Sinatra et à Louis Armstrong (12/2026)",
-      "category": "concert",
-      "venue": "Reflektor",
-      "city": "Liège",
-      "lat": 50.6432641,
-      "lon": 5.5679468,
-      "start": "2026-12-18T10:00:00",
-      "end": "2026-12-18T10:00:00",
-      "image": "https://www.livecafe.be/assets/frontend/images/facebook.jpg?v=104",
-      "page_url": "https://reflektor.be/concert/the-jazz-room-un-hommage-a-frank-sinatra-et-a-louis-armstrong-12-2026/",
-      "url": "https://feverup.com/m/650639?srsltid=AfmBOopFNWbf75ZR_zcQxaoJ4WyCG2vMSVWrYadWhqoW9f-i3SKHlZ0H",
-      "summary": "Hommage à Frank Sinatra et Louis Armstrong avec The Jazz Room au Reflektor.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Reflektor (Liège)"
     },
     {
       "id": "fbx-1107879635354135",
@@ -19849,28 +19589,8 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-reflektor-li-ge-cookie-festival-2026-12-19",
-      "title": "COOKIE FESTIVAL",
-      "category": "festival",
-      "venue": "Reflektor",
-      "city": "Liège",
-      "lat": 50.6432641,
-      "lon": 5.5679468,
-      "start": "2026-12-19T10:00:00",
-      "end": "2026-12-19T10:00:00",
-      "image": "https://www.livecafe.be/assets/frontend/images/facebook.jpg?v=104",
-      "page_url": "https://reflektor.be/concert/cookie-festival/",
-      "url": "https://www.livecafe.be/billetterie/cookie-collectif",
-      "summary": "COOKIE FESTIVAL au Reflektor.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Reflektor (Liège)"
-    },
-    {
-      "id": "web-les-grignoux-cin-ma-li-ge-carmen-l-oiseau-rebelle-2026-12-19",
-      "title": "Carmen, l'oiseau rebelle",
+      "id": "web-les-grignoux-cin-ma-li-ge-carmen-l-oiseau-rebelle-avant-premi-re-2026-12-19",
+      "title": "Carmen, l'oiseau rebelle (avant-première)",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -19878,10 +19598,10 @@
       "lon": 5.5736112,
       "start": "2026-12-19T10:00:00",
       "end": "2026-12-19T10:00:00",
-      "image": "https://www.grignoux.be//upload/grignoux/event/3217/carmen_loiseaurebelle_vignette--1-.jpg",
-      "page_url": "https://www.grignoux.be/fr/evenement/3217/carmen-loiseau-rebelle",
-      "url": "https://www.grignoux.be/fr/evenement/3217/carmen-loiseau-rebelle",
-      "summary": "Dans les ruelles de Séville, Salva, Belén et leur bande tentent d'écarter la menace qui pèse sur Carmen, gitane libre et flamboyante. Ce film d'animation de Sébastien Laudenbach, librement inspiré de l'opéra de Bizet, est présenté en avant-première.",
+      "image": null,
+      "page_url": "https://www.grignoux.be//fr/evenement/3217/carmen-loiseau-rebelle",
+      "url": "https://www.grignoux.be//fr/evenement/3217/carmen-loiseau-rebelle",
+      "summary": "Avant-première de Carmen, l'oiseau rebelle.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -20489,7 +20209,7 @@
     {
       "id": "web-les-grignoux-cin-ma-li-ge-cin-p-tit-dej-2026-12-20",
       "title": "Ciné P'tit Dej",
-      "category": "cinema",
+      "category": "family",
       "venue": "Liège",
       "city": "Liège",
       "lat": 50.6450944,
@@ -20497,12 +20217,14 @@
       "start": "2026-12-20T10:00:00",
       "end": "2026-12-20T10:00:00",
       "image": "https://www.grignoux.be//upload/grignoux/event/3222/cineptitdej_vignette.jpg",
-      "page_url": "https://www.grignoux.be/fr/evenement/3222/cine-ptit-dej",
-      "url": "https://www.grignoux.be/fr/evenement/3222/cine-ptit-dej",
-      "summary": "Ciné P'tit Dej est un rendez-vous familial avec buffet petit-déjeuner à 9h à la brasserie Sauvenière, suivi à 11h d'une séance au choix parmi Changer l'eau des fleurs, Claude, Carmen, l'oiseau rebelle et Le Noël d'Ernest & Célestine. Le programme est proposé pour tous les âges.",
-      "price_from": 10.0,
-      "free": false,
-      "audience": [],
+      "page_url": "https://www.grignoux.be//fr/evenement/3222/cine-ptit-dej",
+      "url": "https://www.grignoux.be//fr/evenement/3222/cine-ptit-dej",
+      "summary": "Ciné P'tit Dej, séance du dimanche matin.",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "family"
+      ],
       "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
     },
@@ -20517,9 +20239,9 @@
       "start": "2026-12-20T10:00:00",
       "end": "2026-12-20T10:00:00",
       "image": "https://www.grignoux.be//upload/grignoux/event/3202/changer_leau_des_fleurs_vignette.jpg",
-      "page_url": "https://www.grignoux.be/fr/evenement/3202/cinemailles-changer-leau-des-fleurs",
-      "url": "https://www.grignoux.be/fr/evenement/3202/cinemailles-changer-leau-des-fleurs",
-      "summary": "Adaptation par Jean-Pierre Jeunet du best-seller de Valérie Perrin : Violette, garde-cimetière en Bourgogne, voit arriver un policier qui enquête sur la disparition de son mari. Projection en salle à lumières tamisées où l'on peut tricoter, broder ou crocheter ensemble.",
+      "page_url": "https://www.grignoux.be//fr/evenement/3202/cinemailles-changer-leau-des-fleurs",
+      "url": "https://www.grignoux.be//fr/evenement/3202/cinemailles-changer-leau-des-fleurs",
+      "summary": "CinéMailles : Changer l'eau des fleurs.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -20537,9 +20259,9 @@
       "start": "2026-12-20T10:00:00",
       "end": "2026-12-20T10:00:00",
       "image": "https://www.grignoux.be//upload/grignoux/event/3221/fauxsoir_vignette_5.jpg",
-      "page_url": "https://www.grignoux.be/fr/evenement/3221/cine-sme-le-faux-soir",
-      "url": "https://www.grignoux.be/fr/evenement/3221/cine-sme-le-faux-soir",
-      "summary": "Film d'époque sur la Belgique occupée en 1943, où des résistants tentent d'imprimer une fausse édition du quotidien Le Soir, reprenant le titre et le format du vrai journal, pour ridiculiser l'occupant. La projection est accessible aux personnes sourdes et malentendantes, avec sous-titres SME.",
+      "page_url": "https://www.grignoux.be//fr/evenement/3221/cine-sme-le-faux-soir",
+      "url": "https://www.grignoux.be//fr/evenement/3221/cine-sme-le-faux-soir",
+      "summary": "Séance Ciné-SME : Le Faux Soir.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -20626,19 +20348,19 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-standard-de-li-ge-standard-de-li-ge-anderlecht-clasico-2026-12-20",
-      "title": "Standard de Liège - Anderlecht (Clasico)",
+      "id": "web-standard-de-li-ge-standard-de-li-ge-anderlecht-2026-12-20",
+      "title": "Standard de Liège - Anderlecht",
       "category": "sport",
-      "venue": "Sclessin",
+      "venue": "Stade Maurice Dufrasne",
       "city": "Seraing",
-      "lat": 50.5909826,
-      "lon": 5.5631563,
+      "lat": 50.6152381,
+      "lon": 5.5089437,
       "start": "2026-12-20T13:30:00",
       "end": "2026-12-20T13:30:00",
       "image": "https://static.standard.be/cdn/ff/5YldjiKxhYF17gUC5sf5yr5jQlMaRyV0CVcjvOS8QhE/1794042408/public/styles/max_0640/public/2026-11/Standard-RSCA-1920x1080_0.png.webp?itok=1CIVB9A_",
       "page_url": "https://www.standard.be/fr/news/tickets-en-vente-pour-standard-anderlecht",
       "url": "https://www.standard.be/fr/news/tickets-en-vente-pour-standard-anderlecht",
-      "summary": "Le Standard de Liège affronte Anderlecht lors du Clasico, le dimanche 20 décembre à 13h30. Les places sont en vente en ligne et à la billetterie du stade, selon le tableau des prix.",
+      "summary": "Match de Clasico entre le Standard de Liège et Anderlecht le dimanche 20 décembre 2026. Les places sont en vente à partir du 6 novembre à la billetterie et en ligne.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -21126,7 +20848,9 @@
       "summary": "Ballet pour enfants sur la musique de Tchaïkovski, raconté par « Mademoiselle Rose » pour être compris de tous. La prima ballerina Iryna Khandazhevska et des danseurs de l'opéra national d'Ukraine proposent une nouvelle version aux décors impressionnants.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "family"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -21165,7 +20889,9 @@
       "summary": "Adaptation pour enfants du ballet « Le Lac des Cygnes » de Tchaïkovski, chorégraphié par Marius Petipa, avec plus de quarante artistes, costumes et décors. La présentatrice Madame Rose introduit l'histoire et commente les scènes pour les plus jeunes.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "family"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -21299,7 +21025,7 @@
     {
       "id": "web-le-forum-li-ge-un-courrier-pour-no-l-2026-12-29",
       "title": "UN COURRIER POUR NOËL",
-      "category": "concert",
+      "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
       "lat": 50.64077,
@@ -21312,7 +21038,9 @@
       "summary": "Une comédie musicale immersive en images 3D pour toute la famille à partir de 5 ans. Arthur, un jeune garçon en colère, et Jean, un vieux facteur, voyagent jusqu'au village du Père Noël où une mystérieuse lettre noire menace d'éteindre la magie de Noël.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "family"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -21463,9 +21191,9 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-le-forum-li-ge-chers-parents-de-emmanuel-patron-et-armelle-patron-2026-12-31",
-      "title": "\"CHERS PARENTS\" DE EMMANUEL PATRON ET ARMELLE PATRON",
-      "category": "concert",
+      "id": "web-le-forum-li-ge-le-r-veillon-au-champagne-avec-la-pi-ce-chers-parents-de-emmanuel",
+      "title": "LE RÉVEILLON AU CHAMPAGNE avec la pièce « CHERS PARENTS » de Emmanuel Patron et Armelle Patron",
+      "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
       "lat": 50.64077,
@@ -21475,11 +21203,13 @@
       "image": "https://www.leforum.be/visuel/SlideFront/CHERS-PARENTS_510-ok.jpg",
       "page_url": "https://www.leforum.be/spectacle_202612312000.html",
       "url": "https://www.leforum.be/spectacle_202612312000.html",
-      "summary": "Réveillon au champagne au Forum de Liège avec la pièce « Chers Parents », comédie loufoque d'Emmanuel et Armelle Patron. Jeanne et Vincent convoquent leurs trois enfants, qui craignent le pire, avant une annonce qui bouleverse la famille.",
+      "summary": "Jeanne et Vincent convoquent en urgence leurs trois enfants, qui craignent le pire avant d'apprendre une nouvelle bouleversante. Cette comédie loufoque parle de famille, d'amour, de réussite et d'argent, lors d'un réveillon au champagne.",
       "price_from": null,
       "free": null,
       "audience": [],
-      "tags": [],
+      "tags": [
+        "soirée"
+      ],
       "source": "Le Forum (Liège)"
     },
     {
@@ -21662,8 +21392,8 @@
       "source": "Ticketmaster"
     },
     {
-      "id": "web-le-forum-li-ge-guihome-vous-detend-2027-01-05",
-      "title": "GUIHOME VOUS DETEND",
+      "id": "web-le-forum-li-ge-guihome-vous-d-tend-2027-01-05",
+      "title": "GUIHOME VOUS DÉTEND",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -21674,12 +21404,31 @@
       "image": "https://www.leforum.be/visuel/SlideFront/GUIHOME_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701052000.html",
       "url": "https://www.leforum.be/spectacle_202701052000.html",
-      "summary": "GuiHome revient en Belgique avec son spectacle : il y évoque le passage douloureux de l'enfance à l'âge adulte, dans un univers à la Peter Pan. Il y raconte les étapes de sa vie et confronte le public à ses propres rêves, avec douceur.",
+      "summary": "GuiHome revient en Belgique avec son spectacle d'humour, qui évoque le passage douloureux de l'enfance à l'âge adulte dans un univers à la Peter Pan. À travers de nouveaux personnages et une mise en scène très réaliste, il raconte les étapes de sa vie et confronte le public à ses propres rêves.",
       "price_from": null,
       "free": null,
       "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
+    },
+    {
+      "id": "tm-Z698xZG2Z16v1pbMfZ",
+      "title": "Emily Loizeau",
+      "category": "concert",
+      "venue": "Centre Marius Staquet",
+      "city": "Mouscron",
+      "lat": 50.74508,
+      "lon": 3.21073,
+      "start": "2027-01-05T20:00:00",
+      "end": "2027-01-05T20:00:00",
+      "image": "https://s1.ticketm.net/dam/a/aa4/77f8d165-c457-41ce-8282-8a2e7690eaa4_1743581_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.ticketmaster.be/event/emily-loizeau-tickets/1296637500",
+      "summary": "Pour célébrer les 20 ans de L'Autre Bout du Monde, album culte de la pop folk française, Emily Loizeau part en tournée piano solo. Dans un format intime, elle revisite ses titres emblématiques, portés par une écriture sensible et une voix singulière. Une parenthèse délicate, entre émotion, simplicit",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ticketmaster"
     },
     {
       "id": "web-le-forum-li-ge-la-rencontre-thierry-lhermitte-2027-01-06",
@@ -21741,8 +21490,8 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-le-forum-li-ge-fabrice-eboue-solitudes-2027-01-07",
-      "title": "FABRICE EBOUE - SOLITUDES",
+      "id": "web-le-forum-li-ge-fabrice-ebou-solitudes-2027-01-07",
+      "title": "FABRICE EBOUÉ - SOLITUDES",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -21753,32 +21502,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/fabrice-eboue-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701072000.html",
       "url": "https://www.leforum.be/spectacle_202701072000.html",
-      "summary": "Fabrice Eboué revient avec son nouveau spectacle SolitudeS, mis en scène par Thomas Gaudin, après la tournée triomphale d'Adieu Hier. Le spectacle est déconseillé aux moins de 15 ans.",
+      "summary": "Fabrice Eboué présente son nouveau spectacle SolitudeS, mis en scène par Thomas Gaudin, après la tournée Adieu Hier. Le spectacle est déconseillé aux moins de 15 ans.",
       "price_from": null,
       "free": null,
       "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
-    },
-    {
-      "id": "web-reflektor-li-ge-blind-test-de-l-om-sp-cial-90s-2027-01-08",
-      "title": "Blind-test de l'OM: spécial 90s",
-      "category": "party",
-      "venue": "OM",
-      "city": "Liège",
-      "lat": 50.6073612,
-      "lon": 5.5364634,
-      "start": "2027-01-08T10:00:00",
-      "end": "2027-01-08T10:00:00",
-      "image": null,
-      "page_url": "https://reflektor.be/concert/blind-test-de-lom-special-90s-2/",
-      "url": "https://shop.paylogic.com/a63a8326e7de445faae0ef8a30fd458f/",
-      "summary": "Blind-test de l'OM, spécial années 90.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Reflektor (Liège)"
     },
     {
       "id": "fbx-1618813822420257",
@@ -21835,7 +21564,9 @@
       "summary": "Concert hommage à U2 : quatre musiciens reprennent les plus grands succès du groupe irlandais dans un nouveau spectacle qui couvre l'ensemble de sa carrière. Le public retrouve le son, l'énergie et la mise en scène du groupe.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -21920,26 +21651,6 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-reflektor-li-ge-the-jazz-room-un-voyage-au-c-ur-de-la-nouvelle-orl-ans-2027-01-0",
-      "title": "The Jazz Room : un voyage au cœur de La Nouvelle-Orléans",
-      "category": "concert",
-      "venue": "Reflektor",
-      "city": "Liège",
-      "lat": 50.6432641,
-      "lon": 5.5679468,
-      "start": "2027-01-09T10:00:00",
-      "end": "2027-01-09T10:00:00",
-      "image": null,
-      "page_url": "https://reflektor.be/concert/the-jazz-room-un-voyage-au-coeur-de-la-nouvelle-orleans/",
-      "url": "https://feverup.com/m/521008/fr",
-      "summary": "Voyage musical au cœur de La Nouvelle-Orléans avec The Jazz Room au Reflektor.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Reflektor (Liège)"
-    },
-    {
       "id": "fbx-1691007218667503",
       "title": "Le Salon du Mariage de Charleroi",
       "category": "fair",
@@ -21961,7 +21672,7 @@
     },
     {
       "id": "web-le-forum-li-ge-olivier-de-benoist-le-droit-au-bonheur-2027-01-09",
-      "title": "OLIVIER DE BENOIST \"LE DROIT AU BONHEUR\"",
+      "title": "OLIVIER DE BENOIST « LE DROIT AU BONHEUR »",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -21972,7 +21683,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/ODB-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701092000.html",
       "url": "https://www.leforum.be/spectacle_202701092000.html",
-      "summary": "Olivier de Benoist raconte sa quête du bonheur, après avoir trouvé une famille, avec l'humour d'un incorrigible optimiste. Il y présente un voyage initiatique dont il tire une morale sur la vie heureuse, loin de sa femme et de ses enfants.",
+      "summary": "Olivier de Benoist raconte sa quête du bonheur : après un revers, il a trouvé une famille, et il part en voyage initiatique pour atteindre son objectif. La page présente ce récit comme un voyage drôle et optimiste, dont il tire une morale sur la vie de famille.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -22145,7 +21856,7 @@
       "end": "2027-01-13T19:00:00",
       "image": "https://s1.ticketm.net/dam/a/cb8/969d1e65-c45d-4e17-9096-ffc9e25cacb8_RETINA_PORTRAIT_16_9.jpg",
       "url": "https://www.ticketmaster.be/event/the-music-of-ludovico-einaudi-tickets/996745294",
-      "summary": "",
+      "summary": "The stage is elevated. The first four rows -- A, B, C and D -- are located at floor level, which means that the audience will be looking slightly upwards towards the stage.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -22251,7 +21962,7 @@
     },
     {
       "id": "web-le-forum-li-ge-arnaud-tsamere-tous-contraints-2027-01-14",
-      "title": "ARNAUD TSAMERE - \"TOUS CONTRAINTS\"",
+      "title": "ARNAUD TSAMERE - « TOUS CONTRAINTS »",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -22262,7 +21973,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/COUVEVENT-ARNAUD-TSAMERE-TOUS-CONTRAINTS-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701142000.html",
       "url": "https://www.leforum.be/spectacle_202701142000.html",
-      "summary": "Arnaud Tsamere revient sur scène avec son 5e one-man show « Tous contraints », présenté comme plus intense que jamais. Il fait suite à son spectacle « 2 mariages et 1 enterrement » et à son rôle de Cyrano de Bergerac, mis en scène par Alain Sachs.",
+      "summary": "Arnaud Tsamere présente « Tous contraints », son 5ème one man show, un spectacle d'humour dans lequel il revient sur scène avec une intensité accrue. La représentation a lieu au Forum de Liège, rue Pont d'Avroy, à Liège.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -22351,7 +22062,7 @@
     },
     {
       "id": "web-le-forum-li-ge-arnaud-tsamere-tous-contraints-2027-01-15",
-      "title": "ARNAUD TSAMERE - \"TOUS CONTRAINTS\"",
+      "title": "ARNAUD TSAMERE - « TOUS CONTRAINTS »",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -22362,7 +22073,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/COUVEVENT-ARNAUD-TSAMERE-TOUS-CONTRAINTS-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701152000.html",
       "url": "https://www.leforum.be/spectacle_202701152000.html",
-      "summary": "Arnaud Tsamere présente son 5e one man show « Tous contraints », un spectacle d'humour annoncé comme plus intense que jamais. Il fait suite à « 2 mariages et 1 enterrement » et à son rôle de Cyrano de Bergerac au théâtre.",
+      "summary": "Arnaud Tsamere présente son 5e one man show, « Tous contraints », au Forum de Liège. L'humoriste, connu pour « 2 mariages et 1 enterrement » et la tournée du Trio, revient sur scène avec un spectacle qu'il décrit comme plus intense que jamais.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -22612,7 +22323,7 @@
     },
     {
       "id": "web-le-forum-li-ge-sarah-schwab-elles-et-moi-2027-01-16",
-      "title": "SARAH SCHWAB - \"ELLES ET MOI\"",
+      "title": "Sarah Schwab - Elles et moi",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -22623,7 +22334,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/sarah-schwab-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701162000.html",
       "url": "https://www.leforum.be/spectacle_202701162000.html",
-      "summary": "Sarah Schwab présente son nouveau spectacle « Elles & moi », successeur d'un premier spectacle qui a enchaîné 200 dates de tournée complètes et trois dates au Folies Bergères à Paris en novembre 2025. Le spectacle revient dès l'automne 2026 avec, selon la page, une proposition encore plus époustoufl",
+      "summary": "Sarah Schwab présente son nouveau spectacle « Elles & moi », après un premier spectacle ayant effectué 200 dates de tournée complètes. Le spectacle est programmé au Forum de Liège le 16 janvier 2027 à 20h.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -22787,8 +22498,8 @@
     },
     {
       "id": "web-le-forum-li-ge-lalou-brt-2027-01-20",
-      "title": "LALOU BRT",
-      "category": "theatre",
+      "title": "Lalou BRT",
+      "category": "concert",
       "venue": "Le Forum",
       "city": "Liège",
       "lat": 50.64077,
@@ -22798,10 +22509,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/Lalou%20510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701202000.html",
       "url": "https://www.leforum.be/spectacle_202701202000.html",
-      "summary": "Lalou présente un spectacle d'humour d'une heure, sincère et percutant, où elle raconte son histoire personnelle et révèle ce qu'elle n'a jamais osé dire en ligne. Entre punchlines et franc-parler, le public rit, est surpris et se reconnaît parfois.",
+      "summary": "Lalou présente un spectacle d'une heure où elle révèle, avec humour piquant et franc-parler, ce qu'elle n'a jamais osé dire en ligne. Entre punchlines et énergie débordante, elle raconte son histoire personnelle, sincère et percutante.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -22825,28 +22538,8 @@
       "source": "Ticketmaster"
     },
     {
-      "id": "web-reflektor-li-ge-charles-dor-2027-01-21",
-      "title": "Charles Doré",
-      "category": "concert",
-      "venue": "Reflektor",
-      "city": "Liège",
-      "lat": 50.6432641,
-      "lon": 5.5679468,
-      "start": "2027-01-21T10:00:00",
-      "end": "2027-01-21T10:00:00",
-      "image": null,
-      "page_url": "https://reflektor.be/concert/charles-dore/",
-      "url": "https://shop.paylogic.com/e528734395f748d29122d4fd79f121c5",
-      "summary": "Concert de Charles Doré au Reflektor.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Reflektor (Liège)"
-    },
-    {
       "id": "web-le-forum-li-ge-mathieu-stepson-2027-01-21",
-      "title": "MATHIEU STEPSON",
+      "title": "Mathieu Stepson",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -22857,7 +22550,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/mathieur-stepson-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701212000.html",
       "url": "https://www.leforum.be/spectacle_202701212000.html",
-      "summary": "Mathieu Stepson, grand vainqueur de la 19e saison de « La France a un Incroyable Talent », mêle illusion, fiction et mentalisme. Il a l'étrange sensation d'avoir rêvé le spectacle de ce soir et joue avec l'imprévisible pour vérifier ses souvenirs.",
+      "summary": "Mathieu Stepson présente un spectacle mêlant illusion, fiction et mentalisme, où le public découvre que l'artiste a l'étrange sensation d'avoir rêvé le spectacle du soir. Grand vainqueur de la 19e saison de « La France a un Incroyable Talent », il vérifie ses souvenirs en jouant avec l'imprévisible.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -22899,12 +22592,8 @@
       "summary": "Le duo britannique de drum & bass Hybrid Minds se produit au Trix à Anvers, accompagné de Grafix, Idle Days et Maze. Le public peut s'attendre à des sets électroniques mêlant riffs de dancefloor, mélodies mélancoliques et morceaux énergiques.",
       "price_from": 5.8,
       "free": false,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée"
-      ],
+      "audience": [],
+      "tags": [],
       "source": "Trix (Anvers)"
     },
     {
@@ -23015,7 +22704,7 @@
     },
     {
       "id": "web-le-forum-li-ge-damien-gillard-rude-2027-01-22",
-      "title": "DAMIEN GILLARD - \"RUDE\"",
+      "title": "Damien Gillard - Rude",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -23026,7 +22715,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/Damien-Gillard-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701222000.html",
       "url": "https://www.leforum.be/spectacle_202701222000.html",
-      "summary": "Damien Gillard présente « Rude », un one-man-show corrosif où il joue, chante et manie des instruments de musique. Il y évoque son enfance à Charleroi, ses personnages déjantés et Fabrizio, qui s'incruste.",
+      "summary": "Damien Gillard présente « Rude », un one-man-show corrosif où il évoque son enfance à Charleroi et ses personnages barrés, entouré d'instruments de musique. On y voit humour, chant et jeu, avec l'arrivée de Fabrizio qui s'incruste.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -23212,7 +22901,7 @@
     },
     {
       "id": "web-le-forum-li-ge-the-depeche-mode-experience-2027-01-23",
-      "title": "THE DEPECHE MODE EXPERIENCE",
+      "title": "The Depeche Mode Experience",
       "category": "concert",
       "venue": "Le Forum",
       "city": "Liège",
@@ -23223,10 +22912,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/depeche-mode-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701232000.html",
       "url": "https://www.leforum.be/spectacle_202701232000.html",
-      "summary": "Concert hommage qui restitue l'énergie, les sonorités et l'esthétique visuelle de Depeche Mode, porté par Rod Mak, dont la voix évoque Dave Gahan. Le spectacle revisite toutes les époques du répertoire du groupe.",
+      "summary": "The Depeche Mode Experience est un concert hommage qui restitue l'énergie, les sonorités et l'esthétique visuelle de Depeche Mode. Porté par Rod Mak, qui évoque Dave Gahan, le spectacle revisite toutes les époques du répertoire du groupe.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -23426,7 +23117,7 @@
     },
     {
       "id": "web-le-forum-li-ge-manon-bril-300-000-ans-2027-01-27",
-      "title": "MANON BRIL - 300 000 ANS",
+      "title": "Manon Bril - 300 000 ans",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -23437,7 +23128,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/MANON-BRIL-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701272000.html",
       "url": "https://www.leforum.be/spectacle_202701272000.html",
-      "summary": "Docteure en histoire et vulgarisatrice, Manon Bril présente sur scène son spectacle, où elle montre à partir d'exemples historiques que rien n'a « toujours été comme ça », comme les réunions tenues aux toilettes à Rome. Le spectacle s'interroge aussi sur les statues anciennes exposées dans les musée",
+      "summary": "Docteure en histoire, Manon Bril présente sur scène son spectacle pour montrer que rien n'a « toujours été comme ça », en revenant sur l'histoire de l'humanité, par exemple les réunions tenues aux toilettes à Rome. Elle y explique aussi pourquoi les statues de musées sont représentées ainsi.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -23546,26 +23237,6 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-reflektor-li-ge-piche-2027-01-29",
-      "title": "Piche",
-      "category": "concert",
-      "venue": "Reflektor",
-      "city": "Liège",
-      "lat": 50.6432641,
-      "lon": 5.5679468,
-      "start": "2027-01-29T10:00:00",
-      "end": "2027-01-29T10:00:00",
-      "image": null,
-      "page_url": "https://reflektor.be/concert/piche/",
-      "url": "https://shop.paylogic.com/d47b72fedfb249f88dd158e7287f0263",
-      "summary": "Concert de Piche au Reflektor.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Reflektor (Liège)"
-    },
-    {
       "id": "tm-Z698xZG2Z16vJdOIOJ",
       "title": "Jarry | be•at Premium Comfort Experience",
       "category": "concert",
@@ -23586,7 +23257,7 @@
     },
     {
       "id": "web-le-forum-li-ge-garou-solo-2027-01-29",
-      "title": "GAROU \"SOLO\"",
+      "title": "Garou - Solo",
       "category": "concert",
       "venue": "Le Forum",
       "city": "Liège",
@@ -23597,7 +23268,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/Garou%20510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701292000.html",
       "url": "https://www.leforum.be/spectacle_202701292000.html",
-      "summary": "Garou présente son spectacle « Garou solo », seul en scène avec piano, guitare et diverses technologies, dans un univers cinématique et théâtral. Il y revisite plus de 30 ans de carrière, entre chansons classiques, nouvelles pièces et récits autobiographiques.",
+      "summary": "Garou présente « Solo », un spectacle seul en scène mêlant chansons classiques et nouveaux titres, avec piano, guitare et technologies. Il y revisite plus de 30 ans de carrière dans une rétrospective autobiographique et une scénographie en images.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -23844,7 +23515,7 @@
     },
     {
       "id": "web-le-forum-li-ge-casse-noisette-ballet-et-orchestre-2027-01-30",
-      "title": "CASSE - NOISETTE - BALLET ET ORCHESTRE",
+      "title": "CASSE-NOISETTE - BALLET ET ORCHESTRE",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -23855,10 +23526,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/casse-noisette-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202701302000.html",
       "url": "https://www.leforum.be/spectacle_202701302000.html",
-      "summary": "Ballet classique sur la musique de Tchaïkovski, interprété par le Paris Ballet Theater avec orchestre. Le spectacle suit la jeune Clara, qui affronte une armée de souris, puis découvre un royaume féerique où fleurs et flocons dansent.",
+      "summary": "Ballet classique sur la musique de Tchaïkovski, interprété par le Paris Ballet Theater avec orchestre : la jeune Clara reçoit un casse-noisette qui prend vie la nuit de Noël et l'entraîne dans un royaume féerique. Durée de 2h10 avec un entracte.",
       "price_from": 48.0,
       "free": false,
-      "audience": [],
+      "audience": [
+        "family"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -23961,7 +23634,7 @@
     },
     {
       "id": "web-le-forum-li-ge-k-pop-superstars-2027-01-31",
-      "title": "K-POP SUPERSTARS",
+      "title": "K-Pop Superstars",
       "category": "concert",
       "venue": "Le Forum",
       "city": "Liège",
@@ -23972,10 +23645,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/KPOP510.png",
       "page_url": "https://www.leforum.be/spectacle_202701311400.html",
       "url": "https://www.leforum.be/spectacle_202701311400.html",
-      "summary": "Spectacle live de huit artistes (quatre chanteurs, quatre danseurs) qui reprennent les grands tubes de la K-pop, avec des medleys de BLACKPINK et BTS. Changements de costumes, chorégraphie inspirée de TikTok et effets lumineux, pour les jeunes et les familles.",
+      "summary": "Spectacle live de K-pop avec huit artistes (quatre chanteurs, quatre danseurs) qui interprètent les grands tubes du genre, dont APT et Touch, et des medleys de BLACKPINK et BTS. Costumes multiples, chorégraphies inspirées de TikTok et mise en scène vidéo et lumineuse.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -24058,7 +23733,7 @@
     },
     {
       "id": "web-le-forum-li-ge-hommage-pierre-rapsat-brasero-2027-02-02",
-      "title": "HOMMAGE À PIERRE RAPSAT : BRASERO",
+      "title": "Hommage à Pierre Rapsat : Brasero",
       "category": "concert",
       "venue": "Le Forum",
       "city": "Liège",
@@ -24069,7 +23744,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/rapsat-510.png",
       "page_url": "https://www.leforum.be/spectacle_202702022000.html",
       "url": "https://www.leforum.be/spectacle_202702022000.html",
-      "summary": "Concert hommage à Pierre Rapsat, pour les 25 ans de sa disparition et les 15 ans de carrière du groupe Brasero, avec collaborations, artistes invités et duos sur scène. Le spectacle célèbre l'héritage musical de l'artiste à travers ses souvenirs et son répertoire.",
+      "summary": "Concert hommage à Pierre Rapsat, pour les 25 ans de sa disparition et les 15 ans de carrière du groupe Brasero, avec artistes invités et duos sur scène. Le spectacle célèbre l'héritage musical de l'artiste.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -24099,7 +23774,7 @@
     },
     {
       "id": "web-le-forum-li-ge-menopause-2027-02-03",
-      "title": "\"MENOPAUSE\"",
+      "title": "Menopause",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -24110,10 +23785,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/menopause-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202702032000.html",
       "url": "https://www.leforum.be/spectacle_202702032000.html",
-      "summary": "Pièce de théâtre qui aborde la ménopause avec humour, sensibilité et bienveillance. Quatre femmes de même tranche d'âge se rencontrent dans les différents étages d'un grand magasin et partagent leurs doutes, leurs angoisses et leurs moments de joie.",
+      "summary": "Une comédie qui aborde avec humour, sensibilité et bienveillance le sujet de la ménopause. Quatre femmes du même âge se rencontrent dans les différents étages d'un grand magasin et partagent leurs doutes, leurs angoisses et leurs moments de joie.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -24286,8 +23963,8 @@
       "classified": true
     },
     {
-      "id": "web-le-forum-li-ge-beno-t-poelvoorde-et-b-r-nice-bourgueil-tu-aimes-tellement-la-vie",
-      "title": "BENOÎT POELVOORDE ET BÉRÉNICE BOURGUEIL - \"TU AIMES TELLEMENT LA VIE\"",
+      "id": "web-le-forum-li-ge-beno-t-poelvoorde-et-b-r-nice-bourgeil-tu-aimes-tellement-la-vie-",
+      "title": "Benoît Poelvoorde et Bérénice Bourgeil - Tu aimes tellement la vie",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -24298,7 +23975,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/VISU_POELVOORDE-510.png",
       "page_url": "https://www.leforum.be/spectacle_202702052000.html",
       "url": "https://www.leforum.be/spectacle_202702052000.html",
-      "summary": "Benoît Poelvoorde et Bérénice Bourgueil jouent « Tu aimes tellement la vie », pièce originale écrite par les deux comédiens et mise en scène par Virginie Hocq. Une création belge à deux personnages, drôle et sensible, sur l'attachement et ce qui nous lie malgré tout.",
+      "summary": "CORNIAUD AND CO présente Benoît Poelvoorde et Bérénice Bourgeil dans « Tu aimes tellement la vie ».",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -24365,7 +24042,7 @@
     },
     {
       "id": "web-le-forum-li-ge-verino-rod-o-2027-02-06",
-      "title": "VERINO - RODÉO",
+      "title": "Verino - Rodéo",
       "category": "concert",
       "venue": "Le Forum",
       "city": "Liège",
@@ -24376,10 +24053,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/verino-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202702062000.html",
       "url": "https://www.leforum.be/spectacle_202702062000.html",
-      "summary": "L'humoriste Verino présente son nouveau spectacle « RODÉO », mis en scène par Thibaut Evrard, où il explore les tensions de notre époque. En bonus, le public peut assister au tournage de ses vidéos « Dis Donc Internet », tous les vendredis.",
+      "summary": "OD LIVE en accord avec INGLORIOUS PROD présente Verino « Rodéo ».",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -24539,9 +24218,7 @@
       "audience": [
         "young"
       ],
-      "tags": [
-        "soirée"
-      ],
+      "tags": [],
       "source": "Trix (Anvers)"
     },
     {
@@ -24584,7 +24261,7 @@
     },
     {
       "id": "tm-Z698xZG2Z1ku4F8rv",
-      "title": "MESSMER \"13HZ\" - DERNIèRES REPRéSENTATIONS",
+      "title": "Messmer « 13Hz » - Dernières représentations",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -24705,8 +24382,8 @@
     },
     {
       "id": "web-le-forum-li-ge-messmer-13hz-derni-res-repr-sentations-2027-02-11",
-      "title": "MESSMER \"13HZ\" - DERNIèRES REPRéSENTATIONS",
-      "category": "concert",
+      "title": "Messmer « 13Hz » - Dernières représentations",
+      "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
       "lat": 50.64077,
@@ -24716,7 +24393,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/MESSMER%20510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202702112000.html",
       "url": "https://www.leforum.be/spectacle_202702112000.html",
-      "summary": "Messmer, présenté comme le Maître mondial de l'hypnose, présente son spectacle « 13Hz », mêlant humour et illusion autour d'un jeu d'ondes cérébrales. Ce sont ses dernières représentations en Belgique.",
+      "summary": "Dernières représentations de Messmer « 13Hz », présentées par DIAGONALE PRODUCTIONS.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -24741,26 +24418,6 @@
       "audience": [],
       "tags": [],
       "source": "Ticketmaster"
-    },
-    {
-      "id": "web-trix-anvers-we-are-open-2027-2027-02-12",
-      "title": "We Are Open 2027",
-      "category": "culture",
-      "venue": "Trix",
-      "city": "Anvers",
-      "lat": 51.2195776,
-      "lon": 4.4483726,
-      "start": "2027-02-12T10:00:00",
-      "end": "2027-02-12T10:00:00",
-      "image": "https://www.trixonline.be/media/cache/default_highlight/uploads/media/default/2c70/29/2b90224c66bd16c1a24c09be00a401824f0034e2.webp",
-      "page_url": "https://wao.trixonline.be/nl/",
-      "url": "https://wao.trixonline.be/nl/",
-      "summary": "Le festival We Are Open 2027 se déroule les 12 et 13 février 2027 à Trix, à Anvers, et présente environ 70 artistes belges émergents sur six ou sept scènes. Il permet de découvrir la nouvelle scène musicale belge, avec des concerts et des pop-up shows.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Trix (Anvers)"
     },
     {
       "id": "tm-Z698xZG2Z1kPYFbFJ",
@@ -24825,8 +24482,8 @@
     },
     {
       "id": "web-le-forum-li-ge-edgar-yves-dans-vigilance-2027-02-12",
-      "title": "EDGAR-YVES DANS VIGILANCE",
-      "category": "concert",
+      "title": "Edgar-Yves dans Vigilance",
+      "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
       "lat": 50.64077,
@@ -24836,7 +24493,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/EDGAR-YVES%20510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202702122000.html",
       "url": "https://www.leforum.be/spectacle_202702122000.html",
-      "summary": "Edgar-Yves revient sur scène avec son spectacle « Vigilance » après deux ans de tournée. Un show d'humour sans filtre, humain et précis, loin des conventions de correction.",
+      "summary": "PIRATES NATION présente Edgar-Yves dans « Vigilance ».",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -24921,7 +24578,7 @@
     },
     {
       "id": "web-le-forum-li-ge-michel-fugain-c-est-l-histoire-d-une-belle-histoire-2027-02-13",
-      "title": "MICHEL FUGAIN \"C'EST L'HISTOIRE D'UNE BELLE HISTOIRE\"",
+      "title": "Michel Fugain - C'est l'histoire d'une belle histoire",
       "category": "concert",
       "venue": "Le Forum",
       "city": "Liège",
@@ -24932,7 +24589,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/MichelFugain_TOURNEE_CARRE2-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202702132000.html",
       "url": "https://www.leforum.be/spectacle_202702132000.html",
-      "summary": "Michel Fugain revient sur scène avec un spectacle inédit célébrant ses grands classiques. Un voyage musical qui ravive les mélodies iconiques avec la flamme intacte d'un artiste passionné.",
+      "summary": "DIAGONALE PRODUCTIONS, en accord avec LES 2 BELGES PRODUCTIONS, présente Michel Fugain « C'est l'histoire d'une belle histoire ».",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -25059,8 +24716,8 @@
     },
     {
       "id": "web-le-forum-li-ge-le-cercle-des-po-tes-disparus-2027-02-15",
-      "title": "LE CERCLE DES POÈTES DISPARUS",
-      "category": "concert",
+      "title": "Le Cercle des poètes disparus",
+      "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
       "lat": 50.64077,
@@ -25070,7 +24727,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/cercles-poetes-disparue510.png",
       "page_url": "https://www.leforum.be/spectacle_202702152000.html",
       "url": "https://www.leforum.be/spectacle_202702152000.html",
-      "summary": "Adaptation théâtrale du film Le Cercle des Poètes Disparus avec Stéphane Freiss dans le rôle du professeur John Keating. Une histoire émouvante sur l'amitié, l'émancipation et la transmission, célébrant la liberté et la vie.",
+      "summary": "MÉDIASCÈNE présente « Le Cercle des poètes disparus ».",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -25220,8 +24877,8 @@
     },
     {
       "id": "web-le-forum-li-ge-les-4-sans-voix-2027-02-18",
-      "title": "LES 4 SANS VOIX",
-      "category": "concert",
+      "title": "Les 4 sans voix",
+      "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
       "lat": 50.64077,
@@ -25231,7 +24888,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/affiche-4-sans-voix510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202702182000.html",
       "url": "https://www.leforum.be/spectacle_202702182000.html",
-      "summary": "Spectacle comique de quatre imitateurs (un Belge, un Suisse, un Français et un Québécois) qui jouent avec leurs différences et la Francophonie. 4 imitateurs, 4 nationalités et 400 voix pour 90 minutes de pur plaisir avec sketchs et chansons.",
+      "summary": "BIRDIE PRODUCTIONS présente « Les 4 sans voix ».",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -25297,8 +24954,8 @@
     },
     {
       "id": "web-le-forum-li-ge-blandine-lehout-dans-la-vie-de-ta-m-re-2027-02-19",
-      "title": "BLANDINE LEHOUT DANS \"LA VIE DE TA MÈRE\"",
-      "category": "concert",
+      "title": "Blandine Lehout dans « La vie de ta mère »",
+      "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
       "lat": 50.64077,
@@ -25308,7 +24965,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/la_vie_de_ta_mere_510x630.png",
       "page_url": "https://www.leforum.be/spectacle_202702192000.html",
       "url": "https://www.leforum.be/spectacle_202702192000.html",
-      "summary": "Blandine Lehout présente son spectacle « La Vie de ta mère », un show décomplexant sur la vie de couple et les difficultés des jeunes parents. Elle livre un spectacle bourré d'autodérision, de cynisme et de vannes percutantes sur la vraie vie sans filtre.",
+      "summary": "POW POW POW, en accord avec BACK IN THE DAYZ, présente Blandine Lehout dans « La vie de ta mère ».",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -25454,8 +25111,8 @@
     },
     {
       "id": "web-le-forum-li-ge-un-ch-teau-de-cartes-2027-02-21",
-      "title": "\" UN CHÂTEAU DE CARTES \"",
-      "category": "concert",
+      "title": "Un château de cartes",
+      "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
       "lat": 50.64077,
@@ -25465,7 +25122,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/un-chateau-de-cartes-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202702211700.html",
       "url": "https://www.leforum.be/spectacle_202702211700.html",
-      "summary": "Adam et Caroline reçoivent Vincent et son amie à dîner, mais une crise de jalousie d'Adam est interrompue par l'arrivée de Vincent, tombé en panne non loin. La situation s'inverse alors : Vincent se retrouve avec Caroline, et ils dînent chez Adam.",
+      "summary": "Spectacle « Un château de cartes » présenté par Le Forum.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -25666,8 +25323,8 @@
     },
     {
       "id": "web-le-forum-li-ge-une-heure-trente-2027-02-25",
-      "title": "\" UNE HEURE TRENTE \"",
-      "category": "concert",
+      "title": "Une heure trente",
+      "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
       "lat": 50.64077,
@@ -25677,7 +25334,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/barre_lompret_510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202702252000.html",
       "url": "https://www.leforum.be/spectacle_202702252000.html",
-      "summary": "Pierre-Emmanuel Barré et Aymeric Lompret présentent « Une heure trente », un spectacle d'Arsen, Aymeric Lompret et Pierre-Emmanuel Barré. Selon la page, il s'agit d'une version écrite après l'oubli de sauvegarde d'un premier texte.",
+      "summary": "MAKEBA, MISKINE et LA PROD présentent Pierre-Emmanuel Barré et Aymeric Lompret dans « Une heure trente ».",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -25822,8 +25479,8 @@
     },
     {
       "id": "web-le-forum-li-ge-don-quichotte-2027-02-28",
-      "title": "DON QUICHOTTE",
-      "category": "concert",
+      "title": "Don Quichotte",
+      "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
       "lat": 50.64077,
@@ -25833,7 +25490,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/DON_QUICHOTTE510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202702281500.html",
       "url": "https://www.leforum.be/spectacle_202702281500.html",
-      "summary": "Don Quichotte est un ballet classique vivant et divertissant mettant en scène l'histoire d'amour de Kitri et Basilio. Avec une musique colorée de Minkus et une chorégraphie brillante, ce ballet fascine depuis sa création en 1869.",
+      "summary": "OVATION EVENTS présente « Don Quichotte ».",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -26052,12 +25709,8 @@
       "summary": "Le groupe anversois Kookaburra présente son deuxième album « BOY GET SMARTER », mêlant jangle-punk, shoegaze et synthés. Le concert est accompagné de Poodle, groupe de garage-pop dansante.",
       "price_from": 2.7,
       "free": false,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée"
-      ],
+      "audience": [],
+      "tags": [],
       "source": "Trix (Anvers)"
     },
     {
@@ -26081,7 +25734,7 @@
     },
     {
       "id": "web-le-forum-li-ge-rock-orchestra-by-candlelight-2027-03-05",
-      "title": "ROCK ORCHESTRA BY CANDLELIGHT",
+      "title": "Rock Orchestra by Candlelight",
       "category": "concert",
       "venue": "Le Forum",
       "city": "Liège",
@@ -26092,10 +25745,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/RO_Le%20Forum,%20Liege_no%20text_510x630px.jpg",
       "page_url": "https://www.leforum.be/spectacle_202703052000.html",
       "url": "https://www.leforum.be/spectacle_202703052000.html",
-      "summary": "Le Rock Orchestra présente un spectacle de 90 minutes mêlant rock et métal avec les meilleurs musiciens du monde. Au programme : reprises de Metallica, The Cranberries, Linkin Park, AC/DC, Evanescence, Rolling Stones et bien d'autres.",
+      "summary": "FESTIVAL OF THE DEAL LIMITED présente « Rock Orchestra by Candlelight ».",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -26157,9 +25812,9 @@
       "source": "Ticketmaster"
     },
     {
-      "id": "web-le-forum-li-ge-dany-boon-clown-n-est-pas-un-metier-2027-03-08",
-      "title": "DANY BOON - CLOWN N'EST PAS UN METIER !!",
-      "category": "concert",
+      "id": "web-le-forum-li-ge-dany-boon-clown-n-est-pas-un-m-tier-2027-03-08",
+      "title": "Dany Boon - Clown n'est pas un métier !!",
+      "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
       "lat": 50.64077,
@@ -26169,7 +25824,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/DanyBoon_Clown_510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202703082000.html",
       "url": "https://www.leforum.be/spectacle_202703082000.html",
-      "summary": "Dany Boon présente son nouveau one man show intitulé « Clown n'est pas un métier !! ». Après 7 ans d'absence, l'humoriste revient sur scène pour faire rire avec un spectacle inédit.",
+      "summary": "OD LIVE PRODUCTIONS en accord avec GCP présente Dany Boon dans « Clown n'est pas un métier !! ».",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -26236,7 +25891,7 @@
     },
     {
       "id": "web-le-forum-li-ge-d-senchant-e-tribute-myl-ne-farmer-2027-03-10",
-      "title": "DÉSENCHANTÉE – TRIBUTE MYLÈNE FARMER",
+      "title": "Désenchantée - Tribute Mylène Farmer",
       "category": "concert",
       "venue": "Le Forum",
       "city": "Liège",
@@ -26247,16 +25902,18 @@
       "image": "https://www.leforum.be/visuel/SlideFront/desenchantee510.png",
       "page_url": "https://www.leforum.be/spectacle_202703102000.html",
       "url": "https://www.leforum.be/spectacle_202703102000.html",
-      "summary": "Désenchantée est un tribute à Mylène Farmer porté par Carole Colmenero. Accompagnée de musiciens, d'une choriste et de danseuses, elle interprète les grands titres de l'artiste dans un spectacle alliant intimité et tableaux dansés.",
+      "summary": "EVENTSIDE présente « Désenchantée », tribute à Mylène Farmer.",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
       "id": "web-le-forum-li-ge-agn-s-botty-release-party-2027-03-11",
-      "title": "AGNÈS BOTTY - RELEASE PARTY",
+      "title": "Agnès Botty - Release party",
       "category": "concert",
       "venue": "Le Forum",
       "city": "Liège",
@@ -26267,7 +25924,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/agnes-botty-visu510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202703112000.html",
       "url": "https://www.leforum.be/spectacle_202703112000.html",
-      "summary": "Agnès Botty, projet solo de Jérôme Magnée (Dan San), présente son premier album « Some Stupid Love Songs » en release party. Une folk atmosphérique intime et envoûtante, accompagnée du virtuose Karim Baggilli et d'invités surprises.",
+      "summary": "LE FORUM et FKP SCORPIO présentent la release party d'Agnès Botty.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -26314,7 +25971,7 @@
     },
     {
       "id": "tm-Z698xZG2Z1AyOSPb",
-      "title": "L'ÂGE BÊTE",
+      "title": "L'Âge bête",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -26427,9 +26084,7 @@
       "audience": [
         "young"
       ],
-      "tags": [
-        "soirée"
-      ],
+      "tags": [],
       "source": "Trix (Anvers)"
     },
     {
@@ -26554,8 +26209,8 @@
     },
     {
       "id": "web-le-forum-li-ge-les-femmes-ont-toujours-raison-2027-03-13",
-      "title": "LES FEMMES ONT TOUJOURS RAISON",
-      "category": "concert",
+      "title": "Les femmes ont toujours raison",
+      "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
       "lat": 50.64077,
@@ -26565,7 +26220,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/FEMMES_510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202703132000.html",
       "url": "https://www.leforum.be/spectacle_202703132000.html",
-      "summary": "Une comédie interactive et participative sur les couples. Lucas et Julie expliquent sans filtre comment éviter les pièges de la vie à deux : l'habitude, les petites manies, la jalousie, la belle famille et les enfants.",
+      "summary": "COEUR DE SCENE PRODUCTIONS présente « Les femmes ont toujours raison ».",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -26688,7 +26343,7 @@
     },
     {
       "id": "web-le-forum-li-ge-hooverphonic-2027-03-17",
-      "title": "HOOVERPHONIC",
+      "title": "Hooverphonic",
       "category": "concert",
       "venue": "Le Forum",
       "city": "Liège",
@@ -26699,7 +26354,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/HOOVERPHONIC-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202703172000.html",
       "url": "https://www.leforum.be/spectacle_202703172000.html",
-      "summary": "Célébration des trente ans de Hooverphonic avec Noémie Wolfs, figure emblématique du groupe. Au programme, des titres cultes comme « Mad About You », « Anger Never Dies » et « Gravity ».",
+      "summary": "VERYSHOW et BACK IN THE DAYZ présentent Hooverphonic.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -26727,7 +26382,7 @@
     },
     {
       "id": "web-le-forum-li-ge-ilyes-djadel-d-j-2027-03-18",
-      "title": "ILYES DJADEL \"DÉJÀ\"",
+      "title": "Ilyes Djadel « Déjà »",
       "category": "concert",
       "venue": "Le Forum",
       "city": "Liège",
@@ -26738,10 +26393,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/ilyes-djadel-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202703182000.html",
       "url": "https://www.leforum.be/spectacle_202703182000.html",
-      "summary": "Ilyes Djadel présente son nouveau spectacle « DÉJÀ » après le succès de son premier show. À 27 ans, le comédien propose un programme riche de nombreuses anecdotes à raconter.",
+      "summary": "OD LIVE en accord avec DJADEL FAMILY présente Ilyes Djadel « Déjà ».",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -26770,8 +26427,8 @@
     },
     {
       "id": "web-le-forum-li-ge-fabien-olicard-albert-2027-03-19",
-      "title": "FABIEN OLICARD \"ALBERT\"",
-      "category": "concert",
+      "title": "Fabien Olicard « Albert »",
+      "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
       "lat": 50.64077,
@@ -26781,7 +26438,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/olicard-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202703192000.html",
       "url": "https://www.leforum.be/spectacle_202703192000.html",
-      "summary": "Fabien Olicard explore les capacités extraordinaires du cerveau à travers la vie d'Einstein. Un spectacle mêlant anecdotes, mentalisme, prouesses de mémoire et humour contagieux.",
+      "summary": "MEDIASCENE en accord avec SHERLOCK'S MIND présente Fabien Olicard « Albert ».",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -26848,8 +26505,8 @@
     },
     {
       "id": "web-le-forum-li-ge-maxime-mandrake-univers-2027-03-20",
-      "title": "MAXIME MANDRAKE : UNIVERS",
-      "category": "concert",
+      "title": "Maxime Mandrake : Univers",
+      "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
       "lat": 50.64077,
@@ -26859,7 +26516,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/MANDRAKE%20510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202703201700.html",
       "url": "https://www.leforum.be/spectacle_202703201700.html",
-      "summary": "UNIVERS est le nouveau spectacle de magie de Maxime Mandrake, un voyage scénique immersif à la frontière du réel et de l'imaginaire. Ce spectacle mêle magie traditionnelle, grandes illusions, narration poétique et technologies pour explorer des thèmes universels comme le temps, la mémoire et les rêv",
+      "summary": "SHADOW TO LIVE présente Maxime Mandrake dans « Univers ».",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -26946,8 +26603,8 @@
     },
     {
       "id": "web-le-forum-li-ge-le-temps-qui-reste-2027-03-21",
-      "title": "\" LE TEMPS QUI RESTE \"",
-      "category": "concert",
+      "title": "Le temps qui reste",
+      "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
       "lat": 50.64077,
@@ -26957,7 +26614,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/le-temps-qui-reste-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202703211700.html",
       "url": "https://www.leforum.be/spectacle_202703211700.html",
-      "summary": "Emma, fraîchement devenue veuve, retrouve ses trois amis d'enfance Paul, Franck et Adrien. Lors de ces retrouvailles, ils révèlent leurs rêves inavouables et leurs envies surprenantes.",
+      "summary": "Spectacle « Le temps qui reste » présenté par Le Forum.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -27042,8 +26699,8 @@
     },
     {
       "id": "web-le-forum-li-ge-pierre-theunis-2027-03-25",
-      "title": "PIERRE THEUNIS",
-      "category": "concert",
+      "title": "Pierre Theunis",
+      "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
       "lat": 50.64077,
@@ -27053,7 +26710,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/pierre-theunis-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202703252000.html",
       "url": "https://www.leforum.be/spectacle_202703252000.html",
-      "summary": "Pierre Theunis propose son rendez-vous annuel exceptionnel au Forum de Liège. Un spectacle complet mêlant sketches affûtés, chroniques savoureuses et performances musicales exceptionnelles.",
+      "summary": "P.S.M présente Pierre Theunis.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -27100,8 +26757,8 @@
     },
     {
       "id": "web-le-forum-li-ge-michel-leeb-ma-vie-en-rire-2027-03-27",
-      "title": "MICHEL LEEB \" MA VIE EN RIRE \"",
-      "category": "concert",
+      "title": "Michel Leeb « Ma vie en rire »",
+      "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
       "lat": 50.64077,
@@ -27111,7 +26768,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/michel-leeb-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202703272000.html",
       "url": "https://www.leforum.be/spectacle_202703272000.html",
-      "summary": "Pour ses 80 ans, Michel Leeb présente son spectacle seul en scène « MA VIE EN RIRE ! », un flash-back entre rires et émotions. Le public y retrouvera les meilleurs moments de sa carrière, des sketches incontournables et de nouvelles histoires.",
+      "summary": "MEDIASCENE, en accord avec MLP, présente Michel Leeb « Ma vie en rire ».",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -27139,8 +26796,8 @@
     },
     {
       "id": "web-le-forum-li-ge-moi-et-mon-dino-2027-03-28",
-      "title": "MOI ET MON DINO",
-      "category": "theatre",
+      "title": "Moi et mon dino",
+      "category": "family",
       "venue": "Le Forum",
       "city": "Liège",
       "lat": 50.64077,
@@ -27150,10 +26807,12 @@
       "image": "https://www.leforum.be/visuel/SlideFront/DINO-510.png",
       "page_url": "https://www.leforum.be/spectacle_202703281400.html",
       "url": "https://www.leforum.be/spectacle_202703281400.html",
-      "summary": "Julie s'endort avec sa peluche dino et se retrouve dans une immense forêt jurassique. Elle découvre ce nouvel univers en chantant et dansant à la rencontre de ses nouveaux amis les Dinos.",
+      "summary": "GRAND OPERA présente le spectacle « Moi et mon dino ».",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "family"
+      ],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
@@ -27197,7 +26856,7 @@
     },
     {
       "id": "web-le-forum-li-ge-akim-omiri-contexte-2027-04-02",
-      "title": "AKIM OMIRI - CONTEXTE",
+      "title": "Akim Omiri - « Contexte »",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -27208,7 +26867,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/AKIM-OMIRI510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202704022000.html",
       "url": "https://www.leforum.be/spectacle_202704022000.html",
-      "summary": "Akim Omiri scrute avec sarcasme les questions brûlantes de notre société, comme l'éducation formatée, la « Cancel Culture » ou les théories complotistes. Entre rire libérateur et réflexion, le spectacle sensibilise et replace chaque sujet dans son contexte.",
+      "summary": "KISS KISS PROD en accord avec BORDERLINE PROD présente Akim Omiri « Contexte ».",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -27299,7 +26958,7 @@
     },
     {
       "id": "web-le-forum-li-ge-joyeuses-p-ques-avec-daniel-hanssens-2027-04-03",
-      "title": "JOYEUSES PÂQUES avec Daniel Hanssens",
+      "title": "Joyeuses Pâques avec Daniel Hanssens",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -27310,7 +26969,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/joyeuses-paques-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202704032000.html",
       "url": "https://www.leforum.be/spectacle_202704032000.html",
-      "summary": "Pièce de Jean Poiret mise en scène par Daniel Hanssens : pendant Pâques, le publicitaire Stéphane ramène chez lui Julie, une jeune femme, alors que son épouse est absente. Quand Sophie revient à l'improviste, il doit la présenter comme la fille d'un précédent mariage.",
+      "summary": "OD LIVE présente « Joyeuses Pâques » avec Daniel Hanssens.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -27357,7 +27016,7 @@
     },
     {
       "id": "web-le-forum-li-ge-amis-pour-la-vie-2027-04-04",
-      "title": "AMIS POUR LA VIE",
+      "title": "Amis pour la vie",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -27368,7 +27027,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/amis-pour-la-vie-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202704041700.html",
       "url": "https://www.leforum.be/spectacle_202704041700.html",
-      "summary": "Claire et Richard reçoivent un couple d'amis de longue date à dîner. Une révélation inattendue vient bouleverser cette soirée en apparence tranquille.",
+      "summary": "Spectacle « Amis pour la vie » présenté par Le Forum.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -27419,7 +27078,7 @@
     },
     {
       "id": "web-le-forum-li-ge-sylvie-vartan-ma-vie-en-chansons-avec-vous-2027-04-08",
-      "title": "SYLVIE VARTAN : MA VIE EN CHANSONS, AVEC VOUS...",
+      "title": "Sylvie Vartan : Ma vie en chansons, avec vous...",
       "category": "concert",
       "venue": "Le Forum",
       "city": "Liège",
@@ -27430,7 +27089,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/vartan-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202704082000.html",
       "url": "https://www.leforum.be/spectacle_202704082000.html",
-      "summary": "Sylvie Vartan propose une master class animée par Roland Perez mêlant confidences, questions du public et archives inédites de sa carrière. Elle conclut par l'interprétation de ses plus grands succès.",
+      "summary": "ALEXANDRE SORIN PRODUCTIONS, JLA PRODUCTIONS & NWM BROTHERS présentent Sylvie Vartan, « Ma vie en chansons, avec vous... ».",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -27439,7 +27098,7 @@
     },
     {
       "id": "web-le-forum-li-ge-ballets-et-l-gendes-de-tahiti-2027-04-09",
-      "title": "BALLETS ET LÉGENDES DE TAHITI",
+      "title": "Ballets et légendes de Tahiti",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -27450,7 +27109,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/ballets-et-légendes-de-tahiti-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202704092000.html",
       "url": "https://www.leforum.be/spectacle_202704092000.html",
-      "summary": "Un spectaculaire show de danses et légendes tahitiennes présenté par la troupe Heiva I Tahiti. Découvrez la culture polynésienne à travers 12 artistes, musiciens et danseurs évoluant aux rythmes authentiques des instruments traditionnels.",
+      "summary": "MAGIC WORLD DIFFUSION présente « Ballets et légendes de Tahiti ».",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -27558,7 +27217,7 @@
     },
     {
       "id": "web-le-forum-li-ge-moguiz-coucou-2027-04-10",
-      "title": "MOGUIZ - COUCOU !",
+      "title": "Moguiz - « Coucou ! »",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -27569,7 +27228,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/MOGUIZ_NEUTRE%20510x630.jpg",
       "page_url": "https://www.leforum.be/spectacle_202704102000.html",
       "url": "https://www.leforum.be/spectacle_202704102000.html",
-      "summary": "Moguiz interprète sur scène une galerie de personnages qu'il improvise, comme un professeur, une secrétaire, un comptable, des parents ou des enfants. Le spectacle retrace une partie de son parcours et fait vivre ses personnages les plus emblématiques.",
+      "summary": "BACK IN THE DAYZ présente Moguiz « Coucou ! », en accord avec RUQ SPECTACLES.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -27578,7 +27237,7 @@
     },
     {
       "id": "web-le-forum-li-ge-tango-passion-astoria-nuevo-2027-04-11",
-      "title": "TANGO PASSION - ASTORIA NUEVO",
+      "title": "Tango Passion - Astoria Nuevo",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -27589,7 +27248,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/tango-passion-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202704111500.html",
       "url": "https://www.leforum.be/spectacle_202704111500.html",
-      "summary": "Tango Passion est le nouveau spectacle du groupe Astoria Nuevo, ensemble de musiciens diplômés des Conservatoires Royaux. Le spectacle célèbre l'univers du tango nuevo d'Astor Piazzolla avec des émotions, des rythmes endiablés et des chorégraphies contemporaines.",
+      "summary": "MAGIC WORLD DIFFUSION présente « Tango Passion - Astoria Nuevo ».",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -27678,8 +27337,8 @@
       "classified": true
     },
     {
-      "id": "web-le-forum-li-ge-a-night-of-queen-2027-04-16",
-      "title": "A NIGHT OF QUEEN",
+      "id": "web-le-forum-li-ge-a-night-of-queen-from-uk-2027-04-16",
+      "title": "\"A NIGHT OF QUEEN\" FROM UK",
       "category": "concert",
       "venue": "Le Forum",
       "city": "Liège",
@@ -27690,7 +27349,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/AFFICHE-A-night-of-Queen-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202704162000.html",
       "url": "https://www.leforum.be/spectacle_202704162000.html",
-      "summary": "Le groupe tribute britannique The Bohemians rend hommage à Queen avec un spectacle d'environ deux heures et demie, avec Rob Comber en leader, qui interprète les plus grands succès du groupe. Costumes et effets scéniques recréent l'âge d'or du rock.",
+      "summary": "Spectacle « A Night of Queen » from UK, présenté par Etoile Productions & Kultopolis.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -27739,7 +27398,7 @@
     },
     {
       "id": "web-le-forum-li-ge-kim-wilde-the-singles-tour-2027-2027-04-17",
-      "title": "KIM WILDE - THE SINGLES TOUR 2027",
+      "title": "KIM WILDE \" THE SINGLES TOUR 2027 \"",
       "category": "concert",
       "venue": "Le Forum",
       "city": "Liège",
@@ -27750,7 +27409,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/KimWilde_Liege_Forum2.jpg",
       "page_url": "https://www.leforum.be/spectacle_202704172000.html",
       "url": "https://www.leforum.be/spectacle_202704172000.html",
-      "summary": "Kim Wilde revient en concert avec « The Singles Tour », une célébration de ses plus grands succès, de « Kids in America » à « You Came ». La reine britannique de la pop des années 80 y interprète tous les classiques de sa carrière.",
+      "summary": "Kim Wilde présente sa tournée « The Singles Tour » au Forum de Liège, avec tous ses plus grands succès des années 80. Le public y retrouvera notamment « Kids in America », « Cambodia » et « View from a Bridge ».",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -27843,7 +27502,7 @@
     },
     {
       "id": "web-le-forum-li-ge-jeanfi-janssens-tomb-du-ciel-2027-04-22",
-      "title": "JEANFI JANSSENS - TOMBÉ DU CIEL",
+      "title": "JEANFI JANSSENS - \"TOMBé DU CIEL\"",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -27854,7 +27513,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/jeanfi-janssens-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202704222000.html",
       "url": "https://www.leforum.be/spectacle_202704222000.html",
-      "summary": "Jeanfi Janssens, steward le plus populaire de France, revient avec un nouveau one man show et des anecdotes inédites. Il y raconte le choc entre le monde de l'aviation et celui du show business, avec des rires garantis.",
+      "summary": "Jeanfi Janssens, steward devenu le plus populaire de France, présente son nouveau one man show, avec des anecdotes inédites sur son arrivée dans le show business. Le spectacle joue sur le choc des milieux et des cultures, avec des rires annoncés.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -27920,9 +27579,7 @@
       "audience": [
         "young"
       ],
-      "tags": [
-        "soirée"
-      ],
+      "tags": [],
       "source": "Trix (Anvers)"
     },
     {
@@ -27965,7 +27622,7 @@
     },
     {
       "id": "web-le-forum-li-ge-amour-et-cigarettes-2027-05-02",
-      "title": "AMOUR ET CIGARETTES",
+      "title": "\" AMOUR ET CIGARETTES \"",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -27976,7 +27633,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/amour-et-cigarette-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202705021700.html",
       "url": "https://www.leforum.be/spectacle_202705021700.html",
-      "summary": "Pièce de théâtre écrite par Nadège Meziat et mise en scène par Christian Vadim. Lors d'un réveillon de Noël, une annonce bouleverse le dîner familial et l'un des fils sort acheter des cigarettes, ne revenant que cinq ans plus tard.",
+      "summary": "Spectacle écrit par Nadège Meziat et mis en scène par Christian Vadim, avec Paul Belmondo, Isabelle Tanakil, Aude Lener et Edouard Montoute. Lors d'un réveillon de Noël, un fils quitte le dîner familial pour acheter des cigarettes et ne rentre pas, avant de revenir cinq ans plus tard.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -28226,7 +27883,7 @@
     },
     {
       "id": "tm-Z698xZG2Z16v8VG--I",
-      "title": "MARS & VENUS - MISE À JOUR 2.0",
+      "title": "MARS & VENUS - MISE A JOUR 2.0",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -28365,8 +28022,8 @@
     },
     {
       "id": "web-le-forum-li-ge-veronique-gallo-la-vraie-vie-2027-05-20",
-      "title": "VERONIQUE GALLO « LA VRAIE VIE »",
-      "category": "theatre",
+      "title": "VERONIQUE GALLO \"LA VRAIE VIE\"",
+      "category": "concert",
       "venue": "Le Forum",
       "city": "Liège",
       "lat": 50.64077,
@@ -28376,7 +28033,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/vero-gallo510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202705202000.html",
       "url": "https://www.leforum.be/spectacle_202705202000.html",
-      "summary": "Véronique Gallo présente son nouveau spectacle « La Vraie Vie », clôturant sa trilogie sur la vie. Un voyage hilarant à travers les hauts, les bas et les aiguillages imprévus de nos existences, racontés avec humour et lucidité.",
+      "summary": "Véronique Gallo présente « La vraie vie », nouveau spectacle humoristique qui clôt sa trilogie sur la vie. Elle y raconte avec humour et lucidité les imprévus de l'existence et la manière dont on finit par se trouver soi-même.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -28631,7 +28288,7 @@
     },
     {
       "id": "web-le-forum-li-ge-chaos-technique-par-guihome-et-nico-en-vrai-2027-06-04",
-      "title": "« CHAOS TECHNIQUE » PAR GUIHOME ET NICO EN VRAI",
+      "title": "\" CHAOS TECHNIQUE \" PAR GUIHOME ET NICO EN VRAI",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -28642,7 +28299,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/chaos-technique-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202706042000.html",
       "url": "https://www.leforum.be/spectacle_202706042000.html",
-      "summary": "GuiHome et Nicolas, deux humoristes belges, relèvent le défi de monter une pièce de théâtre ensemble. À la veille de la première représentation, ils font une ultime répétition générale qui s'avère être une catastrophe.",
+      "summary": "Les humoristes GuiHome et Nicolas relèvent le défi de monter ensemble une véritable pièce de théâtre, entre stand-up et univers de Molière. Lors de leur ultime répétition générale, le constat est une catastrophe.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -28672,12 +28329,12 @@
       "id": "tm-Z698xZG2Z1k-3j-7M",
       "title": "Starting Grid access",
       "category": "family",
-      "venue": "Chapelle du C. de dépaysement",
-      "city": "Saint-Hubert",
-      "lat": 50.0282,
-      "lon": 5.38037,
+      "venue": "Circuit de Spa-Francorchamps",
+      "city": "Francorchamps",
+      "lat": 50.43704,
+      "lon": 5.9681,
       "start": "2027-06-05T22:00:00",
-      "end": "2027-06-05T22:00:00",
+      "end": "2027-06-06T22:00:00",
       "image": "https://s1.ticketm.net/dam/a/502/310964c9-df80-4bcd-980c-4cc4d0b15502_RETINA_PORTRAIT_16_9.jpg",
       "url": "https://www.ticketmaster.be/event/starting-grid-access-saturday-tickets/852721137",
       "summary": "The starting grid is yours! With this valuable pass, experience the machines lining up on the grid and feel the excitement of the final preparations up close to the riders and teams! Limited to 500 tickets per day!",
@@ -28688,27 +28345,8 @@
       "source": "Ticketmaster"
     },
     {
-      "id": "tm-Z698xZG2Z1k13jY4x",
-      "title": "Starting Grid access",
-      "category": "culture",
-      "venue": "Circuit de Spa-Francorchamps",
-      "city": "Francorchamps",
-      "lat": 50.43704,
-      "lon": 5.9681,
-      "start": "2027-06-06T22:00:00",
-      "end": "2027-06-06T22:00:00",
-      "image": "https://s1.ticketm.net/dam/a/502/310964c9-df80-4bcd-980c-4cc4d0b15502_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/starting-grid-access-week-end-tickets/292730562",
-      "summary": "The starting grid is yours! With this valuable pass, experience the machines lining up on the grid and feel the excitement of the final preparations up close to the riders and teams! Limited to 500 tickets per day!",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
-    },
-    {
       "id": "tm-Z698xZG2Z16vFe-bek",
-      "title": "« JE N'AIME PAS LE CLASSIQUE » AVEC ALEX VIZOREK",
+      "title": "\" JE N'AIME PAS LE CLASSIQUE \" AVEC ALEX VIZOREK",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -29305,7 +28943,7 @@
     },
     {
       "id": "web-le-forum-li-ge-edouard-deloignon-grandira-plus-tard-2027-12-03",
-      "title": "EDOUARD DELOIGNON « GRANDIRA PLUS TARD »",
+      "title": "EDOUARD DELOIGNON \" GRANDIRA PLUS TARD \"",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -29316,7 +28954,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/EdouardDeloignon_510.png",
       "page_url": "https://www.leforum.be/spectacle_202712032000.html",
       "url": "https://www.leforum.be/spectacle_202712032000.html",
-      "summary": "Edouard Deloignon propose un spectacle d'humour intitulé « Grandira plus tard ». 1h30 de lâcher prise pour rire ensemble avec cette nouvelle star de l'humour.",
+      "summary": "Edouard Deloignon présente son spectacle d'humour « Grandira plus tard », 1h30 de lâcher-prise et de rires à partager, où il évoque son sentiment d'être décalé. Le spectacle est déconseillé aux moins de 16 ans.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -29362,15 +29000,13 @@
       "summary": "Ycare présente son nouveau spectacle « Résilience Tour » après son 8ème album éponyme et une tournée de plus de 40 dates. Le spectacle sera porté par des arrangements puissants et une interprétation à fleur de peau.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
     },
     {
       "id": "web-le-forum-li-ge-arnaud-tsamere-tous-contraints-2028-01-07",
-      "title": "ARNAUD TSAMERE - \"TOUS CONTRAINTS\"",
+      "title": "ARNAUD TSAMERE - « TOUS CONTRAINTS »",
       "category": "theatre",
       "venue": "Le Forum",
       "city": "Liège",
@@ -29381,7 +29017,7 @@
       "image": "https://www.leforum.be/visuel/SlideFront/arnaud-tsamere-510.jpg",
       "page_url": "https://www.leforum.be/spectacle_202801072000.html",
       "url": "https://www.leforum.be/spectacle_202801072000.html",
-      "summary": "Arnaud Tsamere présente son 5ème one man show « Tous contraints », qu'il annonce plus intense que jamais. L'humoriste, applaudi par plus de 500 000 spectateurs en salle, revient sur scène au Forum de Liège.",
+      "summary": "Arnaud Tsamere, « Tous contraints », spectacle présenté par OD Live en accord avec DSP au Forum.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -29451,7 +29087,7 @@
     {
       "id": "web-le-forum-li-ge-le-festival-mondial-de-la-magie-2028-02-26",
       "title": "LE FESTIVAL MONDIAL DE LA MAGIE",
-      "category": "theatre",
+      "category": "festival",
       "venue": "Le Forum",
       "city": "Liège",
       "lat": 50.64077,
@@ -29490,6 +29126,46 @@
       "tags": [],
       "source": "Facebook (événement public)",
       "classified": true
+    },
+    {
+      "id": "web-le-forum-li-ge-50-ans-de-com-dies-musicales-2028-03-23",
+      "title": "50 ANS DE COMÉDIES MUSICALES",
+      "category": "theatre",
+      "venue": "Le Forum",
+      "city": "Liège",
+      "lat": 50.64077,
+      "lon": 5.57031,
+      "start": "2028-03-23T20:00:00",
+      "end": "2028-03-23T20:00:00",
+      "image": "https://www.leforum.be/visuel/SlideFront/50_ans_de_comedies_musicales_510.png",
+      "page_url": "https://www.leforum.be/spectacle_202803232000.html",
+      "url": "https://www.leforum.be/spectacle_202803232000.html",
+      "summary": "Spectacle « 50 ans de comédies musicales », présenté par Voices Harmony.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Le Forum (Liège)"
+    },
+    {
+      "id": "web-le-forum-li-ge-pietragalla-barbara-2028-04-01",
+      "title": "PIETRAGALLA BARBARA",
+      "category": "theatre",
+      "venue": "Le Forum",
+      "city": "Liège",
+      "lat": 50.64077,
+      "lon": 5.57031,
+      "start": "2028-04-01T20:00:00",
+      "end": "2028-04-01T20:00:00",
+      "image": "https://www.leforum.be/visuel/SlideFront/PIETRAGALLA-BARBARA-format-2-510x630.jpg",
+      "page_url": "https://www.leforum.be/spectacle_202804012000.html",
+      "url": "https://www.leforum.be/spectacle_202804012000.html",
+      "summary": "Spectacle « Pietragalla Barbara », présenté par Le Théâtre du Corps Pietragalla-Derouault.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Le Forum (Liège)"
     },
     {
       "id": "web-le-forum-li-ge-this-is-tina-turner-2028-04-08",
