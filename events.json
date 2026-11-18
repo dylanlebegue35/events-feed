@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-17T23:19:29",
+  "generated": "2026-11-18T08:00:50",
   "events": [
     {
       "id": "web-province-de-li-ge-jeudisant-cycle-de-conf-rences-2026-2026-02-05",
@@ -332,207 +332,26 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "fbx-28650481987911983",
-      "title": "Salon de l'Emploi Visé 2026",
-      "category": "fair",
-      "venue": "Rue de la Chinstrée 2d",
-      "city": "Visé",
-      "lat": 50.7371424,
-      "lon": 5.6941508,
-      "start": "2026-11-17T09:30:00",
-      "end": "2026-11-17T16:00:00",
-      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fbx-28650481987911983.jpg",
-      "page_url": "https://www.facebook.com/events/28650481987911983/",
-      "url": "https://www.facebook.com/events/28650481987911983/",
-      "summary": "Salon de l'emploi local pour rencontrer employeurs et organismes de formation de la région de Visé.",
-      "price_from": null,
-      "free": true,
-      "audience": [],
-      "tags": [],
-      "source": "Facebook (extension)"
-    },
-    {
-      "id": "web-botanique-bruxelles-master-boot-record-fulci-arottenbit-2026-11-17",
-      "title": "MASTER BOOT RECORD + Fulci - arottenbit",
-      "category": "concert",
-      "venue": "Botanique",
-      "city": "Bruxelles",
-      "lat": 50.8535292,
-      "lon": 4.3659372,
-      "start": "2026-11-17T10:00:00",
-      "end": "2026-11-17T10:00:00",
-      "image": "https://botanique.be/sites/default/files/styles/event_overview/public/2026-04/MBR%20HORIZ.jpg?itok=K_IRcp4y",
-      "page_url": "https://botanique.be/fr/concert/master-boot-record-fulci-arottenbit-2026",
-      "url": "https://botanique.be/fr/concert/master-boot-record-fulci-arottenbit-2026#tickets-widget",
-      "summary": "MASTER BOOT RECORD mêle metal, chiptune et demoscene, avec ordinateurs vintage (Commodore 64, Amiga 500) sur scène. Fulci joue un death metal inspiré du cinéma d'horreur italien, et arottenbit ouvre la soirée au Game Boy.",
-      "price_from": 19.5,
-      "free": false,
-      "audience": [],
-      "tags": [],
-      "source": "Botanique (Bruxelles)"
-    },
-    {
-      "id": "web-botanique-bruxelles-pearly-drops-tessa-dixson-2026-11-17",
-      "title": "Pearly Drops - Tessa Dixson",
-      "category": "concert",
-      "venue": "Botanique",
-      "city": "Bruxelles",
-      "lat": 50.8535292,
-      "lon": 4.3659372,
-      "start": "2026-11-17T10:00:00",
-      "end": "2026-11-17T10:00:00",
-      "image": "https://botanique.be/sites/default/files/styles/event_overview/public/2026-07/pearly2-.jpg?itok=pqLThufU",
-      "page_url": "https://botanique.be/fr/concert/pearly-drops-tessa-dixson-2026",
-      "url": "https://botanique.be/fr/concert/pearly-drops-tessa-dixson-2026#tickets-widget",
-      "summary": "Concert pop au Botanique (Rotonde) : Pearly Drops, duo finlandais formé par Sandra Tervonen et Juuso Malin, propose une pop atmosphérique aux voix éthérées. En première partie, Tessa Dixson, artiste belgo-américaine, mêle pop alternative et électronique.",
-      "price_from": 17.5,
-      "free": false,
-      "audience": [],
-      "tags": [],
-      "source": "Botanique (Bruxelles)"
-    },
-    {
-      "id": "web-mars-mons-arts-de-la-sc-ne-les-midis-d-arts-2026-11-17",
-      "title": "Les Midis d'ARTS²",
-      "category": "concert",
-      "venue": "Mars",
+      "id": "web-mars-mons-arts-de-la-sc-ne-dipus-2026-11-17",
+      "title": "Œdipus",
+      "category": "theatre",
+      "venue": "Théâtre le Manège",
       "city": "Mons",
-      "lat": 50.4650237,
-      "lon": 3.9554029,
-      "start": "2026-11-17T12:15:00",
-      "end": "2026-11-17T12:15:00",
-      "image": null,
-      "page_url": "https://www.surmars.be/agenda/2026-11/musique/les-midis-darts2",
-      "url": "https://shop.infinitix.be/SURMARSBE_INF/S/AE5DB565-E39F-0CFD-CFFA-2AC29889AF9B/?d=1EE44B24-CD1C-1B92-9B79-A9517C1062B2",
-      "summary": "Concert du festival d'automne d'ARTS² sur le thème de l'Art Nouveau, du Jugendstil et de la musique, à l'Arsonic (grande salle) de Mons. Interprété par des enseignants et étudiants du Conservatoire de Mons, il explore les liens entre architecture, littérature et musique de 1900.",
+      "lat": 50.4578919,
+      "lon": 3.9570338,
+      "start": "2026-11-17T10:00:00",
+      "end": "2026-11-18T20:00:00",
+      "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Oedipus-c-Alexandre-Fytrakis.jpeg.webp?itok=AXAvT6yv",
+      "page_url": "https://www.surmars.be/agenda/2026-11/theatre/oedipus",
+      "url": "https://shop.infinitix.be/SURMARSBE_INF/S/C8E11A57-2573-EE4B-AB5A-7136D58F97E4/?d=D4C9BD3F-0E6F-5AF8-6645-69F8DE22579C",
+      "summary": "Oedipus inscrit le mythe antique de Sophocle dans notre siècle et traite du pouvoir et des façons de gouverner. Une villa de vacances en Grèce.",
       "price_from": null,
       "free": null,
       "audience": [],
-      "tags": [],
-      "source": "Mars – Mons arts de la scène"
-    },
-    {
-      "id": "fbx-2075080633391308",
-      "title": "Café Papote de Spa",
-      "category": "talks",
-      "venue": "Maison des Jeunes et de la Culture de Spa",
-      "city": "Spa",
-      "lat": 50.4920654,
-      "lon": 5.8627569,
-      "start": "2026-11-17T14:00:00",
-      "end": "2026-11-17T16:00:00",
-      "image": null,
-      "page_url": "https://www.facebook.com/events/2075080633391308/",
-      "url": "https://www.facebook.com/events/2075080633391308/",
-      "summary": "Moment convivial autour d'un café pour discuter et créer du lien, proposé par le PCS de Spa et Soralia.",
-      "price_from": null,
-      "free": true,
-      "audience": [],
-      "tags": [],
-      "source": "Facebook (extension)"
-    },
-    {
-      "id": "web-mars-mons-arts-de-la-sc-ne-rendez-vous-soins-et-sons-2026-11-17",
-      "title": "Rendez-vous soins et sons",
-      "category": "concert",
-      "venue": "Mars",
-      "city": "Mons",
-      "lat": 50.4650237,
-      "lon": 3.9554029,
-      "start": "2026-11-17T18:00:00",
-      "end": "2026-11-17T18:00:00",
-      "image": null,
-      "page_url": "https://www.surmars.be/agenda/2026-11/musique/rendez-vous-soins-et-sons",
-      "url": "https://shop.infinitix.be/SURMARSBE_INF/S/7971E555-17F3-DB00-0726-613261EAF751/?d=1B340F82-4241-E326-EDCE-B9DEE3CEAF5B",
-      "summary": "Rendez-vous musical proposé le mardi 17 novembre à 18h00.",
-      "price_from": 15.0,
-      "free": false,
-      "audience": [],
-      "tags": [],
-      "source": "Mars – Mons arts de la scène"
-    },
-    {
-      "id": "fbx-1715217099545337",
-      "title": "Présentation du livre « Légendes du vieux Pays de Bastogne »",
-      "category": "talks",
-      "venue": "Musée de la Grande Ardenne",
-      "city": "Bastogne",
-      "lat": 50.0023102,
-      "lon": 5.7173386,
-      "start": "2026-11-17T18:30:00",
-      "end": "2026-11-17T21:30:00",
-      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fbx-1715217099545337.jpg",
-      "page_url": "https://www.facebook.com/events/1715217099545337/",
-      "url": "https://www.facebook.com/events/1715217099545337/",
-      "summary": "Présentation d'un livre qui rassemble les légendes et secrets des villages du pays de Bastogne.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Facebook (extension)"
-    },
-    {
-      "id": "fb-1832096421574150",
-      "title": "Soirée Yin Yoga & voyage sonore, bûche de l'avent et gourmandises",
-      "category": "wellness",
-      "venue": "Clermont, Liege, Belgium",
-      "city": "Engis",
-      "lat": 50.5667,
-      "lon": 5.4,
-      "start": "2026-11-17T18:30:00",
-      "end": "2026-11-17T22:15:00",
-      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1832096421574150.jpg",
-      "page_url": "https://www.facebook.com/events/1832096421574150/",
-      "url": "https://forms.gle/pgp2QKBERKU8B6qq6",
-      "summary": "Charlotte – 𝘚𝘵𝘶𝘥𝘪𝘰 𝘊𝘩𝘢𝘴𝘢𝘯𝘢 𝘠𝘰𝘨𝘢 (Baelen), Muriel – MM Art’iste Boutique (Welkenraedt) et Sylvie – Sisi L'impératrice de la Gaufre (Welkenraedt) vous donnent rendez-vous pour une soirée placée sous le signe de la détente, de la créativité et de la convivialité. Au programme : 🧘 Yin Yoga accompagné d’",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "adult"
+      "tags": [
+        "découverte"
       ],
-      "tags": [],
-      "source": "Facebook (événement public)",
-      "classified": true
-    },
-    {
-      "id": "fbx-997643279726833",
-      "title": "Concert Bozar!",
-      "category": "concert",
-      "venue": "Bozar",
-      "city": "Bruxelles",
-      "lat": 50.8436929,
-      "lon": 4.3598098,
-      "start": "2026-11-17T20:00:00",
-      "end": "2026-11-17T23:00:00",
-      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fbx-997643279726833.jpg",
-      "page_url": "https://www.facebook.com/events/997643279726833/",
-      "url": "https://www.facebook.com/events/997643279726833/",
-      "summary": "Concert de gala annuel du Royal Symphonic Band of the Belgian Guides, avec un lauréat du Concours Reine Elisabeth.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Facebook (extension)"
-    },
-    {
-      "id": "fbx-1963447904582265",
-      "title": "Paradis Blanc · Michel Berger · CC Seraing",
-      "category": "concert",
-      "venue": "Centre Culturel de Seraing",
-      "city": "Seraing",
-      "lat": 50.6047423,
-      "lon": 5.516472,
-      "start": "2026-11-17T20:00:00",
-      "end": "2026-11-17T23:00:00",
-      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fbx-1963447904582265.jpg",
-      "page_url": "https://www.facebook.com/events/1963447904582265/",
-      "url": "https://www.facebook.com/events/1963447904582265/",
-      "summary": "Spectacle musical hommage à Michel Berger, un voyage à travers ses chansons les plus connues.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Mars – Mons arts de la scène"
     },
     {
       "id": "fbx-1720419279067370",
@@ -555,64 +374,27 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-mars-mons-arts-de-la-sc-ne-catch-litt-raire-2026-11-17",
-      "title": "Catch littéraire",
-      "category": "culture",
-      "venue": "Auditorium Abel Dubois",
-      "city": "Mons",
-      "lat": 50.4557845,
-      "lon": 3.9568843,
-      "start": "2026-11-17T20:00:00",
-      "end": "2026-11-17T20:00:00",
-      "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Catch-litteraire-c-David-Bormans.png.webp?itok=FhAYCLvl",
-      "page_url": "https://www.surmars.be/agenda/2026-11/litterature/catch-litteraire",
-      "url": "https://www.surmars.be/agenda/2026-11/litterature/catch-litteraire",
-      "summary": "Quatre lutteurs et lutteuses des mots s'affrontent deux par deux sur un ring, clavier en main, en trois minutes par combat sur des thèmes imposés. Le public lit leurs textes en direct et vote pour le meilleur avant de prolonger la soirée à la P'tite Maison Folie.",
-      "price_from": null,
-      "free": true,
-      "audience": [],
-      "tags": [],
-      "source": "Mars – Mons arts de la scène"
-    },
-    {
-      "id": "web-mars-mons-arts-de-la-sc-ne-dipus-2026-11-17",
-      "title": "Œdipus",
-      "category": "theatre",
-      "venue": "Théâtre le Manège",
-      "city": "Mons",
-      "lat": 50.4578919,
-      "lon": 3.9570338,
+      "id": "fb-26451592794432234",
+      "title": "Soirée jeux de société - Arlon",
+      "category": "geek",
+      "venue": "ibis Styles Arlon Porte du Luxembourg",
+      "city": "Arlon",
+      "lat": 49.67646,
+      "lon": 5.78428,
       "start": "2026-11-17T20:00:00",
       "end": "2026-11-18T20:00:00",
-      "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Oedipus-c-Alexandre-Fytrakis.jpeg.webp?itok=AXAvT6yv",
-      "page_url": "https://www.surmars.be/agenda/2026-11/theatre/oedipus",
-      "url": "https://shop.infinitix.be/SURMARSBE_INF/S/C8E11A57-2573-EE4B-AB5A-7136D58F97E4/?d=D6544DA9-34E1-AE4E-0680-E03D9EFB007B",
-      "summary": "Oedipus inscrit le mythe antique de Sophocle dans notre siècle et traite du pouvoir et des façons de gouverner.",
-      "price_from": 3.0,
-      "free": false,
-      "audience": [],
-      "tags": [],
-      "source": "Mars – Mons arts de la scène"
-    },
-    {
-      "id": "fbx-1802778680762716",
-      "title": "Bandes d'hystériques",
-      "category": "theatre",
-      "venue": "Le POP – Centre culturel, rue Jules Hans 10",
-      "city": "Braine-l'Alleud",
-      "lat": 50.6828722,
-      "lon": 4.3692706,
-      "start": "2026-11-17T20:15:00",
-      "end": "2026-11-17T23:15:00",
-      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fbx-1802778680762716.jpg",
-      "page_url": "https://www.facebook.com/events/1802778680762716/",
-      "url": "https://www.facebook.com/events/1802778680762716/",
-      "summary": "Spectacle théâtral sur l'histoire de l'hystérie et la place des femmes.",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-26451592794432234.jpg",
+      "page_url": "https://www.facebook.com/events/26451592794432234/",
+      "url": "https://www.facebook.com/events/26451592794432234/",
+      "summary": "Soirées jeux de société conviviales à Arlon (débutants bienvenus) 🎲 Jeux variés : ambiance, moyens et experts 👉 Explications sur place. INSCRIPTION SOUHAITEE ! Contactez l'organisateur",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (événement public)",
+      "classified": true
     },
     {
       "id": "fbx-2335335450274865",
@@ -647,7 +429,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/nayte-18-11/",
       "url": "https://shop.paylogic.com/8a610502c1a04ff28e721be46fae5355",
-      "summary": "Concert de NAYTE + Golgoth au Reflektor le 18 novembre 2026 (sold out).",
+      "summary": "Concert de NAYTE + Golgoth au Reflektor, le 18 novembre 2026 (complet).",
       "price_from": null,
       "free": null,
       "audience": [
@@ -669,7 +451,7 @@
       "image": null,
       "page_url": null,
       "url": "https://shop.paylogic.com/35cc694850a74d20a810bf5f4050448a",
-      "summary": "Concert Eat & Folk avec Jacques Duvall et Benjamin Schoos à l'OM le 18 novembre 2026.",
+      "summary": "Concert Eat & Folk avec Jacques Duvall et Benjamin Schoos, le 18 novembre 2026.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -739,26 +521,6 @@
       "audience": [],
       "tags": [],
       "source": "Ancienne Belgique (Bruxelles)"
-    },
-    {
-      "id": "web-botanique-bruxelles-maria-arnal-bulie-jordeaux-2026-11-18",
-      "title": "Maria Arnal - Bulie Jordeaux",
-      "category": "concert",
-      "venue": "Botanique",
-      "city": "Bruxelles",
-      "lat": 50.8535292,
-      "lon": 4.3659372,
-      "start": "2026-11-18T10:00:00",
-      "end": "2026-11-18T10:00:00",
-      "image": "https://botanique.be/sites/default/files/styles/event_overview/public/2026-05/FOTO%202X3_0.jpg?itok=yo1EnXRa",
-      "page_url": "https://botanique.be/fr/concert/maria-arnal-bulie-jordeaux-2026",
-      "url": "https://botanique.be/fr/concert/maria-arnal-bulie-jordeaux-2026#tickets-widget",
-      "summary": "Concert à la Rotonde du Botanique : Bulie Jordeaux, pop dubby et downtempo aux synthés hypnotiques, puis Maria Arnal, voix d'avant-pop électronique mêlée de polyphonies traditionnelles. Portes à 18h30 avec boissons et restauration.",
-      "price_from": 18.0,
-      "free": false,
-      "audience": [],
-      "tags": [],
-      "source": "Botanique (Bruxelles)"
     },
     {
       "id": "web-trix-anvers-dokter-trix-2026-11-18",
@@ -1025,6 +787,29 @@
       "source": "Facebook (extension)"
     },
     {
+      "id": "fb-4580200445602067",
+      "title": "Soirée Info Familles",
+      "category": "talks",
+      "venue": "Plaine De Nimy",
+      "city": "Mons",
+      "lat": 50.463513174256,
+      "lon": 3.9553144337706,
+      "start": "2026-11-18T17:15:00",
+      "end": "2026-11-18T20:15:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-4580200445602067.jpg",
+      "page_url": "https://www.facebook.com/events/4580200445602067/",
+      "url": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=ne2LSKfW1Ui6H-vsOCOzV82F6JjHcShDmki9kk16uvxUOVVFOEs0U0ROS0pZUkUwRzJFTTVQNzU0SC4u",
+      "summary": "Votre enfant est en rhéto et le choix des études approche ? 🎓 Comment fonctionne l’université ? Quelles filières, quels débouchés ? Comment l’accompagner au mieux dans cette décision ? L’UMONS vous invite, vous et votre futur·e étudiant·e, à sa Soirée Info Familles 👨‍👩‍👧 📅 Mercredi 18 novembre 2026 ",
+      "price_from": null,
+      "free": true,
+      "audience": [
+        "family"
+      ],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
+    },
+    {
       "id": "tm-Z698xZG2Z16v4-0eQa",
       "title": "Interpol + Bloc Party | be•at Premium Bistronomy Experience",
       "category": "concert",
@@ -1081,6 +866,48 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
+    },
+    {
+      "id": "web-botanique-bruxelles-maria-arnal-bulie-jordeaux-2026-11-18",
+      "title": "Maria Arnal - Bulie Jordeaux",
+      "category": "concert",
+      "venue": "Botanique",
+      "city": "Bruxelles",
+      "lat": 50.8535292,
+      "lon": 4.3659372,
+      "start": "2026-11-18T18:30:00",
+      "end": "2026-11-18T18:30:00",
+      "image": "https://botanique.be/sites/default/files/styles/event_overview/public/2026-05/FOTO%202X3_0.jpg?itok=yo1EnXRa",
+      "page_url": "https://botanique.be/fr/concert/maria-arnal-bulie-jordeaux-2026",
+      "url": "https://botanique.be/fr/concert/maria-arnal-bulie-jordeaux-2026#tickets-widget",
+      "summary": "Concert à la Rotonde du Botanique : Bulie Jordeaux, pop dubby et downtempo aux synthés hypnotiques, puis Maria Arnal, voix d'avant-pop électronique mêlée de polyphonies traditionnelles. Portes à 18h30 avec boissons et restauration.",
+      "price_from": 18.0,
+      "free": false,
+      "audience": [],
+      "tags": [],
+      "source": "Botanique (Bruxelles)"
+    },
+    {
+      "id": "web-botanique-bruxelles-moha-mmz-2026-11-18",
+      "title": "Moha MMZ",
+      "category": "concert",
+      "venue": "Botanique",
+      "city": "Bruxelles",
+      "lat": 50.8535292,
+      "lon": 4.3659372,
+      "start": "2026-11-18T18:30:00",
+      "end": "2026-11-18T18:30:00",
+      "image": "https://botanique.be/sites/default/files/styles/event_overview/public/2026-09/MOHA%20MMZ-2026.jpg?itok=IPFFK3fI",
+      "page_url": "https://botanique.be/fr/concert/moha-mmz-2026",
+      "url": "https://botanique.be/fr/concert/moha-mmz-2026",
+      "summary": "Rap hybride et éthéré, Moha MMZ fait se rencontrer flows incisifs et refrains mélodiques",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "young"
+      ],
+      "tags": [],
+      "source": "Botanique (Bruxelles)"
     },
     {
       "id": "fb-1103135229168325",
@@ -1323,6 +1150,29 @@
       "source": "Ticketmaster"
     },
     {
+      "id": "fb-2604801790011135",
+      "title": "Soirée halLAWeen 👻🕺",
+      "category": "party",
+      "venue": "Cercle Droit Namur",
+      "city": "Namur",
+      "lat": 50.466648323593,
+      "lon": 4.8576584987062,
+      "start": "2026-11-18T21:00:00",
+      "end": "2026-11-19T01:00:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-2604801790011135.jpg",
+      "page_url": "https://www.facebook.com/events/2604801790011135/",
+      "url": "https://www.facebook.com/events/2604801790011135/",
+      "summary": "Coucou les loulous ! 👻 Les monstres sont de sortie et les esprits commencent à s’éveiller… 🦇 On vous donne rendez-vous le 18 novembre pour notre incontournable soirée annuelle HALLOWEEN ! 🧛🏻‍♀️🩸 Bon, on vous l’accorde, Halloween est légèrement en retard cette année… Mais les monstres aussi ont parfo",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "student"
+      ],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
+    },
+    {
       "id": "tm-Z698xZG2Z1k4d78A4",
       "title": "Jiro Taniguchi",
       "category": "fair",
@@ -1361,6 +1211,29 @@
       "source": "Ticketmaster"
     },
     {
+      "id": "fb-1519712846888861",
+      "title": "Soirée AtelPrint Coupe Du Bar",
+      "category": "party",
+      "venue": "La Carolo / Al'fosse III",
+      "city": "Louvain-la-Neuve",
+      "lat": 50.6678804,
+      "lon": 4.6195231,
+      "start": "2026-11-18T22:00:00",
+      "end": "2026-11-19T01:00:00",
+      "image": null,
+      "page_url": "https://www.facebook.com/events/1519712846888861/",
+      "url": "https://www.facebook.com/events/1519712846888861/",
+      "summary": "1000 euros à gagner, VOUS NE REVEZ PAS ! La Centrale a l’honneur de vous inviter à sa soirée en collaboration avec le fournisseur de textiles AtelPrint. Nous avons la chance qu’il se déplace pour organiser une soirée totalement déjantée en Carolo ce mercredi S10. Pourquoi venir ? Une incroyable coup",
+      "price_from": null,
+      "free": true,
+      "audience": [
+        "young"
+      ],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
+    },
+    {
       "id": "fbx-822947820879737",
       "title": "Petit déjeuner - Nourrir Seraing Autrement",
       "category": "talks",
@@ -1393,7 +1266,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/3467/",
       "url": "https://shop.paylogic.com/172bc7d26911453a869d81b999a6245b",
-      "summary": "Concert de NAYTE + Golgoth au Reflektor le 19 novembre 2026 (sold out).",
+      "summary": "Concert de NAYTE + Golgoth au Reflektor, le 19 novembre 2026 (complet).",
       "price_from": null,
       "free": null,
       "audience": [
@@ -1648,6 +1521,29 @@
       "source": "Facebook (extension)"
     },
     {
+      "id": "fb-1664130941897006",
+      "title": "Soirée du Bni Bruxelles Alliance",
+      "category": "talks",
+      "venue": "Cimetière Du Dieweg",
+      "city": "Uccle",
+      "lat": 50.79565,
+      "lon": 4.34682,
+      "start": "2026-11-19T18:00:00",
+      "end": "2026-11-19T18:15:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1664130941897006.jpg",
+      "page_url": "https://www.facebook.com/events/1664130941897006/",
+      "url": "https://www.eventbrite.be/e/soiree-de-lancement-du-bni-bruxelles-alliance-tickets-2003797991734?dsrp_sid=e256f021-c436-412a-897d-5cf4730beabf&aff=ebdssbdestsearch",
+      "summary": "🎉 Le Bni Bruxelles Alliance fête son activation ! Le Bni Bruxelles Alliance est un groupe d’échange de business entre entrepreneurs locaux, fortement ancré à Uccle 📍. Il réunit des professionnels de l’immobilier, de la construction, de l’IT et des services aux entreprises et aux particuliers, entre ",
+      "price_from": 70.0,
+      "free": false,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
+    },
+    {
       "id": "fbx-1639506820994063",
       "title": "Soirée découverte : Super Seraing Coop",
       "category": "talks",
@@ -1686,6 +1582,28 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
+    },
+    {
+      "id": "web-botanique-bruxelles-the-sheepdogs-steve-hill-2026-11-19",
+      "title": "The Sheepdogs - Steve Hill",
+      "category": "concert",
+      "venue": "Botanique",
+      "city": "Bruxelles",
+      "lat": 50.8535292,
+      "lon": 4.3659372,
+      "start": "2026-11-19T18:30:00",
+      "end": "2026-11-19T18:30:00",
+      "image": "https://botanique.be/sites/default/files/styles/event_overview/public/2025-11/The%20Sheepdogs-Press-3.jpg?itok=pyGKBJER",
+      "page_url": "https://botanique.be/fr/concert/sheepdogs-steve-hill-2026",
+      "url": "https://botanique.be/fr/concert/sheepdogs-steve-hill-2026#tickets-widget",
+      "summary": "L'incarnation d'un rock authentique et généreux d'harmonies et de guitares",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "young"
+      ],
+      "tags": [],
+      "source": "Botanique (Bruxelles)"
     },
     {
       "id": "fbx-1101982375908755",
@@ -1980,7 +1898,7 @@
       "image": null,
       "page_url": "https://www.surmars.be/agenda/2026-11/musique/aleph-quintet",
       "url": "https://shop.infinitix.be/SURMARSBE_INF/S/5E4E0BD8-BB64-8922-8CDA-99721C1D2CA5/?d=3BC9BC1C-55B3-3633-1FCE-93357F492C3D",
-      "summary": "Concert de l'Aleph Quintet proposé le jeudi 19 novembre à 20h00.",
+      "summary": "Concert de l'Aleph Quintet, jeudi 19 novembre à 20h00 à Mars.",
       "price_from": 3.0,
       "free": false,
       "audience": [],
@@ -2189,6 +2107,26 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
+    },
+    {
+      "id": "web-reflektor-li-ge-the-jazz-room-un-voyage-au-c-ur-de-la-nouvelle-orl-ans-11-2026-2",
+      "title": "The Jazz Room : un voyage au cœur de La Nouvelle-Orléans (11/2026)",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2026-11-20T10:00:00",
+      "end": "2026-11-20T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/the-jazz-room-un-voyage-au-coeur-de-la-nouvelle-orleans-2/",
+      "url": "https://feverup.com/m/563650",
+      "summary": "Concert The Jazz Room, un voyage au cœur de La Nouvelle-Orléans, le 20 novembre 2026.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "web-visithuy-la-maison-du-p-re-no-l-2026-11-20",
@@ -2407,6 +2345,29 @@
       ],
       "tags": [],
       "source": "Het Depot (Louvain)"
+    },
+    {
+      "id": "fb-28068708012782919",
+      "title": "Vendredis dansés - Ateliers de danse somatique à Louvain-la-Neuve",
+      "category": "wellness",
+      "venue": "Ateliers d'art de la Baraque - CEC",
+      "city": "Louvain-la-Neuve",
+      "lat": 50.67145545902,
+      "lon": 4.6212100982666,
+      "start": "2026-11-20T10:30:00",
+      "end": "2026-11-20T12:30:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-28068708012782919.jpg",
+      "page_url": "https://www.facebook.com/events/28068708012782919/",
+      "url": "https://www.mouvance-asbl.be/event/ateliers-de-danse-vendredis-danses-129/register",
+      "summary": "🌿 Et si vos vendredis matin devenaient un rendez-vous avec vous-même ? Un temps pour ralentir, respirer, ressentir… et laisser le mouvement émerger depuis l’intérieur. 👉 Un cycle de 7 ateliers de danse somatique, inspiré de l’approche Anam Cara®, qui tisse des liens entre le corps, l’art et la vie. ",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
     },
     {
       "id": "fbx-1453376673350420",
@@ -2897,6 +2858,29 @@
       "source": "Facebook (extension)"
     },
     {
+      "id": "fb-1799403954612293",
+      "title": "Soirée Tantra 🔸 Bruxelles",
+      "category": "wellness",
+      "venue": "Les Béguinettes. 26, rue des Béguinettes. 1170 Watermael-Boitsfort",
+      "city": "Watermael-Boitsfort",
+      "lat": 50.80032,
+      "lon": 4.41785,
+      "start": "2026-11-20T19:00:00",
+      "end": "2026-11-20T22:00:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1799403954612293.jpg",
+      "page_url": "https://www.facebook.com/events/1799403954612293/",
+      "url": "https://www.facebook.com/events/1799403954612293/",
+      "summary": "Bienvenue à toutes et tous, débutants ou confirmés, seul.e ou en couple, une fois ou chaque fois. Une soirée pour se baigner dans l'esprit du tantra, la bienveillance du groupe, l'écoute, la présence. Dans ces propositions qui nous invitent à ressentir et expérimenter l'équilibre entre conscience et",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
+    },
+    {
       "id": "fbx-1785480799427826",
       "title": "Hott'On Games – soirée jeux",
       "category": "geek",
@@ -2959,6 +2943,29 @@
         "soirée"
       ],
       "source": "Madame Moustache (Bruxelles)"
+    },
+    {
+      "id": "fb-1097869849605842",
+      "title": "1 soirée, 2 spectacles ! > Le Tic-Tac de l’oubli + Sept minutes",
+      "category": "theatre",
+      "venue": "Théâtre des Rues",
+      "city": "Mons",
+      "lat": 50.4389582,
+      "lon": 3.9162236,
+      "start": "2026-11-20T19:30:00",
+      "end": "2026-11-20T22:30:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1097869849605842.jpg",
+      "page_url": "https://www.facebook.com/events/1097869849605842/",
+      "url": "https://www.theatre-action.be/festival/enragez-vous-international-2026/",
+      "summary": "💥 Enragez-vous ! INTERNATIONAL • Festival d’Automne du Théâtre Action, organisé par le Centre du Théâtre Action vous propose : ➡️ 1 soirée, 2 spectacles ! • 20.11.2026 🎭 Le Tic-Tac de l’oubli • Théâtre des Rues • 19h30 • Spectacle d’atelier Les yeux rivés sur l’horloge, Sonia n’a pourtant pas vu le ",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
     },
     {
       "id": "fbx-849850124862705",
@@ -3253,7 +3260,7 @@
       "image": null,
       "page_url": "https://www.surmars.be/agenda/2026-11/danse/un-casse-noisette",
       "url": "https://shop.infinitix.be/SURMARSBE_INF/S/216E861E-2993-32AD-E563-1C12E05A2428/?d=6437AF59-6489-FC69-EF81-63049B0E8A24",
-      "summary": "Spectacle de danse proposé le vendredi 20 novembre à 20h00.",
+      "summary": "Spectacle de danse Un Casse-Noisette, vendredi 20 novembre à 20h00.",
       "price_from": 6.0,
       "free": false,
       "audience": [],
@@ -3975,6 +3982,46 @@
       "source": "Facebook (extension)"
     },
     {
+      "id": "web-reflektor-li-ge-o-brice-ninck-2026-11-21",
+      "title": "Ão + Brice Ninck",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2026-11-21T10:00:00",
+      "end": "2026-11-21T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/ao/",
+      "url": "https://shop.paylogic.com/476d083e126a450fbef1887f68a7d4ce",
+      "summary": "Concert d'Ão et Brice Ninck au Reflektor, le 21 novembre 2026.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
+    },
+    {
+      "id": "web-reflektor-li-ge-suzane-marie-jay-2026-11-21",
+      "title": "Suzane + Marie Jay",
+      "category": "concert",
+      "venue": "OM",
+      "city": "Liège",
+      "lat": 50.6073612,
+      "lon": 5.5364634,
+      "start": "2026-11-21T10:00:00",
+      "end": "2026-11-21T10:00:00",
+      "image": null,
+      "page_url": null,
+      "url": "https://shop.paylogic.com/bbce5d8b4a614f4eb3effe9572a167a9/offsale",
+      "summary": "Concert de Suzane + Marie Jay le 21 novembre 2026 (complet).",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
+    },
+    {
       "id": "web-province-de-li-ge-3e-salon-des-viticulteurs-de-la-province-de-li-ge-2026-11-21",
       "title": "3e Salon des Viticulteurs de la Province de Liège",
       "category": "fair",
@@ -4581,6 +4628,29 @@
       "audience": [],
       "tags": [],
       "source": "Ticketmaster"
+    },
+    {
+      "id": "fb-1130331676237951",
+      "title": "Soirée Dias de l’Unité de Neuville 2026",
+      "category": "party",
+      "venue": "Hall Omnisport Rotheu",
+      "city": "Rotheux-Rimière, Liege",
+      "lat": 50.534831969273,
+      "lon": 5.4779279669586,
+      "start": "2026-11-21T15:30:00",
+      "end": "2026-11-22T02:00:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1130331676237951.jpg",
+      "page_url": "https://www.facebook.com/events/1130331676237951/",
+      "url": "https://forms.gle/vaCYsBJLMD3x7T9D6",
+      "summary": "🎞️ Soirée Dias 2026 – Unité de Neuville 🎞️ Chers parents, chers animés, chers amis de l’Unité, Nous avons le plaisir de vous inviter à la deuxième grande soirée dias de l’Unité de Neuville, le samedi 21 novembre 2026 au hall omnisports de Rotheux ! 🎉 Une occasion unique de nous retrouver tous ensemb",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "family"
+      ],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
     },
     {
       "id": "fbx-1428851139355991",
@@ -5756,6 +5826,29 @@
       "classified": true
     },
     {
+      "id": "fb-4748823912043019",
+      "title": "Maurice Barthélemy à Louvain-la-Neuve | Hypersensible, comment bien le vivre ?",
+      "category": "talks",
+      "venue": "Auditoires Agora",
+      "city": "Louvain-la-Neuve",
+      "lat": 50.66902472849,
+      "lon": 4.6121746009424,
+      "start": "2026-11-21T20:00:00",
+      "end": "2026-11-21T21:30:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-4748823912043019.jpg",
+      "page_url": "https://www.facebook.com/events/4748823912043019/",
+      "url": "https://www.sbsr.be/evenements/hypersensible-comment-bien-le-vivre-rencontre-avec-maurice-barthelemy/",
+      "summary": "Et si l'hypersensibilité était une véritable force ? Le samedi 21 novembre, la SBSR accueille Maurice Barthélemy à Louvain-la-Neuve pour une soirée exceptionnelle autour de l'hypersensibilité. 🎭 Acteur, réalisateur et auteur de \"Fort comme un hypersensible\", Maurice Barthélemy partagera son expérien",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
+    },
+    {
       "id": "tm-Z698xZG2Z16vut-88x",
       "title": "Brasero (B) Hommage à Pierre Rapsat",
       "category": "concert",
@@ -5927,6 +6020,29 @@
       "source": "Ticketmaster"
     },
     {
+      "id": "fb-4629979693950860",
+      "title": "Soirée Italienne Vandervalk de Mons",
+      "category": "party",
+      "venue": "Van der Valk Hotel Mons Congrès & Spa",
+      "city": "Mons",
+      "lat": 50.45618,
+      "lon": 3.94064,
+      "start": "2026-11-21T20:30:00",
+      "end": "2026-11-21T23:30:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-4629979693950860.jpg",
+      "page_url": "https://www.facebook.com/events/4629979693950860/",
+      "url": "https://www.facebook.com/events/4629979693950860/",
+      "summary": "Soirée italienne avec le groupe de musique Ciao Italia, sur les plus grands succès de la variété italienne, buffet italien",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
+    },
+    {
       "id": "fbx-1134455485721948",
       "title": "Prima Noctem - Engis",
       "category": "party",
@@ -5985,6 +6101,29 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
+    },
+    {
+      "id": "fb-4167517896714606",
+      "title": "Soirée Célibataire",
+      "category": "party",
+      "venue": "Grand'Route 666, Tournai, Belgique",
+      "city": "Tournai",
+      "lat": 50.59285,
+      "lon": 3.5469,
+      "start": "2026-11-21T23:00:00",
+      "end": "2026-11-22T02:00:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-4167517896714606.jpg",
+      "page_url": "https://www.facebook.com/events/4167517896714606/",
+      "url": "https://www.facebook.com/events/4167517896714606/",
+      "summary": "CE SAMEDI 21 NOVEMBRE, LE ZOOCLUB PASSE EN MODE CÉLIBATAIRE ! ❤️‍🔥 🔥 CÉLIBATAIRE – WOMEN CRUSH 🔥 Mesdames, ce soir-là, vous êtes à l'honneur… 💋 Messieurs, c'est peut-être le moment de provoquer une belle rencontre ! 😉 Que tu sois célibataire, en quête d'un crush ou simplement là pour faire la fête, ",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "young"
+      ],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
     },
     {
       "id": "fbx-1439515704975685",
@@ -6826,9 +6965,7 @@
       "summary": "Grande finale du Mini Mondial d'improvisation théâtrale au Théâtre le Manège à Mons, le 22 novembre 2026. Les équipes invitées de France, de Suisse et du Québec, ainsi que la sélection belge, y disputent le tournoi.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "family"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Mars – Mons arts de la scène"
     },
@@ -6897,24 +7034,27 @@
       "classified": true
     },
     {
-      "id": "fbx-1425335012409894",
-      "title": "Sérénade – récital lyrique voix & guitare",
-      "category": "concert",
+      "id": "fb-1425335012409894",
+      "title": "Sérénade · Récital lyrique voix & guitare · Louvain-La-Neuve",
+      "category": "theatre",
       "venue": "Ferme du Biéreau",
-      "city": "Ottignies-Louvain-la-Neuve",
-      "lat": 50.6658568,
-      "lon": 4.6170755,
+      "city": "Louvain-la-Neuve",
+      "lat": 50.6664,
+      "lon": 4.61829,
       "start": "2026-11-22T17:00:00",
-      "end": "2026-11-22T20:00:00",
-      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fbx-1425335012409894.jpg",
+      "end": "2026-11-22T18:30:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1425335012409894.jpg",
       "page_url": "https://www.facebook.com/events/1425335012409894/",
-      "url": "https://www.facebook.com/events/1425335012409894/",
-      "summary": "Récital lyrique intimiste pour voix et guitare.",
+      "url": "https://www.billetweb.fr/serenade2",
+      "summary": "Sérénade — récital lyrique voix & guitare Une traversée nocturne de l'Europe du XIXe siècle : du Danube à la lagune vénitienne, en passant par Paris et Londres. Le baryton Christian Hohn et le guitariste Valéry Scholastique retrouvent l'esprit premier de la sérénade : les lieder de Schubert et Schum",
       "price_from": null,
       "free": null,
-      "audience": [],
+      "audience": [
+        "adult"
+      ],
       "tags": [],
-      "source": "Facebook (extension)"
+      "source": "Facebook (événement public)",
+      "classified": true
     },
     {
       "id": "fb-1449329067229487",
@@ -6999,6 +7139,29 @@
       "source": "Facebook (extension)"
     },
     {
+      "id": "fb-1084434067843432",
+      "title": "Soirée Latino",
+      "category": "party",
+      "venue": "Scavée du biéreau 2, 1348 Louvain-la-Neuve, Belgium",
+      "city": "Louvain-la-Neuve",
+      "lat": 50.6653,
+      "lon": 4.61707,
+      "start": "2026-11-22T20:00:00",
+      "end": "2026-11-22T23:00:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1084434067843432.jpg",
+      "page_url": "https://www.facebook.com/events/1084434067843432/",
+      "url": "https://www.betch-lln.be/event?tags=%5B3%5D&prevent_redirect=True",
+      "summary": "Sunday Latino Party – Soirée Salsa & Danses Latines 💃 Tous les dimanches dès 20h, viens vivre une soirée 100 % latino dans une ambiance chaleureuse, festive et conviviale ! Au programme : Un cours de salsa dès 20h (niveau intermédiaire) ; À partir de 21h, place à la soirée dansante avec des rythmes ",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
+    },
+    {
       "id": "tm-Z698xZG2Z16vPe0KFp",
       "title": "Damien Gillard: Rude",
       "category": "theatre",
@@ -7075,6 +7238,29 @@
       "audience": [],
       "tags": [],
       "source": "Ticketmaster"
+    },
+    {
+      "id": "fb-1767288421657942",
+      "title": "Soirée casino",
+      "category": "party",
+      "venue": "Le Nom de la Rose (Kot à projet)",
+      "city": "Namur",
+      "lat": 50.46328,
+      "lon": 4.85834,
+      "start": "2026-11-23T20:00:00",
+      "end": "2026-11-23T23:00:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1767288421657942.jpg",
+      "page_url": "https://www.facebook.com/events/1767288421657942/",
+      "url": "https://www.facebook.com/events/1767288421657942/",
+      "summary": "💚soirée casino💚 Tu aimes bluffer, parier, devenir riche ? Le nom de la rose et le kotéjeux te proposent une soirée MEMORABLE !!! Roulette, poker, black jack etc. on a de quoi te faire passer une bonne soirée. 🗓️ Lundi 23 novembre 🕘 20h à 00h 📍 Nom de la rose 🤑 Entrée gratuite 💸 0,50€ les jetons (qui",
+      "price_from": null,
+      "free": true,
+      "audience": [
+        "student"
+      ],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
     },
     {
       "id": "tm-Z698xZG2Z16v_z8ao9",
@@ -7220,6 +7406,29 @@
       "source": "Mars – Mons arts de la scène"
     },
     {
+      "id": "fb-4680016298899522",
+      "title": "Cours de Yoga à Louvain-la-Neuve",
+      "category": "wellness",
+      "venue": "Porte de Lauzelle, rue des Mespelliers, 2 à Louvain-La-Neuve",
+      "city": "Louvain-la-Neuve",
+      "lat": 50.67397,
+      "lon": 4.61771,
+      "start": "2026-11-24T11:00:00",
+      "end": "2026-11-24T14:00:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-4680016298899522.jpg",
+      "page_url": "https://www.facebook.com/events/4680016298899522/",
+      "url": "https://www.facebook.com/events/4680016298899522/",
+      "summary": "Des cours de yoga (viniyoga) ajustés à vos possibilités du moment. Chaque mardi de 11h00 à 12h00 à Louvain-la-Neuve Vivre les postures à son rythme, à l'écoute de son corps. Laisser libre cours à la respiration, aux mouvements. Nourrir ancrage et fluidité, tonicité et détente., équilibre. Poser le m",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
+    },
+    {
       "id": "tm-Z698xZG2Z1AEfa4p",
       "title": "Westlife 25 | be•at Premium Comfort Experience",
       "category": "concert",
@@ -7257,6 +7466,29 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
+    },
+    {
+      "id": "fb-1147850851438740",
+      "title": "Soirée Movember",
+      "category": "talks",
+      "venue": "Chaussée de Louvain 226, 5004",
+      "city": "Namur",
+      "lat": 50.4747,
+      "lon": 4.87404,
+      "start": "2026-11-24T19:00:00",
+      "end": "2026-11-24T22:00:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1147850851438740.jpg",
+      "page_url": "https://www.facebook.com/events/1147850851438740/",
+      "url": "https://www.facebook.com/events/1147850851438740/",
+      "summary": "La section MR de Namur participe à l'action Movember en organisant une soirée de sensoibilisation et de débat autour de la thématique des cancers masculins. Des professionnels de la santé seront présent pour animer les débats. Le bar sera ensuite ouvert pour prolonger les conversations. Une partie d",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
     },
     {
       "id": "fbx-920654124137608",
@@ -7311,12 +7543,57 @@
       "image": null,
       "page_url": "https://www.surmars.be/agenda/2026-11/musique/thierree-satie-microvers",
       "url": "https://shop.infinitix.be/SURMARSBE_INF/S/AD9963FD-E542-BA44-1D10-572810DC1EB7/?d=13F3FFC2-845F-3E49-FA24-46DDEEB67167",
-      "summary": "Spectacle Thierrée, Satie : Microvers proposé le mardi 24 novembre à 20h00.",
+      "summary": "Concert Thierrée, Satie : Microvers, mardi 24 novembre à 20h00 à Mars.",
       "price_from": 3.0,
       "free": false,
       "audience": [],
       "tags": [],
       "source": "Mars – Mons arts de la scène"
+    },
+    {
+      "id": "fb-29475386532057557",
+      "title": "🌴 LA VILLA 💋 La soirée célibataires",
+      "category": "party",
+      "venue": "Place du marché aux herbes 24, Mons, Belgique",
+      "city": "Mons",
+      "lat": 50.45284,
+      "lon": 3.95259,
+      "start": "2026-11-24T21:00:00",
+      "end": "2026-11-24T23:55:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-29475386532057557.jpg",
+      "page_url": "https://www.facebook.com/events/29475386532057557/",
+      "url": "https://www.facebook.com/events/29475386532057557/",
+      "summary": "🌴 LA VILLA 💋 La soirée célibataires du The Play Tous les mardis, viens faire la fête à La Villa : une soirée placée sous le signe des rencontres, du flirt et des bonnes vibes… Qui sait, tu repartiras peut-être accompagné(e) 😉✨ 🍸 Promo pour les filles Un Lipstick ou un Porn Star acheté = le deuxième ",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "young"
+      ],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
+    },
+    {
+      "id": "web-reflektor-li-ge-z-lie-2026-11-25",
+      "title": "Zélie",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2026-11-25T10:00:00",
+      "end": "2026-11-25T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/zelie/",
+      "url": "https://shop.paylogic.com/a625f7a9d0b0464ab78c04dace462f65/",
+      "summary": "Concert de Zélie au Reflektor, le 25 novembre 2026 (complet).",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "young"
+      ],
+      "tags": [],
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "web-les-grignoux-cin-ma-li-ge-sneak-preview-avant-premi-re-myst-re-2026-11-25",
@@ -7476,6 +7753,29 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
+    },
+    {
+      "id": "fb-1670971691063262",
+      "title": "Soirée ouverte avec Michel",
+      "category": "wellness",
+      "venue": "Rue du Collège 2, 1348 Ottignies-Louvain-la-Neuve, Belgique",
+      "city": "Louvain-la-Neuve",
+      "lat": 50.66657,
+      "lon": 4.6167,
+      "start": "2026-11-25T19:30:00",
+      "end": "2026-11-25T22:00:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1670971691063262.jpg",
+      "page_url": "https://www.facebook.com/events/1670971691063262/",
+      "url": "https://www.dancetribe.be/votre-premier-cours/",
+      "summary": "Les soirées ouvertes sont accessibles à tou(te)s, quelle que soit votre expérience. Si c'est la première fois que vous venez danser les 5 rythmes, nous vous invitons simplement à lire ceci: https://www.dancetribe.be/votre-premier-cours/ pour entrer plus facilement dans le bain. Bienvenue ! Pour qui:",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
     },
     {
       "id": "fbx-2582811828907686",
@@ -7716,6 +8016,28 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
+    },
+    {
+      "id": "web-reflektor-li-ge-wednesday-13-the-birthday-massacre-killus-2026-11-26",
+      "title": "Wednesday 13 + THE BIRTHDAY MASSACRE + Killus",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2026-11-26T10:00:00",
+      "end": "2026-11-26T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/wednesday-13-the-birthday-massacre-killus/",
+      "url": "https://shop.paylogic.com/90c9c7bcf5f24858904d6800adc49738",
+      "summary": "Concert de Wednesday 13, The Birthday Massacre et Killus au Reflektor, le 26 novembre 2026.",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "young"
+      ],
+      "tags": [],
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "web-les-grignoux-cin-ma-li-ge-le-faux-soir-avant-premi-re-2026-11-26",
@@ -7963,6 +8285,29 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
+    },
+    {
+      "id": "fb-1151486910594161",
+      "title": "Soirée jeu \"Banco\" avec Attac Liège",
+      "category": "geek",
+      "venue": "10 rue des carmes, Liège, Belgique",
+      "city": "Liège",
+      "lat": 50.64017,
+      "lon": 5.57469,
+      "start": "2026-11-26T19:00:00",
+      "end": "2026-11-26T22:00:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1151486910594161.jpg",
+      "page_url": "https://www.facebook.com/events/1151486910594161/",
+      "url": "https://www.facebook.com/events/1151486910594161/",
+      "summary": "Attac Liège animera le jeu Banco le jeudi 26 novembre dès 19h à l'Echecs et malt ! Serez-vous le meilleur gestionnaire ? 🤑",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
     },
     {
       "id": "fbx-2096013534601071",
@@ -8365,6 +8710,29 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
+    },
+    {
+      "id": "fb-1153141633855196",
+      "title": "Soirée salsa bachata",
+      "category": "party",
+      "venue": "Rue des Bouchers, 5000 Namur, Belgique",
+      "city": "Namur",
+      "lat": 50.46215,
+      "lon": 4.86866,
+      "start": "2026-11-26T21:00:00",
+      "end": "2026-11-27T00:00:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1153141633855196.jpg",
+      "page_url": "https://www.facebook.com/events/1153141633855196/",
+      "url": "https://www.facebook.com/events/1153141633855196/",
+      "summary": "💃❤️ SOIRÉE gratuite ! SALSA & BACHATA ! ❤️💃 Envie de partager un moment, de danser, de rire et de profiter d’une belle ambiance ? Alors cette soirée est faite pour vous ! 🥰 📅 JEUDI 26 NOVEMBRE 🕘 À PARTIR DE 21H00 Nous vous accueillons chaleureusement à l’intérieur du restaurant pour une soirée placé",
+      "price_from": null,
+      "free": true,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
     },
     {
       "id": "web-madame-moustache-bruxelles-dancefloor-radiomix-2026-11-26",
@@ -8782,6 +9150,29 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
+    },
+    {
+      "id": "fb-1694123142234870",
+      "title": "Soirée Orientale",
+      "category": "party",
+      "venue": "Institut Saint-Joseph Liège",
+      "city": "Liège",
+      "lat": 50.64593360408,
+      "lon": 5.5607353832386,
+      "start": "2026-11-27T18:00:00",
+      "end": "2026-11-27T23:59:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1694123142234870.jpg",
+      "page_url": "https://www.facebook.com/events/1694123142234870/",
+      "url": "https://forms.gle/wjUJJP1zuwxL9BwK6",
+      "summary": "Nous avons le plaisir de vous inviter à une soirée qui nous tient particulièrement à cœur. Le vendredi 27 novembre à partir de 18h, La Baraka organise sa Soirée orientale de soutien : un moment festif et convivial pour se retrouver autrement, autour d’un bon repas, d’animations et d’une ambiance cha",
+      "price_from": 17.0,
+      "free": false,
+      "audience": [
+        "young"
+      ],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
     },
     {
       "id": "fbx-29243841645208768",
@@ -11798,6 +12189,27 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
+      "id": "fb-1878245660023614",
+      "title": "Carine Lefevre au marché de Noël de Louvain-la-Neuve",
+      "category": "fair",
+      "venue": "Louvain-la-Neuve",
+      "city": "Louvain-la-Neuve",
+      "lat": 50.6833,
+      "lon": 4.61667,
+      "start": "2026-11-30T11:30:00",
+      "end": "2026-11-30T14:30:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1878245660023614.jpg",
+      "page_url": "https://www.facebook.com/events/1878245660023614/",
+      "url": "https://www.facebook.com/events/1878245660023614/",
+      "summary": "Pour ceux qui me connaissent, vous savez que ma période préférée c’est Noël et surtout mon petit bonheur c’est de participer concrètement aux marchés de Noël. Cette année j’ai attendu la dernière minute pour l’annoncer car avec mes très nombreux voyages professionnels je ne pensais pas pouvoir confi",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
+    },
+    {
       "id": "tm-Z698xZG2Z1kj34SPU",
       "title": "Lords of the Sound",
       "category": "concert",
@@ -12324,6 +12736,26 @@
       "audience": [],
       "tags": [],
       "source": "Ticketmaster"
+    },
+    {
+      "id": "web-reflektor-li-ge-naft-2026-12-03",
+      "title": "Naft",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2026-12-03T10:00:00",
+      "end": "2026-12-03T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/naft/",
+      "url": "https://shop.paylogic.com/1ec952da2efd444ca4a852a1a3544f5c/offsale",
+      "summary": "Concert de Naft au Reflektor, le 3 décembre 2026.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "fbx-2595264687638507",
@@ -13310,6 +13742,26 @@
       "source": "Facebook (extension)"
     },
     {
+      "id": "web-reflektor-li-ge-syd-matters-2026-12-05",
+      "title": "Syd Matters",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2026-12-05T10:00:00",
+      "end": "2026-12-05T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/syd-matters/",
+      "url": "https://shop.paylogic.com/d66e729cb25046838dec1f3e5834fcf1",
+      "summary": "Concert de Syd Matters au Reflektor, le 5 décembre 2026.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
+    },
+    {
       "id": "web-grand-curtius-li-ge-concert-autour-des-manuscrits-de-paganini-2026-12-05",
       "title": "Concert autour des manuscrits de Paganini",
       "category": "concert",
@@ -13993,6 +14445,29 @@
       "classified": true
     },
     {
+      "id": "fb-1006657729174609",
+      "title": "Soirée BALKAN HABIBI - Fusion balkan & orientale, Liège",
+      "category": "party",
+      "venue": "Rue Roture 80, 4020 Liège, Belgium",
+      "city": "Liège",
+      "lat": 50.63935,
+      "lon": 5.58224,
+      "start": "2026-12-05T23:00:00",
+      "end": "2026-12-06T02:00:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1006657729174609.jpg",
+      "page_url": "https://www.facebook.com/events/1006657729174609/",
+      "url": "https://www.facebook.com/events/1006657729174609/",
+      "summary": "BALKAN HABIBI • Where East meets East. 🪬 Two cultures. One dancefloor. No limits. Quand les sonorités orientales rencontrent la folie des Balkans, la nuit prend une tout autre dimension! Pour la première fois à Liège, plongez dans une soirée entièrement dédiée à la fusion des cultures balkaniques et",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "young"
+      ],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
+    },
+    {
       "id": "fb-1845116666866647",
       "title": "Ngondo Bruxelles 2026",
       "category": "festival",
@@ -14113,6 +14588,28 @@
       "source": "Facebook (extension)"
     },
     {
+      "id": "web-reflektor-li-ge-la-saint-nicolas-du-regina-club-andre-borbe-presente-borbest-of-",
+      "title": "LA SAINT-NICOLAS DU REGINA CLUB : ANDRE BORBE PRESENTE BORBEST'OF",
+      "category": "concert",
+      "venue": "Regina Club",
+      "city": "Liège",
+      "lat": 50.6450944,
+      "lon": 5.5736112,
+      "start": "2026-12-06T10:00:00",
+      "end": "2026-12-06T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/la-saint-nicolas-du-regina-club-andre-borbe-presente-borbestof/",
+      "url": "https://shop.paylogic.com/a17b4af8083a4f12993bffc7e7d94283",
+      "summary": "La Saint-Nicolas du Regina Club avec André Borbe présente Borbest'of, le 6 décembre 2026.",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "young"
+      ],
+      "tags": [],
+      "source": "Reflektor (Liège)"
+    },
+    {
       "id": "web-grand-curtius-li-ge-cr-amus-e-des-diablotins-paillettes-en-pr-sence-de-saint-nic",
       "title": "Créamusée des diablotins : paillettes en présence de Saint-Nicolas",
       "category": "family",
@@ -14169,7 +14666,7 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Bandits-les-cowboys-de-l-espace.jpeg.webp?itok=-QRgRxt9",
       "page_url": "https://www.surmars.be/agenda/2026-12/musique/bandits-les-cowboys-de-lespace",
       "url": "https://www.surmars.be/agenda/2026-12/musique/bandits-les-cowboys-de-lespace",
-      "summary": "Des cowboys de l'espace en santiags à paillettes slaloment entre cactus imaginaires et refrains qui font danser et rire.",
+      "summary": "Des cowboys de l'espace et des super-héros slaloment entre cactus imaginaires et refrains qui font danser et rire, dans un Far West intersidéral.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -14240,6 +14737,27 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
+    },
+    {
+      "id": "fb-2649782142145050",
+      "title": "Atelier chocolat",
+      "category": "workshop",
+      "venue": "Louvain-la-Neuve",
+      "city": "Louvain-la-Neuve",
+      "lat": 50.6833,
+      "lon": 4.61667,
+      "start": "2026-12-06T14:00:00",
+      "end": "2026-12-06T17:00:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-2649782142145050.jpg",
+      "page_url": "https://www.facebook.com/events/2649782142145050/",
+      "url": "https://www.atelier-chocolat.be/contact-4",
+      "summary": "Chaque dimanche du Marché de Noël de Louvain La Neige, venez créer vos propres pralines et repartez avec vos délicieuses créations.Dimanche 6, 12, 13 et Dimanche 20 décembre. 18 € par personne. inscription sur https://www.atelier-chocolat.be/contact-4",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
     },
     {
       "id": "tm-Z698xZG2Z16v4PbxPK",
@@ -14638,6 +15156,29 @@
       "source": "Facebook (extension)"
     },
     {
+      "id": "fb-1123163950498925",
+      "title": "Cinquante ans de droit à Louvain-La-Neuve racontés par des anciens étudiants",
+      "category": "talks",
+      "venue": "Collège Thomas More, Louvain-La-Neuve",
+      "city": "Louvain-la-Neuve",
+      "lat": 50.66683,
+      "lon": 4.61663,
+      "start": "2026-12-08T18:00:00",
+      "end": "2026-12-08T21:00:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1123163950498925.jpg",
+      "page_url": "https://www.facebook.com/events/1123163950498925/",
+      "url": "https://www.facebook.com/events/1123163950498925/",
+      "summary": "📣 Le 8 décembre, les Alumni droit seront mis à l'honneur! A l'occasion de la présentation du numéro spécial de la Louvain Law Review ( Larcier-Intersentia ), replongez-vousdans vos souvenirs académiques et extra-académiques de vos années à la Faculté de Droit et Criminologie (UCLouvain): cours, prof",
+      "price_from": null,
+      "free": true,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
+    },
+    {
       "id": "fb-2545184729325145",
       "title": "Ladies Night « Changer l’eau des fleurs »",
       "category": "party",
@@ -14837,6 +15378,46 @@
       "source": "Ticketmaster"
     },
     {
+      "id": "web-reflektor-li-ge-emel-2026-12-09",
+      "title": "Emel",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2026-12-09T10:00:00",
+      "end": "2026-12-09T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/emel/",
+      "url": "https://shop.paylogic.com/2a4a6d38ec4143789b1350935d75ba63",
+      "summary": "Concert d'Emel au Reflektor, le 9 décembre 2026.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
+    },
+    {
+      "id": "web-reflektor-li-ge-kahil-el-zabar-isaiah-collier-duo-2026-12-09",
+      "title": "Kahil El'Zabar & Isaiah Collier Duo",
+      "category": "concert",
+      "venue": "Regina Club",
+      "city": "Liège",
+      "lat": 50.6450944,
+      "lon": 5.5736112,
+      "start": "2026-12-09T10:00:00",
+      "end": "2026-12-09T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/kahil-elzabar-isaiah-collier-duo/",
+      "url": "https://shop.paylogic.com/ff0a55215fdb41c1a822a4b119df2f25",
+      "summary": "Concert du duo Kahil El'Zabar & Isaiah Collier au Regina Club, le 9 décembre 2026.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
+    },
+    {
       "id": "tm-Z698xZG2Z1ku-oVQ7",
       "title": "Oliver Twist",
       "category": "theatre",
@@ -15031,11 +15612,13 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/FMS-Perichorese.jpg.webp?itok=pTyPP51F",
       "page_url": "https://www.surmars.be/agenda/2026-12/musique/perichorese",
       "url": "https://www.surmars.be/agenda/2026-12/musique/perichorese",
-      "summary": "Il fut un temps où Musulmans, Juifs et Chrétiens dansaient ensemble sur les rives de la Méditerranée.",
+      "summary": "Concert de musique du monde : il fut un temps où Musulmans, Juifs et Chrétiens dansaient ensemble sur les rives de la Méditerranée.",
       "price_from": null,
       "free": null,
       "audience": [],
-      "tags": [],
+      "tags": [
+        "découverte"
+      ],
       "source": "Mars – Mons arts de la scène"
     },
     {
@@ -15478,6 +16061,28 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
+    },
+    {
+      "id": "web-reflektor-li-ge-didier-super-et-son-groupe-discount-boum-patat-2026-12-11",
+      "title": "Didier Super et son groupe Discount + Boum Patat",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2026-12-11T10:00:00",
+      "end": "2026-12-11T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/didier-super-et-son-groupe-discount/",
+      "url": "https://shop.paylogic.com/a1174aa8c6cc43fd9283a8722b3054b1",
+      "summary": "Concert de Didier Super et son groupe Discount + Boum Patat au Reflektor, le 11 décembre 2026.",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "young"
+      ],
+      "tags": [],
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "web-recyclart-bruxelles-molenlight-2026-12-11",
@@ -17819,28 +18424,6 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-mars-mons-arts-de-la-sc-ne-le-p-tit-march-de-no-l-des-cr-ateur-rices-2026-12-16",
-      "title": "Le P'tit Marché de Noël des créateur·rices",
-      "category": "fair",
-      "venue": "La P'tite Maison Folie",
-      "city": "Mons",
-      "lat": 50.4549568,
-      "lon": 3.951958,
-      "start": "2026-12-16T14:00:00",
-      "end": "2026-12-16T21:00:00",
-      "image": "https://www.surmars.be/sites/default/files/styles/w960/public/2026-11/Marche%CC%81%20de%20Noel%20-%201%20%C2%A9%20David%20Bormans%202.jpg?itok=Liv4P-L3",
-      "page_url": "https://www.surmars.be/actualites/appel-aux-createurrices-le-ptit-marche-de-noel-0",
-      "url": "https://www.surmars.be/actualites/appel-aux-createurrices-le-ptit-marche-de-noel-0",
-      "summary": "Le P'tit Marché de Noël des créateur·rices revient à la P'tite Maison Folie : créateur·rices, entrepreneur·ses et artisan·nes y vendent leurs créations et présentent leurs projets pour un Noël plus durable. Une vingtaine de stands sont proposés, sur sélection.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [
-        "créatif"
-      ],
-      "source": "Mars – Mons arts de la scène"
-    },
-    {
       "id": "fbx-1061820813370564",
       "title": "CinéGesves : Un simple accident",
       "category": "cinema",
@@ -17976,6 +18559,28 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
+    },
+    {
+      "id": "web-reflektor-li-ge-kid-sophie-fanny-2026-12-17",
+      "title": "KID SOPHIE + FANNY",
+      "category": "concert",
+      "venue": "Regina Club",
+      "city": "Liège",
+      "lat": 50.6450944,
+      "lon": 5.5736112,
+      "start": "2026-12-17T10:00:00",
+      "end": "2026-12-17T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/kid-sophie-fanny/",
+      "url": "https://shop.paylogic.com/b5c5cda405104373806df413ce341b59",
+      "summary": "Concert de Kid Sophie + Fanny au Regina Club, le 17 décembre 2026.",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "young"
+      ],
+      "tags": [],
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "fbx-1517966460178272",
@@ -18221,6 +18826,26 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
+    },
+    {
+      "id": "web-reflektor-li-ge-the-jazz-room-un-hommage-frank-sinatra-et-louis-armstrong-12-202",
+      "title": "The Jazz Room : un hommage à Frank Sinatra et à Louis Armstrong (12/2026)",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2026-12-18T10:00:00",
+      "end": "2026-12-18T10:00:00",
+      "image": "https://www.livecafe.be/assets/frontend/images/facebook.jpg?v=104",
+      "page_url": "https://reflektor.be/concert/the-jazz-room-un-hommage-a-frank-sinatra-et-a-louis-armstrong-12-2026/",
+      "url": "https://www.livecafe.be/billetterie/cookie-collectif",
+      "summary": "Concert The Jazz Room, hommage à Frank Sinatra et Louis Armstrong, le 18 décembre 2026.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "fbx-1107879635354135",
@@ -18799,6 +19424,28 @@
       "source": "Facebook (extension)"
     },
     {
+      "id": "web-reflektor-li-ge-cookie-festival-2026-12-19",
+      "title": "COOKIE FESTIVAL",
+      "category": "festival",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2026-12-19T10:00:00",
+      "end": "2026-12-19T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/cookie-festival/",
+      "url": "https://feverup.com/m/521008/fr",
+      "summary": "Cookie Festival au Reflektor, le 19 décembre 2026.",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "young"
+      ],
+      "tags": [],
+      "source": "Reflektor (Liège)"
+    },
+    {
       "id": "tm-Z698xZG2Z1kjdvYbZ",
       "title": "WINTER CIRCUS CAMILLE",
       "category": "concert",
@@ -18956,6 +19603,27 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
+    },
+    {
+      "id": "fb-2424707678271420",
+      "title": "Soirée de louange à Bruxelles – Clara Shalom",
+      "category": "culture",
+      "venue": "Chaussée de Mons 1263, anderlecht",
+      "city": "Anderlecht",
+      "lat": 50.81822,
+      "lon": 4.29145,
+      "start": "2026-12-19T18:30:00",
+      "end": "2026-12-19T22:30:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-2424707678271420.jpg",
+      "page_url": "https://www.facebook.com/events/2424707678271420/",
+      "url": "https://www.facebook.com/events/2424707678271420/",
+      "summary": "« Lève-toi, sois éclairée, car ta lumière arrive, et la gloire de l’Éternel se lève sur toi. » Ésaïe 60:1 Je vous invite à une soirée de louange, à la découverte de mon EP Plus de toi. Ce ne sera pas un simple concert. Ce sera un moment pour adorer ensemble. Pour poser nos fardeaux. Pour chercher sa",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
     },
     {
       "id": "fbx-2830372907333111",
@@ -20203,6 +20871,29 @@
       "source": "Ticketmaster"
     },
     {
+      "id": "fb-1606962440554445",
+      "title": "soiree saint sylvestre",
+      "category": "party",
+      "venue": "Keumiée, Namur, Belgium",
+      "city": "Fleurus",
+      "lat": 50.4677,
+      "lon": 4.59451,
+      "start": "2026-12-31T18:30:00",
+      "end": "2026-12-31T21:30:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1606962440554445.jpg",
+      "page_url": "https://www.facebook.com/events/1606962440554445/",
+      "url": "https://www.facebook.com/events/1606962440554445/",
+      "summary": "reveillon de nouvel an",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
+    },
+    {
       "id": "fb-1744152976823824",
       "title": "Soirée nouvel an",
       "category": "party",
@@ -20220,6 +20911,29 @@
       "free": null,
       "audience": [
         "family"
+      ],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
+    },
+    {
+      "id": "fb-1489674929710470",
+      "title": "Soirée de nouvel an",
+      "category": "party",
+      "venue": "Denée, Namur, Belgium",
+      "city": "Anhée",
+      "lat": 50.3167,
+      "lon": 4.75,
+      "start": "2026-12-31T19:00:00",
+      "end": "2026-12-31T22:00:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1489674929710470.jpg",
+      "page_url": "https://www.facebook.com/events/1489674929710470/",
+      "url": "https://www.facebook.com/events/1489674929710470/",
+      "summary": "�� DENÉE, PRÊTS À FÊTER 2027 ENSEMBLE ? � Cette année, venez célébrer le passage à la nouvelle année dans une ambiance festive et conviviale à la Salle d’Anjou de Denée ! � Au programme : � Buffet froid et buffet chaud � Boissons à volonté (softs, vins et bières) � DJ pour danser toute la soirée � T",
+      "price_from": null,
+      "free": true,
+      "audience": [
+        "adult"
       ],
       "tags": [],
       "source": "Facebook (événement public)",
@@ -20563,6 +21277,26 @@
       "source": "Le Forum (Liège)"
     },
     {
+      "id": "web-reflektor-li-ge-blind-test-de-l-om-sp-cial-90s-2027-01-08",
+      "title": "Blind-test de l'OM: spécial 90s",
+      "category": "culture",
+      "venue": "OM",
+      "city": "Liège",
+      "lat": 50.6073612,
+      "lon": 5.5364634,
+      "start": "2027-01-08T10:00:00",
+      "end": "2027-01-08T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/blind-test-de-lom-special-90s-2/",
+      "url": "https://shop.paylogic.com/ddd236c905a444638e776f1f14fb4d8c",
+      "summary": "Blind-test de l'OM spécial années 90, le 8 janvier 2027 (derniers tickets).",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
+    },
+    {
       "id": "fbx-1618813822420257",
       "title": "New Year's Glow 2027 - Concert du Nouvel An",
       "category": "concert",
@@ -20700,6 +21434,26 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
+    },
+    {
+      "id": "web-reflektor-li-ge-the-jazz-room-un-voyage-au-c-ur-de-la-nouvelle-orl-ans-2027-01-0",
+      "title": "The Jazz Room : un voyage au cœur de La Nouvelle-Orléans",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2027-01-09T10:00:00",
+      "end": "2027-01-09T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/the-jazz-room-un-voyage-au-coeur-de-la-nouvelle-orleans/",
+      "url": "https://shop.paylogic.com/e528734395f748d29122d4fd79f121c5",
+      "summary": "Concert The Jazz Room, un voyage au cœur de La Nouvelle-Orléans, le 9 janvier 2027.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "fbx-1691007218667503",
@@ -21587,6 +22341,26 @@
       "source": "Ticketmaster"
     },
     {
+      "id": "web-reflektor-li-ge-charles-dor-2027-01-21",
+      "title": "Charles Doré",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2027-01-21T10:00:00",
+      "end": "2027-01-21T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/charles-dore/",
+      "url": "https://shop.paylogic.com/d47b72fedfb249f88dd158e7287f0263",
+      "summary": "Concert de Charles Doré au Reflektor, le 21 janvier 2027.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
+    },
+    {
       "id": "web-le-forum-li-ge-mathieu-stepson-2027-01-21",
       "title": "MATHIEU STEPSON",
       "category": "theatre",
@@ -22282,6 +23056,26 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
+    },
+    {
+      "id": "web-reflektor-li-ge-piche-2027-01-29",
+      "title": "Piche",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2027-01-29T10:00:00",
+      "end": "2027-01-29T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/piche/",
+      "url": "https://shop.paylogic.com/f918054df7a245e18d137c19a35b84f0",
+      "summary": "Concert de Piche au Reflektor, le 29 janvier 2027.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "web-trix-anvers-big-muffin-2027-01-29",
@@ -22982,6 +23776,26 @@
       "source": "Ticketmaster"
     },
     {
+      "id": "web-reflektor-li-ge-bardix-le-gaulois-2027-02-05",
+      "title": "Bardix le Gaulois",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2027-02-05T10:00:00",
+      "end": "2027-02-05T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/bardix-le-gaulois/",
+      "url": "https://shop.paylogic.com/21b05858747541138e3db4afc5d1efbf",
+      "summary": "Concert de Bardix le Gaulois au Reflektor, le 5 février 2027.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
+    },
+    {
       "id": "fb-2859315857800632",
       "title": "LATIN DREAMS FESTIVAL 2027",
       "category": "festival",
@@ -23080,6 +23894,26 @@
       "audience": [],
       "tags": [],
       "source": "Ticketmaster"
+    },
+    {
+      "id": "web-reflektor-li-ge-black-box-revelation-2027-02-06",
+      "title": "Black Box Revelation",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2027-02-06T10:00:00",
+      "end": "2027-02-06T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/black-box-revelation-2/",
+      "url": "https://shop.paylogic.com/339752fbb7534d6ab2858c66698909c5",
+      "summary": "Concert de Black Box Revelation au Reflektor, le 6 février 2027.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "web-het-depot-louvain-the-bootleg-beatles-2027-02-06",
@@ -23412,6 +24246,29 @@
       "price_from": null,
       "free": null,
       "audience": [],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
+    },
+    {
+      "id": "fb-2982760438725934",
+      "title": "Soirée Méditation \" Mon espace, mes limites\"",
+      "category": "wellness",
+      "venue": "18 Chemin du Bas Mont , 7812 Ath, Belgium",
+      "city": "Ath",
+      "lat": 50.66085,
+      "lon": 3.70021,
+      "start": "2027-02-11T18:30:00",
+      "end": "2027-02-11T20:30:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-2982760438725934.jpg",
+      "page_url": "https://www.facebook.com/events/2982760438725934/",
+      "url": "https://www.facebook.com/events/2982760438725934/",
+      "summary": "Apprendre à dire non, c'est se dire oui. ✨ Avez-vous parfois l'impression de vous oublier pour faire plaisir aux autres ? Nos limites ne sont pas des murs pour nous isoler, mais des repères précieux pour préserver notre énergie et notre paix intérieure. Le temps d'une soirée, offrez-vous une parenth",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "adult"
+      ],
       "tags": [],
       "source": "Facebook (événement public)",
       "classified": true
@@ -23893,6 +24750,26 @@
       "classified": true
     },
     {
+      "id": "web-reflektor-li-ge-sam-bettens-2027-02-18",
+      "title": "Sam Bettens",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2027-02-18T10:00:00",
+      "end": "2027-02-18T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/sam-bettens/",
+      "url": "https://shop.paylogic.com/20de10831e7b4cbabfcf7d7b62ea4fe8/",
+      "summary": "Concert de Sam Bettens au Reflektor, le 18 février 2027.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
+    },
+    {
       "id": "tm-Z698xZG2Z1A3rZZa",
       "title": "Malcolm Todd: Do That Again Tour",
       "category": "concert",
@@ -24068,6 +24945,26 @@
       "tags": [],
       "source": "Facebook (événement public)",
       "classified": true
+    },
+    {
+      "id": "web-reflektor-li-ge-no-preszow-2027-02-20",
+      "title": "Noé Preszow",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2027-02-20T10:00:00",
+      "end": "2027-02-20T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/noe-preszow-2/",
+      "url": "https://shop.paylogic.com/5863b3f1655d4655936b60522551e31c",
+      "summary": "Concert de Noé Preszow au Reflektor, le 20 février 2027.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "tm-Z698xZG2Z1ku8C37E",
@@ -24397,6 +25294,26 @@
       "source": "Ticketmaster"
     },
     {
+      "id": "web-reflektor-li-ge-perceval-2027-02-26",
+      "title": "Perceval",
+      "category": "concert",
+      "venue": "OM",
+      "city": "Liège",
+      "lat": 50.6073612,
+      "lon": 5.5364634,
+      "start": "2027-02-26T10:00:00",
+      "end": "2027-02-26T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/perceval/",
+      "url": "https://shop.paylogic.com/882e7700ceea44eba0878628fd45d5ee",
+      "summary": "Concert de Perceval le 26 février 2027.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
+    },
+    {
       "id": "web-het-depot-louvain-cool-festival-27-2027-02-26",
       "title": "COOL Festival '27",
       "category": "festival",
@@ -24654,6 +25571,28 @@
       "source": "Ticketmaster"
     },
     {
+      "id": "web-reflektor-li-ge-pony-pony-run-run-2027-03-04",
+      "title": "Pony Pony Run Run",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2027-03-04T10:00:00",
+      "end": "2027-03-04T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/pony-pony-run-run/",
+      "url": "https://shop.paylogic.com/351bd441de3b42be96c54a25410a21a6/",
+      "summary": "Concert de Pony Pony Run Run au Reflektor, le 4 mars 2027.",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "young"
+      ],
+      "tags": [],
+      "source": "Reflektor (Liège)"
+    },
+    {
       "id": "tm-Z698xZG2Z1kaU8tZw",
       "title": "The Music of Harry Potter – A Symphonic Experience",
       "category": "concert",
@@ -24728,6 +25667,26 @@
       "audience": [],
       "tags": [],
       "source": "Ticketmaster"
+    },
+    {
+      "id": "web-reflektor-li-ge-exsonvaldes-2027-03-05",
+      "title": "EXSONVALDES",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2027-03-05T10:00:00",
+      "end": "2027-03-05T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/exsonvaldes/",
+      "url": "https://shop.paylogic.com/a82b7df1f3194e9f8e1566977161e4ec",
+      "summary": "Concert d'Exsonvaldes au Reflektor, le 5 mars 2027.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "web-trix-anvers-kookaburra-2027-03-05",
@@ -24847,6 +25806,26 @@
       "audience": [],
       "tags": [],
       "source": "Ticketmaster"
+    },
+    {
+      "id": "web-reflektor-li-ge-the-jazz-room-un-hommage-frank-sinatra-et-louis-armstrong-03-202",
+      "title": "The Jazz Room : un hommage à Frank Sinatra et à Louis Armstrong (03/2027)",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2027-03-06T10:00:00",
+      "end": "2027-03-06T10:00:00",
+      "image": "https://reflektor.be/wp-content/uploads/2026/02/628533-The-Jazz-Room-Paris-1-82e29e-original-1763724982-scaled-1.jpg",
+      "page_url": "https://reflektor.be/concert/the-jazz-room-un-hommage-a-frank-sinatra-et-a-louis-armstrong-03-2027/",
+      "url": "https://reflektor.be/concert/the-jazz-room-un-hommage-a-frank-sinatra-et-a-louis-armstrong-03-2027/",
+      "summary": "Concert hommage à Frank Sinatra et Louis Armstrong, dont les chansons sont réinterprétées par un groupe dans un cadre intimiste au Reflektor à Liège. Au programme : Fly Me to the Moon, My Way, What a Wonderful World et When You're Smiling, pour une durée d'1h.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "tm-Z698xZG2Z16v174k-P",
@@ -25022,6 +26001,26 @@
       "audience": [],
       "tags": [],
       "source": "Ticketmaster"
+    },
+    {
+      "id": "web-reflektor-li-ge-eosine-2027-03-12",
+      "title": "Eosine",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2027-03-12T10:00:00",
+      "end": "2027-03-12T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/eosine-2/",
+      "url": "https://shop.paylogic.com/03f041539bfe460ba7be3f64aebb9b96",
+      "summary": "Concert d'Eosine au Reflektor, le 12 mars 2027.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "tm-Z698xZG2Z1AyOSPb",
@@ -25217,6 +26216,29 @@
       "source": "Ticketmaster"
     },
     {
+      "id": "fb-2177762916448946",
+      "title": "Soirée Blind test",
+      "category": "party",
+      "venue": "Place Verte 17, 6000 Charleroi, Belgique",
+      "city": "Charleroi",
+      "lat": 50.4075,
+      "lon": 4.44186,
+      "start": "2027-03-13T18:00:00",
+      "end": "2027-03-14T00:00:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-2177762916448946.jpg",
+      "page_url": "https://www.facebook.com/events/2177762916448946/",
+      "url": "https://www.facebook.com/events/2177762916448946/",
+      "summary": "Soirée Blind test",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
+    },
+    {
       "id": "web-le-forum-li-ge-les-femmes-ont-toujours-raison-2027-03-13",
       "title": "LES FEMMES ONT TOUJOURS RAISON",
       "category": "concert",
@@ -25330,6 +26352,26 @@
       "audience": [],
       "tags": [],
       "source": "Ticketmaster"
+    },
+    {
+      "id": "web-reflektor-li-ge-gwendoline-2027-03-16",
+      "title": "Gwendoline",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2027-03-16T10:00:00",
+      "end": "2027-03-16T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/gwendoline/",
+      "url": "https://shop.paylogic.com/351bd441de3b42be96c54a25410a21a6/",
+      "summary": "Concert de Gwendoline au Reflektor, le 16 mars 2027.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "tm-Z698xZG2Z1krK-N8s",
@@ -25609,6 +26651,26 @@
       "classified": true
     },
     {
+      "id": "web-reflektor-li-ge-the-chameleons-2027-03-21",
+      "title": "The Chameleons",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2027-03-21T10:00:00",
+      "end": "2027-03-21T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/the-chameleons/",
+      "url": "https://shop.paylogic.com/3c859bbfa60b40a69566b9a4144a45f8",
+      "summary": "Concert de The Chameleons au Reflektor, le 21 mars 2027.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
+    },
+    {
       "id": "web-le-forum-li-ge-le-temps-qui-reste-2027-03-21",
       "title": "\" LE TEMPS QUI RESTE \"",
       "category": "concert",
@@ -25627,6 +26689,26 @@
       "audience": [],
       "tags": [],
       "source": "Le Forum (Liège)"
+    },
+    {
+      "id": "web-reflektor-li-ge-other-lives-2027-03-23",
+      "title": "Other Lives",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2027-03-23T10:00:00",
+      "end": "2027-03-23T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/other-lives/",
+      "url": "https://shop.paylogic.com/40d397ab199c4f7c98f4bbefd58f3b91",
+      "summary": "Concert de Other Lives au Reflektor, le 23 mars 2027.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "tm-Z698xZG2Z1kboZzC4",
@@ -25939,6 +27021,29 @@
       "source": "Ticketmaster"
     },
     {
+      "id": "fb-3689495451226012",
+      "title": "EMILIE CROON - \"Venez, on arrête.\" | Liège - Le Hangar",
+      "category": "theatre",
+      "venue": "Quai Saint-Léonard 43B, 4000 Liège, Belgique",
+      "city": "Liège",
+      "lat": 50.64864,
+      "lon": 5.59268,
+      "start": "2027-04-03T19:00:00",
+      "end": "2027-04-03T20:00:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-3689495451226012.jpg",
+      "page_url": "https://www.facebook.com/events/3689495451226012/",
+      "url": "https://www.facebook.com/events/3689495451226012/",
+      "summary": "🎤 ÉMILIE CROON AU OUFTI COMEDY CLUB ! L’entrée sur la scène de l’humour d’Emilie Croon est un pur hasard, tout comme son entrée dans la vie finalement. Tandis que cela fait des années qu’elle fait rire à tenter de comprendre ses semblables et leurs interactions, cela fait des années que beaucoup se ",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
+    },
+    {
       "id": "web-le-forum-li-ge-joyeuses-p-ques-avec-daniel-hanssens-2027-04-03",
       "title": "JOYEUSES PÂQUES avec Daniel Hanssens",
       "category": "theatre",
@@ -26057,6 +27162,26 @@
       "audience": [],
       "tags": [],
       "source": "Ticketmaster"
+    },
+    {
+      "id": "web-reflektor-li-ge-django-2027-04-08",
+      "title": "Django",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2027-04-08T10:00:00",
+      "end": "2027-04-08T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/django-2/",
+      "url": "https://shop.paylogic.com/23aab40727664cd9a172d19b64de7350/",
+      "summary": "Concert de Django au Reflektor, le 8 avril 2027.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "web-le-forum-li-ge-sylvie-vartan-ma-vie-en-chansons-avec-vous-2027-04-08",
@@ -26524,6 +27649,26 @@
       "classified": true
     },
     {
+      "id": "web-reflektor-li-ge-bilal-hassani-2027-04-24",
+      "title": "Bilal Hassani",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2027-04-24T10:00:00",
+      "end": "2027-04-24T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/bilal-hassani/",
+      "url": "https://shop.paylogic.com/96bb79d9b0974510a9d7bf25d0010bc0/",
+      "summary": "Concert de Bilal Hassani au Reflektor, le 24 avril 2027.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
+    },
+    {
       "id": "tm-Z698xZG2Z1k3vP9oN",
       "title": "Carmina Burana",
       "category": "theatre",
@@ -26619,6 +27764,26 @@
       "audience": [],
       "tags": [],
       "source": "Het Depot (Louvain)"
+    },
+    {
+      "id": "web-reflektor-li-ge-birdpen-2027-05-05",
+      "title": "BirdPen",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2027-05-05T10:00:00",
+      "end": "2027-05-05T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/birdpen/",
+      "url": "https://shop.paylogic.com/a63a8326e7de445faae0ef8a30fd458f/",
+      "summary": "Concert de BirdPen au Reflektor, le 5 mai 2027.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "tm-Z698xZG2Z16v8NeKZ_",
@@ -26823,6 +27988,26 @@
       "source": "spa-francorchamps.be"
     },
     {
+      "id": "web-reflektor-li-ge-feldup-the-showerheads-2027-05-13",
+      "title": "Feldup & The Showerheads",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2027-05-13T10:00:00",
+      "end": "2027-05-13T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/feldup-the-showerheads/",
+      "url": "https://shop.paylogic.com/9e104cc2df4746b489345ed3aa37a06b",
+      "summary": "Concert de Feldup & The Showerheads au Reflektor, le 13 mai 2027.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
+    },
+    {
       "id": "tm-Z698xZG2Z16v7K4pGa",
       "title": "2027 TotalEnergies 6h of Spa | Thursday/Friday",
       "category": "motorsport",
@@ -26840,6 +28025,26 @@
       "audience": [],
       "tags": [],
       "source": "Ticketmaster"
+    },
+    {
+      "id": "web-reflektor-li-ge-melissa-2027-05-14",
+      "title": "Melissa",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2027-05-14T10:00:00",
+      "end": "2027-05-14T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/melissa/",
+      "url": "https://shop.paylogic.com/d65b380368744ec9a5f38f20f67a20f6/",
+      "summary": "Concert de Melissa au Reflektor, le 14 mai 2027.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "tm-Z698xZG2Z16v8VG--I",
@@ -27561,6 +28766,29 @@
       "source": "Ticketmaster"
     },
     {
+      "id": "fb-1458343742292356",
+      "title": "Soirée Blind test",
+      "category": "party",
+      "venue": "Place Verte 17, 6000 Charleroi, Belgique",
+      "city": "Charleroi",
+      "lat": 50.4075,
+      "lon": 4.44186,
+      "start": "2027-09-04T18:00:00",
+      "end": "2027-09-05T00:00:00",
+      "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1458343742292356.jpg",
+      "page_url": "https://www.facebook.com/events/1458343742292356/",
+      "url": "https://www.facebook.com/events/1458343742292356/",
+      "summary": "Soirée Blind test",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "adult"
+      ],
+      "tags": [],
+      "source": "Facebook (événement public)",
+      "classified": true
+    },
+    {
       "id": "tm-Z698xZG2Z1kfx7v_7",
       "title": "Les Solidarités 2027 | Pass 3 days",
       "category": "concert",
@@ -27578,6 +28806,26 @@
       "audience": [],
       "tags": [],
       "source": "Ticketmaster"
+    },
+    {
+      "id": "web-reflektor-li-ge-the-mission-2027-09-24",
+      "title": "The Mission",
+      "category": "concert",
+      "venue": "Reflektor",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2027-09-24T10:00:00",
+      "end": "2027-09-24T10:00:00",
+      "image": "https://reflektor.be/wp-content/uploads/2026/09/Bear-Pit_mono-DSC5764-1-scaled-e1788248605295.jpg",
+      "page_url": "https://reflektor.be/concert/the-mission/",
+      "url": "https://reflektor.be/concert/the-mission/",
+      "summary": "Concert du groupe de rock britannique The Mission, formé en 1985 et auteur de titres comme « Wasteland » et « Tower of Strength ». Reformé en 2011, le groupe a vendu plus de cinq millions d’albums dans le monde.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "tm-Z698xZG2Z16v4bjECf",

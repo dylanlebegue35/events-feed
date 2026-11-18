@@ -1,13 +1,15 @@
 {
-  "genere": "2026-11-17T23:19:29",
+  "genere": "2026-11-18T08:00:50",
   "sources": [
     {
       "source": "Reflektor (Liège)",
       "ok": true,
       "page_caracteres": 15497,
-      "ia_a_trouve": 3,
-      "gardes": 3,
+      "ia_a_trouve": 39,
+      "gardes": 39,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -44,14 +46,12 @@
       "ia_a_trouve": 13,
       "gardes": 13,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 40911,
+      "page_caracteres": 40919,
       "ia_a_trouve": 121,
       "gardes": 121,
       "ecartes": 0,
@@ -87,7 +87,7 @@
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 13243,
+      "page_caracteres": 13244,
       "ia_a_trouve": 0,
       "gardes": 0,
       "ecartes": 0,
@@ -183,17 +183,17 @@
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Botanique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 4019,
+      "page_caracteres": 3913,
       "ia_a_trouve": 3,
       "gardes": 3,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -217,10 +217,12 @@
     {
       "source": "Mars – Mons arts de la scène",
       "ok": true,
-      "page_caracteres": 12875,
-      "ia_a_trouve": 15,
-      "gardes": 15,
+      "page_caracteres": 12015,
+      "ia_a_trouve": 11,
+      "gardes": 11,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -235,10 +237,196 @@
       "nouvelles": 0
     },
     {
-      "source": "Facebook (service tiers)",
+      "source": "Facebook : soirée Liège",
       "ok": true,
-      "etat": "pas encore l'heure",
-      "gardes": 150
+      "recus": 20,
+      "nouveaux": 4
+    },
+    {
+      "source": "Facebook : étudiants TD Liège",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : soirée Verviers",
+      "ok": true,
+      "recus": 9,
+      "nouveaux": 1
+    },
+    {
+      "source": "Facebook : étudiants TD Verviers",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : soirée Namur",
+      "ok": true,
+      "recus": 20,
+      "nouveaux": 8
+    },
+    {
+      "source": "Facebook : étudiants TD Namur",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : soirée Mons",
+      "ok": true,
+      "recus": 20,
+      "nouveaux": 11
+    },
+    {
+      "source": "Facebook : étudiants TD Mons",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : soirée Charleroi",
+      "ok": true,
+      "recus": 20,
+      "nouveaux": 4
+    },
+    {
+      "source": "Facebook : étudiants TD Charleroi",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : soirée Bruxelles",
+      "ok": true,
+      "recus": 10,
+      "nouveaux": 3
+    },
+    {
+      "source": "Facebook : étudiants TD Bruxelles",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : soirée Louvain-la-Neuve",
+      "ok": true,
+      "recus": 20,
+      "nouveaux": 15
+    },
+    {
+      "source": "Facebook : étudiants TD Louvain-la-Neuve",
+      "ok": true,
+      "recus": 1,
+      "nouveaux": 1
+    },
+    {
+      "source": "Facebook : soirée Vielsalm",
+      "ok": true,
+      "recus": 3,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : étudiants TD Vielsalm",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : soirée Anvers",
+      "ok": true,
+      "recus": 8,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : étudiants TD Anvers",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : soirée Gand",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : étudiants TD Gand",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : soirée Louvain",
+      "ok": true,
+      "recus": 12,
+      "nouveaux": 1
+    },
+    {
+      "source": "Facebook : étudiants TD Louvain",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : soirée Bruges",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : étudiants TD Bruges",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : soirée Hasselt",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : étudiants TD Hasselt",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : soirée Tournai",
+      "ok": true,
+      "recus": 17,
+      "nouveaux": 1
+    },
+    {
+      "source": "Facebook : étudiants TD Tournai",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : soirée Arlon",
+      "ok": true,
+      "recus": 3,
+      "nouveaux": 1
+    },
+    {
+      "source": "Facebook : étudiants TD Arlon",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
+    },
+    {
+      "source": "Facebook : Le Hangar Liège",
+      "ok": true,
+      "recus": 5,
+      "nouveaux": 1
+    },
+    {
+      "source": "Facebook : techno Liège",
+      "ok": true,
+      "recus": 0,
+      "nouveaux": 0
     },
     {
       "source": "Doublons fusionnés",
@@ -248,15 +436,118 @@
     {
       "source": "Pages des billetteries",
       "ok": true,
-      "pages_lues": 1,
-      "pages_lues_par_ia": 8
+      "pages_lues": 14,
+      "pages_lues_par_ia": 25
     },
     {
       "source": "Images refusées à la relecture",
       "ok": true,
       "retirees": 36
+    },
+    {
+      "source": "Google : bars de Liège",
+      "ok": true,
+      "trouves": 83,
+      "gardes": 25
+    },
+    {
+      "source": "Google : bars de Bruxelles",
+      "ok": true,
+      "trouves": 147,
+      "gardes": 15
+    },
+    {
+      "source": "Google : bars de Namur",
+      "ok": true,
+      "trouves": 57,
+      "gardes": 10
+    },
+    {
+      "source": "Google : bars de Mons",
+      "ok": true,
+      "trouves": 59,
+      "gardes": 10
+    },
+    {
+      "source": "Google : bars de Louvain-la-Neuve",
+      "ok": true,
+      "trouves": 45,
+      "gardes": 10
+    },
+    {
+      "source": "Google : restaurants de Liège",
+      "ok": true,
+      "trouves": 60,
+      "gardes": 30
+    },
+    {
+      "source": "Google : restaurants de Bruxelles",
+      "ok": true,
+      "trouves": 60,
+      "gardes": 25
+    },
+    {
+      "source": "Google : restaurants de Namur",
+      "ok": true,
+      "trouves": 60,
+      "gardes": 15
+    },
+    {
+      "source": "Google : restaurants de Mons",
+      "ok": true,
+      "trouves": 60,
+      "gardes": 12
+    },
+    {
+      "source": "Google : restaurants de Louvain-la-Neuve",
+      "ok": true,
+      "trouves": 60,
+      "gardes": 10
+    },
+    {
+      "source": "Google : restaurants de Gand",
+      "ok": true,
+      "trouves": 60,
+      "gardes": 15
+    },
+    {
+      "source": "Google : restaurants de Anvers",
+      "ok": true,
+      "trouves": 60,
+      "gardes": 15
+    },
+    {
+      "source": "Google : restaurants de Bruges",
+      "ok": true,
+      "trouves": 60,
+      "gardes": 12
+    },
+    {
+      "source": "Google : restaurants de Charleroi",
+      "ok": true,
+      "trouves": 60,
+      "gardes": 10
+    },
+    {
+      "source": "Google : restaurants de Louvain",
+      "ok": true,
+      "trouves": 60,
+      "gardes": 10
+    },
+    {
+      "source": "Google : restos et bars des communes",
+      "ok": true,
+      "erreur": null,
+      "communes_lues": 145,
+      "communes_connues": 145,
+      "lieux": 871
+    },
+    {
+      "source": "Google : photos des lieux",
+      "ok": true,
+      "trouvees": 290
     }
   ],
-  "avec_image": 1222,
-  "total": 1398
+  "avec_image": 1248,
+  "total": 1455
 }
