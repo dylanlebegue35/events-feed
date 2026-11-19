@@ -2809,29 +2809,6 @@
    "classified": true
   },
   {
-   "id": "fb-1103135229168325",
-   "title": "Soirée jeux de société",
-   "category": "party",
-   "venue": "Scavée du biéreau 2, 1348 Louvain-la-Neuve, Belgium",
-   "city": "Louvain-la-Neuve",
-   "lat": 50.6653,
-   "lon": 4.61707,
-   "start": "2026-11-18T19:00:00",
-   "end": "2026-11-18T22:00:00",
-   "image": "https://scontent-waw2-1.xx.fbcdn.net/v/t39.99422-6/830199792_1118529753929303_1608879063934417864_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s960x960&_nc_cat=104&ccb=1-7&_nc_sid=75d36f&_nc_ohc=E02LoU0964AQ7kNvwFFTOTm&_nc_oc=AdrFgEj8S2hML5f7Isu4SmQWRRPjEKWDaVNbzjcAT82RzqdYqUe-E5dpEPQmODmCagI&_nc_zt=14&_nc_ht=scontent-waw2-1.xx&_nc_gid=zHM9uRmt7ijyJH-_GkUKtA&_nc_ss=70289&oh=00_AQMHDiX4Uk3MzFsmbtG_V7RgMIombkIzheYG8Y-QqJfUcA&oe=6ADDD343",
-   "page_url": "https://www.facebook.com/events/1103135229168325/",
-   "url": "https://www.betch-lln.be/event/soiree-jeux-de-societe-661/register",
-   "summary": "Soirée Jeux de Société chez Betch🎲 Mange, joue, rigole… et passe une soirée pleine de fun ! 😄 Que tu sois expert·e ou débutant·e, viens découvrir des jeux de plateau, de cartes ou d’ambiance avec tes amis. Ambiance conviviale garantie♟️ 🕗 19h – 22h 💰 Entrée - 5€ 💺 Réservation recommandée : https://w",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "student"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-39060921690219669",
    "title": "ATELIER DE DANSE CONTACT IMPRO A LOUVAIN-LA-NEUVE",
    "category": "workshop",
@@ -3573,29 +3550,6 @@
    "classified": true
   },
   {
-   "id": "fb-4580200445602067",
-   "title": "Soirée Info Familles",
-   "category": "talks",
-   "venue": "Plaine De Nimy",
-   "city": "Mons",
-   "lat": 50.463513174256,
-   "lon": 3.9553144337706,
-   "start": "2026-11-18T17:15:00",
-   "end": "2026-11-18T20:15:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-4580200445602067.jpg",
-   "page_url": "https://www.facebook.com/events/4580200445602067/",
-   "url": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=ne2LSKfW1Ui6H-vsOCOzV82F6JjHcShDmki9kk16uvxUOVVFOEs0U0ROS0pZUkUwRzJFTTVQNzU0SC4u",
-   "summary": "Votre enfant est en rhéto et le choix des études approche ? 🎓 Comment fonctionne l’université ? Quelles filières, quels débouchés ? Comment l’accompagner au mieux dans cette décision ? L’UMONS vous invite, vous et votre futur·e étudiant·e, à sa Soirée Info Familles 👨‍👩‍👧 📅 Mercredi 18 novembre 2026 ",
-   "price_from": null,
-   "free": true,
-   "audience": [
-    "family"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-4629979693950860",
    "title": "Soirée Italienne Vandervalk de Mons",
    "category": "party",
@@ -4021,29 +3975,6 @@
    "free": null,
    "audience": [
     "young"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-26451592794432234",
-   "title": "Soirée jeux de société - Arlon",
-   "category": "geek",
-   "venue": "ibis Styles Arlon Porte du Luxembourg",
-   "city": "Arlon",
-   "lat": 49.67646,
-   "lon": 5.78428,
-   "start": "2026-11-17T20:00:00",
-   "end": "2026-11-18T20:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-26451592794432234.jpg",
-   "page_url": "https://www.facebook.com/events/26451592794432234/",
-   "url": "https://www.facebook.com/events/26451592794432234/",
-   "summary": "Soirées jeux de société conviviales à Arlon (débutants bienvenus) 🎲 Jeux variés : ambiance, moyens et experts 👉 Explications sur place. INSCRIPTION SOUHAITEE ! Contactez l'organisateur",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
    ],
    "tags": [],
    "source": "Facebook (événement public)",

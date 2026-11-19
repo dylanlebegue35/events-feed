@@ -41,7 +41,7 @@
 },
 "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000MvYgDMAV_1240x720.jpg": {
 "ok": true,
-"vu": "2026-11-17T01:00+01:00"
+"vu": "2026-11-19T13:35+01:00"
 },
 "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000PelLBMAZ_1240x720.jpg": {
 "ok": true,
@@ -77,7 +77,7 @@
 },
 "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000Stqc9MAB_1240x720.jpg": {
 "ok": true,
-"vu": "2026-11-17T01:00+01:00"
+"vu": "2026-11-19T13:35+01:00"
 },
 "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000SzyS9MAJ_1240x720.jpg": {
 "ok": true,
@@ -702,6 +702,14 @@
 "https://www.provincedeliege.be/sites/default/files/styles/plg_medias_h_600/public/media/20072/1080x1350_Chazel2.jpg?itok=pxD23aMg": {
 "ok": true,
 "vu": "2026-11-13T03:26+01:00"
+},
+"https://www.provincedeliege.be/sites/default/files/styles/thumbnail_600x600/public/images/1026287-826%2401_0.jpg?h=b0e5525c&itok=xqxwCrei": {
+"ok": false,
+"vu": "2026-11-19T13:35+01:00"
+},
+"https://www.provincedeliege.be/sites/default/files/styles/thumbnail_600x600/public/images/Palais%20provincial%20%2B%20verre.jpg?h=b69e0e0e&itok=_3MKo8kh": {
+"ok": false,
+"vu": "2026-11-19T13:35+01:00"
 },
 "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Emmanuel-Strosser-c-Jean-Baptiste-Millot.jpg.webp?itok=C2sliKih": {
 "ok": true,
