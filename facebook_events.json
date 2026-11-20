@@ -1238,29 +1238,6 @@
    "classified": true
   },
   {
-   "id": "fb-2389838811515136",
-   "title": "Forest National-Bruxelles",
-   "category": "concert",
-   "venue": "Forest National - Vorst Nationaal",
-   "city": "Forest",
-   "lat": 50.80999,
-   "lon": 4.32601,
-   "start": "2026-11-19T20:00:00",
-   "end": "2026-11-19T23:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-2389838811515136.jpg",
-   "page_url": "https://www.facebook.com/events/2389838811515136/",
-   "url": "https://www.facebook.com/events/2389838811515136/",
-   "summary": "Après une première série de concerts triomphale affichant complet partout en France, Florent Pagny prolonge l’aventure du 65 TOUR – La Suite Du Retour. Portée par un accueil exceptionnel du public, cette tournée événement se poursuit à travers la France avec de nouvelles dates et de nouvelles villes",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-689067957196251",
    "title": "Digital Nomad Meetup Bruxelles (Registration is mandatory)",
    "category": "talks",
@@ -2765,27 +2742,6 @@
    "classified": true
   },
   {
-   "id": "fb-2036580080212872",
-   "title": "GOLDMEN - CONCERT 100% GOLDMAN // Cirque Royal - BRUXELLES // 19 novembre 2026",
-   "category": "concert",
-   "venue": "Cirque Royal - Koninklijk Circus",
-   "city": "Brussels",
-   "lat": 50.848968383596,
-   "lon": 4.3657350540161,
-   "start": "2026-11-19T20:00:00",
-   "end": "2026-11-19T23:00:00",
-   "image": "https://scontent-ham3-1.xx.fbcdn.net/v/t39.30808-6/550714923_1368647465262002_8613079220182402915_n.jpg?stp=dst-jpg_tt6&cstp=mx1365x2048&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=75d36f&_nc_ohc=7aZGV4fOHC4Q7kNvwHtnhDb&_nc_oc=AdqEYD0RMmDqIu6KoZmo08RpUiiQW9-DF_kOEvtKC6rAsLyvWDXFgTA0RlCtayaT4e8&_nc_zt=23&_nc_ht=scontent-ham3-1.xx&_nc_gid=gTqTEJmVpYgqu4JNWTmbDA&_nc_ss=70289&oh=00_AQM9DJ6_1BjIMH0NdQNNGtlfzPMTAvaF08lgdcv7silk_w&oe=6ADDBA49",
-   "page_url": "https://www.facebook.com/events/2036580080212872/",
-   "url": "https://www.facebook.com/events/2036580080212872/",
-   "summary": "Actuellement en tournée événement, rassemblant des centaines de milliers de fans à travers la France, les GOLDMEN seront de retour en 2026 pour un nouveau show 100% tubes, de l’univers de Jean-Jacques GOLDMAN à celui du trio FREDERICKS GOLDMAN JONES. Porté par Alain Stevez, véritable miroir vocal du",
-   "price_from": null,
-   "free": null,
-   "audience": [],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1300313785440829",
    "title": "Par.Sek en concert à La Maison Poème, Bruxelles (BE)",
    "category": "concert",
@@ -3412,29 +3368,6 @@
    "classified": true
   },
   {
-   "id": "fb-2604801790011135",
-   "title": "Soirée halLAWeen 👻🕺",
-   "category": "party",
-   "venue": "Cercle Droit Namur",
-   "city": "Namur",
-   "lat": 50.466648323593,
-   "lon": 4.8576584987062,
-   "start": "2026-11-18T21:00:00",
-   "end": "2026-11-19T01:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-2604801790011135.jpg",
-   "page_url": "https://www.facebook.com/events/2604801790011135/",
-   "url": "https://www.facebook.com/events/2604801790011135/",
-   "summary": "Coucou les loulous ! 👻 Les monstres sont de sortie et les esprits commencent à s’éveiller… 🦇 On vous donne rendez-vous le 18 novembre pour notre incontournable soirée annuelle HALLOWEEN ! 🧛🏻‍♀️🩸 Bon, on vous l’accorde, Halloween est légèrement en retard cette année… Mais les monstres aussi ont parfo",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "student"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1147850851438740",
    "title": "Soirée Movember",
    "category": "talks",
@@ -3665,29 +3598,6 @@
    "classified": true
   },
   {
-   "id": "fb-1664130941897006",
-   "title": "Soirée du Bni Bruxelles Alliance",
-   "category": "talks",
-   "venue": "Cimetière Du Dieweg",
-   "city": "Uccle",
-   "lat": 50.79565,
-   "lon": 4.34682,
-   "start": "2026-11-19T18:00:00",
-   "end": "2026-11-19T18:15:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1664130941897006.jpg",
-   "page_url": "https://www.facebook.com/events/1664130941897006/",
-   "url": "https://www.eventbrite.be/e/soiree-de-lancement-du-bni-bruxelles-alliance-tickets-2003797991734?dsrp_sid=e256f021-c436-412a-897d-5cf4730beabf&aff=ebdssbdestsearch",
-   "summary": "🎉 Le Bni Bruxelles Alliance fête son activation ! Le Bni Bruxelles Alliance est un groupe d’échange de business entre entrepreneurs locaux, fortement ancré à Uccle 📍. Il réunit des professionnels de l’immobilier, de la construction, de l’IT et des services aux entreprises et aux particuliers, entre ",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-2424707678271420",
    "title": "Soirée de louange à Bruxelles – Clara Shalom",
    "category": "culture",
@@ -3704,29 +3614,6 @@
    "price_from": null,
    "free": null,
    "audience": [],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1519712846888861",
-   "title": "Soirée AtelPrint Coupe Du Bar",
-   "category": "party",
-   "venue": "La Carolo / Al'fosse III",
-   "city": "Louvain-la-Neuve",
-   "lat": 50.6678804,
-   "lon": 4.6195231,
-   "start": "2026-11-18T22:00:00",
-   "end": "2026-11-19T01:00:00",
-   "image": null,
-   "page_url": "https://www.facebook.com/events/1519712846888861/",
-   "url": "https://www.facebook.com/events/1519712846888861/",
-   "summary": "1000 euros à gagner, VOUS NE REVEZ PAS ! La Centrale a l’honneur de vous inviter à sa soirée en collaboration avec le fournisseur de textiles AtelPrint. Nous avons la chance qu’il se déplace pour organiser une soirée totalement déjantée en Carolo ce mercredi S10. Pourquoi venir ? Une incroyable coup",
-   "price_from": null,
-   "free": true,
-   "audience": [
-    "young"
-   ],
    "tags": [],
    "source": "Facebook (événement public)",
    "classified": true
@@ -3749,29 +3636,6 @@
    "free": null,
    "audience": [
     "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1658841919253646",
-   "title": "Soirée AtelPrint Coupe Du Bar",
-   "category": "party",
-   "venue": "La Carolo / Al'fosse III",
-   "city": "Louvain-la-Neuve",
-   "lat": 50.6678804,
-   "lon": 4.6195231,
-   "start": "2026-11-18T22:00:00",
-   "end": "2026-11-19T01:00:00",
-   "image": null,
-   "page_url": "https://www.facebook.com/events/1658841919253646/",
-   "url": "https://www.facebook.com/events/1658841919253646/",
-   "summary": "1000 euros à gagner, VOUS NE REVEZ PAS ! La Centrale a l’honneur de vous inviter à sa soirée en collaboration avec le fournisseur de textiles AtelPrint. Nous avons la chance qu’il se déplace pour organiser une soirée totalement déjantée en Carolo ce mercredi S10. Pourquoi venir ? Une incroyable coup",
-   "price_from": null,
-   "free": true,
-   "audience": [
-    "young"
    ],
    "tags": [],
    "source": "Facebook (événement public)",
