@@ -1627,7 +1627,8 @@ def venue_photo(name, city):
 
 
 # ============================================================ photos manquantes
-BAD_IMG = re.compile(r"logo|favicon|icon|sprite|flag|avatar|placeholder|blank|pixel|spinner|loader|banner-cookie|\.svg|\.gif|qtranslate|cropped-|site-icon|apple-touch|thumb-?\d{2,3}x\d{2,3}", re.I)
+BAD_IMG = re.compile(r"logo|favicon|icon|sprite|flag|avatar|placeholder|blank|pixel|spinner|loader|banner-cookie|\.svg|\.gif|qtranslate|cropped-|site-icon|apple-touch|thumb-?\d{2,3}x\d{2,3}"
+                     r"|facebook_cta|_cta\.|share[-_]button|social[-_](icon|share|media)|no-image|default[-_]?image", re.I)   # boutons « suivez-nous » (Le Forum, 20/11)
 # l'og:image des pages Facebook (lookaside.fbsbx.com) n'est pas une image : une petite page HTML qui renvoie
 # vers facebook.com/photo.php (il faut un compte). On ne la garde jamais ; l'app montre alors la photo de la catégorie.
 FB_FAKE_IMG = re.compile(r"lookaside\.(fbsbx|facebook)\.com|static\.xx\.fbcdn\.net/rsrc\.php", re.I)   # + image de l'interface
@@ -1743,12 +1744,20 @@ def own_site(name, url):
 
 
 def is_image(url):
-    """L'adresse renvoie-t-elle vraiment une image ? (et pas une page d'erreur ou de connexion)"""
-    r = subprocess.run(["curl", "-sL", "-o", "/dev/null", "--max-time", "10", "-r", "0-2047", "-w", "%{http_code} %{content_type}",
+    """L'adresse renvoie-t-elle vraiment une image ? (et pas une page d'erreur ou de connexion)
+    Certains serveurs (les Grignoux, 20/11/2026) n'annoncent aucun type : on regarde alors les premiers octets."""
+    r = subprocess.run(["curl", "-sL", "--max-time", "10", "-r", "0-2047", "-w", "\n%{http_code} %{content_type}",
                         "--proto", "=http,https", "--proto-redir", "=http,https", "--max-redirs", "3", "--", url],
-                       capture_output=True, text=True)
-    code, _, ctype = r.stdout.partition(" ")
-    return code in ("200", "206") and ctype.startswith("image/")
+                       capture_output=True)
+    body, _, tail = r.stdout.rpartition(b"\n")
+    code, _, ctype = tail.decode("ascii", "ignore").partition(" ")
+    if code not in ("200", "206"):
+        return False
+    if ctype.startswith("image/"):
+        return True
+    if ctype and not ctype.startswith(("application/octet-stream", "binary/")):
+        return False                                     # une page HTML, du texte… : pas une image
+    return body[:3] == b"\xff\xd8\xff" or body[:8] == b"\x89PNG\r\n\x1a\n" or (body[:4] == b"RIFF" and body[8:12] == b"WEBP")
 
 
 # ============================================================ fiches plus complètes (pages des billetteries)
@@ -1815,6 +1824,47 @@ PAGE :
 {text}"""
 
 
+def reflektor_poster(link):
+    """Affiche officielle d'un concert du Reflektor (Liège) : leur page n'en montre pas (seulement les logos des
+    partenaires), mais leur site la publie dans ses données publiques : concert → image_a_la_une → media → adresse."""
+    m = re.match(r"https://(?:www\.)?reflektor\.be/concert/([a-z0-9-]{1,120})/?$", link or "")
+    if not m:
+        return None
+    try:
+        c = json.loads(fetch(f"https://reflektor.be/wp-json/wp/v2/concert?slug={m[1]}&_fields=acf", timeout=15))
+        acf = (c[0].get("acf") or {}) if isinstance(c, list) and c else {}
+        media_id = next((acf.get(k) for k in ("image_a_la_une", "image_agenda", "image_apercu") if str(acf.get(k) or "").isdigit()), None)
+        if not media_id:
+            return None
+        src = json.loads(fetch(f"https://reflektor.be/wp-json/wp/v2/media/{int(media_id)}?_fields=source_url", timeout=15)).get("source_url")
+        return src if isinstance(src, str) and src.startswith("https://reflektor.be/wp-content/uploads/") else None
+    except Exception:
+        return None
+
+
+def reflektor_by_title(title, day):
+    """Concert du Reflektor dont on n'a que le lien des billets (paylogic) : on le retrouve sur leur site par son titre
+    et sa date (« Suzane + Marie Jay », le 2026-11-21), puis son affiche officielle."""
+    words = [w for w in re.findall(r"[A-Za-zÀ-ÿ0-9']{3,}", title or "") if w.lower() not in ("the", "and", "les", "des")]
+    if not words:
+        return None
+    try:
+        found = json.loads(fetch("https://reflektor.be/wp-json/wp/v2/concert?search=" + quote(words[0]) + "&_fields=slug,acf.date", timeout=15))
+        slug = next((c.get("slug") for c in found if isinstance(c, dict) and str((c.get("acf") or {}).get("date")) == day.replace("-", "")), None)
+        return reflektor_poster(f"https://reflektor.be/concert/{slug}/") if slug and re.fullmatch(r"[a-z0-9-]{1,120}", slug) else None
+    except Exception:
+        return None
+
+
+def _is_home(link):
+    """Une page d'accueil (« https://www.visithuy.be ») : sa photo est celle du site, pas celle de l'événement."""
+    from urllib.parse import urlsplit
+    try:
+        return urlsplit(link).path.strip("/") == ""
+    except ValueError:
+        return True
+
+
 def enrich_from_pages(events, limit=300, ai_limit=25):
     """Complète prix, description, photo et heure à partir de la page de l'événement (gardée 14 jours).
     D'abord les données structurées (gratuit) ; sinon l'IA lit la page, au plus ai_limit pages par passage, Liège d'abord."""
@@ -1826,7 +1876,10 @@ def enrich_from_pages(events, limit=300, ai_limit=25):
         if not link or SKIP_PAGES.match(link) or (known_price and e.get("image") and len(e.get("summary") or "") >= 120):
             continue
         info, page = _pages_info.get(link), None
-        if not info or (date.today() - date.fromisoformat(info["t"])).days > 14:
+        # v2 (20/11/2026) : photos sans type annoncé, Reflektor, pages d'accueil écartées. Une page lue avant sans photo
+        # est relue une fois (sans perdre ce que l'IA y avait déjà lu).
+        stale = bool(info) and not info.get("og") and info.get("v") != 2
+        if not info or stale or (date.today() - date.fromisoformat(info["t"])).days > 14:
             if fetched >= limit:
                 continue
             fetched += 1
@@ -1834,8 +1887,9 @@ def enrich_from_pages(events, limit=300, ai_limit=25):
                 page = fetch(link, timeout=15)
             except Exception:
                 continue
-            og = best_image(page, link)
-            info = {"t": date.today().isoformat(), "ld": _jsonld_events(page), "og": og if og and is_image(og) else None, "ai": {}}
+            og = None if _is_home(link) else (reflektor_poster(link) or best_image(page, link))
+            info = {"t": date.today().isoformat(), "v": 2, "ld": _jsonld_events(page), "og": og if og and is_image(og) else None,
+                    "ai": (info or {}).get("ai", {})}
             _pages_info[link] = info
         # l'événement de la page qui correspond (même jour, ou titre proche) ; s'il n'y en a qu'un, c'est lui
         mine, cands = _plain_tokens(e["title"]), info["ld"]
@@ -1876,8 +1930,30 @@ def enrich_from_pages(events, limit=300, ai_limit=25):
             e["summary"] = got["summary"][:300]
         if isinstance(got.get("time"), str) and re.fullmatch(r"\d{2}:\d{2}", got["time"]) and e["start"][11:16] == "00:00":
             e["start"] = f"{e['start'][:10]}T{got['time']}:00"
-        if not e.get("image") and info.get("og"):
+        if not e.get("image") and info.get("og") and not _is_home(link) and not BAD_IMG.search(info["og"]):
             e["image"] = info["og"]
+        # le lien des billets (tickets.fuse.be, paylogic…) n'a souvent pas de photo, la page de l'événement chez
+        # l'organisateur si (fuse.be/events/…) : on la lit aussi, une fois, avec le même cache de 14 jours
+        other = e.get("page_url") if link == e.get("url") else None
+        if not e.get("image") and other and other != link and not SKIP_PAGES.match(other):
+            o = _pages_info.get(other)
+            if (not o or (not o.get("og") and o.get("v") != 2) or (date.today() - date.fromisoformat(o["t"])).days > 14) and fetched < limit:
+                fetched += 1
+                try:
+                    p2 = fetch(other, timeout=15)
+                    og2 = None if _is_home(other) else (reflektor_poster(other) or best_image(p2, other))
+                    o = {"t": date.today().isoformat(), "v": 2, "ld": _jsonld_events(p2), "og": og2 if og2 and is_image(og2) else None,
+                         "ai": (o or {}).get("ai", {})}
+                    _pages_info[other] = o
+                except Exception:
+                    o = None
+            if o and o.get("og") and not _is_home(other) and not BAD_IMG.search(o["og"]):
+                e["image"] = o["og"]
+        if not e.get("image") and "Reflektor" in (e.get("source") or "") and fetched < limit:
+            fetched += 1
+            poster = reflektor_by_title(e["title"], e["start"][:10])
+            if poster and is_image(poster):
+                e["image"] = poster
     PAGES_INFO.write_text(json.dumps(_pages_info, ensure_ascii=False), encoding="utf-8")
     REPORT.append({"source": "Pages des billetteries", "ok": True, "pages_lues": fetched, "pages_lues_par_ia": asked})
 
@@ -2004,7 +2080,14 @@ def ticketmaster():
                 img = (next((i for i in big if i.get("ratio") == "16_9"), None) or (big[0] if big else None) or (imgs[-1] if imgs else {})).get("url")
                 prices = [p["min"] for p in it.get("priceRanges") or [] if p.get("min") is not None]
                 title = it["name"].strip()
+                # « Westlife 25 | be•at Premium Comfort Experience » : un forfait VIP du même concert, pas un autre spectacle.
+                # On garde le nom du concert (la fusion des doublons le réunit à la vraie fiche quand elle existe).
+                title = re.split(r"\s*\|\s*(?=be.at\b|premium\b|vip\b|hospitality\b)", title, maxsplit=1, flags=re.I)[0].strip()
                 base = title.split(" - ")[0].strip()
+                if not img:                                  # pas de photo pour l'événement : celle de l'artiste (même API officielle)
+                    att = sorted(((it.get("_embedded") or {}).get("attractions") or [{}])[0].get("images") or [], key=lambda i: i.get("width") or 0)
+                    att_big = [i for i in att if (i.get("width") or 0) >= 640]
+                    img = (next((i for i in att_big if i.get("ratio") == "16_9"), None) or (att_big[0] if att_big else None) or (att[-1] if att else {})).get("url")
                 k = (re.sub(r"\W+", "", base.lower()), (venue.get("name") or "").lower())
                 ev = {
                     "id": "tm-" + it["id"], "title": base, "category": _tm_category((cl.get("segment") or {}).get("name", ""), (cl.get("genre") or {}).get("name", "")),
