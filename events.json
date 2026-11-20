@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-20T12:25:28",
+  "generated": "2026-11-20T22:37:31",
   "events": [
     {
       "id": "web-grand-curtius-li-ge-espace-c-sar-franck-2022-01-12",
@@ -14,7 +14,7 @@
       "image": "https://www.grandcurtius.be/sites/default/files/styles/teaser_wide/public/2023-12/bandeau%20cesar%20franck%202024.jpg?itok=6bSWQTqJ",
       "page_url": "https://www.grandcurtius.be/fr/actualites/exposition/un-espace-cesar-franck-au-grand-curtius",
       "url": "https://www.grandcurtius.be/fr/actualites/exposition/un-espace-cesar-franck-au-grand-curtius",
-      "summary": "Exposition consacrée au compositeur liégeois César Franck, à l'occasion du bicentenaire de sa naissance, au sein du parcours permanent du musée.",
+      "summary": "Dans le parcours du Grand Curtius, on découvre la console de l'orgue Cavaillé-Coll de César Franck, le manuscrit des Variations symphoniques et le piano Serrurier-Bovy. Un piano Erard ayant appartenu au compositeur et des documents anciens complètent l'exposition.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -218,7 +218,9 @@
       "price_from": 1.25,
       "free": false,
       "audience": [],
-      "tags": [],
+      "tags": [
+        "découverte"
+      ],
       "source": "Grand Curtius (Liège)"
     },
     {
@@ -254,7 +256,7 @@
       "image": "https://agenda.enwallonie.be/huy/homepage/1e494ce33bc642e88d986e9a45dd338b/@@images/image-430-0e812e6456a5250649401b4bf96f664c.png",
       "page_url": "https://www.huy.be/agenda/sainte-catherine-cross-marche-benediction-des?u=1e494ce33bc642e88d986e9a45dd338b",
       "url": "https://www.huy.be/agenda/sainte-catherine-cross-marche-benediction-des?u=1e494ce33bc642e88d986e9a45dd338b",
-      "summary": "Sainte-Catherine à Huy : cross, marché, bénédiction des animaux, semaine de l'arbre.",
+      "summary": "Sainte-Catherine à Huy : cross, marché, bénédiction des animaux, semaine de l'arbre, du 11 au 28 novembre.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -442,30 +444,6 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-madame-moustache-bruxelles-dancefloor-radiomix-2026-11-19",
-      "title": "DANCEFLOOR RADIOMIX",
-      "category": "party",
-      "venue": "Madame Moustache",
-      "city": "Bruxelles",
-      "lat": 50.8514898,
-      "lon": 4.3489335,
-      "start": "2026-11-19T22:00:00",
-      "end": "2026-11-20T04:00:00",
-      "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1792418468516-KYT9UDPRAP082RZWCFW3/856238861_2180318356694976_4620656783581567299_n.jpg",
-      "page_url": "https://www.madamemoustache.be/agenda/4pskwfarsn6xa7h4nkalasasprrxwx",
-      "url": "https://www.madamemoustache.be/agenda/4pskwfarsn6xa7h4nkalasasprrxwx",
-      "summary": "Événement intitulé « Dancefloor Radiomix » chez Madame Moustache à Bruxelles, du jeudi 19 novembre 2026 à 22h au vendredi 20 novembre 2026 à 4h. La page ne décrit pas le programme ni les artistes.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée"
-      ],
-      "source": "Madame Moustache (Bruxelles)"
-    },
-    {
       "id": "fbx-988473030930128",
       "title": "Salon de la mode afro-caribéenne",
       "category": "fair",
@@ -570,26 +548,6 @@
       "source": "VisitHuy"
     },
     {
-      "id": "web-ville-de-huy-bikini-bottom-concert-la-bougie-maison-du-p-re-no-l-2026-11-20",
-      "title": "Bikini Bottom - Concert à la bougie - Maison du Père Noël",
-      "category": "concert",
-      "venue": "Maison du Père Noël",
-      "city": "Huy",
-      "lat": 50.5030983,
-      "lon": 5.1730226,
-      "start": "2026-11-20T10:00:00",
-      "end": "2026-11-20T10:00:00",
-      "image": "https://agenda.enwallonie.be/huy/homepage/7c2be8815df949c4b93f6b555e458326/@@images/image-430-3de261ba0817e2e1a518e42832ef27b9.jpeg",
-      "page_url": "https://www.huy.be/agenda/bikini-bottom-concert-a-la-bougie-maison-du-pere?u=7c2be8815df949c4b93f6b555e458326",
-      "url": "https://www.huy.be/agenda/bikini-bottom-concert-a-la-bougie-maison-du-pere?u=7c2be8815df949c4b93f6b555e458326",
-      "summary": "Concert à la bougie « Bikini Bottom » à la Maison du Père Noël à Huy.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ville de Huy"
-    },
-    {
       "id": "web-fuse-bruxelles-fuse-presents-life-extension-w-partiboi69-lb-aka-labat-salome-202",
       "title": "Fuse presents Life Extension w/ Partiboi69, LB aka LABAT & SALOME",
       "category": "party",
@@ -614,46 +572,6 @@
       "source": "Fuse (Bruxelles)"
     },
     {
-      "id": "web-ancienne-belgique-bruxelles-afroplug-connect-2026-11-20",
-      "title": "Afroplug Connect",
-      "category": "talks",
-      "venue": "Ancienne Belgique",
-      "city": "Bruxelles",
-      "lat": 50.8470454,
-      "lon": 4.3492674,
-      "start": "2026-11-20T10:00:00",
-      "end": "2026-11-20T10:00:00",
-      "image": "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000TA0HNMA1_1240x720.jpg",
-      "page_url": "https://www.abconcerts.be/fr/agenda/afroplug-connect/a10Qw00000PsEhBIAV",
-      "url": "https://www.abconcerts.be/fr/agenda/afroplug-connect/a10Qw00000PsEhBIAV",
-      "summary": "Pour les 5 ans de la plateforme Afroplug, sa fondatrice Ms Mavy raconte la création du projet, suivie d'un talk avec Sound'n Souls, ATL Brussels et +TTFB sur la place des scènes bruxelloises. La soirée se termine par un moment de networking.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ancienne Belgique (Bruxelles)"
-    },
-    {
-      "id": "web-ancienne-belgique-bruxelles-jessie-ware-2026-11-20",
-      "title": "Jessie Ware",
-      "category": "concert",
-      "venue": "Ancienne Belgique",
-      "city": "Bruxelles",
-      "lat": 50.8470454,
-      "lon": 4.3492674,
-      "start": "2026-11-20T10:00:00",
-      "end": "2026-11-20T10:00:00",
-      "image": "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000MvYgDMAV_1240x720.jpg",
-      "page_url": "https://www.abconcerts.be/fr/agenda/jessie-ware/a10Qw00000BJ9m3IAD",
-      "url": "https://www.abconcerts.be/fr/agenda/jessie-ware/a10Qw00000BJ9m3IAD",
-      "summary": "The Superbloom Tour 2026, avec Tsatsamis en première partie.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ancienne Belgique (Bruxelles)"
-    },
-    {
       "id": "web-ancienne-belgique-bruxelles-afroplug-night-anniversary-2026-11-20",
       "title": "Afroplug Night Anniversary",
       "category": "party",
@@ -666,9 +584,9 @@
       "image": "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000Stqc9MAB_1240x720.jpg",
       "page_url": "https://www.abconcerts.be/fr/agenda/afroplug-night-anniversary/a10Qw00000BclikIAB",
       "url": "https://www.abconcerts.be/fr/agenda/afroplug-night-anniversary/a10Qw00000BclikIAB",
-      "summary": "Afroplug fête ses 5 ans et fait résonner dans notre club les sons des diasporas afro, caribéenne et latino-américaine !",
-      "price_from": null,
-      "free": null,
+      "summary": "Soirée d'anniversaire des cinq ans d'Afroplug à l'AB Club (Bruxelles) : des DJs jouent les musiques afro, caribéennes et latino-américaines. Shaka Lion, Ravi Bongo, GoldenYnice, Brownsugvr et Ms Mavy se succèdent jusqu'à 05:00.",
+      "price_from": 1.25,
+      "free": false,
       "audience": [
         "young"
       ],
@@ -676,68 +594,6 @@
         "soirée"
       ],
       "source": "Ancienne Belgique (Bruxelles)"
-    },
-    {
-      "id": "web-trix-anvers-jembaa-groove-ft-kwame-yeboah-2026-11-20",
-      "title": "Jembaa Groove ft. Kwame Yeboah",
-      "category": "concert",
-      "venue": "Trix",
-      "city": "Anvers",
-      "lat": 51.2195776,
-      "lon": 4.4483726,
-      "start": "2026-11-20T10:00:00",
-      "end": "2026-11-20T10:00:00",
-      "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/a49b/23/65ee3dcb58183dc8139decff57a3a2b87d3f55c7.webp",
-      "page_url": "https://www.trixonline.be/nl/event/jembaa-groove-ft-kwame-yeboah-1",
-      "url": "https://www.trixonline.be/nl/event/jembaa-groove-ft-kwame-yeboah-1",
-      "summary": "Le groupe berlinois Jembaa Groove présente son nouvel EP « Be A Lover » avec une line-up renouvelée. Au programme : un afro-jazz soulful mêlant highlife, afrobeats et rythmes polyrythmiques, avec des invités comme Fatoumata Diawara.",
-      "price_from": 4.3,
-      "free": false,
-      "audience": [],
-      "tags": [],
-      "source": "Trix (Anvers)"
-    },
-    {
-      "id": "web-trix-anvers-rosemary-2026-11-20",
-      "title": "Rosemary",
-      "category": "concert",
-      "venue": "Trix",
-      "city": "Anvers",
-      "lat": 51.2195776,
-      "lon": 4.4483726,
-      "start": "2026-11-20T10:00:00",
-      "end": "2026-11-20T10:00:00",
-      "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/aac1/60/aab91aab0b992855100b9fb61aa9b29597999cc3.webp",
-      "page_url": "https://www.trixonline.be/nl/event/rosemary-1",
-      "url": "https://www.trixonline.be/nl/event/rosemary-1",
-      "summary": "Le groupe Rosemary joue du « Synthekpunk », un mélange de punk électronique poétique et de musique dansante à 160 bpm. Leur musique évoque la pression de devoir toujours aller plus vite tout en restant fragile à l'intérieur.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Trix (Anvers)"
-    },
-    {
-      "id": "web-het-depot-louvain-psychonaut-2026-11-20",
-      "title": "Psychonaut",
-      "category": "concert",
-      "venue": "Het Depot",
-      "city": "Louvain",
-      "lat": 50.881515,
-      "lon": 4.7137996,
-      "start": "2026-11-20T10:00:00",
-      "end": "2026-11-20T10:00:00",
-      "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0aQF000014JP4kYAG_1800x810_1800.jpg?itok=UstlrCGn",
-      "page_url": "https://www.hetdepot.be/concert/2026/psychonaut",
-      "url": "https://apps.ticketmatic.com/widgets/hetdepot/flow/newwebskin?event=778520615967&l=nl#!/addtickets",
-      "summary": "Psychonaut avec special guest The Guru Guru : le versant le plus musclé de la scène belge.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "young"
-      ],
-      "tags": [],
-      "source": "Het Depot (Louvain)"
     },
     {
       "id": "fb-28068708012782919",
@@ -1356,30 +1212,6 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-madame-moustache-bruxelles-arch-club-2026-11-20",
-      "title": "ARCH CLUB",
-      "category": "concert",
-      "venue": "Madame Moustache",
-      "city": "Bruxelles",
-      "lat": 50.8514898,
-      "lon": 4.3489335,
-      "start": "2026-11-20T19:30:00",
-      "end": "2026-11-20T23:00:00",
-      "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1792419208918-I0O4T78B0O0WOQG2OAGI/855188280_1458584223136291_5430348580748785520_n.jpg",
-      "page_url": "https://www.madamemoustache.be/agenda/zokcgi1ajj4skucrz27gcjodwylnt1",
-      "url": "https://www.madamemoustache.be/agenda/zokcgi1ajj4skucrz27gcjodwylnt1",
-      "summary": "Soirée live avec xo, duno, mau_v et limak, entre rap contemporain, électronique et culture club.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée"
-      ],
-      "source": "Madame Moustache (Bruxelles)"
-    },
-    {
       "id": "fb-1097869849605842",
       "title": "1 soirée, 2 spectacles ! > Le Tic-Tac de l’oubli + Sept minutes",
       "category": "theatre",
@@ -1663,26 +1495,6 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-le-forum-li-ge-the-music-of-hans-zimmer-alan-silvestri-2026-11-20",
-      "title": "THE MUSIC OF HANS ZIMMER & ALAN SILVESTRI",
-      "category": "concert",
-      "venue": "Le Forum",
-      "city": "Liège",
-      "lat": 50.64077,
-      "lon": 5.57031,
-      "start": "2026-11-20T20:00:00",
-      "end": "2026-11-20T20:00:00",
-      "image": "https://www.leforum.be/visuel/SlideFront/hans-zimmer-alan-silvestri-510.jpg",
-      "page_url": "https://www.leforum.be/spectacle_202611202000.html",
-      "url": "https://www.leforum.be/spectacle_202611202000.html",
-      "summary": "Concert-spectacle du « Grand Symphonique » (50 musiciens, choristes et solistes), présenté par Robert Emery avec projections. Au programme : musiques de Hans Zimmer et Alan Silvestri, dont Superman, Gladiator, Back to the Future et Dune.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Le Forum (Liège)"
-    },
-    {
       "id": "web-mars-mons-arts-de-la-sc-ne-un-casse-noisette-2026-11-20",
       "title": "Un Casse-Noisette",
       "category": "theatre",
@@ -1695,88 +1507,12 @@
       "image": null,
       "page_url": "https://www.surmars.be/agenda/2026-11/danse/un-casse-noisette",
       "url": "https://shop.infinitix.be/SURMARSBE_INF/S/216E861E-2993-32AD-E563-1C12E05A2428/?d=6437AF59-6489-FC69-EF81-63049B0E8A24",
-      "summary": "Spectacle de danse Un Casse-Noisette, programmé à Mars le vendredi 20 novembre à 20h00.",
+      "summary": "Spectacle de danse programmé à Mars le vendredi 20 novembre à 20h00.",
       "price_from": 6.0,
       "free": false,
       "audience": [],
       "tags": [],
       "source": "Mars – Mons arts de la scène"
-    },
-    {
-      "id": "tm-Z698xZG2Z16eZYF3aN",
-      "title": "Steelover (B)",
-      "category": "concert",
-      "venue": "Spirit of 66",
-      "city": "Verviers",
-      "lat": 50.59353,
-      "lon": 5.86109,
-      "start": "2026-11-20T20:00:00",
-      "end": "2026-11-20T20:00:00",
-      "image": "https://s1.ticketm.net/dam/a/e62/83919d80-427b-4c7c-a4da-d218918e6e62_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/steelover-b--tickets/2030212263",
-      "summary": "Melodic Hard Rock - Made In Liège",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
-    },
-    {
-      "id": "tm-Z698xZG2Z1kfF8Ioe",
-      "title": "Erhan Demirci \"Made in Cité\"",
-      "category": "theatre",
-      "venue": "Trixxo Theater Hasselt",
-      "city": "Hasselt",
-      "lat": 50.93311,
-      "lon": 5.36207,
-      "start": "2026-11-20T20:00:00",
-      "end": "2027-03-26T20:00:00",
-      "image": "https://s1.ticketm.net/dam/a/b31/7d0aae1d-e85a-4a47-840e-5ee96f1c7b31_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/erhan-demirci-made-in-cite-tickets/508428442",
-      "summary": "The complete timing can be found a few days before the show on www.trixxo-theater.be.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
-    },
-    {
-      "id": "tm-Z698xZG2Z1kq978Of",
-      "title": "Bleachers",
-      "category": "concert",
-      "venue": "Cirque Royal - Koninklijk Circus",
-      "city": "Brussels",
-      "lat": 50.84906,
-      "lon": 4.36565,
-      "start": "2026-11-20T20:00:00",
-      "end": "2026-11-20T20:00:00",
-      "image": "https://s1.ticketm.net/dam/a/8b7/33e20822-5d80-4299-b37e-5971b0ba78b7_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/bleachers-tickets/757110814",
-      "summary": "Onder leiding van Jack Antonoff groeide Bleachers het afgelopen decennium uit tot een van de meest herkenbare namen binnen de alternatieve pop. Als producer en songwriter stond Antonoff mee aan de basis van invloedrijke albums van onder meer Taylor Swift, Lorde, Lana Del Rey en St. Vincent, goed voo",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
-    },
-    {
-      "id": "tm-Z698xZG2Z16evE_UJ8",
-      "title": "Pink Floyd Project",
-      "category": "concert",
-      "venue": "Stadsschouwburg Antwerpen",
-      "city": "Antwerp",
-      "lat": 51.21579,
-      "lon": 4.40989,
-      "start": "2026-11-20T20:00:00",
-      "end": "2026-11-20T20:00:00",
-      "image": "https://s1.ticketm.net/dam/a/0bb/0f994f5c-a760-43a1-bbb9-f4bf2704f0bb_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/pink-floyd-project-tickets/2067676990",
-      "summary": "With this new show, Pink Floyd Project places the theatre audience at the heart of the musical landscape of 1975. Before the interval, Wish You Were Here takes centre stage, including tracks that have retained their status for decades. After the interval, The Dark Side of the Moon follows, featuring",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
     },
     {
       "id": "tm-Z698xZG2Z16eZs-9F4",
@@ -1856,25 +1592,6 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
-    },
-    {
-      "id": "tm-Z698xZG2Z16vZ48voM",
-      "title": "Night of the Proms 2026",
-      "category": "concert",
-      "venue": "AFAS Dome",
-      "city": "Merksem (Antwerpen)",
-      "lat": 51.23024,
-      "lon": 4.44176,
-      "start": "2026-11-20T20:30:00",
-      "end": "2026-11-22T15:00:00",
-      "image": "https://s1.ticketm.net/dam/e/57a/ad7c0849-11ad-45bf-88e1-f35d3993b57a_RETINA_PORTRAIT_16_9.jpg",
-      "url": "https://www.ticketmaster.be/event/night-of-the-proms-2026-tickets/1015401477",
-      "summary": "The complete timing can be found a few days before the concert on www.afas-dome.be.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ticketmaster"
     },
     {
       "id": "fbx-1118262870648015",
@@ -1993,6 +1710,30 @@
       "audience": [],
       "tags": [],
       "source": "Ticketmaster"
+    },
+    {
+      "id": "web-madame-moustache-bruxelles-arch-club-2026-11-20",
+      "title": "ARCH CLUB",
+      "category": "party",
+      "venue": "Madame Moustache",
+      "city": "Bruxelles",
+      "lat": 50.8514898,
+      "lon": 4.3489335,
+      "start": "2026-11-20T22:00:00",
+      "end": "2026-11-21T04:30:00",
+      "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1792419208918-I0O4T78B0O0WOQG2OAGI/855188280_1458584223136291_5430348580748785520_n.jpg",
+      "page_url": "https://www.madamemoustache.be/agenda/zokcgi1ajj4skucrz27gcjodwylnt1",
+      "url": "https://www.madamemoustache.be/agenda/zokcgi1ajj4skucrz27gcjodwylnt1",
+      "summary": "ARCH CLUB : rap contemporain, électronique et culture club avec xo, duno, mau_v et limak, une soirée live et immersive.",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "young"
+      ],
+      "tags": [
+        "soirée"
+      ],
+      "source": "Madame Moustache (Bruxelles)"
     },
     {
       "id": "fbx-1665027205241872",
@@ -2467,12 +2208,10 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/ao/",
       "url": "https://shop.paylogic.com/a625f7a9d0b0464ab78c04dace462f65/",
-      "summary": "Concert d'Ão et Brice Ninck au Reflektor (complet).",
+      "summary": "Concert d'Ão + Brice Ninck au Reflektor, billetterie indiquée comme sold out.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
     },
@@ -2489,7 +2228,7 @@
       "image": null,
       "page_url": null,
       "url": "https://shop.paylogic.com/bbce5d8b4a614f4eb3effe9572a167a9/offsale",
-      "summary": "Concert de Suzane et Marie Jay à l'OM (complet).",
+      "summary": "Concert de Suzane + Marie Jay à OM, billetterie indiquée comme sold out.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -2531,8 +2270,8 @@
       "image": "https://www.stavelot.be/actualites/semaine-de-larbre-rendez-vous-le-21-11-pour-une-distribution-gratuite-de-plants-darbres/@@images/54f3a171-ce12-4481-b22d-a78385bc9af9.jpeg",
       "page_url": "https://www.stavelot.be/actualites/semaine-de-larbre-rendez-vous-le-21-11-pour-une-distribution-gratuite-de-plants-darbres",
       "url": "https://www.stavelot.be/actualites/semaine-de-larbre-rendez-vous-le-21-11-pour-une-distribution-gratuite-de-plants-darbres",
-      "summary": "Rendez-vous le samedi 21/11 pour une distribution gratuite de plants d'arbres, dans le cadre de la Semaine de l'Arbre.",
-      "price_from": null,
+      "summary": "Distribution gratuite de plants d'arbres le samedi 21/11, dans le cadre de la Semaine de l'Arbre.",
+      "price_from": 0,
       "free": true,
       "audience": [],
       "tags": [
@@ -2553,7 +2292,7 @@
       "image": "https://agenda.enwallonie.be/huy/homepage/9827677dc1c64c628839a17924f01f3b/@@images/image-430-81a570edd9e0a68a6c543c84ad88ac08.jpeg",
       "page_url": "https://www.huy.be/agenda/le-tout-petit-monsieur-spectacle-jeune-public?u=9827677dc1c64c628839a17924f01f3b",
       "url": "https://www.huy.be/agenda/le-tout-petit-monsieur-spectacle-jeune-public?u=9827677dc1c64c628839a17924f01f3b",
-      "summary": "Spectacle jeune public « Le tout petit Monsieur » à la Maison du Père Noël à Huy.",
+      "summary": "Spectacle jeune public « Le tout petit Monsieur » à la Maison du Père Noël, le 21 novembre.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -2563,8 +2302,8 @@
       "source": "Ville de Huy"
     },
     {
-      "id": "web-grand-curtius-li-ge-ap-ro-litt-raire-en-livrez-vous-prix-marcel-thiry-2026-roman",
-      "title": "Apéro littéraire : En livrez-vous, Prix Marcel Thiry 2026 (roman)",
+      "id": "web-grand-curtius-li-ge-ap-ro-litt-raire-prix-marcel-thiry-2026-roman-2026-11-21",
+      "title": "Apéro littéraire : Prix Marcel Thiry 2026 (roman)",
       "category": "talks",
       "venue": "Grand Curtius",
       "city": "Liège",
@@ -2575,7 +2314,7 @@
       "image": "https://www.grandcurtius.be/sites/default/files/styles/teaser_wide/public/2026-10/bandeau%20thiry%20txt_0.jpg?itok=0dQlJVUx",
       "page_url": "https://www.grandcurtius.be/fr/actualites/agenda/apero-litteraire-enlivrez-vous-prix-marcel-thiry-2026-roman",
       "url": "https://www.grandcurtius.be/fr/actualites/agenda/apero-litteraire-enlivrez-vous-prix-marcel-thiry-2026-roman",
-      "summary": "Remise du Prix Marcel Thiry 2026 (roman ou nouvelles) au lauréat Pascal Leclercq, pour son roman « La Pharmacie », en présence des finalistes. Les finalistes discutent ensuite avec le public, animés par Guy Delhasse.",
+      "summary": "Remise du Prix Marcel Thiry 2026 (roman ou nouvelles) au lauréat Pascal Leclercq, pour son roman « La Pharmacie », en présence des finalistes. Les finalistes échangent avec le public, animés par Guy Delhasse.",
       "price_from": null,
       "free": true,
       "audience": [],
@@ -2647,26 +2386,6 @@
       "source": "Fuse (Bruxelles)"
     },
     {
-      "id": "web-ancienne-belgique-bruxelles-joe-jackson-2026-11-21",
-      "title": "Joe Jackson",
-      "category": "concert",
-      "venue": "Ancienne Belgique",
-      "city": "Bruxelles",
-      "lat": 50.8470454,
-      "lon": 4.3492674,
-      "start": "2026-11-21T10:00:00",
-      "end": "2026-11-21T10:00:00",
-      "image": "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000IhxnFMAR_1240x720.jpg",
-      "page_url": "https://www.abconcerts.be/fr/agenda/joe-jackson/a10Qw000009DhGXIA0",
-      "url": "https://www.abconcerts.be/fr/agenda/joe-jackson/a10Qw000009DhGXIA0",
-      "summary": "Joe Jackson présente son spectacle « Hope and Fury ». Concert complet.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Ancienne Belgique (Bruxelles)"
-    },
-    {
       "id": "web-ancienne-belgique-bruxelles-nightlab-session-it-began-in-ipanema-w-daniel-haaksm",
       "title": "Nightlab Session: It Began In Ipanema w/ Daniel Haaksman",
       "category": "talks",
@@ -2699,15 +2418,33 @@
       "image": "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000SJSOfMAP_1240x720.jpg",
       "page_url": "https://www.abconcerts.be/fr/agenda/asian-persuasion/a10Qw00000C0VJSIA3",
       "url": "https://www.abconcerts.be/fr/agenda/asian-persuasion/a10Qw00000C0VJSIA3",
-      "summary": "MÊMES RACINES | NOUVEAUX RYTHMES, avec Aqua Riyaz, Elise & Emma, Ria Lina, Ro-Mi Pouw et Faradays.",
-      "price_from": null,
-      "free": null,
+      "summary": "Soirée à l'AB Club avec des artistes d'origine asiatique venus de Belgique, des Pays-Bas et du Royaume-Uni : concerts d'Aqua Riyaz et Faradays, danse (Elise & Emma, Ro-Mi Pouw) et stand-up de Ria Lina. Le programme mêle musique, danse, stand-up et arts martiaux.",
+      "price_from": 1.25,
+      "free": false,
       "audience": [
         "young"
       ],
-      "tags": [
-        "soirée"
-      ],
+      "tags": [],
+      "source": "Ancienne Belgique (Bruxelles)"
+    },
+    {
+      "id": "web-ancienne-belgique-bruxelles-joe-jackson-hope-and-fury-2026-11-21",
+      "title": "Joe Jackson – ‘Hope and Fury’",
+      "category": "concert",
+      "venue": "Ancienne Belgique",
+      "city": "Bruxelles",
+      "lat": 50.8470454,
+      "lon": 4.3492674,
+      "start": "2026-11-21T10:00:00",
+      "end": "2026-11-21T10:00:00",
+      "image": "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000IhxnFMAR_1240x720.jpg",
+      "page_url": "https://www.abconcerts.be/fr/agenda/joe-jackson/a10Qw000009DhGXIA0",
+      "url": "https://www.abconcerts.be/fr/agenda/joe-jackson/a10Qw000009DhGXIA0",
+      "summary": "Le musicien britannique Joe Jackson présente en concert à l'AB Grande salle son nouvel album ‘Hope and Fury’, composé de neuf chansons mêlant pop sophistiquée, funk et influences latines. Le public y découvrira mélodies accrocheuses, paroles intelligentes et humour caractéristique de l'artiste.",
+      "price_from": 1.25,
+      "free": false,
+      "audience": [],
+      "tags": [],
       "source": "Ancienne Belgique (Bruxelles)"
     },
     {
@@ -2791,8 +2528,8 @@
       "source": "Trix (Anvers)"
     },
     {
-      "id": "web-het-depot-louvain-breaking-barriers-presents-the-kids-50-2026-11-21",
-      "title": "Breaking Barriers presents The Kids 50",
+      "id": "web-het-depot-louvain-breaking-barriers-presents-the-kids-50-clitteband-plastik-bags",
+      "title": "Breaking Barriers presents The Kids 50 + Clitteband + Plastik Bags + Gender Reveal Atomic Bomb + DJ Kate & Ronny + DJ Malcolm Nix",
       "category": "concert",
       "venue": "Het Depot",
       "city": "Louvain",
@@ -2800,10 +2537,10 @@
       "lon": 4.7137996,
       "start": "2026-11-21T10:00:00",
       "end": "2026-11-21T10:00:00",
-      "image": "https://www.hetdepot.be/sites/default/files/styles/concert_suggestion_small/public/a0aQF000017e0klYAA_1800x810_1800.jpg?itok=_XaLTPJ-",
+      "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0aQF000017e0klYAA_1800x810_1800.jpg?itok=Wdlw0M8M",
       "page_url": "https://www.hetdepot.be/concert/2026/breaking-barriers-presents-the-kids-50",
       "url": "https://apps.ticketmatic.com/widgets/hetdepot/flow/newwebskin?event=492254516339&l=nl#!/addtickets",
-      "summary": "Punk is not dead ! The Kids 50 avec Clitteband, Plastik Bags, Gender Reveal Atomic Bomb et les DJs Kate & Ronny et Malcolm Nix.",
+      "summary": "Concert au Het Depot, dans la grande salle, dans la foyer ou dans l'espace VIP selon la configuration choisie (assise, flex, box ou foyer). La page ne précise ni le programme détaillé ni les horaires.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -4602,6 +4339,25 @@
       "classified": true
     },
     {
+      "id": "tm-Z698xZG2Z16v_OaIZd",
+      "title": "Night of the Proms 2026",
+      "category": "concert",
+      "venue": "AFAS Dome",
+      "city": "Merksem (Antwerpen)",
+      "lat": 51.23024,
+      "lon": 4.44176,
+      "start": "2026-11-21T20:30:00",
+      "end": "2026-11-22T15:00:00",
+      "image": "https://s1.ticketm.net/dam/e/32f/6c608f6d-5b01-4f81-bab7-e7acb5e2c32f_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.ticketmaster.be/event/night-of-the-proms-2026-tickets/1660268003",
+      "summary": "The complete timing can be found a few days before the concert on www.afas-dome.be.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ticketmaster"
+    },
+    {
       "id": "fbx-1134455485721948",
       "title": "Prima Noctem - Engis",
       "category": "party",
@@ -5097,7 +4853,7 @@
       "image": "https://agenda.enwallonie.be/huy/homepage/fdd7fecb5fd94131aed35690c2d7db0d/@@images/image-430-d9f70f52ed666ce987abd183ef374a19.jpeg",
       "page_url": "https://www.huy.be/agenda/journee-ludique-et-festive-en-avant?u=fdd7fecb5fd94131aed35690c2d7db0d",
       "url": "https://www.huy.be/agenda/journee-ludique-et-festive-en-avant?u=fdd7fecb5fd94131aed35690c2d7db0d",
-      "summary": "Journée ludique et festive « En avant » à Huy.",
+      "summary": "Journée ludique et festive « En avant » à Huy, le 22 novembre.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -5117,7 +4873,7 @@
       "image": "https://agenda.enwallonie.be/huy/homepage/f943ee7ff335438783305b4a25fb28bd/@@images/image-430-d9c8891384c6ddc5107bccc3070fc242.jpeg",
       "page_url": "https://www.huy.be/agenda/meme-si-je-taime-spectacle-musical-jeune-public?u=f943ee7ff335438783305b4a25fb28bd",
       "url": "https://www.huy.be/agenda/meme-si-je-taime-spectacle-musical-jeune-public?u=f943ee7ff335438783305b4a25fb28bd",
-      "summary": "Spectacle musical jeune public « Même si je t'aime » à la Maison du Père Noël à Huy.",
+      "summary": "Spectacle musical jeune public « Même si je t'aime » à la Maison du Père Noël, le 22 novembre.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -5139,7 +4895,7 @@
       "image": "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000R0lKLMAZ_1240x720.jpg",
       "page_url": "https://www.abconcerts.be/fr/agenda/finale-humos-rock-rally-2026/a10Qw00000EoR3NIAV",
       "url": "https://www.abconcerts.be/fr/agenda/finale-humos-rock-rally-2026/a10Qw00000EoR3NIAV",
-      "summary": "Le chemin le plus court vers les salles de concert, les festivals et la gloire éternelle, avec plastik/plastik, Eldarova, Fred Gata et d'autres.",
+      "summary": "Le chemin le plus court vers les salles de concert, les festivals et la gloire éternelle",
       "price_from": null,
       "free": null,
       "audience": [
@@ -5563,7 +5319,7 @@
       "image": "https://minimondialimpro.be/wp-content/uploads/2026/09/Staff-deco-Justine.jpg",
       "page_url": "https://www.surmars.be/agenda/2026-11/litterature/mini-mondial-dimpro",
       "url": "https://minimondialimpro.be/",
-      "summary": "Mini Mondial d'impro, programmé à Mars le dimanche 22 novembre à 15h00.",
+      "summary": "Mini Mondial d'impro proposé à Mars le dimanche 22 novembre à 15h00.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -5802,8 +5558,28 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-ancienne-belgique-bruxelles-sarah-julia-2026-11-23",
-      "title": "Sarah Julia",
+      "id": "web-ancienne-belgique-bruxelles-artist-talk-w-fatoumata-diawara-2026-11-23",
+      "title": "Artist Talk w/Fatoumata Diawara",
+      "category": "talks",
+      "venue": "Ancienne Belgique",
+      "city": "Bruxelles",
+      "lat": 50.8470454,
+      "lon": 4.3492674,
+      "start": "2026-11-23T10:00:00",
+      "end": "2026-11-23T10:00:00",
+      "image": "https://d12xfkzf9kx8ij.cloudfront.net/a0KQu00000cWp8AMAS_1240x720.jpg",
+      "page_url": "https://www.abconcerts.be/fr/agenda/artist-talk-wfatoumata-diawara/a10Qw00000L1RACIA3",
+      "url": "https://www.abconcerts.be/fr/agenda/artist-talk-wfatoumata-diawara/a10Qw00000L1RACIA3",
+      "summary": "Une conversation intime avec Fatoumata au sujet de son dernier album « Massa », de sa personnalité artistique, de l'afrofuturisme et du pouvoir de la musique.",
+      "price_from": null,
+      "free": true,
+      "audience": [],
+      "tags": [],
+      "source": "Ancienne Belgique (Bruxelles)"
+    },
+    {
+      "id": "web-ancienne-belgique-bruxelles-sarah-julia-camille-camille-2026-11-23",
+      "title": "Sarah Julia + Camille Camille",
       "category": "concert",
       "venue": "Ancienne Belgique",
       "city": "Bruxelles",
@@ -5814,7 +5590,7 @@
       "image": "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000MtnwHMAR_1240x720.jpg",
       "page_url": "https://www.abconcerts.be/fr/agenda/sarah-julia/a10Qw00000F3m97IAB",
       "url": "https://www.abconcerts.be/fr/agenda/sarah-julia/a10Qw00000F3m97IAB",
-      "summary": "Un duo de sœurs néerlandaises propose un indie-folk captivant, avec Camille Camille en première partie.",
+      "summary": "Un duo de sœurs néerlandaises propose un indie-folk captivant",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -5923,8 +5699,8 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-jupiter-rencontre-2026-11-24",
-      "title": "Jupiter – Rencontre",
+      "id": "web-les-grignoux-cin-ma-li-ge-jupiter-2026-11-24",
+      "title": "Jupiter",
       "category": "cinema",
       "venue": "Sauvenière",
       "city": "Liège",
@@ -5935,7 +5711,7 @@
       "image": "https://www.grignoux.be/upload/grignoux/event/3128/jupiter_headersite.jpg",
       "page_url": "https://www.grignoux.be/fr/evenement/3128/jupiter",
       "url": "https://www.grignoux.be/fr/evenement/3128/jupiter",
-      "summary": "Rencontre avec le réalisateur Alexandre Smia autour de Jupiter, thriller politique où un président français doit gérer une crise nucléaire depuis le bunker de l'Élysée. Organisée dans le cadre de Politik, les rencontres internationales du film politique de Liège.",
+      "summary": "Huis clos géopolitique : le président Paul Archambault doit trancher, dans le bunker de l'Élysée, face à un ultimatum nucléaire russe menaçant un allié de la France. Séance en présence du réalisateur Alexandre Smia.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -5963,8 +5739,8 @@
       "source": "Théâtre de Liège"
     },
     {
-      "id": "web-ancienne-belgique-bruxelles-fatoumata-diawara-2026-11-24",
-      "title": "Fatoumata Diawara",
+      "id": "web-ancienne-belgique-bruxelles-fatoumata-diawara-imane-guemssy-2026-11-24",
+      "title": "Fatoumata Diawara + Imane Guemssy",
       "category": "concert",
       "venue": "Ancienne Belgique",
       "city": "Bruxelles",
@@ -5975,7 +5751,7 @@
       "image": "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000JQdScMAL_1240x720.jpg",
       "page_url": "https://www.abconcerts.be/fr/agenda/fatoumata-diawara/a10Qw00000A8DVNIA3",
       "url": "https://www.abconcerts.be/fr/agenda/fatoumata-diawara/a10Qw00000A8DVNIA3",
-      "summary": "The Real African Queen présente son nouvel album, avec Imane Guemssy en première partie.",
+      "summary": "La chanteuse et guitariste malienne Fatoumata Diawara en concert à l'AB.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -6003,8 +5779,8 @@
       "source": "Trix (Anvers)"
     },
     {
-      "id": "web-het-depot-louvain-baby-lasagna-2026-11-24",
-      "title": "Baby Lasagna",
+      "id": "web-het-depot-louvain-baby-lasagna-luzeri-ocean-of-another-2026-11-24",
+      "title": "Baby Lasagna + Luzeri + Ocean of Another",
       "category": "concert",
       "venue": "Het Depot",
       "city": "Louvain",
@@ -6015,13 +5791,15 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0aQF00000yZFMbYAO_1800.jpg?itok=4zE52Xmy",
       "page_url": "https://www.hetdepot.be/concert/2026/baby-lasagna",
       "url": "https://apps.ticketmatic.com/widgets/hetdepot/flow/newwebskin?event=103976690778&l=nl#!/addtickets",
-      "summary": "Le concert se déroule dans la grande salle, en configuration assise, debout ou mixte, ou dans le foyer ou la VIP-ruimte selon l'option choisie. Les places assises en configuration flex et seated ne sont pas numérotées et ne peuvent pas être réservées à l'avance.",
+      "summary": "Concert au Het Depot, dans la grande salle (placement assis, flex ou debout selon l'option choisie), dans le foyer ou dans l'espace VIP avec vue sur la scène depuis le balcon. La page ne précise ni les artistes ni le programme.",
       "price_from": null,
       "free": null,
       "audience": [
         "young"
       ],
-      "tags": [],
+      "tags": [
+        "soirée"
+      ],
       "source": "Het Depot (Louvain)"
     },
     {
@@ -6037,7 +5815,7 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Cassandre.jpeg.webp?itok=nlGvnAdo",
       "page_url": "https://www.surmars.be/agenda/2026-11/theatre/cassandre",
       "url": "https://www.surmars.be/agenda/2026-11/theatre/cassandre",
-      "summary": "Une femme prélève l'eau, découvre un problème et réclame des preuves, mais la ville reste sourde.",
+      "summary": "Une femme prélève l'eau d'une rivière, découvre un problème et doit faire face à une ville qui reste sourde. Création de Mars.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -6162,7 +5940,7 @@
       "image": null,
       "page_url": "https://www.surmars.be/agenda/2026-11/musique/thierree-satie-microvers",
       "url": "https://shop.infinitix.be/SURMARSBE_INF/S/AD9963FD-E542-BA44-1D10-572810DC1EB7/?d=13F3FFC2-845F-3E49-FA24-46DDEEB67167",
-      "summary": "Concert Thierrée, Satie : Microvers, programmé à Mars le mardi 24 novembre à 20h00.",
+      "summary": "Concert Thierrée, Satie : Microvers à Mars le mardi 24 novembre à 20h00.",
       "price_from": 3.0,
       "free": false,
       "audience": [],
@@ -6205,7 +5983,27 @@
       "image": null,
       "page_url": null,
       "url": "https://shop.paylogic.com/7b33c20d73a64a79b12cb32cb2d2598e/offsale",
-      "summary": "Concert de Miossec à l'OM.",
+      "summary": "Concert de MIOSSEC à OM, billetterie indiquée comme hors vente.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Reflektor (Liège)"
+    },
+    {
+      "id": "web-reflektor-li-ge-miossec-berode-2026-11-25",
+      "title": "MIOSSEC + Berode",
+      "category": "concert",
+      "venue": "OM",
+      "city": "Liège",
+      "lat": 50.6073612,
+      "lon": 5.5364634,
+      "start": "2026-11-25T10:00:00",
+      "end": "2026-11-25T10:00:00",
+      "image": null,
+      "page_url": null,
+      "url": "https://shop.paylogic.com/7b33c20d73a64a79b12cb32cb2d2598e/offsale",
+      "summary": "Concert de MIOSSEC + Berode à OM, billetterie indiquée comme hors vente.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -6225,7 +6023,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/zelie/",
       "url": "https://shop.paylogic.com/90c9c7bcf5f24858904d6800adc49738",
-      "summary": "Concert de Zélie au Reflektor (complet).",
+      "summary": "Concert de Zélie au Reflektor.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -6265,7 +6063,27 @@
       "image": "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000RJpgnMAD_1240x720.jpg",
       "page_url": "https://www.abconcerts.be/fr/agenda/group-atelier-wpaulo-rietjens-astrofisiks/a10Qw00000ONjt3IAD",
       "url": "https://www.abconcerts.be/fr/agenda/group-atelier-wpaulo-rietjens-astrofisiks/a10Qw00000ONjt3IAD",
-      "summary": "Feedback de Paulo sur la démonstration en petit groupe.",
+      "summary": "Feedback de Paulo sur la démonstration en petit groupe",
+      "price_from": null,
+      "free": true,
+      "audience": [],
+      "tags": [],
+      "source": "Ancienne Belgique (Bruxelles)"
+    },
+    {
+      "id": "web-ancienne-belgique-bruxelles-ab-x-ritcs-caf-paak-2026-11-25",
+      "title": "AB x RITCS Café: Paak",
+      "category": "concert",
+      "venue": "RITCS café",
+      "city": "Bruxelles",
+      "lat": 50.8502364,
+      "lon": 4.3459166,
+      "start": "2026-11-25T10:00:00",
+      "end": "2026-11-25T10:00:00",
+      "image": "https://d12xfkzf9kx8ij.cloudfront.net/a0KQw00000SOwvaMAD_1240x720.jpg",
+      "page_url": "https://www.abconcerts.be/fr/agenda/ab-x-ritcs-cafe-paak/a10Qw00000RkVShIAN",
+      "url": "https://www.abconcerts.be/fr/agenda/ab-x-ritcs-cafe-paak/a10Qw00000RkVShIAN",
+      "summary": "Auteur-compositeur-interprète belge qui préfère raconter les grandes émotions avec simplicité",
       "price_from": null,
       "free": true,
       "audience": [],
@@ -6313,8 +6131,8 @@
       "source": "Trix (Anvers)"
     },
     {
-      "id": "web-het-depot-louvain-o-2026-11-25",
-      "title": "Ão",
+      "id": "web-het-depot-louvain-o-tje-extra-concert-sold-out-2026-11-25",
+      "title": "Ão + TJE (extra concert, sold out)",
       "category": "concert",
       "venue": "Het Depot",
       "city": "Louvain",
@@ -6325,12 +6143,10 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0aQF00000zikQbYAI_1800x810_1800.jpg?itok=m12E3gHe",
       "page_url": "https://www.hetdepot.be/concert/2026/ao-0",
       "url": "https://apps.ticketmatic.com/widgets/hetdepot/flow/newwebskin?event=434363716308&l=nl#!/waitinglist",
-      "summary": "Concert supplémentaire avec TJE : Ão présente Malandra, une fusion fluide de genres. Complet, liste d'attente disponible.",
+      "summary": "Ão brengt hun nieuwe worp 'Malandra': een naadloze samensmelting van genres. Extra concert, sold out.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Het Depot (Louvain)"
     },
@@ -6689,7 +6505,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/wednesday-13-the-birthday-massacre-killus/",
       "url": "https://shop.paylogic.com/1ec952da2efd444ca4a852a1a3544f5c/offsale",
-      "summary": "Concert triple plateau Wednesday 13, THE BIRTHDAY MASSACRE et Killus au Reflektor.",
+      "summary": "Concert Wednesday 13 + THE BIRTHDAY MASSACRE + Killus au Reflektor, billetterie indiquée comme hors vente.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -6699,8 +6515,8 @@
       "source": "Reflektor (Liège)"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-le-faux-soir-avant-premi-re-2026-11-26",
-      "title": "Le Faux Soir – Avant-première",
+      "id": "web-les-grignoux-cin-ma-li-ge-le-faux-soir-2026-11-26",
+      "title": "Le Faux Soir",
       "category": "cinema",
       "venue": "Caméo",
       "city": "Namur",
@@ -6711,7 +6527,7 @@
       "image": "https://www.grignoux.be/upload/grignoux/event/3183/le_faux_soir_cameo_headersite.jpg",
       "page_url": "https://www.grignoux.be/fr/evenement/3183/le-faux-soir",
       "url": "https://www.grignoux.be/fr/evenement/3183/le-faux-soir",
-      "summary": "Avant-première en présence du réalisateur et d'une partie de l'équipe du film.",
+      "summary": "Avant-première du film « Le Faux Soir » de Michaël R. Roskam, suivie d'une introduction et d'un débat avec l'équipe du film. En 1943, des résistants belges impriment une fausse édition du journal Le Soir, truffée d'articles ridiculisant l'occupant nazi.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -6719,8 +6535,8 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-15-18-projection-sp-ciale-2026-11-26",
-      "title": "15/18 – Projection spéciale",
+      "id": "web-les-grignoux-cin-ma-li-ge-15-18-2026-11-26",
+      "title": "15/18",
       "category": "cinema",
       "venue": "Sauvenière",
       "city": "Liège",
@@ -6731,7 +6547,7 @@
       "image": "https://www.grignoux.be/upload/grignoux/event/3197/15_18_headersite.jpg",
       "page_url": "https://www.grignoux.be/fr/evenement/3197/1518",
       "url": "https://www.grignoux.be/fr/evenement/3197/1518",
-      "summary": "Projection spéciale de « 15/18 », fiction de Cédric Kahn récompensée à Venise, qui immerge dans une unité de soins pédopsychiatriques. Suivie d'un débat sur la souffrance psychique des jeunes, en présence d'expert·es sur la santé mentale.",
+      "summary": "Projection spéciale du film 15/18 de Cédric Kahn, fiction naturaliste plongeant dans une unité de soins pédopsychiatriques. Suivie d'un débat sur la souffrance psychique des jeunes, en présence d'expert·es en santé mentale.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -6779,26 +6595,6 @@
       "source": "Trix (Anvers)"
     },
     {
-      "id": "web-trix-anvers-snelle-2026-11-26",
-      "title": "Snelle",
-      "category": "concert",
-      "venue": "Trix",
-      "city": "Anvers",
-      "lat": 51.2195776,
-      "lon": 4.4483726,
-      "start": "2026-11-26T10:00:00",
-      "end": "2026-11-26T10:00:00",
-      "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/ab8b/e5/aa5df9e00a488fb53c5bcb8337cd71b2e73b7fbf.webp",
-      "page_url": "https://www.trixonline.be/nl/event/snelle-2",
-      "url": "https://www.trixonline.be/nl/event/snelle-2",
-      "summary": "Snelle présente au Trix d'Anvers ses textes personnels, sa pop et son hip-hop, accompagné du Lieve Jongens Band. Lors de cette tournée de clubs, il joue ses hits, ses nouveaux titres et des arrangements spéciaux.",
-      "price_from": 9.9,
-      "free": false,
-      "audience": [],
-      "tags": [],
-      "source": "Trix (Anvers)"
-    },
-    {
       "id": "web-trix-anvers-kid-kapichi-2026-11-26",
       "title": "Kid Kapichi",
       "category": "concert",
@@ -6819,8 +6615,28 @@
       "source": "Trix (Anvers)"
     },
     {
-      "id": "web-het-depot-louvain-o-2026-11-26",
-      "title": "Ão",
+      "id": "web-trix-anvers-snelle-2026-11-26",
+      "title": "Snelle",
+      "category": "concert",
+      "venue": "Trix",
+      "city": "Anvers",
+      "lat": 51.2195776,
+      "lon": 4.4483726,
+      "start": "2026-11-26T10:00:00",
+      "end": "2026-11-26T10:00:00",
+      "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/ab8b/e5/aa5df9e00a488fb53c5bcb8337cd71b2e73b7fbf.webp",
+      "page_url": "https://www.trixonline.be/nl/event/snelle-2",
+      "url": "https://www.trixonline.be/nl/event/snelle-2",
+      "summary": "Snelle présente au Trix d'Anvers ses textes personnels, sa pop et son hip-hop, accompagné du Lieve Jongens Band. Lors de cette tournée de clubs, il joue ses hits, ses nouveaux titres et des arrangements spéciaux.",
+      "price_from": 9.9,
+      "free": false,
+      "audience": [],
+      "tags": [],
+      "source": "Trix (Anvers)"
+    },
+    {
+      "id": "web-het-depot-louvain-o-sasja-sold-out-2026-11-26",
+      "title": "Ão + sasja (sold out)",
       "category": "concert",
       "venue": "Het Depot",
       "city": "Louvain",
@@ -6831,12 +6647,10 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0aQF00000tYXLGYA4_1800x810_1800.jpg?itok=3Yip4PQL",
       "page_url": "https://www.hetdepot.be/concert/2026/ao",
       "url": "https://apps.ticketmatic.com/widgets/hetdepot/flow/newwebskin?event=352349774488&l=nl#!/addtickets",
-      "summary": "Ão présente Malandra, une fusion fluide de genres, avec sasja en première partie. Complet, liste d'attente disponible.",
+      "summary": "Ão brengt hun nieuwe worp 'Malandra': een naadloze samensmelting van genres. Sold out.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Het Depot (Louvain)"
     },
@@ -7184,7 +6998,7 @@
       "image": null,
       "page_url": "https://www.surmars.be/agenda/2026-11/musique/en-miroir-des-temps",
       "url": "https://shop.infinitix.be/SURMARSBE_INF/S/9C03AFD6-239E-17DB-A2AF-E4F5D526F2F5/?d=C5EC4785-15BD-830E-103E-D6BBC0F1D79E",
-      "summary": "Concert En miroir des temps, programmé à Mars le jeudi 26 novembre à 20h00.",
+      "summary": "Concert En miroir des temps à Mars le jeudi 26 novembre à 20h00.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -7501,7 +7315,7 @@
       "id": "web-les-grignoux-cin-ma-li-ge-orion-2026-11-27",
       "title": "Orion",
       "category": "concert",
-      "venue": "le Caféo",
+      "venue": "Le Caféo",
       "city": "Liège",
       "lat": 50.6450944,
       "lon": 5.5736112,
@@ -7536,6 +7350,26 @@
       "audience": [],
       "tags": [],
       "source": "Province de Liège"
+    },
+    {
+      "id": "web-ville-de-huy-no-l-au-charbo-2026-11-27",
+      "title": "Noël au Charbo",
+      "category": "fair",
+      "venue": "Huy",
+      "city": "Huy",
+      "lat": 50.5180856,
+      "lon": 5.2408138,
+      "start": "2026-11-27T10:00:00",
+      "end": "2026-11-29T20:00:00",
+      "image": "https://agenda.enwallonie.be/huy/homepage/243327750aa7492184e3b6a35bdb6cb2/@@images/image-430-bada91dcb30788dc634fecd5dab4d5f8.jpeg",
+      "page_url": "https://www.huy.be/agenda/noel-au-charbo?u=243327750aa7492184e3b6a35bdb6cb2",
+      "url": "https://www.huy.be/agenda/noel-au-charbo?u=243327750aa7492184e3b6a35bdb6cb2",
+      "summary": "Noël au Charbo à Huy, du 27 au 29 novembre.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ville de Huy"
     },
     {
       "id": "web-fuse-bruxelles-fuse-presents-alarico-iman-janes-2026-11-27",
@@ -7602,8 +7436,8 @@
       "source": "Trix (Anvers)"
     },
     {
-      "id": "web-het-depot-louvain-monto-space-2-year-anniversary-2026-11-27",
-      "title": "Monto Space - 2 Year Anniversary",
+      "id": "web-het-depot-louvain-monto-space-2-year-anniversary-w-drazic-gucciblck-b2b-nivasss-",
+      "title": "Monto Space 2 Year Anniversary w/ Drazic, Gucciblck b2b Nivasss, HYALYTE, JayM b2b DK & Unicornsauce",
       "category": "party",
       "venue": "Het Depot",
       "city": "Louvain",
@@ -7614,7 +7448,7 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0ac100000fILCvAAO_1800x810_1800.jpg?itok=69Oi4npw",
       "page_url": "https://www.hetdepot.be/concert/2026/monto-space",
       "url": "https://apps.ticketmatic.com/widgets/hetdepot/flow/newwebskin?event=153014661677&l=nl#!/addtickets",
-      "summary": "Soirée club pour les 2 ans de Monto Space avec Drazic, Gucciblck b2b Nivasss, HYALYTE, JayM b2b DK et Unicornsauce, dans l'esprit underground hip-hop.",
+      "summary": "Concert au Het Depot, dans la grande salle (placement assis, flex, box debout) ou dans la foyer ou la salle VIP selon l'option choisie. La page ne précise ni le prix d'entrée ni l'heure de début.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -8262,28 +8096,6 @@
       "source": "Village de Noël (Liège)"
     },
     {
-      "id": "web-madame-moustache-bruxelles-jwles-2026-11-27",
-      "title": "JWLES",
-      "category": "concert",
-      "venue": "Madame Moustache",
-      "city": "Bruxelles",
-      "lat": 50.8514898,
-      "lon": 4.3489335,
-      "start": "2026-11-27T19:30:00",
-      "end": "2026-11-27T23:00:00",
-      "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1776845463666-Q3U6VZNK9EP3ZDDNJ60Y/jwles.jpeg",
-      "page_url": "https://www.madamemoustache.be/agenda/jwles",
-      "url": "https://www.madamemoustache.be/agenda/jwles",
-      "summary": "Concert de Jwles, entre rap, mode et culture visuelle, à Madame Moustache.",
-      "price_from": 17,
-      "free": false,
-      "audience": [
-        "young"
-      ],
-      "tags": [],
-      "source": "Madame Moustache (Bruxelles)"
-    },
-    {
       "id": "fbx-1027217343089177",
       "title": "Concert Gospel For Life",
       "category": "concert",
@@ -8614,7 +8426,7 @@
       "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1792419376149-LYIPEO3MGJ26ULZ77SVW/856506918_1153641527319814_2719638474523773930_n.jpg",
       "page_url": "https://www.madamemoustache.be/agenda/dance-til-you-drop-free",
       "url": "https://www.madamemoustache.be/agenda/dance-til-you-drop-free",
-      "summary": "Soirée Dance Till You Drop en entrée free, chez Madame Moustache, de 22h à 4h du matin.",
+      "summary": "Soirée Dance Til You Drop, en entrée libre selon le titre de l'événement, du vendredi 27 au samedi 28 novembre.",
       "price_from": null,
       "free": true,
       "audience": [
@@ -8972,8 +8784,8 @@
       "source": "Trix (Anvers)"
     },
     {
-      "id": "web-het-depot-louvain-live-nation-presents-merol-2026-11-28",
-      "title": "Live Nation presents Merol",
+      "id": "web-het-depot-louvain-live-nation-presents-merol-ida-sold-out-2026-11-28",
+      "title": "Live Nation presents Merol + IDA (sold out)",
       "category": "concert",
       "venue": "Het Depot",
       "city": "Louvain",
@@ -8984,7 +8796,7 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0aQF00000w4PeMYAU_1800x810_1800.jpg?itok=y9dEBQju",
       "page_url": "https://www.hetdepot.be/concert/2026/live-nation-presents-merol",
       "url": "https://apps.ticketmatic.com/widgets/hetdepot/flow/newwebskin?event=469411827175&l=nl#!/addtickets",
-      "summary": "MEROL est de retour, plus fougueux, plus vulnérable et plus brut que jamais, avec un nouvel album, en première partie IDA. Complet.",
+      "summary": "Het is 2026 en MEROL is terug: vuriger, kwetsbaarder en ruiger dan ooit mét een nieuwe plaat op zak. Sold out.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -9729,7 +9541,7 @@
       "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1792419582135-P3M6ARLVVU57HIPJ0G2M/855769896_2044291476274535_5013754452754753384_n.jpg",
       "page_url": "https://www.madamemoustache.be/agenda/sombra-doble-tardeo",
       "url": "https://www.madamemoustache.be/agenda/sombra-doble-tardeo",
-      "summary": "Tardeo Party, fête indie, pop et rock espagnol by Sombra Doble, le samedi 28 novembre (date déplacée depuis le 27).",
+      "summary": "Tardeo Party by Sombra Doble : fête indie, pop et rock espagnol, samedi 28 novembre de 19h à 23h (date déplacée depuis le 27).",
       "price_from": null,
       "free": null,
       "audience": [
@@ -10585,10 +10397,10 @@
       "lon": 4.4483726,
       "start": "2026-11-29T10:00:00",
       "end": "2026-11-29T10:00:00",
-      "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/b32e/73/fa50c300dcdb193ac68962d49a39222e0bc1c8dc.webp",
+      "image": "https://www.trixonline.be/media/cache/default_highlight/uploads/media/default/b32e/73/fa50c300dcdb193ac68962d49a39222e0bc1c8dc.webp",
       "page_url": "https://inspiratiedag.trixonline.be/nl/",
       "url": "https://inspiratiedag.trixonline.be/nl/",
-      "summary": "Journée d'inspiration pour artistes à Trix, le 29 novembre 2026.",
+      "summary": "Journée d'inspiration pour artistes à Trix le 29 novembre 2026.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -10596,8 +10408,8 @@
       "source": "Trix (Anvers)"
     },
     {
-      "id": "web-het-depot-louvain-live-nation-presents-merol-concert-suppl-mentaire-2026-11-29",
-      "title": "Live Nation presents Merol (concert supplémentaire)",
+      "id": "web-het-depot-louvain-live-nation-presents-merol-ida-extra-concert-2026-11-29",
+      "title": "Live Nation presents Merol + IDA (extra concert)",
       "category": "concert",
       "venue": "Het Depot",
       "city": "Louvain",
@@ -10608,7 +10420,7 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0aQF00000w5SALYA2_1800x810_1800.jpg?itok=Mw_JHH3b",
       "page_url": "https://www.hetdepot.be/concert/2026/live-nation-presents-merol-0",
       "url": "https://apps.ticketmatic.com/widgets/hetdepot/flow/newwebskin?event=903606770258&l=nl#!/addtickets",
-      "summary": "MEROL est de retour, plus fougueux, plus vulnérable et plus brut que jamais, avec un nouvel album, en première partie IDA.",
+      "summary": "Het is 2026 en MEROL is terug: vuriger, kwetsbaarder en ruiger dan ooit mét een nieuwe plaat op zak. Extra concert.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -11017,7 +10829,7 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0ac100000kV2WBAA0_1800x810_1800.jpg?itok=5riIBuMu",
       "page_url": "https://www.hetdepot.be/concert/2026/depot-cafe-studio-brussel-present-pyo",
       "url": "https://www.hetdepot.be/concert/2026/depot-cafe-studio-brussel-present-pyo",
-      "summary": "Découvrez gratuitement de la nouvelle musique belge juste avant sa percée, avec Pyo.",
+      "summary": "Ontdek (gratis) nieuwe Belgische muziek net voor de doorbraak.",
       "price_from": 0,
       "free": true,
       "audience": [],
@@ -11126,28 +10938,8 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-le-faux-soir-avant-premi-re-2026-12-01",
-      "title": "Le Faux Soir – Avant-première",
-      "category": "cinema",
-      "venue": "Sauvenière",
-      "city": "Liège",
-      "lat": 50.6432641,
-      "lon": 5.5679468,
-      "start": "2026-12-01T10:00:00",
-      "end": "2026-12-01T10:00:00",
-      "image": "https://www.grignoux.be/upload/grignoux/event/3238/le_faux_soir_headersite2.jpg",
-      "page_url": "https://www.grignoux.be/fr/evenement/3238/le-faux-soir",
-      "url": "https://www.grignoux.be/fr/evenement/3238/le-faux-soir",
-      "summary": "Avant-première du film Le Faux Soir : en 1943, des résistants belges impriment une fausse édition du Soir, truffée d'articles ridiculisant l'occupant nazi. Débat après la projection avec le réalisateur Michaël R. Roskam et l'équipe du film.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Les Grignoux – cinéma (Liège)"
-    },
-    {
-      "id": "web-les-grignoux-cin-ma-li-ge-you-can-see-everything-s-ance-anticip-e-2026-12-01",
-      "title": "You Can See Everything – Séance anticipée",
+      "id": "web-les-grignoux-cin-ma-li-ge-you-can-see-everything-2026-12-01",
+      "title": "You Can See Everything",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -11158,7 +10950,7 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3215/you_can_see_everything_vignette.jpg",
       "page_url": "https://www.grignoux.be/fr/evenement/3215/you-can-see-everything",
       "url": "https://www.grignoux.be/fr/evenement/3215/you-can-see-everything",
-      "summary": "Documentaire de près de trois heures de Nathan Fielder et Lance Oppenheim, qui suit Elizabeth Holmes, ex-étoile de la Silicon Valley condamnée pour escroquerie, peu avant son entrée en prison. Il interroge la frontière entre réalité et fiction et le pouvoir des images.",
+      "summary": "Documentaire de Nathan Fielder et Lance Oppenheim qui suit Elizabeth Holmes, ancienne star de la Silicon Valley condamnée pour escroquerie, peu avant son entrée en prison. Il interroge la frontière entre réalité et fiction ainsi que le pouvoir des images.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -11166,8 +10958,28 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-het-depot-louvain-a7s-annul-2026-12-01",
-      "title": "A7S (annulé)",
+      "id": "web-les-grignoux-cin-ma-li-ge-le-faux-soir-2026-12-01",
+      "title": "Le Faux Soir",
+      "category": "cinema",
+      "venue": "Sauvenière",
+      "city": "Liège",
+      "lat": 50.6432641,
+      "lon": 5.5679468,
+      "start": "2026-12-01T10:00:00",
+      "end": "2026-12-01T10:00:00",
+      "image": "https://www.grignoux.be/upload/grignoux/event/3238/le_faux_soir_headersite2.jpg",
+      "page_url": "https://www.grignoux.be/fr/evenement/3238/le-faux-soir",
+      "url": "https://www.grignoux.be/fr/evenement/3238/le-faux-soir",
+      "summary": "Avant-première du film « Le Faux Soir » de Michaël R. Roskam : en 1943, des résistants belges tentent d'imprimer une fausse édition du journal Le Soir, saturée d'articles ridiculisant l'occupant. Introduction et débat après la projection avec l'équipe du film.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Les Grignoux – cinéma (Liège)"
+    },
+    {
+      "id": "web-het-depot-louvain-a7s-geannul-2026-12-01",
+      "title": "A7S (geannulé)",
       "category": "concert",
       "venue": "Het Depot",
       "city": "Louvain",
@@ -11178,7 +10990,7 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0ac100000f5HOoAAM_1800x810_1800.jpg?itok=6AnrAh2P",
       "page_url": "https://www.hetdepot.be/concert/2026/a7s",
       "url": "https://apps.ticketmatic.com/widgets/hetdepot/flow/newwebskin?event=535755192087&l=nl#!/addtickets",
-      "summary": "Concert annulé. A7S mêle pop, dance et musique club avec une voix et un son mélodique reconnaissables.",
+      "summary": "Concert au Depot (Het Depot), dans la grande salle (assise, flex, box ou seated), dans le foyer ou dans l'espace VIP selon l'option choisie. La page ne précise ni l'artiste ni le contenu du concert.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -11413,8 +11225,8 @@
       "source": "Facebook (extension)"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-le-faux-soir-projection-sp-ciale-2026-12-02",
-      "title": "Le Faux Soir – Projection spéciale",
+      "id": "web-les-grignoux-cin-ma-li-ge-le-faux-soir-2026-12-02",
+      "title": "Le Faux Soir",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -11425,7 +11237,7 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3229/le_faux_soir_og.jpg",
       "page_url": "https://www.grignoux.be/fr/evenement/3229/le-faux-soir",
       "url": "https://www.grignoux.be/fr/evenement/3229/le-faux-soir",
-      "summary": "Projection spéciale du film Le Faux Soir : en 1943, des résistants belges impriment une fausse édition du Soir, journal confisqué par les nazis. La séance a lieu en présence de Philippe Givron, Anne Roekens (UNamur) et d'un journaliste de Médor.",
+      "summary": "Projection spéciale du film Le Faux Soir : en 1943, des résistants belges impriment une fausse édition du journal Le Soir, confisqué par les nazis. La séance réunit des intervenants, dont un journaliste de Médor.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -11433,8 +11245,8 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-pirate-movie-club-le-sapin-a-les-boules-vf-2026-12-02",
-      "title": "Pirate Movie Club : Le sapin a les boules VF",
+      "id": "web-les-grignoux-cin-ma-li-ge-le-sapin-a-les-boules-vf-2026-12-02",
+      "title": "Le sapin a les boules VF",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -11445,12 +11257,35 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3195/le_sapin_a_les_boules_vignette.jpg",
       "page_url": "https://www.grignoux.be/fr/evenement/3195/le-sapin-a-les-boules-vf",
       "url": "https://www.grignoux.be/fr/evenement/3195/le-sapin-a-les-boules-vf",
-      "summary": "Clark Griswold rêve d'un Noël parfait, mais sa famille et les catastrophes s'en mêlent. Le film se regarde en version française, avec commentaires et applaudissements encouragés pendant la projection.",
+      "summary": "Clark Griswold rêve d'un Noël parfait, mais la famille débarque avec ses catastrophes dans une maison impossible à illuminer. Projection en VF façon Pirate Movie Club : le public est invité à commenter et applaudir les répliques, présentée par Caroline Poisson.",
       "price_from": 7.0,
       "free": false,
       "audience": [],
       "tags": [],
       "source": "Les Grignoux – cinéma (Liège)"
+    },
+    {
+      "id": "web-het-depot-louvain-open-mic-2026-12-02",
+      "title": "Open Mic",
+      "category": "concert",
+      "venue": "Het Depot",
+      "city": "Louvain",
+      "lat": 50.881515,
+      "lon": 4.7137996,
+      "start": "2026-12-02T10:00:00",
+      "end": "2026-12-02T10:00:00",
+      "image": "https://www.hetdepot.be/sites/default/files/styles/calender_item/public/a0ac100000cz4KBAAY_1800x810_1800.jpg?itok=_X5H-y6y",
+      "page_url": "https://www.hetdepot.be/concert/2026/open-mic-6",
+      "url": "https://www.hetdepot.be/concert/2026/open-mic-6",
+      "summary": "Het Depot biedt met Open Mic singer-songwriters een podium om te laten horen waar ze mee bezig zijn.",
+      "price_from": 0,
+      "free": true,
+      "audience": [],
+      "tags": [
+        "gratuit",
+        "découverte"
+      ],
+      "source": "Het Depot (Louvain)"
     },
     {
       "id": "web-mars-mons-arts-de-la-sc-ne-chwallow-2026-12-02",
@@ -11697,8 +11532,8 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-le-journal-d-une-femme-de-chambre-avant-premi-re-2026-",
-      "title": "Le Journal d'une femme de chambre – Avant-première",
+      "id": "web-les-grignoux-cin-ma-li-ge-le-journal-d-une-femme-de-chambre-2026-12-03",
+      "title": "Le Journal d'une femme de chambre",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -11709,7 +11544,7 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3206/le_journal_dune_femme_de_chambre_vignette.jpg",
       "page_url": "https://www.grignoux.be/fr/evenement/3206/le-journal-dune-femme-de-chambre",
       "url": "https://www.grignoux.be/fr/evenement/3206/le-journal-dune-femme-de-chambre",
-      "summary": "Gianina, employée de maison roumaine à Bordeaux, répète le rôle d'une soubrette dans une adaptation du Journal d'une femme de chambre de Mirbeau tout en s'occupant du fils de ses employeurs. Radu Jude signe une satire sociale drôle et cruelle sur la bourgeoisie contemporaine.",
+      "summary": "Le cinéaste roumain Radu Jude revisite librement l'œuvre d'Octave Mirbeau : Gianina, employée de maison roumaine à Bordeaux, répète une adaptation théâtrale tout en étant séparée de sa fille. Avant-première lors de la soirée de clôture de Politik, à Liège.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -11717,8 +11552,8 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-mustang-s-ance-sp-ciale-2026-12-03",
-      "title": "Mustang – Séance spéciale",
+      "id": "web-les-grignoux-cin-ma-li-ge-mustang-2026-12-03",
+      "title": "Mustang",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -11729,7 +11564,7 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3228/mustang_vignette.jpg",
       "page_url": "https://www.grignoux.be/fr/evenement/3228/mustang",
       "url": "https://www.grignoux.be/fr/evenement/3228/mustang",
-      "summary": "Projection gratuite du film Mustang de Deniz Gamze Ergüven, chronique de cinq sœurs qui, dans un village reculé de Turquie, bravent les limites imposées à leur liberté. La séance, précédée d'une introduction, est suivie d'une rencontre avec la réalisatrice Paloma Sermon-Daï.",
+      "summary": "Projection gratuite de Mustang de Deniz Gamze Ergüven, précédée d'une introduction et suivie d'une rencontre avec la réalisatrice Paloma Sermon-Daï. Le film suit cinq sœurs turques qui, après un scandale, voient leur maison devenir une prison.",
       "price_from": null,
       "free": true,
       "audience": [],
@@ -11772,6 +11607,46 @@
       "page_url": "https://www.trixonline.be/nl/event/green-lung-high-on-fire-gnome-1",
       "url": "https://www.trixonline.be/nl/event/green-lung-high-on-fire-gnome-1",
       "summary": "Gewapend met hun gloednieuwe album Necropolitan, dat op 11 september verschijnt, belooft de Britse heavy rockband een intense avond vol occulte riffs, doomgrooves en psychedelische sferen.Als special guests verwelkomen ze High on Fire, meesters in vernietigende sludgemetal, terwijl het Belgische tri",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Trix (Anvers)"
+    },
+    {
+      "id": "web-trix-anvers-kmska-laat-live-alison-jutta-x-trix-2026-12-03",
+      "title": "KMSKA LAAT Live - Alison Jutta x TRIX",
+      "category": "concert",
+      "venue": "Trix",
+      "city": "Anvers",
+      "lat": 51.2195776,
+      "lon": 4.4483726,
+      "start": "2026-12-03T10:00:00",
+      "end": "2026-12-03T10:00:00",
+      "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/1858/14/85a78a0c7f56ca3ebe1f8be7e2d6487a024daf9e.webp",
+      "page_url": "https://www.trixonline.be/nl/event/kmska-laat-live-alison-jutta-x-trix",
+      "url": "https://www.trixonline.be/nl/event/kmska-laat-live-alison-jutta-x-trix",
+      "summary": "In samenwerking met KMSKA zetten we jong muzikaal talent in de cocktailbar van het museum. Met haar speelse, gelaagde mix van alternatieve folk en kamerpop lijkt de Belgische singer-songwriter en componiste Alison Jutta wel een levend schilderij.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Trix (Anvers)"
+    },
+    {
+      "id": "web-trix-anvers-spoor-series-7-ellen-verbiest-sofie-van-den-bril-2026-12-03",
+      "title": "SPOOR SERIES #7: Ellen Verbiest + Sofie Van den Bril",
+      "category": "concert",
+      "venue": "Trix",
+      "city": "Anvers",
+      "lat": 51.2195776,
+      "lon": 4.4483726,
+      "start": "2026-12-03T10:00:00",
+      "end": "2026-12-03T10:00:00",
+      "image": "https://www.trixonline.be/media/cache/default_date_list_item/uploads/media/default/8f56/98/781f27e24bb977b8207ccad5c89f594d301e9463.webp",
+      "page_url": "https://www.trixonline.be/nl/event/spoor-series-7-ellen-verbiest-sofie-van-den-bril",
+      "url": "https://www.trixonline.be/nl/event/spoor-series-7-ellen-verbiest-sofie-van-den-bril",
+      "summary": "Talk + Workshop / open ideeënuitwisseling op basis van 2D media en print.Welkom bij de SPOOR-series, een maandelijkse meetup in ons zeefdrukatelier SPOOR! Eén keer per maand cureert een van onze SPOOR-residenten een avond vol creatieve uitwisseling, inspiratie en experiment rond all things 2D-media,",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -11847,16 +11722,16 @@
       "lon": 4.3489335,
       "start": "2026-12-03T18:00:00",
       "end": "2026-12-04T04:00:00",
-      "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1792419979386-ZYHSOB81MM3A7VML53VK/855467037_1686454796376533_6055621753570632867_n.jpg",
+      "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1795201719617-U0XANTP65XZVW2MX7C1X/916697195_1049144250918883_8053084669828447160_n.jpg",
       "page_url": "https://www.madamemoustache.be/agenda/le-bal-de-la-sainte-barbe-bal-de-lunion-royale-des-pompiers-professionnels-de-belgique",
       "url": "https://www.madamemoustache.be/agenda/le-bal-de-la-sainte-barbe-bal-de-lunion-royale-des-pompiers-professionnels-de-belgique",
-      "summary": "Bal organisé par l'Union Royale des Pompiers Professionnels de Belgique, ouvert à tous et entièrement gratuit.",
+      "summary": "Bal ouvert à tous et entièrement gratuit, avec deux pompiers professionnels aux platines toute la nuit.",
       "price_from": null,
       "free": true,
       "audience": [],
       "tags": [
         "soirée",
-        "entre potes"
+        "gratuit"
       ],
       "source": "Madame Moustache (Bruxelles)"
     },
@@ -12083,8 +11958,8 @@
       "source": "Recyclart (Bruxelles)"
     },
     {
-      "id": "web-het-depot-louvain-bimdek-2026-12-04",
-      "title": "BIMDEK",
+      "id": "web-het-depot-louvain-bimdek-hugo-matthysen-ronny-mosuse-aram-van-ballaert-2026-12-0",
+      "title": "BIMDEK (Hugo Matthysen, Ronny Mosuse & Aram Van Ballaert)",
       "category": "concert",
       "venue": "Het Depot",
       "city": "Louvain",
@@ -12095,7 +11970,7 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/concert_suggestion_small/public/a0aQF000015IsplYAC_1800x810_1800.jpg?itok=8YGYQWSv",
       "page_url": "https://www.hetdepot.be/concert/2026/bimdek",
       "url": "https://www.hetdepot.be/concert/2026/bimdek",
-      "summary": "Hugo Matthysen, Ronny Mosuse et Aram Van Ballaert présentent BIMDEK, la suite de leur tournée HURORAM!. Le spectacle mêle des chansons du répertoire de Hugo, des nouveautés et un lied dans la langue d'origine du mot Bimdek, entre anecdotes absurdes et humour.",
+      "summary": "Hugo Matthysen, Ronny Mosuse et Aram Van Ballaert proposent un spectacle musical mêlant titres du répertoire de Hugo Matthysen, nouvelles chansons et un morceau dans la langue d'origine du mot « Bimdek ». Entre les chansons, ils racontent des histoires absurdes et drôles.",
       "price_from": 6.4,
       "free": false,
       "audience": [],
@@ -12637,6 +12512,30 @@
       "source": "Ticketmaster"
     },
     {
+      "id": "web-madame-moustache-bruxelles-one-more-time-2026-12-04",
+      "title": "ONE MORE TIME",
+      "category": "party",
+      "venue": "Madame Moustache",
+      "city": "Bruxelles",
+      "lat": 50.8514898,
+      "lon": 4.3489335,
+      "start": "2026-12-04T22:00:00",
+      "end": "2026-12-05T04:00:00",
+      "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1795202897041-YC8TB3LRR0Y4XGF4ZSA4/913481927_1817413759525340_4262384803436995603_n.jpg",
+      "page_url": "https://www.madamemoustache.be/agenda/one-more-time-5",
+      "url": "https://www.madamemoustache.be/agenda/one-more-time-5",
+      "summary": "Nuit House, Dance et French Touch pour les amoureux de musique électronique et de l'esprit du dancefloor.",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "young"
+      ],
+      "tags": [
+        "soirée"
+      ],
+      "source": "Madame Moustache (Bruxelles)"
+    },
+    {
       "id": "fb-1874866193552679",
       "title": "soirée festive solidaires",
       "category": "party",
@@ -12797,7 +12696,9 @@
       "price_from": 15.0,
       "free": false,
       "audience": [],
-      "tags": [],
+      "tags": [
+        "découverte"
+      ],
       "source": "Grand Curtius (Liège)"
     },
     {
@@ -13464,6 +13365,30 @@
       "classified": true
     },
     {
+      "id": "web-madame-moustache-bruxelles-international-party-2026-12-05",
+      "title": "INTERNATIONAL PARTY",
+      "category": "party",
+      "venue": "Madame Moustache",
+      "city": "Bruxelles",
+      "lat": 50.8514898,
+      "lon": 4.3489335,
+      "start": "2026-12-05T22:00:00",
+      "end": "2026-12-06T04:00:00",
+      "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1795202586653-NV4NBT7NVM0ZQLX6QGKX/903284254_2628411494271724_8335531513723186738_n.jpg",
+      "page_url": "https://www.madamemoustache.be/agenda/international-party-3",
+      "url": "https://partyfinder.com/en/event/18275",
+      "summary": "Soirée années 80, 90 et 2000 Just A Night chez Madame Moustache, samedi 5 décembre de 22h à 4h, avec un DJ invité.",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "young"
+      ],
+      "tags": [
+        "soirée"
+      ],
+      "source": "Madame Moustache (Bruxelles)"
+    },
+    {
       "id": "fb-1006657729174609",
       "title": "Soirée BALKAN HABIBI - Fusion balkan & orientale, Liège",
       "category": "party",
@@ -13619,7 +13544,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/la-saint-nicolas-du-regina-club-andre-borbe-presente-borbestof/",
       "url": "https://shop.paylogic.com/2a4a6d38ec4143789b1350935d75ba63",
-      "summary": "Soirée La Saint-Nicolas du Regina Club avec André Borbe présente BORBEST'OF.",
+      "summary": "La Saint-Nicolas du Regina Club avec André Borbe présente Borbest'of.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -13628,7 +13553,7 @@
     },
     {
       "id": "web-grand-curtius-li-ge-cr-amus-e-des-diablotins-paillettes-en-pr-sence-de-saint-nic",
-      "title": "Créamusée des diablotins : paillettes en présence de Saint-Nicolas",
+      "title": "Créamusée : des diablotins à paillettes en présence de Saint-Nicolas",
       "category": "family",
       "venue": "Grand Curtius",
       "city": "Liège",
@@ -13639,7 +13564,7 @@
       "image": "https://www.grandcurtius.be/sites/default/files/styles/teaser_wide/public/2026-10/bandeau%20creamusee%20dec26%20generique.jpg?itok=cZoZuQ0t",
       "page_url": "https://www.grandcurtius.be/fr/actualites/agenda/creamusee-des-diablotins-paillettes-en-presence-de-saint-nicolas",
       "url": "https://www.grandcurtius.be/fr/actualites/agenda/creamusee-des-diablotins-paillettes-en-presence-de-saint-nicolas",
-      "summary": "Atelier créatif pour enfants de 6 à 12 ans accompagnés d'un parent : création d'un masque de diablotin à paillettes, en présence de Saint-Nicolas. Activité à l'Auditorium du Grand Curtius à Liège, le dimanche 6 décembre 2026, de 14h00 à 16h30.",
+      "summary": "Atelier créatif pour enfants de 6 à 12 ans accompagnés (30 enfants maximum) : création d'un masque de diablotin en présence de Saint-Nicolas. Le dimanche 6 décembre 2026, de 14h00 à 16h30, à l'Auditorium du Grand Curtius.",
       "price_from": null,
       "free": true,
       "audience": [
@@ -13663,12 +13588,13 @@
       "image": "https://www.grandcurtius.be/sites/default/files/styles/teaser_wide/public/2026-10/visite%20commentee%20uliege%20bandeau%2026.jpg?itok=54zvF6HY",
       "page_url": "https://www.grandcurtius.be/fr/actualites/agenda/le-grand-curtius-raconte-par-des-etudiants-de-luliege-2026",
       "url": "https://www.grandcurtius.be/fr/actualites/agenda/le-grand-curtius-raconte-par-des-etudiants-de-luliege-2026",
-      "summary": "Visite commentée par des étudiants de l'Université de Liège des sections du musée, le dimanche matin, en plus de l'accès gratuit aux collections permanentes.",
+      "summary": "Visite commentée des sections du musée par des étudiants de l'Université de Liège, le matin du premier dimanche de décembre. Activité gratuite.",
       "price_from": null,
       "free": true,
       "audience": [],
       "tags": [
-        "gratuit"
+        "gratuit",
+        "découverte"
       ],
       "source": "Grand Curtius (Liège)"
     },
@@ -13685,7 +13611,7 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Bandits-les-cowboys-de-l-espace.jpeg.webp?itok=-QRgRxt9",
       "page_url": "https://www.surmars.be/agenda/2026-12/musique/la-saint-nicolas-sur-mars",
       "url": "https://www.surmars.be/agenda/2026-12/musique/la-saint-nicolas-sur-mars",
-      "summary": "Les cowboys de l'espace débarquent en santiags à paillettes, chapeaux scintillants et chevaux indomptables en embuscade.",
+      "summary": "Les cowboys de l'espace débarquent en santiags à paillettes : des super-héros et des refrains qui font danser et rire.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -14030,8 +13956,8 @@
       "source": "Ticketmaster"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-le-priv-classique-2026-12-07",
-      "title": "Le Privé – Classique",
+      "id": "web-les-grignoux-cin-ma-li-ge-le-priv-2026-12-07",
+      "title": "Le Privé",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -14042,7 +13968,7 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3194/le_prive_vignette.jpg",
       "page_url": "https://www.grignoux.be/fr/evenement/3194/le-prive",
       "url": "https://www.grignoux.be/fr/evenement/3194/le-prive",
-      "summary": "Projection du film *Le Privé* de Robert Altman, polar adapté de Raymond Chandler avec Elliott Gould dans le rôle de Philip Marlowe. Le détective enquête sur un meurtre et une disparition dans le Los Angeles des années 1970.",
+      "summary": "Projection du film « Le Privé » de Robert Altman, adaptation d'un roman de Raymond Chandler : le détective Philip Marlowe (Elliott Gould) enquête dans le Los Angeles des années 1970. Séance présentée par Dick Tomasovic, professeur en études cinématographiques à l'ULiège.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -14151,8 +14077,8 @@
       "source": "Ticketmaster"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-l-trange-s-ance-colony-2026-12-08",
-      "title": "L'Étrange Séance : Colony",
+      "id": "web-les-grignoux-cin-ma-li-ge-colony-2026-12-08",
+      "title": "Colony",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -14163,7 +14089,7 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3203/colony_vignette.jpg",
       "page_url": "https://www.grignoux.be/fr/evenement/3203/colony",
       "url": "https://www.grignoux.be/fr/evenement/3203/colony",
-      "summary": "Séance de cinéma de genre au cinéma Sauvenière, avec présentation avant le film et échange en salle après. Colony, du réalisateur de Dernier train pour Busan, raconte comment une technologie de mise en réseau biologique développée par un PDG déclenche une épidémie de « zombies connectés » qui menace",
+      "summary": "Film de zombies coréen du réalisateur de Dernier train pour Busan : une technologie de mise en réseau biologique développée par un PDG déclenche une épidémie de zombies connectés menaçant Séoul. La séance comprend une présentation avant le film et un échange en salle après.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -14709,7 +14635,7 @@
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/FMS-Perichorese.jpg.webp?itok=pTyPP51F",
       "page_url": "https://www.surmars.be/agenda/2026-12/musique/perichorese",
       "url": "https://www.surmars.be/agenda/2026-12/musique/perichorese",
-      "summary": "Il fut un temps où Musulmans, Juifs et Chrétiens dansaient ensemble sur les rives de la Méditerranée…",
+      "summary": "Il fut un temps où Musulmans, Juifs et Chrétiens dansaient ensemble sur les rives de la Méditerranée.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -15112,8 +15038,8 @@
       "source": "Ticketmaster"
     },
     {
-      "id": "web-madame-moustache-bruxelles-dancefloor-radiomix-2026-12-10",
-      "title": "DANCEFLOOR RADIOMIX",
+      "id": "web-madame-moustache-bruxelles-balkan-fever-2026-12-10",
+      "title": "BALKAN FEVER",
       "category": "party",
       "venue": "Madame Moustache",
       "city": "Bruxelles",
@@ -15121,15 +15047,13 @@
       "lon": 4.3489335,
       "start": "2026-12-10T22:00:00",
       "end": "2026-12-11T04:00:00",
-      "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1792420147908-KMOX9XN6Z40FZIUXIG8L/856220295_2061327731184053_5584630408181886266_n.jpg",
-      "page_url": "https://www.madamemoustache.be/agenda/t58ds75nryswjzr25nkj6l7xnxg4px",
-      "url": "https://www.madamemoustache.be/agenda/t58ds75nryswjzr25nkj6l7xnxg4px",
-      "summary": "Soirée intitulée « Dancefloor Radiomix » au Madame Moustache à Bruxelles, du jeudi 10 décembre 2026 à 22h au vendredi 11 décembre 2026 à 4h. La page ne précise pas le programme détaillé.",
+      "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1795203052321-X4SBQTVT2WZ3SKPIRRWP/920614345_1010885638089003_833345577632562247_n.jpg",
+      "page_url": "https://www.madamemoustache.be/agenda/balkan-fever",
+      "url": "https://www.madamemoustache.be/agenda/balkan-fever",
+      "summary": "Les Balkans prennent la piste chaque jeudi : cuivres et rythmes balkaniques pour toutes les générations.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [
         "soirée"
       ],
@@ -15188,7 +15112,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/didier-super-et-son-groupe-discount/",
       "url": "https://shop.paylogic.com/b5c5cda405104373806df413ce341b59",
-      "summary": "Concert de Didier Super et son groupe Discount avec Boum Patat au Reflektor.",
+      "summary": "Concert de Didier Super et son groupe Discount + Boum Patat au Reflektor.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -15216,8 +15140,8 @@
       "source": "Recyclart (Bruxelles)"
     },
     {
-      "id": "web-het-depot-louvain-what-u-on-about-2026-12-11",
-      "title": "What-U-On-About?!",
+      "id": "web-het-depot-louvain-what-u-on-about-8th-curated-night-2026-12-11",
+      "title": "What-U-On-About?! (8th curated night)",
       "category": "party",
       "venue": "Het Depot",
       "city": "Louvain",
@@ -15228,7 +15152,7 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/concert_suggestion_small/public/a0ac100000g2VSbAAM_1800x810_1800.jpg?itok=ny8WwN5F",
       "page_url": "https://www.hetdepot.be/whatuonabout",
       "url": "https://www.hetdepot.be/whatuonabout",
-      "summary": "Huitième soirée du collectif de drum & bass louvaniste What-U-On-About?! au Het Depot, dans la grande salle. Au programme : du drum & bass avec Aphrodite, TC b2b un invité spécial (à confirmer), Hiraeth et Istoria b2b Expensive KVR.",
+      "summary": "Soirée drum & bass du collectif louvaniste What-U-On-About?!, 8e édition, avec DJ Aphrodite, TC b2b (invité surprise annoncé), Hiraeth et Istoria b2b Expensive KVR. Elle se déroule dans la grande salle du Het Depot à Louvain, avec places debout et assises non numérotées.",
       "price_from": 4.0,
       "free": false,
       "audience": [
@@ -15944,6 +15868,30 @@
       "classified": true
     },
     {
+      "id": "web-madame-moustache-bruxelles-minuit-cheri-2026-12-11",
+      "title": "MINUIT CHERI",
+      "category": "party",
+      "venue": "Madame Moustache",
+      "city": "Bruxelles",
+      "lat": 50.8514898,
+      "lon": 4.3489335,
+      "start": "2026-12-11T22:00:00",
+      "end": "2026-12-12T04:00:00",
+      "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1795203157716-NBWX3JW7K89G0S9VOPM3/916382262_1691434459259977_6091457570705807007_n.jpg",
+      "page_url": "https://www.madamemoustache.be/agenda/minuit-cheri",
+      "url": "https://www.madamemoustache.be/agenda/minuit-cheri",
+      "summary": "Disco, pop française et tubes des années 90 et 2000 : les refrains qu'on chante à tue-tête, vendredi 11 décembre.",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "young"
+      ],
+      "tags": [
+        "soirée"
+      ],
+      "source": "Madame Moustache (Bruxelles)"
+    },
+    {
       "id": "fbx-1146838851611140",
       "title": "PhotoMarathon de Charleroi - 6e édition",
       "category": "workshop",
@@ -16134,11 +16082,11 @@
       "start": "2026-12-12T15:00:00",
       "end": "2026-12-12T15:00:00",
       "image": "https://www.surmars.be/sites/default/files/styles/max_2600x2600/public/2026-06/Les-20-ans-de-slam.jpg.webp?itok=Nb34Akv6",
-      "page_url": "https://www.surmars.be/agenda/2026-12/litterature/les-20-ans-du-slam",
-      "url": "https://www.surmars.be/agenda/2026-12/litterature/les-20-ans-du-slam",
-      "summary": "Fête des 20 ans du slam à Mons, organisée par Mars et l'ASBL enV.I.E.S., avec une scène slam de 15h à 18h, puis une scène slam avec invités et un after-dj set à 20h. Une exposition photo « 20 ans de Slam » de Gérard Adam est aussi présentée au Théâtre le Manège et à la P'tite Maison Folie.",
+      "page_url": "https://www.surmars.be/agenda/2026-12/les-20-ans-du-slam",
+      "url": "https://www.surmars.be/agenda/2026-12/les-20-ans-du-slam",
+      "summary": "Vingt ans de slam : chemins parcourus, mots déclamés, rencontres, rires et émotions.",
       "price_from": null,
-      "free": true,
+      "free": null,
       "audience": [],
       "tags": [],
       "source": "Mars – Mons arts de la scène"
@@ -16744,6 +16692,30 @@
       "source": "Rockerill (Charleroi)"
     },
     {
+      "id": "web-madame-moustache-bruxelles-la-grande-boum-2026-12-12",
+      "title": "LA GRANDE BOUM",
+      "category": "party",
+      "venue": "Madame Moustache",
+      "city": "Bruxelles",
+      "lat": 50.8514898,
+      "lon": 4.3489335,
+      "start": "2026-12-12T22:00:00",
+      "end": "2026-12-13T04:00:00",
+      "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1795203276986-FBS6JQJXPQQ4E4YRA7CJ/916310965_2253471758930334_2337362383198916957_n.jpg",
+      "page_url": "https://www.madamemoustache.be/agenda/la-grande-boum-1",
+      "url": "https://www.madamemoustache.be/agenda/la-grande-boum-1",
+      "summary": "Soirée La Grande Boum chez Madame Moustache, samedi 12 décembre dès 22h.",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "young"
+      ],
+      "tags": [
+        "soirée"
+      ],
+      "source": "Madame Moustache (Bruxelles)"
+    },
+    {
       "id": "local-batte-dimanche-2026-12-13",
       "title": "Marché de la Batte",
       "category": "flea",
@@ -16842,8 +16814,8 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-la-bola-negra-s-ance-anticip-e-2026-12-13",
-      "title": "La Bola Negra – Séance anticipée",
+      "id": "web-les-grignoux-cin-ma-li-ge-la-bola-negra-2026-12-13",
+      "title": "La bola negra",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -16854,7 +16826,7 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3209/la_bola_negra_vignette2.jpg",
       "page_url": "https://www.grignoux.be/fr/evenement/3209/la-bola-negra",
       "url": "https://www.grignoux.be/fr/evenement/3209/la-bola-negra",
-      "summary": "Séance anticipée du film « La bola negra » de Javier Ambrossi et Javier Calvo : une fresque chorale qui suit trois hommes à trois époques de l'histoire espagnole (1932, 1937, 2017). Inspiré d'une pièce d'Alberto Conejero et portant l'empreinte d'une œuvre de Federico García Lorca, le film a reçu le ",
+      "summary": "Film des réalisateurs Javier Ambrossi et Javier Calvo, qui suit trois hommes à trois époques (1932, 1937, 2017) marqués par le rejet social, la guerre et la douleur héritée. Inspiré d'une pièce d'Alberto Conejero et d'une œuvre inachevée de Federico García Lorca.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -17421,8 +17393,8 @@
       "source": "Ticketmaster"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-dune-troisi-me-partie-avant-premi-re-2026-12-15",
-      "title": "Dune : Troisième partie – Avant-première",
+      "id": "web-les-grignoux-cin-ma-li-ge-dune-troisi-me-partie-2026-12-15",
+      "title": "Dune : Troisième partie",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -17433,7 +17405,7 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3119/dune_part_three_og.jpg",
       "page_url": "https://www.grignoux.be/fr/evenement/3119/dune-troisieme-partie",
       "url": "https://www.grignoux.be/fr/evenement/3119/dune-troisieme-partie",
-      "summary": "Avant-première du dernier volet de la trilogie Dune, réalisé par Denis Villeneuve. Le film suit Paul Atréides, devenu empereur impitoyable, confronté à la rébellion, à la trahison et à une conspiration dont Chani pourrait détenir la clé.",
+      "summary": "Dernier volet de la trilogie Dune réalisé par Denis Villeneuve, présenté en avant-première. Paul Atréides, empereur impitoyable, affronte la rébellion, les trahisons et une conspiration où Chani pourrait détenir la clé.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -17620,7 +17592,7 @@
       "id": "web-les-grignoux-cin-ma-li-ge-mercredi-swing-au-caf-o-2026-12-16",
       "title": "Mercredi Swing au Caféo",
       "category": "concert",
-      "venue": "le Caféo",
+      "venue": "Le Caféo",
       "city": "Liège",
       "lat": 50.6450944,
       "lon": 5.5736112,
@@ -17680,7 +17652,7 @@
       "id": "web-mars-mons-arts-de-la-sc-ne-p-tit-march-de-no-l-3-2026-12-16",
       "title": "P'tit marché de Noël #3",
       "category": "fair",
-      "venue": "La P'tite Maison Folie",
+      "venue": "P'tite Maison Folie",
       "city": "Mons",
       "lat": 50.4549568,
       "lon": 3.951958,
@@ -17826,18 +17798,16 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/kid-sophie-fanny/",
       "url": "https://feverup.com/m/650639?srsltid=AfmBOopFNWbf75ZR_zcQxaoJ4WyCG2vMSVWrYadWhqoW9f-i3SKHlZ0H",
-      "summary": "Concert de KID SOPHIE et FANNY au Regina Club.",
+      "summary": "Concert de KID SOPHIE + FANNY au Regina Club.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-le-faux-soir-projection-sp-ciale-2026-12-17",
-      "title": "Le Faux Soir – Projection spéciale",
+      "id": "web-les-grignoux-cin-ma-li-ge-le-faux-soir-2026-12-17",
+      "title": "Le Faux Soir",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -17848,7 +17818,7 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3230/le_faux_soir_og.jpg",
       "page_url": "https://www.grignoux.be/fr/evenement/3230/le-faux-soir",
       "url": "https://www.grignoux.be/fr/evenement/3230/le-faux-soir",
-      "summary": "Projection spéciale du film Le Faux Soir : en 1943, des résistants belges impriment une fausse édition du Soir, journal confisqué par les nazis. Séance avec Maryse Hendrix (Amnesty International) et des journalistes de Médor et Wilfried mag.",
+      "summary": "Projection spéciale du film Le Faux Soir : en 1943, des résistants belges impriment une fausse édition du journal Le Soir, saturée d'articles ridiculisant l'occupant nazi. La séance réunit Maryse Hendrix (Amnesty International) et deux journalistes (Médor, Wilfried mag).",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -17856,8 +17826,8 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-cin-jack-le-fabuleux-destin-d-am-lie-poulain-2026-12-1",
-      "title": "Ciné Jack : Le Fabuleux Destin d'Amélie Poulain",
+      "id": "web-les-grignoux-cin-ma-li-ge-le-fabuleux-destin-d-am-lie-poulain-2026-12-17",
+      "title": "Le Fabuleux Destin d'Amélie Poulain",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -17868,7 +17838,7 @@
       "image": null,
       "page_url": "https://www.grignoux.be/fr/evenement/3205/le-fabuleux-destin-damelie-poulain",
       "url": "https://www.grignoux.be/fr/evenement/3205/le-fabuleux-destin-damelie-poulain",
-      "summary": "Ciné-club avec projection du film Le Fabuleux Destin d'Amélie Poulain : Amélie, serveuse à Montmartre, observe les gens et veut faire le bien autour d'elle. La séance est suivie d'une animation en salle menée avec des étudiants en Relations publiques.",
+      "summary": "Projection du film « Le Fabuleux Destin d'Amélie Poulain » au Ciné Jack, suivie d'un ciné-club et d'une animation en salle. Le film suit Amélie, serveuse à Montmartre, qui s'est fixé pour but de faire le bien autour d'elle.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -18054,30 +18024,6 @@
       "source": "Ticketmaster"
     },
     {
-      "id": "web-madame-moustache-bruxelles-dancefloor-radiomix-2026-12-17",
-      "title": "DANCEFLOOR RADIOMIX",
-      "category": "party",
-      "venue": "Madame Moustache",
-      "city": "Bruxelles",
-      "lat": 50.8514898,
-      "lon": 4.3489335,
-      "start": "2026-12-17T22:00:00",
-      "end": "2026-12-18T04:00:00",
-      "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1792420238100-IO2AOSOORHLAWRVN5263/855866125_1116397090998833_326941741937972878_n.jpg",
-      "page_url": "https://www.madamemoustache.be/agenda/zzg5spgnwy7t5e8bpkmwcaakg4w9ws",
-      "url": "https://www.madamemoustache.be/agenda/zzg5spgnwy7t5e8bpkmwcaakg4w9ws",
-      "summary": "Événement intitulé « DANCEFLOOR RADIOMIX » organisé à Madame Moustache, à Bruxelles. Il se déroule du jeudi 17 décembre 2026 à 22h au vendredi 18 décembre 2026 à 4h.",
-      "price_from": null,
-      "free": null,
-      "audience": [
-        "young"
-      ],
-      "tags": [
-        "soirée"
-      ],
-      "source": "Madame Moustache (Bruxelles)"
-    },
-    {
       "id": "fb-1340998487969870",
       "title": "Vente de nos boules de Noël au marché de Noël de l'institut sainte ursule de Namur",
       "category": "fair",
@@ -18133,7 +18079,7 @@
       "image": "https://www.livecafe.be/assets/frontend/images/facebook.jpg?v=104",
       "page_url": "https://reflektor.be/concert/the-jazz-room-un-hommage-a-frank-sinatra-et-a-louis-armstrong-12-2026/",
       "url": "https://www.livecafe.be/billetterie/cookie-collectif",
-      "summary": "Concert The Jazz Room, hommage à Frank Sinatra et Louis Armstrong au Reflektor.",
+      "summary": "Concert The Jazz Room : un hommage à Frank Sinatra et à Louis Armstrong au Reflektor.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -18657,6 +18603,30 @@
       "source": "Facebook (extension)"
     },
     {
+      "id": "web-madame-moustache-bruxelles-flash-back-fever-2026-12-18",
+      "title": "FLASH BACK FEVER",
+      "category": "party",
+      "venue": "Madame Moustache",
+      "city": "Bruxelles",
+      "lat": 50.8514898,
+      "lon": 4.3489335,
+      "start": "2026-12-18T22:00:00",
+      "end": "2026-12-19T04:00:00",
+      "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1795203457421-H0TTDOYSVUHGE2H01I7W/921437382_1880329713405818_8651429252303469376_n.jpg",
+      "page_url": "https://www.madamemoustache.be/agenda/flash-back-fever",
+      "url": "https://www.madamemoustache.be/agenda/flash-back-fever",
+      "summary": "Dose mensuelle de disco, 80s et 90s retro pour le dancefloor : dépoussière tes meilleurs pas de danse.",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "young"
+      ],
+      "tags": [
+        "soirée"
+      ],
+      "source": "Madame Moustache (Bruxelles)"
+    },
+    {
       "id": "fbx-1845790759928475",
       "title": "Marché de Noël de Messancy",
       "category": "fair",
@@ -18729,7 +18699,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/cookie-festival/",
       "url": "https://feverup.com/m/521008/fr",
-      "summary": "Cookie Festival au Reflektor.",
+      "summary": "COOKIE FESTIVAL au Reflektor.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -18737,8 +18707,8 @@
       "source": "Reflektor (Liège)"
     },
     {
-      "id": "web-les-grignoux-cin-ma-li-ge-carmen-l-oiseau-rebelle-avant-premi-re-2026-12-19",
-      "title": "Carmen, l'oiseau rebelle – Avant-première",
+      "id": "web-les-grignoux-cin-ma-li-ge-carmen-l-oiseau-rebelle-2026-12-19",
+      "title": "Carmen, l'oiseau rebelle",
       "category": "cinema",
       "venue": "Liège",
       "city": "Liège",
@@ -18749,7 +18719,7 @@
       "image": "https://www.grignoux.be//upload/grignoux/event/3217/carmen_loiseaurebelle_vignette--1-.jpg",
       "page_url": "https://www.grignoux.be/fr/evenement/3217/carmen-loiseau-rebelle",
       "url": "https://www.grignoux.be/fr/evenement/3217/carmen-loiseau-rebelle",
-      "summary": "Film d'animation de Sébastien Laudenbach, qui revisite l'opéra de Bizet à hauteur d'enfants : à Séville, Salva, Belén et leur bande tentent d'écarter la menace qui pèse sur Carmen, gitane libre. Accueil en musique dès 13h30, en collaboration avec l'IMEP.",
+      "summary": "Dans les ruelles de Séville, Salva, Belén et leur bande tentent d'écarter la menace qui pèse sur Carmen, gitane libre et flamboyante. Ce film d'animation de Sébastien Laudenbach, librement inspiré de l'opéra de Bizet, est présenté en avant-première.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -19415,8 +19385,8 @@
       "source": "Les Grignoux – cinéma (Liège)"
     },
     {
-      "id": "web-het-depot-louvain-de-mens-xmas-show-matinee-2026-12-20",
-      "title": "De Mens: XMAS-show matinee",
+      "id": "web-het-depot-louvain-de-mens-xmas-show-matinee-met-bart-peeters-stijn-meuris-kaat-v",
+      "title": "De Mens: XMAS-show matinee (met Bart Peeters, Stijn Meuris & Kaat Van Stralen)",
       "category": "concert",
       "venue": "Het Depot",
       "city": "Louvain",
@@ -19427,9 +19397,9 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/concert_suggestion_small/public/a0ac100000hZBXiAAO_1800x810_1800.jpg?itok=-5fCfAJn",
       "page_url": "https://www.hetdepot.be/concert/2026/de-mens-xmas-show-matinee",
       "url": "https://www.hetdepot.be/concert/2026/de-mens-xmas-show-matinee",
-      "summary": "De Mens clôture traditionnellement sa saison de concerts au Depot avec un show de Noël, avec Bart Peeters, Stijn Meuris et Kaat Van Stralen.",
-      "price_from": null,
-      "free": null,
+      "summary": "De Mens clôture son année de concerts au Depot à Louvain avec un XMAS-show en matinée, avec bonnets de Noël et décor festif. Bart Peeters, Stijn Meuris et Kaat Van Stralen sont les invités spéciaux de ce concert.",
+      "price_from": 6.4,
+      "free": false,
       "audience": [],
       "tags": [],
       "source": "Het Depot (Louvain)"
@@ -19506,7 +19476,7 @@
       "image": "https://static.standard.be/cdn/ff/5YldjiKxhYF17gUC5sf5yr5jQlMaRyV0CVcjvOS8QhE/1794042408/public/styles/max_0640/public/2026-11/Standard-RSCA-1920x1080_0.png.webp?itok=1CIVB9A_",
       "page_url": "https://www.standard.be/fr/news/tickets-en-vente-pour-standard-anderlecht",
       "url": "https://www.standard.be/fr/news/tickets-en-vente-pour-standard-anderlecht",
-      "summary": "Les places pour le Clasico programmé le dimanche 20 décembre à 13H30 sont en vente sur notre plateforme online et à la billetterie de notre stade.",
+      "summary": "Match de football entre le Standard de Liège et Anderlecht (Clasico), programmé le dimanche 20 décembre à 13h30. Les places sont en vente sur la plateforme en ligne et à la billetterie du stade.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -19712,8 +19682,8 @@
       "source": "Ticketmaster"
     },
     {
-      "id": "web-madame-moustache-bruxelles-dancefloor-radiomix-2026-12-24",
-      "title": "DANCEFLOOR RADIOMIX",
+      "id": "web-madame-moustache-bruxelles-after-buche-2026-12-24",
+      "title": "AFTER BUCHE",
       "category": "party",
       "venue": "Madame Moustache",
       "city": "Bruxelles",
@@ -19721,15 +19691,13 @@
       "lon": 4.3489335,
       "start": "2026-12-24T22:00:00",
       "end": "2026-12-25T04:00:00",
-      "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1792420307613-88ASPWOF7818HPBSC1KB/854569305_1088586567419033_4365692319217989796_n.jpg",
-      "page_url": "https://www.madamemoustache.be/agenda/bmt9a4btb3brpjhx5tsehh96z3xwl9",
-      "url": "https://www.madamemoustache.be/agenda/bmt9a4btb3brpjhx5tsehh96z3xwl9",
-      "summary": "Soirée intitulée « DANCEFLOOR RADIOMIX » organisée au Madame Moustache à Bruxelles, du 24 décembre 2026 à 22:00 au 25 décembre 2026 à 04:00. La page ne détaille pas le programme ni le contenu de la soirée.",
+      "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1795203762633-496MIM1JGXB38VGF3QIQ/916920244_1011025358714159_7884843139980724256_n.jpg",
+      "page_url": "https://www.madamemoustache.be/agenda/after-buche",
+      "url": "https://www.madamemoustache.be/agenda/after-buche",
+      "summary": "After-party de Noël chez Madame Moustache, à rejoindre sur la piste après le repas du 24 décembre.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [
         "soirée"
       ],
@@ -19754,6 +19722,28 @@
       "audience": [],
       "tags": [],
       "source": "Facebook (extension)"
+    },
+    {
+      "id": "web-madame-moustache-bruxelles-le-bal-de-noel-2026-12-25",
+      "title": "LE BAL DE NOEL",
+      "category": "party",
+      "venue": "Madame Moustache",
+      "city": "Bruxelles",
+      "lat": 50.8514898,
+      "lon": 4.3489335,
+      "start": "2026-12-25T22:00:00",
+      "end": "2026-12-26T04:00:00",
+      "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1795203990616-6ZQG1DN91WLRQ91CZFHF/915012327_1113350684852986_5597132144954690168_n.jpg",
+      "page_url": "https://www.madamemoustache.be/agenda/le-bal-de-noel",
+      "url": "https://www.madamemoustache.be/agenda/le-bal-de-noel",
+      "summary": "Bal de Noël le 25 décembre sous le clown géant de Madame Moustache, à partager avec amis et famille.",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [
+        "soirée"
+      ],
+      "source": "Madame Moustache (Bruxelles)"
     },
     {
       "id": "tm-Z698xZG2Z1kpfPbfI",
@@ -19874,6 +19864,30 @@
       "audience": [],
       "tags": [],
       "source": "Ticketmaster"
+    },
+    {
+      "id": "web-madame-moustache-bruxelles-la-grande-boum-2-2026-12-26",
+      "title": "LA GRANDE BOUM 2",
+      "category": "party",
+      "venue": "Madame Moustache",
+      "city": "Bruxelles",
+      "lat": 50.8514898,
+      "lon": 4.3489335,
+      "start": "2026-12-26T22:00:00",
+      "end": "2026-12-27T04:00:00",
+      "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1795204093879-0IVKWM1Y9BIZYQEJM46W/916197039_2544350369381974_7902090336419504383_n.jpg",
+      "page_url": "https://www.madamemoustache.be/agenda/la-grande-boum-2",
+      "url": "https://www.madamemoustache.be/agenda/la-grande-boum-2",
+      "summary": "La Grande Boum 2 revient le samedi 26 décembre : tubes du lendemain de Noël à chanter sur la piste.",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "young"
+      ],
+      "tags": [
+        "soirée"
+      ],
+      "source": "Madame Moustache (Bruxelles)"
     },
     {
       "id": "fbx-2007764283484027",
@@ -20487,10 +20501,10 @@
       "lon": 4.3489335,
       "start": "2026-12-31T22:00:00",
       "end": "2027-01-01T04:00:00",
-      "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1792420404984-66YHX1F0NTAVS837EAQ3/856186824_1407135074913879_4058551437733643416_n.jpg",
+      "image": "https://images.squarespace-cdn.com/content/v1/68482ed32014f85320eac768/1795201970762-88WTN9LM1X145P8197V1/915220286_2209002003328570_7381476138598752175_n.jpg",
       "page_url": "https://www.madamemoustache.be/agenda/new-years-eve-party-2027",
-      "url": "https://www.madamemoustache.be/agenda/new-years-eve-party-2027",
-      "summary": "Soirée du Nouvel An « New Year's Eve Party 2027 » organisée par Madame Moustache à Bruxelles, du 31 décembre 2026 à 22:00 au 1er janvier 2027 à 04:00. La page ne détaille ni le programme ni les artistes.",
+      "url": "https://www.partyfinder.com/fr/event/17929",
+      "summary": "Réveillon du Nouvel An : 40 ans de hits disco, 80's et dance, avec un verre de bulles et des hors-d'œuvre offerts avant minuit.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -20699,7 +20713,7 @@
     {
       "id": "web-reflektor-li-ge-blind-test-de-l-om-sp-cial-90s-2027-01-08",
       "title": "Blind-test de l'OM: spécial 90s",
-      "category": "concert",
+      "category": "culture",
       "venue": "OM",
       "city": "Liège",
       "lat": 50.6073612,
@@ -20709,7 +20723,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/blind-test-de-lom-special-90s-2/",
       "url": "https://shop.paylogic.com/ddd236c905a444638e776f1f14fb4d8c",
-      "summary": "Blind-test spécial 90s à l'OM (derniers tickets).",
+      "summary": "Blind-test de l'OM, spécial 90s, à OM. Derniers tickets disponibles.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -23361,9 +23375,7 @@
       "summary": "Concert de Black Box Revelation au Reflektor.",
       "price_from": null,
       "free": null,
-      "audience": [
-        "young"
-      ],
+      "audience": [],
       "tags": [],
       "source": "Reflektor (Liège)"
     },
@@ -23763,6 +23775,26 @@
       "audience": [],
       "tags": [],
       "source": "Ticketmaster"
+    },
+    {
+      "id": "web-trix-anvers-we-are-open-2027-2027-02-12",
+      "title": "We Are Open 2027",
+      "category": "culture",
+      "venue": "Trix",
+      "city": "Anvers",
+      "lat": 51.2195776,
+      "lon": 4.4483726,
+      "start": "2027-02-12T10:00:00",
+      "end": "2027-02-12T10:00:00",
+      "image": "https://www.trixonline.be/media/cache/default_highlight/uploads/media/default/2c70/29/2b90224c66bd16c1a24c09be00a401824f0034e2.webp",
+      "page_url": "https://wao.trixonline.be/nl/",
+      "url": "https://wao.trixonline.be/nl/",
+      "summary": "Événement annoncé par Trix pour le 12 février 2027, « We Are Open 2027 ».",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Trix (Anvers)"
     },
     {
       "id": "tm-Z698xZG2Z1kPYFbFJ",
@@ -24553,6 +24585,25 @@
       "source": "Ticketmaster"
     },
     {
+      "id": "tm-Z698xZG2Z1kA7Ag89",
+      "title": "Salvatore Adamo",
+      "category": "concert",
+      "venue": "Théâtre Royal",
+      "city": "Mons",
+      "lat": 50.45429,
+      "lon": 3.95193,
+      "start": "2027-02-21T18:00:00",
+      "end": "2027-02-21T18:00:00",
+      "image": "https://s1.ticketm.net/dam/a/10c/a70a70ff-e63c-4ada-af94-80a16403310c_1537331_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.ticketmaster.be/event/salvatore-adamo-tickets/144175417",
+      "summary": "Venez vivre une soirée d'exception avec Salvatore Adamo, l'un des plus grands noms de la chanson francophone. Artiste emblématique à la carrière internationale, Salvatore Adamo vous invite à un spectacle empreint d'émotion, de poésie et d'authenticité. Avec sa voix chaleureuse et son élégance nature",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ticketmaster"
+    },
+    {
       "id": "tm-Z698xZG2Z1k0oAZod",
       "title": "Masego",
       "category": "concert",
@@ -24777,7 +24828,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/perceval/",
       "url": "https://shop.paylogic.com/882e7700ceea44eba0878628fd45d5ee",
-      "summary": "Concert de Perceval à l'OM.",
+      "summary": "Concert de Perceval à OM.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -24800,7 +24851,9 @@
       "summary": "Le COOL Festival '27, organisé par Het Depot, réunit trois jours de jazz, funk et soul avec des concerts et des DJ sets. Le vendredi 26 février 2027 se produisent notamment Nubiyan Twist, Hannah Williams & The Affirmations, Latanya Alberto et DJ Ilse Liebens.",
       "price_from": 23.0,
       "free": false,
-      "audience": [],
+      "audience": [
+        "young"
+      ],
       "tags": [],
       "source": "Het Depot (Louvain)"
     },
@@ -25346,7 +25399,7 @@
       "image": "https://www.trixonline.be/media/cache/default_highlight/uploads/media/default/6454/5f/ea3eb30323cc94784ffd9681186e436d88cebfc7.webp",
       "page_url": "https://www.trixonline.be/nl/event/cleopatrick",
       "url": "https://www.trixonline.be/nl/event/cleopatrick",
-      "summary": "Concert de Cleopatrick à Trix, le 10 mars 2027.",
+      "summary": "Concert de Cleopatrick à Trix le 10 mars 2027.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -25484,6 +25537,25 @@
       "image": "https://s1.ticketm.net/dam/a/f5a/1230311e-27ed-43a4-9c88-a889246e7f5a_RETINA_PORTRAIT_16_9.jpg",
       "url": "https://www.ticketmaster.be/event/elodie-arnould-%7C-bijou-de-famille-tickets/1175737306",
       "summary": "",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ticketmaster"
+    },
+    {
+      "id": "tm-Z698xZG2Z16vQK-_P7",
+      "title": "Rapsat : C'était Pierrot",
+      "category": "concert",
+      "venue": "Cirque Royal - Koninklijk Circus",
+      "city": "Brussels",
+      "lat": 50.84906,
+      "lon": 4.36565,
+      "start": "2027-03-11T20:00:00",
+      "end": "2027-03-11T20:00:00",
+      "image": "https://s1.ticketm.net/dam/a/7dc/b9b4a1c7-2555-47eb-9221-f3c1614d07dc_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.ticketmaster.be/event/rapsat--cetait-pierrot-tickets/1693859944",
+      "summary": "RAPSAT, c'était Pierrot La tournée hommage des 25 ans L'année 2027 marque les 25 ans de la disparition de Pierre Rapsat ainsi que les 15 ans de carrière du groupe Brasero. Pour cette tournée anniversaire exceptionnelle, plusieurs collaborations, artistes invités et duos sur scène viendront enrichir ",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -25862,26 +25934,6 @@
       "source": "Ticketmaster"
     },
     {
-      "id": "web-reflektor-li-ge-gwendoline-2027-03-16",
-      "title": "Gwendoline",
-      "category": "concert",
-      "venue": "Reflektor",
-      "city": "Liège",
-      "lat": 50.6432641,
-      "lon": 5.5679468,
-      "start": "2027-03-16T10:00:00",
-      "end": "2027-03-16T10:00:00",
-      "image": "https://reflektor.be/wp-content/uploads/2026/11/gwendoline_18-©alois-lecerf-1-scaled-e1793957544683.jpg",
-      "page_url": "https://reflektor.be/concert/gwendoline/",
-      "url": "https://reflektor.be/concert/gwendoline/",
-      "summary": "Le duo rennais Gwendoline, formé de Micka et Pierre, joue une shlag wave sombre mêlant chant parlé et textes fatalistes et sarcastiques. Le concert du 16 mars 2027 au Reflektor présente ce groupe indé.",
-      "price_from": null,
-      "free": null,
-      "audience": [],
-      "tags": [],
-      "source": "Reflektor (Liège)"
-    },
-    {
       "id": "tm-Z698xZG2Z1krK-N8s",
       "title": "Riverdance",
       "category": "theatre",
@@ -25901,8 +25953,8 @@
       "source": "Ticketmaster"
     },
     {
-      "id": "web-het-depot-louvain-bart-peeters-2027-03-17",
-      "title": "Bart Peeters",
+      "id": "web-het-depot-louvain-bart-peeters-ideale-mannen-2027-03-17",
+      "title": "Bart Peeters - Ideale Mannen",
       "category": "concert",
       "venue": "Het Depot",
       "city": "Louvain",
@@ -25913,7 +25965,7 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/hero/public/a0ac100000kWuFxAAK_1800x810_1800.jpg?itok=FyxviKmd",
       "page_url": "https://www.hetdepot.be/concert/2027/bart-peeters",
       "url": "https://www.hetdepot.be/concert/2027/bart-peeters",
-      "summary": "Nouvelles chansons, tubes familiers et une bonne dose de folie : Bart Peeters rouvre tous ses registres avec Ideale Mannen.",
+      "summary": "Bart Peeters présente Ideale Mannen, un spectacle en deux parties mêlant nouvelles chansons et tubes connus, avec De Ideale Mannen et Tom Vanstiphout. Concert en grande salle du Depot à Louvain, configuration flex (places assises non numérotées et debout).",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -25982,8 +26034,8 @@
       "source": "Le Forum (Liège)"
     },
     {
-      "id": "web-het-depot-louvain-bart-peeters-2027-03-19",
-      "title": "Bart Peeters",
+      "id": "web-het-depot-louvain-bart-peeters-ideale-mannen-2027-03-19",
+      "title": "Bart Peeters - Ideale Mannen",
       "category": "concert",
       "venue": "Het Depot",
       "city": "Louvain",
@@ -25994,7 +26046,7 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/hero/public/a0ac100000kXKryAAG_1800x810_1800.jpg?itok=QA27LL-D",
       "page_url": "https://www.hetdepot.be/concert/2027/bart-peeters-0",
       "url": "https://www.hetdepot.be/concert/2027/bart-peeters-0",
-      "summary": "Nouvelles chansons, tubes familiers et une bonne dose de folie : Bart Peeters rouvre tous ses registres avec Ideale Mannen.",
+      "summary": "Bart Peeters présente son tour « Ideale Mannen » : nouvelles chansons, hits connus et show en deux parties, accompagné de De Ideale Mannen et Tom Vanstiphout. Le concert a lieu dans la grande salle du Depot à Louvain.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -26084,8 +26136,8 @@
       "source": "Trix (Anvers)"
     },
     {
-      "id": "web-het-depot-louvain-bart-peeters-2027-03-20",
-      "title": "Bart Peeters",
+      "id": "web-het-depot-louvain-bart-peeters-ideale-mannen-2027-03-20",
+      "title": "Bart Peeters - Ideale Mannen",
       "category": "concert",
       "venue": "Het Depot",
       "city": "Louvain",
@@ -26096,7 +26148,7 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/hero/public/a0ac100000kWx5mAAC_1800x810_1800.jpg?itok=Ub_8hiik",
       "page_url": "https://www.hetdepot.be/concert/2027/bart-peeters-1",
       "url": "https://www.hetdepot.be/concert/2027/bart-peeters-1",
-      "summary": "Nouvelles chansons, tubes familiers et une bonne dose de folie : Bart Peeters rouvre tous ses registres avec Ideale Mannen.",
+      "summary": "Bart Peeters présente sa tournée Ideale Mannen, mêlant nouvelles chansons et grands succès, avec le groupe De Ideale Mannen et le guitariste Tom Vanstiphout. Le concert se déroule en deux parties, dans la grande salle du Depot, en configuration flex avec places assises non numérotées et places debou",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -26408,6 +26460,25 @@
       "image": null,
       "url": "https://www.ticketmaster.be/event/teddy-swims-%7C-beat-premium-comfort-experience-tickets/608120975",
       "summary": "Make your visit to the AFAS Dome a unique experience as a Mastercard cardholder with the be•at Premium Comfort Experience in the Mastercard Lounge. What can you expect? • Separate entrance to the Mastercard Lounge starting 60 minutes before the AFAS Dome doors open. • An exclusive space with comfort",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ticketmaster"
+    },
+    {
+      "id": "tm-Z698xZG2Z1kGxvI_o",
+      "title": "Erhan Demirci \"Made in Cité\"",
+      "category": "theatre",
+      "venue": "Trixxo Theater Hasselt",
+      "city": "Hasselt",
+      "lat": 50.93311,
+      "lon": 5.36207,
+      "start": "2027-03-26T20:00:00",
+      "end": "2027-03-26T20:00:00",
+      "image": "https://s1.ticketm.net/dam/a/b31/7d0aae1d-e85a-4a47-840e-5ee96f1c7b31_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.ticketmaster.be/event/erhan-demirci-made-in-cite-tickets/322068651",
+      "summary": "The complete timing can be found a few days before the show on www.trixxo-theater.be.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -26795,6 +26866,25 @@
       "source": "Le Forum (Liège)"
     },
     {
+      "id": "tm-Z698xZG2Z1kA0ZFAv",
+      "title": "The Black Moods (usa)",
+      "category": "concert",
+      "venue": "Spirit of 66",
+      "city": "Verviers",
+      "lat": 50.59353,
+      "lon": 5.86109,
+      "start": "2027-04-08T20:00:00",
+      "end": "2027-04-08T20:00:00",
+      "image": "https://s1.ticketm.net/dam/a/f80/f0d56630-80ba-4f1b-b19e-6fd9a66baf80_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.ticketmaster.be/event/the-black-moods-usa--tickets/164008141",
+      "summary": "",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ticketmaster"
+    },
+    {
       "id": "web-le-forum-li-ge-ballets-et-l-gendes-de-tahiti-2027-04-09",
       "title": "Ballets et légendes de Tahiti",
       "category": "theatre",
@@ -27179,16 +27269,16 @@
       "id": "web-reflektor-li-ge-gail-ann-dorsey-2027-04-19",
       "title": "Gail Ann Dorsey",
       "category": "concert",
-      "venue": "Reflektor",
+      "venue": "OM",
       "city": "Liège",
-      "lat": 50.6432641,
-      "lon": 5.5679468,
+      "lat": 50.6073612,
+      "lon": 5.5364634,
       "start": "2027-04-19T10:00:00",
       "end": "2027-04-19T10:00:00",
       "image": null,
       "page_url": "https://reflektor.be/concert/gail-ann-dorsey/",
       "url": "https://shop.paylogic.com/b532e4de4efa46ceb9ad40fb7a6f8a67/offsale",
-      "summary": "Concert de Gail Ann Dorsey au Reflektor (complet).",
+      "summary": "Concert de Gail Ann Dorsey à OM, billetterie indiquée comme sold out.",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -27331,7 +27421,7 @@
       "image": null,
       "page_url": "https://reflektor.be/concert/ghinzu-2/",
       "url": "https://shop.paylogic.com/3b48e8b2fba04a2aac3056c87f4b4fb2",
-      "summary": "Concert de Ghinzu à l'OM.",
+      "summary": "Concert de Ghinzu à OM.",
       "price_from": null,
       "free": null,
       "audience": [
@@ -27358,6 +27448,28 @@
       "audience": [],
       "tags": [],
       "source": "Ticketmaster"
+    },
+    {
+      "id": "web-reflektor-li-ge-ghinzu-2-5-2027-05-02",
+      "title": "Ghinzu – 2/5",
+      "category": "concert",
+      "venue": "OM",
+      "city": "Liège",
+      "lat": 50.6073612,
+      "lon": 5.5364634,
+      "start": "2027-05-02T10:00:00",
+      "end": "2027-05-02T10:00:00",
+      "image": null,
+      "page_url": "https://reflektor.be/concert/ghinzu-2-5/",
+      "url": "https://shop.paylogic.com/36beab80d96948188ac4fb3fcd71a11d",
+      "summary": "Concert de Ghinzu – 2/5 à OM.",
+      "price_from": null,
+      "free": null,
+      "audience": [
+        "young"
+      ],
+      "tags": [],
+      "source": "Reflektor (Liège)"
     },
     {
       "id": "tm-Z698xZG2Z16vQ7q8ot",
@@ -27627,10 +27739,10 @@
       "lon": 5.5679468,
       "start": "2027-05-14T10:00:00",
       "end": "2027-05-14T10:00:00",
-      "image": null,
+      "image": "https://reflektor.be/wp-content/uploads/2026/11/photo-melissa-1-scaled-e1794216085773.jpg",
       "page_url": "https://reflektor.be/concert/melissa/",
-      "url": "https://shop.paylogic.com/d65b380368744ec9a5f38f20f67a20f6/",
-      "summary": "Concert de Melissa au Reflektor.",
+      "url": "https://reflektor.be/concert/melissa/",
+      "summary": "Melissa présente une pop vibrante, entre énergie électrique et sensibilité douce, inspirée du design et de la tendance Y2K. Le concert de cette tournée mêle émotion pure et énergie fulgurante, autour de son premier EP « Tout va bien (jcrois) ».",
       "price_from": null,
       "free": null,
       "audience": [],
@@ -27716,8 +27828,8 @@
       "source": "Ticketmaster"
     },
     {
-      "id": "web-het-depot-louvain-laura-tesoro-2027-05-15",
-      "title": "Laura Tesoro",
+      "id": "web-het-depot-louvain-laura-tesoro-amore-2027-05-15",
+      "title": "Laura Tesoro - AMORE",
       "category": "concert",
       "venue": "Het Depot",
       "city": "Louvain",
@@ -27728,7 +27840,7 @@
       "image": "https://www.hetdepot.be/sites/default/files/styles/hero/public/a0ac100000kEFr9AAG_1800x810_1800.jpg?itok=GaVinF4A",
       "page_url": "https://www.hetdepot.be/concert/2027/laura-tesoro",
       "url": "https://www.hetdepot.be/concert/2027/laura-tesoro",
-      "summary": "Laura Tesoro présente pour la première fois en concert son nouvel album « AMORE », avec de nouveaux titres, des chorégraphies et des refrains à chanter. Le concert a lieu dans la grande salle du Het Depot à Louvain (Leuven).",
+      "summary": "Laura Tesoro présente en live pour la première fois son album « AMORE » : nouveaux morceaux, chorégraphies et refrains à chanter. Le spectacle met en avant l'amour de soi, la positivité et l'énergie de l'artiste.",
       "price_from": 7.0,
       "free": false,
       "audience": [],
@@ -27996,6 +28108,25 @@
       "image": "https://s1.ticketm.net/dam/a/5d6/832266b9-64d0-4bc4-be02-3997a8c2a5d6_RETINA_PORTRAIT_16_9.jpg",
       "url": "https://www.ticketmaster.be/event/-pierre-thevenoux---life-coach--tickets/1803836562",
       "summary": "Pierre revient avec son nouveau spectacle \" Life coach \" dans lequel il vous parlera des injonc7ons modernes du bien-être, du développement personnel et de la pression pour réussir. Comme tout bon life coach qui se respecte, il vous donnera aussi plein de conseils pour réussir votre vie alors que la",
+      "price_from": null,
+      "free": null,
+      "audience": [],
+      "tags": [],
+      "source": "Ticketmaster"
+    },
+    {
+      "id": "tm-Z698xZG2Z1kC7ed_9",
+      "title": "Marcel zingt Boudewijn De Groot in Symphony",
+      "category": "theatre",
+      "venue": "Trixxo Theater Hasselt",
+      "city": "Hasselt",
+      "lat": 50.93311,
+      "lon": 5.36207,
+      "start": "2027-05-28T20:00:00",
+      "end": "2027-05-28T20:00:00",
+      "image": "https://s1.ticketm.net/dam/a/932/c1d29d92-4b02-49f3-ac67-94336f939932_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.ticketmaster.be/event/marcel-zingt-boudewijn-de-groot-in-symphony-tickets/384083657",
+      "summary": "The complete timing can be found a few days before the concert on www.trixxo-theater.be.",
       "price_from": null,
       "free": null,
       "audience": [],

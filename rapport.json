@@ -1,12 +1,12 @@
 {
-  "genere": "2026-11-20T12:25:28",
+  "genere": "2026-11-20T22:37:31",
   "sources": [
     {
       "source": "Reflektor (Liège)",
       "ok": true,
-      "page_caracteres": 15212,
-      "ia_a_trouve": 38,
-      "gardes": 38,
+      "page_caracteres": 15176,
+      "ia_a_trouve": 39,
+      "gardes": 39,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -42,7 +42,7 @@
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 54410,
+      "page_caracteres": 53111,
       "ia_a_trouve": 35,
       "gardes": 35,
       "ecartes": 0,
@@ -53,9 +53,9 @@
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 40654,
-      "ia_a_trouve": 120,
-      "gardes": 120,
+      "page_caracteres": 40340,
+      "ia_a_trouve": 119,
+      "gardes": 119,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -66,8 +66,6 @@
       "ia_a_trouve": 2,
       "gardes": 2,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -82,7 +80,7 @@
     {
       "source": "Stavelot",
       "ok": true,
-      "page_caracteres": 34376,
+      "page_caracteres": 34961,
       "ia_a_trouve": 1,
       "gardes": 1,
       "ecartes": 0,
@@ -93,10 +91,10 @@
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 12538,
-      "ia_a_trouve": 2,
+      "page_caracteres": 13317,
+      "ia_a_trouve": 3,
       "gardes": 0,
-      "ecartes": 2,
+      "ecartes": 3,
       "morceaux": 1,
       "reponses_coupees": 0,
       "extrait_reponse_ia": ""
@@ -104,7 +102,7 @@
     {
       "source": "Ville de Huy",
       "ok": true,
-      "page_caracteres": 5882,
+      "page_caracteres": 5820,
       "ia_a_trouve": 7,
       "gardes": 7,
       "ecartes": 0,
@@ -115,10 +113,12 @@
     {
       "source": "Grand Curtius (Liège)",
       "ok": true,
-      "page_caracteres": 10475,
+      "page_caracteres": 9961,
       "ia_a_trouve": 10,
       "gardes": 7,
       "ecartes": 3,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -146,8 +146,6 @@
       "ia_a_trouve": 7,
       "gardes": 7,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -171,10 +169,12 @@
     {
       "source": "Madame Moustache (Bruxelles)",
       "ok": true,
-      "page_caracteres": 37704,
-      "ia_a_trouve": 12,
-      "gardes": 12,
+      "page_caracteres": 47115,
+      "ia_a_trouve": 16,
+      "gardes": 16,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -189,7 +189,7 @@
     {
       "source": "Ancienne Belgique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 6915,
+      "page_caracteres": 7089,
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
@@ -204,16 +204,14 @@
       "ia_a_trouve": 3,
       "gardes": 3,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Trix (Anvers)",
       "ok": true,
-      "page_caracteres": 10528,
-      "ia_a_trouve": 28,
-      "gardes": 28,
+      "page_caracteres": 10621,
+      "ia_a_trouve": 29,
+      "gardes": 29,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -222,7 +220,7 @@
     {
       "source": "Het Depot (Louvain)",
       "ok": true,
-      "page_caracteres": 10053,
+      "page_caracteres": 9932,
       "ia_a_trouve": 21,
       "gardes": 21,
       "ecartes": 0,
@@ -233,7 +231,7 @@
     {
       "source": "Mars – Mons arts de la scène",
       "ok": true,
-      "page_caracteres": 12516,
+      "page_caracteres": 12694,
       "ia_a_trouve": 12,
       "gardes": 12,
       "ecartes": 0,
@@ -261,12 +259,12 @@
     {
       "source": "Doublons fusionnés",
       "ok": true,
-      "fusionnes": 37
+      "fusionnes": 38
     },
     {
       "source": "Pages des billetteries",
       "ok": true,
-      "pages_lues": 41,
+      "pages_lues": 20,
       "pages_lues_par_ia": 25
     },
     {
@@ -275,6 +273,6 @@
       "retirees": 35
     }
   ],
-  "avec_image": 1248,
-  "total": 1443
+  "avec_image": 1253,
+  "total": 1449
 }
