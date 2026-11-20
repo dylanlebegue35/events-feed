@@ -497,7 +497,13 @@ def places(radius=50000):
 # Restaurants (17/11/2026, demande de Dylan : « la même chose que les bars ») : tous les restaurants de Liège d'OpenStreetMap,
 # plus les mieux notés de chaque ville sur Google (google_places.json, bloc « restaurants »). Ils ne sont publiés que quand
 # « restaurants.publier » vaut true : l'app v1 ne connaît pas encore la rubrique Restos (elle arrive avec la v1.1).
-RESTO_CITIES = {"Liège": (50.6412, 5.5718, 6.5)}       # ville : (lat, lon, rayon en km)
+RESTO_CITIES = {"Liège": (50.6412, 5.5718, 6.5),       # ville : (lat, lon, rayon en km)
+                # 20/11/2026, Dylan : « pas juste les 3 restos les plus connus » : tous les restos des grandes villes
+                "Bruxelles": (50.8467, 4.3525, 4.0), "Namur": (50.4652, 4.8651, 3.0), "Mons": (50.4542, 3.9523, 2.5),
+                "Charleroi": (50.4108, 4.4446, 3.0), "Louvain-la-Neuve": (50.6681, 4.6118, 2.0), "Verviers": (50.5891, 5.8622, 2.0),
+                "Huy": (50.5182, 5.2394, 1.5), "Arlon": (49.6833, 5.8167, 1.5), "Tournai": (50.6056, 3.3889, 2.0),
+                "Anvers": (51.2194, 4.4025, 3.5), "Gand": (51.0543, 3.7174, 3.0), "Louvain": (50.8798, 4.7005, 2.5),
+                "Bruges": (51.2093, 3.2247, 2.5), "Hasselt": (50.9307, 5.3378, 2.0)}
 CUISINES = {
     "italian": "Restaurant italien", "pizza": "Pizzeria", "pasta": "Restaurant italien", "french": "Restaurant français",
     "regional": "Cuisine belge", "belgian": "Cuisine belge", "local": "Cuisine belge", "brasserie": "Brasserie",
@@ -516,10 +522,18 @@ RESTO_SKIP = re.compile(r"\b(poker|school|internat|caf[ée]t[ée]ria|maison de r
                         r"restaurant (scolaire|d'entreprise|universitaire)|resto u)\b", re.I)
 
 
-def restos_osm():
-    """Tous les restaurants nommés autour des villes de RESTO_CITIES (amenity=restaurant : pas les fast-foods)."""
-    out, seen = [], set()
+def restos_osm(prev=()):
+    """Tous les restaurants nommés autour des villes de RESTO_CITIES (amenity=restaurant : pas les fast-foods).
+    Une ville qu'OpenStreetMap ne sert pas (serveur saturé) garde ses restos du passage précédent : avec 15 villes,
+    une seule panne ne doit pas tout bloquer. Si toutes échouent : erreur (on garde alors toute la liste précédente)."""
+    out, seen, failed = [], set(), []
+    debut = time.time()
     for city, (lat0, lon0, km) in RESTO_CITIES.items():
+        if time.time() - debut > 420 and city != "Liège":      # 7 min au plus (le robot entier a 40 min) : la suite au passage suivant
+            failed.append(city)
+            out += [dict(p, image=None, image_credit=None) if _google_ok(p.get("image")) else dict(p)
+                    for p in prev if p.get("kind") == "restaurant" and p.get("city") == city and str(p.get("id", "")).startswith("osm-")]
+            continue
         query = (f'[out:json][timeout:90];(nwr(around:{int(km * 1000)},{lat0},{lon0})["amenity"="restaurant"];);out tags center;')
         data = None
         for url in OVERPASS:
@@ -533,8 +547,12 @@ def restos_osm():
             if isinstance(data, dict) and data.get("elements") and not data.get("remark"):
                 break
             data = None
+        time.sleep(2)                                   # Overpass : une ville après l'autre, sans le saturer
         if data is None:
-            raise RuntimeError("OpenStreetMap indisponible (restaurants)")
+            failed.append(city)
+            out += [dict(p, image=None, image_credit=None) if _google_ok(p.get("image")) else dict(p)
+                    for p in prev if p.get("kind") == "restaurant" and p.get("city") == city and str(p.get("id", "")).startswith("osm-")]
+            continue
         for el in data.get("elements", []):
             t = el.get("tags", {})
             name = (t.get("name") or "").strip()
@@ -555,6 +573,10 @@ def restos_osm():
             out.append({"id": f"osm-{el['type']}-{el['id']}", "name": name[:120], "kind": "restaurant", "kind_label": label,
                         "city": city, "address": (street + (", " + t["addr:city"] if t.get("addr:city") else "")) or None,
                         "lat": lat, "lon": lon, "website": site, "hours": t.get("opening_hours"), "image": None})
+    if failed:
+        if len(failed) == len(RESTO_CITIES):
+            raise RuntimeError("OpenStreetMap indisponible (restaurants)")
+        REPORT.append({"source": "Restaurants OpenStreetMap", "ok": False, "erreur": "villes gardées du passage précédent : " + ", ".join(failed)})
     return out
 
 
@@ -665,14 +687,24 @@ def _google_top(key, proxy, cfg, kind, label, word, pages=3, quiet=False):
                 and g.get("userRatingCount", 0) >= m and g.get("rating", 0) >= cfg.get("min_rating", 4.3)]
         # note « juste » : un 4,9 sur 30 avis ne passe pas devant un 4,6 sur 2 000
         good.sort(key=lambda g: -(g["userRatingCount"] * g["rating"] + 2 * m * prior) / (g["userRatingCount"] + 2 * m))
-        for g in good[:c["top"]]:
+        chosen = [(g, "top") for g in good[:c["top"]]]
+        pcfg = cfg.get("pepites") if isinstance(cfg.get("pepites"), dict) else {}
+        if pcfg.get("top"):
+            # pépites (20/11/2026) : les petites adresses excellentes que le seuil de 200 avis écartait. Mêmes résultats
+            # Google (aucune recherche en plus) : 4,6 ou plus, entre 40 et 199 avis, classées par note « juste »
+            pm = pcfg.get("min_reviews", 40)
+            gems = [g for g in found if g.get("businessStatus") == "OPERATIONAL" and g.get("photos") and g not in good
+                    and pm <= g.get("userRatingCount", 0) <= pcfg.get("max_reviews", 199) and g.get("rating", 0) >= pcfg.get("min_rating", 4.6)]
+            gems.sort(key=lambda g: -(g["userRatingCount"] * g["rating"] + 2 * pm * 4.4) / (g["userRatingCount"] + 2 * pm))
+            chosen += [(g, "pepite") for g in gems[:int(pcfg["top"] if c.get("top_pepites") is None else c["top_pepites"])]]
+        for g, quality in chosen:
             try:                                    # un résultat mal formé est sauté, il ne fait pas échouer toute la ville
                 img, credit = _google_photo(g, proxy)
                 out.append({"id": "g-" + str(g["id"]), "google_id": g["id"], "name": g["displayName"]["text"], "kind": kind,
                             "kind_label": (g.get("primaryTypeDisplayName") or {}).get("text") or label, "city": c["name"],
                             "address": g.get("formattedAddress"), "lat": float(g["location"]["latitude"]),
                             "lon": float(g["location"]["longitude"]), "website": g.get("websiteUri"), "hours": None,
-                            "image": img, "image_credit": credit, "pitch": None})
+                            "image": img, "image_credit": credit, "pitch": None, "quality": quality})
             except (KeyError, TypeError, ValueError):
                 continue
         if not quiet:
@@ -846,6 +878,7 @@ def google_places(lieux):
                 twin["image"], twin["image_credit"] = b["image"], b["image_credit"]
             if b["kind"] == "restaurant":
                 top_order.setdefault(twin["id"], len(top_order))
+                twin["quality"] = twin.get("quality") or b.get("quality")
         else:
             out.append(dict(b))
             if b["kind"] == "restaurant":
@@ -853,6 +886,67 @@ def google_places(lieux):
     # restaurants : les mieux notés sur Google d'abord (dans l'ordre du classement), puis tous les autres de la ville
     out.sort(key=lambda p: top_order.get(p["id"], len(top_order)) if p.get("kind") == "restaurant" else 0)
     return out
+
+
+RESTOS_CARTES = HERE / "restos_cartes.json"
+CARTE_TXT = re.compile(r"\b(menus?|la carte|notre carte|nos cartes|carte des mets|nos plats|lunch|suggestions|menukaart|kaart|eten|food|our menu|plats)\b", re.I)
+CARTE_HREF = re.compile(r"(menu|carte|kaart|food|plats|lunch|suggestion)", re.I)
+CARTE_PAS = re.compile(r"(carte-cadeau|gift|cadeau|bon-?cadeau|vacature|jobs?|recrut|privacy|cookie|wine-?list|vins?\b|drink|boissons|"
+                       r"instagram|facebook|tiktok|google\.|maps\.)", re.I)
+# réservation en ligne : seulement ces services connus, avec un vrai identifiant (pas un modèle « rid=__ID__ » de leur widget)
+RESA = [("TheFork", re.compile(r"https://(?:www\.)?(?:thefork|lafourchette)\.[a-z.]{2,6}/restaura(?:nt|nts)/[a-z0-9-]+-r\d+", re.I)),
+        ("Zenchef", re.compile(r"https://bookings\.zenchef\.com/results\?rid=\d{3,9}", re.I)),
+        ("Resengo", re.compile(r"https://(?:www\.)?resengo\.com/(?:flow/)?[\w-]{2,80}(?:/[\w-]{1,80})?", re.I)),
+        ("Formitable", re.compile(r"https://(?:www\.)?formitable\.com/[a-z0-9-]{2,80}", re.I)),
+        ("OpenTable", re.compile(r"https://(?:www\.)?opentable\.[a-z.]{2,6}/(?:r/)?[a-z0-9-]{3,120}", re.I))]
+
+
+def _carte_et_resa(site):
+    """Lien de la carte (page ou PDF du même site) et de la réservation en ligne, lus sur la page d'accueil du resto."""
+    from urllib.parse import urljoin, urlsplit
+    page = fetch(site, timeout=12)[:2_000_000]
+    host = (urlsplit(site).hostname or "").lower().removeprefix("www.")
+    carte = None
+    for href, txt in re.findall(r'<a\b[^>]{0,800}href=["\']([^"\'#]{1,600})["\'][^>]{0,800}>(.{0,300}?)</a>', page, re.I | re.S):
+        txt = html.unescape(re.sub(r"<[^>]+>", " ", txt)).strip()
+        url = urljoin(site, html.unescape(href))
+        if not url.startswith(("https://", "http://")) or CARTE_PAS.search(url) or CARTE_PAS.search(txt):
+            continue
+        same = (urlsplit(url).hostname or "").lower().removeprefix("www.") == host
+        pdf = url.lower().split("?")[0].endswith(".pdf")
+        if (CARTE_TXT.search(txt) and (same or pdf)) or (same and CARTE_HREF.search(urlsplit(url).path) and len(txt) < 40):
+            carte = url
+            break
+    resa = next((m.group(0) for _, rx in RESA for m in [rx.search(html.unescape(page))] if m), None)
+    return carte, resa
+
+
+def restos_cartes(lieux, max_reads=150):
+    """Pour chaque resto qui a son site officiel : sa carte et sa réservation, relues une fois par mois (restos_cartes.json)."""
+    try:
+        memo = json.loads(RESTOS_CARTES.read_text()) if RESTOS_CARTES.exists() else {}
+        memo = memo if isinstance(memo, dict) else {}
+    except Exception:
+        memo = {}
+    reads, today = 0, date.today()
+    for p in sorted(lieux, key=lambda x: x.get("quality") is None):      # les mieux notés d'abord
+        site = p.get("website")
+        if p.get("kind") != "restaurant" or not site or not own_site(p.get("name"), site):
+            continue
+        m = memo.get(p["id"]) if isinstance(memo.get(p["id"]), dict) else None
+        if (not m or (today - date.fromisoformat(m.get("t", "2000-01-01"))).days > 30) and reads < max_reads:
+            reads += 1
+            try:
+                carte, resa = _carte_et_resa(site)
+                m = {"t": today.isoformat(), "menu": carte, "booking": resa}
+            except Exception:
+                m = {"t": today.isoformat(), "menu": (m or {}).get("menu"), "booking": (m or {}).get("booking")}
+            memo[p["id"]] = m
+        if m:
+            p["menu"], p["booking"] = m.get("menu"), m.get("booking")
+    RESTOS_CARTES.write_text(json.dumps(memo, ensure_ascii=False, indent=1), encoding="utf-8")
+    REPORT.append({"source": "Restos : cartes et réservations", "ok": True, "sites_lus": reads,
+                   "cartes": sum(1 for p in lieux if p.get("menu")), "reservations": sum(1 for p in lieux if p.get("booking"))})
 
 
 PLACE_TEXT = {"name": 120, "kind": 30, "kind_label": 40, "city": 60, "address": 200, "hours": 400, "pitch": 300,
@@ -898,6 +992,10 @@ def _safe_place(p):
         q[f] = v if isinstance(v, str) and v.startswith(schemes) and not re.search(r'[\s"<>]', v) and len(v) < 2000 else None
     if q["instagram"] and not re.match(r"https://(www\.)?instagram\.com/", q["instagram"]):
         q["instagram"] = None
+    menu, booking = p.get("menu"), p.get("booking")
+    q["menu"] = menu if isinstance(menu, str) and menu.startswith(("https://", "http://")) and not re.search(r'[\s"<>]', menu) and len(menu) < 600 else None
+    q["booking"] = booking if isinstance(booking, str) and any(rx.fullmatch(booking) for _, rx in RESA) else None
+    q["quality"] = p.get("quality") if p.get("quality") in ("top", "pepite") else None
     return q
 
 
@@ -920,7 +1018,7 @@ def build_places():
                for p in prev if p["id"].startswith("osm-") and p["id"] not in guides]   # photo Google : relue par google_places
     osm = [p for p in osm if in_belgium(p["lat"], p["lon"])]
     try:
-        restos = restos_osm()
+        restos = restos_osm(prev)
     except Exception as ex:
         print(f"Restaurants : OpenStreetMap en échec ({ex}), on garde la liste précédente", file=sys.stderr)
         restos = [dict(p, image=None, image_credit=None) if _google_ok(p.get("image")) else p
@@ -964,6 +1062,10 @@ def build_places():
         lieux.append(v)
         known.add(v["id"])
     lieux = google_places(lieux)        # bars les mieux notés et photos Google (si la clé est là)
+    try:
+        restos_cartes(lieux)            # la carte et la réservation de chaque resto, depuis son site officiel
+    except Exception as ex:
+        print(f"Cartes des restos : ÉCHEC ({ex}), on continue sans", file=sys.stderr)
     # photo du site officiel déjà trouvée : on la reprend (les photos libres et Google, elles, sont revérifiées)
     old = {p["id"]: p for p in prev if p.get("image") and "wikimedia.org" not in p["image"] and "/photo?ref=" not in p["image"]}
     # site venu d'OpenStreetMap ou de Wikidata (modifiables par n'importe qui) : gardé seulement s'il est bien celui du lieu,

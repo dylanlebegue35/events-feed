@@ -129,7 +129,14 @@
     "top": 10
    }
   ],
-  "max_photo_lookups": 60
+  "max_photo_lookups": 60,
+  "pepites": {
+   "_aide": "20/11/2026 : les petites adresses excellentes (4,6 ou plus, 40 à 199 avis), tirées des mêmes recherches Google que le top (aucun appel en plus). top = combien par ville ; « top_pepites » dans une ville change ce nombre pour elle.",
+   "min_reviews": 40,
+   "max_reviews": 199,
+   "min_rating": 4.6,
+   "top": 15
+  }
  },
  "communes": {
   "_aide": "Toutes les communes belges (communes.json, 565) : les meilleurs restos (top 5) et bars (top 3) de chacune sur Google, seulement s'ils sont bien notés. par_passage communes lues à chaque passage Google (une fois par semaine) : 145 → tout est relu en 4 semaines, soit environ 290 recherches par semaine. Les grandes villes des blocs bars et restaurants sont sautées. publier : false tant que l'app v1.1 (qui ne montre que les villes proches) n'est pas en ligne.",
