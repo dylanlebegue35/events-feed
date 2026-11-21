@@ -1,5 +1,5 @@
 {
-  "genere": "2026-11-21T11:58:47",
+  "genere": "2026-11-21T21:24:19",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -37,14 +37,12 @@
       "ia_a_trouve": 9,
       "gardes": 9,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 53301,
+      "page_caracteres": 49574,
       "ia_a_trouve": 35,
       "gardes": 35,
       "ecartes": 0,
@@ -55,19 +53,21 @@
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 40336,
-      "ia_a_trouve": 119,
-      "gardes": 119,
+      "page_caracteres": 40023,
+      "ia_a_trouve": 118,
+      "gardes": 118,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Standard de Liège",
       "ok": true,
-      "page_caracteres": 7419,
+      "page_caracteres": 7427,
       "ia_a_trouve": 2,
       "gardes": 2,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -91,10 +91,10 @@
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 13318,
-      "ia_a_trouve": 3,
+      "page_caracteres": 12692,
+      "ia_a_trouve": 4,
       "gardes": 0,
-      "ecartes": 3,
+      "ecartes": 4,
       "morceaux": 1,
       "reponses_coupees": 0,
       "extrait_reponse_ia": ""
@@ -102,16 +102,18 @@
     {
       "source": "Ville de Huy",
       "ok": true,
-      "page_caracteres": 5820,
+      "page_caracteres": 5839,
       "ia_a_trouve": 7,
       "gardes": 7,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Grand Curtius (Liège)",
       "ok": true,
-      "page_caracteres": 10475,
+      "page_caracteres": 9961,
       "ia_a_trouve": 10,
       "gardes": 6,
       "ecartes": 4,
@@ -135,8 +137,6 @@
       "ia_a_trouve": 3,
       "gardes": 3,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -155,8 +155,6 @@
       "ia_a_trouve": 8,
       "gardes": 8,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -166,8 +164,6 @@
       "ia_a_trouve": 6,
       "gardes": 6,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -195,8 +191,6 @@
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -206,26 +200,28 @@
       "ia_a_trouve": 2,
       "gardes": 2,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Trix (Anvers)",
       "ok": true,
-      "page_caracteres": 10621,
+      "page_caracteres": 10582,
       "ia_a_trouve": 29,
       "gardes": 29,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Het Depot (Louvain)",
       "ok": true,
-      "page_caracteres": 9932,
-      "ia_a_trouve": 21,
-      "gardes": 21,
+      "page_caracteres": 9543,
+      "ia_a_trouve": 20,
+      "gardes": 20,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -264,7 +260,7 @@
     {
       "source": "Pages des billetteries",
       "ok": true,
-      "pages_lues": 68,
+      "pages_lues": 3,
       "pages_lues_par_ia": 25
     },
     {
@@ -273,6 +269,6 @@
       "retirees": 28
     }
   ],
-  "avec_image": 1226,
-  "total": 1406
+  "avec_image": 1225,
+  "total": 1405
 }
