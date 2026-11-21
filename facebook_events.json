@@ -993,27 +993,6 @@
    "classified": true
   },
   {
-   "id": "fb-2097720697774563",
-   "title": "Balade éducative - Gare Charleroi",
-   "category": "outdoor",
-   "venue": "Charleroi",
-   "city": "Charleroi",
-   "lat": 50.4086,
-   "lon": 4.4424,
-   "start": "2026-11-20T12:00:00",
-   "end": "2026-11-20T15:00:00",
-   "image": null,
-   "page_url": "https://www.facebook.com/events/2097720697774563/",
-   "url": "https://www.facebook.com/events/2097720697774563/",
-   "summary": "Bonjour à tous =) 🐕Je vous propose une balade éducative en milieu urbain 🐕‍🦺Nous travaillerons la découverte de nouvel environnement. La gare des trains Passage de bus Passage de metro Regroupement de personnes Désensibilisation visuels et auditives (train, bus, tram, voix des annonces micro, pont, ",
-   "price_from": null,
-   "free": null,
-   "audience": [],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1042832151493762",
    "title": "THE DRAMA (Kristoffer Borgli) > Ciné-débats | CAL Charleroi",
    "category": "cinema",
@@ -2105,52 +2084,6 @@
    "free": null,
    "audience": [
     "young"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1474082734553977",
-   "title": "Soirée Beaujolais nouveau",
-   "category": "food",
-   "venue": "Caféteria du stade yernaux",
-   "city": "Charleroi",
-   "lat": 50.40948,
-   "lon": 4.46818,
-   "start": "2026-11-20T18:30:00",
-   "end": "2026-11-20T21:30:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1474082734553977.jpg",
-   "page_url": "https://www.facebook.com/events/1474082734553977/",
-   "url": "https://www.facebook.com/events/1474082734553977/",
-   "summary": "Soirée Beaujolais nouveau organisé par la section PS de Montignies-sur-Sambre. 15 € l'assiette cochonnailles + 1 verre de Beaujolais 🍷 ℹ️ Réservation par virement sur le compte BE 21 0016 1638 8903. La réservation ne sera confirmée qu'après réception du virement bancaire Ambiance assurée par les Ala",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1695725265255840",
-   "title": "Soirée Beaujolais nouveau",
-   "category": "food",
-   "venue": "Caféteria du stade yernaux",
-   "city": "Charleroi",
-   "lat": 50.40948,
-   "lon": 4.46818,
-   "start": "2026-11-20T18:30:00",
-   "end": "2026-11-20T21:30:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1695725265255840.jpg",
-   "page_url": "https://www.facebook.com/events/1695725265255840/",
-   "url": "https://www.facebook.com/events/1695725265255840/",
-   "summary": "Soirée Beaujolais nouveau organisé par la section PS de Montignies-sur-Sambre. 15 € l'assiette cochonnailles + 1 verre de Beaujolais. Réservation par virement sur le compte BE 21 0016 1638 8903. La réservation ne sera confirmée qu'après réception du virement bancaire Ambiance assurée par Philippe et",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
    ],
    "tags": [],
    "source": "Facebook (événement public)",
@@ -3460,29 +3393,6 @@
    "classified": true
   },
   {
-   "id": "fb-1097869849605842",
-   "title": "1 soirée, 2 spectacles ! > Le Tic-Tac de l’oubli + Sept minutes",
-   "category": "theatre",
-   "venue": "Théâtre des Rues",
-   "city": "Mons",
-   "lat": 50.4389582,
-   "lon": 3.9162236,
-   "start": "2026-11-20T19:30:00",
-   "end": "2026-11-20T22:30:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1097869849605842.jpg",
-   "page_url": "https://www.facebook.com/events/1097869849605842/",
-   "url": "https://www.theatre-action.be/festival/enragez-vous-international-2026/",
-   "summary": "💥 Enragez-vous ! INTERNATIONAL • Festival d’Automne du Théâtre Action, organisé par le Centre du Théâtre Action vous propose : ➡️ 1 soirée, 2 spectacles ! • 20.11.2026 🎭 Le Tic-Tac de l’oubli • Théâtre des Rues • 19h30 • Spectacle d’atelier Les yeux rivés sur l’horloge, Sonia n’a pourtant pas vu le ",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-4629979693950860",
    "title": "Soirée Italienne Vandervalk de Mons",
    "category": "party",
@@ -3565,29 +3475,6 @@
    "page_url": "https://www.facebook.com/events/1458343742292356/",
    "url": "https://www.facebook.com/events/1458343742292356/",
    "summary": "Soirée Blind test",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1799403954612293",
-   "title": "Soirée Tantra 🔸 Bruxelles",
-   "category": "wellness",
-   "venue": "Les Béguinettes. 26, rue des Béguinettes. 1170 Watermael-Boitsfort",
-   "city": "Watermael-Boitsfort",
-   "lat": 50.80032,
-   "lon": 4.41785,
-   "start": "2026-11-20T19:00:00",
-   "end": "2026-11-20T22:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1799403954612293.jpg",
-   "page_url": "https://www.facebook.com/events/1799403954612293/",
-   "url": "https://www.facebook.com/events/1799403954612293/",
-   "summary": "Bienvenue à toutes et tous, débutants ou confirmés, seul.e ou en couple, une fois ou chaque fois. Une soirée pour se baigner dans l'esprit du tantra, la bienveillance du groupe, l'écoute, la présence. Dans ces propositions qui nous invitent à ressentir et expérimenter l'équilibre entre conscience et",
    "price_from": null,
    "free": null,
    "audience": [
@@ -3743,29 +3630,6 @@
    "page_url": "https://www.facebook.com/events/4680016298899522/",
    "url": "https://www.facebook.com/events/4680016298899522/",
    "summary": "Des cours de yoga (viniyoga) ajustés à vos possibilités du moment. Chaque mardi de 11h00 à 12h00 à Louvain-la-Neuve Vivre les postures à son rythme, à l'écoute de son corps. Laisser libre cours à la respiration, aux mouvements. Nourrir ancrage et fluidité, tonicité et détente., équilibre. Poser le m",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-28068708012782919",
-   "title": "Vendredis dansés - Ateliers de danse somatique à Louvain-la-Neuve",
-   "category": "wellness",
-   "venue": "Ateliers d'art de la Baraque - CEC",
-   "city": "Louvain-la-Neuve",
-   "lat": 50.67145545902,
-   "lon": 4.6212100982666,
-   "start": "2026-11-20T10:30:00",
-   "end": "2026-11-20T12:30:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-28068708012782919.jpg",
-   "page_url": "https://www.facebook.com/events/28068708012782919/",
-   "url": "https://www.mouvance-asbl.be/event/ateliers-de-danse-vendredis-danses-129/register",
-   "summary": "🌿 Et si vos vendredis matin devenaient un rendez-vous avec vous-même ? Un temps pour ralentir, respirer, ressentir… et laisser le mouvement émerger depuis l’intérieur. 👉 Un cycle de 7 ateliers de danse somatique, inspiré de l’approche Anam Cara®, qui tisse des liens entre le corps, l’art et la vie. ",
    "price_from": null,
    "free": null,
    "audience": [
