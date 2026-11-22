@@ -1,12 +1,12 @@
 {
-  "genere": "2026-11-22T01:52:12",
+  "genere": "2026-11-22T12:12:54",
   "sources": [
     {
       "source": "Reflektor (Liège)",
       "ok": true,
       "page_caracteres": 15127,
-      "ia_a_trouve": 36,
-      "gardes": 36,
+      "ia_a_trouve": 37,
+      "gardes": 37,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -33,18 +33,20 @@
     {
       "source": "VisitHuy",
       "ok": true,
-      "page_caracteres": 5823,
+      "page_caracteres": 5820,
       "ia_a_trouve": 9,
       "gardes": 9,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 59369,
-      "ia_a_trouve": 28,
-      "gardes": 28,
+      "page_caracteres": 58909,
+      "ia_a_trouve": 35,
+      "gardes": 35,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -53,7 +55,7 @@
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 40011,
+      "page_caracteres": 40030,
       "ia_a_trouve": 118,
       "gardes": 118,
       "ecartes": 0,
@@ -89,10 +91,10 @@
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 12683,
-      "ia_a_trouve": 4,
+      "page_caracteres": 12491,
+      "ia_a_trouve": 3,
       "gardes": 0,
-      "ecartes": 4,
+      "ecartes": 3,
       "morceaux": 1,
       "reponses_coupees": 0,
       "extrait_reponse_ia": ""
@@ -109,10 +111,12 @@
     {
       "source": "Grand Curtius (Liège)",
       "ok": true,
-      "page_caracteres": 9961,
-      "ia_a_trouve": 10,
+      "page_caracteres": 10475,
+      "ia_a_trouve": 7,
       "gardes": 5,
-      "ecartes": 5,
+      "ecartes": 2,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -127,7 +131,7 @@
     {
       "source": "Théâtre de Liège",
       "ok": true,
-      "page_caracteres": 6580,
+      "page_caracteres": 6542,
       "ia_a_trouve": 3,
       "gardes": 3,
       "ecartes": 0,
@@ -142,8 +146,6 @@
       "ia_a_trouve": 7,
       "gardes": 7,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -153,17 +155,17 @@
       "ia_a_trouve": 7,
       "gardes": 7,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Fuse (Bruxelles)",
       "ok": true,
-      "page_caracteres": 9656,
+      "page_caracteres": 9650,
       "ia_a_trouve": 6,
-      "gardes": 5,
-      "ecartes": 1,
+      "gardes": 6,
+      "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -191,8 +193,6 @@
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -202,8 +202,6 @@
       "ia_a_trouve": 2,
       "gardes": 2,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -213,8 +211,6 @@
       "ia_a_trouve": 29,
       "gardes": 29,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -224,8 +220,6 @@
       "ia_a_trouve": 19,
       "gardes": 19,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -235,6 +229,8 @@
       "ia_a_trouve": 11,
       "gardes": 11,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -257,20 +253,20 @@
     {
       "source": "Doublons fusionnés",
       "ok": true,
-      "fusionnes": 35
+      "fusionnes": 36
     },
     {
       "source": "Pages des billetteries",
       "ok": true,
-      "pages_lues": 9,
+      "pages_lues": 2,
       "pages_lues_par_ia": 25
     },
     {
       "source": "Images refusées à la relecture",
       "ok": true,
-      "retirees": 28
+      "retirees": 29
     }
   ],
-  "avec_image": 1143,
-  "total": 1309
+  "avec_image": 1149,
+  "total": 1318
 }
