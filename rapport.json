@@ -1,5 +1,5 @@
 {
-  "genere": "2026-11-22T12:12:54",
+  "genere": "2026-11-22T21:30:06",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -33,7 +33,7 @@
     {
       "source": "VisitHuy",
       "ok": true,
-      "page_caracteres": 5820,
+      "page_caracteres": 5852,
       "ia_a_trouve": 9,
       "gardes": 9,
       "ecartes": 0,
@@ -44,9 +44,9 @@
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 58909,
-      "ia_a_trouve": 35,
-      "gardes": 35,
+      "page_caracteres": 55632,
+      "ia_a_trouve": 44,
+      "gardes": 44,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -55,19 +55,21 @@
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 40030,
-      "ia_a_trouve": 118,
-      "gardes": 118,
+      "page_caracteres": 39731,
+      "ia_a_trouve": 117,
+      "gardes": 117,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Standard de Liège",
       "ok": true,
-      "page_caracteres": 7427,
+      "page_caracteres": 7428,
       "ia_a_trouve": 2,
       "gardes": 2,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -91,21 +93,23 @@
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 12491,
-      "ia_a_trouve": 3,
+      "page_caracteres": 12147,
+      "ia_a_trouve": 0,
       "gardes": 0,
-      "ecartes": 3,
+      "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
-      "extrait_reponse_ia": ""
+      "extrait_reponse_ia": "[]"
     },
     {
       "source": "Ville de Huy",
       "ok": true,
-      "page_caracteres": 5839,
+      "page_caracteres": 5824,
       "ia_a_trouve": 7,
       "gardes": 7,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -115,8 +119,6 @@
       "ia_a_trouve": 7,
       "gardes": 5,
       "ecartes": 2,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -131,7 +133,7 @@
     {
       "source": "Théâtre de Liège",
       "ok": true,
-      "page_caracteres": 6542,
+      "page_caracteres": 6580,
       "ia_a_trouve": 3,
       "gardes": 3,
       "ecartes": 0,
@@ -164,8 +166,6 @@
       "ia_a_trouve": 6,
       "gardes": 6,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -189,10 +189,12 @@
     {
       "source": "Ancienne Belgique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 6876,
+      "page_caracteres": 6867,
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -225,9 +227,9 @@
     {
       "source": "Mars – Mons arts de la scène",
       "ok": true,
-      "page_caracteres": 12450,
-      "ia_a_trouve": 11,
-      "gardes": 11,
+      "page_caracteres": 12697,
+      "ia_a_trouve": 12,
+      "gardes": 12,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -253,20 +255,20 @@
     {
       "source": "Doublons fusionnés",
       "ok": true,
-      "fusionnes": 36
+      "fusionnes": 38
     },
     {
       "source": "Pages des billetteries",
       "ok": true,
-      "pages_lues": 2,
+      "pages_lues": 7,
       "pages_lues_par_ia": 25
     },
     {
       "source": "Images refusées à la relecture",
       "ok": true,
-      "retirees": 29
+      "retirees": 31
     }
   ],
-  "avec_image": 1149,
-  "total": 1318
+  "avec_image": 1151,
+  "total": 1323
 }
