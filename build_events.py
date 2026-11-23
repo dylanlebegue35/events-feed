@@ -531,8 +531,18 @@ def restos_osm(prev=()):
     une seule panne ne doit pas tout bloquer. Si toutes échouent : erreur (on garde alors toute la liste précédente)."""
     out, seen, failed = [], set(), []
     debut = time.time()
-    for city, (lat0, lon0, km) in RESTO_CITIES.items():
-        if time.time() - debut > 420 and city != "Liège":      # 7 min au plus (le robot entier a 40 min) : la suite au passage suivant
+    # l'ordre tourne à chaque passage, et les villes jamais récoltées passent d'abord : un jour où OpenStreetMap est lent
+    # (23/11 : 4 villes en 7 min), ce ne sont pas toujours les mêmes qui restent sans leurs restos
+    deja = {}
+    for p in prev:
+        if p.get("kind") == "restaurant" and str(p.get("id", "")).startswith("osm-"):
+            deja[p.get("city")] = deja.get(p.get("city"), 0) + 1
+    autres = [c for c in RESTO_CITIES if c != "Liège"]
+    tour = int(time.time() // 3600) % max(len(autres), 1)
+    autres = sorted(autres[tour:] + autres[:tour], key=lambda c: deja.get(c, 0) > 0)
+    for city in ["Liège"] + autres:
+        lat0, lon0, km = RESTO_CITIES[city]
+        if time.time() - debut > 300 and city != "Liège":      # 5 min au plus (le robot entier a 40 min) : la suite au passage suivant
             failed.append(city)
             out += [dict(p, image=None, image_credit=None) if _google_ok(p.get("image")) else dict(p)
                     for p in prev if p.get("kind") == "restaurant" and p.get("city") == city and str(p.get("id", "")).startswith("osm-")]
@@ -540,7 +550,7 @@ def restos_osm(prev=()):
         query = (f'[out:json][timeout:90];(nwr(around:{int(km * 1000)},{lat0},{lon0})["amenity"="restaurant"];);out tags center;')
         data = None
         for url in OVERPASS:
-            if city != "Liège" and time.time() - debut > 420:   # le budget compte aussi entre deux serveurs (revue du 23/11)
+            if city != "Liège" and time.time() - debut > 300:   # le budget compte aussi entre deux serveurs (revue du 23/11)
                 break
             r = subprocess.run(["curl", "-s", "--max-time", "120", "-A", "StudioAppsBot/1.0 (events-feed)",
                                 "-H", "Accept: application/json", url, "--data-urlencode", "data=" + query], capture_output=True)
