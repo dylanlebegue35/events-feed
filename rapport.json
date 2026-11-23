@@ -1,5 +1,5 @@
 {
-  "genere": "2026-11-22T21:30:06",
+  "genere": "2026-11-23T02:15:02",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -33,7 +33,7 @@
     {
       "source": "VisitHuy",
       "ok": true,
-      "page_caracteres": 5852,
+      "page_caracteres": 5901,
       "ia_a_trouve": 9,
       "gardes": 9,
       "ecartes": 0,
@@ -44,9 +44,9 @@
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 55632,
-      "ia_a_trouve": 44,
-      "gardes": 44,
+      "page_caracteres": 55122,
+      "ia_a_trouve": 35,
+      "gardes": 35,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -55,7 +55,7 @@
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 39731,
+      "page_caracteres": 39738,
       "ia_a_trouve": 117,
       "gardes": 117,
       "ecartes": 0,
@@ -68,18 +68,14 @@
       "ia_a_trouve": 2,
       "gardes": 2,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Province de Liège",
-      "ok": true,
-      "page_caracteres": 14562,
-      "ia_a_trouve": 8,
+      "ok": false,
+      "erreur": "lecture indisponible, dernière lecture réutilisée : curl 28 pour https://www.provincedeliege.be",
       "gardes": 7,
-      "ecartes": 1,
-      "extrait_reponse_ia": ""
+      "ecartes": 1
     },
     {
       "source": "Stavelot",
@@ -93,18 +89,18 @@
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 12147,
-      "ia_a_trouve": 0,
+      "page_caracteres": 12149,
+      "ia_a_trouve": 2,
       "gardes": 0,
-      "ecartes": 0,
+      "ecartes": 2,
       "morceaux": 1,
       "reponses_coupees": 0,
-      "extrait_reponse_ia": "[]"
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Ville de Huy",
       "ok": true,
-      "page_caracteres": 5824,
+      "page_caracteres": 5843,
       "ia_a_trouve": 7,
       "gardes": 7,
       "ecartes": 0,
@@ -133,13 +129,13 @@
     {
       "source": "Théâtre de Liège",
       "ok": true,
-      "page_caracteres": 6580,
-      "ia_a_trouve": 3,
-      "gardes": 3,
+      "page_caracteres": 74,
+      "ia_a_trouve": 0,
+      "gardes": 0,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
-      "extrait_reponse_ia": ""
+      "extrait_reponse_ia": "[]"
     },
     {
       "source": "Opéra Royal de Wallonie",
@@ -189,7 +185,7 @@
     {
       "source": "Ancienne Belgique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 6867,
+      "page_caracteres": 6712,
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
@@ -209,10 +205,12 @@
     {
       "source": "Trix (Anvers)",
       "ok": true,
-      "page_caracteres": 10596,
+      "page_caracteres": 10654,
       "ia_a_trouve": 29,
       "gardes": 29,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -227,7 +225,7 @@
     {
       "source": "Mars – Mons arts de la scène",
       "ok": true,
-      "page_caracteres": 12697,
+      "page_caracteres": 12730,
       "ia_a_trouve": 12,
       "gardes": 12,
       "ecartes": 0,
@@ -250,25 +248,25 @@
       "source": "Facebook (service tiers)",
       "ok": true,
       "etat": "pas encore l'heure",
-      "gardes": 157
+      "gardes": 143
     },
     {
       "source": "Doublons fusionnés",
       "ok": true,
-      "fusionnes": 38
+      "fusionnes": 34
     },
     {
       "source": "Pages des billetteries",
       "ok": true,
-      "pages_lues": 7,
+      "pages_lues": 9,
       "pages_lues_par_ia": 25
     },
     {
       "source": "Images refusées à la relecture",
       "ok": true,
-      "retirees": 31
+      "retirees": 32
     }
   ],
-  "avec_image": 1151,
-  "total": 1323
+  "avec_image": 1077,
+  "total": 1245
 }

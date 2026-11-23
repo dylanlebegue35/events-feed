@@ -771,27 +771,6 @@
    "classified": true
   },
   {
-   "id": "fb-980852608325107",
-   "title": "Salon du Tissu Mons",
-   "category": "fair",
-   "venue": "Lotto Mons Expo",
-   "city": "Mons",
-   "lat": 50.45793,
-   "lon": 3.93762,
-   "start": "2026-11-22T10:00:00",
-   "end": "2026-11-22T16:30:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-980852608325107.jpg",
-   "page_url": "https://www.facebook.com/events/980852608325107/",
-   "url": "https://www.facebook.com/events/980852608325107/",
-   "summary": "Le Salon du Tissu! C'est pour tous ceux qui travaille✂ avec tissus. Êtes-vous créatif? Et vous aimez confectionner vos propres vêtements 🧶🧵🪡👚? Alors venez au Salon du Tissu, le plus grand événement dans le domaine des tissus ! Plus de 4000 mèttre carré. Au Salon du Tissu, vous trouverez des tissus p",
-   "price_from": null,
-   "free": true,
-   "audience": [],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1445164907545762",
    "title": "Mon Corps raconte mon histoire",
    "category": "talks",
@@ -1104,29 +1083,6 @@
    "classified": true
   },
   {
-   "id": "fb-1406895311234891",
-   "title": "INSECTOPY 2026 - AUTOMNE",
-   "category": "family",
-   "venue": "Grand Palais Charleroi",
-   "city": "Charleroi",
-   "lat": 50.41252,
-   "lon": 4.44062,
-   "start": "2026-11-21T10:00:00",
-   "end": "2026-11-22T17:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1406895311234891.jpg",
-   "page_url": "https://www.facebook.com/events/1406895311234891/",
-   "url": "https://www.facebook.com/events/1406895311234891/",
-   "summary": "--- 🇫🇷 --- 🐞🦎 À l’occasion de sa 10ème édition, INSECTOPY donne rendez-vous aux passionnés d’insectes, de reptiles, d’arachnides, d’amphibiens et d’isopodes au Grand Palais de Charleroi. Cette année encore, l’événement se déploie sur deux journées complètes afin de vous offrir une expérience plus va",
-   "price_from": null,
-   "free": true,
-   "audience": [
-    "family"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1415949169916158",
    "title": "Damien Gillard - Rude",
    "category": "theatre",
@@ -1168,27 +1124,6 @@
    "audience": [
     "adult"
    ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1529008424966999",
-   "title": "ART BRUXELLES",
-   "category": "expo",
-   "venue": "Brussels Expo",
-   "city": "Brussels",
-   "lat": 50.897849804558,
-   "lon": 4.3373465538025,
-   "start": "2026-11-20T16:00:00",
-   "end": "2026-11-22T19:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1529008424966999.jpg",
-   "page_url": "https://www.facebook.com/events/1529008424966999/",
-   "url": "https://www.facebook.com/events/1529008424966999/",
-   "summary": "Bonjour à toutes et à tous ! Voici une pièce en réponse à « Altérité » que j’ai nommée « Rencontre stellaire » j’ai utilisé de la feuille d’or et de platine. J’espère que vous l’apprécierez !! Prochaine exposition à Bruxelles à partir du vendredi 20 novembre jusqu’au dimanche 23 ! J’espère revoir ce",
-   "price_from": null,
-   "free": null,
-   "audience": [],
    "tags": [],
    "source": "Facebook (événement public)",
    "classified": true
@@ -1257,29 +1192,6 @@
    "free": null,
    "audience": [
     "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1094039026610132",
-   "title": "Listen Festival - Bruxelles - Billets",
-   "category": "festival",
-   "venue": "Bruxelles, Bruxelles, , Brussels, BE",
-   "city": "Bruxelles",
-   "lat": 50.8551025,
-   "lon": 4.3510915,
-   "start": "2026-11-21T14:00:00",
-   "end": "2026-11-22T23:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1094039026610132.jpg",
-   "page_url": "https://www.facebook.com/events/1094039026610132/",
-   "url": "https://www.facebook.com/events/1094039026610132/",
-   "summary": "Célébrez 10 ans de clubbing au Listen Festival 2026 avec un pass unique pour 15 lieux emblématiques de Bruxelles. Achetez vos billets !",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "young"
    ],
    "tags": [],
    "source": "Facebook (événement public)",
@@ -1552,29 +1464,6 @@
    "classified": true
   },
   {
-   "id": "fb-1871244803773323",
-   "title": "Sommet SBSR 2026 : Les extra-ordinaires | Comprendre les profils et besoins atypiques",
-   "category": "wellness",
-   "venue": "Louvain-la-Neuve",
-   "city": "Louvain-la-Neuve",
-   "lat": 50.6833,
-   "lon": 4.61667,
-   "start": "2026-11-21T13:00:00",
-   "end": "2026-11-22T17:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1871244803773323.jpg",
-   "page_url": "https://www.facebook.com/events/1871244803773323/",
-   "url": "https://www.sbsr.be/sommet2026/",
-   "summary": "👉 Comprendre les profils et besoins atypiques pour mieux les accompagner par la sophrologie Le Sommet SBSR 2026 est un événement incontournable dédié à la sophrologie en Belgique, à l’accompagnement humain et aux nouvelles approches autour des profils neuro-atypiques, de l’hypersensibilité et des si",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1594790468980232",
    "title": "OVERFLOW Jam 6",
    "category": "sport",
@@ -1681,27 +1570,6 @@
    "audience": [
     "family"
    ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1771227173917847",
-   "title": "Concert de la Sainte-Cécile 🎶🎺",
-   "category": "concert",
-   "venue": "Eglise de Vaux-sous-Chèvremont",
-   "city": "Chaudfontaine",
-   "lat": 50.600863226627,
-   "lon": 5.631351820606,
-   "start": "2026-11-22T14:30:00",
-   "end": "2026-11-22T17:30:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1771227173917847.jpg",
-   "page_url": "https://www.facebook.com/events/1771227173917847/",
-   "url": "https://www.facebook.com/events/1771227173917847/",
-   "summary": "Concert de la Sainte-Cécile en l'église Sainte-Vierge-Marie de Vaux-sous-Chèvremont. Infos détaillées ultérieurement.",
-   "price_from": null,
-   "free": null,
-   "audience": [],
    "tags": [],
    "source": "Facebook (événement public)",
    "classified": true
@@ -1843,29 +1711,6 @@
    "classified": true
   },
   {
-   "id": "fb-1060689190212789",
-   "title": "Concert enfants : Okapi",
-   "category": "concert",
-   "venue": "Grand Manège",
-   "city": "Namur",
-   "lat": 50.46663,
-   "lon": 4.87004,
-   "start": "2026-11-22T11:00:00",
-   "end": "2026-11-22T14:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1060689190212789.jpg",
-   "page_url": "https://www.facebook.com/events/1060689190212789/",
-   "url": "https://www.facebook.com/events/1060689190212789/",
-   "summary": "Dans le cadre du Festival des Egalités 11h00 : enfants de 2 à 4 ans 14h00 et 16h30 : enfants de 8 à 24 mois OKAPI est une performance musicale interactive pour les tout-petits : un paysage vivant, façonné de sons, de mouvements et d’argile. Nid Sonore puise dans la musique baroque et dans les possib",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "family"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-4481871402075609",
    "title": "CONCERT SOLIDAIRE des chorales ALLEGRIA et MENETRIERS pour L'ASBL PASTEL",
    "category": "concert",
@@ -1882,29 +1727,6 @@
    "price_from": null,
    "free": null,
    "audience": [],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1146267244640318",
-   "title": "Concert gourmand",
-   "category": "concert",
-   "venue": "Wépion",
-   "city": "Namur",
-   "lat": 50.4197,
-   "lon": 4.8714,
-   "start": "2026-11-22T15:00:00",
-   "end": "2026-11-22T18:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1146267244640318.jpg",
-   "page_url": "https://www.facebook.com/events/1146267244640318/",
-   "url": "https://www.facebook.com/events/1146267244640318/",
-   "summary": "Récital piano 4 mains suivi d' un buffet gourmand, un moment de plaisir musical et gustatif à partager.",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
    "tags": [],
    "source": "Facebook (événement public)",
    "classified": true
@@ -2216,29 +2038,6 @@
    "classified": true
   },
   {
-   "id": "fb-1449329067229487",
-   "title": "Concert Gospel For Life à l'Aula Magna de Louvain-la-Neuve",
-   "category": "concert",
-   "venue": "Aula Magna",
-   "city": "Louvain-la-Neuve",
-   "lat": 50.668686764213,
-   "lon": 4.6099226149903,
-   "start": "2026-11-22T17:00:00",
-   "end": "2026-11-22T20:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1449329067229487.jpg",
-   "page_url": "https://www.facebook.com/events/1449329067229487/",
-   "url": "https://www.facebook.com/events/1449329067229487/",
-   "summary": "Ne manquez pas le nouveau concert de Gospel For Life… chante CELINE DION ! Place à la 20ème édition anniversaire de Gospel for Life, la tournée événement exceptionnelle au profit de la vie. Entrez dans l’univers de Gospel For Life avec, chaque soir, un spectacle rythmé par les plus grands airs Gospe",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-3713301945512435",
    "title": "Concert des 10 ans de RibamBelges",
    "category": "concert",
@@ -2430,27 +2229,6 @@
    "summary": "🎬 Mais si, vous connaissez Danny Elfman ! Ce compositeur autodidacte qui a écrit pour la quasi-totalité des films de Tim Burton, de Pee-wee en 1985 à Beetlejuice Beetlejuice — et de deux 💜 — en 2024. Ces deux-là se sont bien trouvés : ténébreux et étranges, ils sont également pleins d’une fantaisie ",
    "price_from": null,
    "free": null,
-   "audience": [],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1561576362404693",
-   "title": "Spectacle - From Gaza - Festival de Résistance",
-   "category": "theatre",
-   "venue": "Théâtre des Rues",
-   "city": "Mons",
-   "lat": 50.4389582,
-   "lon": 3.9162236,
-   "start": "2026-11-22T16:00:00",
-   "end": "2026-11-22T19:00:00",
-   "image": "https://scontent.fpos10-1.fna.fbcdn.net/v/t39.30808-6/850319699_122101822203472019_1985758018013741837_n.jpg?stp=dst-jpg_tt6&cstp=mx3363x1246&ctp=s960x960&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=G4qujvVChOQQ7kNvwGrQluz&_nc_oc=AdrIQJF6X5L9-NPpijxFMExsCBLqSV854iFu6lrgJh_cipXcqy3oActZZ11Uci0DQfw&_nc_zt=23&_nc_ht=scontent.fpos10-1.fna&_nc_gid=s0epA5dw79kJCFVszVoiOA&_nc_ss=70289&oh=00_AQM-ZFMljLSRLWLWhwt6R_QroJrrHKNPQpDXwLHHcZypKw&oe=6ADDBB01",
-   "page_url": "https://www.facebook.com/events/1561576362404693/",
-   "url": "https://www.facebook.com/events/1561576362404693/",
-   "summary": "🎭 SPECTACLE « FROM GAZA » ✊ Dans le cadre du Festival de Résistance « From Gaza » est une création où le récit de l'exil et du déracinement rencontre notre propre regard occidental sur le conflit. Deux figures majeures du théâtre palestinien, aujourd'hui en exil au Caire, partagent la scène avec deu",
-   "price_from": null,
-   "free": true,
    "audience": [],
    "tags": [],
    "source": "Facebook (événement public)",
@@ -3012,29 +2790,6 @@
    "classified": true
   },
   {
-   "id": "fb-1130331676237951",
-   "title": "Soirée Dias de l’Unité de Neuville 2026",
-   "category": "party",
-   "venue": "Hall Omnisport Rotheu",
-   "city": "Rotheux-Rimière, Liege",
-   "lat": 50.534831969273,
-   "lon": 5.4779279669586,
-   "start": "2026-11-21T15:30:00",
-   "end": "2026-11-22T02:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1130331676237951.jpg",
-   "page_url": "https://www.facebook.com/events/1130331676237951/",
-   "url": "https://forms.gle/vaCYsBJLMD3x7T9D6",
-   "summary": "🎞️ Soirée Dias 2026 – Unité de Neuville 🎞️ Chers parents, chers animés, chers amis de l’Unité, Nous avons le plaisir de vous inviter à la deuxième grande soirée dias de l’Unité de Neuville, le samedi 21 novembre 2026 au hall omnisports de Rotheux ! 🎉 Une occasion unique de nous retrouver tous ensemb",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "family"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1151486910594161",
    "title": "Soirée jeu \"Banco\" avec Attac Liège",
    "category": "geek",
@@ -3286,29 +3041,6 @@
    "classified": true
   },
   {
-   "id": "fb-1425335012409894",
-   "title": "Sérénade · Récital lyrique voix & guitare · Louvain-La-Neuve",
-   "category": "theatre",
-   "venue": "Ferme du Biéreau",
-   "city": "Louvain-la-Neuve",
-   "lat": 50.6664,
-   "lon": 4.61829,
-   "start": "2026-11-22T17:00:00",
-   "end": "2026-11-22T18:30:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1425335012409894.jpg",
-   "page_url": "https://www.facebook.com/events/1425335012409894/",
-   "url": "https://www.billetweb.fr/serenade2",
-   "summary": "Sérénade — récital lyrique voix & guitare Une traversée nocturne de l'Europe du XIXe siècle : du Danube à la lagune vénitienne, en passant par Paris et Londres. Le baryton Christian Hohn et le guitariste Valéry Scholastique retrouvent l'esprit premier de la sérénade : les lieder de Schubert et Schum",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1878245660023614",
    "title": "Carine Lefevre au marché de Noël de Louvain-la-Neuve",
    "category": "fair",
@@ -3325,29 +3057,6 @@
    "price_from": null,
    "free": null,
    "audience": [],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1084434067843432",
-   "title": "Soirée Latino",
-   "category": "party",
-   "venue": "Scavée du biéreau 2, 1348 Louvain-la-Neuve, Belgium",
-   "city": "Louvain-la-Neuve",
-   "lat": 50.6653,
-   "lon": 4.61707,
-   "start": "2026-11-22T20:00:00",
-   "end": "2026-11-22T23:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1084434067843432.jpg",
-   "page_url": "https://www.facebook.com/events/1084434067843432/",
-   "url": "https://www.betch-lln.be/event?tags=%5B3%5D&prevent_redirect=True",
-   "summary": "Sunday Latino Party – Soirée Salsa & Danses Latines 💃 Tous les dimanches dès 20h, viens vivre une soirée 100 % latino dans une ambiance chaleureuse, festive et conviviale ! Au programme : Un cours de salsa dès 20h (niveau intermédiaire) ; À partir de 21h, place à la soirée dansante avec des rythmes ",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
    "tags": [],
    "source": "Facebook (événement public)",
    "classified": true
@@ -3437,29 +3146,6 @@
    "free": true,
    "audience": [
     "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-4167517896714606",
-   "title": "Soirée Célibataire",
-   "category": "party",
-   "venue": "Grand'Route 666, Tournai, Belgique",
-   "city": "Tournai",
-   "lat": 50.59285,
-   "lon": 3.5469,
-   "start": "2026-11-21T23:00:00",
-   "end": "2026-11-22T02:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-4167517896714606.jpg",
-   "page_url": "https://www.facebook.com/events/4167517896714606/",
-   "url": "https://www.facebook.com/events/4167517896714606/",
-   "summary": "CE SAMEDI 21 NOVEMBRE, LE ZOOCLUB PASSE EN MODE CÉLIBATAIRE ! ❤️‍🔥 🔥 CÉLIBATAIRE – WOMEN CRUSH 🔥 Mesdames, ce soir-là, vous êtes à l'honneur… 💋 Messieurs, c'est peut-être le moment de provoquer une belle rencontre ! 😉 Que tu sois célibataire, en quête d'un crush ou simplement là pour faire la fête, ",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "young"
    ],
    "tags": [],
    "source": "Facebook (événement public)",
