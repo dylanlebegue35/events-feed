@@ -894,11 +894,13 @@ CARTE_HREF = re.compile(r"(menu|carte|kaart|food|plats|lunch|suggestion)", re.I)
 CARTE_PAS = re.compile(r"(carte-cadeau|gift|cadeau|bon-?cadeau|vacature|jobs?|recrut|privacy|cookie|wine-?list|vins?\b|drink|boissons|"
                        r"instagram|facebook|tiktok|google\.|maps\.)", re.I)
 # réservation en ligne : seulement ces services connus, avec un vrai identifiant (pas un modèle « rid=__ID__ » de leur widget)
-RESA = [("TheFork", re.compile(r"https://(?:www\.)?(?:thefork|lafourchette)\.[a-z.]{2,6}/restaura(?:nt|nts)/[a-z0-9-]+-r\d+", re.I)),
+# Domaines écrits en entier (revue du 23/11) : « thefork.ab.cd » ou « opentable.xy.io » appartiennent à n'importe qui.
+RESA = [("TheFork", re.compile(r"https://(?:www\.)?(?:thefork\.(?:be|fr|nl|com|it|es|ch|pt|at|de|dk|se|co\.uk|com\.au)|lafourchette\.com)"
+                                r"/restaura(?:nt|nts)/[a-z0-9-]+-r\d+", re.I)),
         ("Zenchef", re.compile(r"https://bookings\.zenchef\.com/results\?rid=\d{3,9}", re.I)),
         ("Resengo", re.compile(r"https://(?:www\.)?resengo\.com/(?:flow/)?[\w-]{2,80}(?:/[\w-]{1,80})?", re.I)),
         ("Formitable", re.compile(r"https://(?:www\.)?formitable\.com/[a-z0-9-]{2,80}", re.I)),
-        ("OpenTable", re.compile(r"https://(?:www\.)?opentable\.[a-z.]{2,6}/(?:r/)?[a-z0-9-]{3,120}", re.I))]
+        ("OpenTable", re.compile(r"https://(?:www\.)?opentable\.(?:com|be|nl|fr|de|ie|es|it|ca|co\.uk|com\.au)/(?:r/)?[a-z0-9-]{3,120}", re.I))]
 
 
 def _carte_et_resa(site):
@@ -928,20 +930,30 @@ def restos_cartes(lieux, max_reads=150):
         memo = memo if isinstance(memo, dict) else {}
     except Exception:
         memo = {}
-    reads, today = 0, date.today()
+    reads, today, debut = 0, date.today(), time.time()
     for p in sorted(lieux, key=lambda x: x.get("quality") is None):      # les mieux notés d'abord
         site = p.get("website")
         if p.get("kind") != "restaurant" or not site or not own_site(p.get("name"), site):
             continue
         m = memo.get(p["id"]) if isinstance(memo.get(p["id"]), dict) else None
-        if (not m or (today - date.fromisoformat(m.get("t", "2000-01-01"))).days > 30) and reads < max_reads:
+        try:
+            age = (today - date.fromisoformat(str(m.get("t")))).days if m else 999
+        except ValueError:
+            age = 999
+        if m and m.get("s") not in (None, site):      # le site du resto a changé (OSM est modifiable par tous) : on relit
+            age = 999
+        # 4 min au plus (revue du 23/11) : 150 sites morts à 12 s chacun prendraient 30 des 40 minutes du robot
+        if age > 30 and reads < max_reads and time.time() - debut < 240:
             reads += 1
             try:
                 carte, resa = _carte_et_resa(site)
-                m = {"t": today.isoformat(), "menu": carte, "booking": resa}
+                m = {"t": today.isoformat(), "s": site, "menu": carte, "booking": resa}
             except Exception:
-                m = {"t": today.isoformat(), "menu": (m or {}).get("menu"), "booking": (m or {}).get("booking")}
+                m = {"t": today.isoformat(), "s": site, "menu": (m or {}).get("menu") if age < 999 else None,
+                     "booking": (m or {}).get("booking") if age < 999 else None}
             memo[p["id"]] = m
+        elif age == 999 and m:                         # site changé mais pas relu ce passage-ci : on ne garde pas l'ancien
+            m = None
         if m:
             p["menu"], p["booking"] = m.get("menu"), m.get("booking")
     RESTOS_CARTES.write_text(json.dumps(memo, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -1848,7 +1860,7 @@ def own_site(name, url):
 def is_image(url):
     """L'adresse renvoie-t-elle vraiment une image ? (et pas une page d'erreur ou de connexion)
     Certains serveurs (les Grignoux, 20/11/2026) n'annoncent aucun type : on regarde alors les premiers octets."""
-    r = subprocess.run(["curl", "-sL", "--max-time", "10", "-r", "0-2047", "-w", "\n%{http_code} %{content_type}",
+    r = subprocess.run(["curl", "-sL", "--max-time", "10", "-r", "0-2047", "--max-filesize", "25000000", "-w", "\n%{http_code} %{content_type}",
                         "--proto", "=http,https", "--proto-redir", "=http,https", "--max-redirs", "3", "--", url],
                        capture_output=True)
     body, _, tail = r.stdout.rpartition(b"\n")
@@ -2051,11 +2063,18 @@ def enrich_from_pages(events, limit=300, ai_limit=25):
                     o = None
             if o and o.get("og") and not _is_home(other) and not BAD_IMG.search(o["og"]):
                 e["image"] = o["og"]
-        if not e.get("image") and "Reflektor" in (e.get("source") or "") and fetched < limit:
-            fetched += 1
-            poster = reflektor_by_title(e["title"], e["start"][:10])
-            if poster and is_image(poster):
-                e["image"] = poster
+        if not e.get("image") and "Reflektor" in (e.get("source") or ""):
+            # gardé comme une page (revue du 23/11) : sans ça, chaque passage refaisait 3 appels par concert,
+            # et un site du Reflektor lent pouvait bloquer le robot. Affiche trouvée : 14 jours ; rien trouvé : 3 jours.
+            cle = f"reflektor:{e['start'][:10]}:{e['title'][:100]}"
+            r = _pages_info.get(cle)
+            if (not r or (date.today() - date.fromisoformat(r["t"])).days > (14 if r.get("og") else 3)) and fetched < limit:
+                fetched += 1
+                poster = reflektor_by_title(e["title"], e["start"][:10])
+                r = {"t": date.today().isoformat(), "v": 2, "ld": [], "ai": {}, "og": poster if poster and is_image(poster) else None}
+                _pages_info[cle] = r
+            if r and r.get("og"):
+                e["image"] = r["og"]
     PAGES_INFO.write_text(json.dumps(_pages_info, ensure_ascii=False), encoding="utf-8")
     REPORT.append({"source": "Pages des billetteries", "ok": True, "pages_lues": fetched, "pages_lues_par_ia": asked})
 
