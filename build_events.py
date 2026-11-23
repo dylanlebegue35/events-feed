@@ -522,6 +522,9 @@ RESTO_SKIP = re.compile(r"\b(poker|school|internat|caf[ée]t[ée]ria|maison de r
                         r"restaurant (scolaire|d'entreprise|universitaire)|resto u)\b", re.I)
 
 
+RESTOS_PAR_VILLE = 2500     # Bruxelles en a environ 1 500 dans son rayon (20/11/2026)
+
+
 def restos_osm(prev=()):
     """Tous les restaurants nommés autour des villes de RESTO_CITIES (amenity=restaurant : pas les fast-foods).
     Une ville qu'OpenStreetMap ne sert pas (serveur saturé) garde ses restos du passage précédent : avec 15 villes,
@@ -537,6 +540,8 @@ def restos_osm(prev=()):
         query = (f'[out:json][timeout:90];(nwr(around:{int(km * 1000)},{lat0},{lon0})["amenity"="restaurant"];);out tags center;')
         data = None
         for url in OVERPASS:
+            if city != "Liège" and time.time() - debut > 420:   # le budget compte aussi entre deux serveurs (revue du 23/11)
+                break
             r = subprocess.run(["curl", "-s", "--max-time", "120", "-A", "StudioAppsBot/1.0 (events-feed)",
                                 "-H", "Accept: application/json", url, "--data-urlencode", "data=" + query], capture_output=True)
             try:
@@ -553,13 +558,17 @@ def restos_osm(prev=()):
             out += [dict(p, image=None, image_credit=None) if _google_ok(p.get("image")) else dict(p)
                     for p in prev if p.get("kind") == "restaurant" and p.get("city") == city and str(p.get("id", "")).startswith("osm-")]
             continue
+        n_ville = 0
         for el in data.get("elements", []):
+            if n_ville >= RESTOS_PAR_VILLE:             # OSM est modifiable par tous : des milliers de faux restos ne passent pas
+                break
             t = el.get("tags", {})
             name = (t.get("name") or "").strip()
             lat = el.get("lat") or el.get("center", {}).get("lat")
             lon = el.get("lon") or el.get("center", {}).get("lon")
             if not name or lat is None or lon is None or RESTO_SKIP.search(name) or t.get("access") in ("private", "no"):
                 continue
+            n_ville += 1
             key = (name.lower(), round(lat, 3), round(lon, 3))
             if key in seen:
                 continue
@@ -903,20 +912,38 @@ RESA = [("TheFork", re.compile(r"https://(?:www\.)?(?:thefork\.(?:be|fr|nl|com|i
         ("OpenTable", re.compile(r"https://(?:www\.)?opentable\.(?:com|be|nl|fr|de|ie|es|it|ca|co\.uk|com\.au)/(?:r/)?[a-z0-9-]{3,120}", re.I))]
 
 
+# carte en PDF hébergée ailleurs que sur le site du resto : seulement chez ces hébergeurs de sites et de cartes (revue du 23/11)
+CARTE_HOTES = re.compile(r"(?:^|\.)(?:userdocs\.zenchef\.com|cdn-website\.com|cdn\.website\.dish\.co|website-files\.com|wixstatic\.com|"
+                         r"usrfiles\.com|filesusr\.com|squarespace-cdn\.com|squarespace\.com)$")
+
+
+def _page_resto(site):
+    """La page d'accueil d'un resto : http(s) seulement (redirections comprises), 3 Mo et 12 s au plus."""
+    r = subprocess.run(["curl", "-sL", "--max-time", "12", "--max-filesize", "3000000", "--max-redirs", "4",
+                        "--proto", "=http,https", "--proto-redir", "=http,https",
+                        "-A", "Mozilla/5.0 (compatible; StudioAppsBot/1.0; +events-feed)", "--", site], capture_output=True)
+    if r.returncode != 0:
+        raise RuntimeError(f"curl {r.returncode}")
+    return r.stdout[:3_000_000].decode("utf-8", errors="ignore")
+
+
 def _carte_et_resa(site):
-    """Lien de la carte (page ou PDF du même site) et de la réservation en ligne, lus sur la page d'accueil du resto."""
+    """Lien de la carte (page du site, ou PDF chez un hébergeur connu) et de la réservation en ligne, lus sur la page d'accueil."""
     from urllib.parse import urljoin, urlsplit
-    page = fetch(site, timeout=12)[:2_000_000]
+    page = _page_resto(site)
     host = (urlsplit(site).hostname or "").lower().removeprefix("www.")
     carte = None
-    for href, txt in re.findall(r'<a\b[^>]{0,800}href=["\']([^"\'#]{1,600})["\'][^>]{0,800}>(.{0,300}?)</a>', page, re.I | re.S):
+    # les liens du menu sont en haut de page : 400 000 caractères suffisent (une page piégée de 2 Mo coûtait 8 s)
+    for href, txt in re.findall(r'<a\b[^>]{0,800}href=["\']([^"\'#]{1,600})["\'][^>]{0,800}>(.{0,300}?)</a>', page[:400_000], re.I | re.S):
         txt = html.unescape(re.sub(r"<[^>]+>", " ", txt)).strip()
         url = urljoin(site, html.unescape(href))
-        if not url.startswith(("https://", "http://")) or CARTE_PAS.search(url) or CARTE_PAS.search(txt):
+        u = urlsplit(url)
+        if not url.startswith(("https://", "http://")) or u.username or u.password or CARTE_PAS.search(url) or CARTE_PAS.search(txt):
             continue
-        same = (urlsplit(url).hostname or "").lower().removeprefix("www.") == host
-        pdf = url.lower().split("?")[0].endswith(".pdf")
-        if (CARTE_TXT.search(txt) and (same or pdf)) or (same and CARTE_HREF.search(urlsplit(url).path) and len(txt) < 40):
+        h = (u.hostname or "").lower().removeprefix("www.")
+        same = h == host
+        pdf = url.startswith("https://") and u.path.lower().endswith(".pdf") and bool(CARTE_HOTES.search(h))
+        if (CARTE_TXT.search(txt) and (same or pdf)) or (same and CARTE_HREF.search(u.path) and len(txt) < 40):
             carte = url
             break
     resa = next((m.group(0) for _, rx in RESA for m in [rx.search(html.unescape(page))] if m), None)
@@ -1006,6 +1033,16 @@ def _safe_place(p):
         q["instagram"] = None
     menu, booking = p.get("menu"), p.get("booking")
     q["menu"] = menu if isinstance(menu, str) and menu.startswith(("https://", "http://")) and not re.search(r'[\s"<>]', menu) and len(menu) < 600 else None
+    if q["menu"]:       # sur le site du resto, ou PDF chez un hébergeur connu ; jamais « resto.be@ailleurs.com » (revue du 23/11)
+        from urllib.parse import urlsplit
+        try:
+            mu, su = urlsplit(q["menu"]), urlsplit(p.get("website") or "")
+            mh, sh = (mu.hostname or "").removeprefix("www."), (su.hostname or "").removeprefix("www.")
+            ok = not (mu.username or mu.password) and (
+                (mh and mh == sh) or (q["menu"].startswith("https://") and mu.path.lower().endswith(".pdf") and CARTE_HOTES.search(mh)))
+        except ValueError:
+            ok = False
+        q["menu"] = q["menu"] if ok else None
     q["booking"] = booking if isinstance(booking, str) and any(rx.fullmatch(booking) for _, rx in RESA) else None
     q["quality"] = p.get("quality") if p.get("quality") in ("top", "pepite") else None
     return q
@@ -1121,8 +1158,17 @@ def build_places():
         lieux = [p for p in lieux if p.get("kind") != "restaurant"]
     seen = set()
     lieux = [q for q in (_safe_place(p) for p in lieux) if q and not (q["id"] in seen or seen.add(q["id"]))]
-    out_file.write_text(json.dumps({"generated": datetime.now().isoformat(timespec="seconds"), "places": lieux},
-                                   ensure_ascii=False, indent=1), encoding="utf-8")
+    doc = {"generated": datetime.now().isoformat(timespec="seconds"), "places": lieux}
+    texte = json.dumps(doc, ensure_ascii=False, indent=1)
+    if len(texte.encode("utf-8")) > 6_000_000:          # sans les espaces, c'est environ 25 % de moins
+        texte = json.dumps(doc, ensure_ascii=False, separators=(",", ":"))
+    # l'app ne lit pas un fichier de plus de 8 Mo (BundledEvents.swift) : la liste serait vide pour tout le monde.
+    # Au-delà de 7 Mo (des milliers de faux lieux sur OSM ?), on garde la liste précédente (revue du 23/11)
+    if len(texte.encode("utf-8")) > 7_000_000:
+        REPORT.append({"source": "Lieux", "ok": False, "erreur": f"places.json trop gros ({len(texte.encode('utf-8')) // 1000} Ko) : liste précédente gardée"})
+        print("Lieux : fichier trop gros, on garde la liste précédente", file=sys.stderr)
+        return lieux
+    out_file.write_text(texte, encoding="utf-8")
     n_villes = sum(1 for p in lieux if p["id"] in {v.get("id") for v in villes})
     print(f"Lieux : {len(chosen)} choisis à la main, {n_villes} des guides de villes, {len(lieux) - len(chosen) - n_villes} OpenStreetMap")
     return lieux
@@ -1983,6 +2029,7 @@ def enrich_from_pages(events, limit=300, ai_limit=25):
     """Complète prix, description, photo et heure à partir de la page de l'événement (gardée 14 jours).
     D'abord les données structurées (gratuit) ; sinon l'IA lit la page, au plus ai_limit pages par passage, Liège d'abord."""
     fetched = asked = 0
+    t0 = time.time()                    # 10 min au plus pour lire de nouvelles pages (revue du 23/11 : le robot a 40 min en tout)
     use_ai = bool(os.environ.get("ANTHROPIC_API_KEY"))
     for e in sorted(events, key=lambda x: _km([x["lat"], x["lon"]], CENTER)):
         link = e.get("url") or e.get("page_url")
@@ -1994,7 +2041,7 @@ def enrich_from_pages(events, limit=300, ai_limit=25):
         # est relue une fois (sans perdre ce que l'IA y avait déjà lu).
         stale = bool(info) and not info.get("og") and info.get("v") != 2
         if not info or stale or (date.today() - date.fromisoformat(info["t"])).days > 14:
-            if fetched >= limit:
+            if fetched >= limit or time.time() - t0 > 600:
                 continue
             fetched += 1
             try:
@@ -2051,7 +2098,7 @@ def enrich_from_pages(events, limit=300, ai_limit=25):
         other = e.get("page_url") if link == e.get("url") else None
         if not e.get("image") and other and other != link and not SKIP_PAGES.match(other):
             o = _pages_info.get(other)
-            if (not o or (not o.get("og") and o.get("v") != 2) or (date.today() - date.fromisoformat(o["t"])).days > 14) and fetched < limit:
+            if (not o or (not o.get("og") and o.get("v") != 2) or (date.today() - date.fromisoformat(o["t"])).days > 14) and fetched < limit and time.time() - t0 < 600:
                 fetched += 1
                 try:
                     p2 = fetch(other, timeout=15)
@@ -2068,7 +2115,7 @@ def enrich_from_pages(events, limit=300, ai_limit=25):
             # et un site du Reflektor lent pouvait bloquer le robot. Affiche trouvée : 14 jours ; rien trouvé : 3 jours.
             cle = f"reflektor:{e['start'][:10]}:{e['title'][:100]}"
             r = _pages_info.get(cle)
-            if (not r or (date.today() - date.fromisoformat(r["t"])).days > (14 if r.get("og") else 3)) and fetched < limit:
+            if (not r or (date.today() - date.fromisoformat(r["t"])).days > (14 if r.get("og") else 3)) and fetched < limit and time.time() - t0 < 600:
                 fetched += 1
                 poster = reflektor_by_title(e["title"], e["start"][:10])
                 r = {"t": date.today().isoformat(), "v": 2, "ld": [], "ai": {}, "og": poster if poster and is_image(poster) else None}
