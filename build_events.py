@@ -409,6 +409,7 @@ def pages():
 
 # ============================================================ 3. Événements manuels
 def manual():
+    """Événements manuels (dont les relevés Facebook) ; un événement mal daté est ignoré seul, jamais toute la liste."""
     out = []
     for e in json.loads((HERE / "manual_events.json").read_text())["events"]:
         e = dict(e)
