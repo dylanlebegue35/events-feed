@@ -1,12 +1,12 @@
 {
-  "genere": "2026-11-24T18:19:08",
+  "genere": "2026-11-24T23:34:16",
   "sources": [
     {
       "source": "Reflektor (Liège)",
       "ok": true,
-      "page_caracteres": 15815,
-      "ia_a_trouve": 38,
-      "gardes": 38,
+      "page_caracteres": 15869,
+      "ia_a_trouve": 39,
+      "gardes": 39,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -42,9 +42,9 @@
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 52349,
-      "ia_a_trouve": 34,
-      "gardes": 34,
+      "page_caracteres": 57428,
+      "ia_a_trouve": 32,
+      "gardes": 32,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -53,9 +53,9 @@
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 41272,
-      "ia_a_trouve": 122,
-      "gardes": 122,
+      "page_caracteres": 40964,
+      "ia_a_trouve": 121,
+      "gardes": 121,
       "ecartes": 0,
       "extrait_reponse_ia": ""
     },
@@ -84,14 +84,12 @@
       "ia_a_trouve": 0,
       "gardes": 0,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
-      "extrait_reponse_ia": "[]"
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 12397,
+      "page_caracteres": 12398,
       "ia_a_trouve": 3,
       "gardes": 1,
       "ecartes": 2,
@@ -106,8 +104,6 @@
       "ia_a_trouve": 7,
       "gardes": 7,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -126,8 +122,6 @@
       "ia_a_trouve": 4,
       "gardes": 4,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -137,8 +131,6 @@
       "ia_a_trouve": 3,
       "gardes": 3,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -189,10 +181,10 @@
     {
       "source": "Ancienne Belgique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 6684,
+      "page_caracteres": 6835,
       "ia_a_trouve": 10,
-      "gardes": 9,
-      "ecartes": 1,
+      "gardes": 10,
+      "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
       "extrait_reponse_ia": ""
@@ -200,28 +192,34 @@
     {
       "source": "Botanique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 3865,
+      "page_caracteres": 4024,
       "ia_a_trouve": 3,
       "gardes": 3,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Trix (Anvers)",
       "ok": true,
-      "page_caracteres": 10643,
+      "page_caracteres": 10617,
       "ia_a_trouve": 29,
       "gardes": 29,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Het Depot (Louvain)",
       "ok": true,
-      "page_caracteres": 9856,
+      "page_caracteres": 9840,
       "ia_a_trouve": 18,
       "gardes": 18,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -247,14 +245,6 @@
       "nouvelles": 0
     },
     {
-      "source": "Facebook : affiches de l'extension",
-      "ok": true,
-      "demandes": 24,
-      "recus": 15,
-      "copiees": 13,
-      "plafond_cumule_usd": 2.6
-    },
-    {
       "source": "Facebook (service tiers)",
       "ok": true,
       "etat": "pas encore l'heure",
@@ -268,7 +258,7 @@
     {
       "source": "Pages des billetteries",
       "ok": true,
-      "pages_lues": 158,
+      "pages_lues": 21,
       "pages_lues_par_ia": 25
     },
     {
@@ -279,16 +269,44 @@
     {
       "source": "Restaurants OpenStreetMap",
       "ok": false,
-      "erreur": "villes gardées du passage précédent : Hasselt, Bruxelles, Namur, Mons, Charleroi, Louvain-la-Neuve, Verviers, Huy, Arlon, Tournai, Anvers, Gand, Louvain"
+      "erreur": "villes gardées du passage précédent : Anvers, Gand, Louvain, Hasselt, Bruxelles, Namur, Mons, Bruges"
+    },
+    {
+      "source": "Google : notes des restos et bars",
+      "ok": true,
+      "erreur": null,
+      "lues": 119,
+      "lectures_du_mois": 119,
+      "plafond": 2000,
+      "notes_publiees": 101,
+      "retires": 16,
+      "exemples_retires": [
+        "Ans palace (Liège) : 3.8",
+        "Barev (Liège) : 3.6",
+        "Café des Miracles (Liège) : fermé",
+        "Café le Terminus (Liège) : 3.7",
+        "Central Café (Liège) : 3.5",
+        "L'empereur (Liège) : 3.9",
+        "La Brasserie Cathédrale (Liège) : 3.7",
+        "Le Bistrot de Baviere (Liège) : 3.8",
+        "Le Cecil (Liège) : 2.9",
+        "Le Cuba'r (Liège) : 3.5",
+        "Le Royal (Liège) : 3.9",
+        "Le Saint-Etienne (Liège) : 3.4",
+        "Le Soleil (Liège) : 3.9",
+        "Le Wembley (Liège) : 3.9",
+        "Royal Daring Club de Cointe (Liège) : 3.9"
+      ],
+      "a_lire": 2937
     },
     {
       "source": "Restos : cartes et réservations",
       "ok": true,
-      "sites_lus": 150,
-      "cartes": 475,
-      "reservations": 49
+      "sites_lus": 113,
+      "cartes": 601,
+      "reservations": 62
     }
   ],
-  "avec_image": 1413,
-  "total": 2973
+  "avec_image": 1414,
+  "total": 2975
 }

@@ -1,0 +1,954 @@
+{
+"details_mois": 119,
+"lieux": {
+"osm-node-10250886790": {
+"g": "ChIJe2-vht77wEcRJWiK5odvVT0",
+"n": 218,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-10883607137": {
+"g": "ChIJfXUi2qbwwEcR0JhWfpKoPmY",
+"n": 52,
+"r": 3.8,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-10883616502": {
+"g": "ChIJt4FPRKrxwEcRMorxphZgGY0",
+"n": 89,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-10951635407": {
+"g": "ChIJVQPl7JP5wEcR5a6Tk_-GXr4",
+"n": 20,
+"r": 3.5,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-1103963998": {
+"g": "ChIJ796-5hD6wEcR5IBIr5NJpb8",
+"n": 1593,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-11483042814": {
+"g": "ChIJ-RRJjPf5wEcRIxe4K8oB2PE",
+"n": 388,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-11485697703": {
+"g": "ChIJ4VugqwL6wEcRVmjVYHGjbXQ",
+"n": 64,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-11486568049": {
+"g": "ChIJNey7c_f5wEcRKc50fBCj5pA",
+"n": 518,
+"r": 4.1,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-11488393437": {
+"g": "ChIJtYuhrgL6wEcRDXAwwt2Hi_o",
+"n": 272,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-11633899266": {
+"g": "ChIJQexJdVfwwEcREYYCYufjgz8",
+"n": 9,
+"r": 4.9,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-1187639168": {
+"g": "ChIJq3fauwf6wEcRCXOtVXIa1Bc",
+"n": 352,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-1187658591": {
+"g": "ChIJH7x-MKL7wEcRApAaesDI6I8",
+"n": 226,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-12067661643": {
+"g": "ChIJKVXfPZb5wEcRxbqmWxSsfJw",
+"n": 610,
+"r": 4.1,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-12277002903": {
+"g": "ChIJmX-F6Bv7wEcR33RbTY-1TYc",
+"n": 85,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-12320631044": {
+"g": "ChIJ2avhPwf6wEcRI3hFTBa8zXA",
+"n": 346,
+"r": 4.0,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-12343579294": {
+"g": null,
+"t": "2026-11-24"
+},
+"osm-node-12377131984": {
+"g": "ChIJadsunBr6wEcRxra1eL8uzL0",
+"n": 490,
+"r": 4.1,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-12423419536": {
+"g": "ChIJ18MQ7gr6wEcRM7zXKLMruvU",
+"n": 248,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-12766440600": {
+"g": "ChIJt72NKA_6wEcRdbV_O301v50",
+"n": 723,
+"r": 4.2,
+"s": "CLOSED_TEMPORARILY",
+"t": "2026-11-24"
+},
+"osm-node-12995555900": {
+"g": "ChIJyZNRCPL7wEcRJNQX_MDZhbg",
+"n": 24,
+"r": 4.9,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-13016180379": {
+"g": "ChIJx5-fRaTxwEcRdcYFBi5ZlCs",
+"n": 143,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-13069104106": {
+"g": null,
+"t": "2026-11-24"
+},
+"osm-node-13125235722": {
+"g": "ChIJ870eBRL3wEcRf0aS7-SoZRk",
+"n": 13,
+"r": 4.0,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-13196678402": {
+"g": "ChIJhV8st4b7wEcRRqoucpGkZuI",
+"n": 1158,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-13258200868": {
+"g": "ChIJSf4oWgn6wEcRn6bXebVm4_g",
+"n": 4,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-13323905764": {
+"g": "ChIJZ9l7xXj7wEcR0tIPfxjSkt4",
+"n": 23,
+"r": 4.0,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-13706786854": {
+"g": "ChIJdVtpxQj6wEcRoN1AQm0pwnM",
+"s": "",
+"t": "2026-11-24"
+},
+"osm-node-13779188962": {
+"g": null,
+"t": "2026-11-24"
+},
+"osm-node-13835549701": {
+"g": "ChIJ5_7sYQ76wEcRRJd7Juo2fmE",
+"n": 107,
+"r": 3.4,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-13914438945": {
+"g": "ChIJAT-HftL7wEcRwJEv-Wc-9Xc",
+"n": 87,
+"r": 5.0,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-13947434920": {
+"g": "ChIJs8TcSAD7wEcRCp4a8kjk4mY",
+"n": 319,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-13949663712": {
+"g": "ChIJS368N2r5wEcRyOA6E-GfQsY",
+"n": 67,
+"r": 4.2,
+"s": "CLOSED_TEMPORARILY",
+"t": "2026-11-24"
+},
+"osm-node-13949733598": {
+"g": null,
+"t": "2026-11-24"
+},
+"osm-node-13980644161": {
+"g": "ChIJaUBBM1v7wEcRIJ2kodw5z4c",
+"n": 16,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-1408342712": {
+"g": "ChIJDWI7v4f7wEcRehxptFdS_Ps",
+"n": 56,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-14245268882": {
+"g": "ChIJuasTPqrwwEcRgRAWNIllsnw",
+"n": 49,
+"r": 3.9,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-14284010649": {
+"g": null,
+"t": "2026-11-24"
+},
+"osm-node-1558460952": {
+"g": null,
+"t": "2026-11-24"
+},
+"osm-node-1606502447": {
+"g": "ChIJCxV8bODwwEcRSvGdyrZ7jU8",
+"n": 70,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-1640979277": {
+"g": null,
+"t": "2026-11-24"
+},
+"osm-node-1781525946": {
+"g": null,
+"t": "2026-11-24"
+},
+"osm-node-1783424467": {
+"g": "ChIJV0wlrwv6wEcRMC37hCkp9Gc",
+"n": 38,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-1808629779": {
+"g": "ChIJPUQqdI_7wEcRi2vNqNsN2j0",
+"n": 103,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-1890309570": {
+"g": null,
+"t": "2026-11-24"
+},
+"osm-node-1891757469": {
+"g": null,
+"t": "2026-11-24"
+},
+"osm-node-1891757512": {
+"g": "ChIJ2_fyoCDxwEcRqz4GnYND100",
+"n": 20,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-1927755803": {
+"g": "ChIJ24q1og73wEcR41_BX6p5rbI",
+"n": 156,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-1952381482": {
+"g": "ChIJ730likn6wEcRNOn8T46bdlg",
+"n": 26,
+"r": 3.8,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-1952381502": {
+"g": "ChIJN54TFEr6wEcR7QIdegz_MLs",
+"n": 7,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-1954715999": {
+"g": "ChIJE83p5Q_6wEcRSzLojRp_p3k",
+"n": 2038,
+"r": 3.7,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-1955344739": {
+"g": "ChIJXSUNwg_6wEcRhpVOHFlQ_SM",
+"n": 696,
+"r": 2.9,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-1985608698": {
+"g": "ChIJXZMlHvD5wEcR20eL8tnLStA",
+"n": 120,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-2004989416": {
+"g": null,
+"t": "2026-11-24"
+},
+"osm-node-2004997141": {
+"g": null,
+"t": "2026-11-24"
+},
+"osm-node-2122732984": {
+"g": null,
+"t": "2026-11-24"
+},
+"osm-node-2122732985": {
+"g": null,
+"t": "2026-11-24"
+},
+"osm-node-2122732986": {
+"g": "ChIJ1UjWPRD6wEcRQ1FrWhoyoIY",
+"n": 266,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-2122732988": {
+"g": "ChIJgaRuORD6wEcR26trXxt3F0w",
+"n": 376,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-2122732989": {
+"g": "ChIJV90bPBD6wEcRBHnPj-d4WHw",
+"n": 252,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-2122732994": {
+"g": "ChIJIS23QRD6wEcRQeg2ovw_xn4",
+"n": 409,
+"r": 3.6,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-2136407660": {
+"g": "ChIJm-qBchD6wEcRRMo8zLAuoNo",
+"n": 14,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-2159584096": {
+"g": "ChIJq2R3aBv6wEcRbWymP7c80f0",
+"n": 162,
+"r": 4.0,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-2308459057": {
+"g": "ChIJfSVJgwr6wEcR5iHw0QlJphw",
+"n": 20,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-2326023517": {
+"g": null,
+"t": "2026-11-24"
+},
+"osm-node-2504235006": {
+"g": null,
+"t": "2026-11-24"
+},
+"osm-node-2509652198": {
+"g": "ChIJV15XqaL7wEcRYHt2L6iY93w",
+"n": 37,
+"r": 3.7,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-2517201441": {
+"g": null,
+"t": "2026-11-24"
+},
+"osm-node-2541251219": {
+"g": "ChIJ05Lynuf7wEcRYr8ESPr_0_Q",
+"n": 124,
+"r": 4.1,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-3398087046": {
+"g": "ChIJcfy6AN_xwEcR1BFvh9yejvs",
+"n": 64,
+"r": 4.0,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-3431847106": {
+"g": "ChIJJw96TlPwwEcRk4QflT4F5dI",
+"n": 76,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-4245975891": {
+"g": null,
+"t": "2026-11-24"
+},
+"osm-node-4564143435": {
+"g": "ChIJc19grqzwwEcRPcnsOhhIr5I",
+"n": 20,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-4679719997": {
+"g": "ChIJ48ZCHQD7wEcR3RFxWb6h748",
+"n": 16,
+"r": 5.0,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-4972752692": {
+"g": null,
+"t": "2026-11-24"
+},
+"osm-node-5262250189": {
+"g": "ChIJFRCE7hr6wEcRmQYc_S1zo5Y",
+"n": 43,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-5543607353": {
+"g": "ChIJ27dIRBD6wEcRQTwfPYZZTxc",
+"s": "CLOSED_PERMANENTLY",
+"t": "2026-11-24"
+},
+"osm-node-5607072706": {
+"g": "ChIJC5lRERD6wEcR0He73nHw8OU",
+"n": 148,
+"r": 3.9,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-5607102342": {
+"g": "ChIJb71VIBD6wEcR36MkkPN57L8",
+"n": 339,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-5767910423": {
+"g": "ChIJs5-bB177wEcRzLxHTG8Yf5s",
+"n": 67,
+"r": 4.9,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-6041410585": {
+"g": "ChIJ7yFpKg_6wEcRy3Puqbexqb4",
+"n": 1598,
+"r": 4.0,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-616057025": {
+"g": "ChIJNbs49ov5wEcR7NG6dFRh0Qs",
+"n": 661,
+"r": 4.1,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-6255383087": {
+"g": "ChIJPZwvZnj7wEcRgArSuOae8hU",
+"n": 27,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-6354938665": {
+"g": "ChIJCU7Wd_z5wEcR1B_4tOOV1sk",
+"n": 98,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-6637745412": {
+"g": "ChIJD3jExfv5wEcRn4ENjflkNyk",
+"n": 257,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-6938475685": {
+"g": "ChIJFZ86qOL7wEcRv2UzqP1ENDc",
+"n": 249,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-7159369837": {
+"g": "ChIJB6J1Jj7xwEcROthXIbE1eoA",
+"n": 83,
+"r": 4.0,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-8154713158": {
+"g": "ChIJ59bYHQj6wEcREqUqB7irhzU",
+"n": 95,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-8560916443": {
+"g": "ChIJtaVBIIXwwEcROY9hHG5J_g8",
+"n": 124,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-8918549258": {
+"g": "ChIJrV3d3Qn6wEcR4KGvK1TeFaA",
+"n": 148,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-8918549259": {
+"g": "ChIJjRU3zwn6wEcRU9dkdVFmdRE",
+"n": 1074,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-8918686633": {
+"g": "ChIJ1Vei8Af6wEcR11I9Xtpf-dA",
+"n": 300,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-8920650251": {
+"g": "ChIJMwSFFgz6wEcR9JGLWhNW3vo",
+"n": 1376,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-9038386108": {
+"g": null,
+"t": "2026-11-24"
+},
+"osm-node-9160821883": {
+"g": "ChIJszv6XgX6wEcR_v077UTXrYY",
+"n": 791,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-node-9631402689": {
+"g": null,
+"t": "2026-11-24"
+},
+"osm-node-9738544254": {
+"g": null,
+"t": "2026-11-24"
+},
+"osm-way-1031104124": {
+"g": "ChIJEzV5XOj7wEcR3C_rYTnfzDg",
+"n": 45,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-way-108195149": {
+"g": "ChIJ46OVFFH3wEcRVI6STDcxeps",
+"n": 213,
+"r": 3.9,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-way-1102715558": {
+"g": null,
+"t": "2026-11-24"
+},
+"osm-way-113754887": {
+"g": "ChIJzQp9Ewz6wEcRZhI6Rbv4-1s",
+"n": 74,
+"r": 3.6,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-way-113754908": {
+"g": "ChIJsbGPEgz6wEcRWxX-TigjzQQ",
+"n": 57,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-way-113806815": {
+"g": "ChIJk2a8bwz6wEcRofuHmlAkPus",
+"n": 219,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-way-113825687": {
+"g": "ChIJDQ0CKQz6wEcRPy3D5QqYoos",
+"n": 27,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-way-113855017": {
+"g": null,
+"t": "2026-11-24"
+},
+"osm-way-170318695": {
+"g": "ChIJK34bVQn6wEcRothGoVx5eXI",
+"n": 516,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-way-184885274": {
+"g": null,
+"t": "2026-11-24"
+},
+"osm-way-200485593": {
+"g": "ChIJKYQwRRD6wEcRSl9uNiYxSBE",
+"n": 86,
+"r": 3.5,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-way-203720668": {
+"g": "ChIJXwMduBj6wEcRzytmIH7tDFg",
+"n": 53,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-way-205461544": {
+"g": "ChIJr7YBgxn6wEcRc-qhWmrLao4",
+"n": 695,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-way-219643423": {
+"g": "ChIJBehmph36wEcRIguGmCRvBWE",
+"n": 134,
+"r": 3.9,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-way-244335571": {
+"g": null,
+"t": "2026-11-24"
+},
+"osm-way-244339947": {
+"g": "ChIJwVyejKT5wEcRKwenkF_s_NM",
+"n": 7,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-way-247014200": {
+"g": "ChIJJZ4c5BP6wEcRq5yLdT9Fvn4",
+"s": "",
+"t": "2026-11-24"
+},
+"osm-way-311430678": {
+"g": "ChIJ9_OOHlD3wEcR6y1Smro5_YA",
+"n": 9,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-way-360999755": {
+"g": "ChIJQXWkNeT5wEcRImG6MmQMBqk",
+"n": 213,
+"r": 3.9,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-way-406435391": {
+"g": "ChIJcY7_Q7T7wEcRcnWADKVb6mQ",
+"n": 16,
+"r": 4.9,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-way-407980393": {
+"g": "ChIJFejY62f6wEcRDAbFT4yWQJw",
+"n": 12,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-way-779428336": {
+"g": "ChIJmct7mxL5wEcRhLr-RqX8nl4",
+"n": 9,
+"r": 3.8,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-way-779428346": {
+"g": "ChIJcWH9mhL5wEcRV10vT6u0gCo",
+"n": 14,
+"r": 3.2,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-way-779428926": {
+"g": "ChIJsSPHLgX5wEcRO7Ln_d_DXss",
+"n": 123,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-way-779428933": {
+"g": "ChIJRVnC0gT5wEcRXLlAl0tF8tg",
+"n": 5,
+"r": 5.0,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-way-792677441": {
+"g": null,
+"t": "2026-11-24"
+},
+"osm-way-795453149": {
+"g": null,
+"t": "2026-11-24"
+},
+"osm-way-795453162": {
+"g": "ChIJiUSrHjz5wEcRC7HipWuffWI",
+"n": 26,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"osm-way-842073853": {
+"g": "ChIJo2AnforwwEcR6t34iCUEiI0",
+"n": 236,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"vivyo-bar-au-delft-liege": {
+"g": "ChIJe4JcFA_6wEcRTM1S9Nf6Qbw",
+"n": 289,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"vivyo-bar-blaes-by-bartho-liege": {
+"g": "ChIJZS41yOL7wEcRBGEPZitYICA",
+"n": 182,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"vivyo-bar-cafe-brasil-liege": {
+"g": "ChIJubu9Bgj6wEcRE2L-_7fAeMA",
+"n": 832,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"vivyo-bar-chez-moi-liege": {
+"g": "ChIJYdbjI8f7wEcRCPs085c5FTM",
+"n": 233,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"vivyo-bar-far-west-bar-liege": {
+"g": "ChIJFUhHQBD6wEcRpTQUAdLeicA",
+"n": 665,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"vivyo-bar-fondamental-liege": {
+"g": "ChIJi5e1Kon7wEcR3dFI2IczjEw",
+"n": 267,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"vivyo-bar-jeroboam-liege": {
+"g": "ChIJr_Ddiy_7wEcRxicfJJFH9L4",
+"n": 143,
+"r": 4.9,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"vivyo-bar-joie-social-club-liege": {
+"g": "ChIJ559qAgD7wEcRtx_RrCgsNYo",
+"n": 9,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"vivyo-bar-la-maison-du-peket-liege": {
+"g": "ChIJBzttHwz6wEcRilJLI-pZnd0",
+"n": 3505,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"vivyo-bar-le-petit-bougnat-liege": {
+"g": "ChIJFdLhHAj6wEcRjSSrHf1FHKE",
+"n": 409,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"vivyo-bar-lou-s-bar-liege": {
+"g": "ChIJ-YJI8Qv6wEcRJGQqLlkxn_0",
+"n": 484,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"vivyo-bar-saga-cafe-liege": {
+"g": "ChIJ8dfZhAX6wEcR5Ekt9AxvCyI",
+"n": 864,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"vivyo-bar-sugoi-liege": {
+"g": "ChIJHfVEEZ37wEcRo7ObqTxolCk",
+"n": 311,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"vivyo-bar-tam-tam-bambou-liege": {
+"g": "ChIJ9ap5MhD6wEcRMtYaV8kqQdU",
+"n": 1725,
+"r": 4.1,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"vivyo-bar-taverne-saint-paul-liege": {
+"g": "ChIJcx90hg_6wEcRrssnv-_v2Zc",
+"n": 543,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"vivyo-bar-taverne-tchantches-et-nanesse-liege": {
+"g": "ChIJ9bDqawj6wEcRa19NMSI0At8",
+"n": 770,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"vivyo-bar-wild-lab-liege-liege": {
+"g": "ChIJ-0VZ1OP7wEcR71iqgCrqKf8",
+"n": 203,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"vivyo-brasseries-de-liege-liege": {
+"g": null,
+"t": "2026-11-24"
+},
+"vivyo-chez-mamy-liege": {
+"g": "ChIJFWHD9wv6wEcRltqTfMKusFQ",
+"n": 253,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"vivyo-chez-yara-liege": {
+"g": null,
+"t": "2026-11-24"
+},
+"vivyo-get-your-mug-liege": {
+"g": "ChIJsRPYhgX6wEcRWinvTQeN3Hs",
+"n": 806,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"vivyo-grand-maison-liege": {
+"g": "ChIJa1M13Qv6wEcRQj0Ie73Tm0Q",
+"n": 441,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"vivyo-le-cabinet-liege": {
+"g": "ChIJ0VkJrrj7wEcRgMlataHfRUY",
+"n": 72,
+"r": 5.0,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+},
+"vivyo-pot-au-lait-liege": {
+"g": "ChIJN4jYnA_6wEcRFXjTR5sRpU0",
+"n": 3580,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-24"
+}
+},
+"mois": "2026-11",
+"recherches_mois": 138
+}
