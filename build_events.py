@@ -412,6 +412,13 @@ def manual():
     out = []
     for e in json.loads((HERE / "manual_events.json").read_text())["events"]:
         e = dict(e)
+        try:    # revue du 24/11 : un seul événement mal daté (relevé Facebook…) ne doit pas faire tomber tous les manuels
+            if not e.get("title") or datetime.fromisoformat(e["end"]) < datetime.fromisoformat(e["start"]):
+                print(f"  ! manuel ignoré (fin avant début ou sans titre) : {str(e.get('id'))[:40]}", file=sys.stderr)
+                continue
+        except (KeyError, TypeError, ValueError):
+            print(f"  ! manuel ignoré (date illisible) : {str(e.get('id'))[:40]}", file=sys.stderr)
+            continue
         if e.get("recurrence") == "weekly:sunday":
             start = datetime.fromisoformat(e["start"])
             dur = datetime.fromisoformat(e["end"]) - start
