@@ -5,6 +5,7 @@ on:
     - cron: "0 4,10,16,22 * * *"   # quatre fois par jour : les propositions acceptées arrivent dans l'app en quelques heures
   workflow_dispatch:        # bouton « Run workflow » pour le lancer à la main
   push:                     # se relance tout seul quand le code du robot change
+    branches: [main]        # seulement sur main : une branche d'essai ou un tag ne lance pas le robot (ni ses secrets, ni Apify)
     paths:
       - "build_events.py"
       - "build_sorties.py"
@@ -29,6 +30,12 @@ jobs:
     timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
+        with:
+          # toujours partir de la dernière version de la branche au moment où le passage démarre (main en temps normal).
+          # Sans ça, un passage mis en file d'attente repart de l'ancienne version qui l'a déclenché :
+          # le 24/11, le passage de 15 h 26 a attendu celui de 15 h 21, qui venait d'écrire events.json ;
+          # il est reparti de l'ancienne version, a travaillé 24 min, puis n'a pas pu enregistrer (conflit sur events.json).
+          ref: ${{ github.ref }}
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
