@@ -731,7 +731,10 @@ def _google_top(key, proxy, cfg, kind, label, word, pages=3, quiet=False):
                             "kind_label": (g.get("primaryTypeDisplayName") or {}).get("text") or label, "city": c["name"],
                             "address": g.get("formattedAddress"), "lat": float(g["location"]["latitude"]),
                             "lon": float(g["location"]["longitude"]), "website": g.get("websiteUri"), "hours": None,
-                            "image": img, "image_credit": credit, "pitch": None, "quality": quality})
+                            "image": img, "image_credit": credit, "pitch": None, "quality": quality,
+                            # la note vient avec la recherche (aucun appel en plus) ; relue chaque semaine (google_notes)
+                            "rating": g.get("rating"), "reviews": g.get("userRatingCount"),
+                            "note_vue": datetime.now().date().isoformat()})
             except (KeyError, TypeError, ValueError):
                 continue
         if not quiet:
@@ -906,6 +909,10 @@ def google_places(lieux):
             if b["kind"] == "restaurant":
                 top_order.setdefault(twin["id"], len(top_order))
                 twin["quality"] = twin.get("quality") or b.get("quality")
+            # la note Google ne passe qu'à un lieu du même nom (deux bars voisins n'ont pas la même note)
+            if b.get("google_id") and (_meme_nom(twin.get("name", ""), b.get("name", "")) or _meme_nom(b.get("name", ""), twin.get("name", ""))):
+                for f in ("google_id", "rating", "reviews", "note_vue"):
+                    twin[f] = b.get(f)
         else:
             out.append(dict(b))
             if b["kind"] == "restaurant":
@@ -913,6 +920,242 @@ def google_places(lieux):
     # restaurants : les mieux notés sur Google d'abord (dans l'ordre du classement), puis tous les autres de la ville
     out.sort(key=lambda p: top_order.get(p["id"], len(top_order)) if p.get("kind") == "restaurant" else 0)
     return out
+
+
+# ============================================================ Notes Google de tous les restos et bars (24/11/2026)
+# Dylan : « je ne veux pas qu'une personne aille dans un bar ou un resto et soit déçue ». Chaque resto, bar et brunch est
+# relu sur Google tous les 28 jours : sa note et son nombre d'avis s'affichent dans l'app (avec « Voir les avis » sur
+# Google Maps), un lieu mal noté ou fermé pour de bon n'est plus publié, et les mieux notés passent en premier.
+# Coût (go de Dylan, 20 $ par mois au plus) : 1) la recherche par nom (Text Search Pro, 5 000 gratuites par mois) donne
+# l'identifiant Google, que Google permet de garder ; 2) la lecture de la note (Place Details Enterprise : 1 000 gratuites
+# par mois, puis 20 $ les 1 000) est plafonnée à max_details_par_mois. La note n'est jamais gardée plus de 30 jours.
+GOOGLE_NOTES = HERE / "google_notes.json"
+GOOGLE_PLACE_URL = "https://places.googleapis.com/v1/places/"
+GMAPS = re.compile(r"https://www\.google\.com/maps/search/\?api=1&query=[A-Za-z0-9%._~-]{1,1200}&query_place_id=[A-Za-z0-9_-]{10,300}")
+
+
+class _Refus(Exception):
+    """Google refuse CETTE demande (HTTP 400 : nom bizarre…) : on saute le lieu, on ne bloque pas les suivants."""
+
+
+def _google_appel(key, url, fields, body=None):
+    """Un appel à Google Places. Réseau coupé, réponse illisible, quota ou clé refusés : RuntimeError, et on s'arrête
+    (sinon une panne passerait pour « lieu introuvable » et le lieu ne serait plus relu avant un mois).
+    Fiche introuvable (404, identifiant périmé) : None. Demande refusée pour ce lieu seulement (400) : _Refus."""
+    cmd = ["curl", "-s", "--max-time", "30", "-w", "\n%{http_code}", url, "-H", f"X-Goog-Api-Key: {key}", "-H", f"X-Goog-FieldMask: {fields}"]
+    if body is not None:
+        cmd += ["-X", "POST", "-H", "Content-Type: application/json", "-d", json.dumps(body)]
+    r = subprocess.run(cmd, capture_output=True)
+    texte, _, code = r.stdout.decode("utf-8", errors="ignore").rpartition("\n")
+    code = code.strip()[:3]
+    if r.returncode != 0:
+        raise RuntimeError(f"réseau (curl {r.returncode})")
+    if code == "404" and body is None:
+        return None                                     # identifiant Google périmé : on recherchera le lieu
+    if code == "400":
+        raise _Refus("HTTP 400")
+    try:
+        data = json.loads(texte or "{}")
+    except ValueError:
+        raise RuntimeError(f"réponse illisible (HTTP {code})")
+    if not isinstance(data, dict) or "error" in data or code != "200":
+        err = data.get("error") if isinstance(data, dict) else None
+        raise RuntimeError(((err or {}).get("message") if isinstance(err, dict) else None) or f"HTTP {code}")
+    if body is None and not isinstance(data.get("id"), str):
+        raise RuntimeError("fiche Google vide")         # réponse partielle : on ne perd ni l'identifiant ni la note
+    return data
+
+
+def _sauvegardes_en_panne(heures=30):
+    """Sur GitHub : le dernier enregistrement date de plus de 30 h, donc les passages du robot n'arrivent plus à
+    enregistrer (plantage, conflit). Chaque passage relirait et repaierait alors les mêmes lieux : on ne paie plus rien
+    tant que ça dure (revue du 24/11). En cas de doute (date illisible), prudence : on ne paie pas."""
+    if not os.environ.get("GITHUB_ACTIONS"):
+        return False
+    r = subprocess.run(["git", "-C", str(HERE), "log", "-1", "--format=%ct"], capture_output=True, text=True)
+    try:
+        return time.time() - int(r.stdout.strip()) > heures * 3600
+    except ValueError:
+        return True
+
+
+def _note_valide(r, n):
+    """(note sur 5 arrondie au dixième, nombre d'avis), ou None si ce n'est pas une vraie note."""
+    if isinstance(r, bool) or isinstance(n, bool) or not isinstance(r, (int, float)) or not isinstance(n, int):
+        return None
+    if not (1.0 <= r <= 5.0) or not (0 <= n <= 10_000_000):     # « r != r » (NaN) échoue aussi ici
+        return None
+    return round(float(r), 1), n
+
+
+def _note_juste(p):
+    """Note « juste » pour classer : un 4,9 sur 8 avis ne passe pas devant un 4,6 sur 900. Sans note : 0."""
+    v = _note_valide(p.get("rating"), p.get("reviews"))
+    return (v[1] * v[0] + 50 * 4.2) / (v[1] + 50) if v else 0
+
+
+def google_notes(lieux):
+    try:
+        cfg = json.loads(GOOGLE_CONFIG.read_text()).get("notes")
+    except Exception:
+        cfg = None
+    cfg = cfg if isinstance(cfg, dict) else {}
+    kinds = set(cfg.get("kinds") or [])
+    if not cfg.get("enabled") or not kinds:
+        for p in lieux:                                              # arrêté : plus aucune note (même celles des « tops »)
+            for f in ("rating", "reviews", "gmaps"):
+                p.pop(f, None)
+        return lieux
+    key = os.environ.get("GOOGLE_PLACES_KEY")
+    try:
+        store = json.loads(GOOGLE_NOTES.read_text())
+        store = store if isinstance(store, dict) else {}
+    except Exception:
+        store = {}
+    memo = {k: v for k, v in (store.get("lieux") or {}).items() if isinstance(v, dict)} if isinstance(store.get("lieux"), dict) else {}
+    today = datetime.now().date()
+    mois = datetime.now(ZoneInfo("America/Los_Angeles")).strftime("%Y-%m")     # le mois de la facture Google
+    if store.get("mois") != mois or not isinstance(store.get("details_mois"), int):
+        store.update(mois=mois, details_mois=0, recherches_mois=0)
+    frais = (today - timedelta(days=30)).isoformat()                 # Google : rien de plus vieux que 30 jours
+    relire = (today - timedelta(days=int(cfg.get("jours", 28)))).isoformat()
+    vise = [p for p in lieux if p.get("kind") in kinds]
+
+    publies = {p.get("id") for p in lieux}
+    oubli = (today - timedelta(days=90)).isoformat()
+
+    def sauver():
+        for k in [k for k, v in memo.items() if k not in publies and str(v.get("t", "")) < oubli]:
+            del memo[k]                                              # lieu disparu depuis 3 mois : oublié
+        for v in memo.values():                                      # au-delà de 30 jours, on ne garde que l'identifiant
+            if str(v.get("t", "")) < frais:
+                for f in list(v):
+                    if f not in ("g", "t"):
+                        v.pop(f)
+        store["lieux"] = memo
+        GOOGLE_NOTES.write_text(json.dumps(store, ensure_ascii=False, indent=0, sort_keys=True), encoding="utf-8")
+
+    # 1) les notes déjà données par les recherches des « tops » (aucun appel en plus)
+    for p in vise:
+        v = _note_valide(p.get("rating"), p.get("reviews"))
+        gid = p.get("google_id")
+        vue = str(p.get("note_vue", ""))[:10]
+        # seulement si c'est plus récent que ce qu'on sait (une fermeture lue après ne s'efface pas)
+        if v and isinstance(gid, str) and vue >= relire and vue > str((memo.get(p["id"]) or {}).get("t", "")):
+            memo[p["id"]] = {"g": gid, "t": vue, "r": v[0], "n": v[1], "s": "OPERATIONAL"}
+
+    # 2) les autres : jamais lus d'abord (Liège en tête), puis les plus anciens
+    lot = sorted((p for p in vise if str((memo.get(p["id"]) or {}).get("t", "")) < relire),
+                 key=lambda p: (p["id"] in memo, str((memo.get(p["id"]) or {}).get("t", "")), p.get("city") != "Liège"))
+    plafond = int(cfg.get("max_details_par_mois", 2000))
+    plafond_r = int(cfg.get("max_recherches_par_mois", 4000))
+    lues, erreur, refus = 0, None, 0
+    texte = lambda s: re.sub(r"[\x00-\x1f\x7f​-‏‪-‮]", " ", str(s or ""))[:150]
+    if key and lot and _sauvegardes_en_panne():
+        erreur = "le robot n'enregistre plus depuis plus de 30 h : aucune lecture payée tant que ça dure"
+    elif key and lot:
+        debut = time.time()
+        for i, p in enumerate(lot[:int(cfg.get("par_passage", 150))]):
+            if time.time() - debut > float(cfg.get("max_minutes", 5)) * 60:
+                erreur = "temps écoulé, reprise au prochain passage"
+                break
+            if store["details_mois"] >= plafond:
+                erreur = f"plafond du mois atteint ({plafond} lectures) : reprise le mois prochain"
+                break
+            if i and i % 20 == 0:
+                sauver()                                             # rien n'est payé deux fois si le robot s'arrête
+            old = memo.get(p["id"]) or {}
+            gid = old.get("g") if "g" in old else p.get("google_id")    # identifiant déjà donné par la recherche des « tops »
+            gid = gid if isinstance(gid, str) else None
+            if not gid and int(store.get("recherches_mois") or 0) >= plafond_r:
+                erreur = f"plafond des recherches du mois atteint ({plafond_r}) : les lieux déjà connus sont quand même relus"
+                continue
+            try:
+                if not gid:
+                    store["recherches_mois"] = int(store.get("recherches_mois") or 0) + 1
+                    data = _google_appel(key, GOOGLE_API, "places.id,places.displayName,places.location,places.businessStatus",
+                                         {"textQuery": f"{texte(p['name'])}, {texte(p.get('address') or p.get('city'))}", "languageCode": "fr",
+                                          "regionCode": "BE", "pageSize": 1,
+                                          "locationBias": {"circle": {"center": {"latitude": p["lat"], "longitude": p["lon"]}, "radius": 300}}})
+                    g = ((data or {}).get("places") or [None])[0]
+                    loc = (g or {}).get("location") or {}
+                    if (not g or not isinstance(g.get("id"), str) or loc.get("latitude") is None
+                            or _km([p["lat"], p["lon"]], [loc["latitude"], loc["longitude"]]) > 0.15
+                            or not _meme_nom(p["name"], ((g.get("displayName") or {}).get("text")) or "")):
+                        memo[p["id"]] = {"g": None, "t": today.isoformat()}     # pas sûr que ce soit lui : aucune note
+                        continue
+                    if g.get("businessStatus") == "CLOSED_PERMANENTLY":
+                        memo[p["id"]] = {"g": g["id"], "t": today.isoformat(), "s": "CLOSED_PERMANENTLY"}
+                        continue
+                    gid = g["id"]
+                if not re.fullmatch(r"[A-Za-z0-9_-]{10,300}", gid):
+                    memo[p["id"]] = {"g": None, "t": today.isoformat()}
+                    continue
+                store["details_mois"] += 1
+                d = _google_appel(key, GOOGLE_PLACE_URL + gid + "?languageCode=fr", "id,displayName,rating,userRatingCount,businessStatus")
+            except RuntimeError as ex:
+                erreur = str(ex).replace(key, "***")[:200]
+                break
+            except (_Refus, KeyError, TypeError, ValueError):
+                memo[p["id"]] = {"g": None, "t": today.isoformat()}     # ce lieu-là seulement ; les suivants passent
+                refus += 1
+                if refus >= 5:                                      # 5 refus d'affilée : ce n'est plus un nom bizarre
+                    erreur = "Google refuse les demandes (5 refus d'affilée) : à vérifier"
+                    break
+                continue
+            refus = 0
+            nom = ((d or {}).get("displayName") or {}).get("text") or ""
+            if d is None or not _meme_nom(p["name"], nom):
+                memo[p["id"]] = {"g": None, "t": today.isoformat()}     # le lieu a changé (autre nom) : on recherchera
+                continue
+            v = _note_valide(d.get("rating"), d.get("userRatingCount"))
+            memo[p["id"]] = dict({"g": gid, "t": today.isoformat(), "s": str(d.get("businessStatus") or "")[:30]},
+                                 **({"r": v[0], "n": v[1]} if v else {}))
+            lues += 1
+
+    # 3) appliquer : note affichée, lieux mal notés ou fermés retirés (jamais un partenaire ni un coup de cœur de Vivyo)
+    note_min, avis_min = float(cfg.get("note_min", 4.0)), int(cfg.get("avis_min_pour_retirer", 15))
+
+    def a_retirer(p):
+        m = memo.get(p["id"]) if p.get("kind") in kinds else None
+        if not isinstance(m, dict) or str(m.get("t", "")) < frais or p.get("partner") is True or str(p.get("id", "")).startswith("vivyo-"):
+            return None
+        v = _note_valide(m.get("r"), m.get("n"))
+        if m.get("s") == "CLOSED_PERMANENTLY":
+            return "fermé"
+        return str(v[0]) if v and v[1] >= avis_min and v[0] < note_min else None
+
+    # garde-fou : une réponse Google anormale (ou des faux avis en masse) ne doit pas vider l'app d'un coup
+    candidats = sum(1 for p in vise if a_retirer(p))
+    max_retraits = max(40, int(len(vise) * float(cfg.get("max_part_retiree", 0.25))))
+    bloque = candidats > max_retraits
+    if bloque:
+        erreur = f"{candidats} lieux à retirer d'un coup (plus de {max_retraits}) : rien retiré, à vérifier à l'œil"
+    garde, retires, notes = [], [], 0
+    for p in lieux:
+        for f in ("rating", "reviews", "gmaps"):
+            p.pop(f, None)
+        m = memo.get(p["id"]) if p.get("kind") in kinds else None
+        if isinstance(m, dict) and str(m.get("t", "")) >= frais:
+            v = _note_valide(m.get("r"), m.get("n"))
+            pourquoi = None if bloque else a_retirer(p)
+            if pourquoi:
+                retires.append(f"{p.get('name')} ({p.get('city')}) : {pourquoi}")
+                continue
+            if v and v[1] >= int(cfg.get("avis_min_affiche", 5)) and isinstance(m.get("g"), str) and re.fullmatch(r"[A-Za-z0-9_-]{10,300}", m["g"]):
+                p["rating"], p["reviews"] = v
+                p["gmaps"] = (f"https://www.google.com/maps/search/?api=1&query={quote(str(p.get('name'))[:120], safe='')}"
+                              f"&query_place_id={m['g']}")
+                notes += 1
+        garde.append(p)
+    # les mieux notés d'abord (l'app garde l'ordre du robot pour les bars et les restos) ; sans note : après, dans le même ordre
+    garde.sort(key=lambda p: -_note_juste(p) if p.get("kind") in kinds else 0)
+    if lot or lues or retires:
+        sauver()
+    REPORT.append({"source": "Google : notes des restos et bars", "ok": erreur is None, "erreur": erreur, "lues": lues,
+                   "lectures_du_mois": store["details_mois"], "plafond": plafond, "notes_publiees": notes,
+                   "retires": len(retires), "exemples_retires": retires[:15], "a_lire": max(0, len(lot) - lues)})
+    return garde
 
 
 RESTOS_CARTES = HERE / "restos_cartes.json"
@@ -1063,6 +1306,11 @@ def _safe_place(p):
         q["menu"] = q["menu"] if ok else None
     q["booking"] = booking if isinstance(booking, str) and any(rx.fullmatch(booking) for _, rx in RESA) else None
     q["quality"] = p.get("quality") if p.get("quality") in ("top", "pepite") else None
+    # note Google (google_notes) : un vrai nombre entre 1 et 5, et le lien « Voir les avis » vers Google Maps seulement
+    v = _note_valide(p.get("rating"), p.get("reviews"))
+    gm = p.get("gmaps")
+    q["rating"], q["reviews"] = v if v else (None, None)
+    q["gmaps"] = gm if v and isinstance(gm, str) and GMAPS.fullmatch(gm) else None
     return q
 
 
@@ -1129,6 +1377,13 @@ def build_places():
         lieux.append(v)
         known.add(v["id"])
     lieux = google_places(lieux)        # bars les mieux notés et photos Google (si la clé est là)
+    try:
+        lieux = google_notes(lieux)     # la note Google de chaque resto et bar ; les mal notés et les fermés sont retirés
+    except Exception as ex:
+        print(f"Notes Google : ÉCHEC ({ex}), on continue sans", file=sys.stderr)
+        for p in lieux:                 # pas de note à moitié vérifiée
+            p.pop("rating", None)
+        REPORT.append({"source": "Google : notes des restos et bars", "ok": False, "erreur": str(ex)[:200].replace(os.environ.get("GOOGLE_PLACES_KEY") or "\0", "***")})
     try:
         restos_cartes(lieux)            # la carte et la réservation de chaque resto, depuis son site officiel
     except Exception as ex:

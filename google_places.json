@@ -155,5 +155,23 @@
    "min_rating": 4.3
   },
   "max_minutes": 8
+ },
+ "notes": {
+  "_aide": "Notes Google de tous les restos, bars et brunchs (24/11/2026, go de Dylan : 20 $ par mois au plus). Chaque lieu est relu tous les « jours » jours : la recherche par nom (Text Search Pro, 5 000 gratuites par mois, plafond max_recherches_par_mois) donne l'identifiant Google, gardé ; la lecture de la note (Place Details Enterprise : 1 000 gratuites par mois, puis 20 $ les 1 000) est plafonnée à max_details_par_mois, soit (2 000 - 1 000) x 0,02 $ = 20 $ au plus. Si le robot n'enregistre plus depuis 30 h, plus aucune lecture n'est payée. Un lieu noté sous note_min avec au moins avis_min_pour_retirer avis, ou fermé définitivement, n'est plus publié (jamais un partenaire ni un coup de cœur) ; si plus de max_part_retiree des lieux devaient partir d'un coup, rien n'est retiré. La note s'affiche à partir de avis_min_affiche avis. enabled : false arrête tout (plus aucun appel, plus aucune note).",
+  "enabled": true,
+  "kinds": [
+   "restaurant",
+   "bar",
+   "brunch"
+  ],
+  "jours": 28,
+  "par_passage": 150,
+  "max_minutes": 5,
+  "max_details_par_mois": 2000,
+  "note_min": 4.0,
+  "avis_min_pour_retirer": 15,
+  "avis_min_affiche": 5,
+  "max_recherches_par_mois": 4000,
+  "max_part_retiree": 0.25
  }
 }
