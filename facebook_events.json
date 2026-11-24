@@ -2836,29 +2836,6 @@
    "classified": true
   },
   {
-   "id": "fb-1767288421657942",
-   "title": "Soirée casino",
-   "category": "party",
-   "venue": "Le Nom de la Rose (Kot à projet)",
-   "city": "Namur",
-   "lat": 50.46328,
-   "lon": 4.85834,
-   "start": "2026-11-23T20:00:00",
-   "end": "2026-11-23T23:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1767288421657942.jpg",
-   "page_url": "https://www.facebook.com/events/1767288421657942/",
-   "url": "https://www.facebook.com/events/1767288421657942/",
-   "summary": "💚soirée casino💚 Tu aimes bluffer, parier, devenir riche ? Le nom de la rose et le kotéjeux te proposent une soirée MEMORABLE !!! Roulette, poker, black jack etc. on a de quoi te faire passer une bonne soirée. 🗓️ Lundi 23 novembre 🕘 20h à 00h 📍 Nom de la rose 🤑 Entrée gratuite 💸 0,50€ les jetons (qui",
-   "price_from": null,
-   "free": true,
-   "audience": [
-    "student"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1147850851438740",
    "title": "Soirée Movember",
    "category": "talks",
