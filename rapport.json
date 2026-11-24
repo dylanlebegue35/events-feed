@@ -1,12 +1,12 @@
 {
-  "genere": "2026-11-23T13:59:31",
+  "genere": "2026-11-24T02:53:03",
   "sources": [
     {
       "source": "Reflektor (Liège)",
       "ok": true,
-      "page_caracteres": 14585,
-      "ia_a_trouve": 37,
-      "gardes": 37,
+      "page_caracteres": 15867,
+      "ia_a_trouve": 39,
+      "gardes": 39,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -33,20 +33,20 @@
     {
       "source": "VisitHuy",
       "ok": true,
-      "page_caracteres": 32,
-      "ia_a_trouve": 0,
-      "gardes": 0,
+      "page_caracteres": 5933,
+      "ia_a_trouve": 8,
+      "gardes": 8,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
-      "extrait_reponse_ia": "[]"
+      "extrait_reponse_ia": ""
     },
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 54136,
-      "ia_a_trouve": 35,
-      "gardes": 35,
+      "page_caracteres": 54975,
+      "ia_a_trouve": 34,
+      "gardes": 34,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -55,9 +55,9 @@
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 40644,
-      "ia_a_trouve": 120,
-      "gardes": 120,
+      "page_caracteres": 40963,
+      "ia_a_trouve": 121,
+      "gardes": 121,
       "ecartes": 0,
       "morceaux": 3,
       "reponses_coupees": 1,
@@ -66,9 +66,9 @@
     {
       "source": "Standard de Liège",
       "ok": true,
-      "page_caracteres": 7443,
-      "ia_a_trouve": 3,
-      "gardes": 3,
+      "page_caracteres": 7465,
+      "ia_a_trouve": 2,
+      "gardes": 2,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -81,8 +81,6 @@
       "ia_a_trouve": 7,
       "gardes": 7,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -99,7 +97,7 @@
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 12143,
+      "page_caracteres": 12145,
       "ia_a_trouve": 2,
       "gardes": 0,
       "ecartes": 2,
@@ -114,16 +112,14 @@
       "ia_a_trouve": 7,
       "gardes": 7,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Grand Curtius (Liège)",
       "ok": true,
-      "page_caracteres": 10500,
-      "ia_a_trouve": 11,
-      "gardes": 8,
+      "page_caracteres": 11478,
+      "ia_a_trouve": 12,
+      "gardes": 9,
       "ecartes": 3,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -145,17 +141,17 @@
       "ia_a_trouve": 3,
       "gardes": 3,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Opéra Royal de Wallonie",
       "ok": true,
-      "page_caracteres": 35178,
+      "page_caracteres": 35253,
       "ia_a_trouve": 7,
       "gardes": 7,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -174,17 +170,17 @@
       "ia_a_trouve": 6,
       "gardes": 6,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Madame Moustache (Bruxelles)",
       "ok": true,
-      "page_caracteres": 47115,
-      "ia_a_trouve": 16,
+      "page_caracteres": 46421,
+      "ia_a_trouve": 15,
       "gardes": 15,
-      "ecartes": 1,
+      "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -199,7 +195,7 @@
     {
       "source": "Ancienne Belgique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 6710,
+      "page_caracteres": 6675,
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
@@ -210,10 +206,12 @@
     {
       "source": "Botanique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 3968,
-      "ia_a_trouve": 2,
-      "gardes": 2,
+      "page_caracteres": 3865,
+      "ia_a_trouve": 3,
+      "gardes": 3,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -223,16 +221,14 @@
       "ia_a_trouve": 29,
       "gardes": 29,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Het Depot (Louvain)",
       "ok": true,
-      "page_caracteres": 9532,
-      "ia_a_trouve": 20,
-      "gardes": 20,
+      "page_caracteres": 9846,
+      "ia_a_trouve": 18,
+      "gardes": 18,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -245,8 +241,6 @@
       "ia_a_trouve": 13,
       "gardes": 13,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -264,25 +258,25 @@
       "source": "Facebook (service tiers)",
       "ok": true,
       "etat": "pas encore l'heure",
-      "gardes": 143
+      "gardes": 142
     },
     {
       "source": "Doublons fusionnés",
       "ok": true,
-      "fusionnes": 30
+      "fusionnes": 33
     },
     {
       "source": "Pages des billetteries",
       "ok": true,
-      "pages_lues": 19,
+      "pages_lues": 17,
       "pages_lues_par_ia": 25
     },
     {
       "source": "Images refusées à la relecture",
       "ok": true,
-      "retirees": 28
+      "retirees": 34
     }
   ],
-  "avec_image": 1090,
-  "total": 1253
+  "avec_image": 1086,
+  "total": 1256
 }
