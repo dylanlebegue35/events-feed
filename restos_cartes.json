@@ -7031,5 +7031,797 @@
   "s": "https://www.repasse.be",
   "menu": null,
   "booking": null
+ },
+ "osm-node-2476581229": {
+  "t": "2026-11-25",
+  "s": "https://www.osyrie.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-8450305004": {
+  "t": "2026-11-25",
+  "s": "https://www.labonnechere.be/",
+  "menu": "https://www.labonnechere.be/menu/",
+  "booking": null
+ },
+ "g-ChIJZ9V0mrnbw0cRh04OY2BG6Qk": {
+  "t": "2026-11-25",
+  "s": "https://www.latapasseria.com/",
+  "menu": "https://www.latapasseria.com/Menu-La-Tapasseria.pdf",
+  "booking": null
+ },
+ "g-ChIJ4UllFtjS3EcRWBBHP-7s1-o": {
+  "t": "2026-11-25",
+  "s": "https://www.restaurantfleurdesel.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJPStSPPsFwkcRyzmj6CnCLsI": {
+  "t": "2026-11-25",
+  "s": "http://www.contre-facon.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-7652497506": {
+  "t": "2026-11-25",
+  "s": "https://lunsjes.be",
+  "menu": "https://lunsjes.be/wp-content/uploads/2026/10/menu-okt-dec-26.pdf",
+  "booking": null
+ },
+ "g-ChIJdVaHm7ArwkcRVafHOb-Wij4": {
+  "t": "2026-11-25",
+  "s": "https://www.bistrotducercle.com/?utm_source=google&utm_medium=organic&utm_campaign=fiche_google",
+  "menu": "https://www.bistrotducercle.com/menu",
+  "booking": "https://bookings.zenchef.com/results?rid=375247"
+ },
+ "g-ChIJyzcBK2HRw0cRzHeuDBPlw6w": {
+  "t": "2026-11-25",
+  "s": "https://www.gouteettaistoi.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJh1coWBOp3EcRT6tHzxuqTNI": {
+  "t": "2026-11-25",
+  "s": "http://www.lizettelucien.be/",
+  "menu": "https://lizettelucien.be/eten-in-oostende-menu/",
+  "booking": null
+ },
+ "g-ChIJ8W5bMA_Fw0cRQJTNy6G-SqY": {
+  "t": "2026-11-25",
+  "s": "https://www.pizzeria1032.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJwb-5DoAhwUcRO0Z6LiJu54c": {
+  "t": "2026-11-25",
+  "s": "https://www.rosshasselt.be/",
+  "menu": null,
+  "booking": "https://bookings.zenchef.com/results?rid=370722"
+ },
+ "osm-node-9373410722": {
+  "t": "2026-11-25",
+  "s": "https://eastatwest.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJJ4sZXBOVwUcR7WmYitgsOdE": {
+  "t": "2026-11-25",
+  "s": "https://pizzerialievita.be/",
+  "menu": "https://pizzerialievita.be/menu-a-emporter-pizza-anhee/",
+  "booking": null
+ },
+ "g-ChIJPcYmN4_Fw0cR7Ca74nEJG5Y": {
+  "t": "2026-11-25",
+  "s": "https://babam.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJ9brDo301w0cRIKBsSM2tWyM": {
+  "t": "2026-11-25",
+  "s": "https://www.flambee.be/",
+  "menu": "https://flambee.be/a-la-carte/",
+  "booking": null
+ },
+ "g-ChIJv3_EV1QxwkcRCtUczysCu3k": {
+  "t": "2026-11-25",
+  "s": "http://www.resto-augreduvent.be/",
+  "menu": "https://resto-augreduvent.be/fr/notre-carte",
+  "booking": null
+ },
+ "osm-node-6060218217": {
+  "t": "2026-11-25",
+  "s": "https://www.65degres.be",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJfV4C5vbXw0cRX8MKhPUtyR0": {
+  "t": "2026-11-25",
+  "s": "https://www.foodwithvarinder.com/",
+  "menu": null,
+  "booking": "https://bookings.zenchef.com/results?rid=369264"
+ },
+ "g-ChIJ2e4dpS3bw0cReSEtB1nq6vE": {
+  "t": "2026-11-25",
+  "s": "http://www.oudrestaurant.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJvdRHBXo1wkcRSeR0HGcOnxY": {
+  "t": "2026-11-25",
+  "s": "http://www.pilori.be/",
+  "menu": "http://pilori.be/menu/",
+  "booking": null
+ },
+ "g-ChIJ4UxQWRvZwEcRGLezvVb8Nh8": {
+  "t": "2026-11-25",
+  "s": "https://www.bbqgenk.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJvWDVhfAGw0cRbST_ePiPVaY": {
+  "t": "2026-11-25",
+  "s": "http://www.levieuxchateau.be/",
+  "menu": "https://levieuxchateau.be/menus/",
+  "booking": null
+ },
+ "g-ChIJY9MEUeXPwUcRtJbmpijbSb4": {
+  "t": "2026-11-25",
+  "s": "https://www.boucherielefebvre.com/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-2483395638": {
+  "t": "2026-11-25",
+  "s": "https://miomio-restaurant.be/",
+  "menu": "https://miomio-restaurant.be/menu.pdf",
+  "booking": null
+ },
+ "osm-node-14178516395": {
+  "t": "2026-11-25",
+  "s": "https://www.mero-restaurant.com",
+  "menu": "https://www.mero-restaurant.com/menu",
+  "booking": null
+ },
+ "g-ChIJ9xI9tUU7w0cRDIDG7Dt0xZQ": {
+  "t": "2026-11-25",
+  "s": "http://www.msbhouse.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJyQ7HvQ-zxkcRV_K4B3XYCIQ": {
+  "t": "2026-11-25",
+  "s": "http://www.pique-nique.be/",
+  "menu": "https://pique-nique.be/wp-content/uploads/2026/09/nieuwe-menu-pique-nique-def.pdf",
+  "booking": null
+ },
+ "g-ChIJo3ByVgB_wUcRJEvwZgolGc8": {
+  "t": "2026-11-25",
+  "s": "https://ramenbyso.be/?utm_source=google&utm_medium=gbp&utm_campaign=fiche-google",
+  "menu": "https://ramenbyso.be/menu/",
+  "booking": null
+ },
+ "g-ChIJnRhbZADDw0cRVtak86R_1mQ": {
+  "t": "2026-11-25",
+  "s": "https://konaku-traiteur.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJzXvY6WsmwUcR_aGCox-MbRk": {
+  "t": "2026-11-25",
+  "s": "https://menaragenk.be/",
+  "menu": "https://menaragenk.be/menukaart.html",
+  "booking": null
+ },
+ "g-ChIJ-64xTSjrckcReFcKf32MR8g": {
+  "t": "2026-11-25",
+  "s": "https://www.gingerandrosemary.be/",
+  "menu": "https://gingerandrosemary.be/storage/menu_20261119_114256.pdf",
+  "booking": null
+ },
+ "g-ChIJgZiyC-YxwkcRM5k08SLKMj0": {
+  "t": "2026-11-25",
+  "s": "http://www.lentredeuxpac.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJD-TlWVUvwkcRq1RzMUPIAV4": {
+  "t": "2026-11-25",
+  "s": "http://www.tomeo.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-3863812078": {
+  "t": "2026-11-25",
+  "s": "https://www.gus-brussels.be/",
+  "menu": "https://www.gus-brussels.be/menus-carte/",
+  "booking": null
+ },
+ "g-ChIJG6niy9W9w0cR0qEvD6Si1Q4": {
+  "t": "2026-11-25",
+  "s": "http://www.elwins.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJZesJckR_wUcRvO2ozzD5l1U": {
+  "t": "2026-11-25",
+  "s": "https://maisonresto.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-5067441729": {
+  "t": "2026-11-25",
+  "s": "https://www.restaurantdelevensboom.be",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJk4QXA9So3EcR_1Fjlm0rCpQ": {
+  "t": "2026-11-25",
+  "s": "https://eclips-at-sea.be/",
+  "menu": "https://eclips-at-sea.be/home-image/menu/",
+  "booking": null
+ },
+ "g-ChIJVz1nsEDfwUcR3mSwL_Mu8SA": {
+  "t": "2026-11-25",
+  "s": "https://www.restaurantprimitif.com/",
+  "menu": "https://www.restaurantprimitif.com/menu",
+  "booking": null
+ },
+ "g-ChIJnds2IUB56kcRCb9rSzJ04bE": {
+  "t": "2026-11-25",
+  "s": "https://www.le-gastronome.be/",
+  "menu": "https://www.le-gastronome.be/carte-et-menus/",
+  "booking": null
+ },
+ "g-ChIJkdx01CBJwEcRIBpcL9ifddc": {
+  "t": "2026-11-25",
+  "s": "https://www.restaurant-complementair.be/",
+  "menu": "https://restaurant-complementair.be/menu/",
+  "booking": "https://bookings.zenchef.com/results?rid=377170"
+ },
+ "g-ChIJ70CvuMl76kcRAaZj_K-mdH8": {
+  "t": "2026-11-25",
+  "s": "https://www.restaurant-meandre.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJhcNzDnd3wUcR2Qgf593L5Mo": {
+  "t": "2026-11-25",
+  "s": "https://www.traiteurcelia.com/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJ1VRGRdsTwEcRBlj-RRRqKq0": {
+  "t": "2026-11-25",
+  "s": "http://latelier-restaurant.be/",
+  "menu": "https://latelier-restaurant.be/la-carte/",
+  "booking": null
+ },
+ "g-ChIJh_cHhUPBw0cRLsqy1Tdq70Q": {
+  "t": "2026-11-25",
+  "s": "http://azzurropizza.be/",
+  "menu": "http://azzurropizza.be/menu",
+  "booking": null
+ },
+ "g-ChIJSZJ5FT7nw0cRYzHaf5vHCAM": {
+  "t": "2026-11-25",
+  "s": "http://www.houseofpoke.be/",
+  "menu": "http://www.houseofpoke.be/menu2/",
+  "booking": null
+ },
+ "g-ChIJtav_tynnwkcRVk7Ee_z1uCE": {
+  "t": "2026-11-25",
+  "s": "http://www.seletpoivre.net/",
+  "menu": "http://www.seletpoivre.net/menus.php",
+  "booking": null
+ },
+ "g-ChIJYQbeQwCp3EcRXkII6sD5GqU": {
+  "t": "2026-11-25",
+  "s": "http://www.vishoek.be/",
+  "menu": "https://vishoek.be/menu",
+  "booking": null
+ },
+ "g-ChIJlQlFV3K_wUcRzGlPIUULJH4": {
+  "t": "2026-11-25",
+  "s": "https://www.biscuiteriedestree.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJ-ww5eGh_wUcRysdvcysRCM0": {
+  "t": "2026-11-25",
+  "s": "https://pizzeria-da-antonio.be/",
+  "menu": "https://pizzeria-da-antonio.be/carte-pdf.php",
+  "booking": null
+ },
+ "g-ChIJmZ22f901w0cRw6xHG4T1rRM": {
+  "t": "2026-11-25",
+  "s": "https://www.bistro-maisonmarie.be/",
+  "menu": "https://www.bistro-maisonmarie.be/kaart",
+  "booking": null
+ },
+ "g-ChIJKZuxeCQxwkcRwe9q3TO89l0": {
+  "t": "2026-11-25",
+  "s": "https://felice-pizza.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJIbvTRmg3wkcR69-9VK4B534": {
+  "t": "2026-11-25",
+  "s": "http://www.epicurius-experience.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJ8TfhemTXw0cR8jop-_YlgUw": {
+  "t": "2026-11-25",
+  "s": "https://amarante-restaurant.be/",
+  "menu": "https://amarante-restaurant.be/lunch/",
+  "booking": null
+ },
+ "g-ChIJxQyT5W6tw0cRN5AxbOy1Syk": {
+  "t": "2026-11-25",
+  "s": "https://latabledejeanne.be/",
+  "menu": "https://latabledejeanne.be/la-carte/",
+  "booking": null
+ },
+ "g-ChIJm5vv_lxbwkcR-wVHF9mFWPs": {
+  "t": "2026-11-25",
+  "s": "https://www.lacucina-ristobistrot.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJLTFLWCTbw0cRuCZqmIZiJPQ": {
+  "t": "2026-11-25",
+  "s": "https://www.restocanaille.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJjUo4q_NPwkcRGzFh88NvAks": {
+  "t": "2026-11-25",
+  "s": "https://chezdams.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJp3JMVgD7wEcRuuiPZYdzAeQ": {
+  "t": "2026-11-25",
+  "s": "https://www.bistrotarrose.be/",
+  "menu": "https://userdocs.zenchef.com/375769/tua2ol1wzo4zlrdmDNkPxzyOhcS41dQEuPdcS618.pdf",
+  "booking": null
+ },
+ "g-ChIJa3U4SdSZwUcRcjs_tN7tMs4": {
+  "t": "2026-11-25",
+  "s": "http://www.leroidetrefle.com/",
+  "menu": "http://www.leroidetrefle.com/menu",
+  "booking": null
+ },
+ "g-ChIJ49ZGozDLw0cR8_Uryptbdqs": {
+  "t": "2026-11-25",
+  "s": "http://www.lamaisondouce.be/",
+  "menu": "http://www.lamaisondouce.be/nos-menus",
+  "booking": null
+ },
+ "g-ChIJie9ploeRw0cRB-J6RPvye5c": {
+  "t": "2026-11-25",
+  "s": "https://www.brothersfactory.be/",
+  "menu": "https://www.brothersfactory.be/Menu",
+  "booking": null
+ },
+ "osm-way-659133949": {
+  "t": "2026-11-25",
+  "s": "https://www.bigmama.be",
+  "menu": "https://www.bigmama.be/fr/menu",
+  "booking": null
+ },
+ "osm-node-3863696753": {
+  "t": "2026-11-25",
+  "s": "https://www.yucalatina.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJzRC8owvLw0cRcJkrwVnKY6I": {
+  "t": "2026-11-25",
+  "s": "http://lecoinlibanais.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-4851341922": {
+  "t": "2026-11-25",
+  "s": "https://www.horia.be",
+  "menu": "https://horia.be/menu/",
+  "booking": null
+ },
+ "g-ChIJyzKaX_WXwUcR4mtlPv5sbH0": {
+  "t": "2026-11-25",
+  "s": "https://linsolite-anhee.be/",
+  "menu": "https://linsolite-anhee.be/menu",
+  "booking": "https://bookings.zenchef.com/results?rid=382444"
+ },
+ "g-ChIJybBWsaaawUcRzbNEGIqIDbQ": {
+  "t": "2026-11-25",
+  "s": "https://www.pizzamillegradi.com/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJRen-sKrCw0cRgQYQVC5EPWg": {
+  "t": "2026-11-25",
+  "s": "https://restodekuiper.com/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJtYSimuA1wkcRyWuXXo0OtVc": {
+  "t": "2026-11-25",
+  "s": "https://www.sikulo.be/",
+  "menu": "https://www.sikulo.be/menu/",
+  "booking": null
+ },
+ "g-ChIJr61zjqDlw0cR4UHKyav6v1o": {
+  "t": "2026-11-25",
+  "s": "https://www.embermechelen.be/",
+  "menu": "https://www.embermechelen.be/menu",
+  "booking": "https://bookings.zenchef.com/results?rid=383467"
+ },
+ "g-ChIJg4Urb-3xwEcRt2cp8zIGsDw": {
+  "t": "2026-11-25",
+  "s": "https://www.jambonviolon.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJXUtvwc3ZwEcRw3uF8yO8Rso": {
+  "t": "2026-11-25",
+  "s": "https://www.feast-gnk.be/",
+  "menu": "https://www.feast-gnk.be/menu/feast-menu.pdf",
+  "booking": null
+ },
+ "osm-node-12531627112": {
+  "t": "2026-11-25",
+  "s": "https://www.commechezsoi.be",
+  "menu": "https://www.commechezsoi.be/copie-de-a-la-carte-menus",
+  "booking": null
+ },
+ "g-ChIJBRBFTdnS3EcRjmRMXuGK-wA": {
+  "t": "2026-11-25",
+  "s": "http://www.restaurant-revatom.be/",
+  "menu": "http://www.restaurant-revatom.be/menus-carte/",
+  "booking": null
+ },
+ "g-ChIJT7HMZX2pw0cRlnmPzKLMZSw": {
+  "t": "2026-11-25",
+  "s": "https://www.zhensushi.be/",
+  "menu": "https://www.zhensushi.be/",
+  "booking": null
+ },
+ "g-ChIJ394PaNnaw0cR0XHS2wuhgDU": {
+  "t": "2026-11-25",
+  "s": "https://www.flanerestaurant.com/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJnc6kPyyhwUcRIbuI3XFfV78": {
+  "t": "2026-11-25",
+  "s": "https://www.coquentin.be/la-table/",
+  "menu": "https://www.coquentin.be/a-la-carte/",
+  "booking": null
+ },
+ "g-ChIJJ5xmSQWpw0cRzYUKEXUO9wY": {
+  "t": "2026-11-25",
+  "s": "https://pidamimmo.com/",
+  "menu": "https://pidamimmo.com/carte/",
+  "booking": null
+ },
+ "g-ChIJB8f7sxs7w0cRd21W__EJalI": {
+  "t": "2026-11-25",
+  "s": "https://www.dirkjandecock.be/",
+  "menu": "https://www.dirkjandecock.be/menu",
+  "booking": null
+ },
+ "g-ChIJE_atVAn6wEcRx-kpPlT4m_U": {
+  "t": "2026-11-25",
+  "s": "http://www.aumoriane.be/",
+  "menu": "http://aumoriane.be/wp-content/uploads/2026/10/English-11.26.pdf",
+  "booking": null
+ },
+ "g-ChIJwzIiaj8Ew0cRI6ZrRTLNneE": {
+  "t": "2026-11-25",
+  "s": "http://mylord.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-8996557303": {
+  "t": "2026-11-25",
+  "s": "https://la-fontanella-hasselt.be/",
+  "menu": "https://la-fontanella-hasselt.be/menus/lunch",
+  "booking": null
+ },
+ "g-ChIJZZEj9RCPwUcRogYp64mFyo8": {
+  "t": "2026-11-25",
+  "s": "http://www.glaceetben.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJvbO0h9s7wUcRCgld8sA_y1M": {
+  "t": "2026-11-25",
+  "s": "https://thegreekberingen.be/",
+  "menu": "https://thegreekberingen.be/menu",
+  "booking": null
+ },
+ "g-ChIJdfuMpOA1w0cRcgv9yIxlhPI": {
+  "t": "2026-11-25",
+  "s": "http://dezoetewever.be/",
+  "menu": "https://www.dezoetewever.be/nl/Ontbijt",
+  "booking": null
+ },
+ "osm-node-3101985180": {
+  "t": "2026-11-25",
+  "s": "https://www.barbaleuven.be",
+  "menu": "https://www.barbaleuven.be/course-overview",
+  "booking": null
+ },
+ "g-ChIJDYPKCQXnwkcRnGNYUSG8uq8": {
+  "t": "2026-11-25",
+  "s": "http://restaurantlemillesime.be/",
+  "menu": "http://restaurantlemillesime.be/notre-carte.html",
+  "booking": null
+ },
+ "g-ChIJJ2zAX9SzxkcRiC_hH6wfgwk": {
+  "t": "2026-11-25",
+  "s": "https://lamuso.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-10816814805": {
+  "t": "2026-11-25",
+  "s": "https://www.maisondix.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJH1FpOA6Nw0cRS21X7SL-rwg": {
+  "t": "2026-11-25",
+  "s": "http://www.lecirque.be/",
+  "menu": "http://www.lecirque.be/menu",
+  "booking": null
+ },
+ "g-ChIJm1WrRn2bwUcR-jty6naIezw": {
+  "t": "2026-11-25",
+  "s": "http://emulsion.restaurant/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJwy3U1teo3EcRkzAuekbRjfg": {
+  "t": "2026-11-25",
+  "s": "https://www.othello-oostende.be/",
+  "menu": "https://www.othello-oostende.be/wild-menu",
+  "booking": null
+ },
+ "g-ChIJFfY-ttsvwEcR6fS_NZLU-V0": {
+  "t": "2026-11-25",
+  "s": "https://lafratrie.be/",
+  "menu": "https://lafratrie.be/{{ menuPdf }}",
+  "booking": null
+ },
+ "g-ChIJOeEY_Rd_wUcRS1n_1td18ZU": {
+  "t": "2026-11-25",
+  "s": "https://www.amore-trattoria.be/",
+  "menu": "https://www.amore-trattoria.be/wp-content/uploads/2026/06/MARS-26-Pink-Vintage-Valentines-Day-Dinner-Menu-19-x-27.7-cm-26.pdf",
+  "booking": "https://bookings.zenchef.com/results?rid=380615"
+ },
+ "g-ChIJQWmwBP3Lw0cRL-YRiiRU_io": {
+  "t": "2026-11-25",
+  "s": "http://www.bistroracine.be/",
+  "menu": null,
+  "booking": "https://bookings.zenchef.com/results?rid=367130"
+ },
+ "g-ChIJ7V50U7KRw0cRkqLolyW7apk": {
+  "t": "2026-11-25",
+  "s": "https://www.la-tienda.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJeQoZBdSo3EcRYhB7L_pOito": {
+  "t": "2026-11-25",
+  "s": "http://www.lobster.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJcbtJKiClwUcRzPXt71LlTqw": {
+  "t": "2026-11-25",
+  "s": "https://www.vorace.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJh1gJ3b17wUcR6YU6cJ35FLE": {
+  "t": "2026-11-25",
+  "s": "https://www.potferdoum.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJv2l1ZE166kcRHcWFWVOfONk": {
+  "t": "2026-11-25",
+  "s": "http://www.boucherieistace.com/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJq4fZdX2P6kcRhwtoAIKHNM8": {
+  "t": "2026-11-25",
+  "s": "https://bonito-food.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJ_27_YFHJw0cRjz1ztwud0sg": {
+  "t": "2026-11-25",
+  "s": "https://www.thaichef.be/",
+  "menu": "https://www.thaichef.be/wp-content/uploads/2023/11/Menu-Restaurant-Site.pdf",
+  "booking": null
+ },
+ "g-ChIJKwPZJLMFwkcRo24pHi-quLw": {
+  "t": "2026-11-25",
+  "s": "https://pouletboul.com/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJv3131dT1wkcR_W5DAbXZ54g": {
+  "t": "2026-11-25",
+  "s": "http://www.lesgribaumonts.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJLwYWwEHHw0cR9cbbTlq08Hg": {
+  "t": "2026-11-25",
+  "s": "http://www.natapas.be/",
+  "menu": "https://natapas.be/wp-content/uploads/2026/11/Menukaart.pdf",
+  "booking": null
+ },
+ "g-ChIJFRxE6-Hnw0cRcgpVO7NagVw": {
+  "t": "2026-11-25",
+  "s": "http://www.picapika.be/",
+  "menu": "https://picapika.be/kaart/",
+  "booking": null
+ },
+ "g-ChIJWzcWPTn9wkcRMEoCXZiADY4": {
+  "t": "2026-11-25",
+  "s": "https://lagloiredemotteafaulx.com/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJEduDXY7Vw0cRDvkH3NKt0g8": {
+  "t": "2026-11-25",
+  "s": "http://quatrequarts.coop/",
+  "menu": "https://quatrequarts.coop/cantine/menu/",
+  "booking": null
+ },
+ "g-ChIJR11Cq3FIwEcRE6DGvTQLSr8": {
+  "t": "2026-11-25",
+  "s": "http://www.moulindehamoul.com/",
+  "menu": "http://www.moulindehamoul.com/fr/nos-menus",
+  "booking": null
+ },
+ "osm-node-3780627367": {
+  "t": "2026-11-25",
+  "s": "https://www.dekwizien.be",
+  "menu": "https://www.dekwizien.be/menu",
+  "booking": null
+ },
+ "g-ChIJFVcqT-r7wkcRRA64GSwaY-c": {
+  "t": "2026-11-25",
+  "s": "https://lodace-restaurant.com/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJRdBNuaQ9wkcRSFouMYcdM4A": {
+  "t": "2026-11-25",
+  "s": "https://pizzeriadongiovanni.be/",
+  "menu": "https://pizzeriadongiovanni.be/menu.html",
+  "booking": null
+ },
+ "g-ChIJqfAIfNTGw0cR5hfBHIED2TU": {
+  "t": "2026-11-25",
+  "s": "http://www.plein12.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJC6o72NtVwkcR0JRdGW5XIa8": {
+  "t": "2026-11-25",
+  "s": "https://www.100patates.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJORoZNJc9wkcRrXth0JARYLw": {
+  "t": "2026-11-25",
+  "s": "https://restaurantbagu.be/",
+  "menu": "https://restaurantbagu.be/fr/menu/menu-2",
+  "booking": null
+ },
+ "g-ChIJK6Iyn-2gwUcR3WkAXjmxAfE": {
+  "t": "2026-11-25",
+  "s": "http://legoutdemapassion.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJr6Csvv_bw0cRsiKo3czEaH0": {
+  "t": "2026-11-25",
+  "s": "https://www.bistrobobo.com/",
+  "menu": "https://www.bistrobobo.com/index.php/menu-2/",
+  "booking": "https://bookings.zenchef.com/results?rid=380332"
+ },
+ "g-ChIJdze6GCGxwUcRhug1KyMfCQI": {
+  "t": "2026-11-25",
+  "s": "http://augredessaisons.net/",
+  "menu": "http://augredessaisons.net/notre-restaurant/notre-carte",
+  "booking": null
+ },
+ "g-ChIJny3Y6B2ZwUcRogZTM9i0Dqw": {
+  "t": "2026-11-25",
+  "s": "https://www.bebelgeetdailleurs.be/",
+  "menu": "https://bebelgeetdailleurs.be/menu/",
+  "booking": null
+ },
+ "g-ChIJxeXWD3VZwUcR63ocqUuQcP0": {
+  "t": "2026-11-25",
+  "s": "https://www.bistro-eugeen.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJ19siAAC9w0cR6Feny_iur7A": {
+  "t": "2026-11-25",
+  "s": "https://www.ralf-wolf.be/nl",
+  "menu": "https://www.ralf-wolf.be/nl/menu",
+  "booking": null
+ },
+ "g-ChIJW7_fLzVYwkcRph1MoZIXeiI": {
+  "t": "2026-11-25",
+  "s": "http://www.brasserieduborinage.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJn7r0wN81w0cRmdFFPCFtmgU": {
+  "t": "2026-11-25",
+  "s": "http://www.eethuisdesteeg.be/",
+  "menu": "http://www.eethuisdesteeg.be/onze-kaart",
+  "booking": null
+ },
+ "g-ChIJNeqPbh_Jw0cROFkJnsdtgYw": {
+  "t": "2026-11-25",
+  "s": "https://www.resto-simone.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJ61_2vGJRwkcR_2EMSQb_dNo": {
+  "t": "2026-11-25",
+  "s": "http://monbaratapas.com/",
+  "menu": "https://www.monbaratapas.com/suggestions-du-moment/",
+  "booking": null
+ },
+ "g-ChIJdzDl3nfVw0cRkpW_7SOodvk": {
+  "t": "2026-11-25",
+  "s": "https://www.limprevu-bw.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJNdlj_RPJw0cR8wVr0LpiCHY": {
+  "t": "2026-11-25",
+  "s": "http://bistro20.be/",
+  "menu": null,
+  "booking": null
+ },
+ "g-ChIJ--Wh0JvnwkcRJP72fd4PyRk": {
+  "t": "2026-11-25",
+  "s": "http://www.chezbeaujai.be/",
+  "menu": "https://www.chezbeaujai.be/les-promos-du-mois/",
+  "booking": null
+ },
+ "g-ChIJQbXhUU41w0cRLMA5J6rQP4A": {
+  "t": "2026-11-25",
+  "s": "http://www.bistroretrogrill.be/",
+  "menu": "https://bistroretrogrill.be/menu/",
+  "booking": null
+ },
+ "g-ChIJv8LYQ7d3wUcRZjV6LGQcNUI": {
+  "t": "2026-11-25",
+  "s": "http://www.lamiecale.be/",
+  "menu": "http://www.lamiecale.be/menu.html?v=20260904-07",
+  "booking": null
+ },
+ "g-ChIJBdZ1TxwZw0cRI1JpLG3puWk": {
+  "t": "2026-11-25",
+  "s": "http://www.chaletdesbruyeres.com/",
+  "menu": "http://www.chaletdesbruyeres.com/onewebmedia/Menukaart%202026%2004.pdf",
+  "booking": null
  }
 }
