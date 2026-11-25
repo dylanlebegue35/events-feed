@@ -2557,6 +2557,40 @@ SPONSORS_FILE = HERE / "sponsors.json"
 
 
 REFUSED_IMAGES_FILE = HERE / "images_refusees.json"
+CHOSEN_IMAGES_FILE = HERE / "images_choisies.json"
+
+
+def apply_chosen_images(events):
+    """Images choisies à la main et relues à l'œil (images_choisies.json) pour un événement précis, par son identifiant :
+    l'affiche officielle quand la source n'en donne pas, ou une meilleure quand la sienne est floue ou illisible (demande de
+    Dylan du 25/11/2026 : « une image chaque fois, l'original, pas une image de merde »). Seulement des adresses https
+    vers une photo (JPEG, PNG, WebP) : jamais de SVG (l'app ne l'affiche pas) ni de lien Facebook qui expire."""
+    try:
+        cfg = json.loads(CHOSEN_IMAGES_FILE.read_text(encoding="utf-8"))
+    except (OSError, ValueError) as ex:
+        REPORT.append({"source": "Images choisies à la main", "ok": False, "erreur": str(ex)[:120]})
+        return
+    chosen = cfg.get("images") if isinstance(cfg, dict) else None
+    if not isinstance(chosen, dict):
+        return
+    n = 0
+    for e in events:
+        c = chosen.get(e.get("id"))
+        url = c.get("image") if isinstance(c, dict) else c
+        if not isinstance(url, str) or len(url) > 2000:
+            continue
+        low = url.lower().split("?")[0]
+        if (not url.startswith("https://") or "fbcdn.net" in url or low.endswith(".svg")
+                or not re.search(r"\.(jpe?g|png|webp)$", low)):
+            continue
+        e["image"] = url
+        credit = c.get("credit") if isinstance(c, dict) else None
+        if isinstance(credit, str) and credit.strip():
+            e["image_credit"] = credit.strip()[:120]
+        else:
+            e.pop("image_credit", None)
+        n += 1
+    REPORT.append({"source": "Images choisies à la main", "ok": True, "appliquees": n})
 
 
 def drop_refused_images(events):
@@ -2644,6 +2678,7 @@ def main():
     # trouvée n'avait rien à voir (une chapelle pour un souper de foot, Bruxelles… au Canada, un coucou pour Forest National).
     # Une mauvaise image est pire qu'une image de catégorie. venue_photo reste utilisé pour les lieux (fiches vérifiées).
     drop_refused_images(uniq)
+    apply_chosen_images(uniq)                       # après le tri : une image choisie à la main passe avant tout
     try:
         build_places()
     except Exception as ex:

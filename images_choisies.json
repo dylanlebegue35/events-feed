@@ -1,0 +1,72 @@
+{
+ "_aide": "Images choisies à la main pour un événement précis (son identifiant), relues à l'œil : l'affiche officielle quand la source n'en donne pas, ou une meilleure quand la sienne est floue ou paraît vide. Règle de Dylan (25/11/2026) : une image chaque fois, l'original, jamais une image de catégorie ni celle d'un autre événement. Adresse https d'une photo JPEG, PNG ou WebP (copie dans posters/ de préférence). Appliqué par build_events.py après images_refusees.json.",
+ "images": {
+  "local-betch-soiree-jeux-de-societe-670": {
+   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/betch-soiree-jeux.jpg",
+   "source": "betch-lln.be (visuel officiel, SVG converti en JPEG)"
+  },
+  "local-betch-betch-brunch-special-st-nicolas-664": {
+   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/betch-brunch-saint-nicolas.jpg",
+   "source": "betch-lln.be (visuel officiel, SVG converti en JPEG)"
+  },
+  "local-betch-soiree-jeux-de-societe-671": {
+   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/betch-soiree-jeux.jpg",
+   "source": "betch-lln.be (visuel officiel, SVG converti en JPEG)"
+  },
+  "local-betch-soiree-jeux-de-societe-672": {
+   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/betch-soiree-jeux.jpg",
+   "source": "betch-lln.be (visuel officiel, SVG converti en JPEG)"
+  },
+  "local-betch-soiree-jeux-de-societe-682": {
+   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/betch-soiree-jeux.jpg",
+   "source": "betch-lln.be (visuel officiel, SVG converti en JPEG)"
+  },
+  "web-grand-curtius-li-ge-quand-paganini-rencontre-ysa-e-les-violons-des-diables-2026-": {
+   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/grand-curtius-paganini-portrait.jpg",
+   "credit": "Grand Curtius – Ville de Liège",
+   "source": "grandcurtius.be, photo de l'exposition (le visuel officiel, des silhouettes sur fond bleu, paraissait vide dans l'app)"
+  },
+  "fbx-1769891204156033": {
+   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/choisie-fbx-1769891204156033.jpg",
+   "source": "photo du lieu · https://blog.destinationbw.be/course-automobile-chez-exype"
+  },
+  "fbx-1131673009408662": {
+   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/choisie-fbx-1131673009408662.jpg",
+   "source": "photo du lieu · https://www.padeleventsclub.be"
+  },
+  "web-mars-mons-arts-de-la-sc-ne-c-ur-de-pirate-2026-11-29": {
+   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/choisie-web-mars-mons-arts-de-la-sc-ne-c-ur-de-pirate-2026-11-29.jpg",
+   "source": "photo de l'artiste · https://www.abconcerts.be/fr/agenda/coeur-de-pirate/a10Qw000003npFnIAI"
+  },
+  "fbx-1455553323370659": {
+   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/choisie-fbx-1455553323370659.jpg",
+   "source": "photo du lieu · https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_P%C3%A9ralta,_Angleur,_Li%C3%A8ge.jpg",
+   "credit": "Quentin Lowagie / Klow, CC BY 4.0 (Wikimedia Commons)"
+  },
+  "fb-4497923747159062": {
+   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/choisie-fb-4497923747159062.jpg",
+   "source": "visuel officiel · https://www.info-lux.com/?p=1731097"
+  },
+  "web-visithuy-no-l-au-ch-teau-ch-teau-springuel-huy-2026-12-04": {
+   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/choisie-web-visithuy-no-l-au-ch-teau-ch-teau-springuel-huy-2026-12-0.jpg",
+   "source": "affiche · https://www.visithuy.be/evenement/noel-au-chateau---chateau-springuel-huy/2015"
+  },
+  "fbx-4080380125597300": {
+   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/choisie-fbx-4080380125597300.jpg",
+   "source": "photo du lieu · https://commons.wikimedia.org/wiki/File:Palais_Curtius_Li%C3%A8ge_2017.jpg",
+   "credit": "Choinowski, CC BY-SA 4.0 (Wikimedia Commons)"
+  },
+  "fb-1066978859559436": {
+   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/choisie-fb-1066978859559436.jpg",
+   "source": "visuel officiel · https://www.montagne-en-scene.com"
+  },
+  "fb-1441578377843357": {
+   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/choisie-fb-1441578377843357.jpg",
+   "source": "visuel officiel · https://www.montagne-en-scene.com"
+  },
+  "fb-946643485096590": {
+   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/choisie-fb-946643485096590.jpg",
+   "source": "visuel officiel · https://www.info-lux.com/?p=1731097"
+  }
+ }
+}
