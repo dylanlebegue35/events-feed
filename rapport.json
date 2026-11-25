@@ -1,5 +1,5 @@
 {
-  "genere": "2026-11-25T00:34:17",
+  "genere": "2026-11-25T01:53:12",
   "sources": [
     {
       "source": "Reflektor (Liège)",
@@ -23,12 +23,8 @@
     },
     {
       "source": "Tourisme Spa",
-      "ok": true,
-      "page_caracteres": 5130,
-      "ia_a_trouve": 0,
-      "gardes": 0,
-      "ecartes": 0,
-      "extrait_reponse_ia": ""
+      "ok": false,
+      "erreur": "curl 28 pour https://www.visitspa.be"
     },
     {
       "source": "VisitHuy",
@@ -51,7 +47,7 @@
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 40960,
+      "page_caracteres": 40962,
       "ia_a_trouve": 121,
       "gardes": 121,
       "ecartes": 0,
@@ -88,8 +84,8 @@
       "source": "Pays de Herve",
       "ok": true,
       "page_caracteres": 12383,
-      "ia_a_trouve": 2,
-      "gardes": 0,
+      "ia_a_trouve": 3,
+      "gardes": 1,
       "ecartes": 2,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -111,8 +107,6 @@
       "ia_a_trouve": 12,
       "gardes": 8,
       "ecartes": 4,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -185,8 +179,6 @@
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -223,8 +215,6 @@
       "ia_a_trouve": 11,
       "gardes": 11,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -252,7 +242,7 @@
     {
       "source": "Pages des billetteries",
       "ok": true,
-      "pages_lues": 12,
+      "pages_lues": 1,
       "pages_lues_par_ia": 25
     },
     {
@@ -263,17 +253,17 @@
     {
       "source": "Restaurants OpenStreetMap",
       "ok": false,
-      "erreur": "villes gardées du passage précédent : Hasselt, Bruxelles, Namur, Mons, Louvain-la-Neuve, Verviers, Huy, Arlon, Tournai, Bruges, Charleroi"
+      "erreur": "villes gardées du passage précédent : Bruxelles, Namur, Mons, Verviers, Huy, Arlon, Tournai, Anvers, Gand, Louvain, Bruges, Charleroi, Louvain-la-Neuve"
     },
     {
       "source": "Google : notes des restos et bars",
       "ok": true,
       "erreur": null,
-      "lues": 136,
-      "lectures_du_mois": 255,
+      "lues": 108,
+      "lectures_du_mois": 363,
       "plafond": 2000,
-      "notes_publiees": 278,
-      "retires": 38,
+      "notes_publiees": 472,
+      "retires": 80,
       "exemples_retires": [
         "Ans palace (Liège) : 3.8",
         "Barev (Liège) : 3.6",
@@ -291,16 +281,16 @@
         "Le Wembley (Liège) : 3.9",
         "Royal Daring Club de Cointe (Liège) : 3.9"
       ],
-      "a_lire": 4551
+      "a_lire": 5954
     },
     {
       "source": "Restos : cartes et réservations",
       "ok": true,
       "sites_lus": 150,
-      "cartes": 701,
-      "reservations": 75
+      "cartes": 888,
+      "reservations": 106
     }
   ],
-  "avec_image": 1400,
-  "total": 2907
+  "avec_image": 2811,
+  "total": 2908
 }
