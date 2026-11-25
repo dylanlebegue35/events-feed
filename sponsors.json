@@ -1,4 +1,19 @@
 {
  "_aide": "Événements mis en avant (étiquette « Sponsorisé », en tête du fil, 2 au maximum). id = l'id de l'événement dans events.json ; jusqu_au = dernier jour de la mise en avant ; partenaire_fondateur = offert (promesse du 23/10/2026).",
- "sponsors": []
+ "sponsors": [
+  {
+   "id": "local-varia-le-mauvais-sort",
+   "jusqu_au": "2026-12-18",
+   "partenaire": "Théâtre Varia",
+   "partenaire_fondateur": true,
+   "note": "Offert (3 mois partenaires fondateurs). Ensuite : Les Trois sœurs (jusqu'au 29/01), Le Conseil des Méchants (19/02), La Voix humaine (2/04)."
+  },
+  {
+   "id": "local-betch-soiree-du-nouvel-an-676",
+   "jusqu_au": "2026-12-31",
+   "partenaire": "Betch",
+   "partenaire_fondateur": true,
+   "note": "Offert (3 mois partenaires fondateurs)."
+  }
+ ]
 }
