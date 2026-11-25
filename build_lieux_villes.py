@@ -75,13 +75,49 @@ OSM_KINDS = {
     ("amenity", "music_venue"): ("concert", "Salle de concert"),
     ("amenity", "theatre"): ("theatre", "Théâtre"),
     ("amenity", "karaoke_box"): ("karaoke", "Karaoké"),
+    # activités entre potes ajoutées le 25/11/2026 (« À faire autour », idée de Dylan) : cherchées dans toute la Belgique
+    ("sport", "10pin"): ("bowling", "Bowling"),
+    ("sport", "skydiving"): ("sky", "Chute libre en soufflerie"),
+    ("sport", "paintball"): ("paintball", "Paintball & airsoft"),
+    ("sport", "airsoft"): ("paintball", "Paintball & airsoft"),
+    ("sport", "axe_throwing"): ("axe", "Lancer de haches"),
+    ("leisure", "high_ropes_course"): ("adventure", "Accrobranche & luge d'été"),
+    ("sport", "climbing_adventure"): ("adventure", "Accrobranche & luge d'été"),
+    ("attraction", "summer_toboggan"): ("adventure", "Accrobranche & luge d'été"),
+    ("attraction", "alpine_coaster"): ("adventure", "Accrobranche & luge d'été"),
+    ("aerialway", "zip_line"): ("adventure", "Accrobranche & luge d'été"),
+    ("sport", "canoe"): ("kayak", "Kayak & bateaux"),
+    ("rental", "canoe"): ("kayak", "Kayak & bateaux"),
+    ("rental", "kayak"): ("kayak", "Kayak & bateaux"),
+    ("amenity", "boat_rental"): ("kayak", "Kayak & bateaux"),
+    ("sport", "water_ski"): ("wake", "Téléski nautique"),
+    ("sport", "wakeboarding"): ("wake", "Téléski nautique"),
+    ("landuse", "winter_sports"): ("ski", "Ski & luge"),
+    ("sport", "skiing"): ("ski", "Ski & luge"),
+    ("natural", "cave_entrance"): ("cave", "Grottes à visiter"),
+    ("sport", "footgolf"): ("minigolf", "Footgolf"),
 }
+# Ces activités-là sont cherchées en UNE fois dans toute la Belgique (pas seulement à 12 km des grandes villes), puis
+# rangées dans la grande ville la plus proche (à 12 km au plus) ou, sinon, dans la commune la plus proche (communes.json).
+ACT_KINDS = {"bowling", "escape", "karting", "laser", "trampoline", "climbing", "padel", "icerink", "billiards", "arcade",
+             "minigolf", "waterpark", "park", "zoo", "sky", "paintball", "axe", "adventure", "kayak", "wake", "ski", "cave"}
+# un club (membres seulement) n'est pas une sortie : kayak, ski nautique, paintball
+CLUB_NAME = re.compile(r"\bclub\b|royal|cercle|vereniging|\bkcc?\b|\bvzw\b|\basbl\b|kano|kajak ?club|kayak ?club|ski ?club|"
+                       r"school|ecole|organisatie", re.I)
+# padel : les salles de padel s'appellent souvent « Padel Club » (ouvertes à tous) ; les clubs de tennis, eux, sont pour leurs membres
+TENNIS_CLUB = re.compile(r"tennis ?club|tennisclub|\bk?t\.?c\.?(?=\s|$)|\bk?t\.?p\.?c\b|\bthc\b|hockey|maccabi|lawn|"
+                         r"royal|\bbc\b|billard club|bowling club|biljartclub|sport club", re.I)
+# fermes pour enfants, plaines de jeux, salles de jeux d'argent : pas une sortie entre potes
+KIDS_OR_BETS = re.compile(r"kinderboerderij|boerderij|hoeve|kippen|ferme p[ée]dagogique|asinerie|speel(dorp|tuin|park|plein)|"
+                          r"plaine de jeux|springkast|ladbrokes|napoleon ?games|betfirst|golden ?palace|circus|jackpot|"
+                          r"biblioth[eè]que|cafetaria", re.I)
 # tous les bars (OpenStreetMap) seulement dans ces villes, jusqu'à ce rayon (km) : ailleurs, les bars sont choisis à la main
 BAR_CITIES = {"Liège": 6.5}
 BAR_KINDS = {("amenity", "bar"): ("bar", "Bar"), ("amenity", "pub"): ("bar", "Bar"), ("amenity", "biergarten"): ("bar", "Bar")}
 IN_TOWN = {"museum", "theatre"}  # ces types-là : seulement « en ville » ; les autres : jusqu'à ACT_KM
 # sans site web : souvent privé, fermé ou minuscule
-NEEDS_SITE = {"padel", "sauna", "zoo", "park", "billiards", "club", "cinema", "concert", "theatre", "karaoke"}
+NEEDS_SITE = {"padel", "sauna", "zoo", "park", "billiards", "club", "cinema", "concert", "theatre", "karaoke",
+              "sky", "paintball", "axe", "adventure", "kayak", "wake", "ski", "cave"}
 # s'applique au texte « à plat » (sans accents ni caractères invisibles, voir _flat) : « Str<invisible>ip » ne passe pas
 SKIP_NAME = re.compile(r"casino|poker|paris sportifs|loto|prive|private|ecole|school|schule|lycee|athenee|institut|"
                        r"\bhotel\b(?! de ville)|fitness|basic.fit|kinesith|\bkine\b|thermes? de|(?<![a-z])sex|massage|"
@@ -144,6 +180,8 @@ def osm_city(name, lat, lon, town_km):
         return _cache[key]["elements"]
     stmts = []
     for (k, v), (kind, _) in OSM_KINDS.items():
+        if kind in ACT_KINDS:
+            continue             # cherchées une seule fois pour toute la Belgique (osm_belgium)
         r = town_km if kind in IN_TOWN else ACT_KM
         stmts.append(f'nwr(area.be)(around:{int(r * 1000)},{lat},{lon})["{k}"="{v}"];')
     if name in BAR_CITIES:
@@ -151,18 +189,69 @@ def osm_city(name, lat, lon, town_km):
             stmts.append(f'nwr(area.be)(around:{int(BAR_CITIES[name] * 1000)},{lat},{lon})["{k}"="{v}"];')
     q = '[out:json][timeout:170];area["ISO3166-1"="BE"][admin_level=2]->.be;(' + "".join(stmts) + ");out tags center;"
     last = None
+    vides = 0
     for url in OVERPASS:
         try:
             data = curl_json(url, q, tries=2)
-            if "elements" in data and (data["elements"] or not data.get("remark")):   # vide + remarque = délai dépassé
+            if "elements" in data and data["elements"] and not data.get("remark"):
+                _cache[key] = {"day": datetime.now().strftime("%Y-%m-%d"), "elements": data["elements"]}
+                save_cache()
+                return data["elements"]
+            # Réponse vide : un serveur à qui il manque la carte de la Belgique répond « 0 lieu » sans erreur
+            # (le 25/11, Hasselt, Ypres et Waterloo ont ainsi perdu tous leurs lieux). On essaie le serveur suivant.
+            if "elements" in data and not data["elements"] and not data.get("remark"):
+                vides += 1
+            last = data.get("remark") or "réponse vide"
+        except Exception as ex:
+            last = ex
+        time.sleep(15)
+    if vides == len(OVERPASS):
+        return []            # tous les serveurs disent « rien » : c'est vraiment vide
+    raise RuntimeError(f"OpenStreetMap indisponible pour {name} ({last})")
+
+
+def osm_belgium():
+    """Les activités entre potes de toute la Belgique, en une requête (une par jour au plus, gardée en cache)."""
+    key = "osm|Belgique|activites"
+    if key in _cache and _cache[key].get("day") == datetime.now().strftime("%Y-%m-%d"):
+        return _cache[key]["elements"]
+    # « sport=karting;10pin » : une valeur peut en contenir plusieurs, séparées par « ; »
+    stmts = "".join(f'nwr(area.be)["{k}"~"(^|;){v}(;|$)"]' + ('["tourism"]' if kind == "cave" else "") + ";"
+                    for (k, v), (kind, _) in OSM_KINDS.items() if kind in ACT_KINDS)      # grottes : seulement celles qu'on visite
+    q = '[out:json][timeout:600];area["ISO3166-1"="BE"][admin_level=2]->.be;(' + stmts + ");out tags center;"
+    last = None
+    for url in OVERPASS:
+        try:
+            data = curl_json(url, q, tries=2, timeout=660)
+            if "elements" in data and data["elements"] and not data.get("remark"):
                 _cache[key] = {"day": datetime.now().strftime("%Y-%m-%d"), "elements": data["elements"]}
                 save_cache()
                 return data["elements"]
             last = data.get("remark")
         except Exception as ex:
             last = ex
-        time.sleep(15)
-    raise RuntimeError(f"OpenStreetMap indisponible pour {name} ({last})")
+        time.sleep(30)
+    raise RuntimeError(f"OpenStreetMap indisponible pour la Belgique ({last})")
+
+
+def _tag(t, k, v):
+    """La valeur du tag k contient v (« sport=karting;10pin » contient « karting »)."""
+    return v in [x.strip() for x in str(t.get(k) or "").split(";")]
+
+
+_COMMUNES = None
+
+
+def nearest_commune(lat, lon, max_km=20):
+    global _COMMUNES
+    if _COMMUNES is None:
+        try:
+            _COMMUNES = [(c["nom"], c["lat"], c["lon"]) for c in json.loads((HERE / "communes.json").read_text())["communes"]
+                         if isinstance(c.get("nom"), str) and c.get("lat") is not None and c.get("lon") is not None]
+        except Exception:
+            _COMMUNES = []
+    best = min(_COMMUNES, key=lambda c: _km([lat, lon], [c[1], c[2]]), default=None)
+    return best[0] if best and _km([lat, lon], [best[1], best[2]]) <= max_km else None
 
 
 _FILLER = re.compile(r"\b(le|la|les|l|the|de|du|des|het|de|cafe|bar|pub|brasserie|taverne)\b")
@@ -187,12 +276,33 @@ def osm_address(t):
 
 def osm_places():
     out = {}
-    for name, lat, lon, town_km in CITIES:
-        try:
-            els = osm_city(name, lat, lon, town_km)
-        except Exception as ex:
-            print(f"  ! {name} : {ex}", file=sys.stderr)
-            continue
+    try:
+        belgique = osm_belgium()
+        print(f"  Belgique : {len(belgique)} activités OpenStreetMap à trier")
+    except Exception as ex:
+        print(f"  ! activités de toute la Belgique : {ex}", file=sys.stderr)
+        belgique = []
+    if not belgique:
+        raise RuntimeError("activités de toute la Belgique : pas de réponse d'OpenStreetMap, rien n'est écrit")
+    a_lire, rates = list(CITIES), []
+    for essai in range(3):                       # OpenStreetMap saturé : les villes ratées sont reprises après une pause
+        for c in a_lire:
+            try:
+                osm_city(*c)
+            except Exception as ex:
+                print(f"  ! {c[0]} : {ex}", file=sys.stderr)
+                rates.append(c)
+        if not rates:
+            break
+        a_lire, rates = rates, []
+        print(f"  {len(a_lire)} ville(s) à reprendre dans 3 minutes", file=sys.stderr)
+        time.sleep(180)
+    else:
+        if a_lire:
+            # sans ses lieux de ville, une ville perdrait ses bars, musées et clubs dans l'app : on n'écrit rien
+            raise RuntimeError("OpenStreetMap n'a pas répondu pour " + ", ".join(c[0] for c in a_lire) + " : rien n'est écrit, à relancer")
+    for name, lat, lon, town_km in CITIES + [("Belgique", None, None, 0)]:
+        els = belgique if name == "Belgique" else osm_city(name, lat, lon, town_km)    # déjà en cache
         n = 0
         for el in els:
             t = el.get("tags", {})
@@ -205,16 +315,30 @@ def osm_places():
                 continue
             if SCRIPTS.search(texts) or any(t.get(k) == v for (k, v) in NEVER_TAGS):
                 continue             # alphabet mélangé (lettres déguisées) ou lieu pour adultes
-            kind = next((OSM_KINDS[(k, v)] for (k, v) in OSM_KINDS if t.get(k) == v), None)
+            kind = next((OSM_KINDS[(k, v)] for (k, v) in OSM_KINDS if (_tag(t, k, v) if OSM_KINDS[(k, v)][0] in ACT_KINDS
+                                                                        else t.get(k) == v)), None)
             if not kind and name in BAR_CITIES:
                 kind = next((BAR_KINDS[(k, v)] for (k, v) in BAR_KINDS if t.get(k) == v), None)
-            if not kind:
-                continue
+            if not kind or (name == "Belgique") != (kind[0] in ACT_KINDS):
+                continue             # chaque lieu vient d'une seule requête : activités (Belgique) ou lieux de ville
             if kind[0] == "sauna" and (t.get("lgbtq") in ("primary", "only") or t.get("male") == "only"
                                        or t.get("nudism") == "obligatory" or SAUNA_SKIP.search(_flat(texts))):
                 continue             # saunas pour adultes (lieux de rencontre) : pas pour une app dès 16 ans
             if t.get("disused") or t.get("abandoned") or "disused:amenity" in t:
                 continue
+            if kind[0] in ("kayak", "wake", "paintball", "ski") and CLUB_NAME.search(_flat(texts)):
+                continue             # club réservé aux membres
+            # padel : on ne lit que le nom (« Tero Padel Club Louise » est ouvert à tous, même hébergé par un « Royal Tennis Club »)
+            club_txt = _flat(t.get("name") or "") if kind[0] == "padel" and "padel" in _flat(t.get("name") or "") else _flat(texts)
+            if kind[0] in ("padel", "billiards", "bowling", "climbing") and TENNIS_CLUB.search(club_txt):
+                continue             # club de tennis, de billard ou de bowling : pour ses membres
+            bets = KIDS_OR_BETS.search(_flat(texts)) if name == "Belgique" else None
+            if bets and not (bets.group(0) == "circus" and kind[0] == "bowling"):
+                continue             # ferme pour enfants, plaine de jeux, salle de jeux d'argent (un « Circus Bowling » reste un bowling)
+            if kind[0] == "cave" and t.get("tourism") not in ("attraction", "museum") and t.get("fee") not in ("yes",):
+                continue             # un trou dans un bois n'est pas une visite : seulement les grottes qu'on visite
+            if kind[0] == "ski" and t.get("landuse") != "winter_sports" and t.get("leisure") not in ("sports_centre",):
+                continue             # une piste de fond dans un champ n'est pas une sortie : stations et pistes couvertes
             if kind[0] == "climbing" and not (t.get("leisure") in ("sports_centre", "fitness_centre")
                                               or t.get("indoor") == "yes" or "building" in t):
                 continue             # un rocher n'est pas une sortie en ville : seulement les salles
@@ -226,6 +350,10 @@ def osm_places():
             if kind[0] in NEEDS_SITE and not site:
                 continue
             city, _ = nearest_city(plat, plon, max_km=ACT_KM + 1)
+            if name == "Belgique" and not city:
+                city = nearest_commune(plat, plon) or t.get("addr:city")
+                if not city:
+                    continue
             pid = f"osm-{el['type']}-{el['id']}"
             review = kind[0] not in NEEDS_REVIEW and kind[0] != "sauna" and any(t.get(k) == v for (k, v) in REVIEW_TAGS)
             out[pid] = {"_review": review,
