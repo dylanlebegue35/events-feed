@@ -1,12 +1,110 @@
 {
-"details_mois": 119,
+"details_mois": 255,
 "lieux": {
+"g-ChIJ6XQMtw_6wEcRiRV5jPhIiNQ": {
+"g": "ChIJ6XQMtw_6wEcRiRV5jPhIiNQ",
+"n": 363,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"g-ChIJGeU9crbxwEcRAYUTH7AK38w": {
+"g": "ChIJGeU9crbxwEcRAYUTH7AK38w",
+"n": 303,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"g-ChIJMwSFFgz6wEcR9JGLWhNW3vo": {
+"g": "ChIJMwSFFgz6wEcR9JGLWhNW3vo",
+"n": 1376,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"g-ChIJOSJp6jmzq4wR_DaOe4eL-vc": {
+"g": "ChIJOSJp6jmzq4wR_DaOe4eL-vc",
+"n": 216,
+"r": 5.0,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"g-ChIJSZ7Thgz6wEcRzajMdju1lII": {
+"g": "ChIJSZ7Thgz6wEcRzajMdju1lII",
+"n": 3111,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"g-ChIJYRFK4Tv7wEcRlGTw2kUBn4A": {
+"g": "ChIJYRFK4Tv7wEcRlGTw2kUBn4A",
+"n": 454,
+"r": 4.9,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"g-ChIJe7CF7w_6wEcRxj-FjFel3N0": {
+"g": "ChIJe7CF7w_6wEcRxj-FjFel3N0",
+"n": 246,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"g-ChIJi-XVTRz6wEcRthib6dR8jFM": {
+"g": "ChIJi-XVTRz6wEcRthib6dR8jFM",
+"n": 1063,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"g-ChIJo9QZfmX7wEcRRGgNzgQWNXc": {
+"g": "ChIJo9QZfmX7wEcRRGgNzgQWNXc",
+"n": 1190,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"g-ChIJs8TcSAD7wEcRCp4a8kjk4mY": {
+"g": "ChIJs8TcSAD7wEcRCp4a8kjk4mY",
+"n": 319,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-10090607951": {
+"g": "ChIJDbU3ddv7wEcRdWknm1oLacE",
+"n": 82,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-10147750420": {
+"g": "ChIJ3RwYIPj5wEcRi0jCW1jLAug",
+"n": 696,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-10244941152": {
+"g": "ChIJ4V9hRwX6wEcRFOVHA3yU6NU",
+"n": 381,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
 "osm-node-10250886790": {
 "g": "ChIJe2-vht77wEcRJWiK5odvVT0",
 "n": 218,
 "r": 4.7,
 "s": "OPERATIONAL",
 "t": "2026-11-24"
+},
+"osm-node-10285874704": {
+"g": "ChIJLX-vJcX7wEcRlnlA40zUAeU",
+"n": 246,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
 },
 "osm-node-10883607137": {
 "g": "ChIJfXUi2qbwwEcR0JhWfpKoPmY",
@@ -36,6 +134,27 @@
 "s": "OPERATIONAL",
 "t": "2026-11-24"
 },
+"osm-node-11221207087": {
+"g": "ChIJnQ_AFBz7wEcRlQbGz3kwiyU",
+"n": 292,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1137344637": {
+"g": "ChIJfbwzOrT7wEcRCKXa7BXO2gM",
+"n": 1851,
+"r": 3.8,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1139534300": {
+"g": "ChIJ7VMoodX5wEcRoiRMqgq_JA8",
+"n": 1295,
+"r": 3.8,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
 "osm-node-11483042814": {
 "g": "ChIJ-RRJjPf5wEcRIxe4K8oB2PE",
 "n": 388,
@@ -64,12 +183,30 @@
 "s": "OPERATIONAL",
 "t": "2026-11-24"
 },
+"osm-node-11601934987": {
+"g": null,
+"t": "2026-11-25"
+},
 "osm-node-11633899266": {
 "g": "ChIJQexJdVfwwEcREYYCYufjgz8",
 "n": 9,
 "r": 4.9,
 "s": "OPERATIONAL",
 "t": "2026-11-24"
+},
+"osm-node-11702287048": {
+"g": "ChIJP5GTM737wEcR63BEsBJiIMw",
+"n": 356,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-11787083457": {
+"g": "ChIJ3-OEdqDwwEcRf2lZ0Bt5d40",
+"n": 240,
+"r": 4.1,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
 },
 "osm-node-1187639168": {
 "g": "ChIJq3fauwf6wEcRCXOtVXIa1Bc",
@@ -124,12 +261,33 @@
 "s": "OPERATIONAL",
 "t": "2026-11-24"
 },
+"osm-node-12473993201": {
+"g": "ChIJha0z-Rv7wEcRICN4-HOG-4c",
+"n": 353,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
 "osm-node-12766440600": {
 "g": "ChIJt72NKA_6wEcRdbV_O301v50",
 "n": 723,
 "r": 4.2,
 "s": "CLOSED_TEMPORARILY",
 "t": "2026-11-24"
+},
+"osm-node-1284205216": {
+"g": "ChIJBzttHwz6wEcRilJLI-pZnd0",
+"n": 3505,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-12871902429": {
+"g": "ChIJ0xQIL2j5wEcRKBRsdgiR-DY",
+"n": 261,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
 },
 "osm-node-12995555900": {
 "g": "ChIJyZNRCPL7wEcRJNQX_MDZhbg",
@@ -163,6 +321,20 @@
 "s": "OPERATIONAL",
 "t": "2026-11-24"
 },
+"osm-node-13196681802": {
+"g": "ChIJFT_rYBv6wEcREAu_j18TuUA",
+"n": 553,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-13206767701": {
+"g": "ChIJLZQWqLj7wEcR6MIJmDWIq_g",
+"n": 244,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
 "osm-node-13258200868": {
 "g": "ChIJSf4oWgn6wEcRn6bXebVm4_g",
 "n": 4,
@@ -177,6 +349,10 @@
 "s": "OPERATIONAL",
 "t": "2026-11-24"
 },
+"osm-node-1356966258": {
+"g": null,
+"t": "2026-11-25"
+},
 "osm-node-13706786854": {
 "g": "ChIJdVtpxQj6wEcRoN1AQm0pwnM",
 "s": "",
@@ -186,12 +362,33 @@
 "g": null,
 "t": "2026-11-24"
 },
+"osm-node-13781117162": {
+"g": "ChIJvegtRgD7wEcRGEaVQZFE16k",
+"n": 281,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
 "osm-node-13835549701": {
 "g": "ChIJ5_7sYQ76wEcRRJd7Juo2fmE",
 "n": 107,
 "r": 3.4,
 "s": "OPERATIONAL",
 "t": "2026-11-24"
+},
+"osm-node-13860567067": {
+"g": "ChIJvV4eb377wEcR6J0G9d2srDk",
+"n": 32,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-13912762401": {
+"g": "ChIJRSihGWH7wEcRVwR8ryMO4Ic",
+"n": 100,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
 },
 "osm-node-13914438945": {
 "g": "ChIJAT-HftL7wEcRwJEv-Wc-9Xc",
@@ -232,6 +429,41 @@
 "s": "OPERATIONAL",
 "t": "2026-11-24"
 },
+"osm-node-1408391849": {
+"g": "ChIJzQDqQKDwwEcR_nj0mShvPs8",
+"n": 328,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1408543307": {
+"g": "ChIJrWID4wr6wEcRFH0ADxA36Z4",
+"n": 28,
+"r": 4.5,
+"s": "CLOSED_TEMPORARILY",
+"t": "2026-11-25"
+},
+"osm-node-1408543402": {
+"g": "ChIJmTZHkg76wEcRQIwW7rsrTzA",
+"n": 244,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1409582014": {
+"g": "ChIJ0YHOgAv6wEcRbL9-74Xtft4",
+"n": 349,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-14245259135": {
+"g": "ChIJb2_DIlP3wEcRtv_AMdyxGcQ",
+"n": 480,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
 "osm-node-14245268882": {
 "g": "ChIJuasTPqrwwEcRgRAWNIllsnw",
 "n": 49,
@@ -243,9 +475,45 @@
 "g": null,
 "t": "2026-11-24"
 },
+"osm-node-1542279034": {
+"g": "ChIJV57vJCT3wEcR9lBp2GXczcU",
+"n": 509,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1558460711": {
+"g": null,
+"t": "2026-11-25"
+},
+"osm-node-1558460787": {
+"g": "ChIJ7eCx8efxwEcRcsrYShcGVbg",
+"n": 12,
+"r": 3.3,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
 "osm-node-1558460952": {
 "g": null,
 "t": "2026-11-24"
+},
+"osm-node-1567928542": {
+"g": "ChIJNQckm_z5wEcRxrNIRh9h1SQ",
+"n": 882,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1575112143": {
+"g": null,
+"t": "2026-11-25"
+},
+"osm-node-1600542071": {
+"g": "ChIJuedMvE7wwEcR1DkPOexHofQ",
+"n": 1334,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
 },
 "osm-node-1606502447": {
 "g": "ChIJCxV8bODwwEcRSvGdyrZ7jU8",
@@ -258,9 +526,84 @@
 "g": null,
 "t": "2026-11-24"
 },
+"osm-node-1642165719": {
+"g": "ChIJS5SbP3n3wEcRk4R49AGAnlQ",
+"n": 907,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1642165751": {
+"g": "ChIJBcWsPAD3wEcRP-OntKY2O0E",
+"n": 209,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1642165780": {
+"g": "ChIJbW2G_Aj3wEcROcHGyT5mQxw",
+"n": 520,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1642165923": {
+"g": "ChIJfYluiQ73wEcRoLTU_QWN7_A",
+"n": 980,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1682510328": {
+"g": "ChIJBXQEx0T3wEcRg6AK8Qqp9H4",
+"n": 1392,
+"r": 3.9,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1682510331": {
+"g": "ChIJPR0KoUT3wEcRe5hKfSNVBHY",
+"n": 99,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1722117294": {
+"g": null,
+"t": "2026-11-25"
+},
+"osm-node-1722117304": {
+"g": "ChIJL2G0LbH7wEcRbdap99a9n4I",
+"n": 442,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1781515874": {
+"g": null,
+"t": "2026-11-25"
+},
 "osm-node-1781525946": {
 "g": null,
 "t": "2026-11-24"
+},
+"osm-node-1783418491": {
+"g": "ChIJcd4o-gv6wEcRAy3-4a2kCVA",
+"n": 252,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1783418498": {
+"g": "ChIJ1fzw-Qv6wEcROK43tTfHYXQ",
+"n": 579,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1783418515": {
+"g": null,
+"t": "2026-11-25"
 },
 "osm-node-1783424467": {
 "g": "ChIJV0wlrwv6wEcRMC37hCkp9Gc",
@@ -269,12 +612,167 @@
 "s": "OPERATIONAL",
 "t": "2026-11-24"
 },
+"osm-node-1783424498": {
+"g": "ChIJc-fIrgv6wEcRAII-sS_h4vU",
+"n": 448,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1794747120": {
+"g": "ChIJsR-EyxH6wEcR4EHw1fD3rXc",
+"n": 721,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1794776278": {
+"g": "ChIJpZPibAP6wEcRnnNXKbAh9uY",
+"n": 1304,
+"r": 3.9,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1796186518": {
+"g": "ChIJy0nOCQr5wEcRFFn85oaJKns",
+"n": 171,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1805986866": {
+"g": "ChIJV34WKkP7wEcRW_o7dK7kg14",
+"n": 105,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1807666464": {
+"g": "ChIJwymHvQ76wEcRHLCvTYJMgt0",
+"n": 641,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1808608835": {
+"g": "ChIJv_K69wv6wEcRX5HRAi7GQK0",
+"n": 29,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1808608866": {
+"g": "ChIJFd7OEwz6wEcRkIF9pdQG-hA",
+"n": 444,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1808608879": {
+"g": "ChIJHX6cPQz6wEcRbNh6Uyy_Qp4",
+"n": 1339,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
 "osm-node-1808629779": {
 "g": "ChIJPUQqdI_7wEcRi2vNqNsN2j0",
 "n": 103,
 "r": 4.8,
 "s": "OPERATIONAL",
 "t": "2026-11-24"
+},
+"osm-node-1808634576": {
+"g": "ChIJm9duvQ76wEcRPMA4bv56flM",
+"n": 194,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1808638106": {
+"g": "ChIJs-43Egz6wEcRrwcBDb_vWh4",
+"n": 188,
+"r": 4.0,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1808642600": {
+"g": "ChIJyymklA76wEcR1EkZbTcytLc",
+"n": 939,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1808648440": {
+"g": "ChIJVYPW0mf7wEcRibP7ymqViB8",
+"n": 45,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1813671074": {
+"g": "ChIJrYwz5kv7wEcRx3LeMN2ukwI",
+"n": 272,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1813682619": {
+"g": null,
+"t": "2026-11-25"
+},
+"osm-node-1813682629": {
+"g": "ChIJY0eqkw76wEcRxjZwiQiZg2g",
+"n": 437,
+"r": 3.9,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1819246908": {
+"g": "ChIJAyGQLRD6wEcRSniK-HVViUc",
+"n": 181,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1819246923": {
+"g": "ChIJzXUv1RH6wEcRTXLHh2QkE4M",
+"n": 563,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1819246975": {
+"g": null,
+"t": "2026-11-25"
+},
+"osm-node-1879896664": {
+"g": "ChIJA7RNfLPxwEcRggEeUOri9YE",
+"n": 145,
+"r": 5.0,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1888049001": {
+"g": "ChIJW1kX-PjwwEcRYyHIELZWixc",
+"n": 1306,
+"r": 3.8,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1889611534": {
+"g": "ChIJt2ufMf_wwEcRJMQ-TgriQfo",
+"n": 356,
+"r": 4.0,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1889611580": {
+"g": "ChIJKyz4Of_wwEcRmiZGJCgWmO8",
+"n": 281,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
 },
 "osm-node-1890309570": {
 "g": null,
@@ -283,6 +781,13 @@
 "osm-node-1891757469": {
 "g": null,
 "t": "2026-11-24"
+},
+"osm-node-1891757491": {
+"g": "ChIJMwH9-_jwwEcR33KJCT4hPtg",
+"n": 285,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
 },
 "osm-node-1891757512": {
 "g": "ChIJ2_fyoCDxwEcRqz4GnYND100",
@@ -298,6 +803,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-24"
 },
+"osm-node-1946551594": {
+"g": "ChIJha-bFw_6wEcRiahahhMkqz4",
+"n": 459,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
 "osm-node-1952381482": {
 "g": "ChIJ730likn6wEcRNOn8T46bdlg",
 "n": 26,
@@ -311,6 +823,13 @@
 "r": 4.4,
 "s": "OPERATIONAL",
 "t": "2026-11-24"
+},
+"osm-node-1954715996": {
+"g": "ChIJe7CF7w_6wEcRQLny8DoG6As",
+"n": 1132,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
 },
 "osm-node-1954715999": {
 "g": "ChIJE83p5Q_6wEcRSzLojRp_p3k",
@@ -333,6 +852,45 @@
 "s": "OPERATIONAL",
 "t": "2026-11-24"
 },
+"osm-node-1985948428": {
+"g": null,
+"t": "2026-11-25"
+},
+"osm-node-1988587621": {
+"g": "ChIJv4D_cujwwEcR3FcZNFvoxH0",
+"n": 109,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1988830630": {
+"g": "ChIJY9E6gr7wwEcRX0qbpL5YcJ4",
+"n": 661,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1988888125": {
+"g": "ChIJ5UZGw6jwwEcR7S63nd3D9qg",
+"n": 57,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1989890233": {
+"g": "ChIJuRn8Yg_6wEcR4K01Z-jaDxg",
+"n": 331,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1990707402": {
+"g": "ChIJueoWjwX6wEcR4yK1TuxrP3o",
+"n": 140,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
 "osm-node-2004989416": {
 "g": null,
 "t": "2026-11-24"
@@ -340,6 +898,36 @@
 "osm-node-2004997141": {
 "g": null,
 "t": "2026-11-24"
+},
+"osm-node-2005131453": {
+"g": "ChIJHbpyDxD6wEcRXZAsF2eJv-Y",
+"n": 2152,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-2005131455": {
+"g": null,
+"t": "2026-11-25"
+},
+"osm-node-2005131458": {
+"g": "ChIJUeb_GxD6wEcRd6kwxRuDNmc",
+"n": 1286,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-2006345855": {
+"g": "ChIJrfd36eP7wEcR1b8odVlCBLo",
+"s": "CLOSED_PERMANENTLY",
+"t": "2026-11-25"
+},
+"osm-node-2014967665": {
+"g": "ChIJocF02w_6wEcRNq6te51nsLg",
+"n": 255,
+"r": 4.1,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
 },
 "osm-node-2122732984": {
 "g": null,
@@ -391,6 +979,45 @@
 "s": "OPERATIONAL",
 "t": "2026-11-24"
 },
+"osm-node-2178469358": {
+"g": "ChIJ7eYSnQ_6wEcRH5n4LxlIGIg",
+"n": 516,
+"r": 3.9,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-2178469359": {
+"g": "ChIJMdYOvB77wEcRTr4whC-YZSw",
+"n": 66,
+"r": 5.0,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-2178696622": {
+"g": "ChIJ43x0zBr6wEcRvKBzW7CcDT4",
+"n": 314,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-2178696624": {
+"g": null,
+"t": "2026-11-25"
+},
+"osm-node-2178792936": {
+"g": "ChIJ6e1FNc37wEcRslCGsAvIGoE",
+"n": 40,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-2203039737": {
+"g": "ChIJXWeZW1P3wEcRpKjdyVnBXSw",
+"n": 1704,
+"r": 3.8,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
 "osm-node-2308459057": {
 "g": "ChIJfSVJgwr6wEcR5iHw0QlJphw",
 "n": 20,
@@ -398,9 +1025,55 @@
 "s": "OPERATIONAL",
 "t": "2026-11-24"
 },
+"osm-node-2314279952": {
+"g": "ChIJX8bO2MvxwEcRW_ESBS8DRZA",
+"n": 22,
+"r": 5.0,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
 "osm-node-2326023517": {
 "g": null,
 "t": "2026-11-24"
+},
+"osm-node-2326027552": {
+"g": "ChIJ8cciWQj6wEcROm3S_1_arVU",
+"n": 57,
+"r": 4.0,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-2400729095": {
+"g": "ChIJp-DJXA_6wEcRygWV84_6PV0",
+"n": 702,
+"r": 4.1,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-2404848601": {
+"g": null,
+"t": "2026-11-25"
+},
+"osm-node-2404859634": {
+"g": "ChIJ-8sBjkP5wEcRFZH5vJcNbJs",
+"n": 698,
+"r": 3.9,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-2452027499": {
+"g": "ChIJZXdbXKfwwEcRsgtqkdsMtw4",
+"n": 489,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-2477693308": {
+"g": "ChIJrYbNqnrxwEcRO0MK4h17D1g",
+"n": 148,
+"r": 4.1,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
 },
 "osm-node-2504235006": {
 "g": null,
@@ -467,6 +1140,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-24"
 },
+"osm-node-5461200757": {
+"g": "ChIJ8ZugNA76wEcReCbwlAjHR7w",
+"n": 721,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
 "osm-node-5543607353": {
 "g": "ChIJ27dIRBD6wEcRQTwfPYZZTxc",
 "s": "CLOSED_PERMANENTLY",
@@ -486,6 +1166,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-24"
 },
+"osm-node-5615934743": {
+"g": "ChIJNZw6egX6wEcRPdTRphI2vX8",
+"n": 438,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
 "osm-node-5767910423": {
 "g": "ChIJs5-bB177wEcRzLxHTG8Yf5s",
 "n": 67,
@@ -500,6 +1187,20 @@
 "s": "OPERATIONAL",
 "t": "2026-11-24"
 },
+"osm-node-6128128186": {
+"g": "ChIJhZgi5ff7wEcRn-kJ47_qOeU",
+"n": 300,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-616056852": {
+"g": "ChIJSRLF1PD5wEcR3svhbShHVqs",
+"n": 144,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
 "osm-node-616057025": {
 "g": "ChIJNbs49ov5wEcR7NG6dFRh0Qs",
 "n": 661,
@@ -507,12 +1208,26 @@
 "s": "OPERATIONAL",
 "t": "2026-11-24"
 },
+"osm-node-616060286": {
+"g": "ChIJE3UYB__5wEcRbq-WOXYqPYI",
+"n": 526,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
 "osm-node-6255383087": {
 "g": "ChIJPZwvZnj7wEcRgArSuOae8hU",
 "n": 27,
 "r": 4.4,
 "s": "OPERATIONAL",
 "t": "2026-11-24"
+},
+"osm-node-6276329844": {
+"g": "ChIJK3Ge2AL6wEcR2hX6vjoKifY",
+"n": 1033,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
 },
 "osm-node-6354938665": {
 "g": "ChIJCU7Wd_z5wEcR1B_4tOOV1sk",
@@ -541,6 +1256,13 @@
 "r": 4.0,
 "s": "OPERATIONAL",
 "t": "2026-11-24"
+},
+"osm-node-725433985": {
+"g": "ChIJVZYpAKj7wEcRJsofTE92qRs",
+"n": 1348,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
 },
 "osm-node-8154713158": {
 "g": "ChIJ59bYHQj6wEcREqUqB7irhzU",
@@ -595,6 +1317,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-24"
 },
+"osm-node-9529013089": {
+"g": "ChIJHc77cQD7wEcRYYJ102V6_qI",
+"n": 264,
+"r": 4.9,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
 "osm-node-9631402689": {
 "g": null,
 "t": "2026-11-24"
@@ -603,12 +1332,33 @@
 "g": null,
 "t": "2026-11-24"
 },
+"osm-way-1028891432": {
+"g": "ChIJ0xIxq1b5wEcROGrPviyFyNM",
+"n": 689,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
 "osm-way-1031104124": {
 "g": "ChIJEzV5XOj7wEcR3C_rYTnfzDg",
 "n": 45,
 "r": 4.2,
 "s": "OPERATIONAL",
 "t": "2026-11-24"
+},
+"osm-way-1031561784": {
+"g": "ChIJ5Z0u0w38wEcRYbqQGzHiO0Y",
+"n": 221,
+"r": 3.9,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-way-1031606109": {
+"g": "ChIJR6fmJ9H9wEcRkS4ip8d7iSc",
+"n": 296,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
 },
 "osm-way-108195149": {
 "g": "ChIJ46OVFFH3wEcRVI6STDcxeps",
@@ -635,6 +1385,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-24"
 },
+"osm-way-113754957": {
+"g": "ChIJ8Z73Egz6wEcRTjkBc1t2nME",
+"n": 308,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
 "osm-way-113806815": {
 "g": "ChIJk2a8bwz6wEcRofuHmlAkPus",
 "n": 219,
@@ -653,6 +1410,34 @@
 "g": null,
 "t": "2026-11-24"
 },
+"osm-way-118910436": {
+"g": "ChIJp4YYEQz6wEcRCoyBOkP-ofQ",
+"n": 827,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-way-119021036": {
+"g": "ChIJwZ1EOwz6wEcRnARqXA-TydA",
+"n": 1092,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-way-169318002": {
+"g": "ChIJU1AyuQL6wEcRZImJSbqmhz0",
+"n": 402,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-way-169824903": {
+"g": "ChIJpadOVxD6wEcR89oIwHT5V_4",
+"n": 1491,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
 "osm-way-170318695": {
 "g": "ChIJK34bVQn6wEcRothGoVx5eXI",
 "n": 516,
@@ -660,9 +1445,23 @@
 "s": "OPERATIONAL",
 "t": "2026-11-24"
 },
+"osm-way-170724944": {
+"g": "ChIJqQdqOBD6wEcRjiqUtHoB5ZY",
+"n": 1592,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
 "osm-way-184885274": {
 "g": null,
 "t": "2026-11-24"
+},
+"osm-way-200485589": {
+"g": "ChIJD4cMRBD6wEcRyayWJLoCBwo",
+"n": 715,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
 },
 "osm-way-200485593": {
 "g": "ChIJKYQwRRD6wEcRSl9uNiYxSBE",
@@ -691,6 +1490,13 @@
 "r": 3.9,
 "s": "OPERATIONAL",
 "t": "2026-11-24"
+},
+"osm-way-223383792": {
+"g": "ChIJ5_wJJrXwwEcR-xwuP2R8N9c",
+"n": 20,
+"r": 3.8,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
 },
 "osm-way-244335571": {
 "g": null,
@@ -722,6 +1528,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-24"
 },
+"osm-way-389369273": {
+"g": "ChIJqU9tIRL6wEcR1ZOnzTpHMb4",
+"n": 767,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
 "osm-way-406435391": {
 "g": "ChIJcY7_Q7T7wEcRcnWADKVb6mQ",
 "n": 16,
@@ -735,6 +1548,13 @@
 "r": 4.3,
 "s": "OPERATIONAL",
 "t": "2026-11-24"
+},
+"osm-way-584858577": {
+"g": "ChIJvyIWY9X7wEcRxjXRkPBQjZ0",
+"n": 64,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
 },
 "osm-way-779428336": {
 "g": "ChIJmct7mxL5wEcRhLr-RqX8nl4",
@@ -778,6 +1598,13 @@
 "r": 4.2,
 "s": "OPERATIONAL",
 "t": "2026-11-24"
+},
+"osm-way-795453183": {
+"g": "ChIJ4_CHBvj5wEcRO1wVh7RHy_U",
+"n": 228,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
 },
 "osm-way-842073853": {
 "g": "ChIJo2AnforwwEcR6t34iCUEiI0",
@@ -950,5 +1777,5 @@
 }
 },
 "mois": "2026-11",
-"recherches_mois": 138
+"recherches_mois": 226
 }

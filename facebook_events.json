@@ -2836,29 +2836,6 @@
    "classified": true
   },
   {
-   "id": "fb-1147850851438740",
-   "title": "Soirée Movember",
-   "category": "talks",
-   "venue": "Chaussée de Louvain 226, 5004",
-   "city": "Namur",
-   "lat": 50.4747,
-   "lon": 4.87404,
-   "start": "2026-11-24T19:00:00",
-   "end": "2026-11-24T22:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1147850851438740.jpg",
-   "page_url": "https://www.facebook.com/events/1147850851438740/",
-   "url": "https://www.facebook.com/events/1147850851438740/",
-   "summary": "La section MR de Namur participe à l'action Movember en organisant une soirée de sensoibilisation et de débat autour de la thématique des cancers masculins. Des professionnels de la santé seront présent pour animer les débats. Le bar sera ensuite ouvert pour prolonger les conversations. Une partie d",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1153141633855196",
    "title": "Soirée salsa bachata",
    "category": "party",
@@ -2922,29 +2899,6 @@
    "free": null,
    "audience": [
     "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-29475386532057557",
-   "title": "🌴 LA VILLA 💋 La soirée célibataires",
-   "category": "party",
-   "venue": "Place du marché aux herbes 24, Mons, Belgique",
-   "city": "Mons",
-   "lat": 50.45284,
-   "lon": 3.95259,
-   "start": "2026-11-24T21:00:00",
-   "end": "2026-11-24T23:55:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-29475386532057557.jpg",
-   "page_url": "https://www.facebook.com/events/29475386532057557/",
-   "url": "https://www.facebook.com/events/29475386532057557/",
-   "summary": "🌴 LA VILLA 💋 La soirée célibataires du The Play Tous les mardis, viens faire la fête à La Villa : une soirée placée sous le signe des rencontres, du flirt et des bonnes vibes… Qui sait, tu repartiras peut-être accompagné(e) 😉✨ 🍸 Promo pour les filles Un Lipstick ou un Porn Star acheté = le deuxième ",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "young"
    ],
    "tags": [],
    "source": "Facebook (événement public)",
@@ -3055,29 +3009,6 @@
    "price_from": null,
    "free": null,
    "audience": [],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-4680016298899522",
-   "title": "Cours de Yoga à Louvain-la-Neuve",
-   "category": "wellness",
-   "venue": "Porte de Lauzelle, rue des Mespelliers, 2 à Louvain-La-Neuve",
-   "city": "Louvain-la-Neuve",
-   "lat": 50.67397,
-   "lon": 4.61771,
-   "start": "2026-11-24T11:00:00",
-   "end": "2026-11-24T14:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-4680016298899522.jpg",
-   "page_url": "https://www.facebook.com/events/4680016298899522/",
-   "url": "https://www.facebook.com/events/4680016298899522/",
-   "summary": "Des cours de yoga (viniyoga) ajustés à vos possibilités du moment. Chaque mardi de 11h00 à 12h00 à Louvain-la-Neuve Vivre les postures à son rythme, à l'écoute de son corps. Laisser libre cours à la respiration, aux mouvements. Nourrir ancrage et fluidité, tonicité et détente., équilibre. Poser le m",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
    "tags": [],
    "source": "Facebook (événement public)",
    "classified": true
