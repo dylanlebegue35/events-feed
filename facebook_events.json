@@ -2342,29 +2342,6 @@
    "classified": true
   },
   {
-   "id": "fb-1300313785440829",
-   "title": "Par.Sek en concert à La Maison Poème, Bruxelles (BE)",
-   "category": "concert",
-   "venue": "Maison poème",
-   "city": "Sint Gillis",
-   "lat": 50.832486013225,
-   "lon": 4.3524152040482,
-   "start": "2026-11-25T20:00:00",
-   "end": "2026-11-25T23:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1300313785440829.jpg",
-   "page_url": "https://www.facebook.com/events/1300313785440829/",
-   "url": "https://www.facebook.com/events/1300313785440829/",
-   "summary": "C’est la fin du monde, mais heureusement PAR.SEK est là. Quelque part entre le Berghain et la sortie 3 direction Castorama, le duo français d’electropunk invente un désespoir 2.0 qui donne envie de kiIer jusqu’au crash. Lyrics abrasives ou consolantes comme des free hugs, orfèvrerie sonore aux confi",
-   "price_from": null,
-   "free": true,
-   "audience": [
-    "young"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1633721874815584",
    "title": "ATELIER DANSE CONTACT IMPRO A LOUVAIN-LA-NEUVE",
    "category": "workshop",
@@ -3009,29 +2986,6 @@
    "price_from": null,
    "free": null,
    "audience": [],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1670971691063262",
-   "title": "Soirée ouverte avec Michel",
-   "category": "wellness",
-   "venue": "Rue du Collège 2, 1348 Ottignies-Louvain-la-Neuve, Belgique",
-   "city": "Louvain-la-Neuve",
-   "lat": 50.66657,
-   "lon": 4.6167,
-   "start": "2026-11-25T19:30:00",
-   "end": "2026-11-25T22:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1670971691063262.jpg",
-   "page_url": "https://www.facebook.com/events/1670971691063262/",
-   "url": "https://www.dancetribe.be/votre-premier-cours/",
-   "summary": "Les soirées ouvertes sont accessibles à tou(te)s, quelle que soit votre expérience. Si c'est la première fois que vous venez danser les 5 rythmes, nous vous invitons simplement à lire ceci: https://www.dancetribe.be/votre-premier-cours/ pour entrer plus facilement dans le bain. Bienvenue ! Pour qui:",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
    "tags": [],
    "source": "Facebook (événement public)",
    "classified": true

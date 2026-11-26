@@ -1,10 +1,10 @@
 {
-  "genere": "2026-11-26T00:08:41",
+  "genere": "2026-11-26T13:35:16",
   "sources": [
     {
       "source": "Reflektor (Liège)",
       "ok": true,
-      "page_caracteres": 15855,
+      "page_caracteres": 15792,
       "ia_a_trouve": 40,
       "gardes": 40,
       "ecartes": 0,
@@ -42,10 +42,10 @@
     {
       "source": "Les Grignoux – cinéma (Liège)",
       "ok": true,
-      "page_caracteres": 52688,
+      "page_caracteres": 51635,
       "ia_a_trouve": 31,
-      "gardes": 31,
-      "ecartes": 0,
+      "gardes": 30,
+      "ecartes": 1,
       "morceaux": 1,
       "reponses_coupees": 0,
       "extrait_reponse_ia": ""
@@ -53,7 +53,7 @@
     {
       "source": "Le Forum (Liège)",
       "ok": true,
-      "page_caracteres": 40977,
+      "page_caracteres": 40978,
       "ia_a_trouve": 121,
       "gardes": 121,
       "ecartes": 0,
@@ -80,19 +80,21 @@
     {
       "source": "Stavelot",
       "ok": true,
-      "page_caracteres": 35432,
-      "ia_a_trouve": 0,
-      "gardes": 0,
+      "page_caracteres": 35405,
+      "ia_a_trouve": 1,
+      "gardes": 1,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Pays de Herve",
       "ok": true,
-      "page_caracteres": 12381,
-      "ia_a_trouve": 3,
+      "page_caracteres": 12986,
+      "ia_a_trouve": 1,
       "gardes": 1,
-      "ecartes": 2,
+      "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
       "extrait_reponse_ia": ""
@@ -136,7 +138,7 @@
     {
       "source": "Opéra Royal de Wallonie",
       "ok": true,
-      "page_caracteres": 35248,
+      "page_caracteres": 35238,
       "ia_a_trouve": 7,
       "gardes": 7,
       "ecartes": 0,
@@ -147,10 +149,12 @@
     {
       "source": "Rockerill (Charleroi)",
       "ok": true,
-      "page_caracteres": 9629,
+      "page_caracteres": 9541,
       "ia_a_trouve": 7,
       "gardes": 7,
       "ecartes": 0,
+      "morceaux": 1,
+      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
@@ -183,7 +187,7 @@
     {
       "source": "Ancienne Belgique (Bruxelles)",
       "ok": true,
-      "page_caracteres": 6865,
+      "page_caracteres": 6747,
       "ia_a_trouve": 10,
       "gardes": 10,
       "ecartes": 0,
@@ -198,16 +202,14 @@
       "ia_a_trouve": 3,
       "gardes": 3,
       "ecartes": 0,
-      "morceaux": 1,
-      "reponses_coupees": 0,
       "extrait_reponse_ia": ""
     },
     {
       "source": "Trix (Anvers)",
       "ok": true,
-      "page_caracteres": 10667,
-      "ia_a_trouve": 29,
-      "gardes": 29,
+      "page_caracteres": 10695,
+      "ia_a_trouve": 26,
+      "gardes": 26,
       "ecartes": 0,
       "morceaux": 1,
       "reponses_coupees": 0,
@@ -216,7 +218,7 @@
     {
       "source": "Het Depot (Louvain)",
       "ok": true,
-      "page_caracteres": 9859,
+      "page_caracteres": 9867,
       "ia_a_trouve": 18,
       "gardes": 18,
       "ecartes": 0,
@@ -227,7 +229,7 @@
     {
       "source": "Mars – Mons arts de la scène",
       "ok": true,
-      "page_caracteres": 13369,
+      "page_caracteres": 13137,
       "ia_a_trouve": 11,
       "gardes": 11,
       "ecartes": 0,
@@ -250,17 +252,17 @@
       "source": "Facebook (service tiers)",
       "ok": true,
       "etat": "pas encore l'heure",
-      "gardes": 139
+      "gardes": 137
     },
     {
       "source": "Doublons fusionnés",
       "ok": true,
-      "fusionnes": 64
+      "fusionnes": 63
     },
     {
       "source": "Pages des billetteries",
       "ok": true,
-      "pages_lues": 10,
+      "pages_lues": 12,
       "pages_lues_par_ia": 25
     },
     {
@@ -276,16 +278,16 @@
     {
       "source": "Restaurants OpenStreetMap",
       "ok": false,
-      "erreur": "villes gardées du passage précédent : Hasselt, Bruxelles, Namur, Charleroi, Louvain-la-Neuve, Verviers, Huy, Arlon, Tournai, Anvers, Gand, Louvain, Bruges"
+      "erreur": "villes gardées du passage précédent : Hasselt, Bruxelles, Namur, Mons, Charleroi, Louvain-la-Neuve, Verviers, Huy, Arlon, Tournai, Anvers, Gand, Louvain, Bruges"
     },
     {
       "source": "Google : notes des restos et bars",
       "ok": true,
       "erreur": null,
       "lues": 150,
-      "lectures_du_mois": 760,
+      "lectures_du_mois": 910,
       "plafond": 2000,
-      "notes_publiees": 1513,
+      "notes_publiees": 1663,
       "retires": 91,
       "exemples_retires": [
         "Ans palace (Liège) : 3.8",
@@ -304,16 +306,16 @@
         "Le Wembley (Liège) : 3.9",
         "Royal Daring Club de Cointe (Liège) : 3.9"
       ],
-      "a_lire": 4580
+      "a_lire": 4430
     },
     {
       "source": "Restos : cartes et réservations",
       "ok": true,
       "sites_lus": 150,
-      "cartes": 762,
-      "reservations": 87
+      "cartes": 842,
+      "reservations": 101
     }
   ],
-  "avec_image": 2916,
-  "total": 2936
+  "avec_image": 2847,
+  "total": 2868
 }
