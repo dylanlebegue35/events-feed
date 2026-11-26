@@ -1,5 +1,5 @@
 {
-"details_mois": 610,
+"details_mois": 760,
 "lieux": {
 "g-ChIJ---QFQJQwkcR-Ui9-AjS2KQ": {
 "g": "ChIJ---QFQJQwkcR-Ui9-AjS2KQ",
@@ -106,6 +106,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJ0Qr12eFXwEcRhDBzYoG8D-w": {
+"g": "ChIJ0Qr12eFXwEcRhDBzYoG8D-w",
+"n": 135,
+"r": 5.0,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJ0TcLVTz7wkcRRMdgzWnJ-tw": {
 "g": "ChIJ0TcLVTz7wkcRRMdgzWnJ-tw",
 "n": 282,
@@ -127,6 +134,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJ0a_i47I3wkcR8vVmXdUVzrw": {
+"g": "ChIJ0a_i47I3wkcR8vVmXdUVzrw",
+"n": 387,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJ0bbrSeFYwkcRCs5j_gMlDTk": {
 "g": "ChIJ0bbrSeFYwkcRCs5j_gMlDTk",
 "n": 289,
@@ -147,6 +161,13 @@
 "r": 4.5,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJ0x1CujN9wEcRDTvKWU3qwhk": {
+"g": "ChIJ0x1CujN9wEcRDTvKWU3qwhk",
+"n": 368,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJ0y2Fsh8Dw0cRp1poT59gyHU": {
 "g": "ChIJ0y2Fsh8Dw0cRp1poT59gyHU",
@@ -337,6 +358,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJ2TT3SzFZwEcRcWorXsOzf28": {
+"g": "ChIJ2TT3SzFZwEcRcWorXsOzf28",
+"n": 929,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJ2YnSoJk1wkcREzbfFW72cP4": {
 "g": "ChIJ2YnSoJk1wkcREzbfFW72cP4",
 "n": 677,
@@ -435,12 +463,26 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJ3X8FAR2GwUcRMOIDksMCWBM": {
+"g": "ChIJ3X8FAR2GwUcRMOIDksMCWBM",
+"n": 65,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJ3YWBerEvwkcRrszncGhIBT0": {
 "g": "ChIJ3YWBerEvwkcRrszncGhIBT0",
 "n": 131,
 "r": 4.5,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJ3YgBy2uw6kcRzlh8QUUS5B0": {
+"g": "ChIJ3YgBy2uw6kcRzlh8QUUS5B0",
+"n": 436,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJ3_D0bnRIwEcRG-1XCPo9C-w": {
 "g": "ChIJ3_D0bnRIwEcRG-1XCPo9C-w",
@@ -463,12 +505,33 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJ4-P9BIaqwUcREIYtxde2EqA": {
+"g": "ChIJ4-P9BIaqwUcREIYtxde2EqA",
+"n": 55,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"g-ChIJ406z4m_uwEcRlhscc9NzPXM": {
+"g": "ChIJ406z4m_uwEcRlhscc9NzPXM",
+"n": 199,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJ41Ui744nwkcRU_Onn9_A5rs": {
 "g": "ChIJ41Ui744nwkcRU_Onn9_A5rs",
 "n": 150,
 "r": 4.6,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJ440KCKvGw0cRInAglh_E3fI": {
+"g": "ChIJ440KCKvGw0cRInAglh_E3fI",
+"n": 220,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJ45h3ycn1wUcRFCcWBQgjWy0": {
 "g": "ChIJ45h3ycn1wUcRFCcWBQgjWy0",
@@ -603,12 +666,33 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJ5Sed3PqJv0cRmUEeakRyw_w": {
+"g": "ChIJ5Sed3PqJv0cRmUEeakRyw_w",
+"n": 614,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJ5StEpi4lwkcRrlup2Xm6lHg": {
 "g": "ChIJ5StEpi4lwkcRrlup2Xm6lHg",
 "n": 63,
 "r": 4.9,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJ5WmNuOSJv0cRwCaZPhPpI-g": {
+"g": "ChIJ5WmNuOSJv0cRwCaZPhPpI-g",
+"n": 630,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"g-ChIJ5Ypef_UBwUcR20o0GmEi1FM": {
+"g": "ChIJ5Ypef_UBwUcR20o0GmEi1FM",
+"n": 40,
+"r": 5.0,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJ5eLlu0wkwkcRj3iHhV5TNYA": {
 "g": "ChIJ5eLlu0wkwkcRj3iHhV5TNYA",
@@ -652,6 +736,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJ68mqpj78wEcRfB6rR8Pn1aU": {
+"g": "ChIJ68mqpj78wEcRfB6rR8Pn1aU",
+"n": 1452,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJ6U7kao1ZwUcR45toqCt5-Zc": {
 "g": "ChIJ6U7kao1ZwUcR45toqCt5-Zc",
 "n": 218,
@@ -672,6 +763,13 @@
 "r": 4.9,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJ6_LPSNP-wEcR2S7uwsC3IqA": {
+"g": "ChIJ6_LPSNP-wEcR2S7uwsC3IqA",
+"n": 52,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJ6aRi0crDw0cRAyaahmke138": {
 "g": "ChIJ6aRi0crDw0cRAyaahmke138",
@@ -757,6 +855,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJ79I_AYgFwUcRK4HOjjnfSUk": {
+"g": "ChIJ79I_AYgFwUcRK4HOjjnfSUk",
+"n": 101,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJ7QrhQpLVw0cRnNi1TQC_qb0": {
 "g": "ChIJ7QrhQpLVw0cRnNi1TQC_qb0",
 "n": 425,
@@ -770,6 +875,13 @@
 "r": 4.7,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJ7Tx-5qVLwEcRPABdu99YVTA": {
+"g": "ChIJ7Tx-5qVLwEcRPABdu99YVTA",
+"n": 61,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJ7V50U7KRw0cRkqLolyW7apk": {
 "g": "ChIJ7V50U7KRw0cRkqLolyW7apk",
@@ -820,6 +932,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJ7dkEe7aFwEcRYRWFDqhLf6I": {
+"g": "ChIJ7dkEe7aFwEcRYRWFDqhLf6I",
+"n": 203,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJ80TPsX-WwUcReM7wD-X6lAY": {
 "g": "ChIJ80TPsX-WwUcReM7wD-X6lAY",
 "n": 197,
@@ -840,6 +959,13 @@
 "r": 4.8,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJ8UfdiXhhwEcR7C4lph_f7oE": {
+"g": "ChIJ8UfdiXhhwEcR7C4lph_f7oE",
+"n": 315,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJ8W5bMA_Fw0cRQJTNy6G-SqY": {
 "g": "ChIJ8W5bMA_Fw0cRQJTNy6G-SqY",
@@ -904,12 +1030,26 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJ93lO-X83wkcRFAarH_zOy6k": {
+"g": "ChIJ93lO-X83wkcRFAarH_zOy6k",
+"n": 58,
+"r": 4.9,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJ93nIcG3rwUcRZQ9YmyHvl5s": {
 "g": "ChIJ93nIcG3rwUcRZQ9YmyHvl5s",
 "n": 291,
 "r": 4.6,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJ9QZTMd03wkcRRauwFsxMJFQ": {
+"g": "ChIJ9QZTMd03wkcRRauwFsxMJFQ",
+"n": 59,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJ9R2MhEsswkcR8QSlLyoVGPE": {
 "g": "ChIJ9R2MhEsswkcR8QSlLyoVGPE",
@@ -946,6 +1086,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJ9zomKp-awEcRF3N4Hr2X4pg": {
+"g": "ChIJ9zomKp-awEcRF3N4Hr2X4pg",
+"n": 45,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJA08FTjZYwkcRHb86HXsTA-k": {
 "g": "ChIJA08FTjZYwkcRHb86HXsTA-k",
 "n": 472,
@@ -980,6 +1127,13 @@
 "r": 4.6,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJA9UIA3HuwEcRNpYQyTLmKws": {
+"g": "ChIJA9UIA3HuwEcRNpYQyTLmKws",
+"n": 181,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJASlfWvJZwkcRQhF5N28-DoA": {
 "g": "ChIJASlfWvJZwkcRQhF5N28-DoA",
@@ -1226,6 +1380,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJD1SgMKGLwEcRfH87eV57_a8": {
+"g": "ChIJD1SgMKGLwEcRfH87eV57_a8",
+"n": 180,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJD228ybVTwkcRyieT37vZmwk": {
 "g": "ChIJD228ybVTwkcRyieT37vZmwk",
 "n": 189,
@@ -1239,6 +1400,13 @@
 "r": 4.8,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJD2yLchiEv0cRsqDy9Hzw8Dw": {
+"g": "ChIJD2yLchiEv0cRsqDy9Hzw8Dw",
+"n": 112,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJD38s3PbFw0cRBbHACEpAcyc": {
 "g": "ChIJD38s3PbFw0cRBbHACEpAcyc",
@@ -1464,6 +1632,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJFaoyZ9TxwEcRzVgAt8-dHoo": {
+"g": "ChIJFaoyZ9TxwEcRzVgAt8-dHoo",
+"n": 57,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJFbehK_3xwEcRb7fddXmRE-c": {
 "g": "ChIJFbehK_3xwEcRb7fddXmRE-c",
 "n": 481,
@@ -1512,6 +1687,13 @@
 "r": 4.5,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJGSjI1RflwEcRZJA2juijLpE": {
+"g": "ChIJGSjI1RflwEcRZJA2juijLpE",
+"n": 62,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJGU8TSPETwEcRS1hbkRG_Wgs": {
 "g": "ChIJGU8TSPETwEcRS1hbkRG_Wgs",
@@ -1562,6 +1744,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJGxw1ijiGwUcRDZNkfqWYmd8": {
+"g": "ChIJGxw1ijiGwUcRDZNkfqWYmd8",
+"n": 64,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJH0sgejFYwkcRfYQDTktZjmA": {
 "g": "ChIJH0sgejFYwkcRfYQDTktZjmA",
 "n": 693,
@@ -1604,6 +1793,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJHwNW3XOGwUcRSt2FPjYKJOg": {
+"g": "ChIJHwNW3XOGwUcRSt2FPjYKJOg",
+"n": 129,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJHxLRSnGlwUcRCprYtOP1nLo": {
 "g": "ChIJHxLRSnGlwUcRCprYtOP1nLo",
 "n": 78,
@@ -1631,6 +1827,20 @@
 "r": 4.9,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJI9RstYOFv0cRBvpW_XFoqXQ": {
+"g": "ChIJI9RstYOFv0cRBvpW_XFoqXQ",
+"n": 44,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"g-ChIJIQUN7kbuwEcRrPLuUNnOSWs": {
+"g": "ChIJIQUN7kbuwEcRrPLuUNnOSWs",
+"n": 52,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJIRmgVy81w0cRTSTmKtb2IgU": {
 "g": "ChIJIRmgVy81w0cRTSTmKtb2IgU",
@@ -1786,6 +1996,20 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJJbKhqLqPwEcRbMe2Ur0gXNI": {
+"g": "ChIJJbKhqLqPwEcRbMe2Ur0gXNI",
+"n": 46,
+"r": 4.9,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"g-ChIJJblbO5-awEcRNIHIX2wSJHQ": {
+"g": "ChIJJblbO5-awEcRNIHIX2wSJHQ",
+"n": 345,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJJe1Qe-CwwUcR-h9uMQkDbFQ": {
 "g": "ChIJJe1Qe-CwwUcR-h9uMQkDbFQ",
 "n": 138,
@@ -1813,6 +2037,13 @@
 "r": 4.7,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJK-rLU3F-wUcR-v3zeDa5RD4": {
+"g": "ChIJK-rLU3F-wUcR-v3zeDa5RD4",
+"n": 211,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJK11zQNs4wEcRalUKrag2wc0": {
 "g": "ChIJK11zQNs4wEcRalUKrag2wc0",
@@ -1848,6 +2079,13 @@
 "r": 4.5,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJKfXGZux7wEcRXSy0HYucLcg": {
+"g": "ChIJKfXGZux7wEcRXSy0HYucLcg",
+"n": 323,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJKwPZJLMFwkcRo24pHi-quLw": {
 "g": "ChIJKwPZJLMFwkcRo24pHi-quLw",
@@ -1912,6 +2150,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJLYoFMB_5wEcRDkVu1eSLwY4": {
+"g": "ChIJLYoFMB_5wEcRDkVu1eSLwY4",
+"n": 373,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJL_bTbJvLw0cRSaQ15qnmJAo": {
 "g": "ChIJL_bTbJvLw0cRSaQ15qnmJAo",
 "n": 74,
@@ -1939,6 +2184,13 @@
 "r": 4.8,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJLx8JM4wNwUcRsK11eN4sVms": {
+"g": "ChIJLx8JM4wNwUcRsK11eN4sVms",
+"n": 86,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJLy3lH_V_wUcRpBO_fmGYobs": {
 "g": "ChIJLy3lH_V_wUcRpBO_fmGYobs",
@@ -1995,6 +2247,13 @@
 "r": 4.5,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJMao5rKKLwEcRrYC_C8rufkY": {
+"g": "ChIJMao5rKKLwEcRrYC_C8rufkY",
+"n": 43,
+"r": 5.0,
+"s": "CLOSED_PERMANENTLY",
+"t": "2026-11-26"
 },
 "g-ChIJMd7lvrfT3EcRzDp4Wpk4jvg": {
 "g": "ChIJMd7lvrfT3EcRzDp4Wpk4jvg",
@@ -2066,6 +2325,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJNSVQ6uSJv0cRDQ9h_m0LVXM": {
+"g": "ChIJNSVQ6uSJv0cRDQ9h_m0LVXM",
+"n": 317,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJNaqB0qKPwUcRQhEzIN2Jr1U": {
 "g": "ChIJNaqB0qKPwUcRQhEzIN2Jr1U",
 "n": 63,
@@ -2101,6 +2367,20 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJNxVmQHHuwEcRiifw8c-CQCU": {
+"g": "ChIJNxVmQHHuwEcRiifw8c-CQCU",
+"n": 193,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"g-ChIJNxjCQPfzwEcRF9IxhG_U47c": {
+"g": "ChIJNxjCQPfzwEcRF9IxhG_U47c",
+"n": 214,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJO1G4-gJDwkcRRr0GviiztU0": {
 "g": "ChIJO1G4-gJDwkcRRr0GviiztU0",
 "n": 376,
@@ -2128,6 +2408,13 @@
 "r": 4.6,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJOQuROEHzwEcRr-C3MXD_Bzw": {
+"g": "ChIJOQuROEHzwEcRr-C3MXD_Bzw",
+"n": 406,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJORoZNJc9wkcRrXth0JARYLw": {
 "g": "ChIJORoZNJc9wkcRrXth0JARYLw",
@@ -2297,12 +2584,26 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJQ9rzvpsEwUcRlMkeiMHPBK0": {
+"g": "ChIJQ9rzvpsEwUcRlMkeiMHPBK0",
+"n": 978,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJQQgSbyrDwUcRLUHC_yyIcKU": {
 "g": "ChIJQQgSbyrDwUcRLUHC_yyIcKU",
 "n": 365,
 "r": 4.8,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJQUOT-XfzwEcR8KDtpbIcBCc": {
+"g": "ChIJQUOT-XfzwEcR8KDtpbIcBCc",
+"n": 122,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJQWmwBP3Lw0cRL-YRiiRU_io": {
 "g": "ChIJQWmwBP3Lw0cRL-YRiiRU_io",
@@ -2352,6 +2653,13 @@
 "r": 4.7,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJR96zXj-RwEcR8Y_jv8_sK4o": {
+"g": "ChIJR96zXj-RwEcR8Y_jv8_sK4o",
+"n": 114,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJRXRISDoEw0cRhZgxWFYPH4I": {
 "g": "ChIJRXRISDoEw0cRhZgxWFYPH4I",
@@ -2408,6 +2716,13 @@
 "r": 4.6,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJS2zhdwDNw0cRC3Tc3e5TiFk": {
+"g": "ChIJS2zhdwDNw0cRC3Tc3e5TiFk",
+"n": 53,
+"r": 5.0,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJS3slYap46kcRYvFn4hMdSyU": {
 "g": "ChIJS3slYap46kcRYvFn4hMdSyU",
@@ -2472,12 +2787,33 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJSzvFFFn6wEcRRDXV59YjhOs": {
+"g": "ChIJSzvFFFn6wEcRRDXV59YjhOs",
+"n": 362,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"g-ChIJT0jeP6TGw0cRHPt0Qvujs-I": {
+"g": "ChIJT0jeP6TGw0cRHPt0Qvujs-I",
+"n": 264,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJT47ZqdG56kcRvX33l229LH0": {
 "g": "ChIJT47ZqdG56kcRvX33l229LH0",
 "n": 199,
 "r": 4.4,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJT6n4ExiMwEcRt1Gm7A2HcGU": {
+"g": "ChIJT6n4ExiMwEcRt1Gm7A2HcGU",
+"n": 121,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJT7HMZX2pw0cRlnmPzKLMZSw": {
 "g": "ChIJT7HMZX2pw0cRlnmPzKLMZSw",
@@ -2632,6 +2968,13 @@
 "r": 4.9,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJV_WM34CmwUcRNczh-EEjW2M": {
+"g": "ChIJV_WM34CmwUcRNczh-EEjW2M",
+"n": 425,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJVbjjYW2ZwUcRGIkcPFSYnmw": {
 "g": "ChIJVbjjYW2ZwUcRGIkcPFSYnmw",
@@ -2801,6 +3144,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJXdxhX7QZwEcRy-qQrhagYXk": {
+"g": "ChIJXdxhX7QZwEcRy-qQrhagYXk",
+"n": 68,
+"r": 5.0,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJXwB1B2bnwkcRaQQULOXU2KM": {
 "g": "ChIJXwB1B2bnwkcRaQQULOXU2KM",
 "n": 95,
@@ -2821,6 +3171,13 @@
 "r": 4.4,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJY53pO6YZwEcRqbffJD5Udhc": {
+"g": "ChIJY53pO6YZwEcRqbffJD5Udhc",
+"n": 189,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJY9MEUeXPwUcRtJbmpijbSb4": {
 "g": "ChIJY9MEUeXPwUcRtJbmpijbSb4",
@@ -2856,6 +3213,13 @@
 "r": 4.7,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJYU8HOnZawEcR3Z9xKIBgqis": {
+"g": "ChIJYU8HOnZawEcR3Z9xKIBgqis",
+"n": 59,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJYY7ztiGBwUcRoMNhRF3tJBQ": {
 "g": "ChIJYY7ztiGBwUcRoMNhRF3tJBQ",
@@ -2899,6 +3263,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJYyFhRdZjwEcRatuANuqvU5Q": {
+"g": "ChIJYyFhRdZjwEcRatuANuqvU5Q",
+"n": 119,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJYzKaDHrDw0cRTTs00MRvT90": {
 "g": "ChIJYzKaDHrDw0cRTTs00MRvT90",
 "n": 790,
@@ -2912,6 +3283,13 @@
 "r": 4.7,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJZ2ZxgP5UwEcR0IoO7jjGO8A": {
+"g": "ChIJZ2ZxgP5UwEcR0IoO7jjGO8A",
+"n": 115,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJZ39p_xcbwkcRZrKrS4O8eHk": {
 "g": "ChIJZ39p_xcbwkcRZrKrS4O8eHk",
@@ -2948,6 +3326,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJZYA6zplfwEcRyiW2a7j7mr4": {
+"g": "ChIJZYA6zplfwEcRyiW2a7j7mr4",
+"n": 46,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJZZEj9RCPwUcRogYp64mFyo8": {
 "g": "ChIJZZEj9RCPwUcRogYp64mFyo8",
 "n": 590,
@@ -2976,12 +3361,33 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJZeCp09RhwEcRQZpbbrxxTRA": {
+"g": "ChIJZeCp09RhwEcRQZpbbrxxTRA",
+"n": 139,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJZesJckR_wUcRvO2ozzD5l1U": {
 "g": "ChIJZesJckR_wUcRvO2ozzD5l1U",
 "n": 165,
 "r": 4.9,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJ_1Pf8HuSwEcRFIM6-t-Nr3k": {
+"g": "ChIJ_1Pf8HuSwEcRFIM6-t-Nr3k",
+"n": 329,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"g-ChIJ_1SWYtj-wEcRONbMrPCxdG0": {
+"g": "ChIJ_1SWYtj-wEcRONbMrPCxdG0",
+"n": 103,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJ_27_YFHJw0cRjz1ztwud0sg": {
 "g": "ChIJ_27_YFHJw0cRjz1ztwud0sg",
@@ -3032,6 +3438,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJ_UyVQWyRwEcRZtvpkBEnmho": {
+"g": "ChIJ_UyVQWyRwEcRZtvpkBEnmho",
+"n": 626,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJ_YNZwkuZ6kcRz6aJXTHVDi8": {
 "g": "ChIJ_YNZwkuZ6kcRz6aJXTHVDi8",
 "n": 104,
@@ -3059,6 +3472,13 @@
 "r": 4.6,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJ_wjb0reMwEcRWu5KJiK84Es": {
+"g": "ChIJ_wjb0reMwEcRWu5KJiK84Es",
+"n": 109,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJ_xU7-9MdwkcRi0a6D5S4KO0": {
 "g": "ChIJ_xU7-9MdwkcRi0a6D5S4KO0",
@@ -3123,6 +3543,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJaQsr5-T8wEcR8bIFNu9H_V4": {
+"g": "ChIJaQsr5-T8wEcR8bIFNu9H_V4",
+"n": 118,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJaTSZ7ZiOw0cRV2Y07EcQKLU": {
 "g": "ChIJaTSZ7ZiOw0cRV2Y07EcQKLU",
 "n": 243,
@@ -3179,6 +3606,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJabuMo_uRwEcRbrXk_SHtRSs": {
+"g": "ChIJabuMo_uRwEcRbrXk_SHtRSs",
+"n": 399,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJafoG0P-56kcRv7u9UFSoNTs": {
 "g": "ChIJafoG0P-56kcRv7u9UFSoNTs",
 "n": 97,
@@ -3214,6 +3648,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJb4ANfSV_wUcRqDfuBamQPgs": {
+"g": "ChIJb4ANfSV_wUcRqDfuBamQPgs",
+"n": 205,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJb7_xWG3DwUcRn1eYT4wpRFI": {
 "g": "ChIJb7_xWG3DwUcRn1eYT4wpRFI",
 "n": 773,
@@ -3227,6 +3668,13 @@
 "r": 4.8,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJbaWHmQoBwUcRiXRX9jHgsl0": {
+"g": "ChIJbaWHmQoBwUcRiXRX9jHgsl0",
+"n": 120,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJbcuZ83BJwkcRTP2EmNoBMuE": {
 "g": "ChIJbcuZ83BJwkcRTP2EmNoBMuE",
@@ -3339,6 +3787,13 @@
 "r": 4.7,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJdQN62t3-wEcRF1CbFkXTKAY": {
+"g": "ChIJdQN62t3-wEcRF1CbFkXTKAY",
+"n": 122,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJdQdWVw4hw0cRj11HcHDHmqI": {
 "g": "ChIJdQdWVw4hw0cRj11HcHDHmqI",
@@ -3578,6 +4033,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJfb0AsWBjwEcRvo3PULx0eAE": {
+"g": "ChIJfb0AsWBjwEcRvo3PULx0eAE",
+"n": 93,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJfeKT39rfwUcR5F5nRqRDMPA": {
 "g": "ChIJfeKT39rfwUcR5F5nRqRDMPA",
 "n": 106,
@@ -3655,12 +4117,26 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJgaItR-_Dw0cRAGpZ7pmsK9M": {
+"g": "ChIJgaItR-_Dw0cRAGpZ7pmsK9M",
+"n": 327,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJgcmgcruawUcROzCqjwLGq0I": {
 "g": "ChIJgcmgcruawUcROzCqjwLGq0I",
 "n": 167,
 "r": 4.5,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJgdxZ2qRlwEcRVv_ldE4McCA": {
+"g": "ChIJgdxZ2qRlwEcRVv_ldE4McCA",
+"n": 237,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJgen3hND3w0cRR-mm-g3503g": {
 "g": "ChIJgen3hND3w0cRR-mm-g3503g",
@@ -3689,6 +4165,13 @@
 "r": 4.5,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJh16Pt7ZewEcR8rJkLSYe5dA": {
+"g": "ChIJh16Pt7ZewEcR8rJkLSYe5dA",
+"n": 210,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJh1coWBOp3EcRT6tHzxuqTNI": {
 "g": "ChIJh1coWBOp3EcRT6tHzxuqTNI",
@@ -3774,6 +4257,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJhxqfy6N7wEcRiqMJJVJv8vs": {
+"g": "ChIJhxqfy6N7wEcRiqMJJVJv8vs",
+"n": 96,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJi-SVXgA5wEcRYX6-AvkvvBI": {
 "g": "ChIJi-SVXgA5wEcRYX6-AvkvvBI",
 "n": 132,
@@ -3837,6 +4327,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJj3hAHypYwEcReERjcmJ8fuE": {
+"g": "ChIJj3hAHypYwEcReERjcmJ8fuE",
+"n": 181,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJj5xur9s4wEcRvbn9E953MM8": {
 "g": "ChIJj5xur9s4wEcRvbn9E953MM8",
 "n": 64,
@@ -3850,6 +4347,13 @@
 "r": 4.3,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJjRHPW87xwEcRAgh12wI3wVc": {
+"g": "ChIJjRHPW87xwEcRAgh12wI3wVc",
+"n": 140,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJjUo4q_NPwkcRGzFh88NvAks": {
 "g": "ChIJjUo4q_NPwkcRGzFh88NvAks",
@@ -3885,6 +4389,13 @@
 "r": 4.9,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJjfnf9xyFwEcRYnnw53GB8O8": {
+"g": "ChIJjfnf9xyFwEcRYnnw53GB8O8",
+"n": 488,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJjxjR58Hnw0cRlWGAXPODZv4": {
 "g": "ChIJjxjR58Hnw0cRlWGAXPODZv4",
@@ -3991,6 +4502,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJl9YexdqpwUcR_fvfFapu7d8": {
+"g": "ChIJl9YexdqpwUcR_fvfFapu7d8",
+"n": 104,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJlQlFV3K_wUcRzGlPIUULJH4": {
 "g": "ChIJlQlFV3K_wUcRzGlPIUULJH4",
 "n": 319,
@@ -4011,6 +4529,13 @@
 "r": 4.6,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJm07GJoCKwEcRGy8sCPvlsXk": {
+"g": "ChIJm07GJoCKwEcRGy8sCPvlsXk",
+"n": 103,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJm1WrRn2bwUcR-jty6naIezw": {
 "g": "ChIJm1WrRn2bwUcR-jty6naIezw",
@@ -4068,6 +4593,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJm9KebESswUcRoyjothpAbJc": {
+"g": "ChIJm9KebESswUcRoyjothpAbJc",
+"n": 80,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJm9NVJvT2w0cRaVAIrvm5f5w": {
 "g": "ChIJm9NVJvT2w0cRaVAIrvm5f5w",
 "n": 774,
@@ -4116,6 +4648,13 @@
 "r": 4.8,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJn02aEJex6kcR3bT_UIpQN-Y": {
+"g": "ChIJn02aEJex6kcR3bT_UIpQN-Y",
+"n": 98,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJn3vVC5MDw0cRG3r-4ec-fc0": {
 "g": "ChIJn3vVC5MDw0cRG3r-4ec-fc0",
@@ -4173,12 +4712,26 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJncZUh_T7wEcRfH7iAr3Sm9U": {
+"g": "ChIJncZUh_T7wEcRfH7iAr3Sm9U",
+"n": 50,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJncsiU8ZTwkcR6j5FnNcbPDI": {
 "g": "ChIJncsiU8ZTwkcR6j5FnNcbPDI",
 "n": 806,
 "r": 4.4,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJnd4V6dnxwEcR1vvBZPb4JB4": {
+"g": "ChIJnd4V6dnxwEcR1vvBZPb4JB4",
+"n": 111,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJnds2IUB56kcRCb9rSzJ04bE": {
 "g": "ChIJnds2IUB56kcRCb9rSzJ04bE",
@@ -4208,6 +4761,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJo-EqZIrxwEcRFlNq5WWPq4g": {
+"g": "ChIJo-EqZIrxwEcRFlNq5WWPq4g",
+"n": 102,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJo3ByVgB_wUcRJEvwZgolGc8": {
 "g": "ChIJo3ByVgB_wUcRJEvwZgolGc8",
 "n": 536,
@@ -4235,6 +4795,20 @@
 "r": 4.7,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJoR5HplF9wUcRJ3hKSIJM3Ms": {
+"g": "ChIJoR5HplF9wUcRJ3hKSIJM3Ms",
+"n": 310,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"g-ChIJoWq78VzEw0cRe9EokngoB_w": {
+"g": "ChIJoWq78VzEw0cRe9EokngoB_w",
+"n": 1553,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJoXDxFbNZwkcR2G2CcPZZ-J8": {
 "g": "ChIJoXDxFbNZwkcR2G2CcPZZ-J8",
@@ -4264,12 +4838,26 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJoyHXh05UwEcROn3XBLrEcl4": {
+"g": "ChIJoyHXh05UwEcROn3XBLrEcl4",
+"n": 109,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJp0dYiF1DwkcRLPxuHNzE_Xg": {
 "g": "ChIJp0dYiF1DwkcRLPxuHNzE_Xg",
 "n": 1172,
 "r": 4.5,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJp3DG0-XPw0cRPw8dFgWxPDg": {
+"g": "ChIJp3DG0-XPw0cRPw8dFgWxPDg",
+"n": 48,
+"r": 4.9,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJp3DP6ubDwUcRKnFOVnhzjFs": {
 "g": "ChIJp3DP6ubDwUcRKnFOVnhzjFs",
@@ -4397,6 +4985,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJqSwYMPjFw0cR1isaEZgxLe8": {
+"g": "ChIJqSwYMPjFw0cR1isaEZgxLe8",
+"n": 408,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJqXQUHzmT6kcRiQv40UWIfK4": {
 "g": "ChIJqXQUHzmT6kcRiQv40UWIfK4",
 "n": 53,
@@ -4439,6 +5034,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJr08Zwrr3wEcRHkhKZLVhF9M": {
+"g": "ChIJr08Zwrr3wEcRHkhKZLVhF9M",
+"n": 67,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJr11VhVbBw0cRkk9PCCarlf8": {
 "g": "ChIJr11VhVbBw0cRkk9PCCarlf8",
 "n": 49,
@@ -4474,6 +5076,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJrYP3ne73wEcRFMGMQu9hAA0": {
+"g": "ChIJrYP3ne73wEcRFMGMQu9hAA0",
+"n": 1784,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJrfRNDY7Vw0cRqMMb5XMzRlg": {
 "g": "ChIJrfRNDY7Vw0cRqMMb5XMzRlg",
 "n": 704,
@@ -4508,6 +5117,20 @@
 "r": 4.6,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJs4EEeSabwEcR4FQxtswc7BE": {
+"g": "ChIJs4EEeSabwEcR4FQxtswc7BE",
+"n": 56,
+"r": 4.9,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"g-ChIJs4XIAQipwUcR62wXMfeib84": {
+"g": "ChIJs4XIAQipwUcR62wXMfeib84",
+"n": 187,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJs58BZa7vwUcRfIote92LEOI": {
 "g": "ChIJs58BZa7vwUcRfIote92LEOI",
@@ -4550,6 +5173,13 @@
 "r": 4.6,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJsUH97sfDw0cRLm49A6l8Gts": {
+"g": "ChIJsUH97sfDw0cRLm49A6l8Gts",
+"n": 567,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJsY1yOFL3w0cRAWdSUXqy6WI": {
 "g": "ChIJsY1yOFL3w0cRAWdSUXqy6WI",
@@ -4621,6 +5251,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJu-Qza1OpwUcRI2ye0JfpWCA": {
+"g": "ChIJu-Qza1OpwUcRI2ye0JfpWCA",
+"n": 764,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJu9Ci-dVRwkcRptMN29NZgpw": {
 "g": "ChIJu9Ci-dVRwkcRptMN29NZgpw",
 "n": 209,
@@ -4676,6 +5313,13 @@
 "r": 4.6,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJucsl1sCLwEcRHT4LoJQXy_0": {
+"g": "ChIJucsl1sCLwEcRHT4LoJQXy_0",
+"n": 199,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJueTlEZCWwUcRtJYK8RSpc_o": {
 "g": "ChIJueTlEZCWwUcRtJYK8RSpc_o",
@@ -4796,6 +5440,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJvSxc-ACHv0cRDWfvORN5zEM": {
+"g": "ChIJvSxc-ACHv0cRDWfvORN5zEM",
+"n": 55,
+"r": 4.9,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJvVo5dZkZw0cR-rraAESGnsw": {
 "g": "ChIJvVo5dZkZw0cR-rraAESGnsw",
 "n": 240,
@@ -4816,6 +5467,13 @@
 "r": 4.8,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJvYO8CRlWwEcRLoFIy5iNOPs": {
+"g": "ChIJvYO8CRlWwEcRLoFIy5iNOPs",
+"n": 159,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJvZFTMg8hw0cRA8iKQV7TmHg": {
 "g": "ChIJvZFTMg8hw0cRA8iKQV7TmHg",
@@ -4900,6 +5558,13 @@
 "r": 4.7,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJwQ3XIYb5wEcRueTJ2MMkGoc": {
+"g": "ChIJwQ3XIYb5wEcRueTJ2MMkGoc",
+"n": 51,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJwQE-40uZ6kcRtYhJMahh2uM": {
 "g": "ChIJwQE-40uZ6kcRtYhJMahh2uM",
@@ -4991,6 +5656,20 @@
 "r": 4.5,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJxVgsBbh9wUcRwH4x04XK6sc": {
+"g": "ChIJxVgsBbh9wUcRwH4x04XK6sc",
+"n": 257,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"g-ChIJxWUiVx8MwUcRhxlMcNq9imI": {
+"g": "ChIJxWUiVx8MwUcRhxlMcNq9imI",
+"n": 199,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJxXjOwn-xw0cRrop_H_HuFtA": {
 "g": "ChIJxXjOwn-xw0cRrop_H_HuFtA",
@@ -5118,6 +5797,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"g-ChIJydoQEd4FwUcR2Tugac4RApo": {
+"g": "ChIJydoQEd4FwUcR2Tugac4RApo",
+"n": 88,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "g-ChIJyesmdxOZwUcRUOqTU71bYrc": {
 "g": "ChIJyesmdxOZwUcRUOqTU71bYrc",
 "n": 166,
@@ -5180,6 +5866,13 @@
 "r": 4.8,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"g-ChIJzRj_9301wEcRigJ2h7DIiAs": {
+"g": "ChIJzRj_9301wEcRigJ2h7DIiAs",
+"n": 47,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "g-ChIJzXvY6WsmwUcR_aGCox-MbRk": {
 "g": "ChIJzXvY6WsmwUcR_aGCox-MbRk",
@@ -5875,6 +6568,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"osm-node-1236679216": {
+"g": "ChIJc4dB4EpRwkcR_2X1sJGiFak",
+"n": 865,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
 "osm-node-12377131984": {
 "g": "ChIJadsunBr6wEcRxra1eL8uzL0",
 "n": 490,
@@ -6064,6 +6764,13 @@
 "g": "ChIJqVn-BXMmwkcR7xf1r-GbiLg",
 "n": 1051,
 "r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-13023362340": {
+"g": "ChIJ61_2vGJRwkcR_2EMSQb_dNo",
+"n": 271,
+"r": 4.7,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
@@ -6414,6 +7121,13 @@
 "g": null,
 "t": "2026-11-24"
 },
+"osm-node-13970240701": {
+"g": "ChIJqZnEoddRwkcRfz2Rr8gqUYY",
+"n": 295,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
 "osm-node-13980644161": {
 "g": "ChIJaUBBM1v7wEcRIJ2kodw5z4c",
 "n": 16,
@@ -6626,6 +7340,13 @@
 "g": null,
 "t": "2026-11-25"
 },
+"osm-node-1583831265": {
+"g": "ChIJZQBrGAJQwkcR4IHzqoAfO28",
+"n": 1315,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
 "osm-node-1600542071": {
 "g": "ChIJuedMvE7wwEcR1DkPOexHofQ",
 "n": 1334,
@@ -6697,6 +7418,20 @@
 "g": "ChIJPR0KoUT3wEcRe5hKfSNVBHY",
 "n": 99,
 "r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1720360250": {
+"g": "ChIJq4AJFgJQwkcRk3DX949luDA",
+"n": 746,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-1720568356": {
+"g": "ChIJF3Q2cwJQwkcRCigT_MyMnJI",
+"n": 759,
+"r": 4.6,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
@@ -7147,6 +7882,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-24"
 },
+"osm-node-2137970129": {
+"g": "ChIJv3131dT1wkcR_W5DAbXZ54g",
+"n": 401,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
 "osm-node-2159584096": {
 "g": "ChIJq2R3aBv6wEcRbWymP7c80f0",
 "n": 162,
@@ -7323,6 +8065,34 @@
 "g": "ChIJ5YBzetPwwEcR8zxAIDigeXw",
 "n": 3246,
 "r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-2950423334": {
+"g": "ChIJFZ8KIgBRwkcRvkCvlncR5eU",
+"n": 989,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-3069275770": {
+"g": "ChIJIYCbFQJQwkcRJC-MLet6XSI",
+"n": 307,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-3069275773": {
+"g": "ChIJn7xx6u9RwkcROXtOKlLa_Ug",
+"n": 181,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-25"
+},
+"osm-node-3079651904": {
+"g": "ChIJi_jDkuJPwkcRMbxL5HGYxsk",
+"n": 197,
+"r": 4.6,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
@@ -7542,6 +8312,13 @@
 "osm-node-4249007894": {
 "g": "ChIJaYxenafwwEcRLx-HPuEfTuo",
 "s": "CLOSED_PERMANENTLY",
+"t": "2026-11-25"
+},
+"osm-node-4290468556": {
+"g": "ChIJ7YTzDwBPwkcRzE9daqylEG4",
+"n": 301,
+"r": 4.9,
+"s": "OPERATIONAL",
 "t": "2026-11-25"
 },
 "osm-node-4374896890": {
@@ -9737,6 +10514,20 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"vivyo-amo-gand": {
+"g": "ChIJpSMgx-Nxw0cR-1wCor_hkpc",
+"n": 15,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"vivyo-baba-tournai": {
+"g": "ChIJMzhotM_fwkcRGEUFG4zVsQ0",
+"n": 324,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "vivyo-bakkerij-funk-anvers": {
 "g": null,
 "t": "2026-11-25"
@@ -10014,6 +10805,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"vivyo-bar-leuv-louvain": {
+"g": "ChIJ141wUmZhwUcRoDgqysz277g",
+"n": 673,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "vivyo-bar-lou-s-bar-liege": {
 "g": "ChIJ-YJI8Qv6wEcRJGQqLlkxn_0",
 "n": 484,
@@ -10059,6 +10857,13 @@
 "r": 4.2,
 "s": "OPERATIONAL",
 "t": "2026-11-24"
+},
+"vivyo-bar-stan-louvain": {
+"g": "ChIJcWSrtyhhwUcRHToHYlH6ak4",
+"n": 825,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "vivyo-bar-sugoi-liege": {
 "g": "ChIJHfVEEZ37wEcRo7ObqTxolCk",
@@ -10120,6 +10925,27 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"vivyo-belroy-s-at-nine-anvers": {
+"g": "ChIJ7z92sPf2w0cRIrPjJHnAthI",
+"n": 897,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"vivyo-belroy-s-mas-anvers": {
+"g": "ChIJDXfxhub3w0cR60Yz2zAp4pA",
+"n": 256,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"vivyo-betch-louvain-la-neuve": {
+"g": "ChIJzfk9THB_wUcRsV_dD7VmkuU",
+"n": 97,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "vivyo-billie-s-bier-kafetaria-anvers": {
 "g": "ChIJU261vEL2w0cRyTYmfPO58eM",
 "n": 1970,
@@ -10134,12 +10960,33 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"vivyo-bottlo-hasselt": {
+"g": "ChIJGXhEgqchwUcRXjBFzqgOg2I",
+"n": 65,
+"r": 5.0,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "vivyo-boulebaar-hasselt": {
 "g": "ChIJOdmw2oAhwUcR-9Z7aOWSHIA",
 "n": 360,
 "r": 4.8,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"vivyo-brasserie-du-quai-10-charleroi": {
+"g": "ChIJmyBdAXUmwkcRRNNFO0rDrz8",
+"n": 2136,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"vivyo-brasserie-francois-namur": {
+"g": "ChIJ5eVt12-ZwUcRdfK-ytGKPVA",
+"n": 2492,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "vivyo-brasseries-de-liege-liege": {
 "g": null,
@@ -10149,12 +10996,40 @@
 "g": null,
 "t": "2026-11-25"
 },
+"vivyo-brunchy-s-charleroi": {
+"g": "ChIJ6_AyLhsnwkcR0j1XCSXUYW8",
+"n": 844,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"vivyo-cafe-ernst-anvers": {
+"g": "ChIJt0JmNkH3w0cR4cmqGjuXg3c",
+"n": 437,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"vivyo-cafe-in-namur": {
+"g": "ChIJjYCjNWqZwUcRtdbQqwujd9g",
+"n": 289,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "vivyo-cafe-latino-hasselt": {
 "g": "ChIJA74tjYEhwUcRnq-2sE2MQcA",
 "n": 932,
 "r": 4.3,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"vivyo-cafe-nomade-namur": {
+"g": "ChIJqyP9_zaZwUcRDmM7jrLDjUw",
+"n": 235,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "vivyo-cafe-vlissinghe-bruges": {
 "g": "ChIJ48n1mM5Qw0cRbfp7RwZi2Bc",
@@ -10169,6 +11044,13 @@
 "r": 4.4,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"vivyo-carolo-cat-charleroi": {
+"g": "ChIJ_eUA0m4nwkcR9bFvs6M21MM",
+"n": 326,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "vivyo-chemistry-botanic-s-bruxelles": {
 "g": "ChIJn7zHxX7Ew0cRGgl0rMB9cAw",
@@ -10202,6 +11084,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"vivyo-coffice-malines": {
+"g": "ChIJpdkff9Tlw0cRStyPQQ-mRao",
+"n": 688,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "vivyo-confessions-bruxelles": {
 "g": null,
 "t": "2026-11-25"
@@ -10219,6 +11108,13 @@
 "r": 4.1,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"vivyo-cuvee-bruges": {
+"g": "ChIJQblRlc9Qw0cRU9Vf96k-8qU",
+"n": 218,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "vivyo-de-blauwe-kater-louvain": {
 "g": "ChIJIfgXOdhgwUcRXH67P3gnOe8",
@@ -10264,6 +11160,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"vivyo-dolfijn-gand": {
+"g": "ChIJ-RGNiH9xw0cR_7WT3G4MhIg",
+"n": 140,
+"r": 4.9,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "vivyo-domus-louvain": {
 "g": "ChIJh_szf9dgwUcRPfF2dOtTVNE",
 "n": 3144,
@@ -10292,6 +11195,20 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"vivyo-elephant-coffee-tournai": {
+"g": "ChIJidyz-zbfwkcRCsSbGOdRl8c",
+"n": 157,
+"r": 4.9,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"vivyo-epicure-namur-namur": {
+"g": "ChIJEWidc3KZwUcRy3RvWEF4eQg",
+"n": 289,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "vivyo-et-alors-gand": {
 "g": "ChIJaYRPaOVxw0cR-CnKtmN3p7Y",
 "n": 642,
@@ -10306,12 +11223,26 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"vivyo-five-senses-mons": {
+"g": "ChIJSY_9JeNRwkcR3z8_HdkXOBo",
+"n": 512,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "vivyo-foom-malines": {
 "g": "ChIJD1oJScjlw0cRP0AbIXaANto",
 "n": 611,
 "r": 4.3,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"vivyo-fox-den-bruxelles": {
+"g": "ChIJwc98PA3Dw0cRWspd53-1EQw",
+"n": 357,
+"r": 4.7,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "vivyo-frank-bruxelles": {
 "g": "ChIJlQAKEZfDw0cRQ9izwV1nS-Y",
@@ -10334,6 +11265,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-24"
 },
+"vivyo-ginger-rosemary-mons": {
+"g": "ChIJ-64xTSjrckcReFcKf32MR8g",
+"n": 180,
+"r": 4.9,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "vivyo-grand-maison-liege": {
 "g": "ChIJa1M13Qv6wEcRQj0Ie73Tm0Q",
 "n": 441,
@@ -10354,6 +11292,13 @@
 "r": 4.6,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"vivyo-harper-cafe-bar-charleroi": {
+"g": "ChIJeU0xpXQmwkcRFxOHwywUjow",
+"n": 598,
+"r": 4.0,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "vivyo-hey-frankie-gand": {
 "g": "ChIJoU4lsMBxw0cRoyNyJV72hj8",
@@ -10390,6 +11335,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"vivyo-kappu-louvain-la-neuve": {
+"g": "ChIJMX8Vb6B_wUcRmmVlMFIaxX4",
+"n": 138,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "vivyo-koffie-en-staal-louvain": {
 "g": "ChIJ64rvZNtgwUcRgF0aLpV5XYo",
 "n": 378,
@@ -10404,6 +11356,27 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"vivyo-la-cour-des-dames-mons": {
+"g": "ChIJUUtJo_1OwkcRDy4dN2P3KsY",
+"n": 642,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"vivyo-la-cuve-a-biere-namur": {
+"g": "ChIJO1ouOnKZwUcRZa6D9cl5Q10",
+"n": 399,
+"r": 4.4,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"vivyo-la-pharmacie-anglaise-bruxelles": {
+"g": "ChIJraMjpYDEw0cRig1VL2x9PMU",
+"n": 1647,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "vivyo-lafayette-ostende": {
 "g": "ChIJDRNAGtSo3EcR6EoWrycGfhk",
 "n": 1442,
@@ -10417,6 +11390,34 @@
 "r": 5.0,
 "s": "OPERATIONAL",
 "t": "2026-11-24"
+},
+"vivyo-le-carolopolitan-charleroi": {
+"g": "ChIJrQqoSHUmwkcRcFPe70iiweE",
+"n": 429,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"vivyo-le-cheval-marin-bruxelles": {
+"g": "ChIJ-a0lHqXDw0cR2BhDq_m5KUs",
+"n": 1085,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"vivyo-leo-pancakes-louvain": {
+"g": "ChIJXej2vHZhwUcRL00_ykOtvy8",
+"n": 820,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"vivyo-levures-tannins-mons": {
+"g": "ChIJtYTEg9FRwkcRAm0gz1LRA00",
+"n": 84,
+"r": 4.7,
+"s": "CLOSED_TEMPORARILY",
+"t": "2026-11-26"
 },
 "vivyo-lief-malines": {
 "g": "ChIJgxR5gMzlw0cR9HiJ8cp9B6E",
@@ -10439,6 +11440,27 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"vivyo-little-red-rooster-gand": {
+"g": "ChIJHYHpuM5xw0cRpf47yTKrHXc",
+"n": 203,
+"r": 5.0,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"vivyo-magritte-tournai": {
+"g": "ChIJyzy9IHrfwkcRKBegiN-H7vY",
+"n": 332,
+"r": 4.1,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"vivyo-manolo-bar-charleroi": {
+"g": "ChIJGa3ZMAsmwkcR9ME0Thm9_Kk",
+"n": 322,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "vivyo-manuscript-ostende": {
 "g": "ChIJhWCRGNSo3EcRRUppLuA_3W8",
 "n": 809,
@@ -10460,6 +11482,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"vivyo-mosquito-coast-gand": {
+"g": "ChIJXZrnG0dxw0cRXD42EZGUpuQ",
+"n": 3644,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "vivyo-norma-gand": {
 "g": "ChIJjwsbmEZxw0cR_KvPdNH8gqk",
 "n": 963,
@@ -10473,6 +11502,20 @@
 "r": 4.4,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"vivyo-nude-courtrai": {
+"g": "ChIJEekqYeE6w0cR-s5tE7QxD98",
+"n": 963,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"vivyo-oeno-tk-bruxelles": {
+"g": "ChIJC-IaD_XEw0cRxwFS6_KRl68",
+"n": 245,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "vivyo-oken-bruxelles": {
 "g": "ChIJUZnF_CvFw0cRrXtv1l-tk3g",
@@ -10516,6 +11559,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"vivyo-poisson-pilote-anvers": {
+"g": "ChIJseSycAD3w0cRr6_hZ3_SQqs",
+"n": 161,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "vivyo-pot-au-lait-liege": {
 "g": "ChIJN4jYnA_6wEcRFXjTR5sRpU0",
 "n": 3580,
@@ -10526,6 +11576,13 @@
 "vivyo-quite-frankly-anvers": {
 "g": null,
 "t": "2026-11-25"
+},
+"vivyo-ravage-beer-bar-namur": {
+"g": "ChIJMTmKOpCZwUcRQv90VPSXu2g",
+"n": 72,
+"r": 5.0,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "vivyo-sanseveria-bagelsalon-bruges": {
 "g": "ChIJ8-ydWc9Qw0cRT-ijSlE6A70",
@@ -10580,6 +11637,20 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"vivyo-texas-coffee-house-mons": {
+"g": "ChIJW_LiKzFRwkcRVU-wK8hDCV4",
+"n": 432,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"vivyo-the-brunchist-namur": {
+"g": "ChIJRaGdnWqZwUcR57mk0xoD2BM",
+"n": 538,
+"r": 4.6,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "vivyo-the-cobbler-gand": {
 "g": "ChIJ958ZRUtxw0cRxgi-px9vQDc",
 "n": 228,
@@ -10601,6 +11672,13 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"vivyo-the-neck-malines": {
+"g": "ChIJg_3Yw7Xlw0cRwYVnyyCxAMg",
+"n": 98,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "vivyo-the-wine-gallery-ostende": {
 "g": "ChIJU2qsF6Op3EcRrUaISZ1czA0",
 "n": 17,
@@ -10614,6 +11692,20 @@
 "r": 4.1,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"vivyo-tope-bruxelles": {
+"g": "ChIJJyOWFPHDw0cRD04xp2nEVMg",
+"n": 960,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"vivyo-unwined-malines": {
+"g": "ChIJjSeK5Mjlw0cRb9qqF-kxiIk",
+"n": 612,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "vivyo-velvet-courtrai": {
 "g": "ChIJpz6LJkg7w0cRkAZUn--zOnE",
@@ -10629,12 +11721,52 @@
 "s": "OPERATIONAL",
 "t": "2026-11-25"
 },
+"vivyo-vesper-ostende": {
+"g": "ChIJ964zJz6p3EcR3v8vWfUf0Dc",
+"n": 135,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"vivyo-vino-vino-namur": {
+"g": "ChIJoWpERHKZwUcROfgU5eWc8P0",
+"n": 420,
+"r": 4.8,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"vivyo-wasbar-louvain-la-neuve": {
+"g": "ChIJJc36CrV_wUcRvD0DtqDBq6g",
+"n": 889,
+"r": 4.3,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"vivyo-wasbar-malines": {
+"g": "ChIJBVTQB2blw0cRq8t5LTiwkP0",
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
+"vivyo-westpunt-hasselt": {
+"g": "ChIJJav69dcjwUcRSWEkGgQYiS0",
+"n": 1072,
+"r": 4.2,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
+},
 "vivyo-win-gand": {
 "g": "ChIJDWOklkBxw0cReUStIAc504M",
 "n": 420,
 "r": 4.6,
 "s": "OPERATIONAL",
 "t": "2026-11-25"
+},
+"vivyo-yuna-coffee-charleroi": {
+"g": "ChIJ-1c3KaMnwkcRCdOALTNMKyw",
+"n": 286,
+"r": 4.5,
+"s": "OPERATIONAL",
+"t": "2026-11-26"
 },
 "vivyo-zuske-ostende": {
 "g": "ChIJf-EhXPWp3EcR-N_EkZv0kgY",
@@ -10645,5 +11777,5 @@
 }
 },
 "mois": "2026-11",
-"recherches_mois": 675
+"recherches_mois": 725
 }
