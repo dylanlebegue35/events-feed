@@ -268,29 +268,6 @@
    "classified": true
   },
   {
-   "id": "fb-1637041604705878",
-   "title": "Village de Noël de Liège 2026",
-   "category": "fair",
-   "venue": "Place Saint-Lambert et Place du marché, 4000 Liège, Belgium",
-   "city": "Liège",
-   "lat": 50.64534,
-   "lon": 5.57416,
-   "start": "2026-11-27T11:00:00",
-   "end": "2026-11-27T14:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1637041604705878.jpg",
-   "page_url": "https://www.facebook.com/events/1637041604705878/",
-   "url": "https://linktr.ee/villagedenoeldeliege",
-   "summary": "Ho ho ho ! 🎅 Du 𝟮𝟳 𝗻𝗼𝘃𝗲𝗺𝗯𝗿𝗲 𝗮𝘂 𝟯𝟬 𝗱𝗲́𝗰𝗲𝗺𝗯𝗿𝗲, plongez dans la féérie des fêtes au Village de Noël de Liège. 34 jours de magie et de fête au cœur de la Cité Ardente ! 🔥 🗓️ 𝗢𝘂𝘃𝗲𝗿𝘁 𝘁𝗼𝘂𝘀 𝗹𝗲𝘀 𝗷𝗼𝘂𝗿𝘀 ⏰ 𝗟𝗲𝘀 𝗱𝗶𝗺𝗮𝗻𝗰𝗵𝗲, 𝗹𝘂𝗻𝗱𝗶, 𝗺𝗮𝗿𝗱𝗶 𝗲𝘁 𝗺𝗲𝗿𝗰𝗿𝗲𝗱𝗶 : 𝟭𝟭𝗵-𝟮𝟮𝗵 𝗟𝗲𝘀 𝗷𝗲𝘂𝗱𝗶, 𝘃𝗲𝗻𝗱𝗿𝗲𝗱𝗶 𝗲𝘁 𝘀𝗮𝗺𝗲𝗱𝗶 : 𝟭𝟭𝗵-𝟬𝟬𝗵 🎅 𝟮𝟰/𝟭𝟮 : 𝟭𝟭𝗵-𝟭𝟴𝗵",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "family"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1625880991928535",
    "title": "Jessé · \"Message personnel\" · Trocadéro de Liège",
    "category": "theatre",
@@ -438,29 +415,6 @@
    "page_url": "https://www.facebook.com/events/871765736005630/",
    "url": "https://shop.utick.be/?module=ACTIVITYSERIEDETAILS&pos=LANEF&s=D805C9BA-29A5-B847-D580-9688E8EE891B",
    "summary": "Eiffel – 5 DÉCEMBRE • 20H ✨🌙 Avec La Peur et le Vent, quatorzième pierre de l’aventure Eiffel, Romain Humeau signe une œuvre de renaissance, libre et lumineuse. Nourri de souvenirs, d’influences multiples et d’une inépuisable soif d’exploration, il déploie une musique généreuse, solaire et profondém",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-848176354797009",
-   "title": "Worksafe Namur 2026",
-   "category": "talks",
-   "venue": "Namur Expo",
-   "city": "Namur",
-   "lat": 50.46733,
-   "lon": 4.84872,
-   "start": "2026-11-26T10:00:00",
-   "end": "2026-11-26T17:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-848176354797009.jpg",
-   "page_url": "https://www.facebook.com/events/848176354797009/",
-   "url": "https://www.facebook.com/events/848176354797009/",
-   "summary": "Worksafe Namur keert terug voor een vierde editie. Kom op 26 november 2026 naar Namur Expo! Gezondheid, veiligheid (brand), welzijn op het werk: 80 experts, een dag vol professionele conferenties, demonstraties en netwerken. Dit alles in een professionele en gezellige sfeer.",
    "price_from": null,
    "free": null,
    "audience": [
@@ -765,29 +719,6 @@
    "free": null,
    "audience": [
     "family"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1445164907545762",
-   "title": "Mon Corps raconte mon histoire",
-   "category": "talks",
-   "venue": "Palais des Congrès Mons",
-   "city": "Mons",
-   "lat": 50.456843160915,
-   "lon": 3.9415013971088,
-   "start": "2026-11-26T19:30:00",
-   "end": "2026-11-26T22:30:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1445164907545762.jpg",
-   "page_url": "https://www.facebook.com/events/1445164907545762/",
-   "url": "https://www.facebook.com/events/1445164907545762/",
-   "summary": "Enrichie par 40 ans d’exercice de la gynécologie, un master d’histoire des sciences et un doctorat en philosophie de la médecine, je vous propose le partage de mon expérience qui a changé ma façon d’exercer la médecine. J’ai été, comme vous, éblouie par cette médecine qui transplante des cœurs, gref",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
    ],
    "tags": [],
    "source": "Facebook (événement public)",
@@ -1280,29 +1211,6 @@
    "free": null,
    "audience": [
     "young"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-27609798585362607",
-   "title": "Salon SIEP Bruxelles 2026",
-   "category": "talks",
-   "venue": "Tour & Taxis",
-   "city": "Brussels",
-   "lat": 50.864209182794,
-   "lon": 4.3488001823425,
-   "start": "2026-11-27T10:00:00",
-   "end": "2026-11-27T13:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-27609798585362607.jpg",
-   "page_url": "https://www.facebook.com/events/27609798585362607/",
-   "url": "https://salons.siep.be/visiteurs/bruxelles/entree-et-inscription",
-   "summary": "Études, formations, métiers, année à l'étranger, reconversion… Le Salon SIEP, c'est le rendez-vous incontournable pour construire son avenir ! 💡 Pendant deux jours, rencontrez des représentant·es d'universités, de hautes écoles, de centres de formation, d'organismes de mobilité internationale et bie",
-   "price_from": null,
-   "free": true,
-   "audience": [
-    "student"
    ],
    "tags": [],
    "source": "Facebook (événement public)",
@@ -1994,27 +1902,6 @@
    "classified": true
   },
   {
-   "id": "fb-1374230634551005",
-   "title": "Concert à Bruxelles (Belgique 🇧🇪) - Jazz Station",
-   "category": "concert",
-   "venue": "Bruxelles (Belgique 🇧🇪)",
-   "city": "Bruxelles",
-   "lat": 50.8431729,
-   "lon": 4.3506036,
-   "start": "2026-11-27T20:30:00",
-   "end": "2026-11-27T23:30:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1374230634551005.jpg",
-   "page_url": "https://www.facebook.com/events/1374230634551005/",
-   "url": "https://www.facebook.com/events/1374230634551005/",
-   "summary": ".",
-   "price_from": null,
-   "free": null,
-   "audience": [],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-27770735022551699",
    "title": "Concert au Cirque Royal de Bruxelles",
    "category": "concert",
@@ -2051,27 +1938,6 @@
    "page_url": "https://www.facebook.com/events/3713301945512435/",
    "url": "https://www.facebook.com/events/3713301945512435/",
    "summary": "Réservations via ribambelges@gmail.com",
-   "price_from": null,
-   "free": null,
-   "audience": [],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-2467224987104775",
-   "title": "Concert Rapsat interprété par le groupe Braséro - soutien à l’enfance namuroise en difficulté",
-   "category": "concert",
-   "venue": "Prisme ∙ Théâtre de Namur",
-   "city": "Namur",
-   "lat": 50.464390772426,
-   "lon": 4.8681283633335,
-   "start": "2026-11-27T19:00:00",
-   "end": "2026-11-27T22:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-2467224987104775.jpg",
-   "page_url": "https://www.facebook.com/events/2467224987104775/",
-   "url": "https://www.facebook.com/events/2467224987104775/",
-   "summary": "Un Concert exceptionnel organisé par les Lions Club Jambes & Namur Vauban RAPSAT - Interprété pour le groupe Braséro, un concert hommage à ne pas rater Le vendredi 27 novembre au Théâtre de Namur Réception 19h - Concert 20h",
    "price_from": null,
    "free": null,
    "audience": [],
@@ -2142,27 +2008,6 @@
    "audience": [
     "adult"
    ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1451359033559287",
-   "title": "Soirée spéciale Noël puis spéciale Brassens",
-   "category": "concert",
-   "venue": "Ateliers des Fucam",
-   "city": "Mons",
-   "lat": 50.4494582725,
-   "lon": 3.9508549035723,
-   "start": "2026-11-27T18:30:00",
-   "end": "2026-11-27T22:30:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1451359033559287.jpg",
-   "page_url": "https://www.facebook.com/events/1451359033559287/",
-   "url": "https://www.facebook.com/events/1451359033559287/",
-   "summary": "Concert de Noël par les Poly’Sons d’Estinnes suivi d’un concert Brassens par Jp et M De Stexhe",
-   "price_from": null,
-   "free": null,
-   "audience": [],
    "tags": [],
    "source": "Facebook (événement public)",
    "classified": true
@@ -2399,29 +2244,6 @@
    "page_url": "https://www.facebook.com/events/1770541508409502/",
    "url": "https://www.facebook.com/events/1770541508409502/",
    "summary": "Osman le Vrai - Joking Day S’il savait chanter, Osman serait probablement devenu chanteur de R&B. Heureusement pour nous, il s’est tourné vers l’humour... comprenant qu’il était bien meilleur pour faire des vannes. Cet humoriste turco-carolo s’est rapidement imposé comme l’un des grands espoirs du p",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-996498739866387",
-   "title": "Robby 26/11 \"JEU, SEPT & MOTS\" | Liège - Le Hangar",
-   "category": "theatre",
-   "venue": "Quai Saint-Léonard 43B, 4000 Liège, Belgique",
-   "city": "Liège",
-   "lat": 50.64864,
-   "lon": 5.59268,
-   "start": "2026-11-26T20:00:00",
-   "end": "2026-11-26T23:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-996498739866387.jpg",
-   "page_url": "https://www.facebook.com/events/996498739866387/",
-   "url": "https://www.facebook.com/events/996498739866387/",
-   "summary": "ROBBY – Jeu, Sept & Mots Des jeux de mots, de l’absurde, du décalage… et un gendre idéal qui n’est peut-être pas aussi idéal qu’il en a l’air. 😏 Robby transforme les petites absurdités du quotidien en un véritable terrain de jeu, où les mots dérapent, les situations partent en vrille et où rien ne s",
    "price_from": null,
    "free": null,
    "audience": [
@@ -2721,29 +2543,6 @@
    "classified": true
   },
   {
-   "id": "fb-1694123142234870",
-   "title": "Soirée Orientale",
-   "category": "party",
-   "venue": "Institut Saint-Joseph Liège",
-   "city": "Liège",
-   "lat": 50.64593360408,
-   "lon": 5.5607353832386,
-   "start": "2026-11-27T18:00:00",
-   "end": "2026-11-27T23:59:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1694123142234870.jpg",
-   "page_url": "https://www.facebook.com/events/1694123142234870/",
-   "url": "https://forms.gle/wjUJJP1zuwxL9BwK6",
-   "summary": "Nous avons le plaisir de vous inviter à une soirée qui nous tient particulièrement à cœur. Le vendredi 27 novembre à partir de 18h, La Baraka organise sa Soirée orientale de soutien : un moment festif et convivial pour se retrouver autrement, autour d’un bon repas, d’animations et d’une ambiance cha",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "young"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1006657729174609",
    "title": "Soirée BALKAN HABIBI - Fusion balkan & orientale, Liège",
    "category": "party",
@@ -2767,29 +2566,6 @@
    "classified": true
   },
   {
-   "id": "fb-1151486910594161",
-   "title": "Soirée jeu \"Banco\" avec Attac Liège",
-   "category": "geek",
-   "venue": "10 rue des carmes, Liège, Belgique",
-   "city": "Liège",
-   "lat": 50.64017,
-   "lon": 5.57469,
-   "start": "2026-11-26T19:00:00",
-   "end": "2026-11-26T22:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1151486910594161.jpg",
-   "page_url": "https://www.facebook.com/events/1151486910594161/",
-   "url": "https://www.facebook.com/events/1151486910594161/",
-   "summary": "Attac Liège animera le jeu Banco le jeudi 26 novembre dès 19h à l'Echecs et malt ! Serez-vous le meilleur gestionnaire ? 🤑",
-   "price_from": null,
-   "free": null,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
    "id": "fb-1606962440554445",
    "title": "soiree saint sylvestre",
    "category": "party",
@@ -2805,29 +2581,6 @@
    "summary": "reveillon de nouvel an",
    "price_from": null,
    "free": null,
-   "audience": [
-    "adult"
-   ],
-   "tags": [],
-   "source": "Facebook (événement public)",
-   "classified": true
-  },
-  {
-   "id": "fb-1153141633855196",
-   "title": "Soirée salsa bachata",
-   "category": "party",
-   "venue": "Rue des Bouchers, 5000 Namur, Belgique",
-   "city": "Namur",
-   "lat": 50.46215,
-   "lon": 4.86866,
-   "start": "2026-11-26T21:00:00",
-   "end": "2026-11-27T00:00:00",
-   "image": "https://raw.githubusercontent.com/dylanlebegue35/events-feed/main/posters/fb-1153141633855196.jpg",
-   "page_url": "https://www.facebook.com/events/1153141633855196/",
-   "url": "https://www.facebook.com/events/1153141633855196/",
-   "summary": "💃❤️ SOIRÉE gratuite ! SALSA & BACHATA ! ❤️💃 Envie de partager un moment, de danser, de rire et de profiter d’une belle ambiance ? Alors cette soirée est faite pour vous ! 🥰 📅 JEUDI 26 NOVEMBRE 🕘 À PARTIR DE 21H00 Nous vous accueillons chaleureusement à l’intérieur du restaurant pour une soirée placé",
-   "price_from": null,
-   "free": true,
    "audience": [
     "adult"
    ],

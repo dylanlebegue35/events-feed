@@ -4897,8 +4897,8 @@
   "booking": null
  },
  "osm-node-932949644": {
-  "t": "2026-11-24",
-  "s": "https://www.woke.be",
+  "t": "2026-11-28",
+  "s": "https://www.woke.be/fr/",
   "menu": null,
   "booking": null
  },
@@ -4939,9 +4939,9 @@
   "booking": "https://bookings.zenchef.com/results?rid=379534"
  },
  "osm-node-4878989262": {
-  "t": "2026-11-24",
-  "s": "https://arlecchino-lln.be/",
-  "menu": "https://arlecchino-lln.be/carte/",
+  "t": "2026-11-28",
+  "s": "http://lefellini.be",
+  "menu": null,
   "booking": null
  },
  "osm-node-4879875022": {
@@ -10521,6 +10521,654 @@
  "osm-node-2661111559": {
   "t": "2026-11-26",
   "s": "https://dariushrestaurants.com/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-7265644116": {
+  "t": "2026-11-28",
+  "s": "http://www.wattman.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-7265698989": {
+  "t": "2026-11-28",
+  "s": "https://www.sailandanchor.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-7272869197": {
+  "t": "2026-11-28",
+  "s": "https://www.dalory.be",
+  "menu": "https://www.dalory.be/home",
+  "booking": null
+ },
+ "osm-node-7272869200": {
+  "t": "2026-11-28",
+  "s": "http://www.lokeend.com",
+  "menu": "http://www.lokeend.com/menus_maand_00.htm",
+  "booking": null
+ },
+ "osm-node-7280393652": {
+  "t": "2026-11-28",
+  "s": "https://sano-concept.com/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-7310707373": {
+  "t": "2026-11-28",
+  "s": "https://fiera.be/",
+  "menu": "https://fiera.be/business-lunch/",
+  "booking": null
+ },
+ "osm-node-7319350142": {
+  "t": "2026-11-28",
+  "s": "https://www.saltandmint.be",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-7325060285": {
+  "t": "2026-11-28",
+  "s": "https://www.hetgerecht.be",
+  "menu": "https://www.hetgerecht.be/menu/",
+  "booking": null
+ },
+ "osm-node-7366336419": {
+  "t": "2026-11-28",
+  "s": "https://www.restaurantichi.be",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-7366336422": {
+  "t": "2026-11-28",
+  "s": "https://www.ilpostinorestaurant.be",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-7651364246": {
+  "t": "2026-11-28",
+  "s": "https://www.pizzacompany.be",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-7660431853": {
+  "t": "2026-11-28",
+  "s": "http://www.houtenlepel.be",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-7660431857": {
+  "t": "2026-11-28",
+  "s": "https://casamia-antwerp.be",
+  "menu": null,
+  "booking": "https://bookings.zenchef.com/results?rid=383762"
+ },
+ "osm-node-7815095795": {
+  "t": "2026-11-28",
+  "s": "https://www.elgatogordo.be",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-8308480098": {
+  "t": "2026-11-28",
+  "s": "https://www.pizzahut.be",
+  "menu": "https://www.pizzahut.be/nl/catalog",
+  "booking": null
+ },
+ "osm-node-8327042582": {
+  "t": "2026-11-28",
+  "s": "https://nl.hotpotantwerpia.be",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-8435556618": {
+  "t": "2026-11-28",
+  "s": "https://www.yukiniiantwerpen.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-8443166144": {
+  "t": "2026-11-28",
+  "s": "https://goldendragon.be",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-8923133374": {
+  "t": "2026-11-28",
+  "s": "https://www.pizzamontecarlocity.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-9046223647": {
+  "t": "2026-11-28",
+  "s": "http://www.butcherscoffee.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-9046223649": {
+  "t": "2026-11-28",
+  "s": "https://www.frituur-richard.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-9088560699": {
+  "t": "2026-11-28",
+  "s": "https://www.extrafika.be",
+  "menu": "https://www.extrafika.be/menu-fika",
+  "booking": null
+ },
+ "osm-node-9219132691": {
+  "t": "2026-11-28",
+  "s": "https://www.brunchbarcartouche.be/",
+  "menu": "https://www.brunchbarcartouche.be/menu",
+  "booking": null
+ },
+ "osm-node-9245909117": {
+  "t": "2026-11-28",
+  "s": "https://pizarrosliceshop.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-9503615273": {
+  "t": "2026-11-28",
+  "s": "http://www.marchecouverts.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-9702818489": {
+  "t": "2026-11-28",
+  "s": "https://www.particolare.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-9776478534": {
+  "t": "2026-11-28",
+  "s": "https://barbulot.be/",
+  "menu": "https://barbulot.be/kerstmenu-afhalen/",
+  "booking": null
+ },
+ "osm-node-9807240334": {
+  "t": "2026-11-28",
+  "s": "https://dok54.be/",
+  "menu": "https://dok54.be/lunchkaart/",
+  "booking": null
+ },
+ "osm-node-9868840608": {
+  "t": "2026-11-28",
+  "s": "https://www.janya.be",
+  "menu": "https://www.janya.be/images/menu-takeaway.pdf",
+  "booking": null
+ },
+ "osm-node-9924591781": {
+  "t": "2026-11-28",
+  "s": "https://www.tavernedegrave.be",
+  "menu": "https://www.tavernedegrave.be/nl/menu",
+  "booking": null
+ },
+ "osm-node-10029813105": {
+  "t": "2026-11-28",
+  "s": "https://www.bohmenberkel.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-10124858690": {
+  "t": "2026-11-28",
+  "s": "https://www.bunantwerp.be/little-bun/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-10170032017": {
+  "t": "2026-11-28",
+  "s": "http://LePristine.be",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-10170036317": {
+  "t": "2026-11-28",
+  "s": "https://albumantwerpen.be",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-10170170417": {
+  "t": "2026-11-28",
+  "s": "https://mico-and-jon.com",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-10721869405": {
+  "t": "2026-11-28",
+  "s": "https://takumiramennoodles.com/be/antwerp-centraal/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-10779278340": {
+  "t": "2026-11-28",
+  "s": "https://www.peopleofsommar.be/",
+  "menu": "https://www.peopleofsommar.be/s/WINTAR_Menu-Food_v12_261117.pdf",
+  "booking": null
+ },
+ "osm-node-10856640382": {
+  "t": "2026-11-28",
+  "s": "http://thuy-hanoi.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-10883767312": {
+  "t": "2026-11-28",
+  "s": "https://www.demezzanine.be",
+  "menu": "https://www.demezzanine.be/menukaart/",
+  "booking": null
+ },
+ "osm-node-11055776206": {
+  "t": "2026-11-28",
+  "s": "https://yallayalla.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-11074261393": {
+  "t": "2026-11-28",
+  "s": "https://www.noras-kitchen.net",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-11074286636": {
+  "t": "2026-11-28",
+  "s": "http://www.misterwokantwerpen.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-11075421394": {
+  "t": "2026-11-28",
+  "s": "https://www.bigchefs.com.tr/tr-tr/antwerp",
+  "menu": "https://bigchefs.com.tr/numnum-streetfood/",
+  "booking": null
+ },
+ "osm-node-11153777459": {
+  "t": "2026-11-28",
+  "s": "https://restaurants.umamido.be/ramen-antwerpen-groenplaats",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-11155984606": {
+  "t": "2026-11-28",
+  "s": "https://hector.be/",
+  "menu": "https://hector.be/carte/",
+  "booking": null
+ },
+ "osm-node-11178399160": {
+  "t": "2026-11-28",
+  "s": "https://pizzerianicoletta.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-11338689275": {
+  "t": "2026-11-28",
+  "s": "https://www.villegas.be/",
+  "menu": "https://irp.cdn-website.com/9da2b03d/files/uploaded/v1026_Villegas_menukaart_web.pdf",
+  "booking": null
+ },
+ "osm-node-11435066279": {
+  "t": "2026-11-28",
+  "s": "https://www.clo-antwerp.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-11626450634": {
+  "t": "2026-11-28",
+  "s": "https://www.thaiwokexpressantwerpen-antwerpen.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-11653264949": {
+  "t": "2026-11-28",
+  "s": "https://paesano.be",
+  "menu": "https://paesano.be/menu/",
+  "booking": "https://bookings.zenchef.com/results?rid=380743"
+ },
+ "osm-node-11691875861": {
+  "t": "2026-11-28",
+  "s": "https://takumiramennoodles.com/be/antwerp-marnixplaats/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-11693724159": {
+  "t": "2026-11-28",
+  "s": "https://saravanaabhavan.be",
+  "menu": "https://saravanaabhavan.be/menu.html",
+  "booking": null
+ },
+ "osm-node-11738859869": {
+  "t": "2026-11-28",
+  "s": "https://www.puravidatacos.com/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-11822992445": {
+  "t": "2026-11-28",
+  "s": "https://dekompaan.org",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-11912108464": {
+  "t": "2026-11-28",
+  "s": "https://www.hart-antwerpen.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-11951663569": {
+  "t": "2026-11-28",
+  "s": "https://www.pizza-toni.be/",
+  "menu": "https://www.pizza-toni.be/Menu",
+  "booking": null
+ },
+ "osm-node-11980381724": {
+  "t": "2026-11-28",
+  "s": "https://www.deliciacaribena.be",
+  "menu": "https://www.deliciacaribena.be/menu",
+  "booking": null
+ },
+ "osm-node-12110023101": {
+  "t": "2026-11-28",
+  "s": "https://www.spicebazaarrestaurant.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-12460479601": {
+  "t": "2026-11-28",
+  "s": "https://pizzabarcaspino.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-12460718501": {
+  "t": "2026-11-28",
+  "s": "https://harvest-antwerp.com/",
+  "menu": "https://harvest-antwerp.com/menu/",
+  "booking": null
+ },
+ "osm-node-12591188737": {
+  "t": "2026-11-28",
+  "s": "https://www.samenloop.be",
+  "menu": "https://www.samenloop.be/samenloop-menu",
+  "booking": null
+ },
+ "osm-node-12672542701": {
+  "t": "2026-11-28",
+  "s": "https://rikuramen.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-12832917601": {
+  "t": "2026-11-28",
+  "s": "https://www.bokki.be/antwerpen.html",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-12848458802": {
+  "t": "2026-11-28",
+  "s": "https://www.ceceishungry.com/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-13019783701": {
+  "t": "2026-11-28",
+  "s": "https://www.sibonantwerpen.be",
+  "menu": "https://www.sibonantwerpen.be/menu",
+  "booking": null
+ },
+ "osm-node-13240343698": {
+  "t": "2026-11-28",
+  "s": "https://www.alo-antwerp.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-13284692647": {
+  "t": "2026-11-28",
+  "s": "https://www.rubafood.com/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-13311353101": {
+  "t": "2026-11-28",
+  "s": "https://thebistro.be/",
+  "menu": "https://thebistro.be/home/menukaart-2026-10-15-wild-the-bistro.pdf",
+  "booking": "https://bookings.zenchef.com/results?rid=369469"
+ },
+ "osm-node-13334352101": {
+  "t": "2026-11-28",
+  "s": "https://qr.wwwcafe.de/2025/08/12/mosob-eet-cafe/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-13334352201": {
+  "t": "2026-11-28",
+  "s": "https://www.nawaab.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-13355170147": {
+  "t": "2026-11-28",
+  "s": "https://instroom.art/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-13412858201": {
+  "t": "2026-11-28",
+  "s": "https://epiphanyskitchen.com/",
+  "menu": "https://epiphanyskitchen.com/menu/",
+  "booking": "https://bookings.zenchef.com/results?rid=377742"
+ },
+ "osm-node-13432829472": {
+  "t": "2026-11-28",
+  "s": "https://lella.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-13439969453": {
+  "t": "2026-11-28",
+  "s": "https://www.ristorante-amuri.be/",
+  "menu": "https://www.ristorante-amuri.be/menu",
+  "booking": null
+ },
+ "osm-node-13450281701": {
+  "t": "2026-11-28",
+  "s": "https://www.nectarantwerp.com",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-13450290501": {
+  "t": "2026-11-28",
+  "s": "https://bistrotlilot.be",
+  "menu": "https://bistrotlilot.be/menu",
+  "booking": "https://bookings.zenchef.com/results?rid=366797"
+ },
+ "osm-node-13607927401": {
+  "t": "2026-11-28",
+  "s": "https://www.planttrekkerij.be/",
+  "menu": "https://www.planttrekkerij.be/menu",
+  "booking": null
+ },
+ "osm-node-13608000901": {
+  "t": "2026-11-28",
+  "s": "https://simoneskitchen.com/",
+  "menu": "https://simoneskitchen.com/all-menus/",
+  "booking": null
+ },
+ "osm-node-13641109374": {
+  "t": "2026-11-28",
+  "s": "https://www.kiekenpaleis.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-13657953765": {
+  "t": "2026-11-28",
+  "s": "https://wolf.be",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-13672713861": {
+  "t": "2026-11-28",
+  "s": "https://www.thebreakfastclub.nl/antwerpen/groenplaats",
+  "menu": "https://www.thebreakfastclub.nl/nl/menu",
+  "booking": null
+ },
+ "osm-node-13910503901": {
+  "t": "2026-11-28",
+  "s": "https://www.pomodoro60.be/en/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-14053289172": {
+  "t": "2026-11-28",
+  "s": "https://www.pastarigoletto.be/",
+  "menu": "https://www.pastarigoletto.be/lunch",
+  "booking": null
+ },
+ "osm-node-14191289061": {
+  "t": "2026-11-28",
+  "s": "https://cobra-antwerp.com/cobra-house/",
+  "menu": "https://cobra-antwerp.com/cobra-house/menu/",
+  "booking": null
+ },
+ "osm-node-14212290376": {
+  "t": "2026-11-28",
+  "s": "https://www.camion-ette.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-14252932115": {
+  "t": "2026-11-28",
+  "s": "https://boeantwerp.com/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-way-44860305": {
+  "t": "2026-11-28",
+  "s": "https://www.plaasjkaffee.be",
+  "menu": null,
+  "booking": null
+ },
+ "osm-way-180051359": {
+  "t": "2026-11-28",
+  "s": "https://www.anshoeve.be/",
+  "menu": "https://www.anshoeve.be/menukaart-1/",
+  "booking": null
+ },
+ "osm-way-180051360": {
+  "t": "2026-11-28",
+  "s": "https://www.tankerlinkeroever.be/",
+  "menu": "https://www.tankerlinkeroever.be/menukaart",
+  "booking": null
+ },
+ "osm-way-180051379": {
+  "t": "2026-11-28",
+  "s": "https://www.dezeester.be",
+  "menu": null,
+  "booking": null
+ },
+ "osm-way-495219710": {
+  "t": "2026-11-28",
+  "s": "https://www.boxpur.be/bar-pur",
+  "menu": null,
+  "booking": null
+ },
+ "osm-way-496944368": {
+  "t": "2026-11-28",
+  "s": "https://www.delsudclassico.com/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-way-499602548": {
+  "t": "2026-11-28",
+  "s": "https://www.umami-antwerp.be/",
+  "menu": "https://www.umami-antwerp.be/menu",
+  "booking": null
+ },
+ "osm-node-260203053": {
+  "t": "2026-11-28",
+  "s": "https://www.ilmezzogiorno.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-602681364": {
+  "t": "2026-11-28",
+  "s": "https://poulepoulette.com/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-818880406": {
+  "t": "2026-11-28",
+  "s": "https://www.brasserieparadijs.be",
+  "menu": "https://www.brasserieparadijs.be/menu",
+  "booking": null
+ },
+ "osm-node-818880413": {
+  "t": "2026-11-28",
+  "s": "https://degekroondehoofden.be/restaurants/gent/",
+  "menu": "https://degekroondehoofden.be/menu/",
+  "booking": null
+ },
+ "osm-node-819591971": {
+  "t": "2026-11-28",
+  "s": "https://www.aluwiz.be",
+  "menu": "https://aluwiz.be/nl/menu",
+  "booking": null
+ },
+ "osm-node-1167829682": {
+  "t": "2026-11-28",
+  "s": "http://www.thawanthai.be/",
+  "menu": "http://www.thawanthai.be/index.php?option=com_content&task=section&id=20&Itemid=60",
+  "booking": null
+ },
+ "osm-node-1186970648": {
+  "t": "2026-11-28",
+  "s": "https://sushiparadise.be",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-1187211170": {
+  "t": "2026-11-28",
+  "s": "https://www.keizershof.net",
+  "menu": "https://www.keizershof.net/kaart",
+  "booking": null
+ },
+ "osm-node-1212134080": {
+  "t": "2026-11-28",
+  "s": "https://www.agrea.be/",
+  "menu": "https://www.agrea.be/asset/agrea_menu.pdf",
+  "booking": null
+ },
+ "osm-node-1212139210": {
+  "t": "2026-11-28",
+  "s": "https://www.mister-spaghetti.com/gent/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-1212142778": {
+  "t": "2026-11-28",
+  "s": "https://himalayarestaurant.be/",
+  "menu": "https://himalayarestaurant.be/menu.pdf",
+  "booking": null
+ },
+ "osm-node-1212155509": {
+  "t": "2026-11-28",
+  "s": "https://korenleitwee.be/",
+  "menu": "https://korenleitwee.be/nieuwjaars-menu",
+  "booking": null
+ },
+ "osm-node-1212159256": {
+  "t": "2026-11-28",
+  "s": "https://www.degrill.be/",
+  "menu": "https://www.degrill.be/nl/menu",
+  "booking": null
+ },
+ "osm-node-1227902197": {
+  "t": "2026-11-28",
+  "s": "https://www.restaurantjourdefete.be/",
+  "menu": null,
+  "booking": null
+ },
+ "osm-node-1232488319": {
+  "t": "2026-11-28",
+  "s": "http://www.cafetheatre.be/",
   "menu": null,
   "booking": null
  }
